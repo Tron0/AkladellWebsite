@@ -8,8 +8,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open Akladell.html",
-            "file": "c:\\Users\\jfox2\\Documents\\my-website\\Akladell.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\jfox2\\Documents\\my-website\\index.html"
         }
     ]
 }
