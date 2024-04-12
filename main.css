@@ -1,0 +1,17 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.centered-container {
+    width: 80%; 
+    text-align: center;
+}
+#content {
+    width: 100%; 
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
