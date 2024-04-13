@@ -22,56 +22,83 @@
             </div>
         </nav>
         <div id="toc-wrapper">
-        <!-- Table of Contents -->
-            <h1>Table of Contents</h1>
-
-            <a href="#Rules">#Rules</a>
-            <a href="#Age">#Rules/#Age</a>
-            <a href="#Costs of Living">#Rules/#Costs-of-Living</a>
-
+            <!-- Table of Contents -->
+            <div id="toc-panel"></div>
         </div>
 
-        <!-- Main page content goes here-->
-        <div id="content"></div>
-        <hr>
-        <footer></footer>
+    </div>
+
+    <!-- Main page content goes here-->
+    <div id="content"></div>
+    <hr>
+    <footer></footer>
     
 <script type="module">
-    import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
-    window.loadRulesPage = function() {
+    
+import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+function parseMarkdownText(rawMd) 
+{
+    const htmlContent = marked(rawMd);
+    // Create a temporary element to hold the parsed content
+    const tempContainer = document.createElement('div');
+    tempContainer.innerHTML = htmlContent;
+    // Extract all headings within 'rules.md'
+    const ruleHeadings = tempContainer.querySelectorAll('h1, h2, h3');
+
+   return {
+      htmlContent: htmlContent,
+      headings: Array.from(ruleHeadings).map(heading => ({ level: heading.nodeName, text: heading.textContent }))
+   };
+}
+window.loadRulesPage = function() 
+{
     fetch('./rules.md')
-    .then(response => response.text())
-    .then(data =>
-    {
-        let htmlContent = marked(data);
-        // Add rules-content class
-        document.getElementById('content').innerHTML = htmlContent;
-        document.getElementById('content').classList.add("rules-content");
-
-        var linksInRules = document.querySelector('.rules-content').getElementsByTagName('a');
-     });
+        .then(response => response.text())
+        .then(data => 
+        {
+            let parsedData = parseMarkdownText(data);
+            // 1. Clear any old ToC entries
+            document.getElementById('toc-panel').innerHTML = "<h1>Table of Contents</h1>";
+            // 2. Create new ToC entries
+            parsedData.headings.forEach(heading => 
+            {
+                let tocEntryLink = document.createElement('a');
+                // Use heading text for display and link reference both.
+                tocEntryLink.textContent = heading.level + ' ' + heading.text;
+                tocEntryLink.href = "#" + encodeURIComponent(heading.text.replace(/\s/g,'-'));
+                document.getElementById('toc-panel').appendChild(tocEntryLink);
+            });
+           // 3. Finally add actual rule contents in their place.
+           document.getElementById('content').innerHTML = parsedData.htmlContent;
+           document.getElementById('content').classList.add("rules-content");
+        });
 };
 
-    document.addEventListener("DOMContentLoaded", function()
-    {
+document.addEventListener("DOMContentLoaded", function()
+{
 
-        window.onhashchange = function() {
-  var hashStr = window.location.hash;
-  console.log(hashStr);
-  if (hashStr.includes('#Updates')) {
-      loadUpdatePost();
-  }
-  else if (hashStr.includes('#Home')) {
-      loadHomePage();
-  }
-  else if (hashStr.includes('#About')) {
-      loadAboutPage();
-   }
-   // If current page is #Rules or its subsections move loading '#rules' function here without any conditions related to tocPanel's visibility.
-   if (hashStr.startsWith("#Rules")) {
-       window.loadRulesPage();
-   }
-};
+    window.onhashchange = function() 
+    {
+        var hashStr = window.location.hash;
+        console.log(hashStr);
+        if (hashStr.includes('#Updates')) 
+        {
+            loadUpdatePost();
+        }
+        else if (hashStr.includes('#Home')) 
+        {
+            loadHomePage();
+        }
+        else if (hashStr.includes('#About')) 
+        {
+            loadAboutPage();
+        }
+        // If current page is #Rules or its subsections move loading '#rules' function here without any conditions related to tocPanel's visibility.
+        if (hashStr.startsWith("#Rules")) 
+        {
+            window.loadRulesPage();
+        }
+    };
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
