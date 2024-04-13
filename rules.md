@@ -1,6 +1,6 @@
 # Quick Creation Reference
 
-1.  **Choose a [<u>race</u>](#humans)**
+1.  **Choose a [<u>race</u>](Rules/#Races)**
 
 > Review the race options and descriptions. Pick one that fits your
 > character concept.
@@ -9,7 +9,7 @@
 
 > Add the bonuses your race provides.
 
-3.  **Determine your character's [<u>age</u>](#age)**
+3.  **Determine your character's [<u>age</u>](#Rules/#Age)**
 
 > Pick an appropriate starting age and roll for any additional years
 > based on class. Apply age modifiers.
@@ -23,7 +23,7 @@
 
 > You can swap any two ability scores with each other once.
 
-6.  **Select a [<u>class</u>](#classes)**
+6.  **Select a [<u>class</u>](#Rules/#Classes)**
 
 > Pick a class and make sure you meet the minimum ability score
 > requirements.
@@ -31,7 +31,7 @@
 7.  **Roll starting hit points**
 
 > Roll your class hit die to determine starting HP. Add or remove
-> depending on the [<u>Constitution</u>](#constitution) modifier. You
+> depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You
 > may reroll results of 1 once.
 
 8.  **Roll [<u>starting gold</u>](#starting-gold)**
