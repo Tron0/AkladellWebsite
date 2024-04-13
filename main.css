@@ -9,14 +9,14 @@ body
     color: white;
 }
 
-a 
+a:link
 {
-    color: lightblue;
+    color: lightseagreen;
 }
 
 a:visited 
 {
-    color: lightcoral;
+    color: lightgoldenrodyellow;
 }
   
 small 
@@ -80,4 +80,5 @@ padding: 5px;
 toc-button
 {
     position: absolute;
+    top: 50px;
 }
