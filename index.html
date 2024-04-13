@@ -23,7 +23,6 @@
         </nav>
         <div id="toc-wrapper">
         <!-- Table of Contents -->
-        <div id="toc-panel" style="display: none;">
             <h1>Table of Contents</h1>
 
             <a href="#Rules">#Rules</a>
@@ -50,58 +49,28 @@
         document.getElementById('content').classList.add("rules-content");
 
         var linksInRules = document.querySelector('.rules-content').getElementsByTagName('a');
-
-        for(var i=0; i < linksInRules.length; i++)
-        {
-            linksInRules[i].addEventListener('click', function(event){
-                window.onbeforeunload = function(){
-                    tocPanel.style.display='block';
-                };
-            });
-
-            // Clear onbeforeunload after navigation/link click has occurred
-            setTimeout(function(){
-                window.onbeforeunload=null;
-            }, 0);
-         }
      });
 };
 
     document.addEventListener("DOMContentLoaded", function()
     {
-    const tocPanel = document.getElementById('toc-panel');
 
-    window.onhashchange = function()
-{
-    setTimeout(function()
-    {
-        var hashStr = window.location.hash;
-        console.log(hashStr);
-        if (hashStr.includes('#Updates'))
-        {
-            loadUpdatePost();
-        } else if (hashStr.includes('#Home'))
-        {
-            loadHomePage();
-        } else if (hashStr.includes('#About'))
-        {
-            loadAboutPage();
-
-       }
-       // If current page is #Rules or its subsections
-       if (hashStr.startsWith("#Rules"))
-       {
-           // Move loading function before display handling
-           window.loadRulesPage();
-           // Display ToC panel directly on #Rules page and its subsections
-           tocPanel.style.display = 'block';
-       } else
-       {
-           // Hide ToC when outside of #Rules and its subsections
-               tocPanel.style.display='none';
-
-          }
-    }, 0);  // No delay required just pushing it back in JavaScript Event loop
+        window.onhashchange = function() {
+  var hashStr = window.location.hash;
+  console.log(hashStr);
+  if (hashStr.includes('#Updates')) {
+      loadUpdatePost();
+  }
+  else if (hashStr.includes('#Home')) {
+      loadHomePage();
+  }
+  else if (hashStr.includes('#About')) {
+      loadAboutPage();
+   }
+   // If current page is #Rules or its subsections move loading '#rules' function here without any conditions related to tocPanel's visibility.
+   if (hashStr.startsWith("#Rules")) {
+       window.loadRulesPage();
+   }
 };
 
     // Trigger first hashchange check after all setup has been done.
