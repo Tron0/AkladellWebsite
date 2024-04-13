@@ -82,8 +82,6 @@
     {
         if(tocButton)
         {   
-            // Added check since JS runs before elements exist on startup
-            tocButton.removeEventListener('click',newButtonFunction);
             // Hide button when outside of #Rules
             tocButton.style.display='none';
         }
