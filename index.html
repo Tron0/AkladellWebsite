@@ -35,57 +35,64 @@
     <!-- ...Links will go here... -->
     </div>
     
-    <script type="module">
-        import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
-
-        window.loadRulesPage = function() {
-        fetch('./rules.md')
-          .then(response => response.text())
-          .then(data => {
-            let htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = htmlContent;
-        });
-    }
-
-    const tocButton = document.getElementById('toc-button');
-    const tocPanel = document.getElementById('toc-panel');
+<script type="module">
+    import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
     
-    window.onhashchange = function() {
-    var hash = window.location.hash;
-    console.log(hash);
+    window.onload = function()
+    {
+            window.loadRulesPage = function() 
+            {
+            fetch('./rules.md')
+            .then(response => response.text())
+            .then(data => 
+            {
+                let htmlContent = marked.parse(data);
+                document.getElementById('content').innerHTML = htmlContent;
+            });
+        };
 
-    if (hash === '#Updates') {
-      loadUpdatePost();
-    } else if (hash === '#Home') {
-      loadHomePage();
-    } else if (hash === '#About') {
-      loadAboutPage();
+            const tocButton = document.getElementById('toc-button');
+            const tocPanel = document.getElementById('toc-panel');
+
+            window.onhashchange = function() {
+            var hash = window.location.hash;
+            console.log(hash);
+
+            if (hash === '#Updates') {
+            loadUpdatePost();
+            } else if (hash === '#Home') {
+            loadHomePage();
+            } else if (hash === '#About') {
+            loadAboutPage();
+            }
+            if (hash === '#Rules') {
+            window.loadRulesPage();
+            tocButton.style.display = 'block';
+            tocButton.addEventListener('click', function() {
+                tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
+            });
+
+        } else {
+            if(tocButton) { // Added checks since JS runs before elements exist on startup
+                tocButton.style.display = 'none';
+                // Remove click listeners from button when outside of #Rules
+                let new_button=tocButton.cloneNode(true);
+                tocButton.parentNode.replaceChild(new_button,tocButton);
+            }
+            if(tocPanel && tocPanel.style.display === 'block'){
+                // Make sure panel is hidden when navigating away from #Rules
+                tocPanel.style.display='none';
+            }
+            }
+        };
+        
+
+        window.dispatchEvent(new Event('hashchange'));
     }
-    if (hash === '#Rules') {
-      window.loadRulesPage();
-      tocButton.style.display = 'block';
-      tocButton.addEventListener('click', function() {
-        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
-     });
-   } else {
-       if(tocButton) { // Added checks since JS runs before elements exist on startup
-          tocButton.style.display = 'none';
-          // Remove click listeners from button when outside of #Rules
-          let new_button=tocButton.cloneNode(true);
-          tocButton.parentNode.replaceChild(new_button,tocButton);
-       }
-       if(tocPanel && tocPanel.style.display === 'block'){
-          // Make sure panel is hidden when navigating away from #Rules
-          tocPanel.style.display='none';
-       }
-     }
-   };
-
-   window.dispatchEvent(new Event('hashchange'));
-
-  </script>
+</script>
 
     <script src='app.js'></script>
+
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
 </html>
