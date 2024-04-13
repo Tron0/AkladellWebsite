@@ -40,24 +40,32 @@
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
     window.loadRulesPage = function() {
-        fetch('./rules.md')
-        .then(response => response.text())
-        .then(data => 
+    fetch('./rules.md')
+    .then(response => response.text())
+    .then(data =>
+    {
+        let htmlContent = marked(data);
+        // Add rules-content class
+        document.getElementById('content').innerHTML = htmlContent;
+        document.getElementById('content').classList.add("rules-content");
+
+        var linksInRules = document.querySelector('.rules-content').getElementsByTagName('a');
+
+        for(var i=0; i < linksInRules.length; i++)
         {
-            let htmlContent = marked(data);
-            // Add rules-content class
-            document.getElementById('content').innerHTML = htmlContent;
-            document.getElementById('content').classList.add("rules-content");
-            document.querySelector('.rules-content').addEventListener('click', function(event)
-            {
-                if (event.target.tagName === 'A')
-                {
-                    tocPanel.style.display = 'block';
-                }
+            linksInRules[i].addEventListener('click', function(event){
+                window.onbeforeunload = function(){
+                    tocPanel.style.display='block';
+                };
             });
-            
-        });
-    }
+
+            // Clear onbeforeunload after navigation/link click has occurred
+            setTimeout(function(){
+                window.onbeforeunload=null;
+            }, 0);
+         }
+     });
+};
 
     document.addEventListener("DOMContentLoaded", function()
     {
