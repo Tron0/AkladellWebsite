@@ -61,7 +61,8 @@ function loadUpdatePost()
     var posts = [
     { 
         title: 'Between Session Play',
-        content: `These aren't rules written in the document specific to "system" rules, but more or less by me as a DM to put rules down in regard to what characters can't do between sessions and can. I'm somewhat lenient on what characters can do between sessions, especially when it comes to traveling. Because travling can be dangerous and costly mostly in way of monsters and rations respectively. With that said, this is not a thing when you're traveling between sessions. To emphasize in-game decisions, characters cannot perform any actions except role play or strict travel. This includes gathering items in other locations or the like. However, things like shopping or finding retainers will be allowed. This is to filter out the more "boring" stuff and not make this into a play-by-post game, as that will eat up too much of my free time.`, 
+        content: `These aren't rules written in the document specific to "system" rules, but more or less by me as a DM to put rules down in regard to what characters can't do between sessions and what they can. I'm somewhat lenient on what characters can do between sessions, especially when it comes to traveling. Because travling can be dangerous and costly mostly in way of monsters and rations respectively. With that said, this is not a thing when you're traveling between sessions.
+        To emphasize in-game decisions, characters cannot perform any actions except role play or strict travel. This includes gathering items in other locations or the like. However, things like shopping or finding retainers will be allowed. This is to filter out the more "boring" stuff and not make this into a play-by-post game, as that will eat up too much of my free time.`, 
         date: "2023-04-11 19:05 CET" 
     },
 
@@ -101,11 +102,16 @@ function loadAboutPage()
 {
     var mainContent = document.getElementById('content');
     mainContent.innerHTML = `<h2>About</h2>
-    <p>This is a website for my D&D game!
-    In the grand scheme, this game is roughly <b>50% Swords & Wizardry</b>, which is a <b>Original Dungeons & Dragons</b> retroclone created by <b>Matt Finch</b>.
-    <b>35% is compiled of Advanced Dungeons and Dragons</b> rules, which is mainly just relevant on my end as a DM.
-    And the <b>15% that is left is a combination of a multitude of other things, including my own homebrew rules.</b>
-    The game right now is 100% IRL, but games will be hosted online on the discord in the future. Feel free to join!</list></p>`;
+
+    <p>This is a website for my D&D game!</p>
+
+    <p>In the grand scheme, this game is roughly <b>50% Swords & Wizardry</b>, which is a <b>Original Dungeons & Dragons</b> retroclone created by <b>Matt Finch</b>.</p>
+     
+    <p><b>35% is compiled of Advanced Dungeons and Dragons</b> rules, which is mainly just relevant on my end as a DM.</p>
+    
+    <p>And the <b>15% that is left is a combination of a multitude of other things, including my own homebrew rules.</b></p>
+    
+    <p>The game right now is 100% IRL, but games will be hosted online on the discord in the future. Feel free to join the discord!</p>`;
 }
 
 var mainContent = document.getElementById('content');

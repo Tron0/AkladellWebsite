@@ -1,17 +1,53 @@
-body {
+body 
+{
     font-family: monospace;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+    background-color: black;
+    color: white;
 }
-.centered-container {
-    width: 80%; 
-    text-align: center;
+  
+small 
+{
+    color: gray;
 }
-#content {
+
+.centered-container 
+{
+    width: 80%;
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#content 
+{
     width: 100%; 
 }
-ul {
+
+ul 
+{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.post 
+{
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+    background: black;
+}
+
+.post h2
+{
+    margin-top: 0;
+}
+
+footer 
+{
+    padding: 20px;
+    text-align: center;
 }
