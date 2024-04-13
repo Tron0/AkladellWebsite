@@ -1,6 +1,6 @@
 # Quick Creation Reference
 
-1.  **Choose a [<u>race</u>](Rules/#Races)**
+1.  **Choose a [<u>race</u>](#Rules/#Races)**
 
 > Review the race options and descriptions. Pick one that fits your
 > character concept.
@@ -34,18 +34,18 @@
 > depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You
 > may reroll results of 1 once.
 
-8.  **Roll [<u>starting gold</u>](#starting-gold)**
+8.  **Roll [<u>starting gold</u>](#Rules/#Starting-Gold)**
 
 > Consult the table and roll for your starting gold depending on the
 > class.
 
-9.  **Purchase [<u>gear</u>](#general-equipment)**
+9.  **Purchase [<u>gear</u>](#Rules/#General-Equipment)**
 
 Spend any gold on additional weapons, armor, equipment as desired.
 
 10. **Determine background**
 
-Roll or pick a background that provides a relevant skill.
+Roll or pick a [<u>backgrounds</u>](#Rule_Backgrounds) that provides a relevant skill.
 
 11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
@@ -1030,7 +1030,7 @@ additional years, roll the dice corresponding to the character's class.
 | Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
 | Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
 
-## Background
+## <span id=Rule_Backgrounds> Backgrounds </span>
 
 Assign a skill randomly, or select according to the background of your
 character.

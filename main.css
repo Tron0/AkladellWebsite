@@ -81,13 +81,13 @@ width: 100%;
 
 th, td 
 {
-padding: 5px;
+padding: 7px;
 }
 
 #toc-panel 
 {
     position: fixed;
     top: 0px;
-    right: 25%; 
+    right: 85%; 
     overflow-y: auto; 
 }
