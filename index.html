@@ -63,42 +63,38 @@
     {
     const tocPanel = document.getElementById('toc-panel');
 
-    let newButtonFunction = function()
+    window.onhashchange = function()
+{
+    setTimeout(function()
     {
-        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
-    };
-
-    window.onhashchange = function() {
         var hashStr = window.location.hash;
         console.log(hashStr);
-
         if (hashStr.includes('#Updates'))
         {
             loadUpdatePost();
-
         } else if (hashStr.includes('#Home'))
         {
             loadHomePage();
-
         } else if (hashStr.includes('#About'))
         {
             loadAboutPage();
 
-        }
-   // If current page is #Rules or its subsections
-   if (hashStr.startsWith("#Rules"))
-   {
-       // Move loading function before display handling
-       window.loadRulesPage();
-       // Display ToC panel directly on #Rules page and its subsections
-       tocPanel.style.display = 'block';
+       }
+       // If current page is #Rules or its subsections
+       if (hashStr.startsWith("#Rules"))
+       {
+           // Move loading function before display handling
+           window.loadRulesPage();
+           // Display ToC panel directly on #Rules page and its subsections
+           tocPanel.style.display = 'block';
+       } else
+       {
+           // Hide ToC when outside of #Rules and its subsections
+               tocPanel.style.display='none';
 
-   } else {
-       // Hide ToC when outside of #Rules and its subsections
-         tocPanel.style.display='none';
-
-      }
- };
+          }
+    }, 0);  // No delay required just pushing it back in JavaScript Event loop
+};
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
