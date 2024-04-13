@@ -47,37 +47,41 @@
         });
     }
 
+    const tocButton = document.getElementById('toc-button');
+    const tocPanel = document.getElementById('toc-panel');
+    
     window.onhashchange = function() {
     var hash = window.location.hash;
     console.log(hash);
+
     if (hash === '#Updates') {
       loadUpdatePost();
     } else if (hash === '#Home') {
       loadHomePage();
     } else if (hash === '#About') {
       loadAboutPage();
-    } else if (hash === '#Rules') {
-      window.loadRulesPage();
     }
-  }; 
-
-  window.onhashchange = function() {
-    var hash = window.location.hash;
     if (hash === '#Rules') {
-      tocButton.style.display = 'block'; // Show button only on #Rules
-      // Button functionality inside the hash check
+      window.loadRulesPage();
+      tocButton.style.display = 'block';
       tocButton.addEventListener('click', function() {
         tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
      });
-    } else {
-       tocButton.style.display = 'none'; // Hide button on other pages
-       if(tocPanel.style.display === 'block'){
-          tocPanel.style.display = 'none';  // Make sure panel is hidden when navigating away from #Rules
+   } else {
+       if(tocButton) { // Added checks since JS runs before elements exist on startup
+          tocButton.style.display = 'none';
+          // Remove click listeners from button when outside of #Rules
+          let new_button=tocButton.cloneNode(true);
+          tocButton.parentNode.replaceChild(new_button,tocButton);
        }
-    }
-  };
+       if(tocPanel && tocPanel.style.display === 'block'){
+          // Make sure panel is hidden when navigating away from #Rules
+          tocPanel.style.display='none';
+       }
+     }
+   };
 
-  window.dispatchEvent(new Event('hashchange'));
+   window.dispatchEvent(new Event('hashchange'));
 
   </script>
 
