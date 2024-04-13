@@ -1,12 +1,18 @@
-body 
-{
+body {
     font-family: monospace;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0;
     background-color: black;
     color: white;
+}
+.centered-container {
+    width: 100%;
+    max-width: 800px;
+    margin-top:auto;
+    margin-bottom:auto;
+    align-items:center;
+    text-align:left;
 }
 
 a:link
