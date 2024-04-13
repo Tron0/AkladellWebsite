@@ -29,7 +29,7 @@
             <a href="#Rules">#Rules</a>
             <a href="#Age">#Rules/#Age</a>
             <a href="#Costs of Living">#Rules/#Costs-of-Living</a>
-            
+
         </div>
 
         <!-- Main page content goes here-->
@@ -44,8 +44,18 @@
         .then(response => response.text())
         .then(data => 
         {
-            let htmlContent = marked.parse(data);
-              document.getElementById('content').innerHTML = htmlContent;
+            let htmlContent = marked(data);
+            // Add rules-content class
+            document.getElementById('content').innerHTML = htmlContent;
+            document.getElementById('content').classList.add("rules-content");
+            document.querySelector('.rules-content').addEventListener('click', function(event)
+            {
+                if (event.target.tagName === 'A')
+                {
+                    tocPanel.style.display = 'block';
+                }
+            });
+            
         });
     }
 
