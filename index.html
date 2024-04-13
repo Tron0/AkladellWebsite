@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akladell</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-</head>
+    <head>
+        <meta http-equiv="Cache-Control" content="no-store" /> <! ––  Cache removal! Remove this later! ––>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akladell</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+    </head>
 <body>
     <div class="centered-container">
         <header>
@@ -24,8 +27,22 @@
         <hr>
         <footer> Joel Andersson 2024</footer>
     </div>
-    <script src="app.js"></script>
+    
+    <script type="module">
+        import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+        import { rulesMarkdown } from '/rulemd.js';
+        
+        window.loadRulesPage = function() {
+        fetch('./rules.md')
+            .then(response => response.text())
+            .then(data => {
+      let htmlContent = marked.parse(data);
+      document.getElementById('content').innerHTML = htmlContent;
+  });
+}
+    </script>
+
+    <script src='app.js'></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
-
 </html>

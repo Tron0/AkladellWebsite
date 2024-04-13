@@ -20,7 +20,12 @@ window.onhashchange = function()
     {
         loadAboutPage();
     }
+
+    if (hash === '#Rules') {
+        window.loadRulesPage();
+    }
 };
+
 
 function createUpdatePost(title, content, date)
 {
@@ -111,7 +116,7 @@ function loadAboutPage()
     
     <p>And the <b>15% that is left is a combination of a multitude of other things, including my own homebrew rules.</b></p>
     
-    <p>The game right now is 100% IRL, but games will be hosted online on the discord in the future. Feel free to join the discord!</p>`;
+    <p>The game right now is 100% IRL, but games will be hosted online on the Discord in the future. Feel free to join for any future updates!</p>`;
 }
 
 var mainContent = document.getElementById('content');

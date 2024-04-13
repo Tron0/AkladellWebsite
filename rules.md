@@ -1,0 +1,3521 @@
+# Quick Creation Reference
+
+1.  **Choose a [<u>race</u>](#humans)**
+
+> Review the race options and descriptions. Pick one that fits your
+> character concept.
+
+2.  **Apply racial ability score bonuses**
+
+> Add the bonuses your race provides.
+
+3.  **Determine your character's [<u>age</u>](#age)**
+
+> Pick an appropriate starting age and roll for any additional years
+> based on class. Apply age modifiers.
+
+4.  **Determine ability scores**
+
+> Roll 4d6 and drop the lowest for each ability score in order:
+> Strength, Dexterity, Constitution, Mind and Charisma.
+
+5.  **Swap one pair of ability scores**
+
+> You can swap any two ability scores with each other once.
+
+6.  **Select a [<u>class</u>](#classes)**
+
+> Pick a class and make sure you meet the minimum ability score
+> requirements.
+
+7.  **Roll starting hit points**
+
+> Roll your class hit die to determine starting HP. Add or remove
+> depending on the [<u>Constitution</u>](#constitution) modifier. You
+> may reroll results of 1 once.
+
+8.  **Roll [<u>starting gold</u>](#starting-gold)**
+
+> Consult the table and roll for your starting gold depending on the
+> class.
+
+9.  **Purchase [<u>gear</u>](#general-equipment)**
+
+Spend any gold on additional weapons, armor, equipment as desired.
+
+10. **Determine background**
+
+Roll or pick a background that provides a relevant skill.
+
+11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
+
+> If a spellcaster, choose 10 spells (if [<u>Chaos
+> Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at
+> level 1 that you learn automatically) or 5 (if [<u>Law
+> Mage</u>](#law-mage)). Roll the percentile dice to determine which
+> ones you know, discard the rest.
+
+12. **Determine mana pool (if applicable)**
+
+If a spellcaster, note maximum starting mana.
+
+13. **Determine miscellaneous information  
+    **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn),
+    [<u>sanity</u>](#sanity), [<u>languages</u>](#languages),
+    [<u>psionics</u>](#psionics)
+
+Akladell - Reference Document
+
+*Compiled homebrew rules from Swords & Wizardry (and others)*
+
+General Gameplay
+
+**The following mechanics are changed or specially noted.**
+
+Experience Points
+
+(XP) is now earned solely through the acquisition of gold. For each Gold
+Piece (GP) safely collected, players will earn 1 XP. All experience is
+shared between the party. Players may receive flat amounts of XP from
+uncovering hidden lore and completing their goals as well.
+
+## Costs of living
+
+Player characters pay an amount of gold per month equal to 1% of their
+total XP. So for example, a 2nd level fighter that has garnered a total
+of 3000 XP pays 30 gold per month for the cost of living during a month
+of downtime.
+
+# Combat
+
+## Initiative
+
+## Initiating Combat: When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
+
+## Armor Class
+
+A character's Armor Class (AC) represents their ability to avoid being
+hit in combat, starting with a base of 10 and potentially increasing
+with factors such as worn armor, carried shields, and
+[<u>Dexterity</u>](#dexterity) modifiers. To successfully strike a
+target, the final result must equal or surpass the defender's AC.
+
+## Surprise<img src="./media/image1.jpg"
+style="width:3.36027in;height:2.83134in" />
+
+In situations where surprise might occur, each character must check for
+their state of awareness. For example, a character sneaking up on a
+guard would trigger a surprise for the guard alone. Whereas the party
+entering a room with goblins would trigger a surprise for everyone.
+Every character checks for surprise by rolling a 1d6. If the result is a
+1 or 2, that character is surprised. This is modified by
+[<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as
+the creature being surprised.  
+If a character is surprised, that character does not get to act during
+the first round of combat. Being aware of potential threats, like
+hearing noises or spotting tracks can prevent a character from being
+surprised or improve their chances on the d6. In situations where
+multiple parties encounter each other, it's possible for members from
+both sides to be surprised or not, leading to varied creatures that do
+get to act in the first round of combat based on individual rolls.
+
+## Critical hits
+
+Rolling a 20 on a d20 attack roll is called a “critical hit”. This
+guarantees that the character's attack hits the target, regardless of
+the target's Armor Class (AC). However, it does not double the damage or
+dice. Similarly, rolling a 1 means the attack automatically fails,
+regardless of the target's AC. This is also applied to saving throws and
+works in the same way.
+
+## Two-Weapon Fighting and Two-Handed Weapons
+
+Just as shields improve armor class by 1, fighting two-handed grants a
++1 to damage rolls (except for weapons that can only be used two-handed,
+where this is already taken into account in the weapon’s damage), and
+fighting with a weapon in each hand gives a +1 to hit. (Note that
+fighting with two weapons does not actually give two separate attacks;
+it just increases the likelihood of landing a successful blow.)
+
+## Calculating hits
+
+| **Class**  | Level 1 | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
+|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +6  | +7  | +7  | +8  | +8  | +9  | +10 | +10 | +11 |
+| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7  | +7  | +8  | +9  | +9  | +10 | +11 | +12 | +12 | +13 | +13 |
+| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
+| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
+
+\*Includes Inquisitors.
+
+# Alignment
+
+Alignments are Law, Chaos, and Neutral. Law and Chaos are terms used to
+refer to the underlying workings within the universe and the world, not
+on behavior or ethics. Law is associated with Lawful Magic, Chaos is
+associated with Chaos Magic. Characters who do not practice magic are
+neutral in the theory of alignment.
+
+## Magical Language
+
+Alignment languages (Law and Chaos) are used to cast spells from the
+warp; spellcasters borrow words of power which channels into magic for
+them to use. “Clerical magic” is now changed to Lawful Magic, to
+contrast with conventional Mage lists which is Chaos Magic. Magic Users
+are either [<u>Chaos Mages</u>](#chaos-mage) or [<u>Law
+Mages.</u>](#law-mage)
+
+# Injury & Death
+
+When a character (or creature) is hit, the amount of damage is deducted
+from hit points (hp). When the total hit points reaches 0, the character
+is unconscious, and if their hp are brought down to -10 or lower, the
+character dies. An unconscious character bleeds continuously without aid
+from others, at a rate of 1 hp/round until death at -10.
+
+All characters regain 1 hp for each day of rest. If solely bed rested
+for the entire day and cared for, that character gains 1d3 hp per day
+instead. Additionally, being treated by a physician would add an 1d3
+extra hp per day. Characters that have been knocked unconscious from the
+result of combat need to rest for at least five days, or until their hp
+is back to full.
+
+# Creature Size
+
+Medium sized creatures can use Large (L) weapons with both hands; Small
+(S) or Medium (M) weapons with one hand. Smaller creatures like goblins
+can't use Large weapons. Must wield Medium weapons with both hands. The
+specifics of each creature size is in the [<u>Races</u>](#_ixtrbw17tt3h)
+chapter.
+
+# Time
+
+## Travel Time
+
+Distance traveled per day is based on base movement rates, modified by
+terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
+or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
+rougher terrain)
+
+Forced marches at higher speeds are possible but require a [<u>minor
+Strength test</u>](#strength) to avoid exhaustion.
+
+## Dungeon Time
+
+Delving into dungeons is measured in turns, equal to 10 minutes of
+in-game time. Most actions like searching, spell durations, and ambushes
+happen in turn increments.
+
+Light sources like torches and lanterns burn for a specific number of
+turns before being consumed. Spells are timed in turns. Events,
+wandering monsters, and resting also transpire in turn units. Important
+decisions are also considered turn by turn. For example, lockpicking a
+door or checking for traps. Some other actions like searching a room can
+both be a simple noted action or described in detail by players, if
+described then it won’t cost a turn most of the time.
+
+## Combat Time
+
+Combat occurs in rounds, with each round lasting 10 seconds of in-game
+time. Turn structure defines the sequence of actions and events during a
+round.
+
+Spell casting times are measured in rounds, and spell effects often last
+a certain number of rounds.
+
+# Sanity
+
+When a character faces abhorrent events or unspeakable horrors, a saving
+throw is made. Failing this saving throw will cause damage to the
+character’s sanity, temporarily (or permanently) lowering the total
+sanity. Each week of in-game downtime (5 days), grants a d6 roll for the
+character to regain any lost sanity, up to 3d6. When dropping to 0
+sanity, the character gains a random affliction as well as regaining 3d6
+sanity. Afflictions can be removed with different spells, or by spending
+gold to attempt to remove it during downtime.
+
+# Retainers
+
+Followers of any kind are separated in two categories, Henchmen and
+Hirelings.
+
+## Henchmen
+
+Henchmen are leveled and classed followers that are willing to delve
+into dungeons and fight alongside the player characters. They are both
+meant as a suitable backup incase of sudden demise of the player
+character where the player can continue on as them, as well as offering
+a helping hand in combat scenarios. Henchmen (and hirelings) are
+individuals with different goals and personalities, and can act both in
+a helping manner and sometimes against the wishes of the PC. Henchmen
+need to be given suitable equipment and half a share of treasure after
+any successful heist, or else risk their departure. Their loyalty is
+dependent on the [<u>Charisma</u>](#charisma) score of the PC they work
+for. And because Henchmen act similar to a normal PC, morale is not
+taken into account, but loyalty checks might be rolled in case of
+questionable or dangerous commands given to them. Henchmen also gain XP
+as a PC would.
+
+Hiring Henchmen
+
+| **Method**      | **Cost** |
+|-----------------|----------|
+| Hiring a crier  | 10 GP    |
+| Posting notices | 50 GP    |
+| Hiring agents   | 300 GP   |
+
+## Hirelings
+
+Hirelings are specialized NPCs that provide services for the party.
+Anything from laborers to torch bearers fit in this category. Hirelings
+can be fighters as well, such as mercenaries or soldiers, but they never
+gain XP or levels. They expect a salary as any worker would, which
+obviously depends on what their profession is. Which in the case of
+mercenaries could be a flat cost for a trip into a dungeon, or if
+traveling for longer might be a day-to-day salary. This completely
+depends on the situation of the job. Hirelings given a work opportunity
+in advance do not require rations or similar if they get extra payment.
+
+# Encumbrance & Movement
+
+Characters have a total number of slots (or unique items carried) equal
+to their Strength Score. Each item carried takes up one slot unless
+noted otherwise. Some items such as torches, bandages, or daggers are
+stackable. Meaning that multiple of the same type can be carried (up to
+10). Mundane items that are small enough to fit in your hand do not
+require a slot. On the other hand, items that require two hands take up
+two slots. Coins are treated as mundane until a hundred of any type are
+carried. After which they take up one slot per a hundred coins. Mundane
+clothing does not count towards encumbrance.
+
+Player characters can carry items such as backpacks, sacks and belts
+which can function as containers for other smaller items. These items
+and their contents should be labeled accordingly in case the character
+loses the container. Generally, all containers that are in use and worn
+etc, does not count towards the total encumbrance.
+
+Three slots should be labled as the “quick draw” slots. Items stored in
+these can be taken out during combat without the use of an action. Any
+other item requires an action to be taken out from the inventory. The
+exception would be stackable items, multiple items of the same type such
+as potions cannot be automatically replaced after they’ve been used in
+the quick draw slots. But mundane items can be replaced, like rocks or
+gold inside of a pouch.
+
+## Base Movement Rate
+
+| **Unique Items Carried\***    | **Base Movement Rate** |
+|-------------------------------|------------------------|
+| Equal or under Strength Score | 12                     |
+| Strength Score + 1 Item       | 9                      |
+| Strength Score + 2 Items      | 6                      |
+| Strength Score + 3 Items      | 3                      |
+
+\*For example, a character with a Strength of 16 would be able to carry
+16 unique items and have a movement rate of 12. If that character
+carried 18 items, their base movement rate would be 6.
+
+## Indoor, Underground & City Movement
+
+| **Description** | **Speed**                             | **Results**                                                                                                                                                   |
+|-----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Walking         | Base movement rate times 20 feet/turn | Mapping and careful observation of the surroundings are possible                                                                                              |
+| Running         | Base movement rate times 40 feet/turn | No mapping permitted. Characters are automatically surprised and have no chance to surprise others. The sound of running may attract the attention of enemies |
+
+## Outdoor Movement
+
+| **Description** | **Speed**                                                                                                                     | **Results**                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Hiking          | Base movement rate in miles/day No forced march checks required                                                               | Base movement rate in miles/day No forced march checks required                                                               |
+| Forced March    | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. |
+
+## Foraging
+
+Characters journeying through the wilderness have the option to forage
+or hunt for food, either to supplement their existing supplies or stave
+off hunger. Food foraging can be done even while traveling.
+
+[<u>Specialists</u>](#specialist) are the only class able to improve the
+chances of foraging. Refer to the [<u>Specialist Skills</u>](#skills)
+and use that chance for each character's roll. The Specialist is
+regarded as the “scouting leader” when foraging. A successful day of
+foraging provides a day’s worth of rations. The foraged food will likely
+be a combination of nuts, berries, and possibly small game.
+
+If characters wish to hunt, they must dedicate a whole day to the task,
+during which they can't travel. Again, use the character with the
+highest foraging [<u>skill</u>](#skills). If successful, the DM will
+roll an additional encounter from the Animal Subtable found in the
+Wilderness Wandering Monster Tables. This encounter is separate from any
+regular encounter rolls for the day. It's important to note that hunting
+cannot occur during days allocated for resting.
+
+# Ability Scores
+
+## Strength
+
+| **Score** | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
+|-----------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
+| 3 - 4     | -2                    | -1                    | 1 / 6                                          | 0%                                               | 50%       |
+| 5 - 6     | -1                    | +0                    | 1 / 6                                          | 0%                                               | 65%       |
+| 7 - 8     | +0                    | +0                    | 2 / 6                                          | 0%                                               | 75%       |
+| 9 - 12    | +0                    | +0                    | 2 / 6                                          | 4%                                               | 85%       |
+| 13 - 15   | +1                    | +0                    | 2 / 6                                          | 7%                                               | 90%       |
+| 16        | +1                    | +1                    | 3 / 6                                          | 10%                                              | 91%       |
+| 17        | +2                    | +2                    | 4 / 6                                          | 15%                                              | 92%       |
+| 18        | +2                    | +3                    | 5 / 6                                          | 25%                                              | 93%       |
+
+\*Penalties still apply to all characters, but modifiers are only
+applied to [<u>Fighters.</u>](#fighter)
+
+## Dexterity
+
+| **Score** | **Ranged Weapon To-Hit Bonus/Penalty\*** | **Armor Class Modifier** | **Surprise Modifier** |
+|-----------|------------------------------------------|--------------------------|-----------------------|
+| 3 - 8     | -1                                       | -1                       | -1                    |
+| 9 - 12    | +0                                       | +0                       | +0                    |
+| 13 - 15   | +1                                       | +1                       | +1                    |
+
+\*For [<u>Fighters</u>](#fighter), this bonus is in addition to any
+bonuses for Strength when using heavy thrown weapons, such as javelins.
+Bows only grant dexterity bonuses.
+
+## Constitution
+
+| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
+|-----------|--------------------------------------|-------------------------|
+| 3 - 8     | -1                                   | 50%                     |
+| 9 - 12    | +0                                   | 75%                     |
+| 13 - 18   | +1                                   | 95%                     |
+
+## Mind
+
+| **Score** | **Maximum Sanity Score** | **Maximum Additional Languages** | **Search** | **Chance to Understand New Spell\*** |
+|-----------|--------------------------|----------------------------------|------------|--------------------------------------|
+| 3 - 7     | 15 - 35                  | —                                | —          | 30%                                  |
+| 8         | 40                       | —                                | 1 / 6      | 40%                                  |
+| 9         | 45                       | —                                | 1 / 6      | 45%                                  |
+| 10        | 50                       | 1                                | 1 / 6      | 50%                                  |
+| 11        | 55                       | 1                                | 1 / 6      | 50%                                  |
+| 12        | 60                       | 1                                | 1 / 6      | 55%                                  |
+| 13        | 65                       | 2                                | 1 / 6      | 65%                                  |
+| 14        | 70                       | 2                                | 1 / 6      | 65%                                  |
+| 15        | 75                       | 3                                | 2 / 6      | 75%                                  |
+| 16        | 80                       | 3                                | 2 / 6      | 75%                                  |
+| 17        | 85                       | 3                                | 2 / 6      | 85%                                  |
+| 18        | 90                       | 4                                | 2 / 6      | 95%                                  |
+
+\*For Spellcasters ([<u>Law Mages</u>](#law-mage), [<u>Chaos
+Mages</u>](#chaos-mage))
+
+Any character with a Mind score of 13 or more receives a bonus of 5%
+more XP.
+
+## Charisma
+
+| **Score** | **Maximum Number of Henchman** | **Retainer Loyalty** |
+|-----------|--------------------------------|----------------------|
+| 3 - 4     | 1                              | 4                    |
+| 5 - 6     | 1                              | 5                    |
+| 7 - 8     | 1                              | 6                    |
+| 9 - 12    | 2                              | 7                    |
+| 13 - 15   | 3                              | 8                    |
+| 16 - 17   | 4                              | 9                    |
+| 18        | 5                              | 10                   |
+
+Any character with a Charisma score of 13 or more receives a bonus of 5%
+more XP.
+
+# Languages
+
+Common, Elvish, Dwarvish, Draconic, Gnomish, Infernal, Halfling, Goblin,
+Orcish, Avian, and Undercommon / Nomad
+
+Law (Spellcasting) and Chaos (Spellcasting)
+
+# Classes
+
+## Fighter
+
+**Minimum Requirement:** 9+ Strength
+
+**Prime Attribute:** Strength, 13+ (+5% experience bonus)  
+**Hit Dice:** 1d8/level (Gains 2 hp/level after 9th level)
+
+**Armor/Shield Permitted**: Any
+
+**Weapons Permitted:** Any
+
+**Parry:** Fighters with a Dexterity score of 14 or better can fight on
+the defensive, parrying enemy blows and dodging attacks, as shown on the
+table below. The Fighter can parry at any time once per enemy attack,
+without giving up the ability to attack themselves in the same round.
+Parrying is not effective against ranged weapons, but is effective
+against claws, bites and touch attacks.
+
+| **Dexterity Score** | **Penalty to Enemy Attacks** |
+|---------------------|------------------------------|
+| 14                  | -1                           |
+| 15                  | -2                           |
+| 16                  | -3                           |
+| 17                  | -4                           |
+| 18                  | -5                           |
+
+**Hit & Damage Bonuses:** Fighters gain a hit and damage bonus as seen
+on the strength & dexterity ability score sections.
+
+**Saving Throw Bonuses:** Fighters gain a +1 bonus on all saving throws
+except against magic.
+
+**Multiple Attacks (5th):** At 5th level, a Fighter may attack twice
+when taking an attack action instead of once.
+
+**Fighter Advancement Table**
+
+| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** |
+|-----------|------------------------------|-------------------|-------------------|
+| 1         | 0                            | 1                 | 15                |
+| 2         | 2,000                        | 2                 | 14                |
+| 3         | 4,000                        | 3                 | 13                |
+| 4         | 8,000                        | 4                 | 12                |
+| 5         | 16,000                       | 5                 | 11                |
+| 6         | 32,000                       | 6                 | 10                |
+| 7         | 64,000                       | 7                 | 9                 |
+| 8         | 120,000                      | 8                 | 8                 |
+| 9         | 240,000                      | 9                 | 7                 |
+| 10        | 360,000                      | 9+2 hp            | 6                 |
+| 11        | 480,000                      | 9+4 hp            | 5                 |
+| 12        | 600,000                      | 9+6 hp            | 5                 |
+| 13        | 720,000                      | 9+8 hp            | 5                 |
+| 14        | 840,000                      | 9+10 hp           | 5                 |
+| 15        | 960,000                      | 9+12 hp           | 5                 |
+| 16        | 1,080,000                    | 9+14 hp           | 5                 |
+| 17        | 1,200,000                    | 9+16 hp           | 5                 |
+| 18        | 1,320,000                    | 9+18 hp           | 5                 |
+| 19        | 1,440,000                    | 9+20 hp           | 5                 |
+| 20        | 1,560,000                    | 9+22 hp           | 5                 |
+
+### Inquisitor
+
+**Minimum Requirement:** 12+ Strength, +9 Constitution, +13 Mind, +17
+Charisma
+
+**Prime Attribute:** Strength, 13+ (+5% experience bonus)  
+**Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level)
+
+**Armor/Shield Permitted**: Any
+
+**Weapons Permitted:** Any
+
+**Alignment:** Inquisitors are of Lawful alignment.
+
+**Parry:** Inquisitors with a Dexterity score of 14 or better can fight
+on the defensive, parrying enemy blows and dodging attacks, as shown on
+the table below. The Inquisitor can parry at any time once per enemy
+attack, without giving up the ability to attack themselves in the same
+round. Parrying is not effective against ranged weapons, but is
+effective against claws, bites and touch attacks.
+
+| **Dexterity Score** | **Penalty to Enemy Attacks** |
+|---------------------|------------------------------|
+| 14                  | -1                           |
+| 15                  | -2                           |
+| 16                  | -3                           |
+| 17                  | -4                           |
+| 18                  | -5                           |
+
+**Hit & Damage Bonuses:** Inquisitors gain a hit and damage bonus as
+seen on the strength & dexterity ability score sections.
+
+**Saving Throw Bonuses:** Inquisitors gain a +2 to all saving throws.
+
+**Detect Evil**: An Inquisitor can detect the presence of evil intent up
+to 60 feet away by concentrating on locating evil in a particular
+direction. They can do this as often as desired, but each attempt takes
+one round. This ability detects evil monsters and characters.
+
+**Disease immunity:** An Inquisitor is immune to all forms of disease.
+(Note that certain magical afflictions—lycanthropy and mummy rot—are
+curses and not diseases.)
+
+**Lay on Hands:** An Inquisitor can “lay on hands” once per day to cure
+others of 2 hit points of damage per level of the Inquisitor, or to cure
+disease. If the other person is afflicted by more than one disease, only
+one of these will be affected per five levels the Inquisitor has
+attained. This functions the same way as any spell would and takes one
+round to cast.
+
+**Strong Willed:** Whenever the Inquisitor is under the effects of a
+spell that incapacitates the body or mind (sleep, hold, charm,
+paralysis, etc.), they may make a new saving throw every round
+
+**Banishing Undead (3rd) :** An Inquisitor gains the power to turn
+undead and fiends when they reach 3rd level. They affect these monsters
+the same as does a [<u>Law Mage</u>](#law-mage) two levels lower—for
+example, at 3rd level they have the turning power of a 1st-level [<u>Law
+Mage</u>](#law-mage).
+
+**Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
+dispel evil once per day,
+
+as per the Law Mage spell (see the description of the [<u>Law
+Mage</u>](#law-mage-1) spell dispel
+
+evil).
+
+**Inquisitor Advancement Table**
+
+| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** |
+|-----------|------------------------------|--------------------|-------------------|
+| 1         | 0                            | 1                  | 15                |
+| 2         | 2,250                        | 2                  | 14                |
+| 3         | 4,500                        | 3                  | 13                |
+| 4         | 9,000                        | 4                  | 12                |
+| 5         | 20,000                       | 5                  | 11                |
+| 6         | 40,000                       | 6                  | 10                |
+| 7         | 80,000                       | 7                  | 9                 |
+| 8         | 150,000                      | 8                  | 8                 |
+| 9         | 280,000                      | 9                  | 7                 |
+| 10        | 410,000                      | 9+3 hp             | 6                 |
+| 11        | 540,000                      | 9+6 hp             | 5                 |
+| 12        | 670,000                      | 9+9 hp             | 5                 |
+| 13        | 800,000                      | 9+12 hp            | 5                 |
+| 14        | 930,000                      | 9+15 hp            | 5                 |
+| 15        | 1,060,000                    | 9+18 hp            | 5                 |
+| 16        | 1,190,000                    | 9+21 hp            | 5                 |
+| 17        | 1,320,000                    | 9+24 hp            | 5                 |
+| 18        | 1,450,000                    | 9+27 hp            | 5                 |
+| 19        | 1,580,000                    | 9+30 hp            | 5                 |
+| 20        | 1,710,000                    | 9+33 hp            | 5                 |
+
+##  
+
+## Specialist
+
+**Minimum Requirement:** 9+ Dexterity
+
+**Prime Attribute: Dexterity,** 13+ (+5% experience bonus)
+
+**Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level)
+
+**Armor/Shield Permitted:** Light armor, no shield
+
+**Weapons Permitted:** Any one handed weapon, ranged weapons.
+
+**Saving Throw Bonus:** Specialists gain a +2 bonus on saving throws
+against devices, including traps and other magical devices.
+
+**Evasiveness:** Specialists gain a +1 bonus to AC when
+[<u>unencumbered</u>](#_25dl12dlsxgn).
+
+**Moving quietly:** Specialists can move quietly without being heard.
+
+**Climbing walls or cliffs:** In general, if a normal person has a
+chance to climb a wall, a Specialist can most likely do it
+automatically.
+
+### Skills
+
+The Specialist begins at the same default level in these activities as
+other characters, but receives “points” which can be allocated to
+improve the ability in the chosen skills. For skills that are “x in 6”,
+allocating a point increases the chance by one. For example, Lockpicking
+begins at 1 in 6. A Specialist allocating a point to this skill
+increases the chance to 2 in 6. Every class has the following skills as
+a 1 in 6. A skill cannot be increased further than a 5 in 6.
+
+**Architecture:** Clues, warning and rewards can be built into
+structures of a character’s surroundings. Determining if a passage
+shifts or slopes gradually, detecting if a structure is unsafe to travel
+in/on, as well as any history found in the structure can be noted.
+
+[**<u>Foraging</u>**](#foraging)
+
+**Lockpicking:** Specialists can pick locks with Thieves’ tools; some
+locks might be unusually difficult, in which case the game master might
+reduce the chance as appropriate.
+
+**Search:** Finding features of interest, hidden doors or compartments.
+Note that finding secret doors does not grant the character an
+understanding of how it works.
+
+**Sleight of Hand:** Picking the pockets of an unaware person, hiding a
+small object from a search, readying a weapon without any observers
+noticing, swappingout an object on a weight-sensitive plate with a
+similarly-weighted bag of sand, these and more are examples of Sleight
+of Hand.
+
+**Sneak Attack:** Sneak Attacks are merely attacks made by surprise. A
+Specialist can multiply the damage done by a Sneak Attack by allocating
+points to this skill. Assume that the damage multiplier is x1 for all
+characters, but for every point allocated to the skill by a Specialist,
+the damage multiplier is increased by one. If a Specialist has any
+points in Sneak Attack, then they also get a +2 bonus to hit above any
+other bonuses they already have when performing a Sneak Attack.
+
+**Stealth:** Stealth allows a character to sneak around and hide. In
+order to use the Stealth skill, those that the character wishes to hide
+from must not already be aware of the character’s presence, and there
+must be somewhere to hide. If a character attacks after successfully
+using Stealth, that attack greatly increases the chance of a
+[<u>Surprise</u>](#surprise) attack, even if the enemy is already
+engaged in battle.
+
+**Tinker:** Disarming traps, disabling pressure plates, manipulating
+small impromptu devices or even creating objects from mechanical parts
+would be considered Tinkering.
+
+**Specialist Advancement Table**
+
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Skill Points** |
+|-----------|---------------------------|-------------------|------------------|------------------|
+| 1         | 0                         | 1                 | 15               | 4                |
+| 2         | 1,250                     | 2                 | 14               | +2               |
+| 3         | 2,500                     | 3                 | 13               | +2               |
+| 4         | 5,000                     | 4                 | 12               | +2               |
+| 5         | 10,000                    | 5                 | 11               | +2               |
+| 6         | 25,000                    | 6                 | 10               | +2               |
+| 7         | 45,000                    | 7                 | 9                | +2               |
+| 8         | 90,000                    | 8                 | 8                | +2               |
+| 9         | 200,000                   | 9                 | 7                | +2               |
+| 10        | 310,000                   | 10                | 6                | +2               |
+| 11        | 420,000                   | 10+1              | 5                | +2               |
+| 12 - 20   | +110,000 per level        | +1 hp/level       | 5                | +2/level         |
+
+**Disciplines**
+
+| **Dice Score (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
+|---------------------|----------------|------------------|--------------|-----------------|------------|---------------------|------------------|-------------|------------|
+| 1                   | Artificer      | 2 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 3 / 6      |
+| 2                   | Assassin       | 1 / 6            | 1 / 6        | 1 / 6           | 1 / 6      | 1 / 6               | 3 / 6            | 3 / 6       | 1 / 6      |
+| 3                   | Explorer       | 1 / 6            | 2 / 6        | 1 / 6           | 3 / 6      | 2 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
+| 4                   | Ranger         | 1 / 6            | 3 / 6        | 1 / 6           | 1 / 6      | 1 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
+| 5                   | Rogue          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 2 / 6            | 3 / 6       | 1 / 6      |
+| 6                   | Scholar        | 3 / 6            | 1 / 6        | 1 / 6           | 3 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
+| 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
+| 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
+
+## Law Mage
+
+**Minimum Requirement:** 9+ Mind
+
+**Prime Attribute:** Mind, 13+ (+5% experience bonus)  
+**Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level)
+
+**Armor/Shield Permitted**: Any
+
+**Weapons Permitted:** Any one handed weapon, no ranged weapons
+
+| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
+|----------------|---------------------|-----------------------------------------------------|
+| 3 - 7          | 2                   | 2/4                                                 |
+| 8              | 3                   | 2/4                                                 |
+| 9              | 3                   | 2/4                                                 |
+| 10             | 3                   | 2/4                                                 |
+| 11             | 4                   | 3/5                                                 |
+| 12             | 4                   | 3/5                                                 |
+| 13             | 5                   | 3/5                                                 |
+| 14             | 5                   | 3/5                                                 |
+| 15             | 6                   | 4/5                                                 |
+| 16             | 6                   | 4/5                                                 |
+| 17             | 7                   | 4/5                                                 |
+| 18             | 7                   | 4/5                                                 |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn’t met when rolling
+through the list, simply repeat until it is. Maximum is simply the limit
+to how many spells are known at character creation.
+
+**Saving Throw Bonus:** Law Mages gain a +2 bonus on saving throws
+against being paralyzed or poisoned.
+
+**Known Spells:** Law Mages initially have access to five 1st-level
+spells as well as “Read Magic”, a first level blue spell. Refer to the
+spell table above to identify how many of the five spells are already
+inscribed and comprehended in the spellbook. Any remaining spells out of
+the initial ten, which are not yet understood, are not added to the
+spellbook until the Mage has successfully learned the initial set.
+
+**Banishing Undead:** Law Mages can Turn Undead as seen below.
+
+| **Challenge Level of Undead** | **Specific Undead** | **Level 1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10-13** | **14-17** | **18+** |
+|-------------------------------|---------------------|-------------|-------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|---------|
+| 1                             | Skeleton            | 10          | 7     | 4     | T     | T     | D     | D     | D     | D     | D         | D         | D       |
+| 2                             | Zombie              | 13          | 10    | 7     | 4     | T     | T     | D     | D     | D     | D         | D         | D       |
+| 3                             | Ghoul               | 16          | 13    | 10    | 7     | 4     | T     | T     | D     | D     | D         | D         | D       |
+| 4                             | Shadow              | 19          | 16    | 13    | 10    | 7     | 4     | T     | T     | D     | D         | D         | D       |
+| 5                             |                     | 20          | 19    | 16    | 13    | 10    | 7     | 4     | T     | T     | D         | D         | D       |
+| 6                             | Wight               | \-          | 20    | 19    | 16    | 13    | 10    | 7     | 4     | T     | T         | D         | D       |
+| 7                             | Mummy               | \-          | \-    | 20    | 19    | 16    | 13    | 10    | 7     | 4     | T         | T         | D       |
+| 8                             | Wraith              | \-          | \-    | \-    | 20    | 19    | 16    | 13    | 10    | 7     | 4         | T         | T       |
+| 9                             | Spectre             | \-          | \-    | \-    | \-    | 20    | 19    | 16    | 13    | 10    | 7         | 4         | T       |
+| 10                            | Vampire\*           | \-          | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13    | 10        | 7         | 4       |
+| 11                            | Vampire\*           | \-          | \-    | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13        | 10        | 7       |
+| 12                            |                     | \-          | \-    | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13        | 10        | 10      |
+| 15+                           | Lich                | \-          | \-    | \-    | \-    | \-    | \-    | \-    | \-    | 20    | 19        | 16        | 13      |
+
+**Law Mage Advancement Table**
+
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** |
+|-----------|---------------------------|-------------------|------------------|
+| 1         | 0                         | 1                 | 15               |
+| 2         | 1,500                     | 2                 | 14               |
+| 3         | 3,000                     | 3                 | 13               |
+| 4         | 6,000                     | 4                 | 12               |
+| 5         | 12,000                    | 5                 | 11               |
+| 6         | 25,000                    | 6                 | 10               |
+| 7         | 50,000                    | 7                 | 9                |
+| 8         | 100,000                   | 8                 | 8                |
+| 9         | 200,000                   | 9                 | 7                |
+| 10        | 300,000                   | 9+1               | 6                |
+| 11        | 400,000                   | 9+2               | 5                |
+| 12        | 500,000                   | 9+3               | 4                |
+| 13        | 600,000                   | 9+4               | 4                |
+| 14        | 700,000                   | 9+5               | 4                |
+| 15        | 800,000                   | 9+6               | 4                |
+| 16        | 900,000                   | 9+7               | 4                |
+| 17        | 1,000,000                 | 9+8               | 4                |
+| 18        | 1,100,000                 | 9+9               | 4                |
+| 19        | 1,200,000                 | 9+10              | 4                |
+| 20        | 1,300,000                 | 9+11              | 4                |
+
+## Chaos Mage
+
+**Minimum Requirement:** 9+ Mind
+
+**Prime Attribute:** Mind, 13+ (+5% experience bonus)  
+**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
+
+**Armor/Shield Permitted**: None
+
+**Weapons Permitted:** Dagger, staff and darts
+
+| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+|----------------|---------------------|-----------------------------------------------------|--------------------------------|
+| 3 - 7          | 4                   | 2/4                                                 | 2                              |
+| 8              | 5                   | 3/5                                                 | 2                              |
+| 9              | 5                   | 3/5                                                 | 2                              |
+| 10             | 5                   | 4/6                                                 | 3                              |
+| 11             | 6                   | 4/6                                                 | 3                              |
+| 12             | 6                   | 4/6                                                 | 3                              |
+| 13             | 7                   | 5/8                                                 | 4                              |
+| 14             | 7                   | 5/8                                                 | 4                              |
+| 15             | 8                   | 6/10                                                | 4                              |
+| 16             | 8                   | 6/10                                                | 5                              |
+| 17             | 9                   | 7/All                                               | 5                              |
+| 18             | 9                   | 8/All                                               | 6                              |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn’t met when rolling
+through the list, simply repeat until it is.
+
+**Known Spells:** Chaos Mages initially have access to ten 1st-level
+spells and two Cantrips as well as “Read Magic”, a first level blue
+spell. Refer to the spell table above to identify how many of the ten
+spells are already inscribed and comprehended in the spellbook. Any
+remaining spells out of the initial ten, which are not yet understood,
+are not added to the spellbook until the Mage has successfully learned
+the initial set.
+
+**Saving Throw Bonus:** Chaos Mages gain a bonus of +2 on all saving
+throw rolls against spells, including spells from magic wands and
+staffs.
+
+**Cantrips:** Small magic tricks or simple utility spells that can be
+cast without spending mana. These spells are often instantaneous and can
+be used as many times as the Mage would like.
+
+**Chaos Mage Advancement Table**
+
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** |
+|-----------|---------------------------|-------------------|------------------|
+| 1         | 0                         | 1                 | 15               |
+| 2         | 2,500                     | 2                 | 14               |
+| 3         | 5,000                     | 3                 | 13               |
+| 4         | 10,000                    | 4                 | 12               |
+| 5         | 20,000                    | 5                 | 11               |
+| 6         | 40,000                    | 6                 | 10               |
+| 7         | 80,000                    | 7                 | 9                |
+| 8         | 150,000                   | 8                 | 8                |
+| 9         | 300,000                   | 9                 | 7                |
+| 10        | 450,000                   | 10                | 6                |
+| 11        | 600,000                   | 11                | 5                |
+| 12        | 750,000                   | 11+4              | 5                |
+| 13        | 900,000                   | 11+8              | 5                |
+| 14        | 1,050,000                 | 11+12             | 5                |
+| 15        | 1,200,000                 | 11+16             | 5                |
+| 16        | 1,350,000                 | 11+20             | 5                |
+| 17        | 1,500,000                 | 11+24             | 5                |
+| 18        | 1,650,000                 | 11+28             | 5                |
+| 19        | 1,800,000                 | 11+32             | 5                |
+| 20        | 1,950,000                 | 11+36             | 5                |
+
+## Barbarian
+
+**Minimum Requirement:** 9+ Con
+
+**Prime Attribute:** Con, 13+ (+5% experience bonus)  
+**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level)
+
+**Armor/Shield Permitted**: Light armor, medium armor, shield
+
+**Weapons Permitted:** Any, except ranged
+
+**Keen Instincts:** Barbarians can detect and concealed doors easier
+than others. They are able to discover secret and hidden doors on a 1-4
+on 1d6 and may even notice such a door simply by passing near it if they
+roll 1- 2 on 1d6. They cannot be surprised.
+
+**Savage Blows:** Barbarians gain an extra +2 to all damage rolls made
+in melee combat.
+
+**Swift Runner:** Barbarians move quicker than other humans and have an
+unencumbered movement rate of 15 instead of the standard 12.
+
+**Wilderness Survival:** Barbarians are adept at surviving in the wild
+places of the world and are always able to find food and water to
+sustain themselves when in the wilderness.
+
+**Saving Throws:** Barbarians receive a +2 bonus to all saving throws
+made to resist spells and magical effects.
+
+**Barbarian Advancement Table**
+
+| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** |
+|-----------|---------------------------|--------------------|------------------|
+| 1         | 0                         | 1                  | 15               |
+| 2         | 2,000                     | 2                  | 14               |
+| 3         | 4,500                     | 3                  | 13               |
+| 4         | 9,000                     | 4                  | 12               |
+| 5         | 18,000                    | 5                  | 11               |
+| 6         | 32,000                    | 6                  | 10               |
+| 7         | 64,000                    | 7                  | 9                |
+| 8         | 120,000                   | 8                  | 8                |
+| 9         | 230,000                   | 9                  | 7                |
+| 10        | 340,000                   | 10                 | 6                |
+| 11        | 450,000                   | 11                 | 5                |
+| 12        | 560,000                   | 11+2               | 5                |
+| 13        | 670,000                   | 11+4               | 5                |
+| 14        | 780,000                   | 11+6               | 5                |
+| 15        | 890,000                   | 11+8               | 5                |
+| 16        | 1,000,000                 | 11+10              | 5                |
+| 17        | 1,110,000                 | 11+12              | 5                |
+| 18        | 1,220,000                 | 11+14              | 5                |
+| 19        | 1,330,000                 | 11+16              | 5                |
+| 20        | 1,440,000                 | 11+18              | 5                |
+
+# Multiclassing
+
+Multiclassing is the ability to switch classes and begin advancing in a
+new class in addition to the old one. To be eligible for multiclassing
+the character needs to have an ability score of 15+ in the prime
+requisite(s) of the original class, and of 17+ in the prime requisite(s)
+of the new class, as well as enough experience points for an advancement
+in the current class.
+
+The character needs to spend time and gold in training for the benefits
+to become a first level member of the class. All further XP is applied
+to the new class. The cost of switching back to a previous one is half
+of the training time and gold cost.
+
+When the character begins the process of learning a new class, they gain
+the abilities of the new class as a first level member of that class.
+All experience is applied to progressing in the class with the highest
+XP requirements in regard to the total level of the character. So a
+[<u>Fighter</u>](#fighter) 2/[<u>Chaos Mage</u>](#chaos-mage) 1 would
+require 10,000 XP for the second level in Chaos Magic. Even if switched
+back to leveling the fighter class, they would need 20,000 XP to become
+a level 3 fighter as the Chaos Mage table still applies. Restrictions
+regarding armor still apply to the character. Whereas attacks, weapons,
+abilities and saving throws are applied as a bonus. In the case of a
+choice in saving throw, the higher number of the two classes is used and
+not as an additive.
+
+| **Class**  | **Cost (GP)** | **Maximum Training Time** |
+|------------|---------------|---------------------------|
+| Fighter    | 1,500         | 8 weeks                   |
+| Inquisitor | 2,500         | 16 weeks                  |
+| Specialist | 1,250         | 8 weeks                   |
+| Law Mage   | 2,000         | 12 weeks                  |
+| Chaos Mage | 2,500         | 16 weeks                  |
+| Barbarian  | 1,500         | 8 weeks                   |
+
+Character Creation
+
+# Rolling Ability Scores
+
+4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
+Dexterity, Constitution, Mind and Charisma. After rolling for stats, you
+may swap two ability scores with each other, once.
+
+## Starting Hit Points
+
+At level 1 you roll the corresponding hit die as your HP. Add or
+subtract with your constitution [<u>modifier</u>](#constitution). A
+player may reroll a die with the result in a 1.
+
+## <span id="age">Age</span>
+
+The starting age of your character is determined up to you. The table
+below determines the ability score bonuses or penalties your character
+is given based on life stage.
+
+The effects of aging are cumulative and the gray rows indicate the total
+amount of ability
+
+score changes given for each age.
+
+| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
+|-----------------|--------------|---------------|------------------|----------|
+| **Young**       | **+0**       | **+0**        | **+1**           | **+0**   |
+| **Mature**      | **+1**       | **-1**        | **+1**           | **+0**   |
+| **Middle Aged** | **+0**       | **-1**        | **+0**           | **+1**   |
+| **Old**         | **-1**       | **-2**        | **-1**           | **+1**   |
+| **Venerable**   | **-2**       | **-3**        | **-2**           | **+2**   |
+
+| **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
+|-----------|-----------------|------------|-----------------|-----------|---------------|
+| Human     | 15 - 20         | 21 - 40    | 41 - 60         | 61 - 90   | 91 - 120      |
+| Elf       | 50 - 125        | 126 - 400  | 401 - 600       | 601 - 800 | 801 - 1000    |
+| Dwarf     | 35 - 50         | 51 - 150   | 151 - 250       | 251 - 350 | 351 - 450     |
+| Draconian | 24 - 40         | 41 - 100   | 101 - 175       | 176 - 250 | 251 - 325     |
+| Gnome     | 50 - 90         | 91 - 300   | 301 - 450       | 451 - 600 | 601 - 750     |
+| Solarian  | 40 - 60         | 61 - 175   | 176 - 260       | 261 - 300 | 301 - 400     |
+| Halfling  | 22 - 33         | 34 - 70    | 71 - 101        | 102 - 144 | 145 - 200     |
+| Goblin    | 10 - 15         | 16 - 35    | 36 - 45         | 46 - 60   | 61 - 80       |
+| Radigen   | 14 - 20         | 21 - 30    | 31 - 50         | 51 - 80   | 80 - 100      |
+| Kobold    | 6 - 30          | 31 - 60    | 61 - 85         | 86 - 100  | 101 - 125     |
+| Avian     | 20 - 35         | 36 - 50    | 51 - 75         | 76 - 100  | 101 - 130     |
+| Orc       | 15 - 20         | 21 - 35    | 36 - 55         | 56 - 80   | 81 - 100      |
+
+### Starting Age
+
+When determining the starting age of your character, first choose the
+life stage most appropriate for your character's backstory and
+personality. Refer to the base age range specified for the race in the
+table above. From this base, an optional rule is to add additional years
+based on the chosen class, reflecting the time the character has spent
+training or studying in that particular vocation. To determine these
+additional years, roll the dice corresponding to the character's class.
+
+| **Race**  | **Fighter** | **Specialist** | **Law Mage** | **Chaos Mage** |
+|-----------|-------------|----------------|--------------|----------------|
+| Human     | 1d4         | 1d4            | 3d6          | 2d10           |
+| Elf       | 3d20        | 2d10           | 4d20         | 1d100 + 3d10   |
+| Dwarf     | 2d8         | 2d6            | 2d20 + 1d10  | 3d20           |
+| Draconian | 3d6         | 4d4            | 3d20         | 4d12           |
+| Gnome     | 6d6         | 4d8            | 1d100        | 1d100 + 2d12   |
+| Solarian  | 2d10        | 3d6            | 5d8          | 2d20 + 2d10    |
+| Halfling  | 2d4 + 1d6   | 2d6            | 2d20         | 4d8            |
+| Goblin    | 1d4         | 1d4            | 2d10         | 1d20           |
+| Radigen   | 1d6         | 1d4            | 3d6          | 1d20           |
+| Kobold    | 2d8         | 3d4            | 2d20 + 2d6   | 3d12 + 2d8     |
+| Avian     | 3d4 + 1d6   | 1d12 + 1d6     | 3d10         | 1d20 + 2d8     |
+| Orc       | 1d4         | 1d4            | 3d6          | 2d8            |
+
+## Starting Height & Weight
+
+| **Race**  | **Height**   | **Modifier** | **Weight (lbs)** | **Modifier (lbs)** |
+|-----------|--------------|--------------|------------------|--------------------|
+| Human     | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Elf       | 5’3” or 5’0” | \+ 2d12”     | 140 or 110       | \+ 10d8            |
+| Dwarf     | 3’9” or 3’6” | \+ 2d4”      | 130 or 100       | \+ 8d6             |
+| Draconian | 5’0” or 4’8” | \+ 3d6”      | 130 or 100       | \+ 6d12            |
+| Gnome     | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 5d6             |
+| Solarian  | 5’2” or 4’9” | \+ 3d8”      | 140 or 110       | \+ 8d12            |
+| Halfling  | 2’9” or 2’6” | \+ 3d4”      | 50 or 45         | \+ 5d6             |
+| Goblin    | 3’ or 2’10”  | \+ 2d4”      | 45 or 40         | \+ 4d6             |
+| Radigen   | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Kobold    | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 4d6             |
+| Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
+| Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
+
+## Background
+
+Assign a skill randomly, or select according to the background of your
+character.
+
+| **Dice Score**                         | **Result (1d100)** |
+|----------------------------------------|--------------------|
+| Animal husbander                       | 01 - 02            |
+| Blacksmith                             | 03 - 04            |
+| Bowyer/fletcher                        | 05 - 07            |
+| Carpenter                              | 08 - 10            |
+| Farmer/gardner                         | 11 - 16            |
+| Fisher                                 | 17 - 20            |
+| Forester                               | 21 - 26            |
+| Gambler                                | 27 - 29            |
+| Hunter/trapper                         | 30 - 33            |
+| Jeweler                                | 34 - 35            |
+| Leather worker/tanner                  | 36 - 38            |
+| Limner/painter                         | 39 - 40            |
+| Mason                                  | 41 - 43            |
+| Mercenary                              | 44 - 45            |
+| Merchant                               | 46 - 48            |
+| Miner                                  | 49 - 51            |
+| Noble                                  | 52 - 53            |
+| Outlaw                                 | 54 - 55            |
+| Sailor                                 | 56 - 58            |
+| Scholar                                | 59 - 61            |
+| Soldier/guard                          | 62 - 64            |
+| Tailor/weaver                          | 65 - 67            |
+| Teamster/transporter                   | 68 - 70            |
+| No skill of measurable worth           | 71 - 90            |
+| Roll twice, ignoring this result after | 90 - 100           |
+
+#  
+
+# Spellcasting
+
+## Learning Spells
+
+All mages possess a spellbook from which they learn and mentally prepare
+spells. This spell also contains “Read Magic” , a first level blue
+spell. As they progress in level, mages may encounter or research new
+spells which they can add to their spellbook. Not all spells can be
+learned instantaneously – the complexity of a spell and the mage's
+current level affect their ability to comprehend and learn new magic.
+When gaining a new level, a spellcaster may reroll previously not
+[<u>understood</u>](#mind) spells from their spellbook.
+
+## Innate Magic
+
+There are some exceptions to the typical rules of spellcasting. Certain
+beings might be born with innate magical powers, such as the Dwarves.
+For these unique cases, spellcasting might not adhere to the same rules
+as described above. Always consult the specific race or class
+descriptions for these unique magical users.
+
+## Spell Points
+
+Instead of gaining spell slots to cast your spells from, you gain a pool
+of spell points (referred to as **Mana**). The amount of mana you spend
+is based on the level of the spell being cast, and you can't reduce your
+mana pool to less than 0. You recover all spent mana when you finish a
+rest, at least 6 hours. You spend mana equal to the level of spell being
+cast. For example, a 1st-level spell spends 1 mana, a 9th-level spell
+spends 9 mana.
+
+The amount of mana available to spend is based on your level as a
+spellcaster, as shown in the Mana Progression table below. Your level
+and [<u>Mind</u>](#mind) also determines the maximum level spell you can
+cast. Even though you might have enough mana to cast a spell above this
+maximum, you can't do so.
+
+## Common Magic
+
+Spells of 1st- to 5th-level are referred to as Common magic. Common
+magic spells can be cast repeatedly while enough mana remain available
+to spend. For example, if you have 7 mana and can cast 2nd-level spells,
+you can cast seven 1st-level spells, five 1st-level spells and one
+2nd-level spells, three 1st-level spells and two 2nd-level spells, or
+one 1st-level spell and three 2nd-level spells.
+
+## High Magic
+
+Spells of 6th level and higher are referred to as High magic. High magic
+spells are particularly powerful. You are limited to how many high magic
+spells you can cast before needing to finish a rest to cast more. The
+number of high magic spells you can cast is equal to your maximum level
+spell minus 5. For example, if you can cast 7th-level spells, 6th- and
+7th-level spells are high magic. You can cast (7th – 5 = 2) two high
+magic spells before needing a rest to recover them. They can be two
+6th-level spells (total 12 mana), or one 6th- and one 7th-level spell
+(total 13 mana), or two 7th-level spells (total 14 mana).
+
+## Mana Progression Table
+
+| **Chaos Mage** | **Law Mage** | **Multiclass Table** |
+|----------------|--------------|----------------------|
+
+| **Class Level** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** |
+|-----------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|
+| **1**           | 1                   | 2             | 1                   | 1             | 1                   | 1             |
+| **2**           | 1                   | 3             | 1                   | 2             | 1                   | 2             |
+| **3**           | 2                   | 4             | 2                   | 4             | 1                   | 3             |
+| **4**           | 2                   | 6             | 2                   | 6             | 2                   | 4             |
+| **5**           | 3                   | 8             | 3                   | 8             | 2                   | 5             |
+| **6**           | 3                   | 11            | 3                   | 9             | 2                   | 6             |
+| **7**           | 4                   | 14            | 3                   | 11            | 3                   | 7             |
+| **8**           | 4                   | 18            | 3                   | 12            | 3                   | 8             |
+| **9**           | 5                   | 22            | 4                   | 14            | 3                   | 9             |
+| **10**          | 5                   | 26            | 4                   | 16            | 3                   | 10            |
+| **11**          | 5                   | 30            | 4                   | 18            | 4                   | 11            |
+| **12**          | 6                   | 34            | 4                   | 20            | 4                   | 12            |
+| **13**          | 6                   | 38            | 5                   | 22            | 4                   | 13            |
+| **14**          | 7                   | 42            | 5                   | 24            | 4                   | 14            |
+| **15**          | 7                   | 46            | 6                   | 26            | 4                   | 15            |
+| **16**          | 8                   | 50            | 6                   | 28            | 4                   | 16            |
+| **17**          | 8                   | 53            | 7                   | 30            | 5                   | 17            |
+| **18**          | 9                   | 56            | 7                   | 33            | 5                   | 18            |
+| **19**          | 9                   | 58            | 7                   | 36            | 5                   | 19            |
+| **20**          | 9                   | 60            | 7                   | 30            | 5                   | 20            |
+
+## The Five Colors Magic Paradigm
+
+The standard schools of magic are replaced by five colors, inspired by
+Magic: The Gathering's color system. Each color represents specific
+magic themes and effects (referred to as aspects):
+
+**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
+Suppress *(Peace, law, structure, selflessness, equality)*
+
+**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
+Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
+
+**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
+self-interest, death, sacrifice, uninhibitedness)*
+
+**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
+*(Freedom, emotion, action, impulse, destruction, change)*
+
+**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
+wildlife, connection, spirituality, tradition)*
+
+### Mana Pool
+
+In this system, each mana point in your pool corresponds to a specific
+color. For example, a 4th-level cleric with 12 mana could allocate these
+points as follows: 3W, 2U, 2B, 5G. Spells require mana of their assigned
+color. For instance, a 13th-level sorcerer casting 'Etherealness' (a
+Blue spell) as a 7th-level spell would spend 7 Blue mana. Mana from
+other colors cannot be used.
+
+### Devoting Mana to Colors
+
+After a day's rest, you can redistribute your mana across the colors as
+needed. For example, a 4th-level Law Mage with 12 mana may allocate the
+points as 3W, 2U, 2B, 5G expecting to cast healing spells (Green)
+frequently. After the next rest, the Law Mage could adjust this to 1W,
+1U, 1B, and 2G based on the group's need.
+
+# Psionics
+
+Every character with a high enough Mind and or Charisma gets to roll to
+see if they possess mind powers known as psionics. The table columns are
+cumulative. A character with a score of 18 in both abilities would have
+a 12% chance of being psionic. Any number of powers available can be
+used in combination each day.
+
+Consult the following table:
+
+| **Ability Score** | **% for Mind** | **% for Charisma** | **Amount of Powers** |
+|-------------------|----------------|--------------------|----------------------|
+| 15                | 1.5%           | 1.5%               | 1d3                  |
+| 16                | 3%             | 3%                 | 1d4                  |
+| 17                | 4.5%           | 4.5%               | 1d6                  |
+| 18                | 6%             | 6%                 | 1d8                  |
+
+| **Level** | **Uses/day** |
+|-----------|--------------|
+| 1st - 2nd | 1            |
+| 3rd - 4th | 2            |
+| 5th - 6th | 3            |
+| 7th - 8th | 4            |
+| 9th +     | 5            |
+
+From the table below, roll a 1d12 a number of times equal to the
+character’s “Amount of Powers” as seen earlier. Reroll any duplicate
+numbers.
+
+| **Dice Score** | **Result (1d12)** |
+|----------------|-------------------|
+| Army of One    | 1                 |
+| Clairaudience  | 2                 |
+| Clairvoyance   | 3                 |
+| ESP            | 4                 |
+| Mental Barrier | 5                 |
+| Mental Blast   | 6                 |
+| Mind Control   | 7                 |
+| Precognition   | 8                 |
+| Sleep          | 9                 |
+| Suspend Life   | 10                |
+| Telepathy      | 11                |
+| Telekinesis    | 12                |
+
+## Psionic Powers
+
+**Army of One**
+
+**Range: Self**
+
+**Duration: 1 round**
+
+The user becomes a peerless warrior, able to move in battle with inhuman
+reflexes in order to attack enemies within immediate melee range. The
+user is able to make one melee attack for every opponent already
+engaging them. Each attack must be against a different opponent, and the
+extra attacks are not gained if the user must move to engage a foe.
+
+**Clairaudience**
+
+**Range: 60’**
+
+**Duration: 2 hours**
+
+The user can hear through solid obstacles. A 2’ thickness of stone
+blocks the effect, as does the thinnest layer of lead.
+
+**Clairvoyance**
+
+**Range: 60’**
+
+**Duration: 2 hours.**
+
+The user can see through solid obstacles. A 2’ thickness of stone blocks
+the effect, as does the thinnest layer of lead.
+
+**ESP**
+
+**Range: 60’**
+
+**Duration: 2 hours.**
+
+The user can detect the thoughts of other beings. A 2’ thickness of
+stone blocks the effect, as does the thinnest layer of lead.
+
+**Mental Barrier**
+
+**Range: 60’**
+
+**Duration: 1 round**
+
+When activated, any attack against a creature with this power recieve a
+-5 penalty to their attack roll for the duration.
+
+**Mental Blast**
+
+**Range: 60’**
+
+**Duration: 1 round**
+
+This attack of pure mental energy causes 3d8 damage on a target.
+Intelligent creatures can save vs. magic to avoid the damage. Other
+creatures possessing psionic powers gain a +5 on the save.
+
+**Mind Control**
+
+**Range: 120’**
+
+**Duration: Special**
+
+The unfortunate victim of this power falls under the user’s influence.
+This psionic power can work on any intelligent creature for as long as
+the user intensely concentrates (no fighting or even walking). A saving
+throw vs magic negates the effect. Animals are immune, as are the Old
+Ones.
+
+**Precognition**
+
+**Range: Self**
+
+**Duration: 1 round**
+
+This allows the user to tell what will happen to only themselves if they
+were to do something. No more than 1 minute into the future can be seen.
+
+**Sleep**
+
+**Range: 60’**
+
+**Duration: 1 hour**
+
+The user puts up to 1d4 creatures within 60 feet to sleep. If used
+within 30 feet of the target(s), the effect can be limited to any amount
+to a minimum of 1. Otherwise exactly that many creatures must be
+targeted. Creatures can save vs. magic to avoid this effect. Otherwise
+they are unconscious for 1d4 hours unless awoken. Some beings such as
+undead are immune to this effect as they would be with magic.
+
+**Suspend Life**
+
+**Range: Self**
+
+**Duration: Special**
+
+A being with this power may place themselves into a trance that nears
+suspended animation. They feel the passage of one day for every 10 years
+that actually pass. Though on a slower schedule, the being grows hungry
+after a “day” without food (though 10 years pass in actuality) and
+begins to suffer the effects of thirst and starvation as appropriate. It
+takes four rounds to draw oneself out of this trance.
+
+**Telekinesis**
+
+**Range: 120’**
+
+**Duration: 1 hour**
+
+The user can move objects using mental power alone. The amount of weight
+they can lift and move is 20 pounds per level.
+
+**Telepathy**
+
+**Range: 120’**
+
+**Duration: 1 turn**
+
+Direct mind-to-mind communication with intelligent beings, transcending
+language. Telepathic contact with an Old One is foolish, and the Referee
+will most likely require a saving throw to avoid madness and/or horror.
+
+Races
+
+Races do not have ability score requirements. You can be a dwarf with 8
+constitution or a halfling with 18 strength. There are no class
+restrictions for specific races. As long as you fulfill the ability
+requirements for the class, any race can be any class.
+
+# Humans
+
+**Size:** Medium
+
+**Languages:** Common
+
+**Description:** Humans are the most diverse and adaptable of all the
+races, found in every corner of the world, but the majority live in the
+land of Draeneria. Humans have relatively short lifespans compared to
+other races. But the ability to adapt to any situation makes them an
+exceptional jack-of-all-trades.
+
+**Decisiveness:** Humans have an innate ability to quickly assess and
+adapt to combat situations. Once per combat encounter, when the party
+rolls for group initiative, the human player can opt to reroll the
+initiative dice. The second roll must be used, regardless of whether it
+is higher or lower than the first. This is limited to once per party
+initiative.
+
+**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
+to loyalty and morale.
+
+**Ability Score Bonus:** +1 in any score.
+
+#  
+
+# Elves
+
+**Size:** Medium
+
+**Languages:** Common, Elvish
+
+**Description:** In the realm of Fae'lor, the elves live by the snowy
+mountains and forests. Distinguished by their tall builds and pointed
+ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
+a captivating aura of wisdom and resilience. Their skin, pale like
+winter's frost, hints at their affinity for the cold climates they call
+home.
+
+**Keen Senses:** Elves have naturally sharp eyesight that allow them to
+detect secret doors and hidden parts of rooms in a 4-in-6 chance when
+searching.
+
+**Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
+inflict.
+
+**Ability Score Bonus:** +1 Constitution or +1 Mind
+
+# Dwarves
+
+**Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
+though they were Medium
+
+**Languages:** Common, Dwarvish
+
+**Description:** Originating from the mountains in Dworinheim, these
+dwarves have built a society symbiotic with the living rock. Through
+generations of shared existence, they have cultivated a unique bond with
+the mountain stone. This mystical bond allows them to coax the mountain
+into shifting and changing, creating their intricate homes and defenses.
+
+Their tough, compact bodies are akin to boulders, with skin appearing as
+though dusted with crushed granite. Deep-set eyes flicker with the
+steady glow of precious gemstones, reflecting their hearty souls and
+unwavering determination. It is said to be a natural bond with the web
+of chaos magic that allows them to meld rock.
+
+**Mountain's Child:** Born and raised in the heart of mountains, dwarves
+can navigate through caves and tunnels without losing their way**.**
+This includes moving at normal pace without getting lost and the ability
+to approximate their depth underground.
+
+**Stone Shaping:** With their unique bond to the earth, dwarves have the
+ability to manipulate small amounts of stone, shaping it to their will.
+This can be used for a variety of practical applications, from creating
+simple tools to sealing doorways. The amount of time depends on the tool
+or scale of the build.
+
+**Ability Score Bonus:** +1 Strength or +1 Constitution
+
+# Draconians
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** Scaled, tall but wingless creatures, the Draconians are
+an ancient race closely related to dragons. The inherited magical blood
+makes any draconian have the potential to be a powerful mage if they
+wish to make use of it.
+
+**Magical Bloodline**: The magical dragon blood within Draconians grants
+them a unique spell resistance. Draconians gain a save bonus of +2 vs
+spells.
+
+**Scales:** Draconians have scales that cover their bodies, granting
+them natural armor. They gain a +2 bonus to their armor class when not
+wearing any armor. If wearing armor, choose the highest number of the
+two as the AC.
+
+**Ability Score Bonus:** +1 Strength or +1 Mind
+
+# Gnomes
+
+**Size:** Small
+
+**Languages:** Common, Gnomish
+
+**Description:** Known for their brilliant minds and agile hands, Gnomes
+are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
+often overlooked, but their keen wit and resourcefulness have earned
+them respect amongst the other races. Their skin varies from pale to
+earthy brown, and they have large round eyes and inquisitive
+expressions.
+
+**Tinkering:** Gnomes are particularly good with machinery and traps.
+They have a 4-in-6 chance in tinker.
+
+**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
+save against illusions with a +2 bonus.
+
+**Ability Score Bonus:** +1 Dexterity or +1 Mind
+
+#  
+
+# Solarians
+
+**Size:** Medium
+
+**Languages:** Common, Infernal
+
+**Description:** The supposedly oldest race in Akladell. The Solarians
+are creatures with scorched features. Pointed ears, claws and horns.
+Standing on digitigrade legs, their exterior bodies are roughly the same
+size as humans. Some parts are made out of extruding sharp bone, almost
+like spikes.
+
+They are said to be a descendant from the demons who made their way to
+the outside world from the abyss a long time ago.
+
+**Claws:** Solarians have naturally deadly claws. Instead of using the
+base of 1 damage when using an unarmed strike, Solarians deal 1d4
+damage.**  
+**
+
+**Fiery Resilience:** Solarians are resistant to fire due to their
+infernal heritage. They take half damage from fire-based attacks and can
+withstand temperatures that would harm others without penalty.
+
+**  
+Ability Score Bonus:** +1 Strength or +1 Charisma
+
+# Halflings
+
+**Size:** Small
+
+**Languages:** Common, Halfling
+
+**Description:** Halflings are a small, hearty race known for their
+jovial spirits and ability to blend into any society. Their height
+ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
+curly hair, and large, expressive eyes. Despite their size, Halflings
+are known for their friendly nature and sometimes incredible luck.
+
+**Lucky:** Halflings are notoriously lucky. They can reroll one failed
+saving throw per day.
+
+**Nimble Navigator:** Halflings are experts at moving through difficult
+terrain. They can move through such terrains at their normal speed.
+
+**Ability Score Bonus:** +1 Charisma
+
+#  
+
+# Goblins
+
+**Size:** Small
+
+**Languages:** Common, Goblin
+
+**Description:** Goblins are small, agile creatures with green or yellow
+skin, standing around 3 to 4 feet tall, known for their mischievous and
+disruptive tendencies. Residing in caverns or decaying fortresses, they
+are highly adaptable, able to make use of discarded materials and thrive
+in diverse environments. Despite their reputation as pests, some manage
+to overcome their innate disarray, aligning with nobler causes.
+
+**Survivalists:** In any environment, Goblins succeed at finding food,
+water, and shelter for only themselves on a roll of 3-6 on a d6.
+
+**Bargain Hunter:** Goblins have an uncanny knack for finding useful
+items in the least expected places. Once a day, when they have time to
+explore an area (1 hour), they can find small items or coins that others
+might overlook depending on the area (subject to DM's discretion).
+
+**Ability Score Bonus:** +1 Dexterity
+
+# Radigens
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** The Radigens are a unique and mysterious race, rumored
+to be humans who underwent a grotesque transformation. As a result of
+exposure to unknown magic or radiation, they have evolved into reptilian
+beings. Their skin is a pale green/blue that glistens in light, as they
+always excrete liquid. Their bodies are covered with exposed venom
+glands, lightly protected by strong, scaly skin that varies in shades
+from dark green to a dull brown. They possess a set of poisonous glands
+that are capable of producing a lethal toxin.
+
+**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
+poison can be extracted from a Radigen, which can be used to concoct
+dangerous potions. This process takes a week and usually costs around
+1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
+extracted poison is potent enough to inflict severe damage on those
+ingesting it, possibly resulting in immediate death.
+
+**Toxic Resistance:** Due to their poisonous nature, Radigens have
+developed a natural resistance to toxins and radiation. They save vs
+poison and venom with a +2 bonus.
+
+**Attribute Score Bonus:** +1 Constitution
+
+# Kobolds
+
+**Size:** Small
+
+**Languages:** Common, Draconic
+
+**Description:** Kobolds are small, reptilian creatures that dwell in
+extensive underground warrens. These crafty beings are known for their
+strategic cunning and pack tactics, often overwhelming foes with
+superior numbers. Despite their small stature, Kobolds are fierce when
+cornered and are tenacious survivors, always ready to protect their lair
+and kin. They have dragon-like scales that usually range from a rusty
+brown color to dark green, and large, sensitive eyes that shine in the
+dark.
+
+**Trapsmith:** Kobolds are renowned for their ability to craft traps.
+They have a 4-in-6 chance to construct a simple trap or alarm system
+given appropriate materials and time.**  
+**
+
+**Pack Tactics:** Kobolds are at their best when they outnumber their
+enemies. When a Kobold is engaged in combat with more allies than
+enemies, they gain +1 to their attack rolls.
+
+**Ability Score Bonus:** +1 Dexterity
+
+# Avians
+
+**Size:** Medium
+
+**Languages:** Common, Avian
+
+**Description:** Avians, or Birdfolk as some call them, are a remarkable
+race of winged beings, bearing a striking resemblance to the bird
+species of the realm. Intricately patterned feathers cover their bodies,
+reflecting a multitude of hues under the sunlight. Despite not being
+able to fly, they are known for their sharp minds and keen sight, Avians
+have carved a niche for themselves as skilled artisans, perceptive
+scholars, and nimble acrobats.
+
+**Gliding:** Despite their lost ability to fly, Avians have retained a
+limited ability to glide using their wings. They can safely descend from
+heights and cross long distances without sustaining fall damage, at a
+rate of 1 foot forward or sideways for every 1 foot they fall down.
+
+**Bird’s Eye View:** Avians have exceptional vision, honed by
+generations spent navigating the sky. They can see twice as far as most
+races and can discern details that others might miss, granting them a
+2-in-6 chance to spot hidden doors, traps, or other oddities when
+entering a room.
+
+**Ability Score Bonus:** +1 Mind
+
+# Orcs
+
+**Size:** Medium
+
+**Languages:** Common, Orcish  
+  
+**Description:** Born of the rugged Stormhenge, an isle ensconced in
+mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
+their resilient skin. Their robust frames and unwavering expressions
+echo a lineage woven into the very fabric of the land. Revering valor,
+martial prowess, and unyielding courage, their existence finds purpose
+in the crucible of warfare. As masterful blacksmiths, they forge not
+only crescent-moon blades that glint like midnight stars, but also the
+magical essence of the arcane into their weapons and armor. Each plate
+mail, intricately designed, stands as a testament to their crafting
+mastery, embellished with the symbols of their lineage.  
+  
+**Wilderness Guide:** Orcs are keenly aware of their natural
+surroundings and can always retrace their path. They cannot become lost
+except by magical means.
+
+**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
+enchantments on weapons and armor.  
+  
+**Ability Score Bonus:** +1 Strength
+
+Items
+
+# Starting Gold
+
+| **Class**  | **Starting Gold Pieces (x10)** |
+|------------|--------------------------------|
+| Fighter    | 5d4 (50-200)                   |
+| Specialist | 2d6 (20-120)                   |
+| Law Mage   | 3d6 (30-180)                   |
+| Chaos Mage | 2d4 (20-80)                    |
+| Barbarian  | 2d6 (20-120)                   |
+
+# Equipment Tables
+
+## General Equipment
+
+<table>
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 6%" />
+<col style="width: 49%" />
+<col style="width: 9%" />
+<col style="width: 10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Item</strong></th>
+<th><strong>Cost</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Weight</strong></th>
+<th><strong>Stackable</strong></th>
+</tr>
+<tr class="odd">
+<th>Backpack</th>
+<th>5 GP</th>
+<th>A sturdy canvas sack with straps, designed to comfortably carry up
+to 8 slots of gear.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Bandage</th>
+<th>2 GP</th>
+<th>A length of clean cloth used to wrap wounds and halt bleeding.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Barrel</th>
+<th>2 GP</th>
+<th>Can be filled with water or any other type of liquid. Up to 20 units
+of the chosen kind.</th>
+<th>2 (+2 per 10 units)</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Bedroll</th>
+<th>2 SP</th>
+<th>A rolled-up mattress and blanket, providing basic comfort.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Bell</th>
+<th>1 GP</th>
+<th>A small metal instrument that chimes when struck, useful for
+signaling or attracting attention.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="header">
+<th>Belt</th>
+<th>1 SP</th>
+<th>A belt that can hold useful equipment such as lanterns or belt
+pouches.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Belt Pouch</th>
+<th>1 GP</th>
+<th>A compact pouch that can hold up to 100 coins, or quick draw slots
+for items such as potions.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Block and tackle</th>
+<th>5 GP</th>
+<th>A combination of a rope threaded between two pulleys. Used to lift
+heavy weight when fastened to a ceiling.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Bottle of wine, glass</th>
+<th>2 GP</th>
+<th>This standard wine bottle, crafted from clear glass. Holds a
+generous 25 ounces of wine, or 750ml.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Candle</th>
+<th>1 SP</th>
+<th>Can be used to light up a 5’ radius. A normal candle will burn about
+3 turns per inch of height.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Case (map or scroll)</th>
+<th>1 GP</th>
+<th>A tubular oiled leather case used to carry maps, scrolls, or other
+paper items. The case will have a water-resistant (but not waterproof)
+cap which slides over the end. A standard scroll case can hold up to 10
+sheets of paper, or a single scroll of up to seven spells.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Chalk piece</th>
+<th>2 SP</th>
+<th>A single piece of chalk. Useful for "blazing a trail" through a
+dungeon or ruin.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Cloak</th>
+<th>2 GP</th>
+<th>A traveler's cloak made out of silk. Often in black, gray or
+brown.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Crowbar</th>
+<th>2 GP</th>
+<th>A small portable crowbar that can be strapped to a backpack.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Flint &amp; steel</th>
+<th>1 GP</th>
+<th>Flint and fire steel, used to light small fires. Quick to light a
+torch - or anything else with abundant, exposed fuel. Lighting any other
+fire takes 1 minute.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Garlic, charmed</th>
+<th>10 GP</th>
+<th><p>A head of garlic with hexes and blessings on</p>
+<p>it. Normal garlic has a minor effect on undead, but charmed garlic
+works much better.</p></th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Glass bottle or vial</th>
+<th>1 GP</th>
+<th>A small empty vial bottle. Can be filled with 4 ounces of
+liquid.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="header">
+<th>Grappling Hook</th>
+<th>3 GP</th>
+<th>A grappling hook, when tied to a rope, can anchor the rope to
+various protrusions such as battlements, window ledges, tree limbs, and
+more.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Holy Water, vial</th>
+<th>10 GP</th>
+<th>Holy water, lethal to undead, can be thrown like a grenade or
+splashed on incorporeal entities when adjacent. Each flask deals 1d8
+damage to the direct target and 1d6 to any additional undead within a
+5-foot radius. Its effect lasts for one round.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="header">
+<th>Ink, vial</th>
+<th>8 GP</th>
+<th>Mostly used to write down spell transcriptions into spellbooks. One
+vial of ink is enough for one spell.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Ladder, 10 ft.</th>
+<th>1 GP</th>
+<th>A wooden ladder, 10 feet in length, used for scaling walls or
+reaching high places.</th>
+<th>2</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Lantern</th>
+<th>5 GP</th>
+<th>A Lantern will provide light covering a 30' radius; dim light will
+extend about 20' further. A lantern will consume a flask of oil in 24
+turns.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Lantern, bullseye</th>
+<th>14 GP</th>
+<th>These shine a beam of light 60 feet long but only 10 feet wide
+through a hole in the lantern’s metal cylinder. They have a hinged cover
+that allows the light to be hidden.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Lantern, hooded</th>
+<th>8 GP</th>
+<th>A Hooded Lantern allows the light to be hidden or revealed as the
+user pleases; in all other ways it performs as an ordinary lantern.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Lockpick</th>
+<th>1 GP</th>
+<th>Lockpicks, used alongside Thieves' Tools, are essential for
+unlocking locks or similar mechanisms. If an attempt to pick a lock
+fails, the lockpick will snap on a roll of 1-6.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="header">
+<th>Oil, flask</th>
+<th>1 GP</th>
+<th>An oil flask can be hurled as a fiery grenade. When ignited, a
+direct hit inflicts 1d8 fire damage, plus 1d6 damage for a duration of
+1d6 rounds. 1d3 splash damage is inflicted to anything within 3
+feet.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Pole (10 feet)</th>
+<th>1 GP</th>
+<th>A wooden pole, similar to a spear without a spearhead.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Quiver</th>
+<th>2 GP</th>
+<th>Granting easy access to arrows and bolts. A typical quiver is made
+out of leather or thick canvas and can hold around 20 of either type of
+ammunition.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Sack, large</th>
+<th>2 GP</th>
+<th>A sturdy canvas sack ideal for holding various goods. It can contain
+up to 10 slots or 4 cubic feet of items, approximately 1,000 coins.</th>
+<th>—</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Sack, small</th>
+<th>1 GP</th>
+<th>A durable, smaller canvas sack suitable for lighter loads. It can
+accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500
+coins.</th>
+<th>—</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Tent, large (ten men)</th>
+<th>25 GP</th>
+<th>An expansive shelter, this large tent can comfortably accommodate up
+to ten people. It stands tall with reinforced wooden poles and is
+anchored firmly by robust stakes. Multiple flaps offer ventilation,
+while a centralized opening provides easy access. Its interior is
+spacious, allowing for both sleep and communal gatherings. This tent is
+perfect for large adventuring parties or those setting up a
+semi-permanent camp.</th>
+<th>2</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Tent, small (one man)</th>
+<th>5 GP</th>
+<th>A compact and portable shelter, this small tent is designed to
+comfortably house a single individual. Made from durable canvas, its
+beige coloration blends naturally with most terrains. The tent’s design
+is ideal for travelers who prioritize mobility and speed of setup.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="odd">
+<th>Thieves' tools</th>
+<th>20 GP</th>
+<th>Required for the use of Thief abilities such as opening locks and
+removing traps. These abilities may not be usable without appropriate
+tools.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Torch</th>
+<th>2 SP</th>
+<th>Sheds light over a 30' radius, with dim light extending about 20'
+further, and burns for 1d4+4 turns. Of course, a torch is also useful
+for setting flammable materials (such as cobwebs or oil) alight.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Waterskin</th>
+<th>1 GP</th>
+<th>A container for drinking water or wine; though generally water is
+taken into a dungeon or wilderness environment. The standard waterskin
+holds one quart of liquid, which is the minimum amount required by a
+normal character in a single day. Note that the given 2 pound weight is
+for a full skin; an empty skin has negligible weight.</th>
+<th>— ( +1 when filled)</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Ration</th>
+<th>2 GP</th>
+<th>A packaged meal providing the necessary sustenance for an adventurer
+for one day.</th>
+<th>1</th>
+<th>☑️</th>
+</tr>
+<tr class="odd">
+<th>Rope, hemp (50 feet)</th>
+<th>2 GP</th>
+<th>Standard hemp rope.</th>
+<th>2</th>
+<th>☐</th>
+</tr>
+<tr class="header">
+<th>Rope, silk (50 feet)</th>
+<th>10 GP</th>
+<th>Silk rope, lighter than hemp but just as sturdy.</th>
+<th>1</th>
+<th>☐</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+### Armor
+
+| **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
+|-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
+| Unarmored         | 10              | —        | Flesh and bone.                                                                   | —          | —        |
+| Padded or Quilted | 12              | 15 GP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
+| Leather           | 13              | 20 GP    | Tanned and treated animal hides, flexible and lightweight.                        | 1          | Light    |
+| Hide              | 13              | 10 GP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
+| Studded Leather   | 14              | 30 GP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
+| Ring Mail         | 14              | 25 GP    | A base of leather interwoven with metal rings.                                    | 2          | Medium   |
+| Brigandine        | 15              | 80 GP    | A cloth garment with small metal plates riveted to the inside.                    | 2          | Medium   |
+| Chain Mail        | 15              | 60 GP    | Interlocking metal rings forming a flexible mesh.                                 | 3          | Medium   |
+| Scale Mail        | 16              | 80 GP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
+| Splint Mail       | 16              | 100 GP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
+| Banded Mail       | 17              | 200 GP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
+| Plate Mail        | 17              | 300 GP   | Large metal plates covering vital areas, with chain or leather in between.        | 3          | Heavy    |
+| Field Plate Mail  | 18              | 500 GP   | Comprehensive armor of shaped metal plates, offering better mobility.             | 4          | Heavy    |
+| Full Plate Mail   | 19              | 1,500 GP | An all-encompassing suit of articulated metal plates, the pinnacle of protection. | 4          | Heavy    |
+
+### Shields
+
+| **Shield Type** | **AC Bonus Melee/Ranged** | **Cost** | **Description**                                                                      | **Weight** |
+|-----------------|---------------------------|----------|--------------------------------------------------------------------------------------|------------|
+| Buckler         | +1/+0                     | 5 GP     | A small, round shield with a wooden handle allowing for quick movements and parries. | 1          |
+| Medium Shield   | +1/+1                     | 7 GP     | A versatile shield offering balanced protection and mobility.                        | 1          |
+| Tower Shield    | +1/+3                     | 15 GP    | A large, imposing shield providing maximum coverage.                                 | 2          |
+
+### Melee Weapons
+
+**Axes**
+
+| **Weapon Type**          | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                  | **Weight** |
+|--------------------------|----------|------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Hand Axe                 | S        | 1d6        | 4 GP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.                                                           | 1          |
+| Battle Axe               | M        | 1d8        | 7 GP     | A large, double-edged axe crafted for combat.                                                                                                                    | 1          |
+| Great Axe                | L        | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Requires +10 Strength to use properly**. | 2          |
+| Pickaxe (Military Pick)  | S        | 1d6        | 6 GP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor.                                                                           | 1          |
+| Mattock (Footman's Pick) | M        | 1d8        | 8 GP     | A versatile battlefield tool with a blade on one side and a pick on the other. Can be utilized for basic excavation tasks.                                       | 1          |
+
+**Daggers**
+
+| **Weapon Type**  | **Size** | **Damage** | **Cost** | **Description**                                                      | **Weight** | **Stackable** |
+|------------------|----------|------------|----------|----------------------------------------------------------------------|------------|---------------|
+| Dagger           | S        | 1d4        | 4 GP     | A lightweight, pointed blade. Easily concealed for stealthy strikes. | 1          | ☑️            |
+| Defending Dagger | S        | 1d4        | 7 GP     | A dagger specially designed with a broader guard.                    | 1          | ☑️            |
+| Silver Dagger    | S        | 1d4        | 14 GP    | A dagger with a silver blade.                                        | 1          | ☑️            |
+
+**Swords**
+
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 6%" />
+<col style="width: 45%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Weapon Type</strong></th>
+<th><strong>Size</strong></th>
+<th><strong>Damage</strong></th>
+<th><strong>Cost</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+<tr class="odd">
+<th>Shortsword / Cutlass</th>
+<th>S</th>
+<th>1d6</th>
+<th>6 GP</th>
+<th>A versatile one-handed blade, with the shortsword being
+straight-edged and the cutlass boasting a slight curve.</th>
+<th>1</th>
+</tr>
+<tr class="header">
+<th>Longsword / Scimitar</th>
+<th>M</th>
+<th>1d8</th>
+<th>10 GP</th>
+<th>A balanced, medium sized and versatile weapon.</th>
+<th>1</th>
+</tr>
+<tr class="odd">
+<th>Claymore</th>
+<th>L</th>
+<th>1d10</th>
+<th>25 GP</th>
+<th><p>A large sword, designed for powerful swings and longer reach. Its
+size demands respect.</p>
+<p><strong>Requires +10 Strength to use properly</strong>.</p></th>
+<th>2</th>
+</tr>
+<tr class="header">
+<th>Zweihänder</th>
+<th>L</th>
+<th>1d12</th>
+<th>50 GP</th>
+<th><p>A colossal two-handed sword with a lengthy grip and imposing
+blade. Requires both hands and significant strength to wield
+effectively.</p>
+<p><strong>Requires +10 Strength to use properly</strong>.</p></th>
+<th>2</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+**Hammers & Maces**
+
+| **Weapon Type**   | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                                      | **Weight** |
+|-------------------|----------|------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Warhammer         | S        | 1d6        | 4 GP     | A balanced one-handed weapon, featuring a hammerhead on one side and often a spike on the other, ideal for crushing armor.                                                           | 1          |
+| Light Mace        | S        | 1d6        | 4 GP     | Shorter and more maneuverable than a normal mace, designed for swift strikes.                                                                                                        | 1          |
+| Mace              | M        | 1d8        | 6 GP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                                                         | 1          |
+| Morningstar       | M        | 1d8        | 6 GP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                                                 | 1          |
+| Maul / Great Mace | L        | 1d10       | 10 GP    | Requiring two hands, the massive mace head can easily shatter shields and armor.                                                                                                     | 2          |
+| Greathammer       | L        | 1d12       | 35 GP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Requires 10+ Strength to use properly**. | 2          |
+
+**Spears & Polearms**
+
+| **Weapon Type**   | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                          | **Weight** |
+|-------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Spear, Thrown     | M        | 1d6        | 5 GP     | Lightweight and aerodynamic, this spear is crafted for distance and can simply be hurled at enemies.                                                     | 1          |
+| Spear, One-handed | M        | 1d6        | 5 GP     | Balanced for close combat, its sharp point excels for multiple quick stabs.                                                                              | 1          |
+| Spear, Two-handed | L        | 1d8        | 5 GP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts.                                              | 1          |
+| Lance             | L        | 1d8        | 10 GP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          |
+| Quarterstaff      | M        | 1d6        | 2 GP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          |
+| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. | 2          |
+
+**Flails**
+
+| **Weapon Type** | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                     | **Weight** |
+|-----------------|----------|------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Flail           | M        | 1d8        | 8 GP     | Comprising a handle and a metal ball connected by a chain, its movement can catch foes off guard.                                                   | 1          |
+| Great Flail     | L        | 1d10       | 12 GP    | A larger, two-handed version of the flail, its swings are more powerful and its impact more devastating. **Requires 10+ Strength to use properly**. | 2          |
+| Whip            | M        | 1d3/1d6    | 3 GP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes.                       | 1          |
+
+**Other Melee Weapons**
+
+| **Weapon Type**           | **Size** | **Damage** | **Cost** | **Description**                                                                                                                            | **Weight** |
+|---------------------------|----------|------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------|------------|
+| Club / Walking Staff      | M        | 1d4        | 2 CP     | Simple yet effective, this wooden weapon can deliver solid blows in combat.                                                                | 1          |
+| Silver Walking Staff      | M        | 1d4        | 4 GP     | A walking staff adorned with silver details.                                                                                               | 1          |
+| Greatclub                 | L        | 1d8        | 3 GP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Requires 10+ Strength to use properly**. | 2          |
+| Hook                      | S        | 1d4        | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful.             | 1          |
+| Sickle                    | S        | 1d6        | 2 GP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.                             | 1          |
+| Scythe                    | L        | 1d8        | 5 GP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent.                   | 2          |
+| Crowbar                   | M        | 1d6        | 2 GP     | This metal tool is indispensable for prying open objects and can serve as a makeshift weapon.                                              | 1          |
+| Shovel                    | M        | 1d6        | 2 GP     | Primarily a digging tool, its broad blade can also be employed as a weapon.                                                                | 1          |
+| Pitchfork                 | M        | 1d6        | 1 GP     | With its long handle and sharp tines, it's designed for farming but can become a formidable weapon in desperate hands.                     | 1          |
+| Frying Pan                | S        | 1d4        | 8 SP     | Cast iron and heavy, it's meant for cooking but can deliver a surprisingly effective smack.                                                | 1          |
+| Torch                     | S        | 1d3        | 2 SP     | While its primary purpose is to illuminate, its burning end can be a deterrent to foes.                                                    | 1          |
+| Caestus / Spiked Gauntlet | S        | 1d3        | 1 GP     | A leather glove reinforced with metal and sometimes spikes, it transforms a fist into a weapon of its own.                                 | 1          |
+
+### Ranged Weapons
+
+| **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                | **Weight** | **Stackable** | **Rate** | **Range** |
+|----------------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|----------|-----------|
+| Shortbow                   | M        |            | 25 GP    | A small bow made of wood or horn used by those requiring short range archery attacks.                                                                          | 1          | ☐             | 2        | 50ft      |
+| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | ☑️            |          |           |
+| Silver Shortbow Arrow      |          | 1d6        | 2 GP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | ☑️            |          |           |
+| Longbow                    | L        |            | 60 GP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Requires 10+ Strength to use properly**.    | 1          | ☐             | 1        | 70ft      |
+| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | ☑️            |          |           |
+| Silver Longbow Arrow       |          | 1d8        | 4 GP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | ☑️            |          |           |
+| Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60ft      |
+| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑️            |          |           |
+| Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑️            |          |           |
+| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Requires 10+ Strength to reload properly**. | 2          | ☐             | 1/2      | 80ft      |
+| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑️            |          |           |
+| Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑️            |          |           |
+| Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 30ft      |
+| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | ☑️            |          |           |
+| Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑️            |          |           |
+| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑️            | 3        | 15ft      |
+
+Spells
+
+# Chaos Mage
+
+## Cantrips
+
+| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
+|--------------------|--------------|---------------------------|-------------|---------------|
+| Stitch / Ravel (B) | Gather       | Smokepuff / Bluelight (W) | Firefinger  | Sprout        |
+| Clean / Dirty (G)  | Open / Close | Exterminate               |             | Warm / Chill  |
+|                    | Color        |                           |             | Dry / Damp    |
+|                    | Tweak        |                           |             |               |
+|                    | Change       |                           |             |               |
+
+### Level 1 Spells
+
+| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
+|----------------------|----------------|----------------|------------------|----------------|
+| Alarm                | Change Self    | Charm Person   | Burning Hands    | Find Familiar  |
+| Armor                | Detect Magic   | Chill Touch    | Enlarge / Reduce | Lasting Breath |
+| Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
+| Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
+| Mending              | Identify       |                | Magic Missile    |                |
+| Protection from Evil | Message        |                | Spider Climb     |                |
+| Shield               | Read Magic     |                |                  |                |
+|                      | Unseen Servant |                |                  |                |
+|                      | Ventriloquism  |                |                  |                |
+|                      | Wizard Mark    |                |                  |                |
+
+# Law Mage
+
+### Level 1 Spells
+
+| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
+|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
+| Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
+| Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
+| Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
+| Protection from Evil                       | Read Magic         |               |             | Purify Food and Drink |
+
+Cantrip Descriptions
+
+**Stitch (W) / Ravel (B)**
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+**AoE:** Special
+
+This cantrip magically sews seams in cloth or leather:
+
+- **Stitch:** About 20 yards of cloth can be stitched, but only about 2
+  yards of leather. The seam created is neither stronger or weaker than
+  a seam done without magic.
+
+**Reversed: Ravel**
+
+Tears the same amount of yards in cloth instead of stitching. Can be
+concentrated on to make a neat tear or simply ripped quickly.
+
+**Clean (W) / Dirty (G)**
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+**AoE:** 4 square yards
+
+This cantrip enables the caster to remove heavy soil, dirt, and like
+foreign objects:
+
+- **Clean:** These surfaces are then spotless. Usually only one type of
+  material is treated in a single application, as care must be taken in
+  removal of pigments and the like.
+
+**Reversed: Dirty**
+
+Dirt, stains or other types of filth can magically be applied. This form
+is not recognized as illusion magic as it is a real form conjured.
+
+**Gather (U)**
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+**AoE:** 1 square yards
+
+This cantrip enables the caster to neatly gather numerous small objects
+into a stack or pile:
+
+- **Objects:** Nails, nuts, coins, papers, or similar type ob­jects can
+  be stacked on top of each other while styled under the laws of
+  gravity.
+
+<!-- -->
+
+- **Selection:** Can be used selectively, for instance to separate one
+  type of material from another, but only the selected type is gathered
+  neatly.
+
+**Open / Close (U)**
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+Opens any unlocked door or portal from a distance:
+
+- **Force:** An invisible force pulls a door, window, trapdoor or even a
+  bag, box, bottle open. The door has to be unlocked and will stop at
+  anything blocking it. The force applied is not enough to damage or
+  harm creatures larger than a rat.
+
+**Reversed: Close**
+
+Closes any object in a reverse fashion.
+
+**Color (U)**
+
+**Range:** 30'
+
+**Duration:** A month
+
+**Casting Time:** 1 round
+
+**AoE:** 1 cubic yard
+
+Covers an area with a new or faded color:
+
+- **Changes:** Brings color to any object within range. This can be
+  completely different from the original hue, brightened or dulled.
+
+- **People:** Can change the color of skin and hair as well.
+
+**Tweak (U)**
+
+**Range:** 30'
+
+**Duration:** 1 round
+
+**Casting Time:** 1 round
+
+The caster causes an unseen thumb and forefinger to harmlessly, but
+annoyingly, tweak some portion of a chosen sub­ject:
+
+- **Areas:** Nose, ear, beard, moustache, whiskers, or tail or similar.
+
+- **Distraction: T**he cantrip's effects does not disturb spellcasting,
+  although the tweaking might distract any creature by causing it to
+  turn to dis­cover the source of the annoyance.
+
+**Change (U)**
+
+**Range:** 30'
+
+**Duration:** 1 round + 1 round/level
+
+**Casting Time:** 1 round
+
+The caster alters one small object or creature to another. The object or
+creature can weigh only a few ounces, and must be small enough to fit in
+the caster's hand:
+
+- **Restrictions:** The change must be within the same category of
+  item/creature. For example: A piece of parchment can be changed into a
+  brightly colored square of linen, and then the cloth changed into a
+  rose by another use of the cantrip. Likewise, a bird can be changed
+  into a bat, the bat to a flying squirrel by another use of the same
+  type of cantrip, and so forth.
+
+**Smokepuff (B) / Bluelight (W)**
+
+**Range:** 30'
+
+**Duration:** 1 round + 1 round/level
+
+**Casting Time:** 1 round
+
+A puff of actual smoke appears in front of the spellcaster in a desired
+location which ascends or is dis­sipated as a normal cloud of smoke,
+depending on the prevailing conditions:
+
+- **Color:** The caster can create smoke that is white, gray, black,
+  brown, yellow, or green.
+
+**Reversed: Bluelight**
+
+This cantrip enables the caster to conjure a small sphere of glowing
+blue radiance. The light has an eerie effect when seen from a distance,
+but the 3-inch sphere only illuminates an area of 5 feet around itself.
+
+**Exterminate (B)**
+
+**Range:** 30'
+
+**Duration:** Instant
+
+**Casting Time:** 1 round
+
+**AoE:** ½ cubic foot
+
+When this cantrip is used, the caster may kill a small pest such as a
+fly, mouse, rat, beetle, or the like:
+
+- **Restrictions:** This cantrip is not effective against magical
+  creations and normal-sized creatures magically shrunk to insect-size,
+  nor on polymorphed creatures and similarly enchanted beings.
+
+- **Area:** If the subject is very small, an area of up to one-half
+  cubic foot can be rid of pests
+
+**Firefinger (R)**
+
+**Range:** Caster
+
+**Duration:** 1 round
+
+**Casting Time:** 1 round
+
+**AoE:** 6-inch line
+
+Enables the caster to cause a jet of flame up to a half foot long to
+shoot forth from their finger:
+
+- **Ignition:** The flame is hot and ignites combustible materials such
+  as parchment, twigs, kindling, and the like without difficulty,
+  providing the materials are relatively dry.
+
+**Sprout (G)**
+
+**Range:** Caster
+
+**Duration:** 1 round
+
+**Casting Time:** 1 round
+
+**AoE:** 3 square feet
+
+By means of this cantrip, the caster causes ac­celeration in the growth
+of plants:
+
+- **Growth: T**he cantrip causes seeds to shoot forth tiny sprouts,
+  newly sprouted plants to grow an inch or so, buds to flower, and so
+  on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
+  cantrip.
+
+**Warm / Chill (G)**
+
+**Range:** 30'
+
+**Duration:** 1 round
+
+**Casting Time:** 1 round
+
+The caster warms a liquid, solid object or creature by 10 °C:
+
+- **Restrictions:** The cantrip cannot raise the temperatures of a
+  living creature above its normal body temperature, nor the temperature
+  of an object above 60 °C.
+
+**Reversed: Chill**
+
+Cools an object or creature by 10 °C instead. Subject to a minimum
+tempera­ture of freezing, (0 °C)
+
+**Dry / Damp (G)**
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+**AoE:** 3 square feet
+
+Dries an object:
+
+- **Use:** This cantrip removes dampness and excess moisture from
+  materials in the area of effect. It is useful for drying cloth or
+  herbs and for cleaning chores.
+
+**Reversed: Damp**
+
+The area of effect is permeated by a fog-like dampness that leaves all
+material within damp to the touch.
+
+Spell Descriptions
+
+**Alarm (W)**
+
+**Range:** 30'
+
+**Duration:** 4 hours + 1/level
+
+**Casting Time:** 1 round
+
+**AoE:** 20'
+
+Allows the caster to set a protective alarm, as follows:
+
+- **Detection:** Reacts to any creature larger than a standard rat
+  entering or touching the designated area.
+
+<!-- -->
+
+- **Alarm Sound:** Any entity entering the guarded area without the
+  correct password triggers a loud alarm, audible within 60 feet.
+
+<!-- -->
+
+- **Dismissal:** The caster can silence the alarm at any moment.
+
+**Armor (W)**
+
+**Range:** Touch
+
+**Duration:** Special
+
+**Casting Time:** 1 round
+
+Provides a protective magical armor:
+
+- **Defense**: Acts as if the recipient is wearing scale mail (AC 14).
+
+<!-- -->
+
+- **Cumulative Effects:** Works in tandem with Dexterity and other
+  bonuses, excluding the shield spell.
+
+<!-- -->
+
+- **Durability:** Lasts until the wearer accumulates damage beyond 8
+  points + 1 per caster level.
+
+**Animal Friendship (G)**
+
+**Range:** 30’
+
+**Duration:** Permanent
+
+**Casting Time:** 1 hour
+
+- **Initial Reaction:** If the animal does not succeed in its saving
+  throw against the spell at its onset, it remains calm while the spell
+  completes. After this, the animal follows the caster willingly.
+
+<!-- -->
+
+- **Capacity:** The caster can use this magic to befriend animals with
+  up to 2 Hit Dice per their experience level. This is also the maximum
+  total Hit Dice of animals that can be befriended at a single instance,
+  capped at twice the caster's experience level.
+
+<!-- -->
+
+- **Restrictions:** Only unaligned animals can be affected by this
+  spell.
+
+**Bless (W) / Curse (B)**
+
+**Range:** 60’
+
+**Duration:** 6 turns
+
+**Casting Time:** 1 round
+
+May be used in one of two situations:
+
+- **Battle:** Allies within a 20’ square area who are not yet in melee
+  gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
+
+<!-- -->
+
+- **Ritual:** Casting bless may also form part of rituals of
+  purification or consecration, at the referee’s discretion.
+
+**Reversed: Curse**
+
+Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
+an enemy. A save versus spells is allowed to resist the blight.
+
+**Burning Hands (R)**
+
+**Range:** 5'
+
+**Duration:** Instant
+
+**Casting Time:** 1 round
+
+Produces a fan of flames that sear everything in its arc:
+
+- **Casting Stance:** Fingertips emit flames. Thumbs touch, fingers
+  spread to unleash a horizontal arc of fire.
+
+<!-- -->
+
+- **Flame Dimensions:** Flames span 5 feet long in a 120-degree arc.
+
+<!-- -->
+
+- **Damage:** Inflicts 1d3 damage + 2 points per caster level, maxing at
+  1d3+20 damage. Successful saves vs. spells result in half damage.
+
+<!-- -->
+
+- **Flammable Materials:** Materials like cloth, paper, and thin wood
+  ignite on contact. They can be extinguished in the subsequent round if
+  no other actions are taken.
+
+**Calm Animals (G)**
+
+**Range:** 120'
+
+**Duration:** 1 turn + 1 turn/level
+
+**Casting Time:** 4 rounds
+
+**AoE:** Special
+
+Allows the caster to pacify and make tranquil wild creatures, as
+detailed:
+
+- Soothing Effect: Renders normal animals docile and non-threatening.
+  The spellcaster can affect 2d4 Hit Dice of animals, with an additional
+  1 Hit Die per caster level. Animals affected by this spell don't get a
+  saving throw unless they possess magical abilities or are evidently
+  not entirely natural.
+
+<!-- -->
+
+- Specific Species: All animals affected must belong to the same
+  species, and all must be within the spell's range.
+
+**Cause Fear (B)**
+
+**Range:** Touch
+
+**Duration:** 2 turns
+
+**Casting Time:** 1 round
+
+Inflicts intense dread upon a target, as described:
+
+- **Inducing Terror:** Forces a target within 120’ to run in fear for
+  the spell's duration.
+
+<!-- -->
+
+- **Resistance:** Targets have a chance to resist this effect by
+  succeeding on a save versus spells.
+
+**Change Self (U)**
+
+**Range:** Caster
+
+**Duration:** 2d6 rounds + 2 rounds/level
+
+**Casting Time:** 1 round
+
+Grants the caster temporary appearance alteration:
+
+- **Shape-shifting:** Alter the caster’s appearance in height, build, or
+  species. Cannot mimic specific individuals.
+
+<!-- -->
+
+- **Limitations:** Only modifies visual appearance without granting
+  abilities or behaviors of the new form.
+
+**Charm Person (B)**
+
+**Range:** 120'
+
+**Duration:** Special
+
+**Casting Time:** 1 round
+
+Influences perceptions and actions of a humanoid:
+
+- **Affected Targets:** Targets single human, demihuman, or humanoid
+  monster. A successful save terminates the charm.
+
+<!-- -->
+
+- **Charm Effects:**
+
+<!-- -->
+
+- **Friendship:** Target perceives the caster as a close friend and aids
+  them.
+
+- **Commands:** If sharing a language, caster can command the charmed
+  creature.
+
+- **Resistance:** Charmed creature may resist commands against its
+  nature or alignment.
+
+- **Suicidal Commands:** Always refused by the charmed creature.
+
+- **Exclusions:** Does not affect undead and humanoid monsters of over
+  4+1 HD.
+
+<!-- -->
+
+- **Duration & Saves:**
+
+<!-- -->
+
+- Indefinite duration but allows periodic saving throws based on
+  target's INT:
+
+<!-- -->
+
+- **INT 3–8:** Save once every month.
+
+- **INT 9–12:** Save once each week.
+
+- **INT 13–18:** Save once every day.
+
+**Chill Touch (B)**
+
+**Range:** Touch
+
+**Duration:** 3 rounds + 1 round/level
+
+**Casting Time**: 1 round
+
+Envelopes caster's hand in cold energy:
+
+- **Life Force Attack:** On a successful melee attack, the touched
+  creature must save vs. spells. Failure results in 1d4 damage and a 1
+  point Strength loss. A successful save negates the effects.
+
+<!-- -->
+
+- **Effect on Strength:** Creatures without Strength ratings get a -1
+  attack roll penalty for every other successful touch. Lost Strength is
+  regained at 1 point per hour.
+
+<!-- -->
+
+- **Undead Interaction:** Undead touched are unharmed and don't lose
+  Strength. However, they must save vs. spells or flee for 1d4 rounds +
+  1 round per caster level.
+
+<!-- -->
+
+- **Healing:** Damage to strength can be magically cured or naturally
+  healed.
+
+**Command (B)**
+
+**Range:** 90’
+
+**Duration:** 1 turn
+
+**Casting Time**: 1 round
+
+The caster issues a command of a single word to a single human,
+demihuman, or human-like monster, as follows:
+
+- **Commands:** If they share a language, the caster may give a command
+  like "flee", "stop", etc, which they will obey.
+
+- **Suicidal Commands:** Causes the creature to faint for the duration.
+
+- **MIND 13+ and/or 6+ HD:** May save versus spells to avoid command.
+
+<!-- -->
+
+- **Restrictions:** Undead are not affected.
+
+**Courage (R)**
+
+**Range:** 120’
+
+**Duration:** Special
+
+**Casting Time**: 1 round
+
+**AoE:** One unit up to 200 individuals
+
+This spell imbues the target unit with a temporary burst of courage.
+
+- **Morale Boost:** The targeted unit, consisting of up to 200
+  individuals, receives a boost of confidence. In situations that would
+  typically require a morale check, the unit automatically succeeds
+  without a dice roll.
+
+<!-- -->
+
+- **Spell Termination:** After the unit succeeds in the morale situation
+  due to this spell, the magical effect ceases. From then on, they must
+  perform all morale checks as usual.
+
+**Cure Light Wounds (W) / Cause Light Wounds (B)**
+
+**Range:** Touch
+
+**Duration:** Instant
+
+**Casting Time**: 1 round
+
+This spell has two usages:
+
+- **Healing a living subject:** Restores 1d6+1 hit points of damage.
+  This cannot raise the subject’s hit points above their normal maximum.
+
+- **Curing paralysis:** Paralysing effects are negated.
+
+**Reversed:** **Cause Light Wounds**
+
+Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
+melee attack roll is required.
+
+**Detect Evil (U)**
+
+**Range:** 120’
+
+**Duration:** 6 turns
+
+**Casting Time**: 1 round
+
+Objects under an evil enchantment and living beings with evil intentions
+are caused to magically glow:
+
+- **Intent only:** The caster cannot read the thoughts of creatures with
+  evil intent.
+
+<!-- -->
+
+- **Definition of evil:** The referee must judge what is classified as
+  evil. Beings of chaotic alignment do not always have evil intent.
+  Traps and poisons, while potentially harmful, are not evil.
+
+**Detect Magic (U)**
+
+**Range:** 60’
+
+**Duration:** 2 turns
+
+**Casting Time**: 1 round
+
+Empowers the spellcaster to perceive magical presences, as outlined:
+
+- **Magical Illumination:** Objects, areas, or beings imbued with magic
+  radiate a distinct glow.
+
+<!-- -->
+
+- **Comprehensive Detection:** The distinct type of magic is revealed to
+  the spellcaster when investigated.
+
+**Detect Undead (B)**
+
+**Range:** 60' + 10'/level
+
+**Duration:** 3 turns
+
+**Casting Time:** 1 round
+
+Enables the caster to sense undead presence:
+
+- **Detection**: Locates all undead within the area of effect. Each scan
+  in a direction takes a round with the caster being motionless.
+
+<!-- -->
+
+- **Limitations on Details:** Only provides the direction of undead, not
+  specific locations or distances. Doesn't specify the type of undead,
+  only their presence.
+
+<!-- -->
+
+- **Obstruction:** The detection can pass through walls and other
+  barriers but is stopped by 1 foot of solid stone, 1 yard of wood or
+  loose earth, or a thin layer of metal.
+
+**Endure Cold & Heat (G)**
+
+**Range:** Touch
+
+**Duration:** 1 hour/level
+
+**Casting Time:** 1 round
+
+Bestows a creature with resistance to extreme temperatures, as follows:
+
+- **Thermal Protection:** The recipient is shielded from temperature
+  extremes ranging from -35°C to 55°C.
+
+<!-- -->
+
+- **Beyond Limits:** For temperatures outside these boundaries, the
+  protected creature takes 1 damage point for every hour exposed for
+  each degree past the limit.
+
+**Enlarge / Reduce (R)**
+
+**Range:** 15'/level
+
+**Duration:** 5 rounds/level
+
+**Casting Time:** 1 round
+
+This spell can either enlarge or reduce a target:
+
+- **Target Limitation:** Can be cast on a single creature or an object
+  not exceeding 10 cubic feet in volume per caster level. Must be
+  visibly seen to affect.
+
+<!-- -->
+
+- **Size Alteration:** Increases size by up to 10% per caster level in
+  height, width, and weight.
+
+<!-- -->
+
+- **Damage Alteration:** Hit points, Armor Class, and attack rolls
+  remain unchanged. However, damage rolls increase proportionally with
+  size. For example, a 160% enlarged fighter rolling a 6 for damage
+  adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class,
+  and magic bonuses remain unaltered.
+
+**Reverse Spell**: **Reduce**
+
+Shrinks creature or object by 10% per caster level, to a minimum size of
+10%. May damage materials attached to shrinking objects. Objects will
+only shrink if undamaged. Unwilling creatures get a saving throw vs.
+spells.
+
+**Erase (U)**
+
+**Range:** 90'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+**AoE:** 1 scroll
+
+Allows the spellcaster to erase writings, either magical or mundane:
+
+- **Non-magical writings:** If the caster is not touching the writing,
+  there's a 90% success rate for erasure. Otherwise, nonmagical writings
+  are automatically erased.
+
+- **Magical writings:** Must be touched. Erasure has a 30% success rate,
+  with an additional 5% chance per caster level, maxing out at 90%.
+
+- **Limitations:** Removes certain magical inscriptions, but not all.
+
+**Feather Fall (R)**
+
+**Range:** 30'/level
+
+**Duration:** 1 round/level
+
+**Casting Time:** 1 round
+
+- **Fall Rate:** Reduced to 2 feet per second (120 feet per round).
+
+<!-- -->
+
+- **Protection:** No damage upon landing when the spell is active.
+
+<!-- -->
+
+- **Capacity:** Affects a 10-foot cube area up to a combined weight of
+  200 pounds + 200 pounds/level.
+
+**Find Familiar (G)**
+
+**Range:** 1 mile/level
+
+**Duration:** Special
+
+**Casting Time:** 2d12 hours
+
+**Material Cost:** 100 gp worth of incense and herbs.
+
+Summons a familiar to aid the caster:
+
+- **Nature of Familiar:** Typically small creatures like cats, frogs,
+  crows, etc.
+
+<!-- -->
+
+- **Benefits:** Familiars grant sensory powers to their masters, can
+  converse, and serve various roles.
+
+<!-- -->
+
+- **Familiar Sensory Powers by Roll:**
+
+  - 1-5: Cat (Night vision & superior hearing)
+
+  - 6-7: Crow (Excellent vision)
+
+  - 8-9: Hawk/eagle (Superior distance vision)
+
+  - 10-11: Owl (Night vision & superior hearing)
+
+  - 12-13: Toad (Wide-angle vision)
+
+  - 14-15: Weasel (Hearing & olfactory powers)
+
+  - 16-20: No familiar available
+
+<!-- -->
+
+- **Restrictions:** Only one familiar at a time. Mistreatment or killing
+  one's familiar can have serious repercussions.
+
+**Fist of Stone (R)**
+
+**Range:** Caster
+
+**Duration:** 1 round/level
+
+**Casting Time:** 1 round
+
+- **Strength:** Allows caster to use one hand as if having a strength of
+  18.
+
+<!-- -->
+
+- **Combat:** Bonuses apply only when using the stone fist.
+
+**Floating Disc (U)**
+
+**Range:** 60'
+
+**Duration:** 3 turns + 1 turn/level
+
+**Casting Time**: 1 round
+
+The caster creates a floating disc of force:
+
+- **Appearance:** A slightly concave, circular disc that's 3 feet in
+  diameter.
+
+<!-- -->
+
+- **Load:** Can hold 100 pounds of weight per caster level.
+
+<!-- -->
+
+- **Movement:** Accompanies the caster up to a speed of 6 or maintains a
+  6-foot distance if unguided.
+
+**Hold Portal (W)**
+
+**Range:** 60'
+
+**Duration:** 1 round/level
+
+**Casting Time:** 1 round
+
+Empowers the caster to magically secure an entryway:
+
+- **Sealing:** Magically locks doors, gates, or valves regardless of
+  their material composition.
+
+<!-- -->
+
+- **Countermeasures:** Held portals can be broken with physical force. A
+  knock or successful dispel magic spell can also override the hold.
+
+**Identify (U)**
+
+**Range:** Touch
+
+**Duration:** 1 round/level
+
+**Casting Time:** Special
+
+**Components:** A pearl worth 100 gp
+
+Allows the caster to discern the nature of magical items:
+
+- **Preparation:** The 8 hours prior to casting must be dedicated to
+  purifying the items.
+
+<!-- -->
+
+- **Information:** A 10% chance per caster level (max 90%) to learn a
+  piece of information about the item.
+
+<!-- -->
+
+- **Handling:** Any effects from handling the items impacts the caster
+  which may end the spell.
+
+**Lasting Breath (G)**
+
+**Range**: Touch
+
+**Duration:** 1d4 rounds + 1 round/level
+
+**Casting Time:** 1 round
+
+Extends the duration one can hold their breath:
+
+- **Base Breath Holding:** Normally, a character holds breath for rounds
+  equal to one-third their Constitution score.
+
+<!-- -->
+
+- **Unknown Duration**: The exact spell duration is secretly rolled by
+  the DM and unknown to the recipient.
+
+<!-- -->
+
+- **Exceeding Duration:** At the end of the spell's duration, a saving
+  throw is needed, and the character must breathe or fall unconscious.
+
+**Light (W) / Darkness (B)**
+
+**Range:** 120’
+
+**Duration:** 12 turns
+
+**Casting Time:** 1 round
+
+This spell has three usages:
+
+- **Conjuring light:** In a 15’ radius. The magical light is sufficient
+  for reading, but is not as bright as daylight. The spell may be cast
+  upon an object, in which case the light moves with the object.
+
+- **Blinding a creature:** By casting the spell upon its eyes. If the
+  target fails a saving throw versus spells, it is blinded for the
+  duration. A blind creature cannot attack.
+
+- **Cancelling darkness:** Light may cancel a darkness spell.
+
+**Reversed: Darkness**
+
+Creates a 15’ radius area of magical blackness, preventing normal sight.
+Like light, it may alternatively be used to blind creatures or to dispel
+a light spell.
+
+**Magic Missile (R)**
+
+**Range:** 180' + 30'/level
+
+**Duration:** Instant
+
+**Casting Time:** 1 round
+
+**AoE:** 1 – 5 targets
+
+Launches magical missiles that target and hit with precision:
+
+- **Missile Creation:** Up to five magical missiles (depending on level)
+  emerge from the caster's fingertip, homing in on their target, even if
+  in melee. Requires visual or other detection of the target. Near-total
+  concealment or inability to discern a specific target can cause the
+  spell to fail.
+
+- **Damage:** Each missile deals 1d4+1 damage. Specific body parts or
+  inanimate objects can't be targeted. Attempting to do so wastes the
+  missile.
+
+<!-- -->
+
+- **Missile Count by Level:** Gains an additional missile every two
+  levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
+  by 9th level. Missiles can target one or multiple creatures.
+
+**  
+  
+**
+
+**Mending (W)**
+
+Range: 90'
+
+Duration: Permanent
+
+Casting Time: 1 round
+
+This spell repairs small breaks or tears in objects:
+
+- **Restoration:** Fixes broken or torn items, from jewelry to leather
+  containers up to 1 cubic foot per caster level.
+
+<!-- -->
+
+- **Limitations:** Can't repair magical items.
+
+<!-- -->
+
+- **Endurance:** One turn after the spell is cast, the magic of the
+  joining fades, and the effect cannot be magically dispelled.
+
+**Message (U)**
+
+Range: 30' + 10'/level
+
+Duration: 5 rounds/level
+
+Casting Time: 1 round
+
+Allows for long range communication through whispers:
+
+- **Targeting:** The caster points at each creature involved (up to one
+  per level).
+
+<!-- -->
+
+- **Reception:** Recipient(s) within range can hear the whispered
+  message and reply.
+
+<!-- -->
+
+- **Obstructions:** An unobstructed path is required between the caster
+  and the recipient(s).
+
+**Mount (G)**
+
+Range: 30'
+
+Duration: 2 hours + 1 hour/level
+
+Casting Time: 1 round
+
+Summons a creature to serve as a mount.
+
+- **Mount's Service:** Willingly serves the caster but vanishes at
+  spell's end.
+
+- **Types of Mounts by Level:**
+
+  - **1-3:** Mule/light horse
+
+  - **4-7:** Draft horse/war horse
+
+  - **8-12:** Camel
+
+  - **13-14:** Elephant
+
+  - **15+:** Griffon
+
+**Pass Without Trace (U)**
+
+**Range:** 60’
+
+**Duration:** 1 turn/level
+
+**Casting Time:** 1 round
+
+**AoE:** One unit up to 10 individuals
+
+Allows recipients to move across different terrains without leaving any
+footprints or scent:
+
+- **Magic Residue:** The area traversed by the affected creatures exudes
+  a magical aura for 1d6 turns after their passage.
+
+<!-- -->
+
+- **Untraceable:** Tracking any individual under this spell's effect
+  becomes impossible through conventional means.
+
+**Protection from Evil (W)**
+
+**Range:** Caster
+
+**Duration:** 12 turns
+
+**Casting Time:** 1 round
+
+This spell wards the caster from attacks by evil creature, as follows:
+
+- **Bonuses:** The caster gains a +1 bonus to saving throws against
+  attacks or special abilities of affected creatures.
+
+- **Affected creatures’ attacks:** Against the caster are penalised by
+  -1.
+
+- **Enchanted, constructed, or summoned creatures:** The spell
+  additionally prevents such creatures from attacking the caster in
+  melee, though they may still make ranged attacks. If the caster
+  engages such a creature in melee, this protection is broken (the
+  caster still gains the save and attack bonuses mentioned above).
+
+**Purify Food & Drink (G)**
+
+**Duration:** Permanent
+
+**Range:** 120’
+
+**Casting Time:** 1 round
+
+The spell enables the caster to cleanse consumables, ensuring them
+suitable to eat:
+
+- **Cleansing Effect:** Transforms spoiled, rotten, or contaminated food
+  and drink into fresh and safe consumables.
+
+- **Volume:** Up to 1 cubic foot of food and drink per caster level can
+  be purified.
+
+- **Preservation:** The spell cleanses, but does not protect against
+  future decay or spoilage.
+
+**Ray of Fatigue (B)**
+
+**Range: 30'** + 15'/level
+
+**Duration:** 1 round/level
+
+**Casting Time:** 1 round
+
+Conjures a dark ray of exhaustion:
+
+- **Fatigue Increase:** Adds one level of fatigue or encumbrance to the
+  victim. Alert characters become tired and sluggish, while already
+  fatigued characters may become near-helpless. Victims can attempt a
+  saving throw to negate the effects.
+
+- **Encumbrance Penalties:**
+
+  - **Moderately encumbered:** -1 penalty to attack rolls.
+
+  - **Heavily encumbered:** -2 penalty to attack rolls and a -1 Armor
+    Class penalty.
+
+  - **Severely encumbered: -**4 penalty to attack rolls and a -3 Armor
+    Class penalty.
+
+**Read Magic (U)**
+
+**Duration:** 1 turn
+
+**Range:** The caster
+
+**Casting Time:** 1 round
+
+Allows the caster to decipher magical script or runes, as follows:
+
+- **Scrolls:** The magical script of a scroll of arcane spells can be
+  understood. The caster is then able to activate the scroll at any time
+  in the future.
+
+- **Spell books:** A spell book written by another arcane spell caster
+  can be deciphered.
+
+- **Inscriptions:** Runes or magical words inscribed on an object or
+  surface can be understood.
+
+<!-- -->
+
+- **Reading again:** Once the caster has used this spell to decipher a
+  magical inscription, they can always understand that script again
+  without read magic.
+
+**Shield (W)**
+
+**Range:** Caster
+
+**Duration:** 2 turns
+
+**Casting Time:** 1 round
+
+Conjures an invisible shield around the caster:
+
+- **Defensive Boost:** Improves the caster's armor class to 17 against
+  ranged attacks and 15 for melee.
+
+<!-- -->
+
+- **Additional Advantages:** Grants a +1 bonus to saving throws from
+  visible frontal threats.
+
+**Sleep (G)**
+
+**Range:** 90'
+
+**Duration:** 5 rounds/level
+
+**Casting Time:** 1 round
+
+**AoE:** Special
+
+Induces a deep slumber on targets:
+
+- **Targeting:** Affects living creatures except undead and other
+  certain creatures.
+
+<!-- -->
+
+- **Hit Dice Affected:** Affects up to 2d4 Hit Dice of creatures. Those
+  with 4+3 Hit Dice and above remain unaffected.
+
+<!-- -->
+
+- **Partial Effects:** Ignored. Least Hit Dice creatures affected first.
+
+**Spider Climb (R)**
+
+**Range:** Touch
+
+**Duration:** 3 rounds + 1 round/level
+
+**Casting Time:** 1 round
+
+Allows the recipient to climb like a spider:
+
+• **Climbing Ability:** Recipient can climb vertical surfaces or hang
+from ceilings as effectively as a spider.
+
+• **Movement Rate:** 6 (halved to 3 if encumbered). Requires bare hands
+and feet for this mobility.
+
+• **Unwilling Targets:** If targeted on unwilling beings, they get a
+saving throw vs. spell to resist.
+
+**Unseen Servant (U)**
+
+**Range:** 0'
+
+**Duration:** 1 hour + hour/level
+
+**Casting Time:** 1 round
+
+**AoE:** 30'
+
+Summons a spectral helper:
+
+- **Duties:** Can perform tasks like cleaning, holding items, or opening
+  doors.
+
+- **Strength:** Can transport up to 20 pounds or move 40 pounds on a
+  smooth surface.
+
+- **Vulnerabilities:** Can't fight and is dispelled after taking 6
+  points of damage.
+
+**Ventriloquism (U)**
+
+**Range:** 30'/level max 270'
+
+**Duration:** 4 rounds + 1 round/level
+
+**Casting Time:** 1 round
+
+Allows the caster to project their voice or other sounds to a different
+location:
+
+- **Mimicry:** Can replicate another's voice or any sound they know.
+
+<!-- -->
+
+- **Language:** The caster can speak any language they are familiar
+  with.
+
+<!-- -->
+
+- **Source:** The sound can seem to come from another creature, behind a
+  door, or other locales.
+
+**Wizard Mark (U)**
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+This spell lets the caster inscribe a personal mark:
+
+- **Inscription:** A personal rune and up to six additional smaller
+  characters can be written, either visible or invisible.
+
+<!-- -->
++
+- **Detection: I**nvisible marks glow when detect magic is used and can
+  be read with read magic.
+
+<!-- -->
+
+- **Removal:** Cannot be dispelled but can be removed by the original
+  caster or an erase spell.
+
+# Sources
+
+[<u>Swords &
+Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
+by Mythmere Games
+
+Dungeons & Dragons (AD&D) by Wizards of the Coast (Gary Gygax)
+
+[<u>Tap Untap
+Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
+by Fil Kearney
+
+Carcosa and Specialist, Lamentations of the Flame Princess
