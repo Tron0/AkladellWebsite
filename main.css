@@ -1,4 +1,5 @@
-body {
+body 
+{
     font-family: monospace;
     display: flex;
     justify-content: center;
@@ -87,7 +88,7 @@ padding: 5px;
 {
     position: fixed;
     top: 0px;
-    right: 0;
+    right: 0px;
     transform: translateX(-50%);
 }
 
