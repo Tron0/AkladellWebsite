@@ -49,8 +49,16 @@
     document.addEventListener("DOMContentLoaded", function(){
     const tocButton = document.getElementById('toc-button');
     const tocPanel = document.getElementById('toc-panel');
+
+    let newButtonFunction = function()
+    {
+        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
+    };
+
+    tocButton.addEventListener('click', newButtonFunction);
     window.onhashchange = function()
 {
+    
     var hash = window.location.hash;
     console.log(hash);
     if (hash === '#Updates') 
@@ -64,17 +72,11 @@
         loadAboutPage();
     }
 
-    let newButtonFunction = function()
-    {
-        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
-    };
-
     if (hash === '#Rules')
     {
          window.loadRulesPage();
          tocButton.style.display = 'block';
          // Add click listener on #Rules page
-         tocButton.addEventListener('click', newButtonFunction);
     }
     else
     {
