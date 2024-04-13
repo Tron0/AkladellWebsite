@@ -25,6 +25,15 @@
         <hr>
         <footer> Joel Andersson 2024</footer>
     </div>
+
+    <!-- Button to toggle ToC -->
+    <button id="toc-button">Table of Contents</button>
+    
+    <!-- The actual Table of Contents -->
+    <div id="toc-panel" style="display: none;">
+    <h2>Table of Contents</h2>
+    <!-- ...Links will go here... -->
+    </div>
     
     <script type="module">
         import { marked } from 'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
@@ -50,10 +59,9 @@
     } else if (hash === '#Rules') {
       window.loadRulesPage();
     }
-  };
+  }; 
+  </script>
 
-    </script>
-    
     <script src='app.js'></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
