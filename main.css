@@ -57,3 +57,9 @@ strong, b {
     font-weight: bold;
   }
   
+table {
+width: 100%;
+  }
+  th, td {
+padding: 10px;
+  }
