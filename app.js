@@ -1,32 +1,6 @@
 'use strict';
 console.log("JavaScript file has been loaded successfully!");
 
-window.onhashchange = function()
-{
-    var hash = window.location.hash;
-    console.log(hash);
-
-    if (hash === '#Updates')
-    {
-        loadUpdatePost();
-    }
-
-    else if (hash === '#Home')
-    {
-        loadHomePage();
-    }
-
-    else if (hash === '#About')
-    {
-        loadAboutPage();
-    }
-
-    if (hash === '#Rules') {
-        window.loadRulesPage();
-    }
-};
-
-
 function createUpdatePost(title, content, date)
 {
     // Create elements

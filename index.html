@@ -37,8 +37,23 @@
             document.getElementById('content').innerHTML = htmlContent;
         });
     }
-    </script>
 
+    window.onhashchange = function() {
+    var hash = window.location.hash;
+    console.log(hash);
+    if (hash === '#Updates') {
+      loadUpdatePost();
+    } else if (hash === '#Home') {
+      loadHomePage();
+    } else if (hash === '#About') {
+      loadAboutPage();
+    } else if (hash === '#Rules') {
+      window.loadRulesPage();
+    }
+  };
+
+    </script>
+    
     <script src='app.js'></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
