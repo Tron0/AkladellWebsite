@@ -51,30 +51,37 @@
 
     let newButtonFunction = function()
     {
-        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
+    tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
     };
 
-    window.onhashchange = function() 
-    {
-        var hash = window.location.hash;
-        console.log(hash);
-        if (hash === '#Updates') {
-            loadUpdatePost();
-        } else if (hash === '#Home') {
-            loadHomePage();
-        } else if (hash === '#About') {
-            loadAboutPage();
+    window.onhashchange = function() {
+        var hashStr = window.location.hash;
+        console.log(hashStr);
+        
+        if (hashStr.includes('#Updates')) {
+                loadUpdatePost();
+            } 
+            else if (hashStr.includes('#Home')) 
+            {
+                loadHomePage();
+            } 
+            else if (hashStr.includes('#About')) 
+            {
+                loadAboutPage();
+            }
+        // If current page is #Rules or its subsections
+        if (hashStr.startsWith("#Rules")) 
+        {
+            window.loadRulesPage();
+            // Display ToC panel directly on #Rules page and its subsections
+            tocPanel.style.display = 'block';
+        } 
+        else 
+        {
+            // Hide ToC when outside of #Rules and its subsections
+            tocPanel.style.display='none';
         }
-        // Check first character of hash after '#'
-        var subHashChar = hash.charAt(6);
-        // If it's not empty and current page is #Rules or part of it
-       if ((subHashChar !== "" && subHashChar !== undefined)
-             && (hash.indexOf("#Rules") != -1)) {
-           tocPanel.style.display = 'block';
-       } else {
-           tocPanel.style.display='none';
-       }
-   };
+    }
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
