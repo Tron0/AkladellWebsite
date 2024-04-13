@@ -22,17 +22,16 @@
             </div>
         </nav>
         <div id="toc-wrapper">
-        <!-- Button to toggle ToC -->
-        <button id="toc-button">Table of Contents</button>
-        <!-- The actual Table of Contents -->
+        <!-- Table of Contents -->
         <div id="toc-panel" style="display: none;">
         <h2>Table of Contents</h2>
         <!-- ...Links will go here... -->
-    </div>
-    <!-- Main page content goes here-->
-    <div id="content"></div>
-    <hr>
-    <footer></footer>
+        </div>
+
+        <!-- Main page content goes here-->
+        <div id="content"></div>
+        <hr>
+        <footer></footer>
     
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
@@ -46,8 +45,8 @@
         });
     }
 
-    document.addEventListener("DOMContentLoaded", function(){
-    const tocButton = document.getElementById('toc-button');
+    document.addEventListener("DOMContentLoaded", function()
+    {
     const tocPanel = document.getElementById('toc-panel');
 
     let newButtonFunction = function()
@@ -55,43 +54,27 @@
         tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
     };
 
-    tocButton.addEventListener('click', newButtonFunction);
-    window.onhashchange = function()
-{
-    
-    var hash = window.location.hash;
-    console.log(hash);
-    if (hash === '#Updates') 
+    window.onhashchange = function() 
     {
-        loadUpdatePost();
-    } else if (hash === '#Home') 
-    {
-        loadHomePage();
-    } else if (hash === '#About') 
-    {
-        loadAboutPage();
-    }
-
-    if (hash === '#Rules')
-    {
-         window.loadRulesPage();
-         // Display ToC panel directly on #Rules page
-         tocPanel.style.display = 'block';
-    }
-    else
-    {
-        if(tocButton)
-        {   
-            // Hide button when outside of #Rules
-            tocButton.style.display='none';
+        var hash = window.location.hash;
+        console.log(hash);
+        if (hash === '#Updates') {
+            loadUpdatePost();
+        } else if (hash === '#Home') {
+            loadHomePage();
+        } else if (hash === '#About') {
+            loadAboutPage();
         }
-        if(tocPanel && tocPanel.style.display==='block')
-        {
-            // Make sure panel is hidden when navigating away from #Rules
-            tocPanel.style.display='none';
-        }
-    }
-};
+        // Check first character of hash after '#'
+        var subHashChar = hash.charAt(6);
+        // If it's not empty and current page is #Rules or part of it
+       if ((subHashChar !== "" && subHashChar !== undefined)
+             && (hash.indexOf("#Rules") != -1)) {
+           tocPanel.style.display = 'block';
+       } else {
+           tocPanel.style.display='none';
+       }
+   };
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));

@@ -84,18 +84,10 @@ th, td
 padding: 5px;
 }
 
-#toc-button 
-{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    transform: translateX(-50%);
-}
-
 #toc-panel 
 {
     position: fixed;
     top: 0px;
-    right: 0px; 
+    right: 75%; 
     overflow-y: auto; 
 }
