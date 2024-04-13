@@ -13,6 +13,11 @@ a
 {
     color: lightblue;
 }
+
+a:visited 
+{
+    color: lightcoral;
+}
   
 small 
 {
@@ -62,9 +67,17 @@ strong, b {
     font-weight: bold;
   }
   
-table {
+table  
+{
 width: 100%;
-  }
-  th, td {
+}
+
+th, td 
+{
 padding: 5px;
-  }
+}
+
+toc-button
+{
+    position: absolute;
+}

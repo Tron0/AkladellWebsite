@@ -77,24 +77,21 @@ document.getElementById('discordlink').addEventListener('click', function(event)
     window.open('https://discord.gg/By5MPxhrJf', '_blank')
 });
 
-// Find our button and panel in the document
-const tocButton = document.getElementById('toc-button');
-const tocPanel = document.getElementById('toc-panel');
-// Add a click event listener to our button
-tocButton.addEventListener('click', function() 
-{
-// If the panel is currently hidden...
-  if (tocPanel.style.display === "none") 
-  {
-    // ...show it!
-    tocPanel.style.display = "block";
-  } 
-  else 
-  {
-    // Otherwise, hide it!
-    tocPanel.style.display = "none";
-  }
-});
+window.onhashchange = function() {
+    var hash = window.location.hash;
+    if (hash === '#Rules') {
+      tocButton.style.display = 'block'; // Show button only on #Rules
+      // Button functionality inside the hash check
+      tocButton.addEventListener('click', function() {
+        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
+     });
+    } else {
+       tocButton.style.display = 'none'; // Hide button on other pages
+       if(tocPanel.style.display === 'block'){
+          tocPanel.style.display = 'none';  // Make sure panel is hidden when navigating away from #Rules
+       }
+    }
+  };
 
 function loadAboutPage()
 {
