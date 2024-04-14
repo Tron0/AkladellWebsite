@@ -33,10 +33,11 @@ small
 
 #toc-wrapper 
 {
-    position: absolute;
-   top: 0;
-   width: auto;
-   height: 100vh;
+    position: relative;
+    top: 0;
+    width: auto;
+    height: 100vh;
+    margin-bottom: 20px;
 }
 
 #toc-panel 
