@@ -89,29 +89,24 @@ function loadToC()
 
 document.addEventListener("DOMContentLoaded", function()
 {
-
+    loadToC();
     window.onhashchange = function() {
     var hashStr = window.location.hash;
     console.log(hashStr);
 
     if (hashStr === "#Rules") {
         window.loadRulesPage();
-        loadToC();
     }
     else if (hashStr.startsWith('#Updates')) {
         loadUpdatePost();
-        loadToC();
     }
     else if (hashStr.startsWith('#Home')) {
         loadHomePage();
-        loadToC();
     }
     else if (hashStr.startsWith('#About')) {
         loadAboutPage();
-        loadToC();
     }
 };
-
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
 });
