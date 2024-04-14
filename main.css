@@ -33,7 +33,7 @@ small
 
 #toc-wrapper 
 {
-   position: sticky;
+    position: absolute;
    top: 0;
    width: auto;
    height: 100vh;

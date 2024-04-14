@@ -31,10 +31,16 @@
     
     
 <script type="module">
-    
+
 import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 function parseMarkdownText(rawMd) 
 {
+    rawMd = rawMd.replace(/^(#{1,6})\s([^\n]+?)\s(?:#{1,6})?$/gm,
+    function(_matchStr, headingPoundsStr, headingText){
+        var encodedHeadingText = headingText.trim().toLowerCase().replace(/[^\w\s]/g,'').replace(/\s+/g,'-');
+        return '\n' + headingPoundsStr + ' ' + headingText + ' {#' + encodedHeadingText + '}';
+    });
+    
     const htmlContent = marked(rawMd);
     // Create a temporary element to hold the parsed content
     const tempContainer = document.createElement('div');
