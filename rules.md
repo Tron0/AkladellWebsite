@@ -1,6 +1,6 @@
 # Quick Creation Reference
 
-1.  **Choose a [<u>race</u>](#Rules/#Races)**
+1.  **Choose a [<u>race</u>](#Races)**
 
 > Review the race options and descriptions. Pick one that fits your
 > character concept.
@@ -90,7 +90,9 @@ of downtime.
 
 ## Initiative
 
-## Initiating Combat: When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
+## Initiating Combat: 
+
+When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
 
 ## Armor Class
 
@@ -1359,7 +1361,7 @@ Direct mind-to-mind communication with intelligent beings, transcending
 language. Telepathic contact with an Old One is foolish, and the Referee
 will most likely require a saving throw to avoid madness and/or horror.
 
-Races
+# Races
 
 Races do not have ability score requirements. You can be a dwarf with 8
 constitution or a halfling with 18 strength. There are no class

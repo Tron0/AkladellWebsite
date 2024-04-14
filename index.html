@@ -23,20 +23,22 @@
         </nav>
         <div id="toc-wrapper">
         <!-- Table of Contents -->
-        <div id="toc-panel" style="display: none;">
+        <div id="toc-panel">
         <h2>Table of Contents</h2>
         <ul>
             <li><a href="#Age">Age</a></li>
             <li><a href="#Races">Races</a></li>
             <li><a href="#Classes">Classes</a></li>
+            <li><a href="#Magic">Classes</a></li>
+            <li><a href="#Title1">Classes</a></li>
+            <li><a href="#Title2">Title</a></li>
             <!-- Add more entries as needed -->
         </ul>
         </div>
 
         <!-- Main page content goes here-->
         <div id="content"></div>
-        <hr>
-        <footer></footer>
+        <footer><hr></footer>
     
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
@@ -60,36 +62,21 @@
     };
 
     window.onhashchange = function() {
-        var hashStr = window.location.hash;
-        console.log(hashStr);
-
-        if (hashStr.includes('#Updates'))
-        {
-            loadUpdatePost();
-
-        } else if (hashStr.includes('#Home'))
-        {
-            loadHomePage();
-
-        } else if (hashStr.includes('#About'))
-        {
-            loadAboutPage();
-
-        }
-   // If current page is #Rules or its subsections
-   if (hashStr.startsWith("#Rules"))
-   {
-       // Move loading function before display handling
-       window.loadRulesPage();
-       // Display ToC panel directly on #Rules page and its subsections
-       tocPanel.style.display = 'block';
-
-   } else {
-       // Hide ToC when outside of #Rules and its subsections
-         tocPanel.style.display='none';
-
-      }
- };
+    var hashStr = window.location.hash;
+    console.log(hashStr);
+    if (hashStr.startsWith('#Home')) {
+        loadHomePage();
+    }
+    else if (hashStr.startsWith('#Updates')) {
+        loadUpdatePost();
+    }
+    else if (hashStr.startsWith('#About')) {
+        loadAboutPage();
+    }
+    else if (hashStr.startsWith("#Rules")) { 
+       window.loadRulesPage(); 
+   }
+};
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
