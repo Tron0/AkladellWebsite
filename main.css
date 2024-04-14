@@ -1,12 +1,12 @@
-body 
+body
 {
     font-family: monospace;
-    display: flex;
-    justify-content: start;
+    justify-content: center;
     margin: 0;
     background-color: black;
     color: white;
 }
+
 
 a:link
 {
