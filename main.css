@@ -24,7 +24,8 @@ small
 
 .centered-container 
 {
-    display:block;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     max-width: 800px;
     margin:auto;
@@ -33,6 +34,7 @@ small
 {
     width:30%;
 }
+#header-nav-wrapper,
 #main-content-wrapper
 {
      width:70%;
