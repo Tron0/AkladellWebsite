@@ -51,6 +51,7 @@ small
 {
      width:80%;
      max-width: calc(80% - 50px);
+     margin-left: 10%;
 }
   
 #content 
