@@ -24,7 +24,7 @@ small
 
 .centered-container 
 {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -35,8 +35,7 @@ small
 {
     position: sticky;
     top: 0;
-    width:15%;
-    padding-left: 20%;
+    width:auto;
 }
 
 #toc-panel {
