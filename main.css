@@ -2,18 +2,10 @@ body
 {
     font-family: monospace;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     margin: 0;
     background-color: black;
     color: white;
-}
-.centered-container {
-    width: 100%;
-    max-width: 800px;
-    margin-top:auto;
-    margin-bottom:auto;
-    align-items:center;
-    text-align:left;
 }
 
 a:link
@@ -31,12 +23,22 @@ small
     color: gray;
 }
 
-.centered-container {
+.centered-container 
+{
+    display:flex;
+    flex-direction:row;
     width: 100%;
     max-width: 800px;
     margin:auto;
-    text-align: center;
-  }
+}
+#toc-wrapper {
+     width:30%;
+}
+#main-content-wrapper
+{
+     width:70%;
+}
+  
 
 #content 
 {
@@ -83,10 +85,8 @@ th, td
 padding: 7px;
 }
 
-#toc-panel 
-{
-    position: fixed;
+#toc-panel {
     top: 0px;
-    right: 50%; 
-    overflow-y: auto; 
+    width: 100%;
+    overflow-y: auto;
 }
