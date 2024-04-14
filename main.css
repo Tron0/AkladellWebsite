@@ -31,13 +31,12 @@ small
     color: gray;
 }
 
-.centered-container 
-{
+.centered-container {
     width: 100%;
-    max-width: 800px; 
-    margin: 10 auto; 
-    text-align: left; 
-}
+    max-width: 800px;
+    margin:auto;
+    text-align: center;
+  }
 
 #content 
 {
