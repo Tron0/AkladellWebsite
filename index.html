@@ -13,26 +13,26 @@
             <!-- Table of Contents -->
             <div id="toc-panel"></div>
         </div>
-        <!-- Main page content goes here-->
-    <div id="header-nav-wrapper">
-        <header>
-            <h1>Akladell</h1>
-        </header>
-        <nav class="nav-items">
-            <a href="#Home">Home</a>
-            <a href="#Rules">Rules Index</a>
-            <a href="#Updates">Updates</a>
-            <a href="#About">About</a>
-            <a href="" id="discordlink">Discord</a>
-        </nav>
-    </div>
-        <!-- Dynamic Page contents go here -->
+        <div id="page-contents-wrapper">  
+            <div id="header-nav-wrapper">  
+                <header>
+                    <h1>Akladell</h1>
+                </header>
+                <nav class="nav-items">
+                    <a href="#Home">Home</a>
+                    <a href="#Rules">Rules Index</a>
+                    <a href="#Updates">Updates</a>
+                    <a href="#About">About</a>
+                    <a href="" id="discordlink">Discord</a>
+                </nav>
+            </div>
         <div id="main-content-wrapper">
-            <div id="content"></div>
-            <hr>
-            <footer></footer>
-         </div>
+        <div id="content"></div>
+        <hr>
+        <footer></footer>
+        </div>
     </div>
+</div>
     
     
 <script type="module">
@@ -83,6 +83,8 @@ document.addEventListener("DOMContentLoaded", function()
     {
         var hashStr = window.location.hash;
         console.log(hashStr);
+
+        window.loadRulesPage();
         if (hashStr.includes('#Updates')) 
         {
             loadUpdatePost();
@@ -94,11 +96,6 @@ document.addEventListener("DOMContentLoaded", function()
         else if (hashStr.includes('#About')) 
         {
             loadAboutPage();
-        }
-        // If current page is #Rules or its subsections move loading '#rules' function here without any conditions related to tocPanel's visibility.
-        if (hashStr.startsWith("#Rules")) 
-        {
-            window.loadRulesPage();
         }
     };
 
