@@ -24,6 +24,7 @@ small
 
 .centered-container 
 {
+    justify-content: flex-start;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
@@ -50,6 +51,7 @@ small
 #main-content-wrapper
 {
      width:80%;
+     max-width: calc(80% - 50px);
 }
   
 #content 
