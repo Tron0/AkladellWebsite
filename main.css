@@ -30,10 +30,13 @@ small
     max-width: 800px;
     margin:auto;
 }
+
 #toc-wrapper 
 {
     width:30%;
+    padding-right: 20px;
 }
+
 #header-nav-wrapper,
 #main-content-wrapper
 {

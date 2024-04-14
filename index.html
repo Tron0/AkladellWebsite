@@ -52,17 +52,31 @@ function parseMarkdownText(rawMd)
       headings: Array.from(ruleHeadings).map(heading => ({ level: heading.nodeName, text: heading.textContent }))
    };
 }
-window.loadRulesPage = function() 
+window.loadRulesPage = function()
 {
     fetch('./rules.md')
         .then(response => response.text())
-        .then(data => 
+        .then(data =>
+        {
+            let parsedData = parseMarkdownText(data);
+           // Set '#content' div's innerHTML with actual rule contents.
+           document.getElementById('content').innerHTML = parsedData.htmlContent;
+           document.getElementById('content').classList.add("rules-content");
+        });
+};
+
+
+function loadToC()
+{
+    fetch('./rules.md')
+        .then(response => response.text())
+        .then(data =>
         {
             let parsedData = parseMarkdownText(data);
             // 1. Clear any old ToC entries
             document.getElementById('toc-panel').innerHTML = "<h1>Table of Contents</h1>";
             // 2. Create new ToC entries
-            parsedData.headings.forEach(heading => 
+            parsedData.headings.forEach(heading =>
             {
                 let tocEntryLink = document.createElement('a');
                 // Use heading text for display and link reference both.
@@ -70,11 +84,8 @@ window.loadRulesPage = function()
                 tocEntryLink.href = "#" + encodeURIComponent(heading.text.replace(/\s/g,'-'));
                 document.getElementById('toc-panel').appendChild(tocEntryLink);
             });
-           // 3. Finally add actual rule contents in their place.
-           document.getElementById('content').innerHTML = parsedData.htmlContent;
-           document.getElementById('content').classList.add("rules-content");
         });
-};
+}
 
 document.addEventListener("DOMContentLoaded", function()
 {
@@ -84,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function()
         var hashStr = window.location.hash;
         console.log(hashStr);
 
-        window.loadRulesPage();
+        loadToC();
         if (hashStr.includes('#Updates')) 
         {
             loadUpdatePost();
