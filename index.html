@@ -7,110 +7,89 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         
     </head>
-    <body>
-        <div id="toc-wrapper">
-            <!-- Table of Contents -->
-            <div id="toc-panel"></div>
-        </div>
+<body>
+    <div class="centered-container">
         <header>
             <h1>Akladell</h1>
         </header>
-        <nav class="nav-items">
-            <a href="#Home">Home</a>
-            <a href="#Rules">Rules Index</a>
-            <a href="#Updates">Updates</a>
-            <a href="#About">About</a>
-            <a href="" id="discordlink">Discord</a>
-         </nav>
-         <div id="main-content-wrapper">
-            <div id="content"></div>
-          <hr />
-          <footer></footer>
+        <nav>
+            <div class="nav-items">
+                <a href="#Home">Home</a>
+                <a href="#Rules">Rules Index</a>
+                <a href="#Updates">Updates</a>
+                <a href="#About">About</a>
+                <a href="" id="discordlink">Discord</a>
+            </div>
+        </nav>
+        <div id="toc-wrapper">
+        <!-- Table of Contents -->
+        <div id="toc-panel" style="display: none;">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Rules">Rules Index</a></li>
+            <!-- Add more entries as needed -->
+        </ul>
         </div>
-    </div>
-    
+
+        <!-- Main page content goes here-->
+        <div id="content"></div>
+        <hr>
+        <footer></footer>
     
 <script type="module">
-
-import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
-function parseMarkdownText(rawMd) 
-{
-    rawMd = rawMd.replace(/^(#{1,6})\s([^\n]+?)\s(?:#{1,6})?$/gm,
-    function(_matchStr, headingPoundsStr, headingText){
-        var encodedHeadingText = headingText.trim().toLowerCase().replace(/[^\w\s]/g,'').replace(/\s+/g,'-');
-        return '\n' + headingPoundsStr + ' ' + headingText + ' {#' + encodedHeadingText + '}';
-    });
-    
-    const htmlContent = marked(rawMd);
-    // Create a temporary element to hold the parsed content
-    const tempContainer = document.createElement('div');
-    tempContainer.innerHTML = htmlContent;
-    // Extract all headings within 'rules.md'
-    const ruleHeadings = tempContainer.querySelectorAll('h1, h2, h3');
-
-   return {
-      htmlContent: htmlContent,
-      headings: Array.from(ruleHeadings).map(heading => ({ level: heading.nodeName, text: heading.textContent }))
-   };
-}
-window.loadRulesPage = function()
-{
-    fetch('./rules.md')
+    import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+    window.loadRulesPage = function() {
+        fetch('./rules.md')
         .then(response => response.text())
-        .then(data =>
+        .then(data => 
         {
-            let parsedData = parseMarkdownText(data);
-           // Set '#content' div's innerHTML with actual rule contents.
-           document.getElementById('content').innerHTML = parsedData.htmlContent;
-           document.getElementById('content').classList.add("rules-content");
+            let htmlContent = marked.parse(data);
+              document.getElementById('content').innerHTML = htmlContent;
         });
-};
+    }
 
+    document.addEventListener("DOMContentLoaded", function()
+    {
+    const tocPanel = document.getElementById('toc-panel');
 
-function loadToC()
-{
-    fetch('./rules.md')
-        .then(response => response.text())
-        .then(data =>
-        {
-            let parsedData = parseMarkdownText(data);
-            // 1. Clear any old ToC entries
-            document.getElementById('toc-panel').innerHTML = "<h1>Table of Contents</h1>";
-            // 2. Create new ToC entries
-            parsedData.headings.forEach(heading =>
-            {
-                let tocEntryLink = document.createElement('a');
-                // Use heading text for display and link reference both.
-                tocEntryLink.textContent = heading.level + ' ' + heading.text;
-                tocEntryLink.href = "#" + encodeURIComponent(heading.text.replace(/\s/g,'-'));
-                document.getElementById('toc-panel').appendChild(tocEntryLink);
-            });
-        });
-}
+    let newButtonFunction = function()
+    {
+        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
+    };
 
-document.addEventListener("DOMContentLoaded", function()
-{
-    loadToC();
     window.onhashchange = function() {
-    var hashStr = window.location.hash;
-    console.log(hashStr);
+        var hashStr = window.location.hash;
+        console.log(hashStr);
 
-    if (hashStr === "#Rules") {
-        window.loadRulesPage();
-    }
-    else if (hashStr.startsWith('#Updates')) {
-        loadUpdatePost();
-        loadToC();
-    }
-    else if (hashStr.startsWith('#Home')) {
-        loadHomePage();
-        loadToC();
-    }
-    else if (hashStr.startsWith('#About')) {
-        loadAboutPage();
-        loadToC();
-    }
-};
+        if (hashStr.includes('#Updates'))
+        {
+            loadUpdatePost();
+
+        } else if (hashStr.includes('#Home'))
+        {
+            loadHomePage();
+
+        } else if (hashStr.includes('#About'))
+        {
+            loadAboutPage();
+
+        }
+   // If current page is #Rules or its subsections
+   if (hashStr.startsWith("#Rules"))
+   {
+       // Move loading function before display handling
+       window.loadRulesPage();
+       // Display ToC panel directly on #Rules page and its subsections
+       tocPanel.style.display = 'block';
+
+   } else {
+       // Hide ToC when outside of #Rules and its subsections
+         tocPanel.style.display='none';
+
+      }
+ };
+
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
 });
