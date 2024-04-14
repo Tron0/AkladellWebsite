@@ -24,6 +24,7 @@ small
 
 .centered-container 
 {
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -33,13 +34,13 @@ small
 
 #toc-wrapper 
 {
-    width:30%;
+    width:25%;
 }
 
 #header-nav-wrapper,
 #main-content-wrapper
 {
-     width:70%;
+     width:75%;
 }
   
 #content 
