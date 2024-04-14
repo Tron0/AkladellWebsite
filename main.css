@@ -35,7 +35,8 @@ small
 {
     position: sticky;
     top: 0;
-    width:20%;
+    width:15%;
+    padding-left: 20%;
 }
 
 #toc-panel {

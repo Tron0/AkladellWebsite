@@ -99,12 +99,15 @@ document.addEventListener("DOMContentLoaded", function()
     }
     else if (hashStr.startsWith('#Updates')) {
         loadUpdatePost();
+        loadToC();
     }
     else if (hashStr.startsWith('#Home')) {
         loadHomePage();
+        loadToC();
     }
     else if (hashStr.startsWith('#About')) {
         loadAboutPage();
+        loadToC();
     }
 };
     // Trigger first hashchange check after all setup has been done.
