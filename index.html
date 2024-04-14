@@ -90,25 +90,29 @@ function loadToC()
 document.addEventListener("DOMContentLoaded", function()
 {
 
-    window.onhashchange = function() 
-    {
-        var hashStr = window.location.hash;
-        console.log(hashStr);
+    window.onhashchange = function()
+{
+    var hashStr = window.location.hash;
+    console.log(hashStr);
+    loadToC();
 
-        loadToC();
-        if (hashStr.includes('#Updates')) 
-        {
-            loadUpdatePost();
-        }
-        else if (hashStr.includes('#Home')) 
-        {
-            loadHomePage();
-        }
-        else if (hashStr.includes('#About')) 
-        {
-            loadAboutPage();
-        }
-    };
+    if (hashStr.includes('#Updates'))
+    {
+        loadUpdatePost();
+    }
+    else if (hashStr.includes('#Home'))
+    {
+        loadHomePage();
+    }
+     else if (hashStr.includes('#About'))
+     {
+         loadAboutPage();
+     }
+     else if (hashStr.startsWith("#Rules"))
+     {
+         window.loadRulesPage();
+     }
+};
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
