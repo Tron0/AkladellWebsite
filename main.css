@@ -1,7 +1,7 @@
 body
 {
     font-family: monospace;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0;
     background-color: black;
     color: white;
@@ -24,7 +24,7 @@ small
 
 .centered-container 
 {
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     width: 100%;
