@@ -25,13 +25,13 @@ small
 .centered-container 
 {
     display:block;
-    flex-direction:row;
     width: 100%;
     max-width: 800px;
     margin:auto;
 }
-#toc-wrapper {
-     width:100%;
+#toc-wrapper 
+{
+    width:30%;
 }
 #main-content-wrapper
 {
