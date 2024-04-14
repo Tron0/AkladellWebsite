@@ -34,18 +34,34 @@ small
 
 #toc-wrapper 
 {
-    width:25%;
+    position: sticky;
+    top: 0;
+    width:20%;
+}
+
+#toc-panel {
+    top: 0px;
+    width: 100%;
+    overflow-y: auto;
+    padding-right: 20px;
 }
 
 #header-nav-wrapper,
 #main-content-wrapper
 {
-     width:75%;
+     width:80%;
 }
   
 #content 
 {
     width: 100%; 
+}
+
+#content.rules-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 30px; 
+    line-height: 1.6;
 }
 
 ul 
@@ -88,9 +104,3 @@ th, td
 padding: 7px;
 }
 
-#toc-panel {
-    top: 0px;
-    width: 100%;
-    overflow-y: auto;
-    padding-right: 50px;
-}
