@@ -26,13 +26,13 @@
                 <div id="toc-panel">
                     <h2>Table of Contents</h2>
                     <ul>
-                        <p><a href="#Character-Creation-Reference">Character Creation Reference</a></p>
-                        <p><a href="#General-Gameplay">General Gameplay</a></p>
-                        <p><a href="#Combat">Combat</a></p>
-                        <p><a href="#Alignment">Alignment</a></p>
-                        <p><a href="#Injury-&-Death">Injury & Death</a></p>
-                        <p><a href="#Creature-Size">Creature Size</a></p>
-                        <lp><a href="#Encumbrance-&-Movement">#Encumbrance & Movement</a></p>
+                        <li><a href="#Character-Creation-Reference">Character Creation Reference</a></li>
+                        <li><a href="#General-Gameplay">General Gameplay</a></li>
+                        <li><a href="#Combat">Combat</a></li>
+                        <li><a href="#Alignment">Alignment</a></li>
+                        <li><a href="#Injury-&-Death">Injury & Death</a></li>
+                        <li><a href="#Creature-Size">Creature Size</a></li>
+                        <li><a href="#Encumbrance-&-Movement">Encumbrance & Movement</a></li>
                     </ul>
                 </div>
                 <div id="content"></div>
@@ -80,11 +80,14 @@
     else 
     {
         window.loadRulesPage();
-        // Scroll to anchor
-        var anchor = document.querySelector(`#${hash}`);
-        if(anchor) anchor.scrollIntoView({behavior: 'smooth'});
+        scrollToAnchor(hash);
     }
 };
+
+function scrollToAnchor(anchor) {
+    var el = document.querySelector(`#${anchor}`);
+    if(el) el.scrollIntoView({behavior: 'smooth'});
+}
 
 
     // Trigger first hashchange check after all setup has been done.

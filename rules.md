@@ -2019,9 +2019,9 @@ for one day.</th>
 
 | **Weapon Type**  | **Size** | **Damage** | **Cost** | **Description**                                                      | **Weight** | **Stackable** |
 |------------------|----------|------------|----------|----------------------------------------------------------------------|------------|---------------|
-| Dagger           | S        | 1d4        | 4 GP     | A lightweight, pointed blade. Easily concealed for stealthy strikes. | 1          | ☑️            |
-| Defending Dagger | S        | 1d4        | 7 GP     | A dagger specially designed with a broader guard.                    | 1          | ☑️            |
-| Silver Dagger    | S        | 1d4        | 14 GP    | A dagger with a silver blade.                                        | 1          | ☑️            |
+| Dagger           | S        | 1d4        | 4 GP     | A lightweight, pointed blade. Easily concealed for stealthy strikes. | 1          | ☑            |
+| Defending Dagger | S        | 1d4        | 7 GP     | A dagger specially designed with a broader guard.                    | 1          | ☑            |
+| Silver Dagger    | S        | 1d4        | 14 GP    | A dagger with a silver blade.                                        | 1          | ☑            |
 
 **Swords**
 
