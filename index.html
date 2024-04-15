@@ -84,10 +84,15 @@
     }
 };
 
-function scrollToAnchor(anchor) {
-    var el = document.querySelector(`#${anchor}`);
+function scrollToHash() {
+  var hash = location.hash;
+  if(hash) {
+    var el = document.querySelector(hash);
     if(el) el.scrollIntoView({behavior: 'smooth'});
+  }
 }
+window.addEventListener('hashchange', scrollToHash);
+scrollToHash();
 
 
     // Trigger first hashchange check after all setup has been done.
