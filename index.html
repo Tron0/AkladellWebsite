@@ -44,16 +44,35 @@
 
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
-    window.loadRulesPage = function() 
-    {
-        fetch('./rules.md')
-        .then(response => response.text())
-        .then(data => 
-        {
-            let htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = "<div class='rules-content'>" + htmlContent + "</div>";
-        });
+
+function handleTocClick(e) 
+{
+    e.preventDefault();
+    const hash = this.getAttribute('href');
+    loadRulesPage(hash);
+}
+
+function loadRulesPage(hash) 
+{
+  fetch('./rules.md')
+  .then(response => response.text())
+  .then(data => {
+    const htmlContent = marked.parse(data);
+    document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
+    if (hash) {
+      scrollToHash(hash);
     }
+  });
+}
+
+function scrollToHash(hash) {
+  const el = document.querySelector(hash);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
+
     document.addEventListener("DOMContentLoaded", function()
     {
     const tocPanel = document.getElementById('toc-panel');
@@ -82,32 +101,6 @@
         window.loadRulesPage();
     }
 };
-
-const tocLinks = document.querySelectorAll('#toc-panel a');
-tocLinks.forEach(link => {
-  link.addEventListener('click', handleTocClick);
-});
-
-function handleTocClick(e) {
-  e.preventDefault(); // Stop default link behavior
-  const hash = this.getAttribute('href'); // Get the link's hash
-  loadRulesAndScroll(hash);
-}
-
-function loadRulesAndScroll(hash) {
-  let hashWithoutPound = hash.substring(1);
-  window.loadRulesPage();
-  let hashObserver = new MutationObserver(mutations => {
-    mutations.forEach(mutation => {
-      if(mutation.addedNodes.length) {
-        scrollToAnchor(hashWithoutPound);
-        hashObserver.disconnect();
-      }
-    })
-  });
-  let rulesContent = document.querySelector('.rules-content');
-  hashObserver.observe(rulesContent, {childList: true});
-}
 
 window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
