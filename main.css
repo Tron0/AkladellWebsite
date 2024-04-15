@@ -8,21 +8,21 @@ body
 }
 .centered-container 
 {
-    margin: 0 auto;
+    display: flex;
     max-width: 800px;
     width: 100%;
     box-sizing: border-box;
-    display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
-#toc-panel 
-{
+#toc-panel {
     position: fixed;
     top: 0;
-    left: 10%;
-    overflow-y: auto; 
-    float: left;
+    left: 50px;
+    width: 280px;
+    padding: 20px;
+    overflow-y: auto;
 }
 
 header, nav
