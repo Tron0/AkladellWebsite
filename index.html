@@ -52,7 +52,6 @@
         {
             let htmlContent = marked.parse(data);
             document.getElementById('content').innerHTML = "<div class='rules-content'>" + htmlContent + "</div>";
-            scrollToHash();
         });
     }
     document.addEventListener("DOMContentLoaded", function()
