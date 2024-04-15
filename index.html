@@ -19,7 +19,7 @@
                     <a href="#Rules">Rules Index</a>
                     <a href="#Updates">Updates</a>
                     <a href="#About">About</a>
-                    <a href="" id="discordlink">Discord</a>
+                    <a href="#Discord" id="discordlink">Discord</a>
                 </div>
             </nav>
             <div id="toc-wrapper">
@@ -59,25 +59,28 @@
 
     window.onhashchange = function() 
     {
-    var hashStr = window.location.hash;
-    console.log(hashStr);
-    if (hashStr.startsWith('#Home')) 
+    var hash = window.location.hash.substring(1);
+    if(hash === 'Home') 
     {
         loadHomePage();
-    }
-    else if (hashStr.startsWith('#Updates')) 
+    } 
+    else if(hash === 'Updates') 
     {
         loadUpdatePost();
-    }
-    else if (hashStr.startsWith('#About')) 
+    } 
+    else if(hash === 'About') 
     {
         loadAboutPage();
     }
-    else if (hashStr.startsWith("#Rules")) 
-    { 
-       window.loadRulesPage(); 
-   }
+    else if(hash === 'Discord') 
+    {
+        
+    } 
+    else {
+        window.loadRulesPage();
+    }
 };
+
 
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
