@@ -48,8 +48,9 @@
 
 > If a spellcaster, note maximum starting mana.
 
-13. **Determine miscellaneous information  
-> **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn), [<u>sanity</u>](#sanity), [<u>languages</u>](#languages), [<u>psionics</u>](#psionics)
+13. **Determine miscellaneous information**
+
+> **Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>sanity</u>](#Sanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
 
 # <span id=General-Gameplay> General Gameplay </span>
 
@@ -67,7 +68,6 @@ Player characters pay an amount of gold per month equal to 1% of their total XP.
 
 ## Initiative
 
-## Initiating Combat: 
 
 When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
 
@@ -99,21 +99,21 @@ it just increases the likelihood of landing a successful blow.)
 
 ## Calculating Hits per Level
 
-| **Class**  | Level 1 | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
-|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  |
-| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7  |
-| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  |
-| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  |
+| **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
+|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
+| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5   |
+| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7   |
+| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
+| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
 
-| **Class**  | Level 10 | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
-|------------|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +5|      | +5  | +6  | +7  | +7  | +8  | +8  | +9  | +10 | +10 | +11 |
-| Fighter\*  | +7       | +7  | +8  | +9  | +9  | +10 | +11 | +12 | +12 | +13 | +13 |
-| Chaos Mage | +4       | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
-| Specialist | +4       | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
+| **Class**  | Level 10 | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
+|------------|----------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +5       | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
+| Fighter\*  | +7       | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
+| Chaos Mage | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+| Specialist | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
 
-\*Includes Inquisitors.
+*Includes Inquisitors*
 
 # <span id=Alignment> Alignment </span> 
 
@@ -155,7 +155,7 @@ can't use Large weapons. Must wield Medium weapons with both hands. The
 specifics of each creature size is in the [<u>Races</u>](#_ixtrbw17tt3h)
 chapter.
 
-# Time <span id=Time> Time </span>
+# <span id=Time> Time </span>
 
 ## Travel Time
 
@@ -232,7 +232,7 @@ traveling for longer might be a day-to-day salary. This completely
 depends on the situation of the job. Hirelings given a work opportunity
 in advance do not require rations or similar if they get extra payment.
 
-# <span id=Encumbrance> Encumbrance </span>
+# <span id=Encumbrance-&-Movement> Encumbrance & Movement </span>
 
 Characters have a total number of slots (or unique items carried) equal
 to their Strength Score. Each item carried takes up one slot unless
@@ -1079,8 +1079,8 @@ magic spells before needing a rest to recover them. They can be two
 
 ## Mana Progression Table
 
-| **Chaos Mage** | **Law Mage** | **Multiclass Table** |
-|----------------|--------------|----------------------|
+|                   **Chaos Mage** |                      **Law Mage** |                        **Multiclass Table**                |
+|                 |-------------------------------------|-------------------------------------|-------------------------------------|
 
 | **Class Level** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** |
 |-----------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|
