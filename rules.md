@@ -1,4 +1,4 @@
-# <span id=Quick-Creation-Reference> Quick Creation Reference </span>
+# <span id=Character-Creation-Reference> Character Creation Reference </span>
 
 1.  **Choose a [<u>race</u>](#Races)**
 
@@ -46,7 +46,7 @@
 
 12. **Determine mana pool (if applicable)**
 
-If a spellcaster, note maximum starting mana.
+> If a spellcaster, note maximum starting mana.
 
 13. **Determine miscellaneous information  
 > **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn), [<u>sanity</u>](#sanity), [<u>languages</u>](#languages), [<u>psionics</u>](#psionics)
@@ -132,7 +132,7 @@ contrast with conventional Mage lists which is Chaos Magic. Magic Users
 are either [<u>Chaos Mages</u>](#chaos-mage) or [<u>Law
 Mages.</u>](#law-mage)
 
-# <span id=Injury&Death> Injury and Death </span>
+# <span id=Injury-&-Death> Injury and Death </span>
 
 When a character (or creature) is hit, the amount of damage is deducted
 from hit points (hp). When the total hit points reaches 0, the character
@@ -2025,66 +2025,12 @@ for one day.</th>
 
 **Swords**
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 5%" />
-<col style="width: 8%" />
-<col style="width: 6%" />
-<col style="width: 45%" />
-<col style="width: 7%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Weapon Type</strong></th>
-<th><strong>Size</strong></th>
-<th><strong>Damage</strong></th>
-<th><strong>Cost</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Weight</strong></th>
-</tr>
-<tr class="odd">
-<th>Shortsword / Cutlass</th>
-<th>S</th>
-<th>1d6</th>
-<th>6 GP</th>
-<th>A versatile one-handed blade, with the shortsword being
-straight-edged and the cutlass boasting a slight curve.</th>
-<th>1</th>
-</tr>
-<tr class="header">
-<th>Longsword / Scimitar</th>
-<th>M</th>
-<th>1d8</th>
-<th>10 GP</th>
-<th>A balanced, medium sized and versatile weapon.</th>
-<th>1</th>
-</tr>
-<tr class="odd">
-<th>Claymore</th>
-<th>L</th>
-<th>1d10</th>
-<th>25 GP</th>
-<th><p>A large sword, designed for powerful swings and longer reach. Its
-size demands respect.</p>
-<p><strong>Requires +10 Strength to use properly</strong>.</p></th>
-<th>2</th>
-</tr>
-<tr class="header">
-<th>Zweihänder</th>
-<th>L</th>
-<th>1d12</th>
-<th>50 GP</th>
-<th><p>A colossal two-handed sword with a lengthy grip and imposing
-blade. Requires both hands and significant strength to wield
-effectively.</p>
-<p><strong>Requires +10 Strength to use properly</strong>.</p></th>
-<th>2</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Weapon Type | Size | Damage | Cost | Description | Weight |
+| --- | :-: | :-: | :-: | ---  |-- |
+| Shortsword / Cutlass     | S   | 1d6     | 6 GP      | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1     |
+Longsword / Scimitar      | M      | 1d8       |10 GP      |A balanced, medium sized and versatile weapon. | 1
+| Claymore     | L   | 1d10     | 25 GP      | A large sword, designed for powerful swings and longer reach. Its size demands respect. **Requires +10 Strength to use properly**   | 1     | 
+Zweihänder      | L      | 1d12       |50 GP      |A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield effectively. **Requires +10 Strength to use properly** | 1
 
 **Hammers & Maces**
 
@@ -2154,9 +2100,9 @@ effectively.</p>
 | Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |           |
 | Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 15ft      |
 
-Spells
+# Spells
 
-# Chaos Mage
+## Chaos Mage Spells
 
 ## Cantrips
 
@@ -2183,7 +2129,7 @@ Spells
 |                      | Ventriloquism  |                |                  |                |
 |                      | Wizard Mark    |                |                  |                |
 
-# Law Mage
+## Law Mage Spells
 
 ### Level 1 Spells
 
@@ -2194,9 +2140,9 @@ Spells
 | Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
 | Protection from Evil                       | Read Magic         |               |             | Purify Food and Drink |
 
-Cantrip Descriptions
+## Cantrip Descriptions
 
-**Stitch (W) / Ravel (B)**
+### Stitch (W) / Ravel (B)
 
 **Range:** 30'
 
@@ -2450,7 +2396,7 @@ Dries an object:
 The area of effect is permeated by a fog-like dampness that leaves all
 material within damp to the touch.
 
-Spell Descriptions
+# Spell Descriptions
 
 **Alarm (W)**
 
@@ -3028,8 +2974,6 @@ Empowers the caster to magically secure an entryway:
 - **Sealing:** Magically locks doors, gates, or valves regardless of
   their material composition.
 
-<!-- -->
-
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
@@ -3048,12 +2992,8 @@ Allows the caster to discern the nature of magical items:
 - **Preparation:** The 8 hours prior to casting must be dedicated to
   purifying the items.
 
-<!-- -->
-
 - **Information:** A 10% chance per caster level (max 90%) to learn a
   piece of information about the item.
-
-<!-- -->
 
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
@@ -3071,12 +3011,8 @@ Extends the duration one can hold their breath:
 - **Base Breath Holding:** Normally, a character holds breath for rounds
   equal to one-third their Constitution score.
 
-<!-- -->
-
 - **Unknown Duration**: The exact spell duration is secretly rolled by
   the DM and unknown to the recipient.
-
-<!-- -->
 
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
@@ -3129,15 +3065,9 @@ Launches magical missiles that target and hit with precision:
   inanimate objects can't be targeted. Attempting to do so wastes the
   missile.
 
-<!-- -->
-
 - **Missile Count by Level:** Gains an additional missile every two
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
-
-**  
-  
-**
 
 **Mending (W)**
 
@@ -3152,11 +3082,7 @@ This spell repairs small breaks or tears in objects:
 - **Restoration:** Fixes broken or torn items, from jewelry to leather
   containers up to 1 cubic foot per caster level.
 
-<!-- -->
-
 - **Limitations:** Can't repair magical items.
-
-<!-- -->
 
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
@@ -3174,12 +3100,8 @@ Allows for long range communication through whispers:
 - **Targeting:** The caster points at each creature involved (up to one
   per level).
 
-<!-- -->
-
 - **Reception:** Recipient(s) within range can hear the whispered
   message and reply.
-
-<!-- -->
 
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
