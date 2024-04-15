@@ -2,8 +2,7 @@
 
 1.  **Choose a [<u>race</u>](#Races)**
 
-> Review the race options and descriptions. Pick one that fits your
-> character concept.
+> Review the race options and descriptions. Pick one that fits your character concept.
 
 2.  **Apply racial ability score bonuses**
 
@@ -11,13 +10,11 @@
 
 3.  **Determine your character's [<u>age</u>](#Rules/#Age)**
 
-> Pick an appropriate starting age and roll for any additional years
-> based on class. Apply age modifiers.
+> Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
 
 4.  **Determine ability scores**
 
-> Roll 4d6 and drop the lowest for each ability score in order:
-> Strength, Dexterity, Constitution, Mind and Charisma.
+> Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Mind and Charisma.
 
 5.  **Swap one pair of ability scores**
 
@@ -25,66 +22,46 @@
 
 6.  **Select a [<u>class</u>](#Rules/#Classes)**
 
-> Pick a class and make sure you meet the minimum ability score
-> requirements.
+> Pick a class and make sure you meet the minimum ability score requirements.
 
 7.  **Roll starting hit points**
 
-> Roll your class hit die to determine starting HP. Add or remove
-> depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You
-> may reroll results of 1 once.
+> Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
 8.  **Roll [<u>starting gold</u>](#Rules/#Starting-Gold)**
 
-> Consult the table and roll for your starting gold depending on the
-> class.
+> Consult the table and roll for your starting gold depending on the class.
 
 9.  **Purchase [<u>gear</u>](#Rules/#General-Equipment)**
 
-Spend any gold on additional weapons, armor, equipment as desired.
+> Spend any gold on additional weapons, armor, equipment as desired.
 
 10. **Determine background**
 
-Roll or pick a [<u>backgrounds</u>](#Rule_Backgrounds) that provides a relevant skill.
+> Roll or pick a [<u>backgrounds</u>](#Rule_Backgrounds) that provides a relevant skill.
 
 11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
-> If a spellcaster, choose 10 spells (if [<u>Chaos
-> Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at
-> level 1 that you learn automatically) or 5 (if [<u>Law
-> Mage</u>](#law-mage)). Roll the percentile dice to determine which
-> ones you know, discard the rest.
+> If a spellcaster, choose 10 spells (if [<u>Chaos Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>Law Mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
 
 12. **Determine mana pool (if applicable)**
 
 If a spellcaster, note maximum starting mana.
 
 13. **Determine miscellaneous information  
-    **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn),
-    [<u>sanity</u>](#sanity), [<u>languages</u>](#languages),
-    [<u>psionics</u>](#psionics)
+> **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn), [<u>sanity</u>](#sanity), [<u>languages</u>](#languages), [<u>psionics</u>](#psionics)
 
-Akladell - Reference Document
-
-*Compiled homebrew rules from Swords & Wizardry (and others)*
-
-General Gameplay
+# General Gameplay
 
 **The following mechanics are changed or specially noted.**
 
-Experience Points
+## Experience Points
 
-(XP) is now earned solely through the acquisition of gold. For each Gold
-Piece (GP) safely collected, players will earn 1 XP. All experience is
-shared between the party. Players may receive flat amounts of XP from
-uncovering hidden lore and completing their goals as well.
+XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party. Players may receive flat amounts of XP from uncovering hidden lore and completing their goals as well.
 
 ## Costs of living
 
-Player characters pay an amount of gold per month equal to 1% of their
-total XP. So for example, a 2nd level fighter that has garnered a total
-of 3000 XP pays 30 gold per month for the cost of living during a month
-of downtime.
+Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
 
 # Combat
 
@@ -102,24 +79,9 @@ with factors such as worn armor, carried shields, and
 [<u>Dexterity</u>](#dexterity) modifiers. To successfully strike a
 target, the final result must equal or surpass the defender's AC.
 
-## Surprise<img src="./media/image1.jpg"
-style="width:3.36027in;height:2.83134in" />
+## Surprise<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
 
-In situations where surprise might occur, each character must check for
-their state of awareness. For example, a character sneaking up on a
-guard would trigger a surprise for the guard alone. Whereas the party
-entering a room with goblins would trigger a surprise for everyone.
-Every character checks for surprise by rolling a 1d6. If the result is a
-1 or 2, that character is surprised. This is modified by
-[<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as
-the creature being surprised.  
-If a character is surprised, that character does not get to act during
-the first round of combat. Being aware of potential threats, like
-hearing noises or spotting tracks can prevent a character from being
-surprised or improve their chances on the d6. In situations where
-multiple parties encounter each other, it's possible for members from
-both sides to be surprised or not, leading to varied creatures that do
-get to act in the first round of combat based on individual rolls.
+In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
 
 ## Critical hits
 
