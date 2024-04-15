@@ -1,19 +1,28 @@
 body 
 {
-    font-family: monospace;
     display: flex;
-    justify-content: center;
-    margin:0;
-    background-color:black;
-    color:white;
+    justify-content: flex-start;
+    margin: 0;
+    background-color: black;
+    color: white;
 }
-.centered-container {
+.centered-container 
+{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto 0 300px;
-    text-align: left;
+}
+
+#toc-panel 
+{
+    position: fixed;
+    top: 0;
+    left: 10%;
+    overflow-y: auto; 
+    float: left;
 }
 
 header, nav
@@ -87,12 +96,4 @@ th, td
 padding: 5px;
 }
 
-#toc-panel 
-{
-    position: fixed;
-    top: 0px;
-    left: 0;
-    overflow-y: auto; 
-    float: left;
-    padding-left: 20px;
-}
+
