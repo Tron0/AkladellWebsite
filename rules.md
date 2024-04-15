@@ -8,7 +8,7 @@
 
 > Add the bonuses your race provides.
 
-3.  **Determine your character's [<u>age</u>](#Rules/#Age)**
+3.  **Determine your character's [<u>age</u>](#Age)**
 
 > Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
 
@@ -20,7 +20,7 @@
 
 > You can swap any two ability scores with each other once.
 
-6.  **Select a [<u>class</u>](#Rules/#Classes)**
+6.  **Select a [<u>class</u>](#Classes)**
 
 > Pick a class and make sure you meet the minimum ability score requirements.
 
@@ -36,9 +36,9 @@
 
 > Spend any gold on additional weapons, armor, equipment as desired.
 
-10. **Determine background**
+10. **Determine Background**
 
-> Roll or pick a [<u>backgrounds</u>](#Rule_Backgrounds) that provides a relevant skill.
+> Roll or pick a [<u>backgrounds</u>](#Backgrounds) that provides a relevant skill.
 
 11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
@@ -59,7 +59,7 @@ If a spellcaster, note maximum starting mana.
 
 XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party. Players may receive flat amounts of XP from uncovering hidden lore and completing their goals as well.
 
-## Costs of living
+## Costs of Living
 
 Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
 
@@ -83,14 +83,9 @@ target, the final result must equal or surpass the defender's AC.
 
 In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
 
-## Critical hits
+## Critical Hits
 
-Rolling a 20 on a d20 attack roll is called a “critical hit”. This
-guarantees that the character's attack hits the target, regardless of
-the target's Armor Class (AC). However, it does not double the damage or
-dice. Similarly, rolling a 1 means the attack automatically fails,
-regardless of the target's AC. This is also applied to saving throws and
-works in the same way.
+Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's Armor Class (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
 
 ## Two-Weapon Fighting and Two-Handed Weapons
 
@@ -101,7 +96,7 @@ fighting with a weapon in each hand gives a +1 to hit. (Note that
 fighting with two weapons does not actually give two separate attacks;
 it just increases the likelihood of landing a successful blow.)
 
-## Calculating hits
+## Calculating Hits per Level
 
 | **Class**  | Level 1 | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
 |------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -994,7 +989,7 @@ additional years, roll the dice corresponding to the character's class.
 | Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
 | Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
 
-## <span id=Rule_Backgrounds> Backgrounds </span>
+## <span id=Backgrounds> Backgrounds </span>
 
 Assign a skill randomly, or select according to the background of your
 character.

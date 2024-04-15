@@ -74,7 +74,9 @@ small
 {
     border-bottom: 1px solid #555;
     border: 1px solid #ccc;
-    min-width: 2em;
+    min-width: 3em;
+    text-align: center;
+    vertical-align: middle;
 }
 
 ul 
