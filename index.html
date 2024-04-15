@@ -49,18 +49,12 @@
         .then(data => 
         {
             let htmlContent = marked.parse(data);
-              document.getElementById('content').innerHTML = htmlContent;
+            document.getElementById('content').innerHTML = "<div class='rules-content'>" + htmlContent + "</div>";
         });
     }
-
     document.addEventListener("DOMContentLoaded", function()
     {
     const tocPanel = document.getElementById('toc-panel');
-
-    let newButtonFunction = function()
-    {
-        tocPanel.style.display === "none" ? tocPanel.style.display = "block" : tocPanel.style.display = "none";
-    };
 
     window.onhashchange = function() {
     var hashStr = window.location.hash;

@@ -56,6 +56,13 @@ small
     flex: 1 0 auto;
 }
 
+.rules-content 
+{
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 ul 
 {
     font-family: Arial, Helvetica, sans-serif;
@@ -97,23 +104,23 @@ padding: 5px;
 }
 
 @media (max-width: 768px) {
-    body {
-      flex-direction: column;
-      align-items: center;
-    }
-    #toc-panel {
-      position: relative;
-      width: 80%;
-      max-width: 300px;
-      margin: 20px auto 0;
-      transform: translateX(-50%);
-      left: 50%;
-    }
-    .centered-container {
-      margin: 0;
-      width: 100%;
-    }
+  body {
+    flex-direction: column;
+    align-items: center;
   }
+  #toc-panel {
+    position: relative;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto 0;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  .centered-container {
+    margin: 0;
+    width: 100%;
+  }
+}
   
 
   
