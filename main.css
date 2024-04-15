@@ -103,13 +103,13 @@ padding: 5px;
     }
     #toc-panel {
       position: relative;
-      width: 90%;
+      width: 80%;
       max-width: 300px;
-      margin: 20px auto;
-      text-align: left;
+      margin: 20px auto 0;
     }
     .centered-container {
       margin: 0;
+      width: 100%;
     }
   }
   
