@@ -1,4 +1,4 @@
-# Quick Creation Reference
+# <span id=Quick-Creation-Reference> Quick Creation Reference </span>
 
 1.  **Choose a [<u>race</u>](#Races)**
 
@@ -28,7 +28,7 @@
 
 > Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
-8.  **Roll [<u>starting gold</u>](#Rules/#Starting-Gold)**
+8.  **Roll [<u>starting gold</u>](#Starting-Gold)**
 
 > Consult the table and roll for your starting gold depending on the class.
 
@@ -51,7 +51,7 @@ If a spellcaster, note maximum starting mana.
 13. **Determine miscellaneous information  
 > **Armor class, [<u>encumbrance</u>](#_25dl12dlsxgn), [<u>sanity</u>](#sanity), [<u>languages</u>](#languages), [<u>psionics</u>](#psionics)
 
-# General Gameplay
+# <span id=General-Gameplay> General Gameplay </span>
 
 **The following mechanics are changed or specially noted.**
 
@@ -63,7 +63,7 @@ XP is earned solely through the acquisition of gold. For each Gold Piece (GP) sa
 
 Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
 
-# Combat
+# <span id=Combat> Combat </span>
 
 ## Initiative
 
@@ -79,7 +79,8 @@ with factors such as worn armor, carried shields, and
 [<u>Dexterity</u>](#dexterity) modifiers. To successfully strike a
 target, the final result must equal or surpass the defender's AC.
 
-## Surprise<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
+## Surprise
+<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
 
 In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
 
@@ -98,16 +99,23 @@ it just increases the likelihood of landing a successful blow.)
 
 ## Calculating Hits per Level
 
-| **Class**  | Level 1 | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
-|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +6  | +7  | +7  | +8  | +8  | +9  | +10 | +10 | +11 |
-| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7  | +7  | +8  | +9  | +9  | +10 | +11 | +12 | +12 | +13 | +13 |
-| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
-| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
+| **Class**  | Level 1 | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5  |
+| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7  |
+| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  |
+| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  |
+
+| **Class**  | Level 10 | 11  | 12  | 13  | 14  | 15  | 16  | 17  | 18  | 19  | 20  |
+|------------|----------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +5|      | +5  | +6  | +7  | +7  | +8  | +8  | +9  | +10 | +10 | +11 |
+| Fighter\*  | +7       | +7  | +8  | +9  | +9  | +10 | +11 | +12 | +12 | +13 | +13 |
+| Chaos Mage | +4       | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
+| Specialist | +4       | +5  | +5  | +5  | +6  | +6  | +7  | +7  | +7  | +7  | +8  |
 
 \*Includes Inquisitors.
 
-# Alignment
+# <span id=Alignment> Alignment </span> 
 
 Alignments are Law, Chaos, and Neutral. Law and Chaos are terms used to
 refer to the underlying workings within the universe and the world, not
@@ -124,7 +132,7 @@ contrast with conventional Mage lists which is Chaos Magic. Magic Users
 are either [<u>Chaos Mages</u>](#chaos-mage) or [<u>Law
 Mages.</u>](#law-mage)
 
-# Injury & Death
+# <span id=Injury&Death> Injury and Death </span>
 
 When a character (or creature) is hit, the amount of damage is deducted
 from hit points (hp). When the total hit points reaches 0, the character
@@ -139,7 +147,7 @@ extra hp per day. Characters that have been knocked unconscious from the
 result of combat need to rest for at least five days, or until their hp
 is back to full.
 
-# Creature Size
+# <span id=Creature-Size> Creature Size </span>
 
 Medium sized creatures can use Large (L) weapons with both hands; Small
 (S) or Medium (M) weapons with one hand. Smaller creatures like goblins
@@ -147,7 +155,7 @@ can't use Large weapons. Must wield Medium weapons with both hands. The
 specifics of each creature size is in the [<u>Races</u>](#_ixtrbw17tt3h)
 chapter.
 
-# Time
+# Time <span id=Time> Time </span>
 
 ## Travel Time
 
@@ -182,7 +190,7 @@ round.
 Spell casting times are measured in rounds, and spell effects often last
 a certain number of rounds.
 
-# Sanity
+# <span id=Sanity> Sanity </span>
 
 When a character faces abhorrent events or unspeakable horrors, a saving
 throw is made. Failing this saving throw will cause damage to the
@@ -193,27 +201,16 @@ sanity, the character gains a random affliction as well as regaining 3d6
 sanity. Afflictions can be removed with different spells, or by spending
 gold to attempt to remove it during downtime.
 
-# Retainers
+# <span id=Retainers> Retainers </span>
 
 Followers of any kind are separated in two categories, Henchmen and
 Hirelings.
 
 ## Henchmen
 
-Henchmen are leveled and classed followers that are willing to delve
-into dungeons and fight alongside the player characters. They are both
-meant as a suitable backup incase of sudden demise of the player
-character where the player can continue on as them, as well as offering
-a helping hand in combat scenarios. Henchmen (and hirelings) are
-individuals with different goals and personalities, and can act both in
-a helping manner and sometimes against the wishes of the PC. Henchmen
-need to be given suitable equipment and half a share of treasure after
-any successful heist, or else risk their departure. Their loyalty is
-dependent on the [<u>Charisma</u>](#charisma) score of the PC they work
-for. And because Henchmen act similar to a normal PC, morale is not
-taken into account, but loyalty checks might be rolled in case of
-questionable or dangerous commands given to them. Henchmen also gain XP
-as a PC would.
+Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
+
+Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>Charisma</u>](#Charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen also gain XP as a PC would.
 
 Hiring Henchmen
 
@@ -235,7 +232,7 @@ traveling for longer might be a day-to-day salary. This completely
 depends on the situation of the job. Hirelings given a work opportunity
 in advance do not require rations or similar if they get extra payment.
 
-# Encumbrance & Movement
+# <span id=Encumbrance> Encumbrance </span>
 
 Characters have a total number of slots (or unique items carried) equal
 to their Strength Score. Each item carried takes up one slot unless
@@ -309,7 +306,7 @@ Wilderness Wandering Monster Tables. This encounter is separate from any
 regular encounter rolls for the day. It's important to note that hunting
 cannot occur during days allocated for resting.
 
-# Ability Scores
+# <span id=Ability-Scores> Ability Scores </span>
 
 ## Strength
 
@@ -385,20 +382,21 @@ more XP.
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
 
-# Languages
+# Languages <span id=Languages> Languages </span>
 
 Common, Elvish, Dwarvish, Draconic, Gnomish, Infernal, Halfling, Goblin,
 Orcish, Avian, and Undercommon / Nomad
 
 Law (Spellcasting) and Chaos (Spellcasting)
 
-# Classes
+# <span id=Classes> Classes </span>
 
 ## Fighter
 
 **Minimum Requirement:** 9+ Strength
 
-**Prime Attribute:** Strength, 13+ (+5% experience bonus)  
+**Prime Attribute:** Strength, 13+ (+5% experience bonus)
+
 **Hit Dice:** 1d8/level (Gains 2 hp/level after 9th level)
 
 **Armor/Shield Permitted**: Any
@@ -454,12 +452,13 @@ when taking an attack action instead of once.
 | 19        | 1,440,000                    | 9+20 hp           | 5                 |
 | 20        | 1,560,000                    | 9+22 hp           | 5                 |
 
-### Inquisitor
+## Inquisitor
 
 **Minimum Requirement:** 12+ Strength, +9 Constitution, +13 Mind, +17
 Charisma
 
-**Prime Attribute:** Strength, 13+ (+5% experience bonus)  
+**Prime Attribute:** Strength, 13+ (+5% experience bonus)
+
 **Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level)
 
 **Armor/Shield Permitted**: Any
@@ -547,8 +546,6 @@ evil).
 | 19        | 1,580,000                    | 9+30 hp            | 5                 |
 | 20        | 1,710,000                    | 9+33 hp            | 5                 |
 
-##  
-
 ## Specialist
 
 **Minimum Requirement:** 9+ Dexterity
@@ -588,7 +585,7 @@ structures of a character’s surroundings. Determining if a passage
 shifts or slopes gradually, detecting if a structure is unsafe to travel
 in/on, as well as any history found in the structure can be noted.
 
-[**<u>Foraging</u>**](#foraging)
+**Foraging** (See Foraging)
 
 **Lockpicking:** Specialists can pick locks with Thieves’ tools; some
 locks might be unusually difficult, in which case the game master might
@@ -863,7 +860,7 @@ made to resist spells and magical effects.
 | 19        | 1,330,000                 | 11+16              | 5                |
 | 20        | 1,440,000                 | 11+18              | 5                |
 
-# Multiclassing
+# <span id=Multiclassing> Multiclassing </span>
 
 Multiclassing is the ability to switch classes and begin advancing in a
 new class in addition to the old one. To be eligible for multiclassing
@@ -899,9 +896,9 @@ not as an additive.
 | Chaos Mage | 2,500         | 16 weeks                  |
 | Barbarian  | 1,500         | 8 weeks                   |
 
-Character Creation
+# # <span id=Character-Creation> Character Creation </span>
 
-# Rolling Ability Scores
+## Rolling Ability Scores 
 
 4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
 Dexterity, Constitution, Mind and Charisma. After rolling for stats, you
@@ -929,7 +926,7 @@ score changes given for each age.
 | **Young**       | **+0**       | **+0**        | **+1**           | **+0**   |
 | **Mature**      | **+1**       | **-1**        | **+1**           | **+0**   |
 | **Middle Aged** | **+0**       | **-1**        | **+0**           | **+1**   |
-| **Old**         | **-1**       | **-2**        | **-1**           | **+1**   |
+| **Old**         | **-1**       | **-2**        | **-1**           | **+2**   |
 | **Venerable**   | **-2**       | **-3**        | **-2**           | **+2**   |
 
 | **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
@@ -947,7 +944,7 @@ score changes given for each age.
 | Avian     | 20 - 35         | 36 - 50    | 51 - 75         | 76 - 100  | 101 - 130     |
 | Orc       | 15 - 20         | 21 - 35    | 36 - 55         | 56 - 80   | 81 - 100      |
 
-### Starting Age
+## Starting Age
 
 When determining the starting age of your character, first choose the
 life stage most appropriate for your character's backstory and
@@ -1022,9 +1019,7 @@ character.
 | No skill of measurable worth           | 71 - 90            |
 | Roll twice, ignoring this result after | 90 - 100           |
 
-#  
-
-# Spellcasting
+# <span id=Spellcasting> Spellcasting </span>
 
 ## Learning Spells
 
@@ -1148,7 +1143,7 @@ points as 3W, 2U, 2B, 5G expecting to cast healing spells (Green)
 frequently. After the next rest, the Law Mage could adjust this to 1W,
 1U, 1B, and 2G based on the group's need.
 
-# Psionics
+# <span id=Psionics> Psionics </span>
 
 Every character with a high enough Mind and or Charisma gets to roll to
 see if they possess mind powers known as psionics. The table columns are
@@ -1318,7 +1313,7 @@ Direct mind-to-mind communication with intelligent beings, transcending
 language. Telepathic contact with an Old One is foolish, and the Referee
 will most likely require a saving throw to avoid madness and/or horror.
 
-#Races
+# <span id=Races> Races </span>
 
 Races do not have ability score requirements. You can be a dwarf with 8
 constitution or a halfling with 18 strength. There are no class
@@ -1348,8 +1343,6 @@ initiative.
 to loyalty and morale.
 
 **Ability Score Bonus:** +1 in any score.
-
-#  
 
 # Elves
 
@@ -1448,8 +1441,6 @@ save against illusions with a +2 bonus.
 
 **Ability Score Bonus:** +1 Dexterity or +1 Mind
 
-#  
-
 # Solarians
 
 **Size:** Medium
@@ -1467,15 +1458,14 @@ the outside world from the abyss a long time ago.
 
 **Claws:** Solarians have naturally deadly claws. Instead of using the
 base of 1 damage when using an unarmed strike, Solarians deal 1d4
-damage.**  
-**
+damage.
 
 **Fiery Resilience:** Solarians are resistant to fire due to their
 infernal heritage. They take half damage from fire-based attacks and can
 withstand temperatures that would harm others without penalty.
 
-**  
-Ability Score Bonus:** +1 Strength or +1 Charisma
+ 
+**Ability Score Bonus:** +1 Strength or +1 Charisma
 
 # Halflings
 
@@ -1496,8 +1486,6 @@ saving throw per day.
 terrain. They can move through such terrains at their normal speed.
 
 **Ability Score Bonus:** +1 Charisma
-
-#  
 
 # Goblins
 
@@ -1629,7 +1617,7 @@ enchantments on weapons and armor.
   
 **Ability Score Bonus:** +1 Strength
 
-Items
+# <span id=Items> Items </span>
 
 # Starting Gold
 
@@ -1640,8 +1628,6 @@ Items
 | Law Mage   | 3d6 (30-180)                   |
 | Chaos Mage | 2d4 (20-80)                    |
 | Barbarian  | 2d6 (20-120)                   |
-
-# Equipment Tables
 
 ## General Equipment
 
@@ -1674,7 +1660,7 @@ to 8 slots of gear.</th>
 <th>2 GP</th>
 <th>A length of clean cloth used to wrap wounds and halt bleeding.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Barrel</th>
@@ -1697,7 +1683,7 @@ of the chosen kind.</th>
 <th>A small metal instrument that chimes when struck, useful for
 signaling or attracting attention.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="header">
 <th>Belt</th>
@@ -1737,7 +1723,7 @@ generous 25 ounces of wine, or 750ml.</th>
 <th>Can be used to light up a 5’ radius. A normal candle will burn about
 3 turns per inch of height.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Case (map or scroll)</th>
@@ -1755,7 +1741,7 @@ sheets of paper, or a single scroll of up to seven spells.</th>
 <th>A single piece of chalk. Useful for "blazing a trail" through a
 dungeon or ruin.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Cloak</th>
@@ -1788,7 +1774,7 @@ fire takes 1 minute.</th>
 <p>it. Normal garlic has a minor effect on undead, but charmed garlic
 works much better.</p></th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Glass bottle or vial</th>
@@ -1796,7 +1782,7 @@ works much better.</p></th>
 <th>A small empty vial bottle. Can be filled with 4 ounces of
 liquid.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="header">
 <th>Grappling Hook</th>
@@ -1815,7 +1801,7 @@ splashed on incorporeal entities when adjacent. Each flask deals 1d8
 damage to the direct target and 1d6 to any additional undead within a
 5-foot radius. Its effect lasts for one round.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="header">
 <th>Ink, vial</th>
@@ -1823,7 +1809,7 @@ damage to the direct target and 1d6 to any additional undead within a
 <th>Mostly used to write down spell transcriptions into spellbooks. One
 vial of ink is enough for one spell.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Ladder, 10 ft.</th>
@@ -1866,7 +1852,7 @@ user pleases; in all other ways it performs as an ordinary lantern.</th>
 unlocking locks or similar mechanisms. If an attempt to pick a lock
 fails, the lockpick will snap on a roll of 1-6.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="header">
 <th>Oil, flask</th>
@@ -1876,7 +1862,7 @@ direct hit inflicts 1d8 fire damage, plus 1d6 damage for a duration of
 1d6 rounds. 1d3 splash damage is inflicted to anything within 3
 feet.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Pole (10 feet)</th>
@@ -1909,7 +1895,7 @@ up to 10 slots or 4 cubic feet of items, approximately 1,000 coins.</th>
 accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500
 coins.</th>
 <th>—</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Tent, large (ten men)</th>
@@ -1950,7 +1936,7 @@ tools.</th>
 further, and burns for 1d4+4 turns. Of course, a torch is also useful
 for setting flammable materials (such as cobwebs or oil) alight.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Waterskin</th>
@@ -1969,7 +1955,7 @@ for a full skin; an empty skin has negligible weight.</th>
 <th>A packaged meal providing the necessary sustenance for an adventurer
 for one day.</th>
 <th>1</th>
-<th>☑️</th>
+<th>☑</th>
 </tr>
 <tr class="odd">
 <th>Rope, hemp (50 feet)</th>
@@ -1990,7 +1976,7 @@ for one day.</th>
 </tbody>
 </table>
 
-### Armor
+## Armor
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
@@ -2009,7 +1995,7 @@ for one day.</th>
 | Field Plate Mail  | 18              | 500 GP   | Comprehensive armor of shaped metal plates, offering better mobility.             | 4          | Heavy    |
 | Full Plate Mail   | 19              | 1,500 GP | An all-encompassing suit of articulated metal plates, the pinnacle of protection. | 4          | Heavy    |
 
-### Shields
+## Shields
 
 | **Shield Type** | **AC Bonus Melee/Ranged** | **Cost** | **Description**                                                                      | **Weight** |
 |-----------------|---------------------------|----------|--------------------------------------------------------------------------------------|------------|
@@ -2017,7 +2003,7 @@ for one day.</th>
 | Medium Shield   | +1/+1                     | 7 GP     | A versatile shield offering balanced protection and mobility.                        | 1          |
 | Tower Shield    | +1/+3                     | 15 GP    | A large, imposing shield providing maximum coverage.                                 | 2          |
 
-### Melee Weapons
+## Melee Weapons
 
 **Axes**
 
@@ -2152,21 +2138,21 @@ effectively.</p>
 | **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                | **Weight** | **Stackable** | **Rate** | **Range** |
 |----------------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|----------|-----------|
 | Shortbow                   | M        |            | 25 GP    | A small bow made of wood or horn used by those requiring short range archery attacks.                                                                          | 1          | ☐             | 2        | 50ft      |
-| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | ☑️            |          |           |
-| Silver Shortbow Arrow      |          | 1d6        | 2 GP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | ☑️            |          |           |
+| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | ☑            |          |           |
+| Silver Shortbow Arrow      |          | 1d6        | 2 GP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | ☑            |          |           |
 | Longbow                    | L        |            | 60 GP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Requires 10+ Strength to use properly**.    | 1          | ☐             | 1        | 70ft      |
-| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | ☑️            |          |           |
-| Silver Longbow Arrow       |          | 1d8        | 4 GP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | ☑️            |          |           |
+| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | ☑            |          |           |
+| Silver Longbow Arrow       |          | 1d8        | 4 GP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | ☑            |          |           |
 | Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60ft      |
-| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑️            |          |           |
-| Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑️            |          |           |
+| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑            |          |           |
+| Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑            |          |           |
 | Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Requires 10+ Strength to reload properly**. | 2          | ☐             | 1/2      | 80ft      |
-| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑️            |          |           |
-| Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑️            |          |           |
+| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑            |          |           |
+| Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑            |          |           |
 | Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 30ft      |
-| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | ☑️            |          |           |
-| Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑️            |          |           |
-| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑️            | 3        | 15ft      |
+| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | ☑            |          |           |
+| Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |           |
+| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 15ft      |
 
 Spells
 
