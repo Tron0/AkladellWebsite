@@ -9,7 +9,7 @@ body
 .centered-container 
 {
     display: flex;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
     box-sizing: border-box;
     flex-direction: column;
@@ -19,8 +19,8 @@ body
 #toc-panel {
     position: fixed;
     top: 0;
-    left: 50px;
-    width: 280px;
+    left: 10%;
+    width: 300px;
     padding: 20px;
     overflow-y: auto;
 }
@@ -96,4 +96,13 @@ th, td
 padding: 5px;
 }
 
-
+@media (max-width: 768px) {
+    #toc-panel {
+      position: relative;
+      width: auto;
+      left: 0;
+    }
+    .centered-container {
+      margin: 0;
+    }
+  }
