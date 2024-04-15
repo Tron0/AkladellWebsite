@@ -104,9 +104,10 @@ padding: 5px;
     #toc-panel {
       position: relative;
       width: 80%;
-      margin: 20px 0;
+      margin: 20px auto;
     }
     .centered-container {
       margin: 0;
     }
   }
+  
