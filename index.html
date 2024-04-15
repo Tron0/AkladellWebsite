@@ -52,6 +52,7 @@
         {
             let htmlContent = marked.parse(data);
             document.getElementById('content').innerHTML = "<div class='rules-content'>" + htmlContent + "</div>";
+            scrollToHash();
         });
     }
     document.addEventListener("DOMContentLoaded", function()
@@ -92,9 +93,6 @@ function scrollToHash() {
   }
 }
 window.addEventListener('hashchange', scrollToHash);
-scrollToHash();
-
-
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
 });
