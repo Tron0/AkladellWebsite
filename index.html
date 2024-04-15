@@ -95,11 +95,18 @@ function handleTocClick(e) {
 }
 
 function loadRulesAndScroll(hash) {
-  window.loadRulesPage(); // Load rules content first
-  const hashWithoutPound = hash.substring(1);
-  setTimeout(() => {
-    scrollToAnchor(hashWithoutPound);
-  }, 100); // Slight delay for content to load
+  let hashWithoutPound = hash.substring(1);
+  window.loadRulesPage();
+  let hashObserver = new MutationObserver(mutations => {
+    mutations.forEach(mutation => {
+      if(mutation.addedNodes.length) {
+        scrollToAnchor(hashWithoutPound);
+        hashObserver.disconnect();
+      }
+    })
+  });
+  let rulesContent = document.querySelector('.rules-content');
+  hashObserver.observe(rulesContent, {childList: true});
 }
 
 window.addEventListener('hashchange', scrollToHash);
