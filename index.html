@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Akladell</title>
         <link rel="stylesheet" type="text/css" href="main.css">
-        
+
     </head>
 <body>
     <div class="centered-container">
@@ -40,8 +40,8 @@
         </div>
         <footer><hr></footer>
     </div>
-        
-    
+
+
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
     window.loadRulesPage = function() 
@@ -76,22 +76,33 @@
     }
     else if(hash === 'Discord') 
     {
-        
+
     } 
     else 
     {
         window.loadRulesPage();
-        scrollToAnchor(hash);
     }
 };
 
-function scrollToHash() {
-  var hash = location.hash;
-  if(hash) {
-    var el = document.querySelector(hash);
-    if(el) el.scrollIntoView({behavior: 'smooth'});
-  }
+const tocLinks = document.querySelectorAll('#toc-panel a');
+tocLinks.forEach(link => {
+  link.addEventListener('click', handleTocClick);
+});
+
+function handleTocClick(e) {
+  e.preventDefault(); // Stop default link behavior
+  const hash = this.getAttribute('href'); // Get the link's hash
+  loadRulesAndScroll(hash);
 }
+
+function loadRulesAndScroll(hash) {
+  window.loadRulesPage(); // Load rules content first
+  const hashWithoutPound = hash.substring(1);
+  setTimeout(() => {
+    scrollToAnchor(hashWithoutPound);
+  }, 100); // Slight delay for content to load
+}
+
 window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
