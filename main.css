@@ -9,7 +9,7 @@ body
 .centered-container 
 {
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
     box-sizing: border-box;
     flex-direction: column;
