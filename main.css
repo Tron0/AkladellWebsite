@@ -70,9 +70,9 @@ small
     overflow-x: auto;
 }
 
-.rules-content table td
+.rules-content table tr td
 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #555;
 }
 
 ul 
