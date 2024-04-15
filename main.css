@@ -12,13 +12,18 @@ body
     flex-direction: column;
     width: 100%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto 0 300px;
     text-align: left;
 }
 
 header, nav
 {
     text-align:center;
+}
+
+.flex-grow 
+{
+    flex: 1 1 auto;
 }
 
 a:link
@@ -86,7 +91,8 @@ padding: 5px;
 {
     position: fixed;
     top: 0px;
+    left: 0;
     overflow-y: auto; 
     float: left;
-    padding-right: 50px; 
+    padding-left: 20px;
 }
