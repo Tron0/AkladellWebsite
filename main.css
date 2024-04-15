@@ -73,6 +73,8 @@ small
 .rules-content table tr td
 {
     border-bottom: 1px solid #555;
+    border: 1px solid #ccc;
+    min-height: 2em;
 }
 
 ul 
