@@ -126,17 +126,10 @@
     }
 };
 
-if (window.location.hash) {
-        // Wait for loadRulesPage to finish loading content before manually triggering hashchange
-        setTimeout(() => 
-        {
-            window.dispatchEvent(new Event('hashchange'));
-        }, 100);
-    } 
-    else 
+if (!window.location.hash) 
     {
-        window.location.hash = "#Home";
-   }
+     window.location.hash = "#Home";
+    }
 
 window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
