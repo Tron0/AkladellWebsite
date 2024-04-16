@@ -3377,7 +3377,7 @@ This spell lets the caster inscribe a personal mark:
 - **Removal:** Cannot be dispelled but can be removed by the original
   caster or an erase spell.
 
-# Sources
+# <span id=Sources> Sources </span>
 
 [<u>Swords &
 Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)

@@ -126,6 +126,11 @@
     }
 };
 
+if (!window.location.hash) 
+    {
+     window.location.hash = "#Home";
+    }
+
 window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
