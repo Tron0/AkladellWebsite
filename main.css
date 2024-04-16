@@ -40,11 +40,6 @@ a:link
     color: lightseagreen;
 }
 
-a:visited 
-{
-    color: lightgoldenrodyellow;
-}
-
 small 
 {
     color: gray;
@@ -87,7 +82,7 @@ ul
 .post 
 {
     padding: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
     border: 1px solid white;
     background: black;
