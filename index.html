@@ -68,14 +68,12 @@
     });
     }
 
-    function scrollToHash(hash) 
-    {
-        hash = hash.replace('#', ''); // Remove leading #
-        const el = document.getElementById(hash);
-        if (el) 
-        {
-            el.scrollIntoView({ behavior: 'smooth' });
-        }
+    function scrollToHash(hash) {
+    hash = hash.replace('#', '');  // Remove leading #
+    const el = document.getElementById(hash);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+    }
     }
 
 
