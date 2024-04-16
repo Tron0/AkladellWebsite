@@ -29,7 +29,7 @@ window.addEventListener('load', function()
 function loadHomePage()
 {
     var mainContent = document.getElementById('content');
-    mainContent.innerHTML = '<h2>Welcome to the Home Page!</h2><p>This is the default page.</p>';
+    mainContent.innerHTML = '<h2>Welcome to the Home Page!</h2>';
 }
 
 function loadUpdatePost()
