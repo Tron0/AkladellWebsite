@@ -69,7 +69,7 @@
     }
 
     function scrollToHash(hash) {
-    hash = hash.replace('#', '');  // Remove leading #
+    hash = String(hash).replace('#', ''); // Convert hash to string first
     const el = document.getElementById(hash);
     if (el) {
         el.scrollIntoView({ behavior: 'smooth' });
