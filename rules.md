@@ -1243,7 +1243,7 @@ gold inside of a pouch.
 
 ## Base Movement Rate
 
-| **Unique Items Carried\***    | **Base Movement Rate** |
+| **Unique Items Carried**    | **Base Movement Rate** |
 |-------------------------------|------------------------|
 | Equal or under Strength Score | 12                     |
 | Strength Score + 1 Item       | 9                      |
@@ -1288,11 +1288,6 @@ roll an additional encounter from the Animal Subtable found in the
 Wilderness Wandering Monster Tables. This encounter is separate from any
 regular encounter rolls for the day. It's important to note that hunting
 cannot occur during days allocated for resting.
-
-
-
-
-
 
 # <span id=Multiclassing> Multiclassing </span>
 
@@ -1495,7 +1490,7 @@ numbers.
 
 ## Psionic Powers
 
-**Army of One**
+### Army of One
 
 **Range: Self**
 
@@ -1507,7 +1502,7 @@ user is able to make one melee attack for every opponent already
 engaging them. Each attack must be against a different opponent, and the
 extra attacks are not gained if the user must move to engage a foe.
 
-**Clairaudience**
+### Clairaudience
 
 **Range: 60’**
 
@@ -1516,7 +1511,7 @@ extra attacks are not gained if the user must move to engage a foe.
 The user can hear through solid obstacles. A 2’ thickness of stone
 blocks the effect, as does the thinnest layer of lead.
 
-**Clairvoyance**
+### Clairvoyance
 
 **Range: 60’**
 
@@ -1525,7 +1520,7 @@ blocks the effect, as does the thinnest layer of lead.
 The user can see through solid obstacles. A 2’ thickness of stone blocks
 the effect, as does the thinnest layer of lead.
 
-**ESP**
+### ESP
 
 **Range: 60’**
 
@@ -1534,7 +1529,7 @@ the effect, as does the thinnest layer of lead.
 The user can detect the thoughts of other beings. A 2’ thickness of
 stone blocks the effect, as does the thinnest layer of lead.
 
-**Mental Barrier**
+### Mental Barrier
 
 **Range: 60’**
 
@@ -1543,7 +1538,7 @@ stone blocks the effect, as does the thinnest layer of lead.
 When activated, any attack against a creature with this power recieve a
 -5 penalty to their attack roll for the duration.
 
-**Mental Blast**
+### Mental Blast
 
 **Range: 60’**
 
@@ -1553,7 +1548,7 @@ This attack of pure mental energy causes 3d8 damage on a target.
 Intelligent creatures can save vs. magic to avoid the damage. Other
 creatures possessing psionic powers gain a +5 on the save.
 
-**Mind Control**
+### Mind Control
 
 **Range: 120’**
 
@@ -1565,7 +1560,7 @@ the user intensely concentrates (no fighting or even walking). A saving
 throw vs magic negates the effect. Animals are immune, as are the Old
 Ones.
 
-**Precognition**
+### Precognition
 
 **Range: Self**
 
@@ -1574,7 +1569,7 @@ Ones.
 This allows the user to tell what will happen to only themselves if they
 were to do something. No more than 1 minute into the future can be seen.
 
-**Sleep**
+### Sleep
 
 **Range: 60’**
 
@@ -1587,7 +1582,7 @@ targeted. Creatures can save vs. magic to avoid this effect. Otherwise
 they are unconscious for 1d4 hours unless awoken. Some beings such as
 undead are immune to this effect as they would be with magic.
 
-**Suspend Life**
+### Suspend Life
 
 **Range: Self**
 
@@ -1600,7 +1595,7 @@ after a “day” without food (though 10 years pass in actuality) and
 begins to suffer the effects of thirst and starvation as appropriate. It
 takes four rounds to draw oneself out of this trance.
 
-**Telekinesis**
+### Telekinesis
 
 **Range: 120’**
 
@@ -1609,7 +1604,7 @@ takes four rounds to draw oneself out of this trance.
 The user can move objects using mental power alone. The amount of weight
 they can lift and move is 20 pounds per level.
 
-**Telepathy**
+### Telepathy
 
 **Range: 120’**
 

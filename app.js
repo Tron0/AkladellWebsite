@@ -39,6 +39,12 @@ function loadUpdatePost()
 
     var posts = [
     { 
+            title: 'Website Launch!',
+            content: `This will be the place where I update rules and add other fun stuff :)`, 
+            date: "2023-04-16 16:52 CET" 
+    },
+
+    { 
         title: 'Between Session Play',
         content: `These aren't rules written in the document specific to "system" rules, but more or less by me as a DM to put rules down in regard to what characters can't do between sessions and what they can. I'm somewhat lenient on what characters can do between sessions, especially when it comes to traveling. Because travling can be dangerous and costly mostly in way of monsters and rations respectively. With that said, this is not a thing when you're traveling between sessions.
         To emphasize in-game decisions, characters cannot perform any actions except role play or strict travel. This includes gathering items in other locations or the like. However, things like shopping or finding retainers will be allowed. This is to filter out the more "boring" stuff and not make this into a play-by-post game, as that will eat up too much of my free time.`, 
@@ -74,7 +80,7 @@ function loadUpdatePost()
 document.getElementById('discordlink').addEventListener('click', function(event)
 {
     event.preventDefault()
-    window.open('https://discord.gg/By5MPxhrJf', '_blank')
+    window.open('https://discord.gg/dhqJpXt42a', '_blank')
 });
 
 function loadAboutPage()
