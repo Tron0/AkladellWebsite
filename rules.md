@@ -1,4 +1,4 @@
-# <span id=Character-Creation-Reference> Character Creation Reference </span>
+# <span id=Quick-Creation-Reference> Quick Creation Reference </span>
 
 1.  **Choose a [<u>race</u>](#Races)**
 
@@ -2104,7 +2104,7 @@ Zweihänder      | L      | 1d12       |50 GP      |A colossal two-handed sword 
 | Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |           |
 | Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 15ft      |
 
-# Spells
+# <span id=Spells> Spells </span>
 
 ## Chaos Mage Spells
 
@@ -2400,7 +2400,7 @@ Dries an object:
 The area of effect is permeated by a fog-like dampness that leaves all
 material within damp to the touch.
 
-# Spell Descriptions
+# <span id=Spell-Descriptions> Spell Descriptions </span>
 
 **Alarm (W)**
 
