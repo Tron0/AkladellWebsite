@@ -126,15 +126,17 @@
     }
 };
 
-if (window.location.hash) 
-{
-    // Manually trigger hashchange event if there's already a hash in the URL
-    window.dispatchEvent(new Event('hashchange'));
-} 
-else 
-{
-    window.location.hash = "#Home";
-}
+if (window.location.hash) {
+        // Wait for loadRulesPage to finish loading content before manually triggering hashchange
+        setTimeout(() => 
+        {
+            window.dispatchEvent(new Event('hashchange'));
+        }, 100);
+    } 
+    else 
+    {
+        window.location.hash = "#Home";
+   }
 
 window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
