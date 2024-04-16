@@ -45,32 +45,35 @@
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
-function handleTocClick(e) 
-{
+    function handleTocClick(e) {
     e.preventDefault();
     const hash = this.getAttribute('href');
-    loadRulesPage(hash);
-}
-
-function loadRulesPage(hash) 
-{
-  fetch('./rules.md')
-  .then(response => response.text())
-  .then(data => {
-    const htmlContent = marked.parse(data);
-    document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-    if (hash) {
-      scrollToHash(hash);
+    window.loadRulesPage(hash);
     }
-  });
-}
+    const tocLinks = document.querySelectorAll('#toc-panel a');
+    tocLinks.forEach(link => {
+    link.addEventListener('click', handleTocClick);
+    });
 
-function scrollToHash(hash) {
-  const el = document.querySelector(hash);
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth' });
-  }
-}
+    window.loadRulesPage = function(hash)
+    {
+    fetch('./rules.md')
+    .then(response => response.text())
+    .then(data => {
+        const htmlContent = marked.parse(data);
+        document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
+        if (hash) {
+        scrollToHash(hash);
+        }
+    });
+    }
+
+    function scrollToHash(hash) {
+    const el = document.querySelector(hash);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth' });
+    }
+    }
 
 
     document.addEventListener("DOMContentLoaded", function()
