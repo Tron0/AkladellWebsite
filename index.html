@@ -45,11 +45,14 @@
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
-    function handleTocClick(e) {
+    function handleTocClick(e) 
+    {
     e.preventDefault();
     const hash = this.getAttribute('href');
+    window.location.hash = hash; // Update URL hash
     window.loadRulesPage(hash);
     }
+
     const tocLinks = document.querySelectorAll('#toc-panel a');
     tocLinks.forEach(link => {
     link.addEventListener('click', handleTocClick);
