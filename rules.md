@@ -50,261 +50,130 @@
 
 13. **Determine miscellaneous information**
 
-> **Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>sanity</u>](#Sanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
-
-# <span id=General-Gameplay> General Gameplay </span>
-
-**The following mechanics are changed or specially noted.**
-
-## Experience Points
-
-XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party. Players may receive flat amounts of XP from uncovering hidden lore and completing their goals as well.
-
-## Costs of Living
-
-Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
-
-# <span id=Combat> Combat </span>
-
-## Initiative
-
-
-When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
-
-## Armor Class
-
-A character's Armor Class (AC) represents their ability to avoid being
-hit in combat, starting with a base of 10 and potentially increasing
-with factors such as worn armor, carried shields, and
-[<u>Dexterity</u>](#dexterity) modifiers. To successfully strike a
-target, the final result must equal or surpass the defender's AC.
-
-## Surprise
-<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
-
-In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
-
-## Critical Hits
-
-Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's Armor Class (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
-
-## Two-Weapon Fighting and Two-Handed Weapons
-
-Just as shields improve armor class by 1, fighting two-handed grants a
-+1 to damage rolls (except for weapons that can only be used two-handed,
-where this is already taken into account in the weapon’s damage), and
-fighting with a weapon in each hand gives a +1 to hit. (Note that
-fighting with two weapons does not actually give two separate attacks;
-it just increases the likelihood of landing a successful blow.)
-
-## Calculating Hits per Level
-
-| **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
-|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
-| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5   |
-| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7   |
-| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
-| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
-
-| **Class**  | Level 10 | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
-|------------|----------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +5       | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
-| Fighter\*  | +7       | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
-| Chaos Mage | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
-| Specialist | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
-
-*Includes Inquisitors*
-
-# <span id=Alignment> Alignment </span> 
-
-Alignments are Law, Chaos, and Neutral. Law and Chaos are terms used to
-refer to the underlying workings within the universe and the world, not
-on behavior or ethics. Law is associated with Lawful Magic, Chaos is
-associated with Chaos Magic. Characters who do not practice magic are
-neutral in the theory of alignment.
-
-## Magical Language
-
-Alignment languages (Law and Chaos) are used to cast spells from the
-warp; spellcasters borrow words of power which channels into magic for
-them to use. “Clerical magic” is now changed to Lawful Magic, to
-contrast with conventional Mage lists which is Chaos Magic. Magic Users
-are either [<u>Chaos Mages</u>](#chaos-mage) or [<u>Law
-Mages.</u>](#law-mage)
-
-# <span id=Injury-&-Death> Injury and Death </span>
-
-When a character (or creature) is hit, the amount of damage is deducted
-from hit points (hp). When the total hit points reaches 0, the character
-is unconscious, and if their hp are brought down to -10 or lower, the
-character dies. An unconscious character bleeds continuously without aid
-from others, at a rate of 1 hp/round until death at -10.
-
-All characters regain 1 hp for each day of rest. If solely bed rested
-for the entire day and cared for, that character gains 1d3 hp per day
-instead. Additionally, being treated by a physician would add an 1d3
-extra hp per day. Characters that have been knocked unconscious from the
-result of combat need to rest for at least five days, or until their hp
-is back to full.
-
-# <span id=Creature-Size> Creature Size </span>
-
-Medium sized creatures can use Large (L) weapons with both hands; Small
-(S) or Medium (M) weapons with one hand. Smaller creatures like goblins
-can't use Large weapons. Must wield Medium weapons with both hands. The
-specifics of each creature size is in the [<u>Races</u>](#_ixtrbw17tt3h)
-chapter.
-
-# <span id=Time> Time </span>
-
-## Travel Time
-
-Distance traveled per day is based on base movement rates, modified by
-terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
-or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
-rougher terrain)
-
-Forced marches at higher speeds are possible but require a [<u>minor
-Strength test</u>](#strength) to avoid exhaustion.
-
-## Dungeon Time
-
-Delving into dungeons is measured in turns, equal to 10 minutes of
-in-game time. Most actions like searching, spell durations, and ambushes
-happen in turn increments.
-
-Light sources like torches and lanterns burn for a specific number of
-turns before being consumed. Spells are timed in turns. Events,
-wandering monsters, and resting also transpire in turn units. Important
-decisions are also considered turn by turn. For example, lockpicking a
-door or checking for traps. Some other actions like searching a room can
-both be a simple noted action or described in detail by players, if
-described then it won’t cost a turn most of the time.
-
-## Combat Time
-
-Combat occurs in rounds, with each round lasting 10 seconds of in-game
-time. Turn structure defines the sequence of actions and events during a
-round.
-
-Spell casting times are measured in rounds, and spell effects often last
-a certain number of rounds.
-
-# <span id=Sanity> Sanity </span>
-
-When a character faces abhorrent events or unspeakable horrors, a saving
-throw is made. Failing this saving throw will cause damage to the
-character’s sanity, temporarily (or permanently) lowering the total
-sanity. Each week of in-game downtime (5 days), grants a d6 roll for the
-character to regain any lost sanity, up to 3d6. When dropping to 0
-sanity, the character gains a random affliction as well as regaining 3d6
-sanity. Afflictions can be removed with different spells, or by spending
-gold to attempt to remove it during downtime.
-
-# <span id=Retainers> Retainers </span>
-
-Followers of any kind are separated in two categories, Henchmen and
-Hirelings.
-
-## Henchmen
-
-Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
-
-Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>Charisma</u>](#Charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen also gain XP as a PC would.
-
-Hiring Henchmen
-
-| **Method**      | **Cost** |
-|-----------------|----------|
-| Hiring a crier  | 10 GP    |
-| Posting notices | 50 GP    |
-| Hiring agents   | 300 GP   |
-
-## Hirelings
-
-Hirelings are specialized NPCs that provide services for the party.
-Anything from laborers to torch bearers fit in this category. Hirelings
-can be fighters as well, such as mercenaries or soldiers, but they never
-gain XP or levels. They expect a salary as any worker would, which
-obviously depends on what their profession is. Which in the case of
-mercenaries could be a flat cost for a trip into a dungeon, or if
-traveling for longer might be a day-to-day salary. This completely
-depends on the situation of the job. Hirelings given a work opportunity
-in advance do not require rations or similar if they get extra payment.
-
-# <span id=Encumbrance-&-Movement> Encumbrance & Movement </span>
-
-Characters have a total number of slots (or unique items carried) equal
-to their Strength Score. Each item carried takes up one slot unless
-noted otherwise. Some items such as torches, bandages, or daggers are
-stackable. Meaning that multiple of the same type can be carried (up to
-10). Mundane items that are small enough to fit in your hand do not
-require a slot. On the other hand, items that require two hands take up
-two slots. Coins are treated as mundane until a hundred of any type are
-carried. After which they take up one slot per a hundred coins. Mundane
-clothing does not count towards encumbrance.
-
-Player characters can carry items such as backpacks, sacks and belts
-which can function as containers for other smaller items. These items
-and their contents should be labeled accordingly in case the character
-loses the container. Generally, all containers that are in use and worn
-etc, does not count towards the total encumbrance.
-
-Three slots should be labled as the “quick draw” slots. Items stored in
-these can be taken out during combat without the use of an action. Any
-other item requires an action to be taken out from the inventory. The
-exception would be stackable items, multiple items of the same type such
-as potions cannot be automatically replaced after they’ve been used in
-the quick draw slots. But mundane items can be replaced, like rocks or
-gold inside of a pouch.
-
-## Base Movement Rate
-
-| **Unique Items Carried\***    | **Base Movement Rate** |
-|-------------------------------|------------------------|
-| Equal or under Strength Score | 12                     |
-| Strength Score + 1 Item       | 9                      |
-| Strength Score + 2 Items      | 6                      |
-| Strength Score + 3 Items      | 3                      |
-
-\*For example, a character with a Strength of 16 would be able to carry
-16 unique items and have a movement rate of 12. If that character
-carried 18 items, their base movement rate would be 6.
-
-## Indoor, Underground & City Movement
-
-| **Description** | **Speed**                             | **Results**                                                                                                                                                   |
-|-----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Walking         | Base movement rate times 20 feet/turn | Mapping and careful observation of the surroundings are possible                                                                                              |
-| Running         | Base movement rate times 40 feet/turn | No mapping permitted. Characters are automatically surprised and have no chance to surprise others. The sound of running may attract the attention of enemies |
-
-## Outdoor Movement
-
-| **Description** | **Speed**                                                                                                                     | **Results**                                                                                                                   |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Hiking          | Base movement rate in miles/day No forced march checks required                                                               | Base movement rate in miles/day No forced march checks required                                                               |
-| Forced March    | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. |
-
-## Foraging
-
-Characters journeying through the wilderness have the option to forage
-or hunt for food, either to supplement their existing supplies or stave
-off hunger. Food foraging can be done even while traveling.
-
-[<u>Specialists</u>](#specialist) are the only class able to improve the
-chances of foraging. Refer to the [<u>Specialist Skills</u>](#skills)
-and use that chance for each character's roll. The Specialist is
-regarded as the “scouting leader” when foraging. A successful day of
-foraging provides a day’s worth of rations. The foraged food will likely
-be a combination of nuts, berries, and possibly small game.
-
-If characters wish to hunt, they must dedicate a whole day to the task,
-during which they can't travel. Again, use the character with the
-highest foraging [<u>skill</u>](#skills). If successful, the DM will
-roll an additional encounter from the Animal Subtable found in the
-Wilderness Wandering Monster Tables. This encounter is separate from any
-regular encounter rolls for the day. It's important to note that hunting
-cannot occur during days allocated for resting.
+> Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>sanity</u>](#Sanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
+
+# <span id=Character-Creation> Character Creation </span>
+
+## Rolling Ability Scores 
+
+4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
+Dexterity, Constitution, Mind and Charisma. After rolling for stats, you
+may swap two ability scores with each other, once.
+
+## Starting Hit Points
+
+At level 1 you roll the corresponding hit die as your HP. Add or
+subtract with your constitution [<u>modifier</u>](#constitution). A
+player may reroll a die with the result in a 1.
+
+## <span id="age">Age</span>
+
+The starting age of your character is determined up to you. The table
+below determines the ability score bonuses or penalties your character
+is given based on life stage.
+
+The effects of aging are cumulative and the gray rows indicate the total
+amount of ability
+
+score changes given for each age.
+
+| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
+|-----------------|--------------|---------------|------------------|----------|
+| **Young**       | **+0**       | **+0**        | **+1**           | **+0**   |
+| **Mature**      | **+1**       | **-1**        | **+1**           | **+0**   |
+| **Middle Aged** | **+0**       | **-1**        | **+0**           | **+1**   |
+| **Old**         | **-1**       | **-2**        | **-1**           | **+2**   |
+| **Venerable**   | **-2**       | **-3**        | **-2**           | **+2**   |
+
+| **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
+|-----------|-----------------|------------|-----------------|-----------|---------------|
+| Human     | 15 - 20         | 21 - 40    | 41 - 60         | 61 - 90   | 91 - 120      |
+| Elf       | 50 - 125        | 126 - 400  | 401 - 600       | 601 - 800 | 801 - 1000    |
+| Dwarf     | 35 - 50         | 51 - 150   | 151 - 250       | 251 - 350 | 351 - 450     |
+| Draconian | 24 - 40         | 41 - 100   | 101 - 175       | 176 - 250 | 251 - 325     |
+| Gnome     | 50 - 90         | 91 - 300   | 301 - 450       | 451 - 600 | 601 - 750     |
+| Solarian  | 40 - 60         | 61 - 175   | 176 - 260       | 261 - 300 | 301 - 400     |
+| Halfling  | 22 - 33         | 34 - 70    | 71 - 101        | 102 - 144 | 145 - 200     |
+| Goblin    | 10 - 15         | 16 - 35    | 36 - 45         | 46 - 60   | 61 - 80       |
+| Radigen   | 14 - 20         | 21 - 30    | 31 - 50         | 51 - 80   | 80 - 100      |
+| Kobold    | 6 - 30          | 31 - 60    | 61 - 85         | 86 - 100  | 101 - 125     |
+| Avian     | 20 - 35         | 36 - 50    | 51 - 75         | 76 - 100  | 101 - 130     |
+| Orc       | 15 - 20         | 21 - 35    | 36 - 55         | 56 - 80   | 81 - 100      |
+
+## Starting Age
+
+When determining the starting age of your character, first choose the
+life stage most appropriate for your character's backstory and
+personality. Refer to the base age range specified for the race in the
+table above. From this base, an optional rule is to add additional years
+based on the chosen class, reflecting the time the character has spent
+training or studying in that particular vocation. To determine these
+additional years, roll the dice corresponding to the character's class.
+
+| **Race**  | **Fighter** | **Specialist** | **Law Mage** | **Chaos Mage** |
+|-----------|-------------|----------------|--------------|----------------|
+| Human     | 1d4         | 1d4            | 3d6          | 2d10           |
+| Elf       | 3d20        | 2d10           | 4d20         | 1d100 + 3d10   |
+| Dwarf     | 2d8         | 2d6            | 2d20 + 1d10  | 3d20           |
+| Draconian | 3d6         | 4d4            | 3d20         | 4d12           |
+| Gnome     | 6d6         | 4d8            | 1d100        | 1d100 + 2d12   |
+| Solarian  | 2d10        | 3d6            | 5d8          | 2d20 + 2d10    |
+| Halfling  | 2d4 + 1d6   | 2d6            | 2d20         | 4d8            |
+| Goblin    | 1d4         | 1d4            | 2d10         | 1d20           |
+| Radigen   | 1d6         | 1d4            | 3d6          | 1d20           |
+| Kobold    | 2d8         | 3d4            | 2d20 + 2d6   | 3d12 + 2d8     |
+| Avian     | 3d4 + 1d6   | 1d12 + 1d6     | 3d10         | 1d20 + 2d8     |
+| Orc       | 1d4         | 1d4            | 3d6          | 2d8            |
+
+## Starting Height & Weight
+
+| **Race**  | **Height**   | **Modifier** | **Weight (lbs)** | **Modifier (lbs)** |
+|-----------|--------------|--------------|------------------|--------------------|
+| Human     | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Elf       | 5’3” or 5’0” | \+ 2d12”     | 140 or 110       | \+ 10d8            |
+| Dwarf     | 3’9” or 3’6” | \+ 2d4”      | 130 or 100       | \+ 8d6             |
+| Draconian | 5’0” or 4’8” | \+ 3d6”      | 130 or 100       | \+ 6d12            |
+| Gnome     | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 5d6             |
+| Solarian  | 5’2” or 4’9” | \+ 3d8”      | 140 or 110       | \+ 8d12            |
+| Halfling  | 2’9” or 2’6” | \+ 3d4”      | 50 or 45         | \+ 5d6             |
+| Goblin    | 3’ or 2’10”  | \+ 2d4”      | 45 or 40         | \+ 4d6             |
+| Radigen   | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Kobold    | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 4d6             |
+| Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
+| Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
+
+## <span id=Backgrounds> Backgrounds </span>
+
+Assign a skill randomly, or select according to the background of your
+character.
+
+| **Dice Score**                         | **Result (1d100)** |
+|----------------------------------------|--------------------|
+| Animal husbander                       | 01 - 02            |
+| Blacksmith                             | 03 - 04            |
+| Bowyer/fletcher                        | 05 - 07            |
+| Carpenter                              | 08 - 10            |
+| Farmer/gardner                         | 11 - 16            |
+| Fisher                                 | 17 - 20            |
+| Forester                               | 21 - 26            |
+| Gambler                                | 27 - 29            |
+| Hunter/trapper                         | 30 - 33            |
+| Jeweler                                | 34 - 35            |
+| Leather worker/tanner                  | 36 - 38            |
+| Limner/painter                         | 39 - 40            |
+| Mason                                  | 41 - 43            |
+| Mercenary                              | 44 - 45            |
+| Merchant                               | 46 - 48            |
+| Miner                                  | 49 - 51            |
+| Noble                                  | 52 - 53            |
+| Outlaw                                 | 54 - 55            |
+| Sailor                                 | 56 - 58            |
+| Scholar                                | 59 - 61            |
+| Soldier/guard                          | 62 - 64            |
+| Tailor/weaver                          | 65 - 67            |
+| Teamster/transporter                   | 68 - 70            |
+| No skill of measurable worth           | 71 - 90            |
+| Roll twice, ignoring this result after | 90 - 100           |
 
 # <span id=Ability-Scores> Ability Scores </span>
 
@@ -382,12 +251,309 @@ more XP.
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
 
-# Languages <span id=Languages> Languages </span>
+# <span id=Races> Races </span>
 
-Common, Elvish, Dwarvish, Draconic, Gnomish, Infernal, Halfling, Goblin,
-Orcish, Avian, and Undercommon / Nomad
+Races do not have ability score requirements. You can be a dwarf with 8
+constitution or a halfling with 18 strength. There are no class
+restrictions for specific races. As long as you fulfill the ability
+requirements for the class, any race can be any class.
 
-Law (Spellcasting) and Chaos (Spellcasting)
+## Humans
+
+**Size:** Medium
+
+**Languages:** Common
+
+**Description:** Humans are the most diverse and adaptable of all the
+races, found in every corner of the world, but the majority live in the
+land of Draeneria. Humans have relatively short lifespans compared to
+other races. But the ability to adapt to any situation makes them an
+exceptional jack-of-all-trades.
+
+**Decisiveness:** Humans have an innate ability to quickly assess and
+adapt to combat situations. Once per combat encounter, when the party
+rolls for group initiative, the human player can opt to reroll the
+initiative dice. The second roll must be used, regardless of whether it
+is higher or lower than the first. This is limited to once per party
+initiative.
+
+**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
+to loyalty and morale.
+
+**Ability Score Bonus:** +1 in any score.
+
+## Elves
+
+**Size:** Medium
+
+**Languages:** Common, Elvish
+
+**Description:** In the realm of Fae'lor, the elves live by the snowy
+mountains and forests. Distinguished by their tall builds and pointed
+ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
+a captivating aura of wisdom and resilience. Their skin, pale like
+winter's frost, hints at their affinity for the cold climates they call
+home.
+
+**Keen Senses:** Elves have naturally sharp eyesight that allow them to
+detect secret doors and hidden parts of rooms in a 4-in-6 chance when
+searching.
+
+**Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
+inflict.
+
+**Ability Score Bonus:** +1 Constitution or +1 Mind
+
+## Dwarves
+
+**Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
+though they were Medium
+
+**Languages:** Common, Dwarvish
+
+**Description:** Originating from the mountains in Dworinheim, these
+dwarves have built a society symbiotic with the living rock. Through
+generations of shared existence, they have cultivated a unique bond with
+the mountain stone. This mystical bond allows them to coax the mountain
+into shifting and changing, creating their intricate homes and defenses.
+
+Their tough, compact bodies are akin to boulders, with skin appearing as
+though dusted with crushed granite. Deep-set eyes flicker with the
+steady glow of precious gemstones, reflecting their hearty souls and
+unwavering determination. It is said to be a natural bond with the web
+of chaos magic that allows them to meld rock.
+
+**Mountain's Child:** Born and raised in the heart of mountains, dwarves
+can navigate through caves and tunnels without losing their way**.**
+This includes moving at normal pace without getting lost and the ability
+to approximate their depth underground.
+
+**Stone Shaping:** With their unique bond to the earth, dwarves have the
+ability to manipulate small amounts of stone, shaping it to their will.
+This can be used for a variety of practical applications, from creating
+simple tools to sealing doorways. The amount of time depends on the tool
+or scale of the build.
+
+**Ability Score Bonus:** +1 Strength or +1 Constitution
+
+## Draconians
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** Scaled, tall but wingless creatures, the Draconians are
+an ancient race closely related to dragons. The inherited magical blood
+makes any draconian have the potential to be a powerful mage if they
+wish to make use of it.
+
+**Magical Bloodline**: The magical dragon blood within Draconians grants
+them a unique spell resistance. Draconians gain a save bonus of +2 vs
+spells.
+
+**Scales:** Draconians have scales that cover their bodies, granting
+them natural armor. They gain a +2 bonus to their armor class when not
+wearing any armor. If wearing armor, choose the highest number of the
+two as the AC.
+
+**Ability Score Bonus:** +1 Strength or +1 Mind
+
+## Gnomes
+
+**Size:** Small
+
+**Languages:** Common, Gnomish
+
+**Description:** Known for their brilliant minds and agile hands, Gnomes
+are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
+often overlooked, but their keen wit and resourcefulness have earned
+them respect amongst the other races. Their skin varies from pale to
+earthy brown, and they have large round eyes and inquisitive
+expressions.
+
+**Tinkering:** Gnomes are particularly good with machinery and traps.
+They have a 4-in-6 chance in tinker.
+
+**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
+save against illusions with a +2 bonus.
+
+**Ability Score Bonus:** +1 Dexterity or +1 Mind
+
+## Solarians
+
+**Size:** Medium
+
+**Languages:** Common, Infernal
+
+**Description:** The supposedly oldest race in Akladell. The Solarians
+are creatures with scorched features. Pointed ears, claws and horns.
+Standing on digitigrade legs, their exterior bodies are roughly the same
+size as humans. Some parts are made out of extruding sharp bone, almost
+like spikes.
+
+They are said to be a descendant from the demons who made their way to
+the outside world from the abyss a long time ago.
+
+**Claws:** Solarians have naturally deadly claws. Instead of using the
+base of 1 damage when using an unarmed strike, Solarians deal 1d4
+damage.
+
+**Fiery Resilience:** Solarians are resistant to fire due to their
+infernal heritage. They take half damage from fire-based attacks and can
+withstand temperatures that would harm others without penalty.
+
+ 
+**Ability Score Bonus:** +1 Strength or +1 Charisma
+
+## Halflings
+
+**Size:** Small
+
+**Languages:** Common, Halfling
+
+**Description:** Halflings are a small, hearty race known for their
+jovial spirits and ability to blend into any society. Their height
+ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
+curly hair, and large, expressive eyes. Despite their size, Halflings
+are known for their friendly nature and sometimes incredible luck.
+
+**Lucky:** Halflings are notoriously lucky. They can reroll one failed
+saving throw per day.
+
+**Nimble Navigator:** Halflings are experts at moving through difficult
+terrain. They can move through such terrains at their normal speed.
+
+**Ability Score Bonus:** +1 Charisma
+
+## Goblins
+
+**Size:** Small
+
+**Languages:** Common, Goblin
+
+**Description:** Goblins are small, agile creatures with green or yellow
+skin, standing around 3 to 4 feet tall, known for their mischievous and
+disruptive tendencies. Residing in caverns or decaying fortresses, they
+are highly adaptable, able to make use of discarded materials and thrive
+in diverse environments. Despite their reputation as pests, some manage
+to overcome their innate disarray, aligning with nobler causes.
+
+**Survivalists:** In any environment, Goblins succeed at finding food,
+water, and shelter for only themselves on a roll of 3-6 on a d6.
+
+**Bargain Hunter:** Goblins have an uncanny knack for finding useful
+items in the least expected places. Once a day, when they have time to
+explore an area (1 hour), they can find small items or coins that others
+might overlook depending on the area (subject to DM's discretion).
+
+**Ability Score Bonus:** +1 Dexterity
+
+## Radigens
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** The Radigens are a unique and mysterious race, rumored
+to be humans who underwent a grotesque transformation. As a result of
+exposure to unknown magic or radiation, they have evolved into reptilian
+beings. Their skin is a pale green/blue that glistens in light, as they
+always excrete liquid. Their bodies are covered with exposed venom
+glands, lightly protected by strong, scaly skin that varies in shades
+from dark green to a dull brown. They possess a set of poisonous glands
+that are capable of producing a lethal toxin.
+
+**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
+poison can be extracted from a Radigen, which can be used to concoct
+dangerous potions. This process takes a week and usually costs around
+1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
+extracted poison is potent enough to inflict severe damage on those
+ingesting it, possibly resulting in immediate death.
+
+**Toxic Resistance:** Due to their poisonous nature, Radigens have
+developed a natural resistance to toxins and radiation. They save vs
+poison and venom with a +2 bonus.
+
+**Attribute Score Bonus:** +1 Constitution
+
+## Kobolds
+
+**Size:** Small
+
+**Languages:** Common, Draconic
+
+**Description:** Kobolds are small, reptilian creatures that dwell in
+extensive underground warrens. These crafty beings are known for their
+strategic cunning and pack tactics, often overwhelming foes with
+superior numbers. Despite their small stature, Kobolds are fierce when
+cornered and are tenacious survivors, always ready to protect their lair
+and kin. They have dragon-like scales that usually range from a rusty
+brown color to dark green, and large, sensitive eyes that shine in the
+dark.
+
+**Trapsmith:** Kobolds are renowned for their ability to craft traps.
+They have a 4-in-6 chance to construct a simple trap or alarm system
+given appropriate materials and time.**  
+**
+
+**Pack Tactics:** Kobolds are at their best when they outnumber their
+enemies. When a Kobold is engaged in combat with more allies than
+enemies, they gain +1 to their attack rolls.
+
+**Ability Score Bonus:** +1 Dexterity
+
+## Avians
+
+**Size:** Medium
+
+**Languages:** Common, Avian
+
+**Description:** Avians, or Birdfolk as some call them, are a remarkable
+race of winged beings, bearing a striking resemblance to the bird
+species of the realm. Intricately patterned feathers cover their bodies,
+reflecting a multitude of hues under the sunlight. Despite not being
+able to fly, they are known for their sharp minds and keen sight, Avians
+have carved a niche for themselves as skilled artisans, perceptive
+scholars, and nimble acrobats.
+
+**Gliding:** Despite their lost ability to fly, Avians have retained a
+limited ability to glide using their wings. They can safely descend from
+heights and cross long distances without sustaining fall damage, at a
+rate of 1 foot forward or sideways for every 1 foot they fall down.
+
+**Bird’s Eye View:** Avians have exceptional vision, honed by
+generations spent navigating the sky. They can see twice as far as most
+races and can discern details that others might miss, granting them a
+2-in-6 chance to spot hidden doors, traps, or other oddities when
+entering a room.
+
+**Ability Score Bonus:** +1 Mind
+
+## Orcs
+
+**Size:** Medium
+
+**Languages:** Common, Orcish  
+  
+**Description:** Born of the rugged Stormhenge, an isle ensconced in
+mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
+their resilient skin. Their robust frames and unwavering expressions
+echo a lineage woven into the very fabric of the land. Revering valor,
+martial prowess, and unyielding courage, their existence finds purpose
+in the crucible of warfare. As masterful blacksmiths, they forge not
+only crescent-moon blades that glint like midnight stars, but also the
+magical essence of the arcane into their weapons and armor. Each plate
+mail, intricately designed, stands as a testament to their crafting
+mastery, embellished with the symbols of their lineage.  
+  
+**Wilderness Guide:** Orcs are keenly aware of their natural
+surroundings and can always retrace their path. They cannot become lost
+except by magical means.
+
+**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
+enchantments on weapons and armor.  
+  
+**Ability Score Bonus:** +1 Strength
 
 # <span id=Classes> Classes </span>
 
@@ -860,6 +1026,274 @@ made to resist spells and magical effects.
 | 19        | 1,330,000                 | 11+16              | 5                |
 | 20        | 1,440,000                 | 11+18              | 5                |
 
+# <span id=Languages> Languages </span>
+
+Common, Elvish, Dwarvish, Draconic, Gnomish, Infernal, Halfling, Goblin,
+Orcish, Avian, and Undercommon / Nomad
+
+Law (Spellcasting) and Chaos (Spellcasting)
+
+# <span id=Alignment> Alignment </span> 
+
+Alignments are Law, Chaos, and Neutral. Law and Chaos are terms used to
+refer to the underlying workings within the universe and the world, not
+on behavior or ethics. Law is associated with Lawful Magic, Chaos is
+associated with Chaos Magic. Characters who do not practice magic are
+neutral in the theory of alignment.
+
+## Magical Language
+
+Alignment languages (Law and Chaos) are used to cast spells from the
+warp; spellcasters borrow words of power which channels into magic for
+them to use. “Clerical magic” is now changed to Lawful Magic, to
+contrast with conventional Mage lists which is Chaos Magic. Magic Users
+are either [<u>Chaos Mages</u>](#chaos-mage) or [<u>Law
+Mages.</u>](#law-mage)
+
+# <span id=General-Gameplay> General Gameplay </span>
+
+**The following mechanics are changed or specially noted.**
+
+## Experience Points
+
+XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party. Players may receive flat amounts of XP from uncovering hidden lore and completing their goals as well.
+
+## Costs of Living
+
+Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
+
+# <span id=Combat> Combat </span>
+
+## Initiative
+
+
+When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
+
+## Armor Class
+
+A character's Armor Class (AC) represents their ability to avoid being
+hit in combat, starting with a base of 10 and potentially increasing
+with factors such as worn armor, carried shields, and
+[<u>Dexterity</u>](#dexterity) modifiers. To successfully strike a
+target, the final result must equal or surpass the defender's AC.
+
+## Surprise
+<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
+
+In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
+
+## Critical Hits
+
+Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's Armor Class (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
+
+## Two-Weapon Fighting and Two-Handed Weapons
+
+Just as shields improve armor class by 1, fighting two-handed grants a
++1 to damage rolls (except for weapons that can only be used two-handed,
+where this is already taken into account in the weapon’s damage), and
+fighting with a weapon in each hand gives a +1 to hit. (Note that
+fighting with two weapons does not actually give two separate attacks;
+it just increases the likelihood of landing a successful blow.)
+
+## Calculating Hits per Level
+
+| **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
+|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
+| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5   |
+| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7   |
+| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
+| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
+
+| **Class**  | Level 10 | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
+|------------|----------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +5       | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
+| Fighter\*  | +7       | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
+| Chaos Mage | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+| Specialist | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+
+*Includes Inquisitors*
+
+
+
+# <span id=Injury-&-Death> Injury and Death </span>
+
+When a character (or creature) is hit, the amount of damage is deducted
+from hit points (hp). When the total hit points reaches 0, the character
+is unconscious, and if their hp are brought down to -10 or lower, the
+character dies. An unconscious character bleeds continuously without aid
+from others, at a rate of 1 hp/round until death at -10.
+
+All characters regain 1 hp for each day of rest. If solely bed rested
+for the entire day and cared for, that character gains 1d3 hp per day
+instead. Additionally, being treated by a physician would add an 1d3
+extra hp per day. Characters that have been knocked unconscious from the
+result of combat need to rest for at least five days, or until their hp
+is back to full.
+
+# <span id=Creature-Size> Creature Size </span>
+
+Medium sized creatures can use Large (L) weapons with both hands; Small
+(S) or Medium (M) weapons with one hand. Smaller creatures like goblins
+can't use Large weapons. Must wield Medium weapons with both hands. The
+specifics of each creature size is in the [<u>Races</u>](#_ixtrbw17tt3h)
+chapter.
+
+# <span id=Time> Time </span>
+
+## Travel Time
+
+Distance traveled per day is based on base movement rates, modified by
+terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
+or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
+rougher terrain)
+
+Forced marches at higher speeds are possible but require a [<u>minor
+Strength test</u>](#strength) to avoid exhaustion.
+
+## Dungeon Time
+
+Delving into dungeons is measured in turns, equal to 10 minutes of
+in-game time. Most actions like searching, spell durations, and ambushes
+happen in turn increments.
+
+Light sources like torches and lanterns burn for a specific number of
+turns before being consumed. Spells are timed in turns. Events,
+wandering monsters, and resting also transpire in turn units. Important
+decisions are also considered turn by turn. For example, lockpicking a
+door or checking for traps. Some other actions like searching a room can
+both be a simple noted action or described in detail by players, if
+described then it won’t cost a turn most of the time.
+
+## Combat Time
+
+Combat occurs in rounds, with each round lasting 10 seconds of in-game
+time. Turn structure defines the sequence of actions and events during a
+round.
+
+Spell casting times are measured in rounds, and spell effects often last
+a certain number of rounds.
+
+# <span id=Sanity> Sanity </span>
+
+When a character faces abhorrent events or unspeakable horrors, a saving
+throw is made. Failing this saving throw will cause damage to the
+character’s sanity, temporarily (or permanently) lowering the total
+sanity. Each week of in-game downtime (5 days), grants a d6 roll for the
+character to regain any lost sanity, up to 3d6. When dropping to 0
+sanity, the character gains a random affliction as well as regaining 3d6
+sanity. Afflictions can be removed with different spells, or by spending
+gold to attempt to remove it during downtime.
+
+# <span id=Retainers> Retainers </span>
+
+Followers of any kind are separated in two categories, Henchmen and
+Hirelings.
+
+## Henchmen
+
+Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
+
+Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>Charisma</u>](#Charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen also gain XP as a PC would.
+
+Hiring Henchmen
+
+| **Method**      | **Cost** |
+|-----------------|----------|
+| Hiring a crier  | 10 GP    |
+| Posting notices | 50 GP    |
+| Hiring agents   | 300 GP   |
+
+## Hirelings
+
+Hirelings are specialized NPCs that provide services for the party.
+Anything from laborers to torch bearers fit in this category. Hirelings
+can be fighters as well, such as mercenaries or soldiers, but they never
+gain XP or levels. They expect a salary as any worker would, which
+obviously depends on what their profession is. Which in the case of
+mercenaries could be a flat cost for a trip into a dungeon, or if
+traveling for longer might be a day-to-day salary. This completely
+depends on the situation of the job. Hirelings given a work opportunity
+in advance do not require rations or similar if they get extra payment.
+
+# <span id=Encumbrance-&-Movement> Encumbrance & Movement </span>
+
+Characters have a total number of slots (or unique items carried) equal
+to their Strength Score. Each item carried takes up one slot unless
+noted otherwise. Some items such as torches, bandages, or daggers are
+stackable. Meaning that multiple of the same type can be carried (up to
+10). Mundane items that are small enough to fit in your hand do not
+require a slot. On the other hand, items that require two hands take up
+two slots. Coins are treated as mundane until a hundred of any type are
+carried. After which they take up one slot per a hundred coins. Mundane
+clothing does not count towards encumbrance.
+
+Player characters can carry items such as backpacks, sacks and belts
+which can function as containers for other smaller items. These items
+and their contents should be labeled accordingly in case the character
+loses the container. Generally, all containers that are in use and worn
+etc, does not count towards the total encumbrance.
+
+Three slots should be labled as the “quick draw” slots. Items stored in
+these can be taken out during combat without the use of an action. Any
+other item requires an action to be taken out from the inventory. The
+exception would be stackable items, multiple items of the same type such
+as potions cannot be automatically replaced after they’ve been used in
+the quick draw slots. But mundane items can be replaced, like rocks or
+gold inside of a pouch.
+
+## Base Movement Rate
+
+| **Unique Items Carried\***    | **Base Movement Rate** |
+|-------------------------------|------------------------|
+| Equal or under Strength Score | 12                     |
+| Strength Score + 1 Item       | 9                      |
+| Strength Score + 2 Items      | 6                      |
+| Strength Score + 3 Items      | 3                      |
+
+\*For example, a character with a Strength of 16 would be able to carry
+16 unique items and have a movement rate of 12. If that character
+carried 18 items, their base movement rate would be 6.
+
+## Indoor, Underground & City Movement
+
+| **Description** | **Speed**                             | **Results**                                                                                                                                                   |
+|-----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Walking         | Base movement rate times 20 feet/turn | Mapping and careful observation of the surroundings are possible                                                                                              |
+| Running         | Base movement rate times 40 feet/turn | No mapping permitted. Characters are automatically surprised and have no chance to surprise others. The sound of running may attract the attention of enemies |
+
+## Outdoor Movement
+
+| **Description** | **Speed**                                                                                                                     | **Results**                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Hiking          | Base movement rate in miles/day No forced march checks required                                                               | Base movement rate in miles/day No forced march checks required                                                               |
+| Forced March    | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. |
+
+## Foraging
+
+Characters journeying through the wilderness have the option to forage
+or hunt for food, either to supplement their existing supplies or stave
+off hunger. Food foraging can be done even while traveling.
+
+[<u>Specialists</u>](#specialist) are the only class able to improve the
+chances of foraging. Refer to the [<u>Specialist Skills</u>](#skills)
+and use that chance for each character's roll. The Specialist is
+regarded as the “scouting leader” when foraging. A successful day of
+foraging provides a day’s worth of rations. The foraged food will likely
+be a combination of nuts, berries, and possibly small game.
+
+If characters wish to hunt, they must dedicate a whole day to the task,
+during which they can't travel. Again, use the character with the
+highest foraging [<u>skill</u>](#skills). If successful, the DM will
+roll an additional encounter from the Animal Subtable found in the
+Wilderness Wandering Monster Tables. This encounter is separate from any
+regular encounter rolls for the day. It's important to note that hunting
+cannot occur during days allocated for resting.
+
+
+
+
+
+
 # <span id=Multiclassing> Multiclassing </span>
 
 Multiclassing is the ability to switch classes and begin advancing in a
@@ -881,11 +1315,9 @@ XP requirements in regard to the total level of the character. So a
 [<u>Fighter</u>](#fighter) 2/[<u>Chaos Mage</u>](#chaos-mage) 1 would
 require 10,000 XP for the second level in Chaos Magic. Even if switched
 back to leveling the fighter class, they would need 20,000 XP to become
-a level 3 fighter as the Chaos Mage table still applies. Restrictions
-regarding armor still apply to the character. Whereas attacks, weapons,
-abilities and saving throws are applied as a bonus. In the case of a
-choice in saving throw, the higher number of the two classes is used and
-not as an additive.
+a level 3 fighter as the Chaos Mage table still applies. 
+
+Restrictions regarding armor still apply to the character. Whereas attacks, weapons, abilities and saving throws are applied as a bonus. In the case of a choice in saving throw, the higher number of the two classes is used and not as an additive.
 
 | **Class**  | **Cost (GP)** | **Maximum Training Time** |
 |------------|---------------|---------------------------|
@@ -895,129 +1327,6 @@ not as an additive.
 | Law Mage   | 2,000         | 12 weeks                  |
 | Chaos Mage | 2,500         | 16 weeks                  |
 | Barbarian  | 1,500         | 8 weeks                   |
-
-# # <span id=Character-Creation> Character Creation </span>
-
-## Rolling Ability Scores 
-
-4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
-Dexterity, Constitution, Mind and Charisma. After rolling for stats, you
-may swap two ability scores with each other, once.
-
-## Starting Hit Points
-
-At level 1 you roll the corresponding hit die as your HP. Add or
-subtract with your constitution [<u>modifier</u>](#constitution). A
-player may reroll a die with the result in a 1.
-
-## <span id="age">Age</span>
-
-The starting age of your character is determined up to you. The table
-below determines the ability score bonuses or penalties your character
-is given based on life stage.
-
-The effects of aging are cumulative and the gray rows indicate the total
-amount of ability
-
-score changes given for each age.
-
-| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
-|-----------------|--------------|---------------|------------------|----------|
-| **Young**       | **+0**       | **+0**        | **+1**           | **+0**   |
-| **Mature**      | **+1**       | **-1**        | **+1**           | **+0**   |
-| **Middle Aged** | **+0**       | **-1**        | **+0**           | **+1**   |
-| **Old**         | **-1**       | **-2**        | **-1**           | **+2**   |
-| **Venerable**   | **-2**       | **-3**        | **-2**           | **+2**   |
-
-| **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
-|-----------|-----------------|------------|-----------------|-----------|---------------|
-| Human     | 15 - 20         | 21 - 40    | 41 - 60         | 61 - 90   | 91 - 120      |
-| Elf       | 50 - 125        | 126 - 400  | 401 - 600       | 601 - 800 | 801 - 1000    |
-| Dwarf     | 35 - 50         | 51 - 150   | 151 - 250       | 251 - 350 | 351 - 450     |
-| Draconian | 24 - 40         | 41 - 100   | 101 - 175       | 176 - 250 | 251 - 325     |
-| Gnome     | 50 - 90         | 91 - 300   | 301 - 450       | 451 - 600 | 601 - 750     |
-| Solarian  | 40 - 60         | 61 - 175   | 176 - 260       | 261 - 300 | 301 - 400     |
-| Halfling  | 22 - 33         | 34 - 70    | 71 - 101        | 102 - 144 | 145 - 200     |
-| Goblin    | 10 - 15         | 16 - 35    | 36 - 45         | 46 - 60   | 61 - 80       |
-| Radigen   | 14 - 20         | 21 - 30    | 31 - 50         | 51 - 80   | 80 - 100      |
-| Kobold    | 6 - 30          | 31 - 60    | 61 - 85         | 86 - 100  | 101 - 125     |
-| Avian     | 20 - 35         | 36 - 50    | 51 - 75         | 76 - 100  | 101 - 130     |
-| Orc       | 15 - 20         | 21 - 35    | 36 - 55         | 56 - 80   | 81 - 100      |
-
-## Starting Age
-
-When determining the starting age of your character, first choose the
-life stage most appropriate for your character's backstory and
-personality. Refer to the base age range specified for the race in the
-table above. From this base, an optional rule is to add additional years
-based on the chosen class, reflecting the time the character has spent
-training or studying in that particular vocation. To determine these
-additional years, roll the dice corresponding to the character's class.
-
-| **Race**  | **Fighter** | **Specialist** | **Law Mage** | **Chaos Mage** |
-|-----------|-------------|----------------|--------------|----------------|
-| Human     | 1d4         | 1d4            | 3d6          | 2d10           |
-| Elf       | 3d20        | 2d10           | 4d20         | 1d100 + 3d10   |
-| Dwarf     | 2d8         | 2d6            | 2d20 + 1d10  | 3d20           |
-| Draconian | 3d6         | 4d4            | 3d20         | 4d12           |
-| Gnome     | 6d6         | 4d8            | 1d100        | 1d100 + 2d12   |
-| Solarian  | 2d10        | 3d6            | 5d8          | 2d20 + 2d10    |
-| Halfling  | 2d4 + 1d6   | 2d6            | 2d20         | 4d8            |
-| Goblin    | 1d4         | 1d4            | 2d10         | 1d20           |
-| Radigen   | 1d6         | 1d4            | 3d6          | 1d20           |
-| Kobold    | 2d8         | 3d4            | 2d20 + 2d6   | 3d12 + 2d8     |
-| Avian     | 3d4 + 1d6   | 1d12 + 1d6     | 3d10         | 1d20 + 2d8     |
-| Orc       | 1d4         | 1d4            | 3d6          | 2d8            |
-
-## Starting Height & Weight
-
-| **Race**  | **Height**   | **Modifier** | **Weight (lbs)** | **Modifier (lbs)** |
-|-----------|--------------|--------------|------------------|--------------------|
-| Human     | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
-| Elf       | 5’3” or 5’0” | \+ 2d12”     | 140 or 110       | \+ 10d8            |
-| Dwarf     | 3’9” or 3’6” | \+ 2d4”      | 130 or 100       | \+ 8d6             |
-| Draconian | 5’0” or 4’8” | \+ 3d6”      | 130 or 100       | \+ 6d12            |
-| Gnome     | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 5d6             |
-| Solarian  | 5’2” or 4’9” | \+ 3d8”      | 140 or 110       | \+ 8d12            |
-| Halfling  | 2’9” or 2’6” | \+ 3d4”      | 50 or 45         | \+ 5d6             |
-| Goblin    | 3’ or 2’10”  | \+ 2d4”      | 45 or 40         | \+ 4d6             |
-| Radigen   | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
-| Kobold    | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 4d6             |
-| Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
-| Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
-
-## <span id=Backgrounds> Backgrounds </span>
-
-Assign a skill randomly, or select according to the background of your
-character.
-
-| **Dice Score**                         | **Result (1d100)** |
-|----------------------------------------|--------------------|
-| Animal husbander                       | 01 - 02            |
-| Blacksmith                             | 03 - 04            |
-| Bowyer/fletcher                        | 05 - 07            |
-| Carpenter                              | 08 - 10            |
-| Farmer/gardner                         | 11 - 16            |
-| Fisher                                 | 17 - 20            |
-| Forester                               | 21 - 26            |
-| Gambler                                | 27 - 29            |
-| Hunter/trapper                         | 30 - 33            |
-| Jeweler                                | 34 - 35            |
-| Leather worker/tanner                  | 36 - 38            |
-| Limner/painter                         | 39 - 40            |
-| Mason                                  | 41 - 43            |
-| Mercenary                              | 44 - 45            |
-| Merchant                               | 46 - 48            |
-| Miner                                  | 49 - 51            |
-| Noble                                  | 52 - 53            |
-| Outlaw                                 | 54 - 55            |
-| Sailor                                 | 56 - 58            |
-| Scholar                                | 59 - 61            |
-| Soldier/guard                          | 62 - 64            |
-| Tailor/weaver                          | 65 - 67            |
-| Teamster/transporter                   | 68 - 70            |
-| No skill of measurable worth           | 71 - 90            |
-| Roll twice, ignoring this result after | 90 - 100           |
 
 # <span id=Spellcasting> Spellcasting </span>
 
@@ -1079,10 +1388,7 @@ magic spells before needing a rest to recover them. They can be two
 
 ## Mana Progression Table
 
-|                   **Chaos Mage** |                      **Law Mage** |                        **Multiclass Table**                |
-|                 |-------------------------------------|-------------------------------------|-------------------------------------|
-
-| **Class Level** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** | **Max Spell Level** | **Mana Pool** |
+| **Class Level** | **Max Spell Level (Chaos)** | **Mana Pool (Chaos)** | **Max Spell Level (Law)** | **Mana Pool (Law)** | **Max Spell Level (Multiclass)** | **Mana Pool (Multiclass)** |
 |-----------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|
 | **1**           | 1                   | 2             | 1                   | 1             | 1                   | 1             |
 | **2**           | 1                   | 3             | 1                   | 2             | 1                   | 2             |
@@ -1313,313 +1619,11 @@ Direct mind-to-mind communication with intelligent beings, transcending
 language. Telepathic contact with an Old One is foolish, and the Referee
 will most likely require a saving throw to avoid madness and/or horror.
 
-# <span id=Races> Races </span>
 
-Races do not have ability score requirements. You can be a dwarf with 8
-constitution or a halfling with 18 strength. There are no class
-restrictions for specific races. As long as you fulfill the ability
-requirements for the class, any race can be any class.
-
-# Humans
-
-**Size:** Medium
-
-**Languages:** Common
-
-**Description:** Humans are the most diverse and adaptable of all the
-races, found in every corner of the world, but the majority live in the
-land of Draeneria. Humans have relatively short lifespans compared to
-other races. But the ability to adapt to any situation makes them an
-exceptional jack-of-all-trades.
-
-**Decisiveness:** Humans have an innate ability to quickly assess and
-adapt to combat situations. Once per combat encounter, when the party
-rolls for group initiative, the human player can opt to reroll the
-initiative dice. The second roll must be used, regardless of whether it
-is higher or lower than the first. This is limited to once per party
-initiative.
-
-**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
-to loyalty and morale.
-
-**Ability Score Bonus:** +1 in any score.
-
-# Elves
-
-**Size:** Medium
-
-**Languages:** Common, Elvish
-
-**Description:** In the realm of Fae'lor, the elves live by the snowy
-mountains and forests. Distinguished by their tall builds and pointed
-ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
-a captivating aura of wisdom and resilience. Their skin, pale like
-winter's frost, hints at their affinity for the cold climates they call
-home.
-
-**Keen Senses:** Elves have naturally sharp eyesight that allow them to
-detect secret doors and hidden parts of rooms in a 4-in-6 chance when
-searching.
-
-**Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
-inflict.
-
-**Ability Score Bonus:** +1 Constitution or +1 Mind
-
-# Dwarves
-
-**Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
-though they were Medium
-
-**Languages:** Common, Dwarvish
-
-**Description:** Originating from the mountains in Dworinheim, these
-dwarves have built a society symbiotic with the living rock. Through
-generations of shared existence, they have cultivated a unique bond with
-the mountain stone. This mystical bond allows them to coax the mountain
-into shifting and changing, creating their intricate homes and defenses.
-
-Their tough, compact bodies are akin to boulders, with skin appearing as
-though dusted with crushed granite. Deep-set eyes flicker with the
-steady glow of precious gemstones, reflecting their hearty souls and
-unwavering determination. It is said to be a natural bond with the web
-of chaos magic that allows them to meld rock.
-
-**Mountain's Child:** Born and raised in the heart of mountains, dwarves
-can navigate through caves and tunnels without losing their way**.**
-This includes moving at normal pace without getting lost and the ability
-to approximate their depth underground.
-
-**Stone Shaping:** With their unique bond to the earth, dwarves have the
-ability to manipulate small amounts of stone, shaping it to their will.
-This can be used for a variety of practical applications, from creating
-simple tools to sealing doorways. The amount of time depends on the tool
-or scale of the build.
-
-**Ability Score Bonus:** +1 Strength or +1 Constitution
-
-# Draconians
-
-**Size:** Medium
-
-**Languages:** Common, Draconic
-
-**Description:** Scaled, tall but wingless creatures, the Draconians are
-an ancient race closely related to dragons. The inherited magical blood
-makes any draconian have the potential to be a powerful mage if they
-wish to make use of it.
-
-**Magical Bloodline**: The magical dragon blood within Draconians grants
-them a unique spell resistance. Draconians gain a save bonus of +2 vs
-spells.
-
-**Scales:** Draconians have scales that cover their bodies, granting
-them natural armor. They gain a +2 bonus to their armor class when not
-wearing any armor. If wearing armor, choose the highest number of the
-two as the AC.
-
-**Ability Score Bonus:** +1 Strength or +1 Mind
-
-# Gnomes
-
-**Size:** Small
-
-**Languages:** Common, Gnomish
-
-**Description:** Known for their brilliant minds and agile hands, Gnomes
-are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
-often overlooked, but their keen wit and resourcefulness have earned
-them respect amongst the other races. Their skin varies from pale to
-earthy brown, and they have large round eyes and inquisitive
-expressions.
-
-**Tinkering:** Gnomes are particularly good with machinery and traps.
-They have a 4-in-6 chance in tinker.
-
-**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
-save against illusions with a +2 bonus.
-
-**Ability Score Bonus:** +1 Dexterity or +1 Mind
-
-# Solarians
-
-**Size:** Medium
-
-**Languages:** Common, Infernal
-
-**Description:** The supposedly oldest race in Akladell. The Solarians
-are creatures with scorched features. Pointed ears, claws and horns.
-Standing on digitigrade legs, their exterior bodies are roughly the same
-size as humans. Some parts are made out of extruding sharp bone, almost
-like spikes.
-
-They are said to be a descendant from the demons who made their way to
-the outside world from the abyss a long time ago.
-
-**Claws:** Solarians have naturally deadly claws. Instead of using the
-base of 1 damage when using an unarmed strike, Solarians deal 1d4
-damage.
-
-**Fiery Resilience:** Solarians are resistant to fire due to their
-infernal heritage. They take half damage from fire-based attacks and can
-withstand temperatures that would harm others without penalty.
-
- 
-**Ability Score Bonus:** +1 Strength or +1 Charisma
-
-# Halflings
-
-**Size:** Small
-
-**Languages:** Common, Halfling
-
-**Description:** Halflings are a small, hearty race known for their
-jovial spirits and ability to blend into any society. Their height
-ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
-curly hair, and large, expressive eyes. Despite their size, Halflings
-are known for their friendly nature and sometimes incredible luck.
-
-**Lucky:** Halflings are notoriously lucky. They can reroll one failed
-saving throw per day.
-
-**Nimble Navigator:** Halflings are experts at moving through difficult
-terrain. They can move through such terrains at their normal speed.
-
-**Ability Score Bonus:** +1 Charisma
-
-# Goblins
-
-**Size:** Small
-
-**Languages:** Common, Goblin
-
-**Description:** Goblins are small, agile creatures with green or yellow
-skin, standing around 3 to 4 feet tall, known for their mischievous and
-disruptive tendencies. Residing in caverns or decaying fortresses, they
-are highly adaptable, able to make use of discarded materials and thrive
-in diverse environments. Despite their reputation as pests, some manage
-to overcome their innate disarray, aligning with nobler causes.
-
-**Survivalists:** In any environment, Goblins succeed at finding food,
-water, and shelter for only themselves on a roll of 3-6 on a d6.
-
-**Bargain Hunter:** Goblins have an uncanny knack for finding useful
-items in the least expected places. Once a day, when they have time to
-explore an area (1 hour), they can find small items or coins that others
-might overlook depending on the area (subject to DM's discretion).
-
-**Ability Score Bonus:** +1 Dexterity
-
-# Radigens
-
-**Size:** Medium
-
-**Languages:** Common, Draconic
-
-**Description:** The Radigens are a unique and mysterious race, rumored
-to be humans who underwent a grotesque transformation. As a result of
-exposure to unknown magic or radiation, they have evolved into reptilian
-beings. Their skin is a pale green/blue that glistens in light, as they
-always excrete liquid. Their bodies are covered with exposed venom
-glands, lightly protected by strong, scaly skin that varies in shades
-from dark green to a dull brown. They possess a set of poisonous glands
-that are capable of producing a lethal toxin.
-
-**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
-poison can be extracted from a Radigen, which can be used to concoct
-dangerous potions. This process takes a week and usually costs around
-1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
-extracted poison is potent enough to inflict severe damage on those
-ingesting it, possibly resulting in immediate death.
-
-**Toxic Resistance:** Due to their poisonous nature, Radigens have
-developed a natural resistance to toxins and radiation. They save vs
-poison and venom with a +2 bonus.
-
-**Attribute Score Bonus:** +1 Constitution
-
-# Kobolds
-
-**Size:** Small
-
-**Languages:** Common, Draconic
-
-**Description:** Kobolds are small, reptilian creatures that dwell in
-extensive underground warrens. These crafty beings are known for their
-strategic cunning and pack tactics, often overwhelming foes with
-superior numbers. Despite their small stature, Kobolds are fierce when
-cornered and are tenacious survivors, always ready to protect their lair
-and kin. They have dragon-like scales that usually range from a rusty
-brown color to dark green, and large, sensitive eyes that shine in the
-dark.
-
-**Trapsmith:** Kobolds are renowned for their ability to craft traps.
-They have a 4-in-6 chance to construct a simple trap or alarm system
-given appropriate materials and time.**  
-**
-
-**Pack Tactics:** Kobolds are at their best when they outnumber their
-enemies. When a Kobold is engaged in combat with more allies than
-enemies, they gain +1 to their attack rolls.
-
-**Ability Score Bonus:** +1 Dexterity
-
-# Avians
-
-**Size:** Medium
-
-**Languages:** Common, Avian
-
-**Description:** Avians, or Birdfolk as some call them, are a remarkable
-race of winged beings, bearing a striking resemblance to the bird
-species of the realm. Intricately patterned feathers cover their bodies,
-reflecting a multitude of hues under the sunlight. Despite not being
-able to fly, they are known for their sharp minds and keen sight, Avians
-have carved a niche for themselves as skilled artisans, perceptive
-scholars, and nimble acrobats.
-
-**Gliding:** Despite their lost ability to fly, Avians have retained a
-limited ability to glide using their wings. They can safely descend from
-heights and cross long distances without sustaining fall damage, at a
-rate of 1 foot forward or sideways for every 1 foot they fall down.
-
-**Bird’s Eye View:** Avians have exceptional vision, honed by
-generations spent navigating the sky. They can see twice as far as most
-races and can discern details that others might miss, granting them a
-2-in-6 chance to spot hidden doors, traps, or other oddities when
-entering a room.
-
-**Ability Score Bonus:** +1 Mind
-
-# Orcs
-
-**Size:** Medium
-
-**Languages:** Common, Orcish  
-  
-**Description:** Born of the rugged Stormhenge, an isle ensconced in
-mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
-their resilient skin. Their robust frames and unwavering expressions
-echo a lineage woven into the very fabric of the land. Revering valor,
-martial prowess, and unyielding courage, their existence finds purpose
-in the crucible of warfare. As masterful blacksmiths, they forge not
-only crescent-moon blades that glint like midnight stars, but also the
-magical essence of the arcane into their weapons and armor. Each plate
-mail, intricately designed, stands as a testament to their crafting
-mastery, embellished with the symbols of their lineage.  
-  
-**Wilderness Guide:** Orcs are keenly aware of their natural
-surroundings and can always retrace their path. They cannot become lost
-except by magical means.
-
-**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
-enchantments on weapons and armor.  
-  
-**Ability Score Bonus:** +1 Strength
 
 # <span id=Items> Items </span>
 
-# Starting Gold
+## Starting Gold
 
 | **Class**  | **Starting Gold Pieces (x10)** |
 |------------|--------------------------------|

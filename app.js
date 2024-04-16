@@ -82,7 +82,7 @@ function loadAboutPage()
     var mainContent = document.getElementById('content');
     mainContent.innerHTML = `<h2>About</h2>
 
-    <p>This is a website for my D&D game!</p>
+    <p>This is a website for my Old School Dungeons & Dragons game!</p>
 
     <p>In the grand scheme, this game is roughly <b>50% Swords & Wizardry</b>, which is a <b>Original Dungeons & Dragons</b> retroclone created by <b>Matt Finch</b>.</p>
      
