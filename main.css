@@ -40,6 +40,12 @@ a:link
     color: lightseagreen;
 }
 
+a:visited 
+{
+    color: lightseagreen;
+}
+
+
 small 
 {
     color: gray;
