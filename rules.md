@@ -72,8 +72,7 @@ The starting age of your character is determined up to you. The table
 below determines the ability score bonuses or penalties your character
 is given based on life stage.
 
-The effects of aging are cumulative and the gray rows indicate the total
-amount of ability score changes given for each age.
+The effects of aging below indicate the total amount of ability score changes given for each age.
 
 | **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
 |-----------------|--------------|---------------|------------------|----------|
