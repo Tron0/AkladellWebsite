@@ -73,9 +73,7 @@ below determines the ability score bonuses or penalties your character
 is given based on life stage.
 
 The effects of aging are cumulative and the gray rows indicate the total
-amount of ability
-
-score changes given for each age.
+amount of ability score changes given for each age.
 
 | **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
 |-----------------|--------------|---------------|------------------|----------|
@@ -102,13 +100,7 @@ score changes given for each age.
 
 ## Starting Age
 
-When determining the starting age of your character, first choose the
-life stage most appropriate for your character's backstory and
-personality. Refer to the base age range specified for the race in the
-table above. From this base, an optional rule is to add additional years
-based on the chosen class, reflecting the time the character has spent
-training or studying in that particular vocation. To determine these
-additional years, roll the dice corresponding to the character's class.
+When determining the starting age of your character, first choose the life stage most appropriate for your character's backstory and personality. Refer to the base age range specified for the race in the table above. From this base, an optional rule is to add additional years based on the chosen class, reflecting the time the character has spent training or studying in that particular vocation. To determine these additional years, roll the dice corresponding to the character's class.
 
 | **Race**  | **Fighter** | **Specialist** | **Law Mage** | **Chaos Mage** |
 |-----------|-------------|----------------|--------------|----------------|
@@ -1630,350 +1622,45 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 ## General Equipment
 
-<table>
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 6%" />
-<col style="width: 49%" />
-<col style="width: 9%" />
-<col style="width: 10%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Item</strong></th>
-<th><strong>Cost</strong></th>
-<th><strong>Description</strong></th>
-<th><strong>Weight</strong></th>
-<th><strong>Stackable</strong></th>
-</tr>
-<tr class="odd">
-<th>Backpack</th>
-<th>5 GP</th>
-<th>A sturdy canvas sack with straps, designed to comfortably carry up
-to 8 slots of gear.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Bandage</th>
-<th>2 GP</th>
-<th>A length of clean cloth used to wrap wounds and halt bleeding.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Barrel</th>
-<th>2 GP</th>
-<th>Can be filled with water or any other type of liquid. Up to 20 units
-of the chosen kind.</th>
-<th>2 (+2 per 10 units)</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Bedroll</th>
-<th>2 SP</th>
-<th>A rolled-up mattress and blanket, providing basic comfort.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Bell</th>
-<th>1 GP</th>
-<th>A small metal instrument that chimes when struck, useful for
-signaling or attracting attention.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="header">
-<th>Belt</th>
-<th>1 SP</th>
-<th>A belt that can hold useful equipment such as lanterns or belt
-pouches.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Belt Pouch</th>
-<th>1 GP</th>
-<th>A compact pouch that can hold up to 100 coins, or quick draw slots
-for items such as potions.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Block and tackle</th>
-<th>5 GP</th>
-<th>A combination of a rope threaded between two pulleys. Used to lift
-heavy weight when fastened to a ceiling.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Bottle of wine, glass</th>
-<th>2 GP</th>
-<th>This standard wine bottle, crafted from clear glass. Holds a
-generous 25 ounces of wine, or 750ml.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Candle</th>
-<th>1 SP</th>
-<th>Can be used to light up a 5’ radius. A normal candle will burn about
-3 turns per inch of height.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Case (map or scroll)</th>
-<th>1 GP</th>
-<th>A tubular oiled leather case used to carry maps, scrolls, or other
-paper items. The case will have a water-resistant (but not waterproof)
-cap which slides over the end. A standard scroll case can hold up to 10
-sheets of paper, or a single scroll of up to seven spells.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Chalk piece</th>
-<th>2 SP</th>
-<th>A single piece of chalk. Useful for "blazing a trail" through a
-dungeon or ruin.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Cloak</th>
-<th>2 GP</th>
-<th>A traveler's cloak made out of silk. Often in black, gray or
-brown.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Crowbar</th>
-<th>2 GP</th>
-<th>A small portable crowbar that can be strapped to a backpack.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Flint &amp; steel</th>
-<th>1 GP</th>
-<th>Flint and fire steel, used to light small fires. Quick to light a
-torch - or anything else with abundant, exposed fuel. Lighting any other
-fire takes 1 minute.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Garlic, charmed</th>
-<th>10 GP</th>
-<th><p>A head of garlic with hexes and blessings on</p>
-<p>it. Normal garlic has a minor effect on undead, but charmed garlic
-works much better.</p></th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Glass bottle or vial</th>
-<th>1 GP</th>
-<th>A small empty vial bottle. Can be filled with 4 ounces of
-liquid.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="header">
-<th>Grappling Hook</th>
-<th>3 GP</th>
-<th>A grappling hook, when tied to a rope, can anchor the rope to
-various protrusions such as battlements, window ledges, tree limbs, and
-more.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Holy Water, vial</th>
-<th>10 GP</th>
-<th>Holy water, lethal to undead, can be thrown like a grenade or
-splashed on incorporeal entities when adjacent. Each flask deals 1d8
-damage to the direct target and 1d6 to any additional undead within a
-5-foot radius. Its effect lasts for one round.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="header">
-<th>Ink, vial</th>
-<th>8 GP</th>
-<th>Mostly used to write down spell transcriptions into spellbooks. One
-vial of ink is enough for one spell.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Ladder, 10 ft.</th>
-<th>1 GP</th>
-<th>A wooden ladder, 10 feet in length, used for scaling walls or
-reaching high places.</th>
-<th>2</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Lantern</th>
-<th>5 GP</th>
-<th>A Lantern will provide light covering a 30' radius; dim light will
-extend about 20' further. A lantern will consume a flask of oil in 24
-turns.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Lantern, bullseye</th>
-<th>14 GP</th>
-<th>These shine a beam of light 60 feet long but only 10 feet wide
-through a hole in the lantern’s metal cylinder. They have a hinged cover
-that allows the light to be hidden.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Lantern, hooded</th>
-<th>8 GP</th>
-<th>A Hooded Lantern allows the light to be hidden or revealed as the
-user pleases; in all other ways it performs as an ordinary lantern.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Lockpick</th>
-<th>1 GP</th>
-<th>Lockpicks, used alongside Thieves' Tools, are essential for
-unlocking locks or similar mechanisms. If an attempt to pick a lock
-fails, the lockpick will snap on a roll of 1-6.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="header">
-<th>Oil, flask</th>
-<th>1 GP</th>
-<th>An oil flask can be hurled as a fiery grenade. When ignited, a
-direct hit inflicts 1d8 fire damage, plus 1d6 damage for a duration of
-1d6 rounds. 1d3 splash damage is inflicted to anything within 3
-feet.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Pole (10 feet)</th>
-<th>1 GP</th>
-<th>A wooden pole, similar to a spear without a spearhead.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Quiver</th>
-<th>2 GP</th>
-<th>Granting easy access to arrows and bolts. A typical quiver is made
-out of leather or thick canvas and can hold around 20 of either type of
-ammunition.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Sack, large</th>
-<th>2 GP</th>
-<th>A sturdy canvas sack ideal for holding various goods. It can contain
-up to 10 slots or 4 cubic feet of items, approximately 1,000 coins.</th>
-<th>—</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Sack, small</th>
-<th>1 GP</th>
-<th>A durable, smaller canvas sack suitable for lighter loads. It can
-accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500
-coins.</th>
-<th>—</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Tent, large (ten men)</th>
-<th>25 GP</th>
-<th>An expansive shelter, this large tent can comfortably accommodate up
-to ten people. It stands tall with reinforced wooden poles and is
-anchored firmly by robust stakes. Multiple flaps offer ventilation,
-while a centralized opening provides easy access. Its interior is
-spacious, allowing for both sleep and communal gatherings. This tent is
-perfect for large adventuring parties or those setting up a
-semi-permanent camp.</th>
-<th>2</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Tent, small (one man)</th>
-<th>5 GP</th>
-<th>A compact and portable shelter, this small tent is designed to
-comfortably house a single individual. Made from durable canvas, its
-beige coloration blends naturally with most terrains. The tent’s design
-is ideal for travelers who prioritize mobility and speed of setup.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="odd">
-<th>Thieves' tools</th>
-<th>20 GP</th>
-<th>Required for the use of Thief abilities such as opening locks and
-removing traps. These abilities may not be usable without appropriate
-tools.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Torch</th>
-<th>2 SP</th>
-<th>Sheds light over a 30' radius, with dim light extending about 20'
-further, and burns for 1d4+4 turns. Of course, a torch is also useful
-for setting flammable materials (such as cobwebs or oil) alight.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Waterskin</th>
-<th>1 GP</th>
-<th>A container for drinking water or wine; though generally water is
-taken into a dungeon or wilderness environment. The standard waterskin
-holds one quart of liquid, which is the minimum amount required by a
-normal character in a single day. Note that the given 2 pound weight is
-for a full skin; an empty skin has negligible weight.</th>
-<th>— ( +1 when filled)</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Ration</th>
-<th>2 GP</th>
-<th>A packaged meal providing the necessary sustenance for an adventurer
-for one day.</th>
-<th>1</th>
-<th>☑</th>
-</tr>
-<tr class="odd">
-<th>Rope, hemp (50 feet)</th>
-<th>2 GP</th>
-<th>Standard hemp rope.</th>
-<th>2</th>
-<th>☐</th>
-</tr>
-<tr class="header">
-<th>Rope, silk (50 feet)</th>
-<th>10 GP</th>
-<th>Silk rope, lighter than hemp but just as sturdy.</th>
-<th>1</th>
-<th>☐</th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+| Item                  | Cost       | Description                                               | Weight                     | Stackable |
+|-----------------------|------------|-----------------------------------------------------------|----------------------------|-----------|
+| Backpack | 5 GP | A sturdy canvas sack with straps, designed to comfortably carry up to 8 slots of gear.  | —  | ☐ |
+|Bandage  | 2 GP | A length of clean cloth used to wrap wounds and halt bleeding. | 1 | ☑ |      
+|Barrel  | 5 GP | Can be filled with water or any other type of liquid. Up to 20 units of the chosen kind. | 2 (+2 per 10 units) | ☐ | 
+|Bedroll  | 2 SP | A rolled-up mattress and blanket, providing basic comfort. | 1 | ☐ |   
+|Bell  | 1 GP | A small metal instrument that chimes when struck, useful for signaling or attracting attention. | 1 | ☑ |   
+|Belt  | 1 SP | A belt that can hold useful equipment such as lanterns or belt pouches. | - | ☐ |   
+|Belt pouch  | 1 GP | A compact pouch that can hold up to 100 coins, or quick draw slots for items such as potions. | 1 | ☐ |   
+|Block & tackle  | 5 GP | A combination of a rope threaded between two pulleys. Used to lift heavy weight when fastened to a ceiling. | 1 | ☐ |   
+|Bottle of wine, glass  | 2 GP | This standard wine bottle, crafted from clear glass. Holds a generous 25 ounces of wine, or 750ml. | 1 | ☐ | 
+|Candle  | 1 SP | Can be used to light up a 5’ radius. A normal candle will burn about 3 turns per inch of height. | 1 | ☑ |  
+|Case (map or scroll)  | 1 GP | A tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells. | 1 | ☐ |  
+|Chalk piece  | 2 SP | A single piece of chalk. Useful for "blazing a trail" through a dungeon or ruin. | 1 | ☑ |  
+|Cloak  | 2 GP | A traveler's cloak made out of silk. Often in black, gray or brown. | - | ☐ |  
+|Flint & steel | 1 GP | Flint and fire steel, used to light small fires. Quick to light a torch - or anything else with abundant, exposed fuel. Lighting any other fire takes 1 minute. | 1 | ☐ |  
+|Garlic, charmed  | 10 GP | A head of garlic with hexes and blessings on it. Normal garlic has a minor effect on undead, but charmed garlic works much better. | 1 | ☑ |  
+|Glass bottle or vial  | 1 GP | A small empty vial bottle. Can be filled with 4 ounces of liquid. | 1 | ☑ |  
+|Grappling hook  | 3 GP | A grappling hook, when tied to a rope, can anchor the rope to various protrusions such as battlements, window ledges, tree limbs, and more. | 1 | ☐ |  
+|Holy water, vial  | 10 GP | Holy water, lethal to undead, can be thrown like a grenade or splashed on incorporeal entities when adjacent. Each flask deals 1d6+1 damage to the direct target and 2 damage to any additional undead within a radius. | 1 | ☑ |  
+|Ink, vial  | 8 GP | Mostly used to write down spell transcriptions into spellbooks. One vial of ink is enough for one spell. | 1 | ☑ |  
+|Ladder, 10 ft. | 1 GP | A wooden ladder, 10 feet in length, used for scaling walls or reaching high places. | 2 | ☐ |  
+|Lantern  | 5 GP | A lantern will provide light covering a 30' radius; dim light will extend about 20' further. A lantern will consume a flask of oil in 24 turns. | 1 | ☐ |  
+|Lantern, bullseye  | 14 GP | These shine a beam of light 60 feet long but only 10 feet wide through a hole in the lantern’s metal cylinder. They have a hinged cover that allows the light to be hidden. | 1 | ☐ |  
+|Lantern, hooded  | 8 GP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | ☐ |  
+|Lockpick  | 1 GP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | ☑ |  
+|Oil, flask  | 1 GP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | ☑ |  
+|Pole, 10 feet  | 1 GP | A wooden pole, similar to a spear without a spearhead. | 1 | ☐ |  
+|Quiver  | 2 GP | Granting easy access to arrows and bolts. A typical quiver is made out of leather or thick canvas and can hold around 20 of either type of ammunition. | - | ☐ |  
+|Sack, large  | 2 GP | A sturdy canvas sack ideal for holding various goods. It can contain up to 10 slots or 4 cubic feet of items, approximately 1,000 coins. Requires two hands to carry if filled. | - | ☐ |  
+|Sack, small  | 1 GP | A durable, smaller canvas sack suitable for lighter loads. It can accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500 coins. Requires one hand to carry if filled. | - | ☐ |  
+|Tent, large (ten man)  | 25 GP | An expansive shelter, this large tent can comfortably accommodate up to ten people. It stands tall with reinforced wooden poles and is anchored firmly by robust stakes. Multiple flaps offer ventilation, while a centralized opening provides easy access. Its interior is spacious, allowing for both sleep and communal gatherings. This tent is suited for large adventuring parties or those setting up a semi-permanent camp. | 2 | ☐ |  
+|Tent, small (one man)  | 5 GP | A compact and portable shelter, this small tent is designed to comfortably house a single individual. Made from durable canvas, its beige coloration blends naturally with most terrains. The tent’s design is suited for travelers who prioritize mobility and speed of setup. | 1 | ☐ |  
+|Thieves' tools  | 20 GP | Required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools. | 1 | ☐ |  
+|Torch  | 2 SP | Sheds light over a 30' radius, with dim light extending about 20' further, and burns for six turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight. | 1 | ☑ |  
+|Waterskin  | 1 GP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | ☐ |  
+|Ration  | 2 GP | A packaged meal providing the necessary sustenance for an adventurer for one day. | 1 | ☑ | 
+|Rope, hemp (50 feet) | 2 GP | Standard hemp rope. | 2 | ☐ |  
+|Rope, silk (50 feet) | 2 GP | Silk rope, lighter than hemp but just as sturdy. | 1 | ☐ |  
 
 ## Armor
 
@@ -2105,43 +1792,43 @@ Zweihänder      | L      | 1d12       |50 GP      |A colossal two-handed sword 
 
 ## Cantrips
 
-| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
-|--------------------|--------------|---------------------------|-------------|---------------|
-| Stitch / Ravel (B) | Gather       | Smokepuff / Bluelight (W) | Firefinger  | Sprout        |
-| Clean / Dirty (G)  | Open / Close | Exterminate               |             | Warm / Chill  |
-|                    | Color        |                           |             | Dry / Damp    |
-|                    | Tweak        |                           |             |               |
-|                    | Change       |                           |             |               |
+|**Number**| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
+|----------|--------------------|--------------|---------------------------|-------------|---------------|
+|    1     | Stitch / Ravel (B) | Gather       | Smokepuff / Bluelight (W) | Firefinger  | Sprout        |
+|    2     | Clean / Dirty (G)  | Open / Close | Exterminate               |             | Warm / Chill  |
+|    3     |                    | Color        |                           |             | Dry / Damp    |
+|    4     |                    | Tweak        |                           |             |               |
+|    5     |                    | Change       |                           |             |               |
 
 ### Level 1 Spells
 
-| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
-|----------------------|----------------|----------------|------------------|----------------|
-| Alarm                | Change Self    | Charm Person   | Burning Hands    | Find Familiar  |
-| Armor                | Detect Magic   | Chill Touch    | Enlarge / Reduce | Lasting Breath |
-| Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
-| Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
-| Mending              | Identify       |                | Magic Missile    |                |
-| Protection from Evil | Message        |                | Spider Climb     |                |
-| Shield               | Read Magic     |                |                  |                |
-|                      | Unseen Servant |                |                  |                |
-|                      | Ventriloquism  |                |                  |                |
-|                      | Wizard Mark    |                |                  |                |
+|**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
+|----------|----------------------|----------------|----------------|------------------|----------------|
+|    1     | Alarm                | Change Self    | Charm Person   | Burning Hands    | Find Familiar  |
+|    2     | Armor                | Detect Magic   | Chill Touch    | Enlarge / Reduce | Lasting Breath |
+|    3     | Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
+|    4     | Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
+|    5     | Mending              | Identify       |                | Magic Missile    |                |
+|    6     | Protection from Evil | Message        |                | Spider Climb     |                |
+|    7     | Shield               | Read Magic     |                |                  |                |
+|    8     |                      | Unseen Servant |                |                  |                |
+|    9     |                      | Ventriloquism  |                |                  |                |
+|    10    |                      | Wizard Mark    |                |                  |                |
 
 ## Law Mage Spells
 
 ### Level 1 Spells
 
-| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
-|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
-| Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
-| Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
-| Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
-| Protection from Evil                       | Read Magic         |               |             | Purify Food and Drink |
+|**Number**| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
+|-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
+|     1     | Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
+|     2     | Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
+|     3     | Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
+|     4     | Protection from Evil                       | Read Magic         |               |             | Purify Food and Drink |
 
-## Cantrip Descriptions
+# <span id=Cantrip-Descriptions> Cantrip Descriptions </span>
 
-### Stitch (W) / Ravel (B)
+## Stitch (W) / Ravel (B)
 
 **Range:** 30'
 
@@ -2157,12 +1844,12 @@ This cantrip magically sews seams in cloth or leather:
   yards of leather. The seam created is neither stronger or weaker than
   a seam done without magic.
 
-**Reversed: Ravel**
+### Reversed: Ravel
 
 Tears the same amount of yards in cloth instead of stitching. Can be
 concentrated on to make a neat tear or simply ripped quickly.
 
-**Clean (W) / Dirty (G)**
+## Clean (W) / Dirty (G)
 
 **Range:** 30'
 
@@ -2179,12 +1866,12 @@ foreign objects:
   material is treated in a single application, as care must be taken in
   removal of pigments and the like.
 
-**Reversed: Dirty**
+### Reversed: Dirty
 
 Dirt, stains or other types of filth can magically be applied. This form
 is not recognized as illusion magic as it is a real form conjured.
 
-**Gather (U)**
+## Gather (U)
 
 **Range:** 30'
 
@@ -2201,13 +1888,11 @@ into a stack or pile:
   be stacked on top of each other while styled under the laws of
   gravity.
 
-<!-- -->
-
 - **Selection:** Can be used selectively, for instance to separate one
   type of material from another, but only the selected type is gathered
   neatly.
 
-**Open / Close (U)**
+## Open / Close (U)
 
 **Range:** 30'
 
@@ -2222,11 +1907,11 @@ Opens any unlocked door or portal from a distance:
   anything blocking it. The force applied is not enough to damage or
   harm creatures larger than a rat.
 
-**Reversed: Close**
+### Reversed: Close
 
 Closes any object in a reverse fashion.
 
-**Color (U)**
+## Color (U)
 
 **Range:** 30'
 
@@ -2243,7 +1928,7 @@ Covers an area with a new or faded color:
 
 - **People:** Can change the color of skin and hair as well.
 
-**Tweak (U)**
+## Tweak (U)
 
 **Range:** 30'
 
@@ -2256,11 +1941,11 @@ annoyingly, tweak some portion of a chosen sub­ject:
 
 - **Areas:** Nose, ear, beard, moustache, whiskers, or tail or similar.
 
-- **Distraction: T**he cantrip's effects does not disturb spellcasting,
+- **Distraction:** The cantrip's effects does not disturb spellcasting,
   although the tweaking might distract any creature by causing it to
   turn to dis­cover the source of the annoyance.
 
-**Change (U)**
+## Change (U)
 
 **Range:** 30'
 
@@ -2279,7 +1964,7 @@ the caster's hand:
   into a bat, the bat to a flying squirrel by another use of the same
   type of cantrip, and so forth.
 
-**Smokepuff (B) / Bluelight (W)**
+## Smokepuff (B) / Bluelight (W)
 
 **Range:** 30'
 
@@ -2294,13 +1979,13 @@ depending on the prevailing conditions:
 - **Color:** The caster can create smoke that is white, gray, black,
   brown, yellow, or green.
 
-**Reversed: Bluelight**
+### Reversed: Bluelight
 
 This cantrip enables the caster to conjure a small sphere of glowing
 blue radiance. The light has an eerie effect when seen from a distance,
 but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
-**Exterminate (B)**
+## Exterminate (B)
 
 **Range:** 30'
 
@@ -2320,7 +2005,7 @@ fly, mouse, rat, beetle, or the like:
 - **Area:** If the subject is very small, an area of up to one-half
   cubic foot can be rid of pests
 
-**Firefinger (R)**
+## Firefinger (R)
 
 **Range:** Caster
 
@@ -2337,7 +2022,7 @@ shoot forth from their finger:
   as parchment, twigs, kindling, and the like without difficulty,
   providing the materials are relatively dry.
 
-**Sprout (G)**
+## Sprout (G)
 
 **Range:** Caster
 
@@ -2355,7 +2040,7 @@ of plants:
   on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
   cantrip.
 
-**Warm / Chill (G)**
+## Warm / Chill (G)
 
 **Range:** 30'
 
@@ -2369,12 +2054,12 @@ The caster warms a liquid, solid object or creature by 10 °C:
   living creature above its normal body temperature, nor the temperature
   of an object above 60 °C.
 
-**Reversed: Chill**
+### Reversed: Chill
 
 Cools an object or creature by 10 °C instead. Subject to a minimum
 tempera­ture of freezing, (0 °C)
 
-**Dry / Damp (G)**
+## Dry / Damp (G)
 
 **Range:** 30'
 
@@ -2390,14 +2075,14 @@ Dries an object:
   materials in the area of effect. It is useful for drying cloth or
   herbs and for cleaning chores.
 
-**Reversed: Damp**
+### Reversed: Damp
 
 The area of effect is permeated by a fog-like dampness that leaves all
 material within damp to the touch.
 
 # <span id=Spell-Descriptions> Spell Descriptions </span>
 
-**Alarm (W)**
+## Alarm (W)
 
 **Range:** 30'
 
@@ -2412,16 +2097,12 @@ Allows the caster to set a protective alarm, as follows:
 - **Detection:** Reacts to any creature larger than a standard rat
   entering or touching the designated area.
 
-<!-- -->
-
 - **Alarm Sound:** Any entity entering the guarded area without the
   correct password triggers a loud alarm, audible within 60 feet.
 
-<!-- -->
-
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-**Armor (W)**
+## Armor (W)
 
 **Range:** Touch
 
@@ -2433,17 +2114,13 @@ Provides a protective magical armor:
 
 - **Defense**: Acts as if the recipient is wearing scale mail (AC 14).
 
-<!-- -->
-
 - **Cumulative Effects:** Works in tandem with Dexterity and other
   bonuses, excluding the shield spell.
-
-<!-- -->
 
 - **Durability:** Lasts until the wearer accumulates damage beyond 8
   points + 1 per caster level.
 
-**Animal Friendship (G)**
+## Animal Friendship (G)
 
 **Range:** 30’
 
@@ -2455,19 +2132,15 @@ Provides a protective magical armor:
   throw against the spell at its onset, it remains calm while the spell
   completes. After this, the animal follows the caster willingly.
 
-<!-- -->
-
 - **Capacity:** The caster can use this magic to befriend animals with
   up to 2 Hit Dice per their experience level. This is also the maximum
   total Hit Dice of animals that can be befriended at a single instance,
   capped at twice the caster's experience level.
 
-<!-- -->
-
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-**Bless (W) / Curse (B)**
+## Bless (W) / Curse (B)
 
 **Range:** 60’
 
@@ -2480,17 +2153,15 @@ May be used in one of two situations:
 - **Battle:** Allies within a 20’ square area who are not yet in melee
   gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
 
-<!-- -->
-
 - **Ritual:** Casting bless may also form part of rituals of
   purification or consecration, at the referee’s discretion.
 
-**Reversed: Curse**
+### Reversed: Curse
 
 Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
 an enemy. A save versus spells is allowed to resist the blight.
 
-**Burning Hands (R)**
+## Burning Hands (R)
 
 **Range:** 5'
 
@@ -2503,22 +2174,16 @@ Produces a fan of flames that sear everything in its arc:
 - **Casting Stance:** Fingertips emit flames. Thumbs touch, fingers
   spread to unleash a horizontal arc of fire.
 
-<!-- -->
-
 - **Flame Dimensions:** Flames span 5 feet long in a 120-degree arc.
-
-<!-- -->
 
 - **Damage:** Inflicts 1d3 damage + 2 points per caster level, maxing at
   1d3+20 damage. Successful saves vs. spells result in half damage.
-
-<!-- -->
 
 - **Flammable Materials:** Materials like cloth, paper, and thin wood
   ignite on contact. They can be extinguished in the subsequent round if
   no other actions are taken.
 
-**Calm Animals (G)**
+## Calm Animals (G)
 
 **Range:** 120'
 
@@ -2537,12 +2202,10 @@ detailed:
   saving throw unless they possess magical abilities or are evidently
   not entirely natural.
 
-<!-- -->
-
 - Specific Species: All animals affected must belong to the same
   species, and all must be within the spell's range.
 
-**Cause Fear (B)**
+## Cause Fear (B)
 
 **Range:** Touch
 
@@ -2555,12 +2218,10 @@ Inflicts intense dread upon a target, as described:
 - **Inducing Terror:** Forces a target within 120’ to run in fear for
   the spell's duration.
 
-<!-- -->
-
 - **Resistance:** Targets have a chance to resist this effect by
   succeeding on a save versus spells.
 
-**Change Self (U)**
+## Change Self (U)
 
 **Range:** Caster
 
@@ -2573,12 +2234,10 @@ Grants the caster temporary appearance alteration:
 - **Shape-shifting:** Alter the caster’s appearance in height, build, or
   species. Cannot mimic specific individuals.
 
-<!-- -->
-
 - **Limitations:** Only modifies visual appearance without granting
   abilities or behaviors of the new form.
 
-**Charm Person (B)**
+## Charm Person (B)
 
 **Range:** 120'
 
@@ -2588,14 +2247,10 @@ Grants the caster temporary appearance alteration:
 
 Influences perceptions and actions of a humanoid:
 
-- **Affected Targets:** Targets single human, demihuman, or humanoid
+**Affected Targets:** Targets single human, demihuman, or humanoid
   monster. A successful save terminates the charm.
 
-<!-- -->
-
-- **Charm Effects:**
-
-<!-- -->
+**Charm Effects:**
 
 - **Friendship:** Target perceives the caster as a close friend and aids
   them.
@@ -2611,16 +2266,10 @@ Influences perceptions and actions of a humanoid:
 - **Exclusions:** Does not affect undead and humanoid monsters of over
   4+1 HD.
 
-<!-- -->
+**Duration & Saves:**
 
-- **Duration & Saves:**
-
-<!-- -->
-
-- Indefinite duration but allows periodic saving throws based on
-  target's INT:
-
-<!-- -->
+Indefinite duration but allows periodic saving throws based on
+target's INT:
 
 - **INT 3–8:** Save once every month.
 
@@ -2628,7 +2277,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-**Chill Touch (B)**
+## Chill Touch (B)
 
 **Range:** Touch
 
@@ -2642,24 +2291,18 @@ Envelopes caster's hand in cold energy:
   creature must save vs. spells. Failure results in 1d4 damage and a 1
   point Strength loss. A successful save negates the effects.
 
-<!-- -->
-
 - **Effect on Strength:** Creatures without Strength ratings get a -1
   attack roll penalty for every other successful touch. Lost Strength is
   regained at 1 point per hour.
-
-<!-- -->
 
 - **Undead Interaction:** Undead touched are unharmed and don't lose
   Strength. However, they must save vs. spells or flee for 1d4 rounds +
   1 round per caster level.
 
-<!-- -->
-
 - **Healing:** Damage to strength can be magically cured or naturally
   healed.
 
-**Command (B)**
+## Command (B)
 
 **Range:** 90’
 
@@ -2677,11 +2320,9 @@ demihuman, or human-like monster, as follows:
 
 - **MIND 13+ and/or 6+ HD:** May save versus spells to avoid command.
 
-<!-- -->
-
 - **Restrictions:** Undead are not affected.
 
-**Courage (R)**
+## Courage (R)
 
 **Range:** 120’
 
@@ -2698,13 +2339,11 @@ This spell imbues the target unit with a temporary burst of courage.
   typically require a morale check, the unit automatically succeeds
   without a dice roll.
 
-<!-- -->
-
 - **Spell Termination:** After the unit succeeds in the morale situation
   due to this spell, the magical effect ceases. From then on, they must
   perform all morale checks as usual.
 
-**Cure Light Wounds (W) / Cause Light Wounds (B)**
+## Cure Light Wounds (W) / Cause Light Wounds (B)
 
 **Range:** Touch
 
@@ -2719,12 +2358,12 @@ This spell has two usages:
 
 - **Curing paralysis:** Paralysing effects are negated.
 
-**Reversed:** **Cause Light Wounds**
+### Reversed: Cause Light Wounds
 
 Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
-**Detect Evil (U)**
+## Detect Evil (U)
 
 **Range:** 120’
 
@@ -2738,13 +2377,11 @@ are caused to magically glow:
 - **Intent only:** The caster cannot read the thoughts of creatures with
   evil intent.
 
-<!-- -->
-
 - **Definition of evil:** The referee must judge what is classified as
   evil. Beings of chaotic alignment do not always have evil intent.
   Traps and poisons, while potentially harmful, are not evil.
 
-**Detect Magic (U)**
+## Detect Magic (U)
 
 **Range:** 60’
 
@@ -2757,12 +2394,10 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 - **Magical Illumination:** Objects, areas, or beings imbued with magic
   radiate a distinct glow.
 
-<!-- -->
-
 - **Comprehensive Detection:** The distinct type of magic is revealed to
   the spellcaster when investigated.
 
-**Detect Undead (B)**
+## Detect Undead (B)
 
 **Range:** 60' + 10'/level
 
@@ -2775,19 +2410,15 @@ Enables the caster to sense undead presence:
 - **Detection**: Locates all undead within the area of effect. Each scan
   in a direction takes a round with the caster being motionless.
 
-<!-- -->
-
 - **Limitations on Details:** Only provides the direction of undead, not
   specific locations or distances. Doesn't specify the type of undead,
   only their presence.
-
-<!-- -->
 
 - **Obstruction:** The detection can pass through walls and other
   barriers but is stopped by 1 foot of solid stone, 1 yard of wood or
   loose earth, or a thin layer of metal.
 
-**Endure Cold & Heat (G)**
+## Endure Cold & Heat (G)
 
 **Range:** Touch
 
@@ -2800,13 +2431,11 @@ Bestows a creature with resistance to extreme temperatures, as follows:
 - **Thermal Protection:** The recipient is shielded from temperature
   extremes ranging from -35°C to 55°C.
 
-<!-- -->
-
 - **Beyond Limits:** For temperatures outside these boundaries, the
   protected creature takes 1 damage point for every hour exposed for
   each degree past the limit.
 
-**Enlarge / Reduce (R)**
+## Enlarge / Reduce (R)
 
 **Range:** 15'/level
 
@@ -2820,12 +2449,8 @@ This spell can either enlarge or reduce a target:
   not exceeding 10 cubic feet in volume per caster level. Must be
   visibly seen to affect.
 
-<!-- -->
-
 - **Size Alteration:** Increases size by up to 10% per caster level in
   height, width, and weight.
-
-<!-- -->
 
 - **Damage Alteration:** Hit points, Armor Class, and attack rolls
   remain unchanged. However, damage rolls increase proportionally with
@@ -2833,14 +2458,14 @@ This spell can either enlarge or reduce a target:
   adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class,
   and magic bonuses remain unaltered.
 
-**Reverse Spell**: **Reduce**
+### Reverse Spell: Reduce
 
 Shrinks creature or object by 10% per caster level, to a minimum size of
 10%. May damage materials attached to shrinking objects. Objects will
 only shrink if undamaged. Unwilling creatures get a saving throw vs.
 spells.
 
-**Erase (U)**
+## Erase (U)
 
 **Range:** 90'
 
@@ -2861,7 +2486,7 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Limitations:** Removes certain magical inscriptions, but not all.
 
-**Feather Fall (R)**
+## Feather Fall (R)
 
 **Range:** 30'/level
 
@@ -2871,16 +2496,12 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Fall Rate:** Reduced to 2 feet per second (120 feet per round).
 
-<!-- -->
-
 - **Protection:** No damage upon landing when the spell is active.
-
-<!-- -->
 
 - **Capacity:** Affects a 10-foot cube area up to a combined weight of
   200 pounds + 200 pounds/level.
 
-**Find Familiar (G)**
+## Find Familiar (G)
 
 **Range:** 1 mile/level
 
@@ -2895,12 +2516,8 @@ Summons a familiar to aid the caster:
 - **Nature of Familiar:** Typically small creatures like cats, frogs,
   crows, etc.
 
-<!-- -->
-
 - **Benefits:** Familiars grant sensory powers to their masters, can
   converse, and serve various roles.
-
-<!-- -->
 
 - **Familiar Sensory Powers by Roll:**
 
@@ -2918,12 +2535,10 @@ Summons a familiar to aid the caster:
 
   - 16-20: No familiar available
 
-<!-- -->
-
 - **Restrictions:** Only one familiar at a time. Mistreatment or killing
   one's familiar can have serious repercussions.
 
-**Fist of Stone (R)**
+## Fist of Stone (R)
 
 **Range:** Caster
 
@@ -2934,11 +2549,9 @@ Summons a familiar to aid the caster:
 - **Strength:** Allows caster to use one hand as if having a strength of
   18.
 
-<!-- -->
-
 - **Combat:** Bonuses apply only when using the stone fist.
 
-**Floating Disc (U)**
+## Floating Disc (U)
 
 **Range:** 60'
 
@@ -2951,16 +2564,12 @@ The caster creates a floating disc of force:
 - **Appearance:** A slightly concave, circular disc that's 3 feet in
   diameter.
 
-<!-- -->
-
 - **Load:** Can hold 100 pounds of weight per caster level.
-
-<!-- -->
 
 - **Movement:** Accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
-**Hold Portal (W)**
+## Hold Portal (W)
 
 **Range:** 60'
 
@@ -2976,7 +2585,7 @@ Empowers the caster to magically secure an entryway:
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
-**Identify (U)**
+## Identify (U)
 
 **Range:** Touch
 
@@ -2997,7 +2606,7 @@ Allows the caster to discern the nature of magical items:
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
 
-**Lasting Breath (G)**
+## Lasting Breath (G)
 
 **Range**: Touch
 
@@ -3016,7 +2625,7 @@ Extends the duration one can hold their breath:
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
 
-**Light (W) / Darkness (B)**
+## Light (W) / Darkness (B)
 
 **Range:** 120’
 
@@ -3036,7 +2645,7 @@ This spell has three usages:
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 
-**Reversed: Darkness**
+### Reversed: Darkness
 
 Creates a 15’ radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
@@ -3068,7 +2677,7 @@ Launches magical missiles that target and hit with precision:
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
 
-**Mending (W)**
+## Mending (W)
 
 Range: 90'
 
@@ -3086,7 +2695,7 @@ This spell repairs small breaks or tears in objects:
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
 
-**Message (U)**
+## Message (U)
 
 Range: 30' + 10'/level
 
@@ -3105,7 +2714,7 @@ Allows for long range communication through whispers:
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
 
-**Mount (G)**
+## Mount (G)
 
 Range: 30'
 
@@ -3118,7 +2727,7 @@ Summons a creature to serve as a mount.
 - **Mount's Service:** Willingly serves the caster but vanishes at
   spell's end.
 
-- **Types of Mounts by Level:**
+**Types of Mounts by Level:**
 
   - **1-3:** Mule/light horse
 
@@ -3130,7 +2739,7 @@ Summons a creature to serve as a mount.
 
   - **15+:** Griffon
 
-**Pass Without Trace (U)**
+## Pass Without Trace (U)
 
 **Range:** 60’
 
@@ -3146,12 +2755,10 @@ footprints or scent:
 - **Magic Residue:** The area traversed by the affected creatures exudes
   a magical aura for 1d6 turns after their passage.
 
-<!-- -->
-
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
 
-**Protection from Evil (W)**
+## Protection from Evil (W)
 
 **Range:** Caster
 
@@ -3173,7 +2780,7 @@ This spell wards the caster from attacks by evil creature, as follows:
   engages such a creature in melee, this protection is broken (the
   caster still gains the save and attack bonuses mentioned above).
 
-**Purify Food & Drink (G)**
+## Purify Food & Drink (G)
 
 **Duration:** Permanent
 
@@ -3193,7 +2800,7 @@ suitable to eat:
 - **Preservation:** The spell cleanses, but does not protect against
   future decay or spoilage.
 
-**Ray of Fatigue (B)**
+## Ray of Fatigue (B)
 
 **Range: 30'** + 15'/level
 
@@ -3208,7 +2815,7 @@ Conjures a dark ray of exhaustion:
   fatigued characters may become near-helpless. Victims can attempt a
   saving throw to negate the effects.
 
-- **Encumbrance Penalties:**
+**Encumbrance Penalties:**
 
   - **Moderately encumbered:** -1 penalty to attack rolls.
 
@@ -3238,13 +2845,11 @@ Allows the caster to decipher magical script or runes, as follows:
 - **Inscriptions:** Runes or magical words inscribed on an object or
   surface can be understood.
 
-<!-- -->
-
 - **Reading again:** Once the caster has used this spell to decipher a
   magical inscription, they can always understand that script again
   without read magic.
 
-**Shield (W)**
+## Shield (W)
 
 **Range:** Caster
 
@@ -3257,12 +2862,10 @@ Conjures an invisible shield around the caster:
 - **Defensive Boost:** Improves the caster's armor class to 17 against
   ranged attacks and 15 for melee.
 
-<!-- -->
-
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
   visible frontal threats.
 
-**Sleep (G)**
+## Sleep (G)
 
 **Range:** 90'
 
@@ -3277,16 +2880,12 @@ Induces a deep slumber on targets:
 - **Targeting:** Affects living creatures except undead and other
   certain creatures.
 
-<!-- -->
-
 - **Hit Dice Affected:** Affects up to 2d4 Hit Dice of creatures. Those
   with 4+3 Hit Dice and above remain unaffected.
 
-<!-- -->
-
 - **Partial Effects:** Ignored. Least Hit Dice creatures affected first.
 
-**Spider Climb (R)**
+## Spider Climb (R)
 
 **Range:** Touch
 
@@ -3296,16 +2895,16 @@ Induces a deep slumber on targets:
 
 Allows the recipient to climb like a spider:
 
-• **Climbing Ability:** Recipient can climb vertical surfaces or hang
+- **Climbing Ability:** Recipient can climb vertical surfaces or hang
 from ceilings as effectively as a spider.
 
-• **Movement Rate:** 6 (halved to 3 if encumbered). Requires bare hands
+- **Movement Rate:** 6 (halved to 3 if encumbered). Requires bare hands
 and feet for this mobility.
 
-• **Unwilling Targets:** If targeted on unwilling beings, they get a
+- **Unwilling Targets:** If targeted on unwilling beings, they get a
 saving throw vs. spell to resist.
 
-**Unseen Servant (U)**
+## Unseen Servant (U)
 
 **Range:** 0'
 
@@ -3326,7 +2925,7 @@ Summons a spectral helper:
 - **Vulnerabilities:** Can't fight and is dispelled after taking 6
   points of damage.
 
-**Ventriloquism (U)**
+## Ventriloquism (U)
 
 **Range:** 30'/level max 270'
 
@@ -3339,17 +2938,13 @@ location:
 
 - **Mimicry:** Can replicate another's voice or any sound they know.
 
-<!-- -->
-
 - **Language:** The caster can speak any language they are familiar
   with.
-
-<!-- -->
 
 - **Source:** The sound can seem to come from another creature, behind a
   door, or other locales.
 
-**Wizard Mark (U)**
+## Wizard Mark (U)
 
 **Range:** Touch
 
@@ -3362,12 +2957,8 @@ This spell lets the caster inscribe a personal mark:
 - **Inscription:** A personal rune and up to six additional smaller
   characters can be written, either visible or invisible.
 
-<!-- -->
-+
 - **Detection: I**nvisible marks glow when detect magic is used and can
   be read with read magic.
-
-<!-- -->
 
 - **Removal:** Cannot be dispelled but can be removed by the original
   caster or an erase spell.
