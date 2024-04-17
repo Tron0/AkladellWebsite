@@ -77,11 +77,11 @@ amount of ability score changes given for each age.
 
 | **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
 |-----------------|--------------|---------------|------------------|----------|
-| **Young**       | **+0**       | **+0**        | **+1**           | **+0**   |
-| **Mature**      | **+1**       | **-1**        | **+1**           | **+0**   |
-| **Middle Aged** | **+0**       | **-1**        | **+0**           | **+1**   |
-| **Old**         | **-1**       | **-2**        | **-1**           | **+2**   |
-| **Venerable**   | **-2**       | **-3**        | **-2**           | **+2**   |
+| **Young**       |     +0       |     +0        |       +1         |    +0    |
+| **Mature**      |     +1       |     -1        |       +1         |    +0    |
+| **Middle Aged** |     +0       |     -1        |       +0         |    +1    |
+| **Old**         |     -1       |     -2        |       -1         |    +2    |
+| **Venerable**   |     -2       |     -3        |       -2         |    +2    |
 
 | **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
 |-----------|-----------------|------------|-----------------|-----------|---------------|
@@ -2957,7 +2957,7 @@ This spell lets the caster inscribe a personal mark:
 - **Inscription:** A personal rune and up to six additional smaller
   characters can be written, either visible or invisible.
 
-- **Detection: I**nvisible marks glow when detect magic is used and can
+- **Detection:** Invisible marks glow when detect magic is used and can
   be read with read magic.
 
 - **Removal:** Cannot be dispelled but can be removed by the original

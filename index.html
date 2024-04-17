@@ -136,6 +136,15 @@ window.addEventListener('hashchange', scrollToHash);
     // Trigger first hashchange check after all setup has been done.
     window.dispatchEvent(new Event('hashchange'));
 });
+
+document.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', (event) => {
+        event.target.style.color = '#2b4fff'; // Color shift when clicked
+        setTimeout(() => {
+            event.target.style.color = 'lightseagreen'; // Revert back after 2 seconds
+        }, 2000);
+    });
+});
 </script>
 
     <script src='app.js'></script>
