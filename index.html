@@ -15,11 +15,13 @@
         <div class="flex-grow">
             <nav>
                 <div class="nav-items">
+                    <div id="nav">
                     <a href="#Home">Home</a>
                     <a href="#Rules">Rules Index</a>
                     <a href="#Updates">Updates</a>
                     <a href="#About">About</a>
                     <a href="#Discord" id="discordlink">Discord</a>
+                    </div>
                 </div>
             </nav>
             <div id="toc-wrapper">
@@ -121,6 +123,10 @@
     {
 
     } 
+    else if(hash === 'Hall-of-the-Dead') 
+    {
+        loadDeadPage();
+    } 
     else 
     {
         window.loadRulesPage();
@@ -145,6 +151,22 @@ document.querySelectorAll('a').forEach((link) => {
         }, 2000);
     });
 });
+
+function loadDeadPage() {
+  fetch('./deadcharacters.md')
+    .then(response => response.text())
+    .then(markdown => {
+
+      // Parse markdown into HTML
+      var html = marked(markdown);
+
+      // Inject into page
+      document.getElementById('content')
+        .innerHTML = '<div>' + html + '</div>';
+    });
+}
+
+
 </script>
 
     <script src='app.js'></script>

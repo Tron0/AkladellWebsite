@@ -29,13 +29,13 @@ window.addEventListener('load', function()
 function loadHomePage()
 {
     var mainContent = document.getElementById('content');
-    mainContent.innerHTML = '<h2>Welcome to the Home Page!</h2>';
+    mainContent.innerHTML = '<h1>Welcome to the Home Page!</h1>';
 }
 
 function loadUpdatePost()
 {
     var mainContent = document.getElementById('content');
-    mainContent.innerHTML = '<h2>Updates</h2>';
+    mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
     { 
@@ -86,7 +86,7 @@ document.getElementById('discordlink').addEventListener('click', function(event)
 function loadAboutPage()
 {
     var mainContent = document.getElementById('content');
-    mainContent.innerHTML = `<h2>About</h2>
+    mainContent.innerHTML = `<h1>About</h1>
 
     <p>This is a website for my Old School Dungeons & Dragons game!</p>
 
@@ -98,3 +98,4 @@ function loadAboutPage()
     
     <p>The game right now is 100% IRL, but sesions will be hosted online on the Discord in the future. Feel free to join for any future updates!</p>`;
 }
+
