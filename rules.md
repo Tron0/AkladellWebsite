@@ -38,7 +38,7 @@
 
 10. **Determine Background**
 
-> Roll or pick a [<u>backgrounds</u>](#Backgrounds) that provides a relevant skill.
+> Roll or pick a [<u>background</u>](#Backgrounds) that provides a relevant skill.
 
 11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
@@ -63,10 +63,10 @@ may swap two ability scores with each other, once.
 ## Starting Hit Points
 
 At level 1 you roll the corresponding hit die as your HP. Add or
-subtract with your constitution [<u>modifier</u>](#constitution). A
+subtract with your constitution constitution. A
 player may reroll a die with the result in a 1.
 
-## <span id="age">Age</span>
+## <span id="Age">Age</span>
 
 The starting age of your character is determined up to you. The table
 below determines the ability score bonuses or penalties your character
@@ -182,7 +182,7 @@ character.
 | 18        | +2                    | +3                    | 5 / 6                                          | 25%                                              | 93%       |
 
 \*Penalties still apply to all characters, but modifiers are only
-applied to [<u>Fighters.</u>](#fighter)
+applied to [<u>Fighters.</u>](#Fighter)
 
 ## Dexterity
 
@@ -192,7 +192,7 @@ applied to [<u>Fighters.</u>](#fighter)
 | 9 - 12    | +0                                       | +0                       | +0                    |
 | 13 - 15   | +1                                       | +1                       | +1                    |
 
-\*For [<u>Fighters</u>](#fighter), this bonus is in addition to any
+\*For [<u>Fighters</u>](#Fighter), this bonus is in addition to any
 bonuses for Strength when using heavy thrown weapons, such as javelins.
 Bows only grant dexterity bonuses.
 
@@ -221,8 +221,8 @@ Bows only grant dexterity bonuses.
 | 17        | 85                       | 3                                | 2 / 6      | 85%                                  |
 | 18        | 90                       | 4                                | 2 / 6      | 95%                                  |
 
-\*For Spellcasters ([<u>Law Mages</u>](#law-mage), [<u>Chaos
-Mages</u>](#chaos-mage))
+\*For Spellcasters ([<u>Law Mages</u>](#Law-Mage), [<u>Chaos
+Mages</u>](#Chaos-Mage))
 
 Any character with a Mind score of 13 or more receives a bonus of 5%
 more XP.
@@ -249,7 +249,7 @@ constitution or a halfling with 18 strength. There are no class
 restrictions for specific races. As long as you fulfill the ability
 requirements for the class, any race can be any class.
 
-## Humans
+## Human
 
 **Size:** Medium
 
@@ -273,7 +273,7 @@ to loyalty and morale.
 
 **Ability Score Bonus:** +1 in any score.
 
-## Elves
+## Elf
 
 **Size:** Medium
 
@@ -295,7 +295,7 @@ inflict.
 
 **Ability Score Bonus:** +1 Constitution or +1 Mind
 
-## Dwarves
+## Dwarf
 
 **Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
 though they were Medium
@@ -327,7 +327,7 @@ or scale of the build.
 
 **Ability Score Bonus:** +1 Strength or +1 Constitution
 
-## Draconians
+## Draconian
 
 **Size:** Medium
 
@@ -349,7 +349,7 @@ two as the AC.
 
 **Ability Score Bonus:** +1 Strength or +1 Mind
 
-## Gnomes
+## Gnome
 
 **Size:** Small
 
@@ -370,7 +370,7 @@ save against illusions with a +2 bonus.
 
 **Ability Score Bonus:** +1 Dexterity or +1 Mind
 
-## Solarians
+## Solarian
 
 **Size:** Medium
 
@@ -396,7 +396,7 @@ withstand temperatures that would harm others without penalty.
  
 **Ability Score Bonus:** +1 Strength or +1 Charisma
 
-## Halflings
+## Halfling
 
 **Size:** Small
 
@@ -416,7 +416,7 @@ terrain. They can move through such terrains at their normal speed.
 
 **Ability Score Bonus:** +1 Charisma
 
-## Goblins
+## Goblin
 
 **Size:** Small
 
@@ -439,7 +439,7 @@ might overlook depending on the area (subject to DM's discretion).
 
 **Ability Score Bonus:** +1 Dexterity
 
-## Radigens
+## Radigen
 
 **Size:** Medium
 
@@ -467,7 +467,7 @@ poison and venom with a +2 bonus.
 
 **Attribute Score Bonus:** +1 Constitution
 
-## Kobolds
+## Kobold
 
 **Size:** Small
 
@@ -484,8 +484,7 @@ dark.
 
 **Trapsmith:** Kobolds are renowned for their ability to craft traps.
 They have a 4-in-6 chance to construct a simple trap or alarm system
-given appropriate materials and time.**  
-**
+given appropriate materials and time.
 
 **Pack Tactics:** Kobolds are at their best when they outnumber their
 enemies. When a Kobold is engaged in combat with more allies than
@@ -493,7 +492,7 @@ enemies, they gain +1 to their attack rolls.
 
 **Ability Score Bonus:** +1 Dexterity
 
-## Avians
+## Avian
 
 **Size:** Medium
 
@@ -520,7 +519,7 @@ entering a room.
 
 **Ability Score Bonus:** +1 Mind
 
-## Orcs
+## Orc
 
 **Size:** Medium
 
@@ -548,7 +547,7 @@ enchantments on weapons and armor.
 
 # <span id=Classes> Classes </span>
 
-## Fighter
+## <span id=Fighter> Fighter </span>
 
 **Minimum Requirement:** 9+ Strength
 
@@ -609,7 +608,7 @@ when taking an attack action instead of once.
 | 19        | 1,440,000                    | 9+20 hp           | 5                 |
 | 20        | 1,560,000                    | 9+22 hp           | 5                 |
 
-## Inquisitor
+## <span id=Inquisitor> Inquisitor </span>
 
 **Minimum Requirement:** 12+ Strength, +9 Constitution, +13 Mind, +17
 Charisma
@@ -671,12 +670,8 @@ example, at 3rd level they have the turning power of a 1st-level [<u>Law
 Mage</u>](#law-mage).
 
 **Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
-dispel evil once per day,
-
-as per the Law Mage spell (see the description of the [<u>Law
-Mage</u>](#law-mage-1) spell dispel
-
-evil).
+dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
+Mage</u>](#law-mage-1) spell dispel evil).
 
 **Inquisitor Advancement Table**
 
@@ -703,7 +698,7 @@ evil).
 | 19        | 1,580,000                    | 9+30 hp            | 5                 |
 | 20        | 1,710,000                    | 9+33 hp            | 5                 |
 
-## Specialist
+## <span id=Specialist> Specialist </span>
 
 **Minimum Requirement:** 9+ Dexterity
 
@@ -797,6 +792,8 @@ would be considered Tinkering.
 
 **Disciplines**
 
+(Examples, either pick one or build your own with the four skill points given at level 1)
+
 | **Dice Score (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
 |---------------------|----------------|------------------|--------------|-----------------|------------|---------------------|------------------|-------------|------------|
 | 1                   | Artificer      | 2 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 3 / 6      |
@@ -808,7 +805,7 @@ would be considered Tinkering.
 | 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
 | 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
 
-## Law Mage
+## <span id=Law-Mage> Law Mage </span>
 
 **Minimum Requirement:** 9+ Mind
 
@@ -892,7 +889,7 @@ spellbook until the Mage has successfully learned the initial set.
 | 19        | 1,200,000                 | 9+10              | 4                |
 | 20        | 1,300,000                 | 9+11              | 4                |
 
-## Chaos Mage
+## <span id=Chaos-Mage> Chaos Mage </span>
 
 **Minimum Requirement:** 9+ Mind
 
@@ -963,7 +960,7 @@ be used as many times as the Mage would like.
 | 19        | 1,800,000                 | 11+32             | 5                |
 | 20        | 1,950,000                 | 11+36             | 5                |
 
-## Barbarian
+## <span id=Barbarian> Barbarian </span>
 
 **Minimum Requirement:** 9+ Con
 
@@ -1047,7 +1044,7 @@ Mages.</u>](#law-mage)
 
 ## Experience Points
 
-XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party. Players may receive flat amounts of XP from uncovering hidden lore and completing their goals as well.
+XP is earned solely through the acquisition of gold. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party.
 
 ## Costs of Living
 
@@ -1609,7 +1606,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 # <span id=Items> Items </span>
 
-## Starting Gold
+## <span id=Starting-Gold> Starting Gold </span>
 
 | **Class**  | **Starting Gold Pieces (x10)** |
 |------------|--------------------------------|
@@ -1619,7 +1616,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Chaos Mage | 2d4 (20-80)                    |
 | Barbarian  | 2d6 (20-120)                   |
 
-## General Equipment
+## <span id=General-Equipment> General Equipment </span>
 
 | Item                  | Cost       | Description                                               | Weight                     | Stackable |
 |-----------------------|------------|-----------------------------------------------------------|----------------------------|-----------|
@@ -1661,7 +1658,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Rope, hemp (50 feet) | 2 GP | Standard hemp rope. | 2 | ☐ |  
 |Rope, silk (50 feet) | 2 GP | Silk rope, lighter than hemp but just as sturdy. | 1 | ☐ |  
 
-## Armor
+## <span id=Armor> Armor </span>
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
@@ -1688,7 +1685,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Medium Shield   | +1/+1                     | 7 GP     | A versatile shield offering balanced protection and mobility.                        | 1          |
 | Tower Shield    | +1/+3                     | 15 GP    | A large, imposing shield providing maximum coverage.                                 | 2          |
 
-## Melee Weapons
+## <span id=Melee-Weapons> Melee Weapons </span>
 
 **Axes**
 
@@ -1764,7 +1761,7 @@ Zweihänder      | L      | 1d12       |50 GP      |A colossal two-handed sword 
 | Torch                     | S        | 1d3        | 2 SP     | While its primary purpose is to illuminate, its burning end can be a deterrent to foes.                                                    | 1          |
 | Caestus / Spiked Gauntlet | S        | 1d3        | 1 GP     | A leather glove reinforced with metal and sometimes spikes, it transforms a fist into a weapon of its own.                                 | 1          |
 
-### Ranged Weapons
+## <span id=Ranged-Weapons> Ranged Weapons </span>
 
 | **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                | **Weight** | **Stackable** | **Rate** | **Range** |
 |----------------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|----------|-----------|
@@ -2195,13 +2192,13 @@ Produces a fan of flames that sear everything in its arc:
 Allows the caster to pacify and make tranquil wild creatures, as
 detailed:
 
-- Soothing Effect: Renders normal animals docile and non-threatening.
+- **Soothing Effect:** Renders normal animals docile and non-threatening.
   The spellcaster can affect 2d4 Hit Dice of animals, with an additional
   1 Hit Die per caster level. Animals affected by this spell don't get a
   saving throw unless they possess magical abilities or are evidently
   not entirely natural.
 
-- Specific Species: All animals affected must belong to the same
+- **Specific Species:** All animals affected must belong to the same
   species, and all must be within the spell's range.
 
 ## Cause Fear (B)
@@ -2545,8 +2542,7 @@ Summons a familiar to aid the caster:
 
 **Casting Time:** 1 round
 
-- **Strength:** Allows caster to use one hand as if having a strength of
-  18.
+- **Strength:** Allows caster to use one hand as if having a strength of 18.
 
 - **Combat:** Bonuses apply only when using the stone fist.
 
@@ -2821,7 +2817,7 @@ Conjures a dark ray of exhaustion:
   - **Heavily encumbered:** -2 penalty to attack rolls and a -1 Armor
     Class penalty.
 
-  - **Severely encumbered: -**4 penalty to attack rolls and a -3 Armor
+  - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
 **Read Magic (U)**
