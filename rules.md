@@ -623,6 +623,8 @@ Charisma
 
 **Alignment:** Inquisitors are of Lawful alignment.
 
+**Magic Items** Inquisitors may only own no more than three magic items.
+
 **Parry:** Inquisitors with a Dexterity score of 14 or better can fight
 on the defensive, parrying enemy blows and dodging attacks, as shown on
 the table below. The Inquisitor can parry at any time once per enemy
@@ -1323,6 +1325,14 @@ learned instantaneously – the complexity of a spell and the mage's
 current level affect their ability to comprehend and learn new magic.
 When gaining a new level, a spellcaster may reroll previously not
 [<u>understood</u>](#mind) spells from their spellbook.
+
+## <span id=Spell-Copying> Spell Copying </span>
+
+Copying spells from a scroll runs the cost of an essential magical ink 
+that is suited for the spell book at hand. After successfully understanding 
+a spell, the mage may decide to rewrite the spell in the book. This costs 100
+GP worth of ink and one day of downtime per spell level. A lightning bolt in
+this case would cost 300 gold and three days' worth of downtime.
 
 ## Innate Magic
 

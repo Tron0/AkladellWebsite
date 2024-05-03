@@ -38,6 +38,14 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+        title: 'Inquisitor Restrictions & Spell Copying',
+        content: `Inquisitors are now restricted to three magic items. I wanted to add some sort of restriction similar to Paladins, but not the whole 'giving away all your gold' ruling. 
+        And when it comes to the act of copying spells from a scroll to your spell book, this would be rather cheap compared to something like Spell Researching. Copying spells only run you the cost of magical ink for the spell book paper and time to write it down. In game terms this procedure costs 100 GP and one full days' worth of downtime per spell level.`,
+        date: "2024-05-03 16:31 CET" 
+    },
+    
     { 
             title: 'Website Launch!',
             content: `This will be the place where I update rules and add other fun stuff :)`, 
