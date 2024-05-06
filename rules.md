@@ -1,54 +1,50 @@
 # <span id=Quick-Creation-Reference> Quick Creation Reference </span>
 
-1.  **Choose a [<u>race</u>](#Races)**
+1. **Race**
 
-> Review the race options and descriptions. Pick one that fits your character concept.
+> Note your character race as Human. You know the common language and your size is Medium.
 
-2.  **Apply racial ability score bonuses**
-
-> Add the bonuses your race provides.
-
-3.  **Determine your character's [<u>age</u>](#Age)**
+1.  **Determine your character's [<u>age</u>](#Age)**
 
 > Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
 
-4.  **Determine ability scores**
+2.  **Determine ability scores**
 
 > Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Mind and Charisma.
 
-5.  **Swap one pair of ability scores**
+3.  **Swap one pair of ability scores**
 
 > You can swap any two ability scores with each other once.
 
-6.  **Select a [<u>class</u>](#Classes)**
+4.  **Select a [<u>class</u>](#Classes)**
 
 > Pick a class and make sure you meet the minimum ability score requirements.
 
-7.  **Roll starting hit points**
+5.  **Roll starting hit points**
 
 > Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
-8.  **Roll [<u>starting gold</u>](#Starting-Gold)**
+6.  **Roll [<u>starting gold</u>](#Starting-Gold)**
 
 > Consult the table and roll for your starting gold depending on the class.
 
-9.  **Purchase [<u>gear</u>](#Rules/#General-Equipment)**
+7.  **Purchase [<u>gear</u>](#Rules/#General-Equipment)**
 
 > Spend any gold on additional weapons, armor, equipment as desired.
 
-10. **Determine Background**
+8. **Determine Background**
 
 > Roll or pick a [<u>background</u>](#Backgrounds) that provides a relevant skill.
 
-11. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
+9. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
 > If a spellcaster, choose 10 spells (if [<u>Chaos Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>Law Mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
 
-12. **Determine mana pool (if applicable)**
+10. **Determine mana pool (if applicable)**
 
 > If a spellcaster, note maximum starting mana.
 
-13. **Determine miscellaneous information**
+11. **Determine miscellaneous information**
 
 > Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>sanity</u>](#Sanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
 
@@ -242,309 +238,6 @@ more XP.
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
 
-# <span id=Races> Races </span>
-
-Races do not have ability score requirements. You can be a dwarf with 8
-constitution or a halfling with 18 strength. There are no class
-restrictions for specific races. As long as you fulfill the ability
-requirements for the class, any race can be any class.
-
-## Human
-
-**Size:** Medium
-
-**Languages:** Common
-
-**Description:** Humans are the most diverse and adaptable of all the
-races, found in every corner of the world, but the majority live in the
-land of Draeneria. Humans have relatively short lifespans compared to
-other races. But the ability to adapt to any situation makes them an
-exceptional jack-of-all-trades.
-
-**Decisiveness:** Humans have an innate ability to quickly assess and
-adapt to combat situations. Once per combat encounter, when the party
-rolls for group initiative, the human player can opt to reroll the
-initiative dice. The second roll must be used, regardless of whether it
-is higher or lower than the first. This is limited to once per party
-initiative.
-
-**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
-to loyalty and morale.
-
-**Ability Score Bonus:** +1 in any score.
-
-## Elf
-
-**Size:** Medium
-
-**Languages:** Common, Elvish
-
-**Description:** In the realm of Fae'lor, the elves live by the snowy
-mountains and forests. Distinguished by their tall builds and pointed
-ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
-a captivating aura of wisdom and resilience. Their skin, pale like
-winter's frost, hints at their affinity for the cold climates they call
-home.
-
-**Keen Senses:** Elves have naturally sharp eyesight that allow them to
-detect secret doors and hidden parts of rooms in a 4-in-6 chance when
-searching.
-
-**Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
-inflict.
-
-**Ability Score Bonus:** +1 Constitution or +1 Mind
-
-## Dwarf
-
-**Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
-though they were Medium
-
-**Languages:** Common, Dwarvish
-
-**Description:** Originating from the mountains in Dworinheim, these
-dwarves have built a society symbiotic with the living rock. Through
-generations of shared existence, they have cultivated a unique bond with
-the mountain stone. This mystical bond allows them to coax the mountain
-into shifting and changing, creating their intricate homes and defenses.
-
-Their tough, compact bodies are akin to boulders, with skin appearing as
-though dusted with crushed granite. Deep-set eyes flicker with the
-steady glow of precious gemstones, reflecting their hearty souls and
-unwavering determination. It is said to be a natural bond with the web
-of chaos magic that allows them to meld rock.
-
-**Mountain's Child:** Born and raised in the heart of mountains, dwarves
-can navigate through caves and tunnels without losing their way**.**
-This includes moving at normal pace without getting lost and the ability
-to approximate their depth underground.
-
-**Stone Shaping:** With their unique bond to the earth, dwarves have the
-ability to manipulate small amounts of stone, shaping it to their will.
-This can be used for a variety of practical applications, from creating
-simple tools to sealing doorways. The amount of time depends on the tool
-or scale of the build.
-
-**Ability Score Bonus:** +1 Strength or +1 Constitution
-
-## Draconian
-
-**Size:** Medium
-
-**Languages:** Common, Draconic
-
-**Description:** Scaled, tall but wingless creatures, the Draconians are
-an ancient race closely related to dragons. The inherited magical blood
-makes any draconian have the potential to be a powerful mage if they
-wish to make use of it.
-
-**Magical Bloodline**: The magical dragon blood within Draconians grants
-them a unique spell resistance. Draconians gain a save bonus of +2 vs
-spells.
-
-**Scales:** Draconians have scales that cover their bodies, granting
-them natural armor. They gain a +2 bonus to their armor class when not
-wearing any armor. If wearing armor, choose the highest number of the
-two as the AC.
-
-**Ability Score Bonus:** +1 Strength or +1 Mind
-
-## Gnome
-
-**Size:** Small
-
-**Languages:** Common, Gnomish
-
-**Description:** Known for their brilliant minds and agile hands, Gnomes
-are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
-often overlooked, but their keen wit and resourcefulness have earned
-them respect amongst the other races. Their skin varies from pale to
-earthy brown, and they have large round eyes and inquisitive
-expressions.
-
-**Tinkering:** Gnomes are particularly good with machinery and traps.
-They have a 4-in-6 chance in tinker.
-
-**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
-save against illusions with a +2 bonus.
-
-**Ability Score Bonus:** +1 Dexterity or +1 Mind
-
-## Solarian
-
-**Size:** Medium
-
-**Languages:** Common, Infernal
-
-**Description:** The supposedly oldest race in Akladell. The Solarians
-are creatures with scorched features. Pointed ears, claws and horns.
-Standing on digitigrade legs, their exterior bodies are roughly the same
-size as humans. Some parts are made out of extruding sharp bone, almost
-like spikes.
-
-They are said to be a descendant from the demons who made their way to
-the outside world from the abyss a long time ago.
-
-**Claws:** Solarians have naturally deadly claws. Instead of using the
-base of 1 damage when using an unarmed strike, Solarians deal 1d4
-damage.
-
-**Fiery Resilience:** Solarians are resistant to fire due to their
-infernal heritage. They take half damage from fire-based attacks and can
-withstand temperatures that would harm others without penalty.
-
- 
-**Ability Score Bonus:** +1 Strength or +1 Charisma
-
-## Halfling
-
-**Size:** Small
-
-**Languages:** Common, Halfling
-
-**Description:** Halflings are a small, hearty race known for their
-jovial spirits and ability to blend into any society. Their height
-ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
-curly hair, and large, expressive eyes. Despite their size, Halflings
-are known for their friendly nature and sometimes incredible luck.
-
-**Lucky:** Halflings are notoriously lucky. They can reroll one failed
-saving throw per day.
-
-**Nimble Navigator:** Halflings are experts at moving through difficult
-terrain. They can move through such terrains at their normal speed.
-
-**Ability Score Bonus:** +1 Charisma
-
-## Goblin
-
-**Size:** Small
-
-**Languages:** Common, Goblin
-
-**Description:** Goblins are small, agile creatures with green or yellow
-skin, standing around 3 to 4 feet tall, known for their mischievous and
-disruptive tendencies. Residing in caverns or decaying fortresses, they
-are highly adaptable, able to make use of discarded materials and thrive
-in diverse environments. Despite their reputation as pests, some manage
-to overcome their innate disarray, aligning with nobler causes.
-
-**Survivalists:** In any environment, Goblins succeed at finding food,
-water, and shelter for only themselves on a roll of 3-6 on a d6.
-
-**Bargain Hunter:** Goblins have an uncanny knack for finding useful
-items in the least expected places. Once a day, when they have time to
-explore an area (1 hour), they can find small items or coins that others
-might overlook depending on the area (subject to DM's discretion).
-
-**Ability Score Bonus:** +1 Dexterity
-
-## Radigen
-
-**Size:** Medium
-
-**Languages:** Common, Draconic
-
-**Description:** The Radigens are a unique and mysterious race, rumored
-to be humans who underwent a grotesque transformation. As a result of
-exposure to unknown magic or radiation, they have evolved into reptilian
-beings. Their skin is a pale green/blue that glistens in light, as they
-always excrete liquid. Their bodies are covered with exposed venom
-glands, lightly protected by strong, scaly skin that varies in shades
-from dark green to a dull brown. They possess a set of poisonous glands
-that are capable of producing a lethal toxin.
-
-**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
-poison can be extracted from a Radigen, which can be used to concoct
-dangerous potions. This process takes a week and usually costs around
-1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
-extracted poison is potent enough to inflict severe damage on those
-ingesting it, possibly resulting in immediate death.
-
-**Toxic Resistance:** Due to their poisonous nature, Radigens have
-developed a natural resistance to toxins and radiation. They save vs
-poison and venom with a +2 bonus.
-
-**Attribute Score Bonus:** +1 Constitution
-
-## Kobold
-
-**Size:** Small
-
-**Languages:** Common, Draconic
-
-**Description:** Kobolds are small, reptilian creatures that dwell in
-extensive underground warrens. These crafty beings are known for their
-strategic cunning and pack tactics, often overwhelming foes with
-superior numbers. Despite their small stature, Kobolds are fierce when
-cornered and are tenacious survivors, always ready to protect their lair
-and kin. They have dragon-like scales that usually range from a rusty
-brown color to dark green, and large, sensitive eyes that shine in the
-dark.
-
-**Trapsmith:** Kobolds are renowned for their ability to craft traps.
-They have a 4-in-6 chance to construct a simple trap or alarm system
-given appropriate materials and time.
-
-**Pack Tactics:** Kobolds are at their best when they outnumber their
-enemies. When a Kobold is engaged in combat with more allies than
-enemies, they gain +1 to their attack rolls.
-
-**Ability Score Bonus:** +1 Dexterity
-
-## Avian
-
-**Size:** Medium
-
-**Languages:** Common, Avian
-
-**Description:** Avians, or Birdfolk as some call them, are a remarkable
-race of winged beings, bearing a striking resemblance to the bird
-species of the realm. Intricately patterned feathers cover their bodies,
-reflecting a multitude of hues under the sunlight. Despite not being
-able to fly, they are known for their sharp minds and keen sight, Avians
-have carved a niche for themselves as skilled artisans, perceptive
-scholars, and nimble acrobats.
-
-**Gliding:** Despite their lost ability to fly, Avians have retained a
-limited ability to glide using their wings. They can safely descend from
-heights and cross long distances without sustaining fall damage, at a
-rate of 1 foot forward or sideways for every 1 foot they fall down.
-
-**Bird’s Eye View:** Avians have exceptional vision, honed by
-generations spent navigating the sky. They can see twice as far as most
-races and can discern details that others might miss, granting them a
-2-in-6 chance to spot hidden doors, traps, or other oddities when
-entering a room.
-
-**Ability Score Bonus:** +1 Mind
-
-## Orc
-
-**Size:** Medium
-
-**Languages:** Common, Orcish  
-  
-**Description:** Born of the rugged Stormhenge, an isle ensconced in
-mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
-their resilient skin. Their robust frames and unwavering expressions
-echo a lineage woven into the very fabric of the land. Revering valor,
-martial prowess, and unyielding courage, their existence finds purpose
-in the crucible of warfare. As masterful blacksmiths, they forge not
-only crescent-moon blades that glint like midnight stars, but also the
-magical essence of the arcane into their weapons and armor. Each plate
-mail, intricately designed, stands as a testament to their crafting
-mastery, embellished with the symbols of their lineage.  
-  
-**Wilderness Guide:** Orcs are keenly aware of their natural
-surroundings and can always retrace their path. They cannot become lost
-except by magical means.
-
-**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
-enchantments on weapons and armor.  
-  
-**Ability Score Bonus:** +1 Strength
-
 # <span id=Classes> Classes </span>
 
 ## <span id=Fighter> Fighter </span>
@@ -560,8 +253,8 @@ enchantments on weapons and armor.
 **Weapons Permitted:** Any
 
 **Parry:** Fighters with a Dexterity score of 14 or better can fight on
-the defensive, parrying enemy blows and dodging attacks, as shown on the
-table below. The Fighter can parry at any time once per enemy attack,
+the defensive, parrying an enemy blow, as shown on the
+table below. The Fighter can parry one enemy attack
 without giving up the ability to attack themselves in the same round.
 Parrying is not effective against ranged weapons, but is effective
 against claws, bites and touch attacks.
@@ -625,12 +318,12 @@ Charisma
 
 **Magic Items** Inquisitors may only own no more than three magic items.
 
-**Parry:** Inquisitors with a Dexterity score of 14 or better can fight
-on the defensive, parrying enemy blows and dodging attacks, as shown on
-the table below. The Inquisitor can parry at any time once per enemy
-attack, without giving up the ability to attack themselves in the same
-round. Parrying is not effective against ranged weapons, but is
-effective against claws, bites and touch attacks.
+**Parry:** Inquisitors with a Dexterity score of 14 or better can fight on
+the defensive, parrying an enemy blow, as shown on the
+table below. The Inquisitor can parry one enemy attack
+without giving up the ability to attack themselves in the same round.
+Parrying is not effective against ranged weapons, but is effective
+against claws, bites and touch attacks.
 
 | **Dexterity Score** | **Penalty to Enemy Attacks** |
 |---------------------|------------------------------|
@@ -2981,3 +2674,309 @@ Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Sp
 by Fil Kearney
 
 Carcosa and Specialist, Lamentations of the Flame Princess
+
+# <span id=Old-Rules> Old Rules </span> 
+# (For reference only!)
+
+# Races
+
+Races do not have ability score requirements. You can be a dwarf with 8
+constitution or a halfling with 18 strength. There are no class
+restrictions for specific races. As long as you fulfill the ability
+requirements for the class, any race can be any class.
+
+## Human
+
+**Size:** Medium
+
+**Languages:** Common
+
+**Description:** Humans are the most diverse and adaptable of all the
+races, found in every corner of the world, but the majority live in the
+land of Draeneria. Humans have relatively short lifespans compared to
+other races. But the ability to adapt to any situation makes them an
+exceptional jack-of-all-trades.
+
+**Decisiveness:** Humans have an innate ability to quickly assess and
+adapt to combat situations. Once per combat encounter, when the party
+rolls for group initiative, the human player can opt to reroll the
+initiative dice. The second roll must be used, regardless of whether it
+is higher or lower than the first. This is limited to once per party
+initiative.
+
+**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
+to loyalty and morale.
+
+**Ability Score Bonus:** +1 in any score.
+
+## Elf
+
+**Size:** Medium
+
+**Languages:** Common, Elvish
+
+**Description:** In the realm of Fae'lor, the elves live by the snowy
+mountains and forests. Distinguished by their tall builds and pointed
+ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
+a captivating aura of wisdom and resilience. Their skin, pale like
+winter's frost, hints at their affinity for the cold climates they call
+home.
+
+**Keen Senses:** Elves have naturally sharp eyesight that allow them to
+detect secret doors and hidden parts of rooms in a 4-in-6 chance when
+searching.
+
+**Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
+inflict.
+
+**Ability Score Bonus:** +1 Constitution or +1 Mind
+
+## Dwarf
+
+**Size:** Small, but [<u>Fighters</u>](#classes) can wield weapons as
+though they were Medium
+
+**Languages:** Common, Dwarvish
+
+**Description:** Originating from the mountains in Dworinheim, these
+dwarves have built a society symbiotic with the living rock. Through
+generations of shared existence, they have cultivated a unique bond with
+the mountain stone. This mystical bond allows them to coax the mountain
+into shifting and changing, creating their intricate homes and defenses.
+
+Their tough, compact bodies are akin to boulders, with skin appearing as
+though dusted with crushed granite. Deep-set eyes flicker with the
+steady glow of precious gemstones, reflecting their hearty souls and
+unwavering determination. It is said to be a natural bond with the web
+of chaos magic that allows them to meld rock.
+
+**Mountain's Child:** Born and raised in the heart of mountains, dwarves
+can navigate through caves and tunnels without losing their way**.**
+This includes moving at normal pace without getting lost and the ability
+to approximate their depth underground.
+
+**Stone Shaping:** With their unique bond to the earth, dwarves have the
+ability to manipulate small amounts of stone, shaping it to their will.
+This can be used for a variety of practical applications, from creating
+simple tools to sealing doorways. The amount of time depends on the tool
+or scale of the build.
+
+**Ability Score Bonus:** +1 Strength or +1 Constitution
+
+## Draconian
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** Scaled, tall but wingless creatures, the Draconians are
+an ancient race closely related to dragons. The inherited magical blood
+makes any draconian have the potential to be a powerful mage if they
+wish to make use of it.
+
+**Magical Bloodline**: The magical dragon blood within Draconians grants
+them a unique spell resistance. Draconians gain a save bonus of +2 vs
+spells.
+
+**Scales:** Draconians have scales that cover their bodies, granting
+them natural armor. They gain a +2 bonus to their armor class when not
+wearing any armor. If wearing armor, choose the highest number of the
+two as the AC.
+
+**Ability Score Bonus:** +1 Strength or +1 Mind
+
+## Gnome
+
+**Size:** Small
+
+**Languages:** Common, Gnomish
+
+**Description:** Known for their brilliant minds and agile hands, Gnomes
+are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
+often overlooked, but their keen wit and resourcefulness have earned
+them respect amongst the other races. Their skin varies from pale to
+earthy brown, and they have large round eyes and inquisitive
+expressions.
+
+**Tinkering:** Gnomes are particularly good with machinery and traps.
+They have a 4-in-6 chance in tinker.
+
+**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
+save against illusions with a +2 bonus.
+
+**Ability Score Bonus:** +1 Dexterity or +1 Mind
+
+## Solarian
+
+**Size:** Medium
+
+**Languages:** Common, Infernal
+
+**Description:** The supposedly oldest race in Akladell. The Solarians
+are creatures with scorched features. Pointed ears, claws and horns.
+Standing on digitigrade legs, their exterior bodies are roughly the same
+size as humans. Some parts are made out of extruding sharp bone, almost
+like spikes.
+
+They are said to be a descendant from the demons who made their way to
+the outside world from the abyss a long time ago.
+
+**Claws:** Solarians have naturally deadly claws. Instead of using the
+base of 1 damage when using an unarmed strike, Solarians deal 1d4
+damage.
+
+**Fiery Resilience:** Solarians are resistant to fire due to their
+infernal heritage. They take half damage from fire-based attacks and can
+withstand temperatures that would harm others without penalty.
+
+ 
+**Ability Score Bonus:** +1 Strength or +1 Charisma
+
+## Halfling
+
+**Size:** Small
+
+**Languages:** Common, Halfling
+
+**Description:** Halflings are a small, hearty race known for their
+jovial spirits and ability to blend into any society. Their height
+ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
+curly hair, and large, expressive eyes. Despite their size, Halflings
+are known for their friendly nature and sometimes incredible luck.
+
+**Lucky:** Halflings are notoriously lucky. They can reroll one failed
+saving throw per day.
+
+**Nimble Navigator:** Halflings are experts at moving through difficult
+terrain. They can move through such terrains at their normal speed.
+
+**Ability Score Bonus:** +1 Charisma
+
+## Goblin
+
+**Size:** Small
+
+**Languages:** Common, Goblin
+
+**Description:** Goblins are small, agile creatures with green or yellow
+skin, standing around 3 to 4 feet tall, known for their mischievous and
+disruptive tendencies. Residing in caverns or decaying fortresses, they
+are highly adaptable, able to make use of discarded materials and thrive
+in diverse environments. Despite their reputation as pests, some manage
+to overcome their innate disarray, aligning with nobler causes.
+
+**Survivalists:** In any environment, Goblins succeed at finding food,
+water, and shelter for only themselves on a roll of 3-6 on a d6.
+
+**Bargain Hunter:** Goblins have an uncanny knack for finding useful
+items in the least expected places. Once a day, when they have time to
+explore an area (1 hour), they can find small items or coins that others
+might overlook depending on the area (subject to DM's discretion).
+
+**Ability Score Bonus:** +1 Dexterity
+
+## Radigen
+
+**Size:** Medium
+
+**Languages:** Common, Draconic
+
+**Description:** The Radigens are a unique and mysterious race, rumored
+to be humans who underwent a grotesque transformation. As a result of
+exposure to unknown magic or radiation, they have evolved into reptilian
+beings. Their skin is a pale green/blue that glistens in light, as they
+always excrete liquid. Their bodies are covered with exposed venom
+glands, lightly protected by strong, scaly skin that varies in shades
+from dark green to a dull brown. They possess a set of poisonous glands
+that are capable of producing a lethal toxin.
+
+**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
+poison can be extracted from a Radigen, which can be used to concoct
+dangerous potions. This process takes a week and usually costs around
+1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
+extracted poison is potent enough to inflict severe damage on those
+ingesting it, possibly resulting in immediate death.
+
+**Toxic Resistance:** Due to their poisonous nature, Radigens have
+developed a natural resistance to toxins and radiation. They save vs
+poison and venom with a +2 bonus.
+
+**Attribute Score Bonus:** +1 Constitution
+
+## Kobold
+
+**Size:** Small
+
+**Languages:** Common, Draconic
+
+**Description:** Kobolds are small, reptilian creatures that dwell in
+extensive underground warrens. These crafty beings are known for their
+strategic cunning and pack tactics, often overwhelming foes with
+superior numbers. Despite their small stature, Kobolds are fierce when
+cornered and are tenacious survivors, always ready to protect their lair
+and kin. They have dragon-like scales that usually range from a rusty
+brown color to dark green, and large, sensitive eyes that shine in the
+dark.
+
+**Trapsmith:** Kobolds are renowned for their ability to craft traps.
+They have a 4-in-6 chance to construct a simple trap or alarm system
+given appropriate materials and time.
+
+**Pack Tactics:** Kobolds are at their best when they outnumber their
+enemies. When a Kobold is engaged in combat with more allies than
+enemies, they gain +1 to their attack rolls.
+
+**Ability Score Bonus:** +1 Dexterity
+
+## Avian
+
+**Size:** Medium
+
+**Languages:** Common, Avian
+
+**Description:** Avians, or Birdfolk as some call them, are a remarkable
+race of winged beings, bearing a striking resemblance to the bird
+species of the realm. Intricately patterned feathers cover their bodies,
+reflecting a multitude of hues under the sunlight. Despite not being
+able to fly, they are known for their sharp minds and keen sight, Avians
+have carved a niche for themselves as skilled artisans, perceptive
+scholars, and nimble acrobats.
+
+**Gliding:** Despite their lost ability to fly, Avians have retained a
+limited ability to glide using their wings. They can safely descend from
+heights and cross long distances without sustaining fall damage, at a
+rate of 1 foot forward or sideways for every 1 foot they fall down.
+
+**Bird’s Eye View:** Avians have exceptional vision, honed by
+generations spent navigating the sky. They can see twice as far as most
+races and can discern details that others might miss, granting them a
+2-in-6 chance to spot hidden doors, traps, or other oddities when
+entering a room.
+
+**Ability Score Bonus:** +1 Mind
+
+## Orc
+
+**Size:** Medium
+
+**Languages:** Common, Orcish  
+  
+**Description:** Born of the rugged Stormhenge, an isle ensconced in
+mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
+their resilient skin. Their robust frames and unwavering expressions
+echo a lineage woven into the very fabric of the land. Revering valor,
+martial prowess, and unyielding courage, their existence finds purpose
+in the crucible of warfare. As masterful blacksmiths, they forge not
+only crescent-moon blades that glint like midnight stars, but also the
+magical essence of the arcane into their weapons and armor. Each plate
+mail, intricately designed, stands as a testament to their crafting
+mastery, embellished with the symbols of their lineage.  
+  
+**Wilderness Guide:** Orcs are keenly aware of their natural
+surroundings and can always retrace their path. They cannot become lost
+except by magical means.
+
+**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
+enchantments on weapons and armor.  
+  
+**Ability Score Bonus:** +1 Strength

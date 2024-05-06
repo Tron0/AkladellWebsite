@@ -40,6 +40,15 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Races & Humans',
+        content: `In short: Humans will now be the only playable race! I went through this during the Week 32 session, but in short: 
+        I want to lean on the "familiar characters vs unfamiliar world" more. I think the fantasy races right now that are playable are more suited for a high fantasy campaign. 
+        Obviously the humanoid races won't be removed. We instead talked about having them show up to be "unlocked" through play. But as of right now the only race available will be humans. Old characters that are humanoids can still be played.
+        And lastly, races won't get bonuses anymore. Human characters created before this change still keeps the "+1 morale and loyalty" bonus to retainers, so don't remove this if you have this one already!`,
+        date: "2024-05-06 17:55 CET" 
+    },
+    
+    { 
         title: 'Inquisitor Restrictions & Spell Copying',
         content: `Inquisitors are now restricted to three magic items. I wanted to add some sort of restriction similar to Paladins, but not the whole 'giving away all your gold' ruling. 
         And when it comes to the act of copying spells from a scroll to your spell book, this would be rather cheap compared to something like Spell Researching. Copying spells only run you the cost of magical ink for the spell book paper and time to write it down. In game terms this procedure costs 100 GP and one full days' worth of downtime per spell level.`,
@@ -47,9 +56,9 @@ function loadUpdatePost()
     },
     
     { 
-            title: 'Website Launch!',
-            content: `This will be the place where I update rules and add other fun stuff :)`, 
-            date: "2024-04-16 16:52 CET" 
+        title: 'Website Launch!',
+        content: `This will be the place where I update rules and add other fun stuff :)`, 
+        date: "2024-04-16 16:52 CET" 
     },
 
     { 
