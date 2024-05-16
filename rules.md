@@ -46,7 +46,7 @@
 
 11. **Determine miscellaneous information**
 
-> Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>sanity</u>](#Sanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
+> Armor class, [<u>encumbrance</u>](#Encumbrance-&-Movement), [<u>Insanity</u>](#Insanity), [<u>languages</u>](#Languages), [<u>psionics</u>](#Psionics)
 
 # <span id=Character-Creation> Character Creation </span>
 
@@ -202,20 +202,20 @@ Bows only grant dexterity bonuses.
 
 ## Mind
 
-| **Score** | **Maximum Sanity Score** | **Maximum Additional Languages** | **Search** | **Chance to Understand New Spell\*** |
-|-----------|--------------------------|----------------------------------|------------|--------------------------------------|
-| 3 - 7     | 15 - 35                  | —                                | —          | 30%                                  |
-| 8         | 40                       | —                                | 1 / 6      | 40%                                  |
-| 9         | 45                       | —                                | 1 / 6      | 45%                                  |
-| 10        | 50                       | 1                                | 1 / 6      | 50%                                  |
-| 11        | 55                       | 1                                | 1 / 6      | 50%                                  |
-| 12        | 60                       | 1                                | 1 / 6      | 55%                                  |
-| 13        | 65                       | 2                                | 1 / 6      | 65%                                  |
-| 14        | 70                       | 2                                | 1 / 6      | 65%                                  |
-| 15        | 75                       | 3                                | 2 / 6      | 75%                                  |
-| 16        | 80                       | 3                                | 2 / 6      | 75%                                  |
-| 17        | 85                       | 3                                | 2 / 6      | 85%                                  |
-| 18        | 90                       | 4                                | 2 / 6      | 95%                                  |
+| **Score** | **Maximum Additional Languages** | **Search** | **Chance to Understand New Spell\*** |
+|-----------|----------------------------------|------------|--------------------------------------|
+| 3 - 7     | —                                | —          | 30%                                  |
+| 8         | —                                | 1 / 6      | 40%                                  |
+| 9         | —                                | 1 / 6      | 45%                                  |
+| 10        | 1                                | 1 / 6      | 50%                                  |
+| 11        | 1                                | 1 / 6      | 50%                                  |
+| 12        | 1                                | 1 / 6      | 55%                                  |
+| 13        | 2                                | 1 / 6      | 65%                                  |
+| 14        | 2                                | 1 / 6      | 65%                                  |
+| 15        | 3                                | 2 / 6      | 75%                                  |
+| 16        | 3                                | 2 / 6      | 75%                                  |
+| 17        | 3                                | 2 / 6      | 85%                                  |
+| 18        | 4                                | 2 / 6      | 95%                                  |
 
 \*For Spellcasters ([<u>Law Mages</u>](#Law-Mage), [<u>Chaos
 Mages</u>](#Chaos-Mage))
@@ -856,16 +856,17 @@ round.
 Spell casting times are measured in rounds, and spell effects often last
 a certain number of rounds.
 
-# <span id=Sanity> Sanity </span>
+# <span id=Insanity> Insanity </span>
 
-When a character faces abhorrent events or unspeakable horrors, a saving
-throw is made. Failing this saving throw will cause damage to the
-character’s sanity, temporarily (or permanently) lowering the total
-sanity. Each week of in-game downtime (5 days), grants a d6 roll for the
-character to regain any lost sanity, up to 3d6. When dropping to 0
-sanity, the character gains a random affliction as well as regaining 3d6
-sanity. Afflictions can be removed with different spells, or by spending
-gold to attempt to remove it during downtime.
+When a character faces events of bloodshed or unspeakable horror, a saving throw is made. Failing this saving throw will cause damage to the character’s psyche, tracked as insanity points. 
+
+Insanity starts at a score of 0 unless specified otherwise. If a character's insanity ever exceeds their maximum threshold, they are permanently retired from play. The total insanity threshold of a character is 90 + Mind. Insanity cannot be healed naturally. 
+
+Insanity may only be reduced in one of two ways: 
+- Upon gaining a level, reduce Insanity by 10 points. 
+- Take on a random Affliction to reduce Insanity by 10 points. This can be dangerous.
+
+Afflictions can only be cured by specific spells or by spending gold to seek an attempt at healing during downtime. If a character ever acquires 3 or more Afflictions, that character is permanently retired.
 
 # <span id=Retainers> Retainers </span>
 
@@ -2663,17 +2664,15 @@ This spell lets the caster inscribe a personal mark:
 
 # <span id=Sources> Sources </span>
 
-[<u>Swords &
-Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
-by Mythmere Games
+[<u>Swords & Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
 
-Dungeons & Dragons (AD&D) by Wizards of the Coast (Gary Gygax)
+Dungeons & Dragons (AD&D)
 
-[<u>Tap Untap
-Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
-by Fil Kearney
+[<u>Tap Untap Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
 
-Carcosa and Specialist, Lamentations of the Flame Princess
+Carcosa and Specialist, [<u>Lamentations of the Flame Princess<u>](https://www.lotfp.com/RPG/)
+
+Insanity/Madness, [<u>Silent Legions<u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
 
 # <span id=Old-Rules> Old Rules </span> 
 # (For reference only!)
@@ -2841,11 +2840,9 @@ withstand temperatures that would harm others without penalty.
 **Description:** Halflings are a small, hearty race known for their
 jovial spirits and ability to blend into any society. Their height
 ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
-curly hair, and large, expressive eyes. Despite their size, Halflings
-are known for their friendly nature and sometimes incredible luck.
+curly hair, and large, expressive eyes. 
 
-**Lucky:** Halflings are notoriously lucky. They can reroll one failed
-saving throw per day.
+**Sneaky:** Halflings are notoriously sneaky! They gain a natural 3/6 in the Stealth skill.
 
 **Nimble Navigator:** Halflings are experts at moving through difficult
 terrain. They can move through such terrains at their normal speed.

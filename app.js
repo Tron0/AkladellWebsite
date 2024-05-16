@@ -40,6 +40,19 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Insanity',
+        content: `I sat down for a little while to try and make the sanity system less of a small nuisance and more of a constant threat. One big problem I've had with it has been the fact that there aren't any longterm consequences to gaining insanity, instead it sort of worked as a lite-version of HP. These new rules also fixes the depencendy to have a high Mind score, which a certain Walker will be happy about. 
+        Anyways, I found a much better system that is quite similar to the current one, from a lovecraftian game called Silent Legions. This system slots in well with what I wanted to do. It rewards good long term play, planning, and good ol' risk taking. We'll see how it plays out. Read up on it on the "Insanity" tab!`,
+        date: "2024-05-16 22:17 CET" 
+    },
+
+    { 
+        title: 'Halfling Skills',
+        content: `Modified the Halfling skill "Lucky" to "Stealthy." Been reading the Hobbit recently and I think this is a better option especially when I added the racial traits before the Specialist skills were added.`,
+        date: "2024-05-16 22:17 CET" 
+    },
+
+    { 
         title: 'Races & Humans',
         content: `In short: Humans will now be the only playable race! I went through this during the Week 32 session, but in short: 
         I want to lean on the "familiar characters vs unfamiliar world" more. I think the fantasy races right now that are playable are more suited for a high fantasy campaign. 
