@@ -675,7 +675,7 @@ roll 1- 2 on 1d6. They cannot be surprised.
 in melee combat.
 
 **Swift Runner:** Barbarians move quicker than other humans and have an
-unencumbered movement rate of 15 instead of the standard 12.
+unencumbered movement rate of 150 instead of the standard 120. See [<u>Encumbrance & Movement</u>](#Encumbrance-&-Movement)
 
 **Wilderness Survival:** Barbarians are adept at surviving in the wild
 places of the world and are always able to find food and water to
@@ -925,17 +925,26 @@ as potions cannot be automatically replaced after they’ve been used in
 the quick draw slots. But mundane items can be replaced, like rocks or
 gold inside of a pouch.
 
-## Base Movement Rate
+# Movement Speed
 
-| **Unique Items Carried**    | **Base Movement Rate** |
+| **Armor**                     | **Base Movement Speed** |
+|-------------------------------|-------------------------|
+| Unarmored                     | 15' (50')              |
+| Light Armor                   | 12' (40')              |
+| Medium Armor                  | 9' (30')               |
+| Heavy Armor                   | 6' (20')               |
+
+## Overencumbrance
+
+| **Unique Items Carried**    | **Movement Speed Decrease** |
 |-------------------------------|------------------------|
-| Equal or under Strength Score | 12                     |
-| Strength Score + 1 Item       | 9                      |
-| Strength Score + 2 Items      | 6                      |
-| Strength Score + 3 Items      | 3                      |
+| Equal or under Strength Score | 0                    |
+| Strength Score + 1 Item       | -3                      |
+| Strength Score + 2 Items      | -6                      |
+| Strength Score + 3 Items      | -9                      |
 
 \*For example, a character with a Strength of 16 would be able to carry
-16 unique items and have a movement rate of 12. If that character
+16 unique items and have a movement rate of 12 while unarmored. If that character
 carried 18 items, their base movement rate would be 6.
 
 ## Indoor, Underground & City Movement

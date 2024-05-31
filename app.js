@@ -40,6 +40,14 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Movement & Travel Speed',
+        content: `The movement of your character in Dungeons & Dragons is used in multiple ways. Both as combat movement (rounds), dungeon crawl (turns) and overworld travel (days).
+        As of right now, I have only used an encumbrance system that decreases the movement of your character when overencumbered. The standard way of calculating movement is based on overall encumbrance. For example, if you're carrying more than 50% of your total etc it changes your speed.
+        Instead of doing that I'm opting to use armor as the main movement ruling, less to keep track of and if you use the same armor it's easier to remember.`,
+        date: "2024-05-31 23:00 CET" 
+    },
+
+    { 
         title: 'Insanity',
         content: `I sat down for a little while to try and make the sanity system less of a small nuisance and more of a constant threat. One big problem I've had with it has been the fact that there aren't any long-term consequences to gaining insanity, instead it sort of worked as a lite-version of HP. These new rules also fixes the dependency to have a high Mind score, which a certain Walker will be happy about. 
         Anyways, I found a much better system that is quite similar to the current one, from a Lovecraftian game called Silent Legions. This system slots in well with what I wanted to do. It rewards good long term play, planning, and good ol' risk taking. We'll see how it plays out. Read up on it on the "Insanity" tab!`,
