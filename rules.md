@@ -278,28 +278,28 @@ when taking an attack action instead of once.
 
 **Fighter Advancement Table**
 
-| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** |
-|-----------|------------------------------|-------------------|-------------------|
-| 1         | 0                            | 1                 | 15                |
-| 2         | 2,000                        | 2                 | 14                |
-| 3         | 4,000                        | 3                 | 13                |
-| 4         | 8,000                        | 4                 | 12                |
-| 5         | 16,000                       | 5                 | 11                |
-| 6         | 32,000                       | 6                 | 10                |
-| 7         | 64,000                       | 7                 | 9                 |
-| 8         | 120,000                      | 8                 | 8                 |
-| 9         | 240,000                      | 9                 | 7                 |
-| 10        | 360,000                      | 9+2 hp            | 6                 |
-| 11        | 480,000                      | 9+4 hp            | 5                 |
-| 12        | 600,000                      | 9+6 hp            | 5                 |
-| 13        | 720,000                      | 9+8 hp            | 5                 |
-| 14        | 840,000                      | 9+10 hp           | 5                 |
-| 15        | 960,000                      | 9+12 hp           | 5                 |
-| 16        | 1,080,000                    | 9+14 hp           | 5                 |
-| 17        | 1,200,000                    | 9+16 hp           | 5                 |
-| 18        | 1,320,000                    | 9+18 hp           | 5                 |
-| 19        | 1,440,000                    | 9+20 hp           | 5                 |
-| 20        | 1,560,000                    | 9+22 hp           | 5                 |
+| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** | **Weapon Proficiencies** |
+|-----------|------------------------------|-------------------|-------------------|--------------------------|
+| 1         | 0                            | 1                 | 15                | 4
+| 2         | 2,000                        | 2                 | 14                | 4
+| 3         | 4,000                        | 3                 | 13                | 5
+| 4         | 8,000                        | 4                 | 12                | 5
+| 5         | 16,000                       | 5                 | 11                | 5
+| 6         | 32,000                       | 6                 | 10                | 6
+| 7         | 64,000                       | 7                 | 9                 | 6
+| 8         | 120,000                      | 8                 | 8                 | 6
+| 9         | 240,000                      | 9                 | 7                 | 7
+| 10        | 360,000                      | 9+2 hp            | 6                 | 7
+| 11        | 480,000                      | 9+4 hp            | 5                 | 7
+| 12        | 600,000                      | 9+6 hp            | 5                 | 8
+| 13        | 720,000                      | 9+8 hp            | 5                 | 8
+| 14        | 840,000                      | 9+10 hp           | 5                 | 8
+| 15        | 960,000                      | 9+12 hp           | 5                 | 9
+| 16        | 1,080,000                    | 9+14 hp           | 5                 | 9
+| 17        | 1,200,000                    | 9+16 hp           | 5                 | 9
+| 18        | 1,320,000                    | 9+18 hp           | 5                 | 10
+| 19        | 1,440,000                    | 9+20 hp           | 5                 | 10
+| 20        | 1,560,000                    | 9+22 hp           | 5                 | 10
 
 ## <span id=Inquisitor> Inquisitor </span>
 
@@ -370,28 +370,28 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 **Inquisitor Advancement Table**
 
-| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** |
-|-----------|------------------------------|--------------------|-------------------|
-| 1         | 0                            | 1                  | 15                |
-| 2         | 2,250                        | 2                  | 14                |
-| 3         | 4,500                        | 3                  | 13                |
-| 4         | 9,000                        | 4                  | 12                |
-| 5         | 20,000                       | 5                  | 11                |
-| 6         | 40,000                       | 6                  | 10                |
-| 7         | 80,000                       | 7                  | 9                 |
-| 8         | 150,000                      | 8                  | 8                 |
-| 9         | 280,000                      | 9                  | 7                 |
-| 10        | 410,000                      | 9+3 hp             | 6                 |
-| 11        | 540,000                      | 9+6 hp             | 5                 |
-| 12        | 670,000                      | 9+9 hp             | 5                 |
-| 13        | 800,000                      | 9+12 hp            | 5                 |
-| 14        | 930,000                      | 9+15 hp            | 5                 |
-| 15        | 1,060,000                    | 9+18 hp            | 5                 |
-| 16        | 1,190,000                    | 9+21 hp            | 5                 |
-| 17        | 1,320,000                    | 9+24 hp            | 5                 |
-| 18        | 1,450,000                    | 9+27 hp            | 5                 |
-| 19        | 1,580,000                    | 9+30 hp            | 5                 |
-| 20        | 1,710,000                    | 9+33 hp            | 5                 |
+| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** | **Weapon Proficiencies** |
+|-----------|------------------------------|--------------------|-------------------|--------------------------|
+| 1         | 0                            | 1                  | 15                | 4
+| 2         | 2,250                        | 2                  | 14                | 4
+| 3         | 4,500                        | 3                  | 13                | 5
+| 4         | 9,000                        | 4                  | 12                | 5
+| 5         | 20,000                       | 5                  | 11                | 5
+| 6         | 40,000                       | 6                  | 10                | 6
+| 7         | 80,000                       | 7                  | 9                 | 6
+| 8         | 150,000                      | 8                  | 8                 | 6
+| 9         | 280,000                      | 9                  | 7                 | 7
+| 10        | 410,000                      | 9+3 hp             | 6                 | 7
+| 11        | 540,000                      | 9+6 hp             | 5                 | 7 
+| 12        | 670,000                      | 9+9 hp             | 5                 | 8
+| 13        | 800,000                      | 9+12 hp            | 5                 | 8
+| 14        | 930,000                      | 9+15 hp            | 5                 | 8
+| 15        | 1,060,000                    | 9+18 hp            | 5                 | 9
+| 16        | 1,190,000                    | 9+21 hp            | 5                 | 9
+| 17        | 1,320,000                    | 9+24 hp            | 5                 | 9
+| 18        | 1,450,000                    | 9+27 hp            | 5                 | 10
+| 19        | 1,580,000                    | 9+30 hp            | 5                 | 10
+| 20        | 1,710,000                    | 9+33 hp            | 5                 | 10
 
 ## <span id=Specialist> Specialist </span>
 
@@ -403,7 +403,7 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 **Armor/Shield Permitted:** Light armor, no shield
 
-**Weapons Permitted:** Any one handed weapon, ranged weapons.
+**Weapons Permitted:** Any one handed weapons, ranged weapons.
 
 **Saving Throw Bonus:** Specialists gain a +2 bonus on saving throws
 against devices, including traps and other magical devices.
@@ -470,20 +470,29 @@ would be considered Tinkering.
 
 **Specialist Advancement Table**
 
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Skill Points** |
-|-----------|---------------------------|-------------------|------------------|------------------|
-| 1         | 0                         | 1                 | 15               | 4                |
-| 2         | 1,250                     | 2                 | 14               | +2               |
-| 3         | 2,500                     | 3                 | 13               | +2               |
-| 4         | 5,000                     | 4                 | 12               | +2               |
-| 5         | 10,000                    | 5                 | 11               | +2               |
-| 6         | 25,000                    | 6                 | 10               | +2               |
-| 7         | 45,000                    | 7                 | 9                | +2               |
-| 8         | 90,000                    | 8                 | 8                | +2               |
-| 9         | 200,000                   | 9                 | 7                | +2               |
-| 10        | 310,000                   | 10                | 6                | +2               |
-| 11        | 420,000                   | 10+1              | 5                | +2               |
-| 12 - 20   | +110,000 per level        | +1 hp/level       | 5                | +2/level         |
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Skill Points** | **Weapon Proficiencies** |
+|-----------|---------------------------|-------------------|------------------|------------------|--------------------------|
+| 1         | 0                         | 1                 | 15               | 4                | 2                        |
+| 2         | 1,250                     | 2                 | 14               | 6                | 2                        |
+| 3         | 2,500                     | 3                 | 13               | 8                | 2                        |
+| 4         | 5,000                     | 4                 | 12               | 10               | 3                        |
+| 5         | 10,000                    | 5                 | 11               | 12               | 3                        |
+| 6         | 25,000                    | 6                 | 10               | 14               | 3                        |
+| 7         | 45,000                    | 7                 | 9                | 16               | 3                        |
+| 8         | 90,000                    | 8                 | 8                | 18               | 4                        |
+| 9         | 200,000                   | 9                 | 7                | 20               | 4                        |
+| 10        | 310,000                   | 10                | 6                | 22               | 4                        |
+| 11        | 420,000                   | 10+1              | 5                | 24               | 4                        |
+| 12        | 530,000                   | 10+2              | 5                | 26               | 5                        |
+| 13        | 640,000                   | 10+3              | 5                | 28               | 5                        |
+| 14        | 750,000                   | 10+4              | 5                | 30               | 5                        |
+| 15        | 860,000                   | 10+5              | 5                | 32               | 5                        |
+| 16        | 970,000                   | 10+6              | 5                | 34               | 6                        |
+| 17        | 1,080,000                 | 10+7              | 5                | 36               | 6                        |
+| 18        | 1,190,000                 | 10+8              | 5                | 38               | 6                        |
+| 19        | 1,300,000                 | 10+9              | 5                | 40               | 6                        |
+| 20        | 1,410,000                 | 10+10             | 5                | 42               | 7                        |
+
 
 **Disciplines**
 
@@ -561,28 +570,28 @@ spellbook until the Mage has successfully learned the initial set.
 
 **Law Mage Advancement Table**
 
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** |
-|-----------|---------------------------|-------------------|------------------|
-| 1         | 0                         | 1                 | 15               |
-| 2         | 1,500                     | 2                 | 14               |
-| 3         | 3,000                     | 3                 | 13               |
-| 4         | 6,000                     | 4                 | 12               |
-| 5         | 12,000                    | 5                 | 11               |
-| 6         | 25,000                    | 6                 | 10               |
-| 7         | 50,000                    | 7                 | 9                |
-| 8         | 100,000                   | 8                 | 8                |
-| 9         | 200,000                   | 9                 | 7                |
-| 10        | 300,000                   | 9+1               | 6                |
-| 11        | 400,000                   | 9+2               | 5                |
-| 12        | 500,000                   | 9+3               | 4                |
-| 13        | 600,000                   | 9+4               | 4                |
-| 14        | 700,000                   | 9+5               | 4                |
-| 15        | 800,000                   | 9+6               | 4                |
-| 16        | 900,000                   | 9+7               | 4                |
-| 17        | 1,000,000                 | 9+8               | 4                |
-| 18        | 1,100,000                 | 9+9               | 4                |
-| 19        | 1,200,000                 | 9+10              | 4                |
-| 20        | 1,300,000                 | 9+11              | 4                |
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** |
+|-----------|---------------------------|-------------------|------------------|--------------------------|
+| 1         | 0                         | 1                 | 15               | 2
+| 2         | 1,500                     | 2                 | 14               | 2
+| 3         | 3,000                     | 3                 | 13               | 2
+| 4         | 6,000                     | 4                 | 12               | 3
+| 5         | 12,000                    | 5                 | 11               | 3
+| 6         | 25,000                    | 6                 | 10               | 3
+| 7         | 50,000                    | 7                 | 9                | 3
+| 8         | 100,000                   | 8                 | 8                | 4
+| 9         | 200,000                   | 9                 | 7                | 4
+| 10        | 300,000                   | 9+1               | 6                | 4
+| 11        | 400,000                   | 9+2               | 5                | 4
+| 12        | 500,000                   | 9+3               | 4                | 5
+| 13        | 600,000                   | 9+4               | 4                | 5
+| 14        | 700,000                   | 9+5               | 4                | 5
+| 15        | 800,000                   | 9+6               | 4                | 5
+| 16        | 900,000                   | 9+7               | 4                | 6
+| 17        | 1,000,000                 | 9+8               | 4                | 6
+| 18        | 1,100,000                 | 9+9               | 4                | 6
+| 19        | 1,200,000                 | 9+10              | 4                | 6
+| 20        | 1,300,000                 | 9+11              | 4                | 7
 
 ## <span id=Chaos-Mage> Chaos Mage </span>
 
@@ -632,28 +641,28 @@ be used as many times as the Mage would like.
 
 **Chaos Mage Advancement Table**
 
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** |
-|-----------|---------------------------|-------------------|------------------|
-| 1         | 0                         | 1                 | 15               |
-| 2         | 2,500                     | 2                 | 14               |
-| 3         | 5,000                     | 3                 | 13               |
-| 4         | 10,000                    | 4                 | 12               |
-| 5         | 20,000                    | 5                 | 11               |
-| 6         | 40,000                    | 6                 | 10               |
-| 7         | 80,000                    | 7                 | 9                |
-| 8         | 150,000                   | 8                 | 8                |
-| 9         | 300,000                   | 9                 | 7                |
-| 10        | 450,000                   | 10                | 6                |
-| 11        | 600,000                   | 11                | 5                |
-| 12        | 750,000                   | 11+4              | 5                |
-| 13        | 900,000                   | 11+8              | 5                |
-| 14        | 1,050,000                 | 11+12             | 5                |
-| 15        | 1,200,000                 | 11+16             | 5                |
-| 16        | 1,350,000                 | 11+20             | 5                |
-| 17        | 1,500,000                 | 11+24             | 5                |
-| 18        | 1,650,000                 | 11+28             | 5                |
-| 19        | 1,800,000                 | 11+32             | 5                |
-| 20        | 1,950,000                 | 11+36             | 5                |
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** |
+|-----------|---------------------------|-------------------|------------------|--------------------------|
+| 1         | 0                         | 1                 | 15               | 1
+| 2         | 2,500                     | 2                 | 14               | 1
+| 3         | 5,000                     | 3                 | 13               | 1
+| 4         | 10,000                    | 4                 | 12               | 1
+| 5         | 20,000                    | 5                 | 11               | 1
+| 6         | 40,000                    | 6                 | 10               | 2
+| 7         | 80,000                    | 7                 | 9                | 2
+| 8         | 150,000                   | 8                 | 8                | 2
+| 9         | 300,000                   | 9                 | 7                | 2
+| 10        | 450,000                   | 10                | 6                | 2
+| 11        | 600,000                   | 11                | 5                | 2
+| 12        | 750,000                   | 11+4              | 5                | 3
+| 13        | 900,000                   | 11+8              | 5                | 3
+| 14        | 1,050,000                 | 11+12             | 5                | 3
+| 15        | 1,200,000                 | 11+16             | 5                | 3
+| 16        | 1,350,000                 | 11+20             | 5                | 3
+| 17        | 1,500,000                 | 11+24             | 5                | 3
+| 18        | 1,650,000                 | 11+28             | 5                | 4
+| 19        | 1,800,000                 | 11+32             | 5                | 4
+| 20        | 1,950,000                 | 11+36             | 5                | 4
 
 ## <span id=Barbarian> Barbarian </span>
 
@@ -689,28 +698,28 @@ made to resist spells and magical effects.
 
 **Barbarian Advancement Table**
 
-| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** |
-|-----------|---------------------------|--------------------|------------------|
-| 1         | 0                         | 1                  | 15               |
-| 2         | 2,000                     | 2                  | 14               |
-| 3         | 4,500                     | 3                  | 13               |
-| 4         | 9,000                     | 4                  | 12               |
-| 5         | 18,000                    | 5                  | 11               |
-| 6         | 32,000                    | 6                  | 10               |
-| 7         | 64,000                    | 7                  | 9                |
-| 8         | 120,000                   | 8                  | 8                |
-| 9         | 230,000                   | 9                  | 7                |
-| 10        | 340,000                   | 10                 | 6                |
-| 11        | 450,000                   | 11                 | 5                |
-| 12        | 560,000                   | 11+2               | 5                |
-| 13        | 670,000                   | 11+4               | 5                |
-| 14        | 780,000                   | 11+6               | 5                |
-| 15        | 890,000                   | 11+8               | 5                |
-| 16        | 1,000,000                 | 11+10              | 5                |
-| 17        | 1,110,000                 | 11+12              | 5                |
-| 18        | 1,220,000                 | 11+14              | 5                |
-| 19        | 1,330,000                 | 11+16              | 5                |
-| 20        | 1,440,000                 | 11+18              | 5                |
+| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** | **Weapon Proficiencies** |
+|-----------|---------------------------|--------------------|------------------|--------------------------|
+| 1         | 0                         | 1                  | 15               | 4
+| 2         | 2,000                     | 2                  | 14               | 4
+| 3         | 4,500                     | 3                  | 13               | 5
+| 4         | 9,000                     | 4                  | 12               | 5
+| 5         | 18,000                    | 5                  | 11               | 5
+| 6         | 32,000                    | 6                  | 10               | 6
+| 7         | 64,000                    | 7                  | 9                | 6
+| 8         | 120,000                   | 8                  | 8                | 6
+| 9         | 230,000                   | 9                  | 7                | 7
+| 10        | 340,000                   | 10                 | 6                | 7
+| 11        | 450,000                   | 11                 | 5                | 7
+| 12        | 560,000                   | 11+2               | 5                | 8
+| 13        | 670,000                   | 11+4               | 5                | 8
+| 14        | 780,000                   | 11+6               | 5                | 8
+| 15        | 890,000                   | 11+8               | 5                | 9
+| 16        | 1,000,000                 | 11+10              | 5                | 9
+| 17        | 1,110,000                 | 11+12              | 5                | 9
+| 18        | 1,220,000                 | 11+14              | 5                | 10
+| 19        | 1,330,000                 | 11+16              | 5                | 10
+| 20        | 1,440,000                 | 11+18              | 5                | 10
 
 # <span id=Languages> Languages </span>
 
@@ -780,7 +789,7 @@ fighting with a weapon in each hand gives a +1 to hit. Note that
 fighting with two weapons does not actually give two separate attacks;
 it just increases the likelihood of landing a successful blow.
 
-# <span id=Calculating-Hits> Calculating Hits per Level </span>
+## <span id=Calculating-Hits> Calculating Hits per Level </span>
 
 | **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
 |------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
@@ -798,6 +807,22 @@ it just increases the likelihood of landing a successful blow.
 
 *Includes Inquisitors
 
+## <span id=Weapons-Proficiencies> Weapon Proficiencies </span>
+
+Weapon proficiencies determine which weapons a player character can use effectively. Characters gain an initial amount of proficiency slots based on their class and can allocate these slots to different weapons. Each slot allows the character to use a specific weapon without penalties. More slots mean more weapons can be used proficiently. When a character chooses a proficiency, it is assumed that he had been studying it in his spare time and once a proficiency slot is filled, it can never be changed or reassigned. 
+
+If a character is not proficient when using a weapon, a penalty modifier is applied to the To-Hit roll. Note the table below.
+
+| **Class**  | **To-Hit Penalty** |
+|------------|--------------------|
+| Fighter*   | -2                 |
+| Specialist | -3                 | 
+| Law Mage   | -3                 | 
+| Chaos Mage | -5                 | 
+| Barbarian  | -2                 | 
+
+*Includes Inquisitors
+
 ## <span id=Weapons-vs-Armor> Weapon Types vs. Armor </span>
 
 The table below describes an approach to weapon and armor interactions. Different damage types influence the To-Hit modifier from attacks. Either positive, negative, or neutral.
@@ -805,8 +830,8 @@ The table below describes an approach to weapon and armor interactions. Differen
 | **Armor Type**  | **Slashing**  | **Piercing**  | **Bludgeoning**  |
 |-----------------|---------------|---------------|------------------|
 | Light           | +1            | +0            | -1               | 
-| Medium          | -1            | +0            | +1               |
-| Heavy           | +0            | +1            | +0               | 
+| Medium          | +0            | +1            | +0               |
+| Heavy           | -1            | +0            | +1               |
 
 # <span id=Injury-&-Death> Injury and Death </span>
 
