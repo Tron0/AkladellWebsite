@@ -669,7 +669,10 @@ be used as many times as the Mage would like.
 **Keen Instincts:** Barbarians can detect and concealed doors easier
 than others. They are able to discover secret and hidden doors on a 1-4
 on 1d6 and may even notice such a door simply by passing near it if they
-roll 1- 2 on 1d6. They cannot be surprised.
+roll 1 - 2 on 1d6.
+
+**Alertness:** A Barbarian is unlikely to be sur-
+prised, with only a 1-in-6 chance.
 
 **Savage Blows:** Barbarians gain an extra +2 to all damage rolls made
 in melee combat.
@@ -749,8 +752,7 @@ Player characters pay an amount of gold per month equal to 1% of their total XP.
 
 ## Initiative
 
-
-When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
+When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a 1d20 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
 
 ## Armor Class
 
@@ -774,11 +776,11 @@ Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantee
 Just as shields improve armor class by 1, fighting two-handed grants a
 +1 to damage rolls (except for weapons that can only be used two-handed,
 where this is already taken into account in the weapon’s damage), and
-fighting with a weapon in each hand gives a +1 to hit. (Note that
+fighting with a weapon in each hand gives a +1 to hit. Note that
 fighting with two weapons does not actually give two separate attacks;
-it just increases the likelihood of landing a successful blow.)
+it just increases the likelihood of landing a successful blow.
 
-## Calculating Hits per Level
+# <span id=Calculating-Hits> Calculating Hits per Level </span>
 
 | **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
 |------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
@@ -794,9 +796,17 @@ it just increases the likelihood of landing a successful blow.)
 | Chaos Mage | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
 | Specialist | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
 
-*Includes Inquisitors*
+*Includes Inquisitors
 
+## <span id=Weapons-vs-Armor> Weapon Types vs. Armor </span>
 
+The table below describes an approach to weapon and armor interactions. Different damage types influence the To-Hit modifier from attacks. Either positive, negative, or neutral.
+
+| **Armor Type**  | **Slashing**  | **Piercing**  | **Bludgeoning**  |
+|-----------------|---------------|---------------|------------------|
+| Light           | +1            | +0            | -1               | 
+| Medium          | -1            | +0            | +1               |
+| Heavy           | +0            | +1            | +0               | 
 
 # <span id=Injury-&-Death> Injury and Death </span>
 
@@ -806,12 +816,11 @@ is unconscious, and if their hp are brought down to -10 or lower, the
 character dies. An unconscious character bleeds continuously without aid
 from others, at a rate of 1 hp/round until death at -10.
 
-All characters regain 1 hp for each day of rest. If solely bed rested
-for the entire day and cared for, that character gains 1d3 hp per day
-instead. Additionally, being treated by a physician would add an 1d3
+All characters regain 1 hp for each day of rest. Additionally, 
+being treated by a physician would add an 1d3
 extra hp per day. Characters that have been knocked unconscious from the
 result of combat need to rest for at least five days, or until their hp
-is back to full.
+is back to full to be able to function in a fight again.
 
 # <span id=Creature-Size> Creature Size </span>
 

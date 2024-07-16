@@ -134,6 +134,6 @@ function loadAboutPage()
     
     <p>And the <b>15% that is left is a combination of a multitude of other things, including my own homebrew rules.</b></p>
     
-    <p>The game right now is 100% IRL, but sesions will be hosted online on the Discord in the future. Feel free to join for any future updates!</p>`;
+    <p>The game is both hosted IRL and online, I post announcements regarding session scheduling on discord. Feel free to join for any future updates!</p>`;
 }
 
