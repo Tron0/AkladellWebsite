@@ -62,7 +62,7 @@ function loadUpdatePost()
         - Changed Barbarian surprise to be 1 in 6 for the ENTIRE party, instead of Barbarian immunity. Barb support. 
 
         `,
-        date: "2024-07-17 16: CET" 
+        date: "2024-07-17 18:00 CET" 
     },
 
     { 
