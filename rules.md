@@ -518,7 +518,8 @@ would be considered Tinkering.
 
 **Minimum Requirement:** 9+ Mind
 
-**Prime Attribute:** Mind, 13+ (+5% experience bonus)  
+**Prime Attribute:** Mind, 13+ (+5% experience bonus)
+
 **Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level)
 
 **Armor/Shield Permitted**: Any
@@ -669,11 +670,62 @@ be used as many times as the Mage would like.
 | 19        | 1,800,000                 | 11+32             | 5                | 4
 | 20        | 1,950,000                 | 11+36             | 5                | 4
 
+## <span id=Illusionist> Illusionist </span>
+
+**Minimum Requirement:** 15+ Mind, 16+ Dex
+
+**Prime Attribute:** Mind, 16+ (+5% experience bonus)  
+
+**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
+
+**Armor/Shield Permitted**: None
+
+**Weapons Permitted:** Dagger, staff and darts
+
+| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+|----------------|---------------------|-----------------------------------------------------|--------------------------------|
+| 3 - 7          | 2                   | 2/4                                                 | 2                              |
+| 8              | 3                   | 3/5                                                 | 2                              |
+| 9              | 3                   | 3/5                                                 | 2                              |
+| 10             | 3                   | 4/6                                                 | 3                              |
+| 11             | 4                   | 4/6                                                 | 3                              |
+| 12             | 4                   | 4/6                                                 | 3                              |
+| 13             | 5                   | 5/8                                                 | 4                              |
+| 14             | 5                   | 5/8                                                 | 4                              |
+| 15             | 6                   | 6/10                                                | 4                              |
+| 16             | 6                   | 6/10                                                | 5                              |
+| 17             | 7                   | 7/All                                               | 5                              |
+| 18             | 7                   | 8/All                                               | 6                              |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn’t met when rolling
+through the list, simply repeat until it is.
+
+**Known Spells:** Illusionists initially have access to ten 1st-level
+spells and two Cantrips as well as “Read Magic”, a first level blue
+spell. Refer to the spell table above to identify how many of the ten
+spells are already inscribed and comprehended in the spellbook. Any
+remaining spells out of the initial ten, which are not yet understood,
+are not added to the spellbook until the Mage has successfully learned
+the initial set.
+
+**Saving Throw Bonus:** Illusionists receive a +2 bonus to resist all
+mind-influencing or illusionary magical effects and spells, like Charm
+Person, Confusion, or Phantasmal Force. This includes when these effects
+originate from a magic item or a monster’s special abilities
+
+**Cantrips:** Small magic tricks or simple utility spells that can be
+cast without spending mana. These spells are often instantaneous and can
+be used as many times as the Mage would like.
+
+
+
 ## <span id=Barbarian> Barbarian </span>
 
 **Minimum Requirement:** 9+ Con
 
 **Prime Attribute:** Con, 13+ (+5% experience bonus)  
+
 **Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level)
 
 **Armor/Shield Permitted**: Light armor, medium armor, shield
