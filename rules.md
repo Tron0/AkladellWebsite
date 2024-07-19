@@ -718,7 +718,30 @@ originate from a magic item or a monster’s special abilities
 cast without spending mana. These spells are often instantaneous and can
 be used as many times as the Mage would like.
 
+**Chaos Mage Advancement Table**
 
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** |
+|-----------|---------------------------|-------------------|------------------|--------------------------|
+| 1         | 0                         | 1                 | 15               | 1
+| 2         | 2,500                     | 2                 | 14               | 1
+| 3         | 5,000                     | 3                 | 13               | 1
+| 4         | 10,000                    | 4                 | 12               | 1
+| 5         | 20,000                    | 5                 | 11               | 1
+| 6         | 40,000                    | 6                 | 10               | 2
+| 7         | 80,000                    | 7                 | 9                | 2
+| 8         | 150,000                   | 8                 | 8                | 2
+| 9         | 300,000                   | 9                 | 7                | 2
+| 10        | 450,000                   | 10                | 6                | 2
+| 11        | 600,000                   | 11                | 5                | 2
+| 12        | 750,000                   | 11+4              | 5                | 3
+| 13        | 900,000                   | 11+8              | 5                | 3
+| 14        | 1,050,000                 | 11+12             | 5                | 3
+| 15        | 1,200,000                 | 11+16             | 5                | 3
+| 16        | 1,350,000                 | 11+20             | 5                | 3
+| 17        | 1,500,000                 | 11+24             | 5                | 3
+| 18        | 1,650,000                 | 11+28             | 5                | 4
+| 19        | 1,800,000                 | 11+32             | 5                | 4
+| 20        | 1,950,000                 | 11+36             | 5                | 4
 
 ## <span id=Barbarian> Barbarian </span>
 
