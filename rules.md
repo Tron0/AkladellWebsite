@@ -83,6 +83,8 @@ The effects of aging below indicate the total amount of ability score changes gi
 | **Old**         |     -1       |     -2        |       -1         |    +2    |
 | **Venerable**   |     -2       |     -3        |       -2         |    +2    |
 
+## Age by Race
+
 | **Race**  | **Young Adult** | **Mature** | **Middle Aged** | **Old**   | **Venerable** |
 |-----------|-----------------|------------|-----------------|-----------|---------------|
 | Human     | 15 - 20         | 21 - 40    | 41 - 60         | 61 - 90   | 91 - 120      |
@@ -1493,7 +1495,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Waterskin  | 1 GP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | ☐ |  
 |Ration  | 2 GP | A packaged meal providing the necessary sustenance for an adventurer for one day. | 1 | ☑ | 
 |Rope, hemp (50 feet) | 2 GP | Standard hemp rope. | 2 | ☐ |  
-|Rope, silk (50 feet) | 2 GP | Silk rope, lighter than hemp but just as sturdy. | 1 | ☐ |  
+|Rope, silk (50 feet) | 10 GP | Silk rope, lighter than hemp but just as sturdy. | 1 | ☐ |  
 
 ## <span id=Armor> Armor </span>
 
@@ -1549,7 +1551,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Silver Dagger    | S        | 1d4        | 14 GP    | A dagger with a silver blade.                                        | 1          | ☑            | Piercing |
 
 **Swords**
-
+rope
 | **Weapon** | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** |
 |------------|----------|------------|----------|-----------------|------------|----------|
 | Shortsword / Cutlass | S | 1d6   | 6 GP    | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing |

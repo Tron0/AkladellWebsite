@@ -21,6 +21,7 @@
                     <a href="#Updates">Updates</a>
                     <a href="#About">About</a>
                     <a href="#Discord" id="discordlink">Discord</a>
+                    <a href="#Hall-of-the-Dead">Hall of the Dead</a>
                     </div>
                 </div>
             </nav>
@@ -181,19 +182,19 @@ document.querySelectorAll('a').forEach((link) => {
     });
 });
 
-function loadDeadPage() {
-  fetch('./deadcharacters.md')
+window.loadDeadPage = function(hash)
+    {
+    fetch('./deadcharacters.md')
     .then(response => response.text())
-    .then(markdown => {
-
-      // Parse markdown into HTML
-      var html = marked(markdown);
-
-      // Inject into page
-      document.getElementById('content')
-        .innerHTML = '<div>' + html + '</div>';
+    .then(data => {
+        const htmlContent = marked.parse(data);
+        document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
+        if (hash) 
+        {
+        scrollToHash(hash);
+        }
     });
-}
+    }
 
 
 </script>

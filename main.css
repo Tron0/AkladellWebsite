@@ -114,14 +114,31 @@ strong, b {
     font-weight: bold;
   }
 
-table  
-{
-width: 100%;
+
+/* Dead Content */
+.dead-content table {
+    width: 100%;
+    table-layout: fixed;
 }
 
-th, td 
-{
-padding: 5px;
+.dead-content th, .dead-content td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) {
+    background-color: #222;
+}
+
+/* Common Table Styles */
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
 }
 
 @media (max-width: 768px) {
