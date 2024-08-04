@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Akladell</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akladell</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 <body>
     <div class="buttons-wrapper">
         <div class="buttons-desktop">
@@ -27,12 +26,12 @@
             <nav>
                 <div class="nav-items">
                     <div id="nav">
-                    <a href="#Home">Home</a>
-                    <a href="#Rules">Rules Index</a>
-                    <a href="#Updates">Updates</a>
-                    <a href="#About">About</a>
-                    <a href="#Discord" id="discordlink">Discord</a>
-                    <a href="#Hall-of-the-Dead">Hall of the Dead</a>
+                        <a href="#Home">Home</a>
+                        <a href="#Rules">Rules Index</a>
+                        <a href="#Updates">Updates</a>
+                        <a href="#About">About</a>
+                        <a href="#Discord" id="discordlink">Discord</a>
+                        <a href="#Hall-of-the-Dead">Hall of the Dead</a>
                     </div>
                 </div>
             </nav>
@@ -109,49 +108,50 @@
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
-    
-
-    function handleTocClick(e) 
-    {
+    function handleTocClick(e) {
     e.preventDefault();
     const hash = this.getAttribute('href');
-    window.location.hash = hash; // Update URL hash
-    window.loadRulesPage(hash);
+    if (window.innerWidth <= 1300) { // Check if it's mobile view
+        toggleToc(); // Close the ToC panel immediately
+        setTimeout(() => {
+            window.location.hash = hash; // Update URL hash after a short delay
+            loadRulesPage(hash);
+        }, 300); // Slight delay to ensure ToC has closed
+    } else {
+        window.location.hash = hash;
+        loadRulesPage(hash);
     }
+}
 
-    const tocLinks = document.querySelectorAll('#toc-panel a');
-    tocLinks.forEach(link => {
+const tocLinks = document.querySelectorAll('#toc-panel a');
+tocLinks.forEach(link => {
     link.addEventListener('click', handleTocClick);
-    });
+});
 
-    window.loadRulesPage = function(hash)
-    {
+window.loadRulesPage = function(hash) {
     fetch('./rules.md')
-    .then(response => response.text())
-    .then(data => {
-        const htmlContent = marked.parse(data);
-        document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-        if (hash) 
-        {
-        scrollToHash(hash);
-        }
-    });
-    }
+        .then(response => response.text())
+        .then(data => {
+            const htmlContent = marked.parse(data);
+            document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
+            if (hash) {
+                scrollToHash(hash);
+            }
+        });
+}
 
-    function scrollToHash(hash) 
-    {
+function scrollToHash(hash) {
     hash = String(hash).replace('#', ''); // Convert hash to string first
     const el = document.getElementById(hash);
     if (el) {
         el.scrollIntoView();
     }
-    }
+}
 
-    function toggleToc() {
+function toggleToc() {
     const tocPanel = document.getElementById('toc-panel');
     tocPanel.classList.toggle('visible');
-    }
-
+}
 
     document.addEventListener("DOMContentLoaded", function() {
         const toTopButton = document.getElementById('toTopButton');
@@ -168,14 +168,6 @@
         toTopMobileButton.addEventListener('click', scrollToTop);
         toggleTocMobileButton.addEventListener('click', toggleToc);
 
-        tocLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            if (window.innerWidth <= 1200) { // Check if it's mobile view
-                toggleToc(); // Close the ToC panel
-            }
-        });
-    });
-
         window.addEventListener('scroll', function() {
             if (window.scrollY > 300) {
                 toTopButton.style.display = 'block';
@@ -183,92 +175,64 @@
             } else {
                 toTopButton.style.display = 'none';
                 toTopMobileButton.style.display = 'none'; // Ensure mobile button is hidden
+            }
+        });
 
+        window.onhashchange = function() {
+            var hash = window.location.hash.substring(1);
+            if (hash === 'Home') {
+                loadHomePage();
+            } else if (hash === 'Updates') {
+                loadUpdatePost();
+            } else if (hash === 'About') {
+                loadAboutPage();
+            } else if (hash === 'Discord') {
+                // Discord handling
+            } else if (hash === 'Hall-of-the-Dead') {
+                loadDeadPage();
+            } else {
+                window.loadRulesPage(hash);
+            }
+        };
 
+        if (!window.location.hash) {
+            window.location.hash = "#Home";
         }
+
+        window.addEventListener('hashchange', scrollToHash);
+        // Trigger first hashchange check after all setup has been done.
+        window.dispatchEvent(new Event('hashchange'));
     });
 
-    window.onhashchange = function() 
-    {
-    var hash = window.location.hash.substring(1);
-    if(hash === 'Home') 
-    {
-        loadHomePage();
-    } 
-    else if(hash === 'Updates') 
-    {
-        loadUpdatePost();
-    } 
-    else if(hash === 'About') 
-    {
-        loadAboutPage();
-    }
-    else if(hash === 'Discord') 
-    {
-
-    } 
-    else if(hash === 'Hall-of-the-Dead') 
-    {
-        loadDeadPage();
-    } 
-    else 
-    {
-        window.loadRulesPage();
-    }
-};
-
-if (!window.location.hash) 
-    {
-     window.location.hash = "#Home";
-    }
-
-window.addEventListener('hashchange', scrollToHash);
-    // Trigger first hashchange check after all setup has been done.
-    window.dispatchEvent(new Event('hashchange'));
-});
-
-document.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', (event) => {
-        event.target.style.color = '#2b4fff'; // Color shift when clicked
-        setTimeout(() => {
-            event.target.style.color = 'lightseagreen'; // Revert back after 2 seconds
-        }, 2000);
+    document.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', (event) => {
+            event.target.style.color = '#2b4fff'; // Color shift when clicked
+            setTimeout(() => {
+                event.target.style.color = 'lightseagreen'; // Revert back after 2 seconds
+            }, 2000);
+        });
     });
-});
 
-window.loadDeadPage = function(hash)
-    {
-    fetch('./deadcharacters.md')
-    .then(response => response.text())
-    .then(data => {
-        const htmlContent = marked.parse(data);
-        document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
-        if (hash) 
-        {
-        scrollToHash(hash);
-        }
-    });
+    window.loadDeadPage = function(hash) {
+        fetch('./deadcharacters.md')
+        .then(response => response.text())
+        .then(data => {
+            const htmlContent = marked.parse(data);
+            document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
+            if (hash) {
+                scrollToHash(hash);
+            }
+        });
     }
 
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-}
-
-
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 </script>
-
-    <script src='app.js'></script>
 
     <noscript>You need to enable JavaScript to view the full site.</noscript>
-
-<script>
-
-</script>
-        
-
-
 </body>
 </html>
