@@ -107,124 +107,91 @@
 
 
 <script type="module">
-    import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
-    
-
-    function handleTocClick(e) 
-    {
+function handleTocClick(e) {
     e.preventDefault();
     const hash = this.getAttribute('href');
+    updateHashAndLoadContent(hash);
+}
+
+function updateHashAndLoadContent(hash) {
     window.location.hash = hash; // Update URL hash
-    window.loadRulesPage(hash);
+    loadContent(hash); // Load content based on hash
+}
+
+function loadContent(hash) {
+    // Handle specific pages
+    if (hash === '#Home') {
+        loadHomePage();
+    } else if (hash === '#Updates') {
+        loadUpdatePost();
+    } else if (hash === '#About') {
+        loadAboutPage();
+    } else if (hash === '#Hall-of-the-Dead') {
+        loadDeadPage();
+    } else {
+        fetch('./rules.md')
+            .then(response => response.text())
+            .then(data => {
+                const htmlContent = marked.parse(data);
+                document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
+                scrollToHash(hash); // Scroll to the specific hash
+            });
     }
+}
 
-    const tocLinks = document.querySelectorAll('#toc-panel a');
-    tocLinks.forEach(link => {
-    link.addEventListener('click', handleTocClick);
-    });
-
-    window.loadRulesPage = function(hash)
-    {
-    fetch('./rules.md')
-    .then(response => response.text())
-    .then(data => {
-        const htmlContent = marked.parse(data);
-        document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-        if (hash) 
-        {
-        scrollToHash(hash);
-        }
-    });
-    }
-
-    function scrollToHash(hash) 
-    {
-    hash = String(hash).replace('#', ''); // Convert hash to string first
+function scrollToHash(hash) {
+    hash = hash.replace('#', ''); // Convert hash to ID
     const el = document.getElementById(hash);
     if (el) {
         el.scrollIntoView();
     }
-    }
+}
 
-    function toggleToc() {
+function toggleToc() {
     const tocPanel = document.getElementById('toc-panel');
     tocPanel.classList.toggle('visible');
-    }
+}
 
-
-    document.addEventListener("DOMContentLoaded", function() {
-        const toTopButton = document.getElementById('toTopButton');
-        const toTopMobileButton = document.getElementById('toTopMobileButton');
-        const toggleTocButton = document.getElementById('toggleTocButton');
-        const toggleTocMobileButton = document.getElementById('toggleTocMobileButton'); // Added mobile button reference
-
-        toTopButton.style.display = 'none';
-        toTopMobileButton.style.display = 'none';
-
-        // Add event listeners
-        toTopButton.addEventListener('click', scrollToTop);
-        toggleTocButton.addEventListener('click', toggleToc);
-        toTopMobileButton.addEventListener('click', scrollToTop);
-        toggleTocMobileButton.addEventListener('click', toggleToc);
-
-        tocLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            if (window.innerWidth <= 1200) { // Check if it's mobile view
-                toggleToc(); // Close the ToC panel
-            }
-        });
+document.addEventListener("DOMContentLoaded", function() {
+    const tocLinks = document.querySelectorAll('#toc-panel a');
+    tocLinks.forEach(link => {
+        link.addEventListener('click', handleTocClick);
     });
 
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 300) {
-                toTopButton.style.display = 'block';
-                toTopMobileButton.style.display = 'block'; // Ensure mobile button is visible
-            } else {
-                toTopButton.style.display = 'none';
-                toTopMobileButton.style.display = 'none'; // Ensure mobile button is hidden
+    const toTopButton = document.getElementById('toTopButton');
+    const toTopMobileButton = document.getElementById('toTopMobileButton');
+    const toggleTocButton = document.getElementById('toggleTocButton');
+    const toggleTocMobileButton = document.getElementById('toggleTocMobileButton');
 
+    toTopButton.style.display = 'none';
+    toTopMobileButton.style.display = 'none';
 
+    toTopButton.addEventListener('click', scrollToTop);
+    toggleTocButton.addEventListener('click', toggleToc);
+    toTopMobileButton.addEventListener('click', scrollToTop);
+    toggleTocMobileButton.addEventListener('click', toggleToc);
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            toTopButton.style.display = 'block';
+            toTopMobileButton.style.display = 'block';
+        } else {
+            toTopButton.style.display = 'none';
+            toTopMobileButton.style.display = 'none';
         }
     });
 
-    window.onhashchange = function() 
-    {
-    var hash = window.location.hash.substring(1);
-    if(hash === 'Home') 
-    {
-        loadHomePage();
-    } 
-    else if(hash === 'Updates') 
-    {
-        loadUpdatePost();
-    } 
-    else if(hash === 'About') 
-    {
-        loadAboutPage();
-    }
-    else if(hash === 'Discord') 
-    {
+    window.addEventListener('hashchange', function() {
+        loadContent(window.location.hash);
+    });
 
-    } 
-    else if(hash === 'Hall-of-the-Dead') 
-    {
-        loadDeadPage();
-    } 
-    else 
-    {
-        window.loadRulesPage();
+    if (window.location.hash) {
+        window.dispatchEvent(new Event('hashchange'));
+    } else {
+        window.location.hash = "#Home";
     }
-};
-
-if (!window.location.hash) 
-    {
-     window.location.hash = "#Home";
-    }
-
-window.addEventListener('hashchange', scrollToHash);
-    // Trigger first hashchange check after all setup has been done.
-    window.dispatchEvent(new Event('hashchange'));
 });
 
 document.querySelectorAll('a').forEach((link) => {
@@ -236,19 +203,14 @@ document.querySelectorAll('a').forEach((link) => {
     });
 });
 
-window.loadDeadPage = function(hash)
-    {
+window.loadDeadPage = function() {
     fetch('./deadcharacters.md')
-    .then(response => response.text())
-    .then(data => {
-        const htmlContent = marked.parse(data);
-        document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
-        if (hash) 
-        {
-        scrollToHash(hash);
-        }
-    });
-    }
+        .then(response => response.text())
+        .then(data => {
+            const htmlContent = marked.parse(data);
+            document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
+        });
+}
 
 function scrollToTop() {
     window.scrollTo({
@@ -256,6 +218,7 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
+
 
 
 </script>
