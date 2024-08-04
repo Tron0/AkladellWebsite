@@ -196,7 +196,7 @@ th, td {
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     body {
         flex-direction: column;
         align-items: center;
@@ -207,8 +207,9 @@ th, td {
     }
 
     #toc-panel {
-        width: 60vw; /* Adjust width for mobile view */
-        padding: 2vw; /* Adjust padding for mobile view */
+        width: 60vw; /* Width relative to viewport width */
+        max-width: 400px; /* Maximum width to ensure readability */
+        padding: 2vw; /* Padding relative to viewport width */
     }
 
     .centered-container {
@@ -225,5 +226,15 @@ th, td {
         position: fixed;
         right: 2vw;
         bottom: 2vw;
+    }
+
+    #toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
+        width: 10vw; /* Width relative to viewport width */
+        height: 10vw; /* Height relative to viewport width */
+        min-width: 40px; /* Minimum width to ensure readability */
+        min-height: 40px; /* Minimum height to ensure readability */
+        font-size: 2vw; /* Font size relative to viewport width */
+        max-width: 40px; /* Maximum width to prevent excessive scaling */
+        max-height: 40px; /* Maximum height to prevent excessive scaling */
     }
 }
