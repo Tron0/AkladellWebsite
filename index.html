@@ -160,12 +160,21 @@
         const toggleTocMobileButton = document.getElementById('toggleTocMobileButton'); // Added mobile button reference
 
         toTopButton.style.display = 'none';
+        toTopMobileButton.style.display = 'none';
 
         // Add event listeners
         toTopButton.addEventListener('click', scrollToTop);
         toggleTocButton.addEventListener('click', toggleToc);
         toTopMobileButton.addEventListener('click', scrollToTop);
         toggleTocMobileButton.addEventListener('click', toggleToc);
+
+        tocLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 1200) { // Check if it's mobile view
+                toggleToc(); // Close the ToC panel
+            }
+        });
+    });
 
         window.addEventListener('scroll', function() {
             if (window.scrollY > 300) {

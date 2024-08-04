@@ -207,10 +207,8 @@ th, td {
     }
 
     #toc-panel {
-        width: 50%;
-        max-width: 50%;
-        align-items: center;
-        padding: 10px;
+        width: 60vw; /* Adjust width for mobile view */
+        padding: 2vw; /* Adjust padding for mobile view */
     }
 
     .centered-container {
@@ -225,7 +223,7 @@ th, td {
     .buttons-mobile {
         display: block;
         position: fixed;
-        right: 20px;
-        bottom: 20px;
+        right: 2vw;
+        bottom: 2vw;
     }
 }
