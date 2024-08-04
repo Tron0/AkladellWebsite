@@ -41,7 +41,7 @@ function loadUpdatePost()
 
     { 
         title: 'Illusionist',
-        content: `The Illusionist class, including spells from the new S&W supplement as well as the "declaration" combat system is now added to the website. I might use the segment system from AD&D as well in the future. But this will do for now.
+        content: `The Illusionist class, including spells from the new S&W supplement as well as the "declaration" part of the combat system is now added to the website. I might use the segment system from AD&D as well in the future. But this will do for now.
         
         I also added a few QoL improvements on the website for both desktop and mobile. This also includes a page in remembrance of our fallen adventurers "Hall of the Dead". 
 
