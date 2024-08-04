@@ -8,9 +8,17 @@
 
     </head>
 <body>
-    <button id="toTopButton" onclick="scrollToTop()">↑</button>
-    <button id="toggleTocButton" onclick="toggleToc()">☰</button>
-
+    <div class="buttons-wrapper">
+        <div class="buttons-desktop">
+            <button id="toTopButton" onclick="scrollToTop()">↑</button>
+            <button id="toggleTocButton" onclick="toggleToc()">☰</button>
+        </div>
+        <div class="buttons-mobile">
+            <button id="toTopMobileButton" onclick="scrollToTop()">↑</button>
+            <button id="toggleTocMobileButton" onclick="toggleToc()">☰</button>
+        </div>
+    </div>
+    
     <div class="centered-container">
         <header>
             <h1>Akladell</h1>
@@ -145,18 +153,29 @@
     }
 
 
-    document.addEventListener("DOMContentLoaded", function()
-    {
-    const toTopButton = document.getElementById('toTopButton');
-    const toggleTocButton = document.getElementById('toggleTocButton');
-    toggleTocButton.addEventListener('click', toggleToc);
-    const tocPanel = document.getElementById('toc-panel');
+    document.addEventListener("DOMContentLoaded", function() {
+        const toTopButton = document.getElementById('toTopButton');
+        const toTopMobileButton = document.getElementById('toTopMobileButton');
+        const toggleTocButton = document.getElementById('toggleTocButton');
+        const toggleTocMobileButton = document.getElementById('toggleTocMobileButton'); // Added mobile button reference
 
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 300) {
-            toTopButton.style.display = 'block';
-        } else {
-            toTopButton.style.display = 'none';
+        toTopButton.style.display = 'none';
+
+        // Add event listeners
+        toTopButton.addEventListener('click', scrollToTop);
+        toggleTocButton.addEventListener('click', toggleToc);
+        toTopMobileButton.addEventListener('click', scrollToTop);
+        toggleTocMobileButton.addEventListener('click', toggleToc);
+
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                toTopButton.style.display = 'block';
+                toTopMobileButton.style.display = 'block'; // Ensure mobile button is visible
+            } else {
+                toTopButton.style.display = 'none';
+                toTopMobileButton.style.display = 'none'; // Ensure mobile button is hidden
+
+
         }
     });
 
@@ -222,6 +241,13 @@ window.loadDeadPage = function(hash)
     });
     }
 
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}
+
 
 </script>
 
@@ -230,13 +256,8 @@ window.loadDeadPage = function(hash)
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 
 <script>
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-    </script>
+
+</script>
         
 
 
