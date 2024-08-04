@@ -16,15 +16,6 @@ body
     margin: 0 auto;
 }
 
-#toc-panel {
-    position: fixed;
-    top: 0;
-    left: 0px;
-    width: 280px;
-    padding: 20px;
-    overflow-y: auto;
-  }
-
 header, nav
 {
     text-align:center;
@@ -103,45 +94,123 @@ ul
     margin-top: 0;
 }
 
-footer {
+footer 
+{
     margin-top: auto;
     padding: 10px;
     text-align: center;
 }
 
-strong, b {
+strong, b 
+{
     color: #ff5050;
     font-weight: bold;
-  }
+}
 
 
 /* Dead Content */
-.dead-content table {
+.dead-content table 
+{
     width: 100%;
     table-layout: fixed;
 }
 
-.dead-content th, .dead-content td {
+.dead-content th, .dead-content td 
+{
     padding: 8px;
     border: 1px solid #ccc;
     text-align: center;
     vertical-align: middle;
 }
 
-.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) {
+.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) 
+{
     background-color: #222;
 }
 
 /* Common Table Styles */
-table {
+table 
+{
     width: 100%;
+}
+
+th 
+{
+    text-align: center; /* Center align the content of header cells */
 }
 
 th, td {
     padding: 8px;
 }
 
-@media (max-width: 768px) {
+#toTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it is above other elements */
+    padding: 10p x 10px;
+    font-size: 20px; /* Increased font size for the arrow symbol */
+    background-color: white; /* White background */
+    color: black; /* black arrow */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px; /* Narrower button */
+    height: 40px; /* Equal height to make it circular */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toTopButton:hover {
+    background-color: black; /* Black background on hover */
+    color: white; /* White arrow on hover */
+}
+
+#toggleTocButton {
+    position: fixed;
+    top: 20px;
+    left: 200px;
+    z-index: 1001; /* Above other elements */
+    padding: 10px x 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40px; /* Narrower button */
+    height: 40px; /* Equal height to make it circular */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#toggleTocButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#toc-panel {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Initially hide the ToC panel */
+    width: 280px;
+    height: 100vh; /* Full viewport height */
+    max-height: 100vh; /* Ensure it doesn't exceed viewport height */
+    padding: 10px;
+    overflow-y: auto;
+    transition: left 0.3s; /* Smooth transition for sliding in and out */
+    background-color: black; /* ToC panel background */
+    color: white; /* ToC panel text color */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+#toc-panel.visible {
+    left: 0; /* Slide in the ToC panel when visible */
+}
+
+@media (max-width: 1200px) 
+{
     body {
         flex-direction: column;
         align-items: center;
@@ -151,11 +220,11 @@ th, td {
     }
 
     #toc-panel {
-        position: relative;
-        width: 80%;
-        max-width: 300px;
-        margin: 20px auto!important; 
-     }
+        width: 50%;
+        max-width: 50%;
+        align-items: center;
+        padding: 10px;
+    }
 
     .centered-container 
     {

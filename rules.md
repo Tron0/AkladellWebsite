@@ -310,10 +310,10 @@ when taking an attack action instead of once.
 
 ## <span id=Inquisitor> Inquisitor </span>
 
-**Minimum Requirement:** 12+ Strength, +9 Constitution, +13 Mind, +17
+**Minimum Requirement:** 13+ Strength, +9 Constitution, +13 Mind, +17
 Charisma
 
-**Prime Attribute:** Strength, 13+ (+5% experience bonus)
+**Prime Attribute:** Strength, 16+ (+5% experience bonus)
 
 **Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level)
 
@@ -528,6 +528,8 @@ would be considered Tinkering.
 
 **Weapons Permitted:** Any one handed weapon, no ranged weapons
 
+**Alignment:** Law Mages are of Lawful alignment.
+
 | **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
 |----------------|---------------------|-----------------------------------------------------|
 | 3 - 7          | 2                   | 2/4                                                 |
@@ -612,6 +614,8 @@ spellbook until the Mage has successfully learned the initial set.
 
 **Weapons Permitted:** Dagger, staff and darts
 
+**Alignment:** Chaos Mages are of Chaotic alignment.
+
 | **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
 | 3 - 7          | 4                   | 2/4                                                 | 2                              |
@@ -674,7 +678,7 @@ be used as many times as the Mage would like.
 
 ## <span id=Illusionist> Illusionist </span>
 
-**Minimum Requirement:** 15+ Mind, 16+ Dex
+**Minimum Requirement:** 13+ Mind, 16+ Dex
 
 **Prime Attribute:** Mind, 16+ (+5% experience bonus)  
 
@@ -683,6 +687,8 @@ be used as many times as the Mage would like.
 **Armor/Shield Permitted**: None
 
 **Weapons Permitted:** Dagger, staff and darts
+
+**Alignment:** Illusionists are of Chaotic alignment.
 
 | **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
@@ -711,10 +717,13 @@ remaining spells out of the initial ten, which are not yet understood,
 are not added to the spellbook until the Mage has successfully learned
 the initial set.
 
-**Saving Throw Bonus:** Illusionists receive a +2 bonus to resist all
+**Saving Throw Bonus:** Illusionists receive a +1 bonus to resist all
 mind-influencing or illusionary magical effects and spells, like Charm
 Person, Confusion, or Phantasmal Force. This includes when these effects
-originate from a magic item or a monster’s special abilities
+originate from a magic item or a monster’s special abilities. 
+
+Illusionists gain a bonus of +2 on all saving throw rolls against spells, 
+including spells from magic wands and staffs.
 
 **Cantrips:** Small magic tricks or simple utility spells that can be
 cast without spending mana. These spells are often instantaneous and can
@@ -840,9 +849,23 @@ Player characters pay an amount of gold per month equal to 1% of their total XP.
 
 # <span id=Combat> Combat </span>
 
+## Order of Combat
+
+1. Determine Surprise (d6)
+2. Declare Spells and General Actions
+3. Determine Initiative (d6)
+4. Winning side acts:
+  - Monster morale
+  - Begin spell casting
+  - Movement
+  - Missile attacks
+  - Melee attacks
+5. Other sides act: In initiative order.
+6. Spells with casting time of 1 round are cast.
+
 ## Initiative
 
-When combat begins, each group (the player characters and the Dungeon Master's adversaries) will determine their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a 1d20 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, reroll until a clear order is established.
+At the beginning of each round, all groups (the player characters and the Dungeon Master's adversaries) will declare their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a 1d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, combat takes place simultaneously. When both groups have completed their actions, Initiative is rerolled.
 
 ## Armor Class
 
@@ -864,7 +887,8 @@ Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantee
 ## <span id=Leaving-Melee> Leaving Melee </span>
 
 Where two or more creatures are engaged in a melee, either may break off from the engagement during their turn. The creature leaving the melee has two choices:
-- Retreating: You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply). 
+- Retreating: You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
+
 - Fighting Withdrawal: A Fighting Withdrawal may be used in combat if the defender wants to backup slowly. Movement backwards is limited to ½ the normal movement per round (or less).
 
 ## Two-Weapon Fighting and Two-Handed Weapons
@@ -890,12 +914,12 @@ The same man, armed with a heavy crossbow (one shot every other round) would be 
 | Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
 | Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
 
-| **Class**  | Level 10 | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
-|------------|----------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +5       | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
-| Fighter\*  | +7       | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
-| Chaos Mage | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
-| Specialist | +4       | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+| **Class**  | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
+|------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
+| Law Mage   | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
+| Fighter\*  | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
+| Chaos Mage | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+| Specialist | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
 
 *Includes Inquisitors
 
@@ -914,16 +938,6 @@ If a character is not proficient when using a weapon, a penalty modifier is appl
 | Barbarian  | -2                 | 
 
 *Includes Inquisitors
-
-## <span id=Weapons-vs-Armor> Weapon Types vs. Armor </span>
-
-The table below describes an approach to weapon and armor interactions. Different damage types influence the To-Hit modifier from attacks. Either positive, negative, or neutral.
-
-| **Armor Type**  | **Slashing**  | **Piercing**  | **Bludgeoning**  |
-|-----------------|---------------|---------------|------------------|
-| Light           | +1            | +0            | -1               | 
-| Medium          | +0            | +1            | +0               |
-| Heavy           | -1            | +0            | +1               |
 
 # <span id=Injury-&-Death> Injury and Death </span>
 
@@ -1551,7 +1565,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Silver Dagger    | S        | 1d4        | 14 GP    | A dagger with a silver blade.                                        | 1          | ☑            | Piercing |
 
 **Swords**
-rope
+
 | **Weapon** | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** |
 |------------|----------|------------|----------|-----------------|------------|----------|
 | Shortsword / Cutlass | S | 1d6   | 6 GP    | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing |
@@ -1629,8 +1643,6 @@ rope
 
 # <span id=Spells> Spells </span>
 
-## Chaos Mage Spells
-
 ## Cantrips
 
 |**Number**| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
@@ -1640,6 +1652,8 @@ rope
 |    3     |                    | Color        |                           |             | Dry / Damp    |
 |    4     |                    | Tweak        |                           |             |               |
 |    5     |                    | Change       |                           |             |               |
+
+## <span id=Chaos-Mage-Spells> Chaos Mage Spells </span>
 
 ### Level 1 Spells
 
@@ -1656,7 +1670,19 @@ rope
 |    9     |                      | Ventriloquism  |                |                  |                |
 |    10    |                      | Wizard Mark    |                |                  |                |
 
-## Law Mage Spells
+## <span id=Illusionist-Spells> Illusionist Spells </span>
+
+### Level 1 Spells
+
+|**Number**| **White (W)**        | **Blue (U)**        | **Black (B)**  | **Red (R)**      | **Green (G)**    |
+|----------|----------------------|---------------------|----------------|------------------|------------------|
+|    1     | Alarm                | Audible Glamour     | Cause Fear     | Wall of Fog      |                  |
+|    2     | Color Spray          | Change Self         | Hypnotism      |                  |                  |
+|    3     | Dancing Lights       | Detect Illusion     |                |                  |                  |
+|    4     | Gaze Reflection      | Detect Invisibility |                |                  |                  |
+|    5     | Light / Darkness (B) | Phantasmal Force    |                |                  |                  |
+
+## <span id=Law-Mage-Spells> Law Mage Spells </span>
 
 ### Level 1 Spells
 
@@ -1931,7 +1957,7 @@ material within damp to the touch.
 
 **Casting Time:** 1 round
 
-**AoE:** 20'
+**AoE:** 20' square
 
 Allows the caster to set a protective alarm, as follows:
 
@@ -1942,24 +1968,6 @@ Allows the caster to set a protective alarm, as follows:
   correct password triggers a loud alarm, audible within 60 feet.
 
 - **Dismissal:** The caster can silence the alarm at any moment.
-
-## Armor (W)
-
-**Range:** Touch
-
-**Duration:** Special
-
-**Casting Time:** 1 round
-
-Provides a protective magical armor:
-
-- **Defense**: Acts as if the recipient is wearing scale mail (AC 14).
-
-- **Cumulative Effects:** Works in tandem with Dexterity and other
-  bonuses, excluding the shield spell.
-
-- **Durability:** Lasts until the wearer accumulates damage beyond 8
-  points + 1 per caster level.
 
 ## Animal Friendship (G)
 
@@ -1981,6 +1989,42 @@ Provides a protective magical armor:
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
+## Armor (W)
+
+**Range:** Touch
+
+**Duration:** Special
+
+**Casting Time:** 1 round
+
+Provides a protective magical armor:
+
+- **Defense**: Acts as if the recipient is wearing scale mail (AC 14).
+
+- **Cumulative Effects:** Works in tandem with Dexterity and other
+  bonuses, excluding the shield spell.
+
+- **Durability:** Lasts until the wearer accumulates damage beyond 8
+  points + 1 per caster level.
+
+## Audible Glamer (U)
+
+**Range:** 60'
+
+**Duration:** 2 rounds/level
+
+**Casting Time:** 1 round
+
+Creates an illusionary sound that can deceive others:
+
+- **Sound Creation:** Causes a volume of sound to arise at any desired distance within range and can make it seem to recede, approach, or remain fixed. Can create any type of sound such as talking, singing, shouting, walking, marching, or running.
+    
+- **Volume:** At 1st level, the sound volume is equivalent to four men or less. Each additional level of the caster  grants them an ability to create a maximum sound of four more men. Examples: A horde of rats (8 men), a roaring lion (16 men), a roaring dragon (24 men).
+    
+- **Disbelief:** If a character suspects the sound is an illusion, they can attempt a saving throw. A successful save results in hearing a faint, obviously false sound from the caster's direction.
+
+- **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
+
 ## Bless (W) / Curse (B)
 
 **Range:** 60’
@@ -1989,9 +2033,11 @@ Provides a protective magical armor:
 
 **Casting Time:** 1 round
 
+**AoE:** 20' square
+
 May be used in one of two situations:
 
-- **Battle:** Allies within a 20’ square area who are not yet in melee
+- **Battle:** Allies within a 20' square area who are not yet in melee
   gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
 
 - **Ritual:** Casting bless may also form part of rituals of
@@ -2000,7 +2046,7 @@ May be used in one of two situations:
 ### Reversed: Curse
 
 Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
-an enemy. A save versus spells is allowed to resist the blight.
+enemies instead. A save versus spells is allowed to resist the blight.
 
 ## Burning Hands (R)
 
@@ -2072,11 +2118,10 @@ Inflicts intense dread upon a target, as described:
 
 Grants the caster temporary appearance alteration:
 
-- **Shape-shifting:** Alter the caster’s appearance in height, build, or
-  species. Cannot mimic specific individuals.
+- **Shape-shifting:** Alter the caster’s appearance in build, clothes, features, etc. 
 
 - **Limitations:** Only modifies visual appearance without granting
-  abilities or behaviors of the new form.
+  abilities or behaviors of the new form. Touch will reveal the illusion.
 
 ## Charm Person (B)
 
@@ -2143,6 +2188,22 @@ Envelopes caster's hand in cold energy:
 - **Healing:** Damage to strength can be magically cured or naturally
   healed.
 
+## Color Spray (W)
+
+**Range:** 20'/level up to 240'
+
+**Duration:** Instant
+
+**Casting Time**: 1 round
+
+**AoE:** 5' wide, 20' high wedge.
+
+Creates a vivid array of clashing colors that can blind or stun creatures:
+
+- **Targeting:** From one to six creatures (1d6) within the area are affected in order of increasing distance from the mage. All creatures above the level of the spellcaster and all those of 6th level or 6 Hit Dice or more are entitled to a saving throw. Blind or unseeing creatures are not affected by the spell. All levels or hit dice must be spent.
+
+- **Effect:** Targets are stunned for 2d4 rounds
+
 ## Command (B)
 
 **Range:** 90’
@@ -2204,13 +2265,31 @@ This spell has two usages:
 Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
+## Dancing Lights (W)
+
+**Range:** 120' + 30'/level
+
+**Duration:** 2 rounds/level
+
+**Casting Time**: 1 round
+
+Creates up to four lights that resemble lanterns or torches:
+
+- **Movement:** Can be moved up to 100 feet per round without concentration.
+    
+- **Form:** Lights can appear as torches, lanterns, or will-o'-wisps.
+    
+- **Effect:** Provides light as a torch, but not real heat or fire.
+
 ## Detect Evil (U)
 
-**Range:** 120’
+**Range:** Caster
 
 **Duration:** 6 turns
 
 **Casting Time**: 1 round
+
+**AoE:** 10' wide, 180'
 
 Objects under an evil enchantment and living beings with evil intentions
 are caused to magically glow:
@@ -2222,13 +2301,45 @@ are caused to magically glow:
   evil. Beings of chaotic alignment do not always have evil intent.
   Traps and poisons, while potentially harmful, are not evil.
 
+## Detect Illusion (U)
+
+**Range:** Caster
+
+**Duration:** 5 rounds/level
+
+**Casting Time**: 1 round
+
+**AoE:** 10' wide, 10'/level path
+
+Allows the caster to see through illusions within the area of effect:
+
+- **Effect:** Reveals the true nature of illusionary magic.
+
+- **Limitations:** Does not dispel illusions, only reveals them.
+
+## Detect Invisibility (U)
+
+- **Range:** Caster
+
+- **Duration:** 5 rounds/level
+
+- **AoE:** 10' wide, 30'/level path
+
+Enables the caster to see invisible objects and creatures:
+
+- **Perception:** Reveals invisible creatures and objects.
+
+- **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
+
 ## Detect Magic (U)
 
-**Range:** 60’
+**Range:** Caster
 
 **Duration:** 2 turns
 
 **Casting Time**: 1 round
+
+**AoE:** 10' wide x 60' path
 
 Empowers the spellcaster to perceive magical presences, as outlined:
 
@@ -2240,11 +2351,13 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 ## Detect Undead (B)
 
-**Range:** 60' + 10'/level
+**Range:** Caster
 
 **Duration:** 3 turns
 
 **Casting Time:** 1 round
+
+**AoE:** 10' wide x 60' path
 
 Enables the caster to sense undead presence:
 
@@ -2409,6 +2522,20 @@ The caster creates a floating disc of force:
 - **Movement:** Accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
+## Gaze Reflection (W)
+
+**Duration:** 2 rounds/level
+
+**Range:** Caster
+
+Creates a mirror-like shield that reflects gaze attacks:
+
+**Effect:** Reflects gaze attacks back at the attacker. The creature receives a saving throw vs their own gaze effect.
+    
+**Protection:** Shields the caster from petrification, charm, or other gaze-based effects.
+    
+**Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
+
 ## Hold Portal (W)
 
 **Range:** 60'
@@ -2424,6 +2551,22 @@ Empowers the caster to magically secure an entryway:
 
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
+
+## Hypnotism (B)
+
+**Range:** 30'
+
+**Duration:** 1 round + 1 round/level
+
+**Casting Time:** 1 round
+
+Induces a hypnotic state in one or more creatures:
+
+**Effect:** Affects up to 2d4 hit dice of creatures.
+
+**Saving Throw:** Affected creatures receive a save to resist the spell.
+    
+**Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
 
 ## Identify (U)
 
@@ -2491,7 +2634,7 @@ Creates a 15’ radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-**Magic Missile (R)**
+## Magic Missile (R)
 
 **Range:** 180' + 30'/level
 
@@ -2598,6 +2741,24 @@ footprints or scent:
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
 
+## Phantasmal Force (U)
+
+**Range:** 60'
+
+**Duration:** Special
+
+**AoE:** 400 sq. ft. + 100 sq. ft./level
+
+Creates an illusion that appears real to those who perceive it:
+
+**Effect:** Affects a 20-foot cube per level.
+
+**Disbelief:** Those who interact with the illusion may attempt a saving throw. Creatures that disbelieve the illusion see it for what it is and add +4 to associates' saving throws if this knowledge can be communicated effectively.
+
+**Limitations:** The illusion can include sound but not smell, texture, or temperature.
+
+**Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
+
 ## Protection from Evil (W)
 
 **Range:** Caster
@@ -2665,7 +2826,7 @@ Conjures a dark ray of exhaustion:
   - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
-**Read Magic (U)**
+## Read Magic (U)
 
 **Duration:** 1 turn
 
@@ -2674,6 +2835,8 @@ Conjures a dark ray of exhaustion:
 **Casting Time:** 1 round
 
 Allows the caster to decipher magical script or runes, as follows:
+
+- **Variants**: Read Chaos Magic, Read Law Magic, Read Phantasmal Magic.
 
 - **Scrolls:** The magical script of a scroll of arcane spells can be
   understood. The caster is then able to activate the scroll at any time
@@ -2784,6 +2947,24 @@ location:
 - **Source:** The sound can seem to come from another creature, behind a
   door, or other locales.
 
+## Wall of Fog (R)
+
+**Range:** 90'
+
+**Duration:** 2d4 rounds + 1 round/level
+
+**Casting Time:** 1
+
+**AoE:** 20-foot cube + 10-foot cube/level
+
+Creates a bank of misty vapor within the area of effect:
+
+**Visibility:** Beyond 2 feet: Total concealment (50% miss chance, attacks cannot use sight to locate the target). Within 2 feet: Concealment (20% miss chance).
+
+**Permanency:** Can be made permanent with a permanency spell.
+
+**Dissipation:** Moderate wind (11+ mph) disperses in spell duration. Strong wind (21+ mph) disperses it in 4 rounds. Dispersed instantly by fireball, gust of wind, or similar spells.
+
 ## Wizard Mark (U)
 
 **Range:** Touch
@@ -2811,11 +2992,11 @@ Dungeons & Dragons (AD&D)
 
 [<u>Tap Untap Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
 
-Carcosa and Specialist, [<u>Lamentations of the Flame Princess<u>](https://www.lotfp.com/RPG/)
+Carcosa and Specialist, [<u>Lamentations of the Flame Princess</u>](https://www.lotfp.com/RPG/)
 
-Insanity/Madness, [<u>Silent Legions<u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
+Insanity/Madness, [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
 
-# <span id=Old-Rules> Old Rules </span> 
+# <span id=Unused-Rules> Unused Rules </span> 
 # (For reference only!)
 
 # Races
@@ -3118,3 +3299,13 @@ except by magical means.
 enchantments on weapons and armor.  
   
 **Ability Score Bonus:** +1 Strength
+
+# <span id=Weapons-vs-Armor> Weapon Types vs. Armor </span>
+
+The table below describes an approach to weapon and armor interactions. Different damage types influence the To-Hit modifier from attacks. Either positive, negative, or neutral.
+
+| **Armor Type**  | **Slashing**  | **Piercing**  | **Bludgeoning**  |
+|-----------------|---------------|---------------|------------------|
+| Light           | +1            | +0            | -1               | 
+| Medium          | +0            | +1            | +0               |
+| Heavy           | -1            | +0            | +1               |

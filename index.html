@@ -8,6 +8,9 @@
 
     </head>
 <body>
+    <button id="toTopButton" onclick="scrollToTop()">↑</button>
+    <button id="toggleTocButton" onclick="toggleToc()">☰</button>
+
     <div class="centered-container">
         <header>
             <h1>Akladell</h1>
@@ -42,6 +45,7 @@
                             <li><a href="Specialist">Specialist</a></li>
                             <li><a href="Law-Mage">Law Mage</a></li>
                             <li><a href="Chaos-Mage">Chaos Mage</a></li>
+                            <li><a href="Illusionist">Illusionist</a></li>
                             <li><a href="Barbarian">Barbarian</a></li>
                             </ul>
                         <div><a href="#Languages">Languages</a></div>
@@ -53,7 +57,6 @@
                             <li><a href="Missile-and-Missile-Combat">Missile and Missile Combat</a></li>
                             <li><a href="Calculating-Hits">Calculating Hits per Level</a></li>
                             <li><a href="Weapon-Proficiencies">Weapon Proficiencies</a></li>    
-                            <li><a href="Weapons-vs-Armor">Weapons Types vs Armor</a></li>
                             </ul>
                         <div><a href="#Injury-&-Death">Injury & Death</a></div>
                         <div><a href="#Creature-Size">Creature Size</a></div>
@@ -77,10 +80,15 @@
                             <li><a href="Ranged-Weapons">Ranged Weapons</a></li>
                         </ul>
                         <div><a href="#Spells">Spells</a></div>
+                        <ul>
+                            <li><a href="Chaos-Mage-Spells">Chaos Mage Spells</a></li>
+                            <li><a href="Illusionist-Spells">Illusionist Spells</a></li>
+                            <li><a href="Law-Mage-Spells">Law Mage Spells</a></li>
+                        </ul>
                         <div><a href="#Cantrip-Descriptions">Cantrip Descriptions</a></div>
                         <div><a href="#Spell-Descriptions">Spell Descriptions</a></div>
                         <div><a href="#Sources">Sources</a></div>
-                        <div><a href="#Old-Rules">Old Rules</a></div>
+                        <div><a href="#Unused-Rules">Unused Rules</a></div>
                     </ul>
                 </div>
                 <div id="content"></div>
@@ -92,6 +100,8 @@
 
 <script type="module">
     import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+
+    
 
     function handleTocClick(e) 
     {
@@ -129,10 +139,26 @@
     }
     }
 
+    function toggleToc() {
+    const tocPanel = document.getElementById('toc-panel');
+    tocPanel.classList.toggle('visible');
+    }
+
 
     document.addEventListener("DOMContentLoaded", function()
     {
+    const toTopButton = document.getElementById('toTopButton');
+    const toggleTocButton = document.getElementById('toggleTocButton');
+    toggleTocButton.addEventListener('click', toggleToc);
     const tocPanel = document.getElementById('toc-panel');
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+            toTopButton.style.display = 'block';
+        } else {
+            toTopButton.style.display = 'none';
+        }
+    });
 
     window.onhashchange = function() 
     {
@@ -202,5 +228,17 @@ window.loadDeadPage = function(hash)
     <script src='app.js'></script>
 
     <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+<script>
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+    </script>
+        
+
+
 </body>
 </html>
