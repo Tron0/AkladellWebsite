@@ -554,7 +554,7 @@ to how many spells are known at character creation.
 against being paralyzed or poisoned.
 
 **Known Spells:** Law Mages initially have access to five 1st-level
-spells as well as “Read Magic”, a first level blue spell. Refer to the
+spells as well as “Read Law Magic”, a first level blue spell. Refer to the
 spell table above to identify how many of the five spells are already
 inscribed and comprehended in the spellbook. Any remaining spells out of
 the initial ten, which are not yet understood, are not added to the
@@ -636,7 +636,7 @@ from the selected roster of spells. If the amount isn’t met when rolling
 through the list, simply repeat until it is.
 
 **Known Spells:** Chaos Mages initially have access to ten 1st-level
-spells and two Cantrips as well as “Read Magic”, a first level blue
+spells and two Cantrips as well as “Read Chaos Magic”, a first level blue
 spell. Refer to the spell table above to identify how many of the ten
 spells are already inscribed and comprehended in the spellbook. Any
 remaining spells out of the initial ten, which are not yet understood,
@@ -710,7 +710,7 @@ from the selected roster of spells. If the amount isn’t met when rolling
 through the list, simply repeat until it is.
 
 **Known Spells:** Illusionists initially have access to ten 1st-level
-spells and two Cantrips as well as “Read Magic”, a first level blue
+spells and two Cantrips as well as “Read Illusion Magic”, a first level blue
 spell. Refer to the spell table above to identify how many of the ten
 spells are already inscribed and comprehended in the spellbook. Any
 remaining spells out of the initial ten, which are not yet understood,
@@ -1544,6 +1544,8 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 - **Heavy**: This weapon requires 10+ Strength to wield properly. If a character under 10 Strength uses it to attack, both the To-Hit and damage roll is penalized equal to the difference. For example, a character with 8 strength would get -2 to damage and To-Hit.
 
+- **Slow**: The character acts last in the combat round when tied for initiative.
+
 ## <span id=Melee-Weapons> Melee Weapons </span>
 
 **Axes**
@@ -1552,7 +1554,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |--------------------------|----------|------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------| 
 | Hand Axe                 | S        | 1d6        | 4 GP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.                                                           | 1          | Slashing |
 | Battle Axe               | M        | 1d8        | 7 GP     | A large, double-edged axe crafted for combat.                                                                                                                    | 1          | Slashing |
-| Great Axe                | L        | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy** | 2          | Slashing |
+| Great Axe                | L        | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy**, **Slow** | 2          | Slashing |
 | Pickaxe (Military Pick)  | S        | 1d6        | 6 GP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor.                                                                           | 1          | Piercing |
 | Mattock (Footman's Pick) | M        | 1d8        | 8 GP     | A versatile battlefield tool with a blade on one side and a pick on the other. Can be utilized for basic excavation tasks.                                       | 1          | Piercing |
 
@@ -1570,8 +1572,8 @@ will most likely require a saving throw to avoid madness and/or horror.
 |------------|----------|------------|----------|-----------------|------------|----------|
 | Shortsword / Cutlass | S | 1d6   | 6 GP    | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing |
 | Longsword / Scimitar | M | 1d8   |10 GP    | A balanced, medium sized and versatile weapon. | 1 | Slashing
-| Claymore             | L | 1d10  | 25 GP   | A large sword, designed for powerful swings and longer reach. Its size demands respect.    | 1  | Slashing
-| Zweihänder           | L | 1d12  |50 GP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield effectively. **Heavy** | 1 | Slashing
+| Claymore             | L | 1d10  | 25 GP   | A large sword, designed for powerful swings and longer reach. Its size demands respect. **Slow** | 1  | Slashing
+| Zweihänder           | L | 1d12  |50 GP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield effectively. **Heavy**, **Slow** | 1 | Slashing
 
 **Hammers & Maces**
 
@@ -1581,8 +1583,8 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Light Mace        | S        | 1d6        | 4 GP     | Shorter and more maneuverable than a normal mace, designed for swift strikes.                                                                                                        | 1          | Bludgeoning |
 | Mace              | M        | 1d8        | 6 GP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                                                         | 1          | Bludgeoning |
 | Morningstar       | M        | 1d8        | 6 GP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                                                 | 1          | Piercing |
-| Maul / Great Mace | L        | 1d10       | 10 GP    | Requiring two hands, the massive mace head can easily shatter shields and armor.                                                                                                     | 2          | Bludgeoning |
-| Greathammer       | L        | 1d12       | 35 GP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning |
+| Maul / Great Mace | L        | 1d10       | 10 GP    | Requiring two hands, the massive mace head can easily shatter shields and armor. **Heavy**                                                                                                     | 2          | Bludgeoning |
+| Greathammer       | L        | 1d12       | 35 GP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy**,  **Slow** | 2          | Bludgeoning |
 
 **Spears & Polearms**
 
@@ -1593,7 +1595,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Spear, Two-handed | L        | 1d8        | 5 GP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 1          | Piercing        |
 | Lance             | L        | 1d8        | 10 GP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          | Piercing        |
 | Quarterstaff      | M        | 1d6        | 2 GP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          | Bludgeoning     |
-| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing |
+| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach**, **Slow** | 2          | Piercing/Slashing |
 
 **Flails**
 
@@ -1606,10 +1608,10 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 | **Weapon**           | **Size** | **Damage** | **Cost** | **Description**                                                                                                                            | **Weight** | **Type** |
 |---------------------------|----------|------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------|------------|-------|
-| Whip                      | M        | 1d3/1d6    | 3 GP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes.              | 1          | Slashing |
+| Whip                      | M        | 1d3/1d6    | 3 GP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes. **Reach**             | 1          | Slashing |
 | Club / Walking Staff      | M        | 1d4        | 2 CP     | Simple yet effective, this wooden weapon can deliver solid blows in combat.                                                                | 1          | Bludgeoning |
 | Silver Walking Staff      | M        | 1d4        | 4 GP     | A walking staff adorned with silver details.                                                                                               | 1          | Bludgeoning |
-| Greatclub                 | L        | 1d8        | 3 GP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy** | 2          | Bludgeoning |
+| Greatclub                 | L        | 1d8        | 3 GP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy**, **Slow** | 2          | Bludgeoning |
 | Hook                      | S        | 1d4        | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful.             | 1          | Piercing |
 | Sickle                    | S        | 1d6        | 2 GP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.                             | 1          | Slashing |
 | Scythe                    | L        | 1d8        | 5 GP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent.                   | 2          | Slashing |
@@ -1633,7 +1635,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60ft      |
 | Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑            |          |           | Piercing
 | Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑            |          |           | Piercing
-| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy**. | 2          | ☐             | 1/2      | 80ft      |
+| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy**, **Slow**. | 2          | ☐             | 1/2      | 80ft      |
 | Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑            |          |           | Piercing
 | Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑            |          |           | Piercing
 | Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 30ft      |

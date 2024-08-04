@@ -40,6 +40,28 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Illusionist',
+        content: `The Illusionist class, including spells from the new S&W supplement as well as the "declaration" combat system is now added to the website. I might use the segment system from AD&D as well in the future. But this will do for now.
+        
+        I also added a few QoL improvements on the website for both desktop and mobile. This also includes a page in remembrance of our fallen adventurers "Hall of the Dead". 
+
+        TLDR:
+
+        - Added Illusionist class
+        - Added phases to combat rounds
+        - Added Read Magic variants for spellcasters. This includes; Read Chaos Magic (Chaos Mage), Read Law Magic (Law Mage), Read Illusion Magic (Illusionist)
+        - Added new weapon keyword from OSE, "slow", although only relevant during ties.
+        - Added "Hall of the Dead"
+
+        - Changed the initiative description
+        - Moved Weapons vs Armor to unused rules
+        - Website changes on desktop and mobile
+
+        `,
+        date: "2024-08-04 18:22 CET" 
+    },
+
+    { 
         title: 'Summer Update',
         content: `This will mostly be combat changes taken from AD&D 1e/2e, in addition to making the update section here on the site a little nicer with proper formatting.
         
