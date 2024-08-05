@@ -723,7 +723,7 @@ Person, Confusion, or Phantasmal Force. This includes when these effects
 originate from a magic item or a monster’s special abilities. 
 
 Illusionists gain a bonus of +2 on all saving throw rolls against spells, 
-including spells from magic wands and staffs.
+including spells from magic wands and staffs.<>
 
 **Cantrips:** Small magic tricks or simple utility spells that can be
 cast without spending mana. These spells are often instantaneous and can
