@@ -1,13 +1,13 @@
-body 
-{
+/* General Styles */
+body {
     display: flex;
     justify-content: flex-start;
     margin: 0;
     background-color: black;
     color: white;
 }
-.centered-container 
-{
+
+.centered-container {
     display: flex;
     max-width: 800px;
     width: 100%;
@@ -16,32 +16,28 @@ body
     margin: 0 auto;
 }
 
-header, nav
-{
-    text-align:center;
+header, nav {
+    text-align: center;
 }
 
-.flex-grow 
-{
+.flex-grow {
     flex: 1 1 auto;
 }
 
-#nav a
-{
+#nav a {
     margin-right: 20px;
 }
 
 a {
-    color: lightseagreen; 
+    color: lightseagreen;
     transition: color 2s;
 }
+
 a:active {
     color: rgb(55, 32, 255);
 }
 
-
-small 
-{
+small {
     color: gray;
 }
 
@@ -51,22 +47,19 @@ small
     flex: 1 0 auto;
 }
 
-.rules-content 
-{
+.rules-content {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
 }
 
-.rules-content table 
-{
+.rules-content table {
     max-width: 100%;
     overflow-x: auto;
 }
 
-.rules-content table tr td
-{
+.rules-content table tr td {
     border-bottom: 1px solid #555;
     border: 1px solid #ccc;
     min-width: 3em;
@@ -74,13 +67,11 @@ small
     vertical-align: middle;
 }
 
-ul 
-{
+ul {
     font-family: monospace;
 }
 
-.post 
-{
+.post {
     padding: 20px;
     margin-bottom: 20px;
     color: white;
@@ -89,83 +80,73 @@ ul
     text-align: left;
 }
 
-.post h2
-{
+.post h2 {
     margin-top: 0;
 }
 
-footer 
-{
+footer {
     margin-top: auto;
     padding: 10px;
     text-align: center;
 }
 
-strong, b 
-{
+strong, b {
     color: #ff5050;
     font-weight: bold;
 }
 
-
 /* Dead Content */
-.dead-content table 
-{
+.dead-content table {
     width: 100%;
     table-layout: fixed;
 }
 
-.dead-content th, .dead-content td 
-{
+.dead-content th, .dead-content td {
     padding: 8px;
     border: 1px solid #ccc;
     text-align: center;
     vertical-align: middle;
 }
 
-.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) 
-{
+.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) {
     background-color: #222;
 }
 
 /* Common Table Styles */
-table 
-{
+table {
     width: 100%;
 }
 
-th 
-{
-    text-align: center; /* Center align the content of header cells */
+th {
+    text-align: center;
 }
 
 th, td {
     padding: 8px;
 }
 
-
 #toTopButton:hover, #toggleTocButton:hover, #toTopMobileButton:hover, #toggleTocMobileButton:hover {
-    background-color: black; /* Black background on hover */
-    color: white; /* White arrow on hover */
+    background-color: black;
+    color: white;
 }
 
 #toc-panel {
     position: fixed;
     top: 0;
-    left: -100%; /* Initially hide the ToC panel */
+    left: -100%;
     width: 280px;
-    height: 100vh; /* Full viewport height */
-    max-height: 100vh; /* Ensure it doesn't exceed viewport height */
+    height: 100vh;
+    max-height: 100vh;
     padding: 10px;
     overflow-y: auto;
-    transition: left 0.3s; /* Smooth transition for sliding in and out */
-    background-color: black; /* ToC panel background */
-    color: white; /* ToC panel text color */
-    z-index: 1000; /* Ensure it is above other elements */
+    transition: left 0.3s;
+    background-color: black;
+    color: white;
+    z-index: 1000;
 }
 
 #toc-panel.visible {
-    left: 0; /* Slide in the ToC panel when visible */
+    left: 0;
 }
 
 .buttons-desktop {
@@ -178,12 +159,45 @@ th, td {
 
 #toggleTocButton {
     position: absolute;
-    right: 80px; /* Adjust the right position to move it more to the right */
+    right: 80px;
+}
+
+#toc-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
+}
+
+#toc-panel.visible ~ #toc-overlay {
+    display: block;
+}
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+#content-wrapper {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px;
+}
+
+#toc-wrapper {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
 }
 
 #toTopButton {
-    position: absolute; /* Absolute positioning */
-    right: 20px; /* Place on the right side */
+    position: absolute;
+    right: 20px;
 }
 
 .buttons-mobile {
@@ -191,25 +205,29 @@ th, td {
 }
 
 #toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
-    width: 40px; /* Larger width */
-    height: 40px; /* Equal height to maintain circular shape */
+    width: 40px;
+    height: 40px;
 }
 
-
+/* Mobile Specific Styles */
 @media (max-width: 1200px) {
     body {
         flex-direction: column;
         align-items: center;
     }
 
-    .rules-content table tr td:nth-child(n) {
-        font-size: 12px; 
+    #content-wrapper.no-scroll {
+        overflow: hidden;
+    }
+
+    .rules-content table tr td {
+        font-size: 0.75em;
     }
 
     #toc-panel {
-        width: 60vw; /* Width relative to viewport width */
-        max-width: 400px; /* Maximum width to ensure readability */
-        padding: 2vw; /* Padding relative to viewport width */
+        width: 70vw;
+        max-width: 400px;
+        padding: 2vw;
     }
 
     .centered-container {
@@ -229,12 +247,12 @@ th, td {
     }
 
     #toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
-        width: 10vw; /* Width relative to viewport width */
-        height: 10vw; /* Height relative to viewport width */
-        min-width: 40px; /* Minimum width to ensure readability */
-        min-height: 40px; /* Minimum height to ensure readability */
-        font-size: 2vw; /* Font size relative to viewport width */
-        max-width: 40px; /* Maximum width to prevent excessive scaling */
-        max-height: 40px; /* Maximum height to prevent excessive scaling */
+        width: 10vw;
+        height: 10vw;
+        min-width: 40px;
+        min-height: 40px;
+        font-size: 2vw;
+        max-width: 40px;
+        max-height: 40px;
     }
 }

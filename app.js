@@ -206,14 +206,6 @@ function loadAboutPage()
     var mainContent = document.getElementById('content');
     mainContent.innerHTML = `<h1>About</h1>
 
-    <p>This is a website for my Old School Dungeons & Dragons game!</p>
-
-    <p>In the grand scheme, this game is roughly <b>50% Swords & Wizardry</b>, which is a <b>Original Dungeons & Dragons</b> retroclone created by <b>Matt Finch</b>.</p>
-     
-    <p><b>35% is compiled of Advanced Dungeons and Dragons</b> rules, which is mainly just relevant on my end as a DM.</p>
-    
-    <p>And the <b>15% that is left is a combination of a multitude of other things, including my own homebrew rules.</b></p>
-    
-    <p>The game is both hosted IRL and online, I post announcements regarding session scheduling on discord. Feel free to join for any future updates!</p>`;
+    <p>This is a website for my Old School Dungeons & Dragons game!</p>`;
 }
 

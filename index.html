@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Akladell</title>
-        <link rel="stylesheet" type="text/css" href="main.css">
-
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akladell</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 <body>
     <div class="buttons-wrapper">
         <div class="buttons-desktop">
@@ -27,12 +26,12 @@
             <nav>
                 <div class="nav-items">
                     <div id="nav">
-                    <a href="#Home">Home</a>
-                    <a href="#Rules">Rules Index</a>
-                    <a href="#Updates">Updates</a>
-                    <a href="#About">About</a>
-                    <a href="#Discord" id="discordlink">Discord</a>
-                    <a href="#Hall-of-the-Dead">Hall of the Dead</a>
+                        <a href="#Home">Home</a>
+                        <a href="#Rules">Rules Index</a>
+                        <a href="#Updates">Updates</a>
+                        <a href="#About">About</a>
+                        <a href="#Discord" id="discordlink">Discord</a>
+                        <a href="#Hall-of-the-Dead">Hall of the Dead</a>
                     </div>
                 </div>
             </nav>
@@ -99,12 +98,14 @@
                         <div><a href="#Unused-Rules">Unused Rules</a></div>
                     </ul>
                 </div>
-                <div id="content"></div>
+                <div id="content-wrapper">
+                    <div id="content"></div>
+                </div>
             </div>
+            <div id="toc-overlay"></div>
         </div>
         <footer><hr>Joel Andersson 2024</footer>
     </div>
-
 
 <script type="module">
 import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
@@ -150,9 +151,33 @@ function scrollToHash(hash) {
 }
 
 function toggleToc() {
-    const tocPanel = document.getElementById('toc-panel');
-    tocPanel.classList.toggle('visible');
+    if (window.innerWidth <= 1200) {
+        const tocPanel = document.getElementById('toc-panel');
+        const tocOverlay = document.getElementById('toc-overlay');
+        tocPanel.classList.toggle('visible');
+        tocOverlay.style.display = tocPanel.classList.contains('visible') ? 'block' : 'none';
+
+        if (tocPanel.classList.contains('visible')) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    } else {
+        // For desktop: Just show or hide the ToC without affecting scrolling
+        const tocPanel = document.getElementById('toc-panel');
+        tocPanel.classList.toggle('visible');
+    }
 }
+
+document.getElementById('toc-overlay').addEventListener('click', () => {
+    if (window.innerWidth <= 1200) {
+        const tocPanel = document.getElementById('toc-panel');
+        const tocOverlay = document.getElementById('toc-overlay');
+        tocPanel.classList.remove('visible');
+        tocOverlay.style.display = 'none';
+        document.body.classList.remove('no-scroll');
+    }
+});
 
 document.addEventListener("DOMContentLoaded", function() {
     const tocLinks = document.querySelectorAll('#toc-panel a');
@@ -164,6 +189,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const toTopMobileButton = document.getElementById('toTopMobileButton');
     const toggleTocButton = document.getElementById('toggleTocButton');
     const toggleTocMobileButton = document.getElementById('toggleTocMobileButton');
+    const tocPanel = document.getElementById('toc-panel');
+    const tocOverlay = document.getElementById('toc-overlay');
 
     toTopButton.style.display = 'none';
     toTopMobileButton.style.display = 'none';
@@ -218,20 +245,11 @@ function scrollToTop() {
         behavior: 'smooth'
     });
 }
-
-
-
 </script>
 
-    <script src='app.js'></script>
+<script src='app.js'></script>
 
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-
-<script>
-
-</script>
-        
-
+<noscript>You need to enable JavaScript to view the full site.</noscript>
 
 </body>
 </html>
