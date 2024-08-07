@@ -51,20 +51,20 @@ small {
     text-align: left;
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
-}
-
-.rules-content table {
-    max-width: 100%;
+    padding: 10px; /* Reduce padding */
     overflow-x: auto;
 }
 
-.rules-content table tr td {
-    border-bottom: 1px solid #555;
+.rules-content table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    font-size: 0.875em; /* Reduce font size */
+}
+
+.rules-content th, .rules-content td {
+    padding: 4px 6px; /* Reduce padding */
     border: 1px solid #ccc;
-    min-width: 3em;
-    text-align: center;
-    vertical-align: middle;
+    text-align: left; /* Adjust text alignment */
 }
 
 ul {
@@ -96,16 +96,21 @@ strong, b {
 }
 
 /* Dead Content */
+.dead-content {
+    overflow-x: auto;
+}
+
 .dead-content table {
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto; /* Use auto layout for flexibility */
+    border-collapse: collapse; /* Collapse borders */
+    font-size: 0.875em; /* Reduce font size */
 }
 
 .dead-content th, .dead-content td {
-    padding: 8px;
+    padding: 4px 6px; /* Reduce padding */
     border: 1px solid #ccc;
-    text-align: center;
-    vertical-align: middle;
+    text-align: left;
 }
 
 .rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) {
@@ -122,7 +127,7 @@ th {
 }
 
 th, td {
-    padding: 8px;
+    padding: 4px 6px; /* Reduce padding */
 }
 
 #toTopButton:hover, #toggleTocButton:hover, #toTopMobileButton:hover, #toggleTocMobileButton:hover {
@@ -221,7 +226,8 @@ th, td {
     }
 
     .rules-content table tr td {
-        font-size: 0.75em;
+        font-size: 0.75em; /* Further reduce font size for smaller screens */
+        padding: 2px 4px; /* Further reduce padding for smaller screens */
     }
 
     #toc-panel {

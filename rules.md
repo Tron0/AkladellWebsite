@@ -1550,9 +1550,9 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 **Axes**
 
-| **Weapon**          | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                  | **Weight** | **Type** |
-|--------------------------|----------|------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------| 
-| Hand Axe                 | S        | 1d6        | 4 GP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.                                                           | 1          | Slashing |
+| **Weapon**| **Size** | **Damage** | **Cost** |**Description**| **Weight** | **Type** | **VS Heavy** | **VS Medium** | **VS Light** | **VS 10 AC** |
+|-----------|----------|------------|----------|---------------|------------|----------|--------------|---------------|--------------|--------------|
+| Hand Axe  | S        | 1d6        | 4 GP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.| 1 | Slashing | -4 | -1 | +1 | +1 | 
 | Battle Axe               | M        | 1d8        | 7 GP     | A large, double-edged axe crafted for combat.                                                                                                                    | 1          | Slashing |
 | Great Axe                | L        | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy**, **Slow** | 2          | Slashing |
 | Pickaxe (Military Pick)  | S        | 1d6        | 6 GP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor.                                                                           | 1          | Piercing |
