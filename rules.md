@@ -1679,7 +1679,8 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    3     | Dancing Lights       | Detect Illusion     |                |                  |                  |
 |    4     | Gaze Reflection      | Detect Invisibility |                |                  |                  |
 |    5     | Light / Darkness (B) | Phantasmal Force    |                |                  |                  |
-|    6     |                      | Ventriloquism       |                |                  |                  |
+|    6     |                      | Phantom Armor       |                |                  |                  |
+|    7     |                      | Ventriloquism       |                |                  |                  |
 
 ### Level 1 Law Mage Spell Table
 
@@ -2796,6 +2797,26 @@ Creates an illusion that appears real to those who perceive it:
 - **Limitations:** The illusion can include sound but not smell, texture, or temperature.
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
+
+## Phantom Armor (U) - Illusion
+
+**Range:** Caster
+
+**Duration:** Special
+
+**Casting Time:** 1 round
+
+When cast, this spell creates a quasi-real suit of plate mail that provides the target with substantial protection. The armor appears semi-illusory, but functions as follows:
+
+- **Armor Class:** The phantom armor grants an Armor Class of 17, as if the wearer were clad in plate mail. 
+
+- **Damage Absorption:** The armor can absorb 1 point of damage per level of the caster. Once it absorbs damage equal to the caster's level, the armor vanishes, and any remaining damage affects the wearer.
+
+- **Disbelief and Dispelling:** Opponents can attempt to disbelieve the armor by making a saving throw vs. spells. The armor can also be dispelled by a dispel magic spell, dispel illusion, or a wand of negation.
+
+- **Bonus to Saves:** The phantom armor grants a +1 bonus to saving throws against attacks that would normally be mitigated by magical armor.
+
+**Material Component:** A small plate of mithral, worth 10 gp, is required to cast this spell. The mithral plate disappears when the spell is cast.
 
 ## Read Magic (U) - Illusion
 
