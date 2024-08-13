@@ -1655,9 +1655,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    4     |                    | Tweak        |                           |             |               |
 |    5     |                    | Change       |                           |             |               |
 
-## <span id=Chaos-Mage-Spells> Chaos Mage Spells </span>
-
-### Level 1 Spells
+### Chaos Mage Spell Table
 
 |**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
 |----------|----------------------|----------------|----------------|------------------|----------------|
@@ -1666,34 +1664,31 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    3     | Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
 |    4     | Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
 |    5     | Mending              | Identify       |                | Magic Missile    |                |
-|    6     | Protection from Evil | Message        |                | Spider Climb     |                |
+|    6     | Protection from Evil / Protection from Good (B) | Message        |                | Spider Climb     |                |
 |    7     | Shield               | Read Magic     |                |                  |                |
 |    8     |                      | Unseen Servant |                |                  |                |
 |    9     |                      | Ventriloquism  |                |                  |                |
 |    10    |                      | Wizard Mark    |                |                  |                |
 
-## <span id=Illusionist-Spells> Illusionist Spells </span>
-
-### Level 1 Spells
+### Level 1 Illusionist Spell Table
 
 |**Number**| **White (W)**        | **Blue (U)**        | **Black (B)**  | **Red (R)**      | **Green (G)**    |
 |----------|----------------------|---------------------|----------------|------------------|------------------|
-|    1     | Alarm                | Audible Glamour     | Cause Fear     | Wall of Fog      |                  |
-|    2     | Color Spray          | Change Self         | Hypnotism      |                  |                  |
+|    1     | Alarm                | Audible Glamour     | Hypnotism      | Chromatic Orb    |                  |
+|    2     | Color Spray          | Change Self         |                | Wall of Fog      |                  |
 |    3     | Dancing Lights       | Detect Illusion     |                |                  |                  |
 |    4     | Gaze Reflection      | Detect Invisibility |                |                  |                  |
 |    5     | Light / Darkness (B) | Phantasmal Force    |                |                  |                  |
+|    6     |                      | Ventriloquism       |                |                  |                  |
 
-## <span id=Law-Mage-Spells> Law Mage Spells </span>
-
-### Level 1 Spells
+### Level 1 Law Mage Spell Table
 
 |**Number**| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
 |-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
 |     1     | Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
 |     2     | Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
 |     3     | Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
-|     4     | Protection from Evil                       | Read Magic         |               |             | Purify Food and Drink |
+|     4     | Protection from Evil / Protection from Good (B)     | Read Magic         |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
 
 # <span id=Cantrip-Descriptions> Cantrip Descriptions </span>
 
@@ -1703,7 +1698,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 **AoE:** Special
 
@@ -1724,9 +1719,9 @@ concentrated on to make a neat tear or simply ripped quickly.
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 4 square yards
+**AoE:** 3' cube
 
 This cantrip enables the caster to remove heavy soil, dirt, and like
 foreign objects:
@@ -1746,9 +1741,9 @@ is not recognized as illusion magic as it is a real form conjured.
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 1 square yards
+**AoE:** 3' cube
 
 This cantrip enables the caster to neatly gather numerous small objects
 into a stack or pile:
@@ -1767,7 +1762,7 @@ into a stack or pile:
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Opens any unlocked door or portal from a distance:
 
@@ -1784,9 +1779,9 @@ Closes any object in a reverse fashion.
 
 **Range:** 30'
 
-**Duration:** A month
+**Duration:** 1 month
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 **AoE:** 1 cubic yard
 
@@ -1803,7 +1798,7 @@ Covers an area with a new or faded color:
 
 **Duration:** 1 round
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 The caster causes an unseen thumb and forefinger to harmlessly, but
 annoyingly, tweak some portion of a chosen sub­ject:
@@ -1820,7 +1815,7 @@ annoyingly, tweak some portion of a chosen sub­ject:
 
 **Duration:** 1 round + 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 The caster alters one small object or creature to another. The object or
 creature can weigh only a few ounces, and must be small enough to fit in
@@ -1839,7 +1834,7 @@ the caster's hand:
 
 **Duration:** 1 round + 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 A puff of actual smoke appears in front of the spellcaster in a desired
 location which ascends or is dis­sipated as a normal cloud of smoke,
@@ -1860,9 +1855,9 @@ but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
 **Duration:** Instant
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** ½ cubic foot
+**AoE:** ½' cube
 
 When this cantrip is used, the caster may kill a small pest such as a
 fly, mouse, rat, beetle, or the like:
@@ -1880,9 +1875,9 @@ fly, mouse, rat, beetle, or the like:
 
 **Duration:** 1 round
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 6-inch line
+**AoE:** 6" line
 
 Enables the caster to cause a jet of flame up to a half foot long to
 shoot forth from their finger:
@@ -1897,9 +1892,9 @@ shoot forth from their finger:
 
 **Duration:** 1 round
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 3 square feet
+**AoE:** 3' cube
 
 By means of this cantrip, the caster causes ac­celeration in the growth
 of plants:
@@ -1915,7 +1910,7 @@ of plants:
 
 **Duration:** 1 round
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 The caster warms a liquid, solid object or creature by 10 °C:
 
@@ -1934,9 +1929,9 @@ tempera­ture of freezing, (0 °C)
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 3 square feet
+**AoE:** 3' cube
 
 Dries an object:
 
@@ -1951,7 +1946,9 @@ material within damp to the touch.
 
 # <span id=Spell-Descriptions> Spell Descriptions </span>
 
-## Alarm (W)
+# <span id=Chaos-Mage-Spells> Chaos Mage Spells </span>
+
+## Alarm (W) - Chaos
 
 **Range:** 30'
 
@@ -1959,39 +1956,17 @@ material within damp to the touch.
 
 **Casting Time:** 1 round
 
-**AoE:** 20' square
+**AoE:** 20' cube
 
 Allows the caster to set a protective alarm, as follows:
 
-- **Detection:** Reacts to any creature larger than a standard rat
-  entering or touching the designated area.
+- **Detection:** Reacts to any creature larger than a standard rat entering or touching the designated area.
 
-- **Alarm Sound:** Any entity entering the guarded area without the
-  correct password triggers a loud alarm, audible within 60 feet.
+- **Alarm Sound:** Any entity entering the guarded area without the correct password triggers a loud alarm, audible within 60 feet.
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-## Animal Friendship (G)
-
-**Range:** 30’
-
-**Duration:** Permanent
-
-**Casting Time:** 1 hour
-
-- **Initial Reaction:** If the animal does not succeed in its saving
-  throw against the spell at its onset, it remains calm while the spell
-  completes. After this, the animal follows the caster willingly.
-
-- **Capacity:** The caster can use this magic to befriend animals with
-  up to 2 Hit Dice per their experience level. This is also the maximum
-  total Hit Dice of animals that can be befriended at a single instance,
-  capped at twice the caster's experience level.
-
-- **Restrictions:** Only unaligned animals can be affected by this
-  spell.
-
-## Armor (W)
+## Armor (W) - Chaos
 
 **Range:** Touch
 
@@ -2001,163 +1976,69 @@ Allows the caster to set a protective alarm, as follows:
 
 Provides a protective magical armor:
 
-- **Defense**: Acts as if the recipient is wearing scale mail (AC 14).
+- **Defense**: Acts as if the recipient is wearing ring mail (AC 14).
 
-- **Cumulative Effects:** Works in tandem with Dexterity and other
-  bonuses, excluding the shield spell.
+- **Cumulative Effects:** Works in tandem with Dexterity and other bonuses, excluding the shield spell.
 
-- **Durability:** Lasts until the wearer accumulates damage beyond 8
-  points + 1 per caster level.
+- **Durability:** Lasts until the wearer accumulates damage beyond 8 points + 1 per caster level.
 
-## Audible Glamer (U)
+## Burning Hands (R) - Chaos
 
-**Range:** 60'
-
-**Duration:** 2 rounds/level
-
-**Casting Time:** 1 round
-
-Creates an illusionary sound that can deceive others:
-
-- **Sound Creation:** Causes a volume of sound to arise at any desired distance within range and can make it seem to recede, approach, or remain fixed. Can create any type of sound such as talking, singing, shouting, walking, marching, or running.
-    
-- **Volume:** At 1st level, the sound volume is equivalent to four men or less. Each additional level of the caster  grants them an ability to create a maximum sound of four more men. Examples: A horde of rats (8 men), a roaring lion (16 men), a roaring dragon (24 men).
-    
-- **Disbelief:** If a character suspects the sound is an illusion, they can attempt a saving throw. A successful save results in hearing a faint, obviously false sound from the caster's direction.
-
-- **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
-
-## Bless (W) / Curse (B)
-
-**Range:** 60’
-
-**Duration:** 6 turns
-
-**Casting Time:** 1 round
-
-**AoE:** 20' square
-
-May be used in one of two situations:
-
-- **Battle:** Allies within a 20' square area who are not yet in melee
-  gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
-
-- **Ritual:** Casting bless may also form part of rituals of
-  purification or consecration, at the referee’s discretion.
-
-### Reversed: Curse
-
-Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
-enemies instead. A save versus spells is allowed to resist the blight.
-
-## Burning Hands (R)
-
-**Range:** 5'
+**Range:** Caster 
 
 **Duration:** Instant
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
+
+**AoE:** 5' arc
 
 Produces a fan of flames that sear everything in its arc:
 
-- **Casting Stance:** Fingertips emit flames. Thumbs touch, fingers
-  spread to unleash a horizontal arc of fire.
+- **Casting Stance:** Fingertips emit flames. Thumbs touch, fingers spread to unleash a horizontal arc of fire.
 
 - **Flame Dimensions:** Flames span 5 feet long in a 120-degree arc.
 
-- **Damage:** Inflicts 1d3 damage + 2 points per caster level, maxing at
-  1d3+20 damage. Successful saves vs. spells result in half damage.
+- **Damage:** Inflicts 1d3 damage + 2 points per caster level, maxing at 1d3+20 damage. Successful saves vs. spells result in half damage.
 
-- **Flammable Materials:** Materials like cloth, paper, and thin wood
-  ignite on contact. They can be extinguished in the subsequent round if
-  no other actions are taken.
+- **Flammable Materials:** Materials like cloth, paper, and thin wood ignite on contact. They can be extinguished in the subsequent round if no other actions are taken.
 
-## Calm Animals (G)
-
-**Range:** 120'
-
-**Duration:** 1 turn + 1 turn/level
-
-**Casting Time:** 4 rounds
-
-**AoE:** Special
-
-Allows the caster to pacify and make tranquil wild creatures, as
-detailed:
-
-- **Soothing Effect:** Renders normal animals docile and non-threatening.
-  The spellcaster can affect 2d4 Hit Dice of animals, with an additional
-  1 Hit Die per caster level. Animals affected by this spell don't get a
-  saving throw unless they possess magical abilities or are evidently
-  not entirely natural.
-
-- **Specific Species:** All animals affected must belong to the same
-  species, and all must be within the spell's range.
-
-## Cause Fear (B)
-
-**Range:** Touch
-
-**Duration:** 2 turns
-
-**Casting Time:** 1 round
-
-Inflicts intense dread upon a target, as described:
-
-- **Inducing Terror:** Forces a target within 120’ to run in fear for
-  the spell's duration.
-
-- **Resistance:** Targets have a chance to resist this effect by
-  succeeding on a save versus spells.
-
-## Change Self (U)
+## Change Self (U) - Chaos
 
 **Range:** Caster
 
 **Duration:** 2d6 rounds + 2 rounds/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Grants the caster temporary appearance alteration:
 
 - **Shape-shifting:** Alter the caster’s appearance in build, clothes, features, etc. 
 
-- **Limitations:** Only modifies visual appearance without granting
-  abilities or behaviors of the new form. Touch will reveal the illusion.
+- **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-## Charm Person (B)
+## Charm Person (B) - Chaos
 
 **Range:** 120'
 
 **Duration:** Special
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Influences perceptions and actions of a humanoid:
 
-**Affected Targets:** Targets single human, demihuman, or humanoid
-  monster. A successful save terminates the charm.
+**Affected Targets:** Targets single human, demihuman, or humanoid monster. A successful save terminates the charm.
 
-**Charm Effects:**
+- **Friendship:** Target perceives the caster as a close friend and aids them.
 
-- **Friendship:** Target perceives the caster as a close friend and aids
-  them.
+- **Commands:** If sharing a language, caster can command the charmed creature.
 
-- **Commands:** If sharing a language, caster can command the charmed
-  creature.
-
-- **Resistance:** Charmed creature may resist commands against its
-  nature or alignment.
+- **Resistance:** Charmed creature may resist commands against its nature or alignment.
 
 - **Suicidal Commands:** Always refused by the charmed creature.
 
-- **Exclusions:** Does not affect undead and humanoid monsters of over
-  4+1 HD.
+- **Exclusions:** Does not affect undead and humanoid monsters of over 4+1 HD.
 
-**Duration & Saves:**
-
-Indefinite duration but allows periodic saving throws based on
-target's INT:
+**Duration & Saves:** Indefinite duration but allows periodic saving throws based on target's INT:
 
 - **INT 3–8:** Save once every month.
 
@@ -2165,271 +2046,87 @@ target's INT:
 
 - **INT 13–18:** Save once every day.
 
-## Chill Touch (B)
+## Chill Touch (B) - Chaos
 
 **Range:** Touch
 
 **Duration:** 3 rounds + 1 round/level
 
-**Casting Time**: 1 round
+**Casting Time**: 1 segment
 
 Envelopes caster's hand in cold energy:
 
-- **Life Force Attack:** On a successful melee attack, the touched
-  creature must save vs. spells. Failure results in 1d4 damage and a 1
-  point Strength loss. A successful save negates the effects.
+- **Life Force Attack:** On a successful melee attack, the touched creature must save vs. spells. Failure results in 1d4 damage and a 1 point Strength loss. A successful save negates the effects.
 
-- **Effect on Strength:** Creatures without Strength ratings get a -1
-  attack roll penalty for every other successful touch. Lost Strength is
-  regained at 1 point per hour.
+- **Effect on Strength:** Creatures without Strength ratings get a -1 attack roll penalty for every other successful touch. Lost Strength is regained at 1 point per hour.
 
-- **Undead Interaction:** Undead touched are unharmed and don't lose
-  Strength. However, they must save vs. spells or flee for 1d4 rounds +
-  1 round per caster level.
+- **Undead Interaction:** Undead touched are unharmed and don't lose Strength. However, they must save vs. spells or flee for 1d4 rounds + 1 round per caster level.
 
-- **Healing:** Damage to strength can be magically cured or naturally
-  healed.
+- **Healing:** Damage to strength can be magically cured or naturally healed.
 
-## Color Spray (W)
-
-**Range:** 20'/level up to 240'
-
-**Duration:** Instant
-
-**Casting Time**: 1 round
-
-**AoE:** 5' wide, 20' high wedge.
-
-Creates a vivid array of clashing colors that can blind or stun creatures:
-
-- **Targeting:** From one to six creatures (1d6) within the area are affected in order of increasing distance from the mage. All creatures above the level of the spellcaster and all those of 6th level or 6 Hit Dice or more are entitled to a saving throw. Blind or unseeing creatures are not affected by the spell. All levels or hit dice must be spent.
-
-- **Effect:** Targets are stunned for 2d4 rounds
-
-## Command (B)
-
-**Range:** 90’
-
-**Duration:** 1 turn
-
-**Casting Time**: 1 round
-
-The caster issues a command of a single word to a single human,
-demihuman, or human-like monster, as follows:
-
-- **Commands:** If they share a language, the caster may give a command
-  like "flee", "stop", etc, which they will obey.
-
-- **Suicidal Commands:** Causes the creature to faint for the duration.
-
-- **MIND 13+ and/or 6+ HD:** May save versus spells to avoid command.
-
-- **Restrictions:** Undead are not affected.
-
-## Courage (R)
-
-**Range:** 120’
-
-**Duration:** Special
-
-**Casting Time**: 1 round
-
-**AoE:** One unit up to 200 individuals
-
-This spell imbues the target unit with a temporary burst of courage.
-
-- **Morale Boost:** The targeted unit, consisting of up to 200
-  individuals, receives a boost of confidence. In situations that would
-  typically require a morale check, the unit automatically succeeds
-  without a dice roll.
-
-- **Spell Termination:** After the unit succeeds in the morale situation
-  due to this spell, the magical effect ceases. From then on, they must
-  perform all morale checks as usual.
-
-## Cure Light Wounds (W) / Cause Light Wounds (B)
-
-**Range:** Touch
-
-**Duration:** Instant
-
-**Casting Time**: 1 round
-
-This spell has two usages:
-
-- **Healing a living subject:** Restores 1d6+1 hit points of damage.
-  This cannot raise the subject’s hit points above their normal maximum.
-
-- **Curing paralysis:** Paralysing effects are negated.
-
-### Reversed: Cause Light Wounds
-
-Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
-melee attack roll is required.
-
-## Dancing Lights (W)
-
-**Range:** 120' + 30'/level
-
-**Duration:** 2 rounds/level
-
-**Casting Time**: 1 round
-
-Creates up to four lights that resemble lanterns or torches:
-
-- **Movement:** Can be moved up to 100 feet per round without concentration.
-    
-- **Form:** Lights can appear as torches, lanterns, or will-o'-wisps.
-    
-- **Effect:** Provides light as a torch, but not real heat or fire.
-
-## Detect Evil (U)
-
-**Range:** Caster
-
-**Duration:** 6 turns
-
-**Casting Time**: 1 round
-
-**AoE:** 10' wide, 180'
-
-Objects under an evil enchantment and living beings with evil intentions
-are caused to magically glow:
-
-- **Intent only:** The caster cannot read the thoughts of creatures with
-  evil intent.
-
-- **Definition of evil:** The referee must judge what is classified as
-  evil. Beings of chaotic alignment do not always have evil intent.
-  Traps and poisons, while potentially harmful, are not evil.
-
-## Detect Illusion (U)
-
-**Range:** Caster
-
-**Duration:** 5 rounds/level
-
-**Casting Time**: 1 round
-
-**AoE:** 10' wide, 10'/level path
-
-Allows the caster to see through illusions within the area of effect:
-
-- **Effect:** Reveals the true nature of illusionary magic.
-
-- **Limitations:** Does not dispel illusions, only reveals them.
-
-## Detect Invisibility (U)
-
-- **Range:** Caster
-
-- **Duration:** 5 rounds/level
-
-- **AoE:** 10' wide, 30'/level path
-
-Enables the caster to see invisible objects and creatures:
-
-- **Perception:** Reveals invisible creatures and objects.
-
-- **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
-
-## Detect Magic (U)
+## Detect Magic (U) - Chaos
 
 **Range:** Caster
 
 **Duration:** 2 turns
 
-**Casting Time**: 1 round
+**Casting Time**: 1 segment
 
-**AoE:** 10' wide x 60' path
+**AoE:** 10' wide x 60' line
 
 Empowers the spellcaster to perceive magical presences, as outlined:
 
-- **Magical Illumination:** Objects, areas, or beings imbued with magic
-  radiate a distinct glow.
+- **Magical Illumination:** Objects, areas, or beings imbued with magic radiate a distinct glow.
 
-- **Comprehensive Detection:** The distinct type of magic is revealed to
-  the spellcaster when investigated.
+- **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-## Detect Undead (B)
+## Detect Undead (B) - Chaos
 
 **Range:** Caster
 
 **Duration:** 3 turns
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 10' wide x 60' path
+**AoE:** 10' wide x 60' line
 
 Enables the caster to sense undead presence:
 
-- **Detection**: Locates all undead within the area of effect. Each scan
-  in a direction takes a round with the caster being motionless.
+- **Detection**: Locates all undead within the area of effect. Each scan in a direction takes a round with the caster being motionless.
 
-- **Limitations on Details:** Only provides the direction of undead, not
-  specific locations or distances. Doesn't specify the type of undead,
-  only their presence.
+- **Limitations on Details:** Only provides the direction of undead, not specific locations or distances. Doesn't specify the type of undead, only their presence.
 
-- **Obstruction:** The detection can pass through walls and other
-  barriers but is stopped by 1 foot of solid stone, 1 yard of wood or
-  loose earth, or a thin layer of metal.
+- **Obstruction:** The detection can pass through walls and other barriers but is stopped by 1 foot of solid stone, 1 yard of wood or loose earth, or a thin layer of metal.
 
-## Endure Cold & Heat (G)
-
-**Range:** Touch
-
-**Duration:** 1 hour/level
-
-**Casting Time:** 1 round
-
-Bestows a creature with resistance to extreme temperatures, as follows:
-
-- **Thermal Protection:** The recipient is shielded from temperature
-  extremes ranging from -35°C to 55°C.
-
-- **Beyond Limits:** For temperatures outside these boundaries, the
-  protected creature takes 1 damage point for every hour exposed for
-  each degree past the limit.
-
-## Enlarge / Reduce (R)
+## Enlarge (R) / Reduce (R) - Chaos
 
 **Range:** 15'/level
 
 **Duration:** 5 rounds/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 This spell can either enlarge or reduce a target:
 
-- **Target Limitation:** Can be cast on a single creature or an object
-  not exceeding 10 cubic feet in volume per caster level. Must be
-  visibly seen to affect.
+- **Target Limitation:** Can be cast on a single creature or an object not exceeding 10 cubic feet in volume per caster level. Must be visibly seen to affect.
 
-- **Size Alteration:** Increases size by up to 10% per caster level in
-  height, width, and weight.
+- **Size Alteration:** Increases size by up to 10% per caster level in height, width, and weight.
 
-- **Damage Alteration:** Hit points, Armor Class, and attack rolls
-  remain unchanged. However, damage rolls increase proportionally with
-  size. For example, a 160% enlarged fighter rolling a 6 for damage
-  adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class,
-  and magic bonuses remain unaltered.
+- **Damage Alteration:** Hit points, Armor Class, and attack rolls remain unchanged. However, damage rolls increase proportionally with size. For example, a 160% enlarged fighter rolling a 6 for damage adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class, and magic bonuses remain unaltered.
 
-### Reverse Spell: Reduce
+### **Reverse Spell:** Reduce
 
-Shrinks creature or object by 10% per caster level, to a minimum size of
-10%. May damage materials attached to shrinking objects. Objects will
-only shrink if undamaged. Unwilling creatures get a saving throw vs.
-spells.
+Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
-## Erase (U)
+## Erase (U) - Chaos
 
 **Range:** 90'
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
-**AoE:** 1 scroll
+**AoE:** 1 page
 
 Allows the spellcaster to erase writings, either magical or mundane:
 
@@ -2442,22 +2139,27 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Limitations:** Removes certain magical inscriptions, but not all.
 
-## Feather Fall (R)
+## Feather Fall (R) - Chaos
 
 **Range:** 30'/level
 
 **Duration:** 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** Less than 1 segment
+
+**AoE:** 10' cube
+
+Slows the fall of objecst and creatures:
 
 - **Fall Rate:** Reduced to 2 feet per second (120 feet per round).
 
 - **Protection:** No damage upon landing when the spell is active.
 
-- **Capacity:** Affects a 10-foot cube area up to a combined weight of
-  200 pounds + 200 pounds/level.
+- **Capacity:** Affects a 10-foot cube area up to a combined weight of 200 pounds + 200 pounds/level.
 
-## Find Familiar (G)
+- **Missiles:** Works upon free-falling, flying, or proppelled objects.
+
+## Find Familiar (G) - Chaos
 
 **Range:** 1 mile/level
 
@@ -2470,10 +2172,9 @@ Allows the spellcaster to erase writings, either magical or mundane:
 Summons a familiar to aid the caster:
 
 - **Nature of Familiar:** Typically small creatures like cats, frogs,
-  crows, etc.
+  crows, etc. Normal familiars have 1d3+1 hit points, are AC 12, and are as intelligent as a lower-than-average human.
 
-- **Benefits:** Familiars grant sensory powers to their masters, can
-  converse, and serve various roles.
+- **Benefits:** Familiars grant sensory powers to their masters, can converse, and serve various roles. When the familiar is within 120-ft of the magic user, the magic user gains additional hit points equal to the familiar's. However, if the familiar is ever killed, the magic user permanently loses twice the familiar's hit points. 
 
 - **Familiar Sensory Powers by Roll:**
 
@@ -2494,25 +2195,25 @@ Summons a familiar to aid the caster:
 - **Restrictions:** Only one familiar at a time. Mistreatment or killing
   one's familiar can have serious repercussions.
 
-## Fist of Stone (R)
+## Fist of Stone (R) - Chaos
 
 **Range:** Caster
 
 **Duration:** 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 - **Strength:** Allows caster to use one hand as if having a strength of 18.
 
 - **Combat:** Bonuses apply only when using the stone fist.
 
-## Floating Disc (U)
+## Floating Disc (U) - Chaos
 
 **Range:** 60'
 
 **Duration:** 3 turns + 1 turn/level
 
-**Casting Time**: 1 round
+**Casting Time**: 1 segment
 
 The caster creates a floating disc of force:
 
@@ -2524,27 +2225,13 @@ The caster creates a floating disc of force:
 - **Movement:** Accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
-## Gaze Reflection (W)
-
-**Duration:** 2 rounds/level
-
-**Range:** Caster
-
-Creates a mirror-like shield that reflects gaze attacks:
-
-**Effect:** Reflects gaze attacks back at the attacker. The creature receives a saving throw vs their own gaze effect.
-    
-**Protection:** Shields the caster from petrification, charm, or other gaze-based effects.
-    
-**Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
-
-## Hold Portal (W)
+## Hold Portal (W) - Chaos
 
 **Range:** 60'
 
 **Duration:** 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Empowers the caster to magically secure an entryway:
 
@@ -2554,23 +2241,7 @@ Empowers the caster to magically secure an entryway:
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
-## Hypnotism (B)
-
-**Range:** 30'
-
-**Duration:** 1 round + 1 round/level
-
-**Casting Time:** 1 round
-
-Induces a hypnotic state in one or more creatures:
-
-**Effect:** Affects up to 2d4 hit dice of creatures.
-
-**Saving Throw:** Affected creatures receive a save to resist the spell.
-    
-**Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
-
-## Identify (U)
+## Identify (U) - Chaos
 
 **Range:** Touch
 
@@ -2591,13 +2262,13 @@ Allows the caster to discern the nature of magical items:
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
 
-## Lasting Breath (G)
+## Lasting Breath (G) - Chaos
 
 **Range**: Touch
 
 **Duration:** 1d4 rounds + 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Extends the duration one can hold their breath:
 
@@ -2610,13 +2281,13 @@ Extends the duration one can hold their breath:
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
 
-## Light (W) / Darkness (B)
+## Light (W) / Darkness (B) - Chaos
 
 **Range:** 120’
 
 **Duration:** 12 turns
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 This spell has three usages:
 
@@ -2626,7 +2297,7 @@ This spell has three usages:
 
 - **Blinding a creature:** By casting the spell upon its eyes. If the
   target fails a saving throw versus spells, it is blinded for the
-  duration. A blind creature cannot attack.
+  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 
@@ -2636,13 +2307,13 @@ Creates a 15’ radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-## Magic Missile (R)
+## Magic Missile (R) - Chaos
 
 **Range:** 180' + 30'/level
 
 **Duration:** Instant
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 **AoE:** 1 – 5 targets
 
@@ -2662,13 +2333,13 @@ Launches magical missiles that target and hit with precision:
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
 
-## Mending (W)
+## Mending (W) - Chaos
 
-Range: 90'
+**Range:** 90'
 
-Duration: Permanent
+**Duration:** Permanent
 
-Casting Time: 1 round
+**Casting Time:** 1 segment
 
 This spell repairs small breaks or tears in objects:
 
@@ -2680,13 +2351,13 @@ This spell repairs small breaks or tears in objects:
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
 
-## Message (U)
+## Message (U) - Chaos
 
-Range: 30' + 10'/level
+**Range:** 30' + 10'/level
 
-Duration: 5 rounds/level
+**Duration:** 5 rounds/level
 
-Casting Time: 1 round
+**Casting Time:** 1 segment
 
 Allows for long range communication through whispers:
 
@@ -2699,13 +2370,13 @@ Allows for long range communication through whispers:
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
 
-## Mount (G)
+## Mount (G) - Chaos
 
-Range: 30'
+**Range:** 30'
 
-Duration: 2 hours + 1 hour/level
+**Duration:** 2 hours + 1 hour/level
 
-Casting Time: 1 round
+**Casting Time:** 1 turn
 
 Summons a creature to serve as a mount.
 
@@ -2714,60 +2385,23 @@ Summons a creature to serve as a mount.
 
 **Types of Mounts by Level:**
 
-  - **1-3:** Mule/light horse
+  - 1-3: Mule/light horse
 
-  - **4-7:** Draft horse/war horse
+  - 4-7: Draft horse/war horse
 
-  - **8-12:** Camel
+  - 8-12: Camel
 
-  - **13-14:** Elephant
+  - 13-14: Elephant
 
-  - **15+:** Griffon
+  - 15+: Griffon
 
-## Pass Without Trace (U)
-
-**Range:** 60’
-
-**Duration:** 1 turn/level
-
-**Casting Time:** 1 round
-
-**AoE:** One unit up to 10 individuals
-
-Allows recipients to move across different terrains without leaving any
-footprints or scent:
-
-- **Magic Residue:** The area traversed by the affected creatures exudes
-  a magical aura for 1d6 turns after their passage.
-
-- **Untraceable:** Tracking any individual under this spell's effect
-  becomes impossible through conventional means.
-
-## Phantasmal Force (U)
-
-**Range:** 60'
-
-**Duration:** Special
-
-**AoE:** 400 sq. ft. + 100 sq. ft./level
-
-Creates an illusion that appears real to those who perceive it:
-
-**Effect:** Affects a 20-foot cube per level.
-
-**Disbelief:** Those who interact with the illusion may attempt a saving throw. Creatures that disbelieve the illusion see it for what it is and add +4 to associates' saving throws if this knowledge can be communicated effectively.
-
-**Limitations:** The illusion can include sound but not smell, texture, or temperature.
-
-**Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
-
-## Protection from Evil (W)
+## Protection from Evil (W) / Protection from Good (B) - Chaos
 
 **Range:** Caster
 
-**Duration:** 12 turns
+**Duration:** 2 rounds/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 This spell wards the caster from attacks by evil creature, as follows:
 
@@ -2783,33 +2417,17 @@ This spell wards the caster from attacks by evil creature, as follows:
   engages such a creature in melee, this protection is broken (the
   caster still gains the save and attack bonuses mentioned above).
 
-## Purify Food & Drink (G)
+### Reversed: Protection from Good
 
-**Duration:** Permanent
+Works similarly against good creatures.
 
-**Range:** 120’
+## Ray of Fatigue (B) - Chaos
 
-**Casting Time:** 1 round
-
-The spell enables the caster to cleanse consumables, ensuring them
-suitable to eat:
-
-- **Cleansing Effect:** Transforms spoiled, rotten, or contaminated food
-  and drink into fresh and safe consumables.
-
-- **Volume:** Up to 1 cubic foot of food and drink per caster level can
-  be purified.
-
-- **Preservation:** The spell cleanses, but does not protect against
-  future decay or spoilage.
-
-## Ray of Fatigue (B)
-
-**Range: 30'** + 15'/level
+**Range:** 30' + 15'/level
 
 **Duration:** 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Conjures a dark ray of exhaustion:
 
@@ -2828,17 +2446,17 @@ Conjures a dark ray of exhaustion:
   - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
-## Read Magic (U)
+## Read Magic (U) - Chaos
+
+**Range:** Caster
 
 **Duration:** 1 turn
 
-**Range:** The caster
-
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Allows the caster to decipher magical script or runes, as follows:
 
-- **Variants**: Read Chaos Magic, Read Law Magic, Read Phantasmal Magic.
+- **Variant**: Read Chaos Magic.
 
 - **Scrolls:** The magical script of a scroll of arcane spells can be
   understood. The caster is then able to activate the scroll at any time
@@ -2854,13 +2472,13 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-## Shield (W)
+## Shield (W) - Chaos
 
 **Range:** Caster
 
-**Duration:** 2 turns
+**Duration:** 5 rounds/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Conjures an invisible shield around the caster:
 
@@ -2868,15 +2486,15 @@ Conjures an invisible shield around the caster:
   ranged attacks and 15 for melee.
 
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
-  visible frontal threats.
+  visible frontal threats as well as negating Magic Missiles.
 
-## Sleep (G)
+## Sleep (G) - Chaos
 
 **Range:** 90'
 
 **Duration:** 5 rounds/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 **AoE:** Special
 
@@ -2890,13 +2508,13 @@ Induces a deep slumber on targets:
 
 - **Partial Effects:** Ignored. Least Hit Dice creatures affected first.
 
-## Spider Climb (R)
+## Spider Climb (R) - Chaos
 
 **Range:** Touch
 
 **Duration:** 3 rounds + 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Allows the recipient to climb like a spider:
 
@@ -2909,13 +2527,13 @@ and feet for this mobility.
 - **Unwilling Targets:** If targeted on unwilling beings, they get a
 saving throw vs. spell to resist.
 
-## Unseen Servant (U)
+## Unseen Servant (U) - Chaos
 
-**Range:** 0'
+**Range:** Caster
 
 **Duration:** 1 hour + hour/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 **AoE:** 30'
 
@@ -2930,13 +2548,13 @@ Summons a spectral helper:
 - **Vulnerabilities:** Can't fight and is dispelled after taking 6
   points of damage.
 
-## Ventriloquism (U)
+## Ventriloquism (U) - Chaos
 
 **Range:** 30'/level max 270'
 
 **Duration:** 4 rounds + 1 round/level
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 Allows the caster to project their voice or other sounds to a different
 location:
@@ -2949,31 +2567,15 @@ location:
 - **Source:** The sound can seem to come from another creature, behind a
   door, or other locales.
 
-## Wall of Fog (R)
+- **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-**Range:** 90'
-
-**Duration:** 2d4 rounds + 1 round/level
-
-**Casting Time:** 1
-
-**AoE:** 20-foot cube + 10-foot cube/level
-
-Creates a bank of misty vapor within the area of effect:
-
-**Visibility:** Beyond 2 feet: Total concealment (50% miss chance, attacks cannot use sight to locate the target). Within 2 feet: Concealment (20% miss chance).
-
-**Permanency:** Can be made permanent with a permanency spell.
-
-**Dissipation:** Moderate wind (11+ mph) disperses in spell duration. Strong wind (21+ mph) disperses it in 4 rounds. Dispersed instantly by fireball, gust of wind, or similar spells.
-
-## Wizard Mark (U)
+## Wizard Mark (U) - Chaos
 
 **Range:** Touch
 
 **Duration:** Permanent
 
-**Casting Time:** 1 round
+**Casting Time:** 1 segment
 
 This spell lets the caster inscribe a personal mark:
 
@@ -2985,6 +2587,606 @@ This spell lets the caster inscribe a personal mark:
 
 - **Removal:** Cannot be dispelled but can be removed by the original
   caster or an erase spell.
+
+# <span id=Illusionist-Spells> Illusionist Spells </span>
+
+## Alarm (W) - Illusion
+
+**Range:** 30'
+
+**Duration:** 4 hours + 1/level
+
+**Casting Time:** 1 round
+
+**AoE:** 20' cube
+
+Allows the caster to set a protective alarm, as follows:
+
+- **Detection:** Reacts to any creature larger than a standard rat entering or touching the designated area.
+
+- **Alarm Sound:** Any entity entering the guarded area without the correct password triggers a loud alarm, audible within 60 feet.
+
+- **Dismissal:** The caster can silence the alarm at any moment.
+
+## Audible Glamer (U) - Illusion
+
+**Range:** 60'
+
+**Duration:** 2 rounds/level
+
+**Casting Time:** 1 segment
+
+Creates an illusionary sound that can deceive others:
+
+- **Sound Creation:** Causes a volume of sound to arise at any desired distance within range and can make it seem to recede, approach, or remain fixed. Can create any type of sound such as talking, singing, shouting, walking, marching, or running.
+    
+- **Volume:** At 1st level, the sound volume is equivalent to four men or less. Each additional level of the caster  grants them an ability to create a maximum sound of four more men. Examples: A horde of rats (8 men), a roaring lion (16 men), a roaring dragon (24 men).
+    
+- **Disbelief:** If a character suspects the sound is an illusion, they can attempt a saving throw. A successful save results in hearing a faint, obviously false sound from the caster's direction.
+
+- **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
+
+## Change Self (U) - Illusion
+
+**Range:** Caster
+
+**Duration:** 2d6 rounds + 2 rounds/level
+
+**Casting Time:** 1 segment
+
+Grants the caster temporary appearance alteration:
+
+- **Shape-shifting:** Alter the caster’s appearance in build, clothes, features, etc. 
+
+- **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
+
+## Chromatic Orb (R) - Illusion
+
+**Range:** Caster
+
+**Duration:** Special
+
+**Casting Time:** 1 segment
+
+This spell creates a 4-inch-diameter sphere in the caster's hand, which can be hurled at a target up to 90' away. 
+The color of the orb determines its effects, as outlined below:
+
+**Accuracy:** 
+
+- **0 - 30':** +3 bonus to the attack roll. 
+- **30 - 60':** +2 bonus to the attack roll. 
+- **60 - 90':** +1 bonus to the attack roll. 
+
+- If the chromatic orb misses or the target succeeds on a saving throw, the orb dissipates without effect.
+
+**Damage and Effects:** The color of the orb determines the damage and special power it inflicts. The caster can choose an orb color based on their level, as follows:
+
+- **1st level - White:** Inflicts 1d4 damage. The target is surrounded by light for 1 round, causing a -4 penalty to attack rolls, saving throws, and AC on an unsuccessful save.
+
+- **2nd level - Red:** Inflicts 1d6 damage. The target suffers a loss of 1 Strength and 1 Dexterity for 1 round (-1 attack, -1 AC). Additionally, the orb can melt 1 cubic yard of ice.
+
+- **3rd level - Orange:** Inflicts 1d8 damage. All combustible materials within 3 feet of the target ignite.
+
+- **4th level - Yellow:** Inflicts 1d10 damage. The target is blinded for 1 round/level of the caster.
+
+- **5th level - Green:** Inflicts 1d12 damage. The target is surrounded by a stinking cloud (5-foot radius). A failed save vs. poison leaves the target reeling and unable to attack until they leave the area.
+
+- **6th level - Turquoise:** Inflicts 2d4 damage. If the target wears iron armor, it becomes magnetized for 3d4 rounds, attracting nearby iron objects.
+
+- **7th level - Blue:** Inflicts 2d8 damage. The target is paralyzed for 2d8+4 rounds (save for half duration).
+
+- **8th level - Violet:** The target is turned to stone (save vs. petrification to avoid this, instead becoming slowed for 2d4 rounds).
+
+- **9th level - Black:** The target is killed (save vs. death magic to avoid, if successful becomes paralyzed instead for 1d4+1 rounds).
+
+**Material Component:** A gem of the appropriate color or any diamond worth at least 50 gp is required to cast this spell.
+
+## Color Spray (W) - Illusion
+
+**Range:** 20'/level up to 240'
+
+**Duration:** Instant
+
+**Casting Time**: 1 segment
+
+**AoE:** 5' wide, 20' high wedge.
+
+Creates a vivid array of clashing colors that can blind or stun creatures:
+
+- **Targeting:** From one to six creatures (1d6) within the area are affected in order of increasing distance from the mage. All creatures above the level of the spellcaster and all those of 6th level or 6 Hit Dice or more are entitled to a saving throw. Blind or unseeing creatures are not affected by the spell. The exact number of creatures rolled or hit must be targeted.
+
+- **Effect:** Creatures whose Hit Dice or levels are less than or equal to the spellcaster's level, are struck unconscious for 2d4 rounds; those with Hit Dice or levels 1 or 2 greater than the wizard's level are blinded for 1d4 rounds; those with Hit Dice or levels 3 or more greater than that of the spellcaster are stunned (reeling and unable to think or act coherently) for one round. 
+
+## Dancing Lights (W) - Illusion
+
+**Range:** 120' + 30'/level
+
+**Duration:** 2 rounds/level
+
+**Casting Time**: 1 segment
+
+Creates up to four lights that resemble lanterns or torches:
+
+- **Movement:** Can be moved up to 100 feet per round without concentration.
+    
+- **Form:** Lights can appear as torches, lanterns, or will-o'-wisps.
+    
+- **Effect:** Provides light as a torch, but not real heat or fire.
+
+## Detect Illusion (U) - Illusion
+
+**Range:** Caster
+
+**Duration:** 5 rounds/level
+
+**Casting Time**: 1 segment
+
+**AoE:** 10' x 10'/level line
+
+Allows the caster to see through illusions within the area of effect:
+
+- **Effect:** Reveals the true nature of illusionary magic.
+
+- **Limitations:** Does not dispel illusions, only reveals them.
+
+## Detect Invisibility (U) - Illusion
+
+**Range:** Caster
+
+**Duration:** 5 rounds/level
+
+**Casting Time**: 2 segments
+
+**AoE:** 10' x 30'/level line
+
+Enables the caster to see invisible objects and creatures:
+
+- **Perception:** Reveals invisible creatures and objects.
+
+- **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
+
+## Gaze Reflection (W) - Illusion
+
+**Range:** Caster
+
+**Duration:** 2 rounds/level
+
+**Casting Time:** 1 segment
+
+Creates a mirror-like shield that reflects gaze attacks:
+
+- **Effect:** Reflects gaze attacks back at the attacker. The creature receives a saving throw vs their own gaze effect.
+    
+- **Protection:** Shields the caster from petrification, charm, or other gaze-based effects.
+    
+- **Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
+
+## Hypnotism (B) - Illusion
+
+**Range:** 15'
+
+**Duration:** 1 round + 1 round/level
+
+**Casting Time:** 1 segment
+
+Induces a hypnotic state in one or more creatures:
+
+- **Effect:** Affects up to 2d4 hit dice of creatures.
+
+- **Saving Throw:** Affected creatures receive a save to resist the spell.
+    
+- **Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
+
+## Phantasmal Force (U) - Illusion
+
+**Range:** 60'
+
+**Duration:** Special
+
+**Casting Time:** 1 segment
+
+**AoE:** 400 sq. ft. + 100 sq. ft./level
+
+Creates an illusion that appears real to those who perceive it:
+
+- **Effect:** Affects a 20-foot cube per level.
+
+- **Disbelief:** Those who interact with the illusion may attempt a saving throw. Creatures that disbelieve the illusion see it for what it is and add +4 to associates' saving throws if this knowledge can be communicated effectively.
+
+- **Limitations:** The illusion can include sound but not smell, texture, or temperature.
+
+- **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
+
+## Read Magic (U) - Illusion
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+**Casting Time:** 1 segment
+
+Allows the caster to decipher magical script or runes, as follows:
+
+- **Variant**: Read Illusion Magic.
+
+- **Scrolls:** The magical script of a scroll of arcane spells can be
+  understood. The caster is then able to activate the scroll at any time
+  in the future.
+
+- **Spell books:** A spell book written by another arcane spell caster
+  can be deciphered.
+
+- **Inscriptions:** Runes or magical words inscribed on an object or
+  surface can be understood.
+
+- **Reading again:** Once the caster has used this spell to decipher a
+  magical inscription, they can always understand that script again
+  without read magic.
+
+## Ventriloquism (U) - Illusion
+
+**Range:** 30'/level max 270'
+
+**Duration:** 4 rounds + 1 round/level
+
+**Casting Time:** 1 segment
+
+Allows the caster to project their voice or other sounds to a different
+location:
+
+- **Mimicry:** Can replicate another's voice or any sound they know.
+
+- **Language:** The caster can speak any language they are familiar
+  with.
+
+- **Source:** The sound can seem to come from another creature, behind a
+  door, or other locales.
+
+- **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
+
+## Wall of Fog (R) - Illusion
+
+**Range:** 90'
+
+**Duration:** 2d4 rounds + 1 round/level
+
+**Casting Time:** 1 segment
+
+**AoE:** 20-foot cube + 10-foot cube/level
+
+Creates a bank of misty vapor within the area of effect:
+
+- **Visibility:** Beyond 2 feet: Total concealment (50% miss chance, attacks cannot use sight to locate the target). Within 2 feet: Concealment (20% miss chance).
+
+- **Permanency:** Can be made permanent with a permanency spell.
+
+- **Dissipation:** Moderate wind (11+ mph) disperses in spell duration. Strong wind (21+ mph) disperses it in 4 rounds. Dispersed instantly by fireball, gust of wind, or similar spells.
+
+# <span id=Law-Mage-Spells> Law Mage Spells </span>
+
+## Animal Friendship (G) - Law
+
+**Range:** 30’
+
+**Duration:** Permanent
+
+**Casting Time:** 1 hour
+
+- **Initial Reaction:** If the animal does not succeed in its saving
+  throw against the spell at its onset, it remains calm while the spell
+  completes. After this, the animal follows the caster willingly.
+
+- **Capacity:** The caster can use this magic to befriend animals with
+  up to 2 Hit Dice per their experience level. This is also the maximum
+  total Hit Dice of animals that can be befriended at a single instance,
+  capped at twice the caster's experience level.
+
+- **Restrictions:** Only unaligned animals can be affected by this
+  spell.
+
+## Bless (W) / Curse (B) - Law
+
+**Range:** 60’
+
+**Duration:** 6 rounds
+
+**Casting Time:** 1 round
+
+**AoE:** 20' cube
+
+May be used in one of two situations:
+
+- **Battle:** Allies within a 20' squared area who are not yet in melee
+  gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
+
+- **Ritual:** Casting bless may also form part of rituals of
+  purification or consecration, at the referee’s discretion.
+
+### Reversed: Curse
+
+Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
+enemies instead. A save versus spells is allowed to resist the blight.
+
+## Calm Animals (G) - Law
+
+**Range:** 120'
+
+**Duration:** 1 turn + 1 turn/level
+
+**Casting Time:** 4 segments
+
+**AoE:** Special
+
+Allows the caster to pacify and make tranquil wild creatures, as
+detailed:
+
+- **Soothing Effect:** Renders normal animals docile and non-threatening.
+  The spellcaster can affect 2d4 Hit Dice of animals, with an additional
+  1 Hit Die per caster level. Animals affected by this spell don't get a
+  saving throw unless they possess magical abilities or are evidently
+  not entirely natural.
+
+- **Specific Species:** All animals affected must belong to the same
+  species, and all must be within the spell's range.
+
+
+
+## Command (B) - Law
+
+**Range:** 90’
+
+**Duration:** 1 turn
+
+**Casting Time**: 1 segment
+
+The caster issues a command of a single word to a single human,
+demihuman, or human-like monster, as follows:
+
+- **Commands:** If they share a language, the caster may give a command
+  like "flee", "stop", etc, which they will obey.
+
+- **Suicidal Commands:** Causes the creature to faint for the duration.
+
+- **MIND 13+ and/or 6+ HD:** May save versus spells to avoid command.
+
+- **Restrictions:** Undead are not affected.
+
+## Courage (R) - Law
+
+**Range:** 120’
+
+**Duration:** Special
+
+**Casting Time**: 1 turn
+
+**AoE:** One unit up to 200 individuals
+
+This spell imbues the target unit with a temporary burst of courage.
+
+- **Morale Boost:** The targeted unit, consisting of up to 200
+  individuals, receives a boost of confidence. In situations that would
+  typically require a morale check, the unit automatically succeeds
+  without a dice roll.
+
+- **Spell Termination:** After the unit succeeds in the morale situation
+  due to this spell, the magical effect ceases. From then on, they must
+  perform all morale checks as usual.
+
+## Cure Light Wounds (W) / Cause Light Wounds (B) - Law
+
+**Range:** Touch
+
+**Duration:** Instant
+
+**Casting Time**: 5 segments
+
+This spell has two usages:
+
+- **Healing a living subject:** Restores 1d6+1 hit points of damage.
+  This cannot raise the subject’s hit points above their normal maximum.
+
+- **Curing paralysis:** Paralysing effects are negated.
+
+### Reversed: Cause Light Wounds
+
+Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
+melee attack roll is required.
+
+## Detect Evil (U) - Law
+
+**Range:** Caster
+
+**Duration:** 6 turns
+
+**Casting Time**: 1 round
+
+**AoE:** 10' x 180'
+
+Objects under an evil enchantment and living beings with evil intentions
+are caused to magically glow:
+
+- **Intent only:** The caster cannot read the thoughts of creatures with
+  evil intent.
+
+- **Definition of evil:** The referee must judge what is classified as
+  evil. Beings of chaotic alignment do not always have evil intent.
+  Traps and poisons, while potentially harmful, are not evil.
+
+## Detect Magic (U) - Law
+
+**Range:** Caster
+
+**Duration:** 2 turns
+
+**Casting Time**: 1 round
+
+**AoE:** 10' wide x 60' line
+
+Empowers the spellcaster to perceive magical presences, as outlined:
+
+- **Magical Illumination:** Objects, areas, or beings imbued with magic radiate a distinct glow.
+
+- **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
+
+## Endure Cold & Heat (G) - Law
+
+**Range:** Touch
+
+**Duration:** 1 hour/level
+
+**Casting Time:** 1 round
+
+Bestows a creature with resistance to extreme temperatures, as follows:
+
+- **Thermal Protection:** The recipient is shielded from temperature
+  extremes ranging from -35°C to 55°C.
+
+- **Beyond Limits:** For temperatures outside these boundaries, the
+  protected creature takes 1 damage point for every hour exposed for
+  each degree past the limit.
+
+## Pass Without Trace (U) - Law
+
+**Range:** 60’
+
+**Duration:** 1 turn/level
+
+**Casting Time:** 1 round
+
+**AoE:** One unit up to 10 individuals
+
+Allows recipients to move across different terrains without leaving any
+footprints or scent:
+
+- **Magic Residue:** The area traversed by the affected creatures exudes
+  a magical aura for 1d6 turns after their passage.
+
+- **Untraceable:** Tracking any individual under this spell's effect
+  becomes impossible through conventional means.
+
+## Purify Food & Drink (G) / Putrefy Food & Drink (B) - Law
+
+**Duration:** Permanent
+
+**Range:** 90'
+
+**Casting Time:** 1 round
+
+The spell enables the caster to cleanse consumables, ensuring them
+suitable to eat:
+
+- **Cleansing Effect:** Transforms spoiled, rotten, or contaminated food
+  and drink into fresh and safe consumables.
+
+- **Volume:** Up to 1 cubic foot of food and drink per caster level can
+  be purified.
+
+- **Preservation:** The spell cleanses, but does not protect against
+  future decay or spoilage.
+
+  ### Reversed: Putrefy Food & Drink
+
+The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
+
+## Protection from Evil (W) / Protection from Good (B) - Law
+
+**Range:** Caster
+
+**Duration:** 2 rounds/level
+
+**Casting Time:** 4 segments
+
+This spell wards the caster from attacks by evil creature, as follows:
+
+- **Bonuses:** The caster gains a +1 bonus to saving throws against
+  attacks or special abilities of affected creatures.
+
+- **Affected creatures’ attacks:** Against the caster are penalised by
+  -1.
+
+- **Enchanted, constructed, or summoned creatures:** The spell
+  additionally prevents such creatures from attacking the caster in
+  melee, though they may still make ranged attacks. If the caster
+  engages such a creature in melee, this protection is broken (the
+  caster still gains the save and attack bonuses mentioned above).
+
+### Reversed: Protection from Good
+
+Works similarly against good creatures.
+
+## Light (W) / Darkness (B) - Law
+
+**Range:** 120’
+
+**Duration:** 12 turns
+
+**Casting Time:** 4 segments
+
+This spell has three usages:
+
+- **Conjuring light:** In a 15’ radius. The magical light is sufficient
+  for reading, but is not as bright as daylight. The spell may be cast
+  upon an object, in which case the light moves with the object.
+
+- **Blinding a creature:** By casting the spell upon its eyes. If the
+  target fails a saving throw versus spells, it is blinded for the
+  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
+
+- **Cancelling darkness:** Light may cancel a darkness spell.
+
+### Reversed: Darkness
+
+Creates a 15’ radius area of magical blackness, preventing normal sight.
+Like light, it may alternatively be used to blind creatures or to dispel
+a light spell.
+
+## Read Magic (U) - Law
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+**Casting Time:** 1 segment
+
+Allows the caster to decipher magical script or runes, as follows:
+
+- **Variant**: Read Law Magic.
+
+- **Scrolls:** The magical script of a scroll of arcane spells can be
+  understood. The caster is then able to activate the scroll at any time
+  in the future.
+
+- **Spell books:** A spell book written by another arcane spell caster
+  can be deciphered.
+
+- **Inscriptions:** Runes or magical words inscribed on an object or
+  surface can be understood.
+
+- **Reading again:** Once the caster has used this spell to decipher a
+  magical inscription, they can always understand that script again
+  without read magic.
+
+
+## Remove Fear (W) / Cause Fear (B) - Law
+
+**Range:** 30'
+
+**Duration:** Special
+
+**Casting Time:** 1 segment
+
+**AoE:** 1 creature/4 levels
+
+The mage casting this spell instills courage in the spell recipient, raising the creature's saving throw rolls against magical fear attacks by +4 for one turn. If the recipient has recently (that day) failed a saving throw against such an attack, the spell immediately grants another saving throw, with a +4 bonus to the die roll.
+
+### Reversed: Cause Fear
+
+Inflicts intense dread upon a target, as described:
+
+- **Inducing Terror:** Forces a target to run in fear for 1d4 rounds.
+
+- **Resistance:** Targets have a chance to resist this effect by
+  succeeding on a save. Neither spell has any effect on undead of any sort. 
 
 # <span id=Sources> Sources </span>
 
