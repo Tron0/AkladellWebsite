@@ -10,7 +10,7 @@
 
 2.  **Determine ability scores**
 
-> Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Mind and Charisma.
+> Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma.
 
 3.  **Swap one pair of ability scores**
 
@@ -58,7 +58,7 @@
 ## Rolling Ability Scores 
 
 4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
-Dexterity, Constitution, Mind and Charisma. After rolling for stats, you
+Dexterity, Constitution, Intelligence, Wisdom and Charisma. After rolling for stats, you
 may swap two ability scores with each other, once.
 
 ## Starting Hit Points
@@ -73,15 +73,15 @@ The starting age of your character is determined up to you. The table
 below determines the ability score bonuses or penalties your character
 is given based on life stage.
 
-The effects of aging below indicate the total amount of ability score changes given for each age.
+The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modifidy ability scores accordingly, making each change progressively from young adulthood, all aditions and subtractions being cumulative.
 
-| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Mind** |
-|-----------------|--------------|---------------|------------------|----------|
-| **Young**       |     +0       |     +0        |       +1         |    +0    |
-| **Mature**      |     +1       |     -1        |       +1         |    +0    |
-| **Middle Aged** |     +0       |     -1        |       +0         |    +1    |
-| **Old**         |     -1       |     -2        |       -1         |    +2    |
-| **Venerable**   |     -2       |     -3        |       -2         |    +2    |
+| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Intelligence** | **Wisdom** | **Charisma** |
+|-----------------|--------------|---------------|------------------|------------------|------------|--------------|
+| **Young Adult** |     +0       |     +0        |       +1         |    +0            | -1         | +0
+| **Mature**      |     +1       |     +0        |       +0         |    +0            | +1         | +0
+| **Middle Aged** |     -1       |     +0        |       -1         |    +1            | +1         | +0
+| **Old**         |     -2       |     -2        |       -1         |    +0            | +1         | +0 
+| **Venerable**   |     -1       |     -1        |       -1         |    +1            | +1         | +0
 
 ## Age by Race
 
@@ -330,7 +330,7 @@ when taking an attack action instead of once.
 
 ## <span id=Inquisitor> Inquisitor </span>
 
-**Minimum Requirement:** 13+ Strength, +9 Constitution, +13 Mind, +17
+**Minimum Requirement:** 13+ Strength, +9 Constitution, +9 Intelligence, +13 Wisdom, +17
 Charisma
 
 **Prime Attribute:** Strength, 16+ (+5% experience bonus)
@@ -538,9 +538,9 @@ would be considered Tinkering.
 
 ## <span id=Law-Mage> Law Mage </span>
 
-**Minimum Requirement:** 9+ Mind
+**Minimum Requirement:** 9+ Wisdom
 
-**Prime Attribute:** Mind, 13+ (+5% experience bonus)
+**Prime Attribute:** Wisdom, 13+ (+5% experience bonus)
 
 **Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level)
 
@@ -550,7 +550,7 @@ would be considered Tinkering.
 
 **Alignment:** Law Mages are of Lawful alignment.
 
-| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
+| **Wisdom Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
 |----------------|---------------------|-----------------------------------------------------|
 | 3 - 7          | 2                   | 2/4                                                 |
 | 8              | 3                   | 2/4                                                 |
@@ -625,9 +625,10 @@ spellbook until the Mage has successfully learned the initial set.
 
 ## <span id=Chaos-Mage> Chaos Mage </span>
 
-**Minimum Requirement:** 9+ Mind
+**Minimum Requirement:** 9+ Intelligence
 
-**Prime Attribute:** Mind, 13+ (+5% experience bonus)  
+**Prime Attribute:** Intelligence, 13+ (+5% experience bonus)
+
 **Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
 
 **Armor/Shield Permitted**: None
@@ -636,7 +637,7 @@ spellbook until the Mage has successfully learned the initial set.
 
 **Alignment:** Chaos Mages are of Chaotic alignment.
 
-| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
 | 3 - 7          | 4                   | 2/4                                                 | 2                              |
 | 8              | 5                   | 3/5                                                 | 2                              |
@@ -698,9 +699,9 @@ be used as many times as the Mage would like.
 
 ## <span id=Illusionist> Illusionist </span>
 
-**Minimum Requirement:** 13+ Mind, 16+ Dex
+**Minimum Requirement:** 13+ Intelligence, 16+ Dex
 
-**Prime Attribute:** Mind, 16+ (+5% experience bonus)  
+**Prime Attribute:** Intelligence, 16+ (+5% experience bonus)  
 
 **Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
 
@@ -710,7 +711,7 @@ be used as many times as the Mage would like.
 
 **Alignment:** Illusionists are of Chaotic alignment.
 
-| **Mind Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
 | 3 - 7          | 2                   | 2/4                                                 | 2                              |
 | 8              | 3                   | 3/5                                                 | 2                              |
@@ -1020,7 +1021,7 @@ a certain number of rounds.
 
 When a character faces events of bloodshed or unspeakable horror, a saving throw is made. Failing this saving throw will cause damage to the character’s psyche, tracked as insanity points. 
 
-Insanity starts at a score of 0 unless specified otherwise. If a character's insanity ever exceeds their maximum threshold, they are permanently retired from play. The total insanity threshold of a character is 90 + Mind. Insanity cannot be healed naturally. 
+Insanity starts at a score of 0 unless specified otherwise. If a character's insanity ever exceeds their maximum threshold, they are permanently retired from play. The total insanity threshold of a character is 90 + Intelligence. Insanity cannot be healed naturally. 
 
 Insanity may only be reduced in one of two ways: 
 - Upon gaining a level, reduce Insanity by 10 points. 
@@ -1187,7 +1188,7 @@ spells which they can add to their spellbook. Not all spells can be
 learned instantaneously – the complexity of a spell and the mage's
 current level affect their ability to comprehend and learn new magic.
 When gaining a new level, a spellcaster may reroll previously not
-[<u>understood</u>](#mind) spells from their spellbook.
+[<u>understood</u>](#Intelligence) spells from their spellbook.
 
 ## <span id=Spell-Copying> Spell Copying </span>
 
@@ -1217,7 +1218,7 @@ spends 9 mana.
 
 The amount of mana available to spend is based on your level as a
 spellcaster, as shown in the Mana Progression table below. Your level
-and [<u>Mind</u>](#mind) also determines the maximum level spell you can
+and spellcasting attribute (wisdom/intelligence) also determines the maximum level spell you can
 cast. Even though you might have enough mana to cast a spell above this
 maximum, you can't do so.
 
@@ -1307,15 +1308,15 @@ frequently. After the next rest, the Law Mage could adjust this to 1W,
 
 # <span id=Psionics> Psionics </span>
 
-Every character with a high enough Mind and or Charisma gets to roll to
-see if they possess mind powers known as psionics. The table columns are
+Every character with a high enough Intelligence and or Charisma gets to roll to
+see if they possess Intelligence powers known as psionics. The table columns are
 cumulative. A character with a score of 18 in both abilities would have
 a 12% chance of being psionic. Any number of powers available can be
 used in combination each day.
 
 Consult the following table:
 
-| **Ability Score** | **% for Mind** | **% for Charisma** | **Amount of Powers** |
+| **Ability Score** | **% for Intelligence** | **% for Charisma** | **Amount of Powers** |
 |-------------------|----------------|--------------------|----------------------|
 | 15                | 1.5%           | 1.5%               | 1d3                  |
 | 16                | 3%             | 3%                 | 1d4                  |
@@ -2986,7 +2987,7 @@ demihuman, or human-like monster, as follows:
 
 - **Suicidal Commands:** Causes the creature to faint for the duration.
 
-- **MIND 13+ and/or 6+ HD:** May save versus spells to avoid command.
+- **Intelligence 13+ and/or 6+ HD:** May save versus spells to avoid command.
 
 - **Restrictions:** Undead are not affected.
 
