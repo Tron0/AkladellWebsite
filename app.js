@@ -56,13 +56,16 @@ function loadUpdatePost()
         - Changed languages to spoken languages & literacy (Intelligence) 
         - Added magic saving throw modifier (Magic Saves, Wisdom)
         - Added Spell Bonus (Wisdom)
-        - Added Spell Fizzling between casters
-        - Added Weapon Speed Factor
+        - Added Spell Fizzling between casters (Wisdom)
+        - Added Reaction Modifiers (Charisma)
+        - Added Weapon Speed Factors
 
         - Removed Slow weapon keyword (not needed when using Weapon Speed Factor)
+
+        The character sheet has also been updated <a href="https://docs.google.com/spreadsheets/d/1XlUl6O1_ymb5VPnOyDb6dPRgYk0ry6mivazzenZiKyA/edit?usp=sharing" target="_blank"><u>HERE</u></a>
         
         `,
-        date: "2024-08-14 21:23 CET" 
+        date: "2024-08-14 21:37 CET" 
     },
 
     { 
