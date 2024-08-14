@@ -40,6 +40,32 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Segment Combat + Wisdom',
+        content: `After almost a year of using a basic group combat system without structured phases or segments, we're going with the OSRIC AD&D retroclone interpretation. It adds a little more crunch but a greater depth, especially in spellcasting. 
+        
+        In other news I also decided to go back to the standard 6 ability score structure by splitting MIND and adding Intelligence and Wisdom. The reason for this is because having both INT & WIS as one score is very risky and can easily cripple some casters if their score gets lowered, which is surprisingly common in some cases.
+
+        Because I run a "godless" setting where magic works similarly from spellbooks between Law & Chaos, having MIND can be more justified. But this game changes constantly and I thought going back now after awhile was in general just a fun experiment.
+        
+        With that said, Wisdom is not totally useless. You can get some magic resist modifiers, a bonus spell, and spell fizzling shared between classes, which is always fun.
+
+        Changes:
+
+        - Added OSRIC combat
+        - Split MIND into Intelligence & Wisdom
+        - Changed languages to spoken languages & literacy (Intelligence) 
+        - Added magic saving throw modifier (Magic Saves, Wisdom)
+        - Added Spell Bonus (Wisdom)
+        - Added Spell Fizzling between casters
+        - Added Weapon Speed Factor
+
+        - Removed Slow weapon keyword (not needed when using Weapon Speed Factor)
+        
+        `,
+        date: "2024-08-14 21:23 CET" 
+    },
+
+    { 
         title: 'Illusionist',
         content: `The Illusionist class, including spells from the new S&W supplement as well as the "declaration" part of the combat system is now added to the website. I might use the segment system from AD&D as well in the future. But this will do for now.
         
@@ -50,7 +76,7 @@ function loadUpdatePost()
         - Added Illusionist class
         - Added phases to combat rounds
         - Added Read Magic variants for spellcasters. This includes; Read Chaos Magic (Chaos Mage), Read Law Magic (Law Mage), Read Illusion Magic (Illusionist)
-        - Added new weapon keyword from OSE, "slow", although only relevant during ties.
+        - Added new weapon keyword from OSE, "slow", although only relevant during ties
         - Added "Hall of the Dead"
 
         - Changed the initiative description

@@ -207,40 +207,60 @@ Bows only grant dexterity bonuses.
 | 9 - 12    | +0                                   | 75%                     |
 | 13 - 18   | +1                                   | 95%                     |
 
-## Mind
+## Intelligence
 
-| **Score** | **Maximum Additional Languages** | **Search** | **Chance to Understand New Spell\*** |
-|-----------|----------------------------------|------------|--------------------------------------|
-| 3 - 7     | —                                | —          | 30%                                  |
-| 8         | —                                | 1 / 6      | 40%                                  |
-| 9         | —                                | 1 / 6      | 45%                                  |
-| 10        | 1                                | 1 / 6      | 50%                                  |
-| 11        | 1                                | 1 / 6      | 50%                                  |
-| 12        | 1                                | 1 / 6      | 55%                                  |
-| 13        | 2                                | 1 / 6      | 65%                                  |
-| 14        | 2                                | 1 / 6      | 65%                                  |
-| 15        | 3                                | 2 / 6      | 75%                                  |
-| 16        | 3                                | 2 / 6      | 75%                                  |
-| 17        | 3                                | 2 / 6      | 85%                                  |
-| 18        | 4                                | 2 / 6      | 95%                                  |
+| **Score** | **Spoken Languages**     | **Literacy** |**Search** | **Chance to Understand New Chaos Spell\*** |
+|-----------|--------------------------|--------------|-----------|--------------------------------------|
+| 3 - 7     | Native (broken speech)   | Illiterate   | —         | 30%                                  |
+| 8         | Native                   | Basic        | 1 / 6     | 40%                                  |
+| 9         | Native                   | Literate     | 1 / 6     | 45%                                  |
+| 10        | Native                   | Literate     | 1 / 6     | 50%                                  |
+| 11        | Native                   | Literate     | 1 / 6     | 50%                                  |
+| 12        | Native                   | Literate     | 1 / 6     | 55%                                  |
+| 13        | Native + 1 additional    | Literate     | 1 / 6     | 65%                                  |
+| 14        | Native + 1 additional    | Literate     | 1 / 6     | 65%                                  |
+| 15        | Native + 1 additional    | Literate     | 2 / 6     | 75%                                  |
+| 16        | Native + 2 additional    | Literate     | 2 / 6     | 75%                                  |
+| 17        | Native + 2 additional    | Literate     | 2 / 6     | 85%                                  |
+| 18        | Native + 3 additional    | Literate     | 2 / 6     | 95%                                  |
 
-\*For Spellcasters ([<u>Law Mages</u>](#Law-Mage), [<u>Chaos
-Mages</u>](#Chaos-Mage))
+\*For [<u>Chaos Mages</u>](#Chaos-Mage)
 
-Any character with a Mind score of 13 or more receives a bonus of 5%
+Any character with a Intelligence score of 13 or more receives a bonus of 5%
 more XP.
+
+## Wisdom
+
+| **Score** | **Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand New Law Spell\*** |
+|-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
+| 3 - 5     | -3              | -                        | 20%                         | 30%
+| 6         | -2              | -                        | 10%                         | 30%
+| 7         | -2              | -                        | 5%                          | 30%
+| 8         | -1              | -                        | 1%                          | 40%
+| 9         | -1              | -                        | 0%                          | 45%
+| 10        | +0              | -                        | 0%                          | 50%
+| 11        | +0              | -                        | 0%                          | 50%
+| 12        | +0              | -                        | 0%                          | 55%
+| 13        | +1              | -                        | 0%                          | 65%
+| 14        | +1              | -                        | 0%                          | 65%
+| 15        | +1              | One 1st level            | 0%                          | 75%
+| 16        | +2              | One 2nd level            | 0%                          | 75%
+| 17        | +2              | One 3rd level            | 0%                          | 85%
+| 18        | +3              | One 3rd level            | 0%                          | 95%
+
+\*For [<u>Law Mages</u>](#Law-Mage)
 
 ## Charisma
 
-| **Score** | **Maximum Number of Henchman** | **Retainer Loyalty** |
-|-----------|--------------------------------|----------------------|
-| 3 - 4     | 1                              | 4                    |
-| 5 - 6     | 1                              | 5                    |
-| 7 - 8     | 1                              | 6                    |
-| 9 - 12    | 2                              | 7                    |
-| 13 - 15   | 3                              | 8                    |
-| 16 - 17   | 4                              | 9                    |
-| 18        | 5                              | 10                   |
+| **Score** | **Maximum Number of Henchman** | **Retainer Loyalty** | **Reaction Modifier** |
+|-----------|--------------------------------|----------------------|-----------------------|
+| 3 - 4     | 1                              | 4                    | -2
+| 5 - 6     | 1                              | 5                    | -1
+| 7 - 8     | 1                              | 6                    | -1
+| 9 - 12    | 2                              | 7                    | +0
+| 13 - 15   | 3                              | 8                    | +1
+| 16 - 17   | 4                              | 9                    | +1
+| 18        | 5                              | 10                   | +2
 
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
@@ -865,7 +885,7 @@ Player characters pay an amount of gold per month equal to 1% of their total XP.
 
 ## Initiative
 
-At the beginning of each round, all groups (the player characters and the Dungeon Master's adversaries) will declare their order of action as a collective. A representative from each group, typically the party leader or a designated player, will roll a 1d6 for the player characters. The Dungeon Master will do the same for their creatures or NPCs. The group with the higher roll acts first. In case of a tie, combat takes place simultaneously. When both groups have completed their actions, Initiative is rerolled.
+After any surprise segments are resolved and actions are declared, the first combat round begins. At the beginning of a combat round, each side rolls initiative on a d6. The roll represents the six second segment of the round in which the OTHER group will be able to act; hence, the higher roll is the better roll (as the other party will act later). If the party rolls a 6 for initiative, and the monsters roll a 1, this means that the party will be acting in segment 1, and the monsters will not act until the sixth segment of the 10-segment round. Since a combat round is 10 segments long, and the initiative roll only covers the first six segments of the round, there are four remaining segments in the round after the two sides have already taken their actions: these remaining four segments are still important because spells may take effect during this time, and some combatants might “hold” (choose to delay) their actions, waiting to act until these later segments. 
 
 ## Armor Class
 
@@ -878,7 +898,7 @@ target, the final result must equal or surpass the defender's AC.
 ## Surprise
 <img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
 
-In situations where surprise might occur, each character must check for their state of awareness. For example, a character sneaking up on a guard would trigger a surprise for the guard alone. Whereas the party entering a room with goblins would trigger a surprise for everyone. Every character checks for surprise by rolling a 1d6. If the result is a 1 or 2, that character is surprised. This is modified by [<u>Dexterity</u>](#dexterity) and a result of 1 is always regarded as the creature being surprised.   If a character is surprised, that character does not get to act during the first round of combat. Being aware of potential threats, like hearing noises or spotting tracks can prevent a character from being surprised or improve their chances on the d6. In situations where multiple parties encounter each other, it's possible for members from both sides to be surprised or not, leading to varied creatures that do get to act in the first round of combat based on individual rolls.
+Surprise is checked only once per combat, at the beginning of an encounter. Each side rolls a d6. If the result is a 1, the group is surprised for one segment. If the result is a 2, the group is surprised for two segments. If the result is a 3-6, the group is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round. 
 
 ## Critical Hits
 
@@ -1544,8 +1564,6 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 - **Heavy**: This weapon requires 10+ Strength to wield properly. If a character under 10 Strength uses it to attack, both the To-Hit and damage roll is penalized equal to the difference. For example, a character with 8 strength would get -2 to damage and To-Hit.
 
-- **Slow**: The character acts last in the combat round when tied for initiative.
-
 ## <span id=Melee-Weapons> Melee Weapons </span>
 
 **Axes**
@@ -1554,7 +1572,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |-----------|----------|------------|----------|---------------|------------|----------|------------------|
 | Hand Axe  | S        | 1d6        | 4 GP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.| 1 | Slashing | 4 |
 | Battle Axe | M | 1d8        | 7 GP     | A large, double-edged axe crafted for combat. | 1 | Slashing | 7 |
-| Great Axe | L  | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy**, **Slow** | 2 | Slashing | 9 |
+| Great Axe | L  | 1d10       | 14 GP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy** | 2 | Slashing | 9 |
 | Pickaxe (Military Pick)  | S        | 1d6        | 6 GP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor. | 1 | Piercing | 5 |
 | Mattock (Footman's Pick) | M        | 1d8        | 8 GP     | A versatile battlefield tool with a blade on one side and a pick on the other. Can be utilized for basic excavation tasks.                                       | 1          | Piercing | 7 |
 
@@ -1572,8 +1590,8 @@ will most likely require a saving throw to avoid madness and/or horror.
 |------------|----------|------------|----------|-----------------|------------|----------|------------------|
 | Shortsword / Cutlass | S | 1d6   | 6 GP     | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing | 3 |
 | Longsword / Scimitar | M | 1d8   | 10 GP    | A balanced, medium sized and versatile weapon. | 1 | Slashing | 5 |
-| Claymore             | L | 1d10  | 25 GP    | A large sword, designed for powerful swings and longer reach. Its size demands respect. **Slow** | 1  | Slashing | 8 |
-| Zweihänder           | L | 1d12  | 50 GP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield  effectively. **Heavy**, **Slow** | 1 | Slashing | 10 |
+| Claymore             | L | 1d10  | 25 GP    | A large sword, designed for powerful swings and longer reach. Its size demands respect. | 1  | Slashing | 8 |
+| Zweihänder           | L | 1d12  | 50 GP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield  effectively. **Heavy** | 1 | Slashing | 10 |
 
 **Hammers & Maces**
 
@@ -1584,7 +1602,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Mace              | M        | 1d8        | 6 GP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                                                         | 1          | Bludgeoning | 6 
 | Morningstar       | M        | 1d8        | 6 GP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                                                 | 1          | Piercing | 7 
 | Maul / Great Mace | L        | 1d10       | 10 GP    | Requiring two hands, the massive mace head can easily shatter shields and armor. **Heavy**                                                                                                     | 2          | Bludgeoning | 9 |
-| Greathammer       | L        | 1d12       | 35 GP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy**,  **Slow** | 2          | Bludgeoning | 11 |
+| Greathammer       | L        | 1d12       | 35 GP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning | 11 |
 
 **Spears & Polearms**
 
@@ -1595,7 +1613,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Spear, Two-handed | L        | 1d8        | 5 GP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 1          | Piercing        | 6 |
 | Lance             | L        | 1d8        | 10 GP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          | Piercing        | 7 |
 | Quarterstaff      | M        | 1d6        | 2 GP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          | Bludgeoning     | 4 |
-| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach**, **Slow** | 2          | Piercing/Slashing | 9 |
+| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
 
 **Flails**
 
@@ -1611,7 +1629,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Whip                      | M        | 1d3/1d6    | 3 GP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes. **Reach**             | 1          | Slashing | 7 |
 | Club / Walking Staff      | M        | 1d4        | 2 CP     | Simple yet effective, this wooden weapon can deliver solid blows in combat.                                                                | 1          | Bludgeoning | 2 |
 | Silver Walking Staff      | M        | 1d4        | 4 GP     | A walking staff adorned with silver details.                                                                                               | 1          | Bludgeoning | 2 |
-| Greatclub                 | L        | 1d8        | 3 GP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy**, **Slow** | 2          | Bludgeoning | 8 |
+| Greatclub                 | L        | 1d8        | 3 GP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy** | 2          | Bludgeoning | 8 |
 | Hook                      | S        | 1d4        | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful.             | 1          | Piercing | 3 |
 | Sickle                    | S        | 1d6        | 2 GP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.                             | 1          | Slashing | 3 |
 | Scythe                    | L        | 1d8        | 5 GP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent.                   | 2          | Slashing |
@@ -1635,7 +1653,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60ft      |
 | Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑            |          |           | Piercing
 | Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑            |          |           | Piercing
-| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy**, **Slow**. | 2          | ☐             | 1/2      | 80ft      |
+| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy** | 2          | ☐             | 1/2      | 80ft      |
 | Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑            |          |           | Piercing
 | Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑            |          |           | Piercing
 | Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 30ft      |
@@ -3220,6 +3238,8 @@ Dungeons & Dragons (AD&D)
 Carcosa and Specialist, [<u>Lamentations of the Flame Princess</u>](https://www.lotfp.com/RPG/)
 
 Insanity/Madness, [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
+
+OSRIC
 
 # <span id=Unused-Rules> Unused Rules </span> 
 # (For reference only!)
