@@ -40,6 +40,19 @@ function loadUpdatePost()
     var posts = [
 
     { 
+        title: 'Movement Rates (Exploration and Encounter speed)',
+        content: `As we have been using the OSE movement from before, I replaced the rules for "Indoor, Underground & City Movement". The main point is that Exploration (EX) and Encounter (EN) speeds are separated, making it easier to reference.
+
+        Changes:
+
+        - Added notes for the Exploration and Encounter speeds and rules.
+        
+        `,
+        date: "2024-08-27 13:13 CET" 
+    },
+
+
+    { 
         title: 'Segment Combat + Wisdom',
         content: `After almost a year of using a basic group combat system without structured phases or segments, we're going with the OSRIC AD&D retroclone interpretation. It adds a little more crunch but a greater depth, especially in spellcasting. 
         

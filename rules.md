@@ -209,7 +209,7 @@ Bows only grant dexterity bonuses.
 
 ## Intelligence
 
-| **Score** | **Spoken Languages**     | **Literacy** |**Search** | **Chance to Understand New Chaos Spell\*** |
+| **Score** | **Spoken Languages**     | **Literacy** |**Search** | **Chance to Understand Chaos Spell\*** |
 |-----------|--------------------------|--------------|-----------|--------------------------------------|
 | 3 - 7     | Native (broken speech)   | Illiterate   | —         | 30%                                  |
 | 8         | Native                   | Basic        | 1 / 6     | 40%                                  |
@@ -231,7 +231,7 @@ more XP.
 
 ## Wisdom
 
-| **Score** | **Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand New Law Spell\*** |
+| **Score** | **Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -798,7 +798,7 @@ roll 1 - 2 on 1d6.
 in melee combat.
 
 **Swift Runner:** Barbarians move quicker than other humans and have an
-unencumbered movement rate of 150 instead of the standard 120. See [<u>Encumbrance & Movement</u>](#Encumbrance-&-Movement)
+unencumbered movement rate of 150' instead of the standard 120' (if unarmored) See [<u>Encumbrance & Movement</u>](#Encumbrance-&-Movement)
 
 **Wilderness Survival:** Barbarians are adept at surviving in the wild
 places of the world and are always able to find food and water to
@@ -1090,37 +1090,36 @@ gold inside of a pouch.
 
 | **Armor**                     | **Base Movement Speed** |
 |-------------------------------|-------------------------|
-| Unarmored                     | 15' (50')              |
-| Light Armor                   | 12' (40')              |
-| Medium Armor                  | 9' (30')               |
-| Heavy Armor                   | 6' (20')               |
+| Unarmored                     | 150' EX (50' EN)        |
+| Light Armor                   | 120' EX (40' EN)         |
+| Medium Armor                  | 90' EX (30' EN)         |
+| Heavy Armor                   | 60' EX (20' EN)         |
 
 ## Overencumbrance
 
 | **Unique Items Carried**    | **Movement Speed Decrease** |
 |-------------------------------|------------------------|
-| Equal or under Strength Score | 0                    |
-| Strength Score + 1 Item       | -3                      |
-| Strength Score + 2 Items      | -6                      |
-| Strength Score + 3 Items      | -9                      |
+| Equal or under Strength Score | -0 EX (0' EN)                  |
+| Strength Score + 1 Item       | -30' EX (10' EN)                     |
+| Strength Score + 2 Items      | -60' EX (20' EN)                    |
+| Strength Score + 3 Items      | -90' EX (30' EN)                    |
 
-\*For example, a character with a Strength of 16 would be able to carry
-16 unique items and have a movement rate of 12 while unarmored. If that character
-carried 18 items, their base movement rate would be 6.
+*For example, a character with a Strength of 16 would be able to carry
+16 unique items and have a movement rate of 120 EX while unarmored. If that character
+carried 18 items, their base movement rate would be 60 EX.*
 
 ## Indoor, Underground & City Movement
 
-| **Description** | **Speed**                             | **Results**                                                                                                                                                   |
-|-----------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Walking         | Base movement rate times 20 feet/turn | Mapping and careful observation of the surroundings are possible                                                                                              |
-| Running         | Base movement rate times 40 feet/turn | No mapping permitted. Characters are automatically surprised and have no chance to surprise others. The sound of running may attract the attention of enemies |
+**Exploring the unknown:** When exploring unknown areas of a dungeon, characters can move their base movement rate in feet per turn. This very slow rate of movement accounts for PCs exploring in a dark, unknown environment, moving carefully and stealthily, and mapping their progress. 
+
+**In familiar areas:** When PCs are moving through dungeon areas with which they are familiar, the referee may allow them to move at a faster rate. For example, the referee might allow PCs to move at three times their base movement rate per turn, when moving through familiar areas. 
 
 ## Outdoor Movement
 
-| **Description** | **Speed**                                                                                                                     | **Results**                                                                                                                   |
-|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Hiking          | Base movement rate in miles/day No forced march checks required                                                               | Base movement rate in miles/day No forced march checks required                                                               |
-| Forced March    | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. | Double base movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. |
+|**Description** | **Speed** |
+|----------------|-----------|
+| Hiking         | Base exploration movement rate in miles/day No forced march checks required| Base exploration movement rate in miles/day No forced march checks required |
+| Forced March   | Double exploration movement rate in miles/day Forced march checks required once per day (4d6 vs. strength) to continue at this pace. |
 
 ## Foraging
 
