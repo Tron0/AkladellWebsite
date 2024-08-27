@@ -41,7 +41,7 @@ function loadUpdatePost()
 
     { 
         title: 'Movement Rates (Exploration and Encounter speed)',
-        content: `As we have been using the OSE movement from before, I replaced the rules for "Indoor, Underground & City Movement". The main point is that Exploration (EX) and Encounter (EN) speeds are separated, making it easier to reference.
+        content: `As we have been using the OSE movement from before, I replaced the rules for "Indoor, Underground & City Movement". The main point is that Exploration (EX) and Encounter (EN) speeds are named separated, making it easier to reference.
 
         Changes:
 
