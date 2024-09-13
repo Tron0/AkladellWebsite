@@ -281,7 +281,7 @@ more XP.
 
 **Parry:** Fighters with a Dexterity score of 14 or better can fight on
 the defensive, parrying an enemy blow, as shown on the
-table below. The Fighter can parry one enemy attack
+table below. The Fighter can parry enemy attacks in the direction they are facing
 without giving up the ability to attack themselves in the same round.
 Parrying is not effective against ranged weapons, but is effective
 against claws, bites and touch attacks.
