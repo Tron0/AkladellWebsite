@@ -1510,6 +1510,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Garlic, charmed  | 10 GP | A head of garlic with hexes and blessings on it. Normal garlic has a minor effect on undead, but charmed garlic works much better. | 1 | ☑ |  
 |Glass bottle or vial  | 1 GP | A small empty vial bottle. Can be filled with 4 ounces of liquid. | 1 | ☑ |  
 |Grappling hook  | 3 GP | A grappling hook, when tied to a rope, can anchor the rope to various protrusions such as battlements, window ledges, tree limbs, and more. | 1 | ☐ |  
+|Hammer | 1 GP | A one-handed hammer with an iron head. | 1 | ☐ |  
 |Holy water, vial  | 10 GP | Holy water, lethal to undead, can be thrown like a grenade or splashed on incorporeal entities when adjacent. Each flask deals 1d6+1 damage to the direct target and 2 damage to any additional undead within a radius. | 1 | ☑ |  
 |Ink, vial  | 8 GP | Mostly used to write down spell transcriptions into spellbooks. One vial of ink is enough for one spell. | 1 | ☑ |  
 |Ladder, 10 ft. | 1 GP | A wooden ladder, 10 feet in length, used for scaling walls or reaching high places. | 2 | ☐ |  
@@ -1518,10 +1519,12 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Lantern, hooded  | 8 GP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | ☐ |  
 |Lockpick  | 1 GP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | ☑ |  
 |Oil, flask  | 1 GP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | ☑ |  
+|Piton  | 1 SP | Similar to an iron spike, but with an eye which can be used to loop a rope. Can also be hammered into stone. | 1 | ☑ |  
 |Pole, 10 feet  | 1 GP | A wooden pole, similar to a spear without a spearhead. | 1 | ☐ |  
 |Quiver  | 2 GP | Granting easy access to arrows and bolts. A typical quiver is made out of leather or thick canvas and can hold around 20 of either type of ammunition. | - | ☐ |  
 |Sack, large  | 2 GP | A sturdy canvas sack ideal for holding various goods. It can contain up to 10 slots or 4 cubic feet of items, approximately 1,000 coins. Requires two hands to carry if filled. | - | ☐ |  
 |Sack, small  | 1 GP | A durable, smaller canvas sack suitable for lighter loads. It can accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500 coins. Requires one hand to carry if filled. | - | ☐ |  
+|Spike, iron  | 1 SP | A standard iron spike, typically used with a hammer. Softer than a piton, cannot be hammered into a wall but holds doors up. | 1 | ☑ |  
 |Tent, large (ten man)  | 25 GP | An expansive shelter, this large tent can comfortably accommodate up to ten people. It stands tall with reinforced wooden poles and is anchored firmly by robust stakes. Multiple flaps offer ventilation, while a centralized opening provides easy access. Its interior is spacious, allowing for both sleep and communal gatherings. This tent is suited for large adventuring parties or those setting up a semi-permanent camp. | 2 | ☐ |  
 |Tent, small (one man)  | 5 GP | A compact and portable shelter, this small tent is designed to comfortably house a single individual. Made from durable canvas, its beige coloration blends naturally with most terrains. The tent’s design is suited for travelers who prioritize mobility and speed of setup. | 1 | ☐ |  
 |Thieves' tools  | 20 GP | Required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools. | 1 | ☐ |  
@@ -1535,20 +1538,17 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
-| Unarmored         | 10              | —        | Flesh and bone.                                                                   | —          | —        |
-| Padded or Quilted | 12              | 15 GP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
-| Leather           | 13              | 20 GP    | Tanned and treated animal hides, flexible and lightweight.                        | 1          | Light    |
-| Hide              | 13              | 10 GP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
-| Studded Leather   | 14              | 30 GP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
-| Ring Mail         | 14              | 25 GP    | A base of leather interwoven with metal rings.                                    | 2          | Medium   |
-| Brigandine        | 15              | 80 GP    | A cloth garment with small metal plates riveted to the inside.                    | 2          | Medium   |
-| Chain Mail        | 15              | 60 GP    | Interlocking metal rings forming a flexible mesh.                                 | 3          | Medium   |
-| Scale Mail        | 16              | 80 GP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
-| Splint Mail       | 16              | 100 GP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
-| Banded Mail       | 17              | 200 GP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
-| Plate Mail        | 17              | 300 GP   | Large metal plates covering vital areas, with chain or leather in between.        | 3          | Heavy    |
-| Field Plate Mail  | 18              | 500 GP   | Comprehensive armor of shaped metal plates, offering better mobility.             | 4          | Heavy    |
-| Full Plate Mail   | 19              | 1,500 GP | An all-encompassing suit of articulated metal plates, the pinnacle of protection. | 4          | Heavy    |
+| Unarmored         | 9               | —        | Flesh and bone.                                                                   | —          | —        |
+| Leather or Padded | 11              | 10 GP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
+| Hide              | 12              | 20 GP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
+| Studded Leather   | 12              | 30 GP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
+| Ring Mail         | 13              | 25 GP    | A base of leather interwoven with metal rings.                                    | 2          | Medium   |
+| Brigandine        | 14              | 80 GP    | A cloth garment with small metal plates riveted to the inside.                    | 2          | Medium   |
+| Chain Mail        | 14              | 60 GP    | Interlocking metal rings forming a flexible mesh.                                 | 3          | Medium   |
+| Scale Mail        | 15              | 80 GP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
+| Splint Mail       | 15              | 100 GP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
+| Banded Mail       | 16              | 150 GP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
+| Plate Mail        | 16              | 300 GP   | Large metal plates covering vital areas, with chain or leather in between.        | 3          | Heavy    |
 
 ## Shields
 

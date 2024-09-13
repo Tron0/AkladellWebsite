@@ -40,6 +40,39 @@ function loadUpdatePost()
     var posts = [
 
     { 
+
+
+        title: 'Armor + Fighter Parry',
+        content: `The parry mechanic in from Swords & Wizardry (S&W) was created as a way to 'buff' fighters. Since S&W is an OD&D retroclone, it follows similar rules from the game which is different from AD&D, which we also use:
+
+        - Armor in S&W only goes up to Plate Mail, which gives 16 AC. This was 3 AC originally. 20 - 3 = 17. 17 - 1 = 16. (Descended to ascended AC calculation)
+        - The parry mechanic is justified here because the risk of dying as a frontline fighter is high.
+
+        Initially, I opted to nerf the parry, limiting it to one parry per round. This was because I felt the full extent of it, as written, was too powerful because RAW you could parry ALL attacks. This easily gives fighters upwards of 25+ AC with 19 AC armor and high dex. And that is WITHOUT magical armor.
+
+        We've been using the armors from AD&D, where plate can go up to 19 AC. This unintentionally resulted in two buffs for fighters:
+        
+        - One from the S&W parry mechanic.
+        - Another from the higher AC armors in AD&D.
+
+        And so to balance things out I will use the parry mechanic (RAW), allowing fighters to parry any attacks they can see. Making them strong frontliners, but not too strong. 
+        
+        On the other end I will remove full plate and other plate variants so that the highest AC is plate mail with 16 AC, keeping it in line with the OD&D style.
+
+        <b> Changes: </b>
+
+        - Rebalancing fighter, better parry that includes all enemies in the facing direction. 
+        - Worse armor for everyone. 9 base AC up to 16 with plate.
+
+        - Added pitons, iron spikes, and hammer to equipment.
+
+        `,
+        date: "2024-09-13 16:53 CET" 
+    },
+
+    { 
+
+    
         title: 'Movement Rates (Exploration and Encounter speed)',
         content: `As we have been using the OSE movement from before, I replaced the rules for "Indoor, Underground & City Movement". The main point is that Exploration (EX) and Encounter (EN) speeds are named separated, making it easier to reference.
 
