@@ -3253,6 +3253,8 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Against a group:** 1d4 individuals in the group are targeted.
 
+- **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
+
 ## Silence 15' Radius (U)
 
 **Range:** 120'
