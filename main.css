@@ -141,7 +141,7 @@ th, td {
     left: -100%;
     width: 280px;
     height: 100vh;
-    max-height: 100vh;
+    max-height: 95vh;
     padding: 10px;
     overflow-y: auto;
     transition: left 0.3s;
@@ -172,7 +172,7 @@ th, td {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
     display: none;

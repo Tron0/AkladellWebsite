@@ -123,18 +123,18 @@ When determining the starting age of your character, first choose the life stage
 
 | **Race**  | **Height**   | **Modifier** | **Weight (lbs)** | **Modifier (lbs)** |
 |-----------|--------------|--------------|------------------|--------------------|
-| Human     | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
-| Elf       | 5’3” or 5’0” | \+ 2d12”     | 140 or 110       | \+ 10d8            |
-| Dwarf     | 3’9” or 3’6” | \+ 2d4”      | 130 or 100       | \+ 8d6             |
-| Draconian | 5’0” or 4’8” | \+ 3d6”      | 130 or 100       | \+ 6d12            |
-| Gnome     | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 5d6             |
-| Solarian  | 5’2” or 4’9” | \+ 3d8”      | 140 or 110       | \+ 8d12            |
-| Halfling  | 2’9” or 2’6” | \+ 3d4”      | 50 or 45         | \+ 5d6             |
-| Goblin    | 3’ or 2’10”  | \+ 2d4”      | 45 or 40         | \+ 4d6             |
-| Radigen   | 4’9” or 4’6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
-| Kobold    | 3’ or 2’10”  | \+ 2d4”      | 50 or 45         | \+ 4d6             |
-| Avian     | 4’8” or 4’5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
-| Orc       | 4’0” or 3’7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
+| Human     | 4'9” or 4'6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Elf       | 5'3” or 5'0” | \+ 2d12”     | 140 or 110       | \+ 10d8            |
+| Dwarf     | 3'9” or 3'6” | \+ 2d4”      | 130 or 100       | \+ 8d6             |
+| Draconian | 5'0” or 4'8” | \+ 3d6”      | 130 or 100       | \+ 6d12            |
+| Gnome     | 3' or 2'10”  | \+ 2d4”      | 50 or 45         | \+ 5d6             |
+| Solarian  | 5'2” or 4'9” | \+ 3d8”      | 140 or 110       | \+ 8d12            |
+| Halfling  | 2'9” or 2'6” | \+ 3d4”      | 50 or 45         | \+ 5d6             |
+| Goblin    | 3' or 2'10”  | \+ 2d4”      | 45 or 40         | \+ 4d6             |
+| Radigen   | 4'9” or 4'6” | \+ 2d10”     | 120 or 90        | \+ 12d6            |
+| Kobold    | 3' or 2'10”  | \+ 2d4”      | 50 or 45         | \+ 4d6             |
+| Avian     | 4'8” or 4'5” | \+ 2d10”     | 120 or 90        | \+ 11d6            |
+| Orc       | 4'0” or 3'7” | \+ 2d6”      | 90 or 75         | \+ 8d8             |
 
 ## <span id=Backgrounds> Backgrounds </span>
 
@@ -455,13 +455,13 @@ increases the chance to 2 in 6. Every class has the following skills as
 a 1 in 6. A skill cannot be increased further than a 5 in 6.
 
 **Architecture:** Clues, warning and rewards can be built into
-structures of a character’s surroundings. Determining if a passage
+structures of a character's surroundings. Determining if a passage
 shifts or slopes gradually, detecting if a structure is unsafe to travel
 in/on, as well as any history found in the structure can be noted.
 
 **Foraging** (See Foraging)
 
-**Lockpicking:** Specialists can pick locks with Thieves’ tools; some
+**Lockpicking:** Specialists can pick locks with Thieves' tools; some
 locks might be unusually difficult, in which case the game master might
 reduce the chance as appropriate.
 
@@ -485,7 +485,7 @@ other bonuses they already have when performing a Sneak Attack.
 
 **Stealth:** Stealth allows a character to sneak around and hide. In
 order to use the Stealth skill, those that the character wishes to hide
-from must not already be aware of the character’s presence, and there
+from must not already be aware of the character's presence, and there
 must be somewhere to hide. If a character attacks after successfully
 using Stealth, that attack greatly increases the chance of a
 [<u>Surprise</u>](#surprise) attack, even if the enemy is already
@@ -566,7 +566,7 @@ would be considered Tinkering.
 | 18             | 7                   | 4/5                                                 |
 
 \*Minimum is the least amount of spells learned at character creation
-from the selected roster of spells. If the amount isn’t met when rolling
+from the selected roster of spells. If the amount isn't met when rolling
 through the list, simply repeat until it is. Maximum is simply the limit
 to how many spells are known at character creation.
 
@@ -653,7 +653,7 @@ spellbook until the Mage has successfully learned the initial set.
 | 18             | 9                   | 8/All                                               | 6                              |
 
 \*Minimum is the least amount of spells learned at character creation
-from the selected roster of spells. If the amount isn’t met when rolling
+from the selected roster of spells. If the amount isn't met when rolling
 through the list, simply repeat until it is.
 
 **Known Spells:** Chaos Mages initially have access to ten 1st-level
@@ -727,7 +727,7 @@ be used as many times as the Mage would like.
 | 18             | 7                   | 8/All                                               | 6                              |
 
 \*Minimum is the least amount of spells learned at character creation
-from the selected roster of spells. If the amount isn’t met when rolling
+from the selected roster of spells. If the amount isn't met when rolling
 through the list, simply repeat until it is.
 
 **Known Spells:** Illusionists initially have access to ten 1st-level
@@ -741,7 +741,7 @@ the initial set.
 **Saving Throw Bonus:** Illusionists receive a +1 bonus to resist all
 mind-influencing or illusionary magical effects and spells, like Charm
 Person, Confusion, or Phantasmal Force. This includes when these effects
-originate from a magic item or a monster’s special abilities. 
+originate from a magic item or a monster's special abilities. 
 
 Illusionists gain a bonus of +2 on all saving throw rolls against spells, 
 including spells from magic wands and staffs.<>
@@ -916,7 +916,7 @@ Where two or more creatures are engaged in a melee, either may break off from th
 
 Just as shields improve armor class by 1, fighting two-handed grants a
 +1 to damage rolls (except for weapons that can only be used two-handed,
-where this is already taken into account in the weapon’s damage), and
+where this is already taken into account in the weapon's damage), and
 fighting with a weapon in each hand gives a +1 to hit. Note that
 fighting with two weapons does not actually give two separate attacks;
 it just increases the likelihood of landing a successful blow.
@@ -1006,7 +1006,7 @@ wandering monsters, and resting also transpire in turn units. Important
 decisions are also considered turn by turn. For example, lockpicking a
 door or checking for traps. Some other actions like searching a room can
 both be a simple noted action or described in detail by players, if
-described then it won’t cost a turn most of the time.
+described then it won't cost a turn most of the time.
 
 ## Combat Time
 
@@ -1019,7 +1019,7 @@ a certain number of rounds.
 
 # <span id=Insanity> Insanity </span>
 
-When a character faces events of bloodshed or unspeakable horror, a saving throw is made. Failing this saving throw will cause damage to the character’s psyche, tracked as insanity points. 
+When a character faces events of bloodshed or unspeakable horror, a saving throw is made. Failing this saving throw will cause damage to the character's psyche, tracked as insanity points. 
 
 Insanity starts at a score of 0 unless specified otherwise. If a character's insanity ever exceeds their maximum threshold, they are permanently retired from play. The total insanity threshold of a character is 90 + Intelligence. Insanity cannot be healed naturally. 
 
@@ -1082,7 +1082,7 @@ Three slots should be labled as the “quick draw” slots. Items stored in
 these can be taken out during combat without the use of an action. Any
 other item requires an action to be taken out from the inventory. The
 exception would be stackable items, multiple items of the same type such
-as potions cannot be automatically replaced after they’ve been used in
+as potions cannot be automatically replaced after they've been used in
 the quick draw slots. But mundane items can be replaced, like rocks or
 gold inside of a pouch.
 
@@ -1131,7 +1131,7 @@ off hunger. Food foraging can be done even while traveling.
 chances of foraging. Refer to the [<u>Specialist Skills</u>](#skills)
 and use that chance for each character's roll. The Specialist is
 regarded as the “scouting leader” when foraging. A successful day of
-foraging provides a day’s worth of rations. The foraged food will likely
+foraging provides a day's worth of rations. The foraged food will likely
 be a combination of nuts, berries, and possibly small game.
 
 If characters wish to hunt, they must dedicate a whole day to the task,
@@ -1331,7 +1331,7 @@ Consult the following table:
 | 9th +     | 5            |
 
 From the table below, roll a 1d12 a number of times equal to the
-character’s “Amount of Powers” as seen earlier. Reroll any duplicate
+character's “Amount of Powers” as seen earlier. Reroll any duplicate
 numbers.
 
 | **Dice Score** | **Result (1d12)** |
@@ -1365,34 +1365,34 @@ extra attacks are not gained if the user must move to engage a foe.
 
 ### Clairaudience
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 2 hours**
 
-The user can hear through solid obstacles. A 2’ thickness of stone
+The user can hear through solid obstacles. A 2' thickness of stone
 blocks the effect, as does the thinnest layer of lead.
 
 ### Clairvoyance
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 2 hours.**
 
-The user can see through solid obstacles. A 2’ thickness of stone blocks
+The user can see through solid obstacles. A 2' thickness of stone blocks
 the effect, as does the thinnest layer of lead.
 
 ### ESP
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 2 hours.**
 
-The user can detect the thoughts of other beings. A 2’ thickness of
+The user can detect the thoughts of other beings. A 2' thickness of
 stone blocks the effect, as does the thinnest layer of lead.
 
 ### Mental Barrier
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 1 round**
 
@@ -1401,7 +1401,7 @@ When activated, any attack against a creature with this power recieve a
 
 ### Mental Blast
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 1 round**
 
@@ -1411,11 +1411,11 @@ creatures possessing psionic powers gain a +5 on the save.
 
 ### Mind Control
 
-**Range: 120’**
+**Range: 120'**
 
 **Duration: Special**
 
-The unfortunate victim of this power falls under the user’s influence.
+The unfortunate victim of this power falls under the user's influence.
 This psionic power can work on any intelligent creature for as long as
 the user intensely concentrates (no fighting or even walking). A saving
 throw vs magic negates the effect. Animals are immune, as are the Old
@@ -1432,7 +1432,7 @@ were to do something. No more than 1 minute into the future can be seen.
 
 ### Sleep
 
-**Range: 60’**
+**Range: 60'**
 
 **Duration: 1 hour**
 
@@ -1458,7 +1458,7 @@ takes four rounds to draw oneself out of this trance.
 
 ### Telekinesis
 
-**Range: 120’**
+**Range: 120'**
 
 **Duration: 1 hour**
 
@@ -1467,7 +1467,7 @@ they can lift and move is 20 pounds per level.
 
 ### Telepathy
 
-**Range: 120’**
+**Range: 120'**
 
 **Duration: 1 turn**
 
@@ -1502,7 +1502,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Belt pouch  | 1 GP | A compact pouch that can hold up to 100 coins, or quick draw slots for items such as potions. | 1 | ☐ |   
 |Block & tackle  | 5 GP | A combination of a rope threaded between two pulleys. Used to lift heavy weight when fastened to a ceiling. | 1 | ☐ |   
 |Bottle of wine, glass  | 2 GP | This standard wine bottle, crafted from clear glass. Holds a generous 25 ounces of wine, or 750ml. | 1 | ☐ | 
-|Candle  | 1 SP | Can be used to light up a 5’ radius. A normal candle will burn about 3 turns per inch of height. | 1 | ☑ |  
+|Candle  | 1 SP | Can be used to light up a 5' radius. A normal candle will burn about 3 turns per inch of height. | 1 | ☑ |  
 |Case (map or scroll)  | 1 GP | A tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells. | 1 | ☐ |  
 |Chalk piece  | 2 SP | A single piece of chalk. Useful for "blazing a trail" through a dungeon or ruin. | 1 | ☑ |  
 |Cloak  | 2 GP | A traveler's cloak made out of silk. Often in black, gray or brown. | - | ☐ |  
@@ -1515,7 +1515,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Ink, vial  | 8 GP | Mostly used to write down spell transcriptions into spellbooks. One vial of ink is enough for one spell. | 1 | ☑ |  
 |Ladder, 10 ft. | 1 GP | A wooden ladder, 10 feet in length, used for scaling walls or reaching high places. | 2 | ☐ |  
 |Lantern  | 5 GP | A lantern will provide light covering a 30' radius; dim light will extend about 20' further. A lantern will consume a flask of oil in 24 turns. | 1 | ☐ |  
-|Lantern, bullseye  | 14 GP | These shine a beam of light 60 feet long but only 10 feet wide through a hole in the lantern’s metal cylinder. They have a hinged cover that allows the light to be hidden. | 1 | ☐ |  
+|Lantern, bullseye  | 14 GP | These shine a beam of light 60 feet long but only 10 feet wide through a hole in the lantern's metal cylinder. They have a hinged cover that allows the light to be hidden. | 1 | ☐ |  
 |Lantern, hooded  | 8 GP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | ☐ |  
 |Lockpick  | 1 GP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | ☑ |  
 |Oil, flask  | 1 GP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | ☑ |  
@@ -1526,7 +1526,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Sack, small  | 1 GP | A durable, smaller canvas sack suitable for lighter loads. It can accommodate up to 5 slots or 2 cubic feet, roughly equivalent to 500 coins. Requires one hand to carry if filled. | - | ☐ |  
 |Spike, iron  | 1 SP | A standard iron spike, typically used with a hammer. Softer than a piton, cannot be hammered into a wall but holds doors up. | 1 | ☑ |  
 |Tent, large (ten man)  | 25 GP | An expansive shelter, this large tent can comfortably accommodate up to ten people. It stands tall with reinforced wooden poles and is anchored firmly by robust stakes. Multiple flaps offer ventilation, while a centralized opening provides easy access. Its interior is spacious, allowing for both sleep and communal gatherings. This tent is suited for large adventuring parties or those setting up a semi-permanent camp. | 2 | ☐ |  
-|Tent, small (one man)  | 5 GP | A compact and portable shelter, this small tent is designed to comfortably house a single individual. Made from durable canvas, its beige coloration blends naturally with most terrains. The tent’s design is suited for travelers who prioritize mobility and speed of setup. | 1 | ☐ |  
+|Tent, small (one man)  | 5 GP | A compact and portable shelter, this small tent is designed to comfortably house a single individual. Made from durable canvas, its beige coloration blends naturally with most terrains. The tent's design is suited for travelers who prioritize mobility and speed of setup. | 1 | ☐ |  
 |Thieves' tools  | 20 GP | Required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools. | 1 | ☐ |  
 |Torch  | 2 SP | Sheds light over a 30' radius, with dim light extending about 20' further, and burns for six turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight. | 1 | ☑ |  
 |Waterskin  | 1 GP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | ☐ |  
@@ -1661,7 +1661,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 | Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |           | Piercing
 | Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 15ft      | Piercing
 
-# <span id=Spells> Spells </span>
+# <span id=Spell-Tables> Spell Tables </span>
 
 ## Cantrips
 
@@ -1673,7 +1673,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    4     |                    | Tweak        |                           |             |               |
 |    5     |                    | Change       |                           |             |               |
 
-### Chaos Mage Spell Table
+## [<u>1st Level Chaos Spells</u>](#1st-Level-Chaos-Spells)
 
 |**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
 |----------|----------------------|----------------|----------------|------------------|----------------|
@@ -1682,13 +1682,13 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    3     | Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
 |    4     | Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
 |    5     | Mending              | Identify       |                | Magic Missile    |                |
-|    6     | Protection from Evil / Protection from Good (B) | Message        |                | Spider Climb     |                |
+|    6     | Protection from Evil / Protection from Good (B) | Message        |        | Spider Climb   |   
 |    7     | Shield               | Read Magic     |                |                  |                |
 |    8     |                      | Unseen Servant |                |                  |                |
 |    9     |                      | Ventriloquism  |                |                  |                |
 |    10    |                      | Wizard Mark    |                |                  |                |
 
-### Level 1 Illusionist Spell Table
+## [<u>1st Level Illusion Spells</u>](#1st-Level-Illusion-Spells)
 
 |**Number**| **White (W)**        | **Blue (U)**        | **Black (B)**  | **Red (R)**      | **Green (G)**    |
 |----------|----------------------|---------------------|----------------|------------------|------------------|
@@ -1700,14 +1700,20 @@ will most likely require a saving throw to avoid madness and/or horror.
 |    6     |                      | Phantom Armor       |                |                  |                  |
 |    7     |                      | Ventriloquism       |                |                  |                  |
 
-### Level 1 Law Mage Spell Table
+## [<u>1st Level Law Spells</u>](#1st-Level-Law-Spells)
 
 |**Number**| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
 |-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
 |     1     | Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
 |     2     | Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
 |     3     | Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
-|     4     | Protection from Evil / Protection from Good (B)     | Read Magic         |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
+|     4     | Protection from Evil / Protection from Good (B)  | Read Magic   |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
+
+## [<u>2nd Level Law Spells</u>](#2nd-Level-Law-Spells)
+
+|**Number** | **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
+|-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
+|     1     | Hold Person                                | Silence 15' Radius |               |             |                       |
 
 # <span id=Cantrip-Descriptions> Cantrip Descriptions </span>
 
@@ -1965,7 +1971,7 @@ material within damp to the touch.
 
 # <span id=Spell-Descriptions> Spell Descriptions </span>
 
-# <span id=Chaos-Mage-Spells> Chaos Mage Spells </span>
+# <span id=1st-Level-Chaos-Spells> 1st Level Chaos Spells </span>
 
 ## Alarm (W) - Chaos
 
@@ -2031,7 +2037,7 @@ Produces a fan of flames that sear everything in its arc:
 
 Grants the caster temporary appearance alteration:
 
-- **Shape-shifting:** Alter the caster’s appearance in build, clothes, features, etc. 
+- **Shape-shifting:** Alter the caster's appearance in build, clothes, features, etc. 
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
@@ -2302,15 +2308,17 @@ Extends the duration one can hold their breath:
 
 ## Light (W) / Darkness (B) - Chaos
 
-**Range:** 120’
+**Range:** 120'
 
 **Duration:** 12 turns
 
 **Casting Time:** 1 segment
 
+**AoE:** 15' radius
+
 This spell has three usages:
 
-- **Conjuring light:** In a 15’ radius. The magical light is sufficient
+- **Conjuring light:** In a 15' radius. The magical light is sufficient
   for reading, but is not as bright as daylight. The spell may be cast
   upon an object, in which case the light moves with the object.
 
@@ -2322,7 +2330,7 @@ This spell has three usages:
 
 ### Reversed: Darkness
 
-Creates a 15’ radius area of magical blackness, preventing normal sight.
+Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
@@ -2427,7 +2435,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 - **Bonuses:** The caster gains a +1 bonus to saving throws against
   attacks or special abilities of affected creatures.
 
-- **Affected creatures’ attacks:** Against the caster are penalised by
+- **Affected creatures' attacks:** Against the caster are penalised by
   -1.
 
 - **Enchanted, constructed, or summoned creatures:** The spell
@@ -2607,7 +2615,7 @@ This spell lets the caster inscribe a personal mark:
 - **Removal:** Cannot be dispelled but can be removed by the original
   caster or an erase spell.
 
-# <span id=Illusionist-Spells> Illusionist Spells </span>
+# <span id=1st-Level-Illusion-Spells> 1st Level Illusion Spells </span>
 
 ## Alarm (W) - Illusion
 
@@ -2655,7 +2663,7 @@ Creates an illusionary sound that can deceive others:
 
 Grants the caster temporary appearance alteration:
 
-- **Shape-shifting:** Alter the caster’s appearance in build, clothes, features, etc. 
+- **Shape-shifting:** Alter the caster's appearance in build, clothes, features, etc. 
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
@@ -2901,11 +2909,11 @@ Creates a bank of misty vapor within the area of effect:
 
 - **Dissipation:** Moderate wind (11+ mph) disperses in spell duration. Strong wind (21+ mph) disperses it in 4 rounds. Dispersed instantly by fireball, gust of wind, or similar spells.
 
-# <span id=Law-Mage-Spells> Law Mage Spells </span>
+# <span id=1st-Level-Law-Spells> 1st Level Law Spells </span>
 
 ## Animal Friendship (G) - Law
 
-**Range:** 30’
+**Range:** 30'
 
 **Duration:** Permanent
 
@@ -2925,7 +2933,7 @@ Creates a bank of misty vapor within the area of effect:
 
 ## Bless (W) / Curse (B) - Law
 
-**Range:** 60’
+**Range:** 60'
 
 **Duration:** 6 rounds
 
@@ -2939,7 +2947,7 @@ May be used in one of two situations:
   gain a +1 bonus to attack and damage rolls and a +1 bonus to morale.
 
 - **Ritual:** Casting bless may also form part of rituals of
-  purification or consecration, at the referee’s discretion.
+  purification or consecration, at the referee's discretion.
 
 ### Reversed: Curse
 
@@ -2972,7 +2980,7 @@ detailed:
 
 ## Command (B) - Law
 
-**Range:** 90’
+**Range:** 90'
 
 **Duration:** 1 turn
 
@@ -2992,7 +3000,7 @@ demihuman, or human-like monster, as follows:
 
 ## Courage (R) - Law
 
-**Range:** 120’
+**Range:** 120'
 
 **Duration:** Special
 
@@ -3022,7 +3030,7 @@ This spell imbues the target unit with a temporary burst of courage.
 This spell has two usages:
 
 - **Healing a living subject:** Restores 1d6+1 hit points of damage.
-  This cannot raise the subject’s hit points above their normal maximum.
+  This cannot raise the subject's hit points above their normal maximum.
 
 - **Curing paralysis:** Paralysing effects are negated.
 
@@ -3086,7 +3094,7 @@ Bestows a creature with resistance to extreme temperatures, as follows:
 
 ## Pass Without Trace (U) - Law
 
-**Range:** 60’
+**Range:** 60'
 
 **Duration:** 1 turn/level
 
@@ -3140,7 +3148,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 - **Bonuses:** The caster gains a +1 bonus to saving throws against
   attacks or special abilities of affected creatures.
 
-- **Affected creatures’ attacks:** Against the caster are penalised by
+- **Affected creatures' attacks:** Against the caster are penalised by
   -1.
 
 - **Enchanted, constructed, or summoned creatures:** The spell
@@ -3155,7 +3163,7 @@ Works similarly against good creatures.
 
 ## Light (W) / Darkness (B) - Law
 
-**Range:** 120’
+**Range:** 120'
 
 **Duration:** 12 turns
 
@@ -3163,7 +3171,7 @@ Works similarly against good creatures.
 
 This spell has three usages:
 
-- **Conjuring light:** In a 15’ radius. The magical light is sufficient
+- **Conjuring light:** In a 15' radius. The magical light is sufficient
   for reading, but is not as bright as daylight. The spell may be cast
   upon an object, in which case the light moves with the object.
 
@@ -3175,7 +3183,7 @@ This spell has three usages:
 
 ### Reversed: Darkness
 
-Creates a 15’ radius area of magical blackness, preventing normal sight.
+Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
@@ -3227,6 +3235,44 @@ Inflicts intense dread upon a target, as described:
 - **Resistance:** Targets have a chance to resist this effect by
   succeeding on a save. Neither spell has any effect on undead of any sort. 
 
+# <span id=2nd-Level-Law-Spells> 2nd Level Law Spells </span>
+
+## Hold Person (W)
+
+**Range:** 180'
+
+**Duration**: 2 rounds/level
+
+**Casting Time:** 5 segments
+
+**AoE:** 20' cube
+
+Holds humans, demihumans or humanoids paralysed and in place if they fail a saving throw vs spells. It may be cast in two ways:
+
+- **Against an individual:** The target's saving throw is penalised by -2.
+
+- **Against a group:** 1d4 individuals in the group are targeted.
+
+## Silence 15' Radius (U)
+
+**Range:** 120'
+
+**Duration:** 12 Turns
+
+**Casting Time:** 5 segments
+
+**AoE:** 15' radius
+
+- **Silent Movement:**  The creature upon which the spell is cast, and all creatures within a 15' radius of the creature at the time of casting, are able to move without making any sound.
+
+- **Motion:** The area of silence moves with the creature the spell is cast upon. Any creature within the area that moves more than 15' away from the creature will begin to make sound as normal.
+
+- **Speech:** If any affected creature speaks, the spell is broken and ends immediately.
+
+**Casting Upon Objects:**
+
+- The spell may be cast upon an object, causing that object to create no sound. For example, it may be cast upon a door, so that it may be bashed down without noise.
+
 # <span id=Sources> Sources </span>
 
 [<u>Swords & Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
@@ -3270,7 +3316,7 @@ initiative dice. The second roll must be used, regardless of whether it
 is higher or lower than the first. This is limited to once per party
 initiative.
 
-**Leadership:** All of a human’s henchmen and hirelings gain a +1 bonus
+**Leadership:** All of a human's henchmen and hirelings gain a +1 bonus
 to loyalty and morale.
 
 **Ability Score Bonus:** +1 in any score.
@@ -3511,7 +3557,7 @@ limited ability to glide using their wings. They can safely descend from
 heights and cross long distances without sustaining fall damage, at a
 rate of 1 foot forward or sideways for every 1 foot they fall down.
 
-**Bird’s Eye View:** Avians have exceptional vision, honed by
+**Bird's Eye View:** Avians have exceptional vision, honed by
 generations spent navigating the sky. They can see twice as far as most
 races and can discern details that others might miss, granting them a
 2-in-6 chance to spot hidden doors, traps, or other oddities when
