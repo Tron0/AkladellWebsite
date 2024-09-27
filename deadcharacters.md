@@ -4,6 +4,7 @@
 
 | Obit | Session | Character |
 |------|---------|-----------| 
+| 2024-09-20 | 48A | Loky Grey |
 | 2024-08-23 | 44A | Sonne Potate |
 | 2024-08-09 | 42A | Harry |
 | 2024-07-27 | 41A | Xavior |

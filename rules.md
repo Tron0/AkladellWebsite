@@ -1434,14 +1434,15 @@ were to do something. No more than 1 minute into the future can be seen.
 
 **Range: 60'**
 
-**Duration: 1 hour**
+**Duration: 1d4 hours**
 
-The user puts up to 1d4 creatures within 60 feet to sleep. If used
-within 30 feet of the target(s), the effect can be limited to any amount
-to a minimum of 1. Otherwise exactly that many creatures must be
-targeted. Creatures can save vs. magic to avoid this effect. Otherwise
-they are unconscious for 1d4 hours unless awoken. Some beings such as
-undead are immune to this effect as they would be with magic.
+Affects up to 1d4 Hit Dice of creatures within 60 feet to sleep. Least Hit Dice creatures affected first and those with 4+3 Hit Dice and above remain unaffected. 
+
+Creatures can save vs. magic to avoid this effect. Otherwise they are unconscious for 1d4 hours unless awoken. 
+
+Some beings such as undead are immune to this effect as they would be with magic.
+
+
 
 ### Suspend Life
 
