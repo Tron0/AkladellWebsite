@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Layout Styles */
 body {
     display: flex;
     justify-content: flex-start;
@@ -16,123 +16,17 @@ body {
     margin: 0 auto;
 }
 
-header, nav {
-    text-align: center;
-}
-
-.flex-grow {
-    flex: 1 1 auto;
-}
-
-#nav a {
-    margin-right: 20px;
-}
-
-a {
-    color: lightseagreen;
-    transition: color 2s;
-}
-
-a:active {
-    color: rgb(55, 32, 255);
-}
-
-small {
-    color: gray;
-}
-
 #content {
     width: 100%;
     text-align: center;
     flex: 1 0 auto;
 }
 
-.rules-content {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px; /* Reduce padding */
-    overflow-x: auto;
-}
-
-.rules-content table {
-    width: 100%;
-    border-collapse: collapse; /* Collapse borders */
-    font-size: 0.875em; /* Reduce font size */
-}
-
-.rules-content th, .rules-content td {
-    padding: 4px 6px; /* Reduce padding */
-    border: 1px solid #ccc;
-    text-align: left; /* Adjust text alignment */
-}
-
-ul {
-    font-family: monospace;
-}
-
-.post {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    border: 1px solid white;
-    background: black;
-    text-align: left;
-}
-
-.post h2 {
-    margin-top: 0;
-}
-
-footer {
-    margin-top: auto;
+#content-wrapper {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
     padding: 10px;
-    text-align: center;
-}
-
-strong, b {
-    color: #ff5050;
-    font-weight: bold;
-}
-
-/* Dead Content */
-.dead-content {
-    overflow-x: auto;
-}
-
-.dead-content table {
-    width: 100%;
-    table-layout: auto; /* Use auto layout for flexibility */
-    border-collapse: collapse; /* Collapse borders */
-    font-size: 0.875em; /* Reduce font size */
-}
-
-.dead-content th, .dead-content td {
-    padding: 4px 6px; /* Reduce padding */
-    border: 1px solid #ccc;
-    text-align: left;
-}
-
-.rules-content table tr:nth-child(even), .dead-content table tr:nth-child(even) {
-    background-color: #222;
-}
-
-/* Common Table Styles */
-table {
-    width: 100%;
-}
-
-th {
-    text-align: center;
-}
-
-th, td {
-    padding: 4px 6px; /* Reduce padding */
-}
-
-#toTopButton:hover, #toggleTocButton:hover, #toTopMobileButton:hover, #toggleTocMobileButton:hover {
-    background-color: black;
-    color: white;
 }
 
 #toc-panel {
@@ -150,23 +44,6 @@ th, td {
     z-index: 1000;
 }
 
-#toc-panel.visible {
-    left: 0;
-}
-
-.buttons-desktop {
-    display: block;
-    position: fixed;
-    z-index: 1001;
-    left: 440px;
-    top: 20px;
-}
-
-#toggleTocButton {
-    position: absolute;
-    right: 80px;
-}
-
 #toc-overlay {
     position: fixed;
     top: 0;
@@ -182,22 +59,148 @@ th, td {
     display: block;
 }
 
+#toc-panel.visible {
+    left: 0;
+}
+
 .no-scroll {
     overflow: hidden;
     height: 100vh;
 }
 
-#content-wrapper {
-    flex-grow: 1;
-    overflow-y: auto;
-    height: 100%;
+footer {
+    margin-top: auto;
     padding: 10px;
+    text-align: center;
 }
 
-#toc-wrapper {
+/* Text Styles */
+h1 {
+    color: #DC493A; /* Titles in red */
+}
+
+h2 {
+    color: #26F0F1; /* Subtitles in cyan */
+}
+
+h3 {
+    color: #F34213; /* Color for h3 titles */
+}
+
+body, p {
+    color: white; /* Normal text in white */
+}
+
+small {
+    color: gray; /* Small text color */
+}
+
+strong, b {
+    color: #F7E8A4; /* Updated bold text color to a golden yellow */
+    font-weight: bold;
+}
+
+/* Post content */
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+    background: black;
+    text-align: left;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    padding: 4px 6px; /* Reduce padding */
+    border: 1px solid #ccc;
+}
+
+/* Specific Styles for Rules and Dead Content Tables */
+.rules-content, .dead-content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.rules-content table, .dead-content table {
+    width: 100%;
+    font-size: 0.875em;
+    border-collapse: collapse;
+}
+
+.rules-content th, .dead-content th, 
+.rules-content td, .dead-content td {
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.rules-content table tr:nth-child(even), 
+.dead-content table tr:nth-child(even) {
+    background-color: #222;
+}
+
+/* Default link color */
+a {
+    color: lightseagreen; /* Links in lightseagreen */
+    transition: color 2s; /* Smooth transition over 2 seconds */
+}
+
+/* Active link color when clicked */
+a:active {
+    color: rgb(55, 32, 255); /* Color when active */
+    transition: color 0.1s ease; /* Quick transition to active color */
+}
+
+/* Visited or default state after release */
+a:visited, a:hover {
+    color: lightseagreen; /* Transition back to default after hover or visit */
+    transition: color 2s; /* Smooth return over 2 seconds */
+}
+
+/* Header and Navigation Fix */
+header, nav {
+    width: 100%;
+    text-align: center; /* Ensures the header and nav are centered */
+}
+
+#nav {
     display: flex;
-    flex-grow: 1;
-    overflow: hidden;
+    justify-content: center; /* Centers navigation links */
+}
+
+#nav a {
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Other unchanged styles */
+#content {
+    width: 100%;
+    text-align: center;
+    flex: 1 0 auto;
+}
+
+/* Button Styles */
+#toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
+    width: 40px;
+    height: 40px;
 }
 
 #toTopButton {
@@ -205,13 +208,28 @@ th, td {
     right: 20px;
 }
 
-.buttons-mobile {
-    display: none;
+#toTopButton:hover, #toggleTocButton:hover, 
+#toTopMobileButton:hover, #toggleTocMobileButton:hover {
+    background-color: black;
+    color: white;
 }
 
-#toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
-    width: 40px;
-    height: 40px;
+/* Desktop and Mobile Button Visibility */
+.buttons-desktop {
+    display: block;
+    position: fixed;
+    z-index: 1001;
+    left: 440px;
+    top: 20px;
+}
+
+#toggleTocButton {
+    position: absolute;
+    right: 80px;
+}
+
+.buttons-mobile {
+    display: none;
 }
 
 /* Mobile Specific Styles */
@@ -226,8 +244,8 @@ th, td {
     }
 
     .rules-content table tr td {
-        font-size: 0.75em; /* Further reduce font size for smaller screens */
-        padding: 2px 4px; /* Further reduce padding for smaller screens */
+        font-size: 0.75em; /* Further reduce font size */
+        padding: 2px 4px; /* Further reduce padding */
     }
 
     #toc-panel {
@@ -252,7 +270,8 @@ th, td {
         bottom: 2vw;
     }
 
-    #toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
+    #toTopButton, #toTopMobileButton, 
+    #toggleTocButton, #toggleTocMobileButton {
         width: 10vw;
         height: 10vw;
         min-width: 40px;

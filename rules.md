@@ -1,50 +1,46 @@
 # <span id=Quick-Creation-Reference> Quick Creation Reference </span>
 
-1. **Race**
+**(1) Race**
 
-> Note your character race as Human. You know the common language and your size is Medium.
+- Note your character race as Human. You know the common language and your size is Medium.
 
-1.  **Determine your character's [<u>age</u>](#Age)**
+**(2) Determine your character's [<u>age</u>](#Age)**
 
-> Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
+- Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
 
-2.  **Determine ability scores**
+**(3) Determine ability scores**
 
-> Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma.
+- Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma.
 
-3.  **Swap one pair of ability scores**
+**(4) Swap one pair of ability scores**
 
-> You can swap any two ability scores with each other once.
+- You can swap any two ability scores with each other once.
 
-4.  **Select a [<u>class</u>](#Classes)**
+**(5) Select a [<u>class</u>](#Classes)**
 
-> Pick a class and make sure you meet the minimum ability score requirements.
+- Pick a class and make sure you meet the minimum ability score requirements.
 
-5.  **Roll starting hit points**
+**(6) Roll starting hit points**
 
-> Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
+- Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
-6.  **Roll [<u>starting gold</u>](#Starting-Gold)**
+**(7) Roll [<u>starting gold</u>](#Starting-Gold)**
 
-> Consult the table and roll for your starting gold depending on the class.
+- Consult the table and roll for your starting gold depending on the class.
 
-7.  **Purchase [<u>gear</u>](#Rules/#General-Equipment)**
+**(8) Purchase [<u>gear</u>](#Rules/#General-Equipment)**
 
-> Spend any gold on additional weapons, armor, equipment as desired.
+- Spend any gold on additional weapons, armor, equipment as desired.
 
-8. **Determine Background**
+**(9) Determine Background**
 
-> Roll or pick a [<u>background</u>](#Backgrounds) that provides a relevant skill.
+- Roll or pick a [<u>background</u>](#Backgrounds) that provides a relevant skill.
 
-9. **Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
+**(10) Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
-> If a spellcaster, choose 10 spells (if [<u>Chaos Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>Law Mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
+- If a spellcaster, choose 10 spells (if [<u>Chaos Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>Law Mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
 
-10. **Determine mana pool (if applicable)**
-
-> If a spellcaster, note maximum starting mana.
-
-11. **Determine miscellaneous information**
+**(11) Determine miscellaneous information**
 
 - Armor class 
 - [<u>Encumbrance</u>](#Encumbrance-&-Movement)
@@ -75,13 +71,13 @@ is given based on life stage.
 
 The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modifidy ability scores accordingly, making each change progressively from young adulthood, all aditions and subtractions being cumulative.
 
-| **Age**         | **Strength** | **Dexterity** | **Constitution** | **Intelligence** | **Wisdom** | **Charisma** |
-|-----------------|--------------|---------------|------------------|------------------|------------|--------------|
-| **Young Adult** |     +0       |     +0        |       +1         |    +0            | -1         | +0
-| **Mature**      |     +1       |     +0        |       +0         |    +0            | +1         | +0
-| **Middle Aged** |     -1       |     +0        |       -1         |    +1            | +1         | +0
-| **Old**         |     -2       |     -2        |       -1         |    +0            | +1         | +0 
-| **Venerable**   |     -1       |     -1        |       -1         |    +1            | +1         | +0
+| **Result (1d100)** | **Age**     | **Strength** | **Dexterity** | **Constitution** | **Intelligence** | **Wisdom** | **Charisma** |
+|--------------------|-------------|--------------|---------------|------------------|------------------|------------|--------------|
+| 1 - 30             | Young Adult |     +0       |     +0        |       +1         |    +0            | -1         | +0           |
+| 31 - 70            | Mature      |     +1       |     +0        |       +0         |    +0            | +1         | +0           |
+| 71 - 90            | Middle Aged |     -1       |     +0        |       -1         |    +1            | +1         | +0           |
+| 91 - 96            | Old         |     -2       |     -2        |       -1         |    +0            | +1         | +0           |
+| 97 - 100           | Venerable   |     -1       |     -1        |       -1         |    +1            | +1         | +0           |
 
 ## Age by Race
 
@@ -141,33 +137,33 @@ When determining the starting age of your character, first choose the life stage
 Assign a skill randomly, or select according to the background of your
 character.
 
-| **Dice Score**                         | **Result (1d100)** |
-|----------------------------------------|--------------------|
-| Animal husbander                       | 01 - 02            |
-| Blacksmith                             | 03 - 04            |
-| Bowyer/fletcher                        | 05 - 07            |
-| Carpenter                              | 08 - 10            |
-| Farmer/gardner                         | 11 - 16            |
-| Fisher                                 | 17 - 20            |
-| Forester                               | 21 - 26            |
-| Gambler                                | 27 - 29            |
-| Hunter/trapper                         | 30 - 33            |
-| Jeweler                                | 34 - 35            |
-| Leather worker/tanner                  | 36 - 38            |
-| Limner/painter                         | 39 - 40            |
-| Mason                                  | 41 - 43            |
-| Mercenary                              | 44 - 45            |
-| Merchant                               | 46 - 48            |
-| Miner                                  | 49 - 51            |
-| Noble                                  | 52 - 53            |
-| Outlaw                                 | 54 - 55            |
-| Sailor                                 | 56 - 58            |
-| Scholar                                | 59 - 61            |
-| Soldier/guard                          | 62 - 64            |
-| Tailor/weaver                          | 65 - 67            |
-| Teamster/transporter                   | 68 - 70            |
-| No skill of measurable worth           | 71 - 90            |
-| Roll twice, ignoring this result after | 90 - 100           |
+| **Result (1d100)** | **Background**                         | 
+|--------------------|----------------------------------------|
+| 01 - 02            | Animal husbander                       | 
+| 03 - 04            | Blacksmith                             | 
+| 05 - 07            | Bowyer/fletcher                        | 
+| 08 - 10            | Carpenter                              | 
+| 11 - 16            | Farmer/gardner                         | 
+| 17 - 20            | Fisher                                 | 
+| 21 - 26            | Forester                               | 
+| 27 - 29            |Gambler                                 | 
+| 30 - 33            | Hunter/trapper                         | 
+| 34 - 35            | Jeweler                                | 
+| 36 - 38            | Leather worker/tanner                  | 
+| 39 - 40            | Limner/painter                         | 
+| 41 - 43            | Mason                                  | 
+| 44 - 45            | Mercenary                              | 
+| 46 - 48            | Merchant                               | 
+| 49 - 51            | Miner                                  | 
+| 52 - 53            | Noble                                  | 
+| 54 - 55            | Outlaw                                 | 
+| 56 - 58            | Sailor                                 | 
+| 59 - 61            | Scholar                                | 
+| 62 - 64            | Soldier/guard                          | 
+| 65 - 67            | Tailor/weaver                          | 
+| 68 - 70            | Teamster/transporter                   | 
+| 71 - 90            | No skill of measurable worth           | 
+| 90 - 100           | Roll twice, ignoring this result after | 
 
 # <span id=Ability-Scores> Ability Scores </span>
 
@@ -868,6 +864,121 @@ XP is earned solely through the acquisition of gold. For each Gold Piece (GP) sa
 
 Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
 
+# <span id=Spellcasting> Spellcasting </span>
+
+## Learning Spells
+
+All mages possess a spellbook from which they learn and mentally prepare
+spells. This spell also contains “Read Magic” , a first level blue
+spell. As they progress in level, mages may encounter or research new
+spells which they can add to their spellbook. Not all spells can be
+learned instantaneously – the complexity of a spell and the mage's
+current level affect their ability to comprehend and learn new magic.
+When gaining a new level, a spellcaster may reroll previously not
+[<u>understood</u>](#Intelligence) spells from their spellbook.
+
+## <span id=Spell-Copying> Spell Copying </span>
+
+Copying spells from a scroll runs the cost of an essential magical ink 
+that is suited for the spell book at hand. After successfully understanding 
+a spell, the mage may decide to rewrite the spell in the book. This costs 100
+GP worth of ink and one day of downtime per spell level. A lightning bolt in
+this case would cost 300 gold and three days' worth of downtime.
+
+## Innate Magic
+
+There are some exceptions to the typical rules of spellcasting. Certain
+beings might be born with innate magical powers, such as the Dwarves.
+For these unique cases, spellcasting might not adhere to the same rules
+as described above. Always consult the specific race or class
+descriptions for these unique magical users.
+
+## <span id=Memorizing-Spells> Memorizing Spells </span>
+
+Mages can hold only a certain quantity of magical power in
+mental, memorized reserve to be released later in the form of a spell.
+Indeed, it is the first warning taught to apprentice mages: that to successfully memorize a 
+spell beyond one’s training and mental powers
+is the last action one will ever take as a sane human being. The mind
+will be utterly broken, and the vitriol of Chaos will seep into that
+broken vessel (if the fool is even left alive), turning the mindless husk
+into a thing far less, and far worse, than human.
+
+Some **spells beyond 6th level** are treated as magical projects that would require casting in a proper space.
+They require research, experimentation, training, and perhaps even ingredients to cast. 
+
+### Law Mage Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+|-------|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   |
+| 2     | 1   | —   | —   | —   | —   | —   | —   |
+| 3     | 2   | —   | —   | —   | —   | —   | —   |
+| 4     | 2   | 1   | —   | —   | —   | —   | —   |
+| 5     | 2   | 2   | —   | —   | —   | —   | —   |
+| 6     | 2   | 2   | 1   | 1   | —   | —   | —   |
+| 7     | 2   | 2   | 2   | 1   | 1   | —   | —   |
+| 8     | 2   | 2   | 2   | 2   | 2   | —   | —   |
+| 9     | 3   | 3   | 3   | 2   | 2   | —   | —   |
+| 10    | 3   | 3   | 3   | 3   | 3   | —   | —   |
+| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   |
+| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   |
+| 13    | 5   | 5   | 5   | 4   | 4   | 1   | —   |
+| 14    | 5   | 5   | 5   | 5   | 5   | 2   | —   |
+| 15    | 6   | 6   | 6   | 5   | 5   | 2   | —   |
+| 16    | 6   | 6   | 6   | 6   | 6   | 3   | —   |
+| 17    | 7   | 7   | 7   | 6   | 6   | 3   | 1   |
+| 18    | 7   | 7   | 7   | 7   | 7   | 4   | 1   |
+| 19    | 8   | 8   | 8   | 7   | 7   | 4   | 2   |
+| 20    | 8   | 8   | 8   | 8   | 8   | 5   | 2   |
+
+### Chaos Mage Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   | —   | —   |
+| 2     | 2   | —   | —   | —   | —   | —   | —   | —   | —   |
+| 3     | 3   | 1   | —   | —   | —   | —   | —   | —   | —   |
+| 4     | 3   | 2   | —   | —   | —   | —   | —   | —   | —   |
+| 5     | 4   | 2   | 1   | —   | —   | —   | —   | —   | —   |
+| 6     | 4   | 2   | 2   | —   | —   | —   | —   | —   | —   |
+| 7     | 4   | 3   | 2   | 1   | —   | —   | —   | —   | —   |
+| 8     | 4   | 3   | 3   | 2   | —   | —   | —   | —   | —   |
+| 9     | 4   | 3   | 3   | 2   | 1   | —   | —   | —   | —   |
+| 10    | 4   | 4   | 3   | 2   | 2   | —   | —   | —   | —   |
+| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   | —   | —   |
+| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   | —   | —   |
+| 13    | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   | —   |
+| 14    | 5   | 5   | 5   | 4   | 4   | 3   | 1   | —   | —   |
+| 15    | 5   | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   |
+| 16    | 5   | 5   | 5   | 5   | 5   | 5   | 2   | 1   | —   |
+| 17    | 5   | 6   | 6   | 6   | 5   | 5   | 2   | 2   | —   |
+| 18    | 5   | 6   | 6   | 6   | 6   | 5   | 2   | 2   | 1   |
+| 19    | 5   | 7   | 7   | 7   | 6   | 6   | 3   | 2   | 2   |
+| 20    | 5   | 7   | 7   | 7   | 7   | 7   | 3   | 3   | 2   |
+
+### Illusionist Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+|-------|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   |
+| 2     | 2   | —   | —   | —   | —   | —   | —   |
+| 3     | 2   | 1   | —   | —   | —   | —   | —   |
+| 4     | 3   | 2   | —   | —   | —   | —   | —   |
+| 5     | 4   | 2   | 1   | —   | —   | —   | —   |
+| 6     | 4   | 3   | 1   | —   | —   | —   | —   |
+| 7     | 4   | 3   | 2   | —   | —   | —   | —   |
+| 8     | 4   | 3   | 2   | 1   | —   | —   | —   |
+| 9     | 5   | 3   | 3   | 2   | —   | —   | —   |
+| 10    | 5   | 4   | 3   | 2   | 1   | —   | —   |
+| 11    | 5   | 4   | 3   | 3   | 2   | —   | —   |
+| 12    | 5   | 5   | 4   | 3   | 2   | 1   | —   |
+| 13    | 5   | 5   | 4   | 3   | 2   | 2   | —   |
+| 14    | 5   | 5   | 4   | 3   | 2   | 2   | 1   |
+| 15    | 5   | 5   | 4   | 4   | 2   | 2   | 2   |
+| 16    | 5   | 5   | 5   | 4   | 3   | 2   | 2   |
+| 17    | 5   | 5   | 5   | 5   | 3   | 2   | 2   |
+| 18    | 5   | 5   | 5   | 5   | 3   | 3   | 2   |
+| 19    | 5   | 5   | 5   | 5   | 4   | 3   | 2   |
+| 20    | 5   | 5   | 5   | 5   | 4   | 3   | 3   |
+
 # <span id=Combat> Combat </span>
 
 ## Order of Combat
@@ -928,12 +1039,16 @@ The same man, armed with a heavy crossbow (one shot every other round) would be 
 
 ## <span id=Calculating-Hits> Calculating Hits per Level </span>
 
+Level 1 to 10
+
 | **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
 |------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
 | Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5   |
 | Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7   |
 | Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
 | Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
+
+Level 11 to 20
 
 | **Class**  | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
 |------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
@@ -1176,134 +1291,9 @@ Restrictions regarding armor still apply to the character. Whereas attacks, weap
 | Chaos Mage | 2,500         | 16 weeks                  |
 | Barbarian  | 1,500         | 8 weeks                   |
 
-# <span id=Spellcasting> Spellcasting </span>
 
-## Learning Spells
 
-All mages possess a spellbook from which they learn and mentally prepare
-spells. This spell also contains “Read Magic” , a first level blue
-spell. As they progress in level, mages may encounter or research new
-spells which they can add to their spellbook. Not all spells can be
-learned instantaneously – the complexity of a spell and the mage's
-current level affect their ability to comprehend and learn new magic.
-When gaining a new level, a spellcaster may reroll previously not
-[<u>understood</u>](#Intelligence) spells from their spellbook.
 
-## <span id=Spell-Copying> Spell Copying </span>
-
-Copying spells from a scroll runs the cost of an essential magical ink 
-that is suited for the spell book at hand. After successfully understanding 
-a spell, the mage may decide to rewrite the spell in the book. This costs 100
-GP worth of ink and one day of downtime per spell level. A lightning bolt in
-this case would cost 300 gold and three days' worth of downtime.
-
-## Innate Magic
-
-There are some exceptions to the typical rules of spellcasting. Certain
-beings might be born with innate magical powers, such as the Dwarves.
-For these unique cases, spellcasting might not adhere to the same rules
-as described above. Always consult the specific race or class
-descriptions for these unique magical users.
-
-## Spell Points
-
-Instead of gaining spell slots to cast your spells from, you gain a pool
-of spell points (referred to as **Mana**). The amount of mana you spend
-is based on the level of the spell being cast, and you can't reduce your
-mana pool to less than 0. You recover all spent mana when you finish a
-rest, at least 6 hours. You spend mana equal to the level of spell being
-cast. For example, a 1st-level spell spends 1 mana, a 9th-level spell
-spends 9 mana.
-
-The amount of mana available to spend is based on your level as a
-spellcaster, as shown in the Mana Progression table below. Your level
-and spellcasting attribute (wisdom/intelligence) also determines the maximum level spell you can
-cast. Even though you might have enough mana to cast a spell above this
-maximum, you can't do so.
-
-## Common Magic
-
-Spells of 1st- to 5th-level are referred to as Common magic. Common
-magic spells can be cast repeatedly while enough mana remain available
-to spend. For example, if you have 7 mana and can cast 2nd-level spells,
-you can cast seven 1st-level spells, five 1st-level spells and one
-2nd-level spells, three 1st-level spells and two 2nd-level spells, or
-one 1st-level spell and three 2nd-level spells.
-
-## High Magic
-
-Spells of 6th level and higher are referred to as High magic. High magic
-spells are particularly powerful. You are limited to how many high magic
-spells you can cast before needing to finish a rest to cast more. The
-number of high magic spells you can cast is equal to your maximum level
-spell minus 5. For example, if you can cast 7th-level spells, 6th- and
-7th-level spells are high magic. You can cast (7th – 5 = 2) two high
-magic spells before needing a rest to recover them. They can be two
-6th-level spells (total 12 mana), or one 6th- and one 7th-level spell
-(total 13 mana), or two 7th-level spells (total 14 mana).
-
-## Mana Progression Table
-
-| **Class Level** | **Max Spell Level (Chaos)** | **Mana Pool (Chaos)** | **Max Spell Level (Law)** | **Mana Pool (Law)** | **Max Spell Level (Multiclass)** | **Mana Pool (Multiclass)** |
-|-----------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|
-| **1**           | 1                   | 2             | 1                   | 1             | 1                   | 1             |
-| **2**           | 1                   | 3             | 1                   | 2             | 1                   | 2             |
-| **3**           | 2                   | 4             | 2                   | 4             | 1                   | 3             |
-| **4**           | 2                   | 6             | 2                   | 6             | 2                   | 4             |
-| **5**           | 3                   | 8             | 3                   | 8             | 2                   | 5             |
-| **6**           | 3                   | 11            | 3                   | 9             | 2                   | 6             |
-| **7**           | 4                   | 14            | 3                   | 11            | 3                   | 7             |
-| **8**           | 4                   | 18            | 3                   | 12            | 3                   | 8             |
-| **9**           | 5                   | 22            | 4                   | 14            | 3                   | 9             |
-| **10**          | 5                   | 26            | 4                   | 16            | 3                   | 10            |
-| **11**          | 5                   | 30            | 4                   | 18            | 4                   | 11            |
-| **12**          | 6                   | 34            | 4                   | 20            | 4                   | 12            |
-| **13**          | 6                   | 38            | 5                   | 22            | 4                   | 13            |
-| **14**          | 7                   | 42            | 5                   | 24            | 4                   | 14            |
-| **15**          | 7                   | 46            | 6                   | 26            | 4                   | 15            |
-| **16**          | 8                   | 50            | 6                   | 28            | 4                   | 16            |
-| **17**          | 8                   | 53            | 7                   | 30            | 5                   | 17            |
-| **18**          | 9                   | 56            | 7                   | 33            | 5                   | 18            |
-| **19**          | 9                   | 58            | 7                   | 36            | 5                   | 19            |
-| **20**          | 9                   | 60            | 7                   | 30            | 5                   | 20            |
-
-## The Five Colors Magic Paradigm
-
-The standard schools of magic are replaced by five colors, inspired by
-Magic: The Gathering's color system. Each color represents specific
-magic themes and effects (referred to as aspects):
-
-**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
-Suppress *(Peace, law, structure, selflessness, equality)*
-
-**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
-Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
-
-**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
-self-interest, death, sacrifice, uninhibitedness)*
-
-**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
-*(Freedom, emotion, action, impulse, destruction, change)*
-
-**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
-wildlife, connection, spirituality, tradition)*
-
-### Mana Pool
-
-In this system, each mana point in your pool corresponds to a specific
-color. For example, a 4th-level cleric with 12 mana could allocate these
-points as follows: 3W, 2U, 2B, 5G. Spells require mana of their assigned
-color. For instance, a 13th-level sorcerer casting 'Etherealness' (a
-Blue spell) as a 7th-level spell would spend 7 Blue mana. Mana from
-other colors cannot be used.
-
-### Devoting Mana to Colors
-
-After a day's rest, you can redistribute your mana across the colors as
-needed. For example, a 4th-level Law Mage with 12 mana may allocate the
-points as 3W, 2U, 2B, 5G expecting to cast healing spells (Green)
-frequently. After the next rest, the Law Mage could adjust this to 1W,
-1U, 1B, and 2G based on the group's need.
 
 # <span id=Psionics> Psionics </span>
 
@@ -3291,7 +3281,8 @@ Insanity/Madness, [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/produc
 OSRIC
 
 # <span id=Unused-Rules> Unused Rules </span> 
-# (For reference only!)
+
+(For reference only!)
 
 # Races
 
@@ -3603,3 +3594,105 @@ The table below describes an approach to weapon and armor interactions. Differen
 | Light           | +1            | +0            | -1               | 
 | Medium          | +0            | +1            | +0               |
 | Heavy           | -1            | +0            | +1               |
+
+# <span id=Mana-System> Mana System </span>
+
+## Spell Points
+
+Instead of gaining spell slots to cast your spells from, you gain a pool
+of spell points (referred to as **Mana**). The amount of mana you spend
+is based on the level of the spell being cast, and you can't reduce your
+mana pool to less than 0. You recover all spent mana when you finish a
+rest, at least 6 hours. You spend mana equal to the level of spell being
+cast. For example, a 1st-level spell spends 1 mana, a 9th-level spell
+spends 9 mana.
+
+The amount of mana available to spend is based on your level as a
+spellcaster, as shown in the Mana Progression table below. Your level
+and spellcasting attribute (wisdom/intelligence) also determines the maximum level spell you can
+cast. Even though you might have enough mana to cast a spell above this
+maximum, you can't do so.
+
+## Common Magic
+
+Spells of 1st- to 5th-level are referred to as Common magic. Common
+magic spells can be cast repeatedly while enough mana remain available
+to spend. For example, if you have 7 mana and can cast 2nd-level spells,
+you can cast seven 1st-level spells, five 1st-level spells and one
+2nd-level spells, three 1st-level spells and two 2nd-level spells, or
+one 1st-level spell and three 2nd-level spells.
+
+## High Magic
+
+Spells of 6th level and higher are referred to as High magic. High magic
+spells are particularly powerful. You are limited to how many high magic
+spells you can cast before needing to finish a rest to cast more. The
+number of high magic spells you can cast is equal to your maximum level
+spell minus 5. For example, if you can cast 7th-level spells, 6th- and
+7th-level spells are high magic. You can cast (7th – 5 = 2) two high
+magic spells before needing a rest to recover them. They can be two
+6th-level spells (total 12 mana), or one 6th- and one 7th-level spell
+(total 13 mana), or two 7th-level spells (total 14 mana).
+
+## Mana Progression Table
+
+| **Class Level** | **Max Spell Level (Chaos)** | **Mana Pool (Chaos)** | **Max Spell Level (Law)** | **Mana Pool (Law)** | **Max Spell Level (Multiclass)** | **Mana Pool (Multiclass)** |
+|-----------------|---------------------|---------------|---------------------|---------------|---------------------|---------------|
+| **1**           | 1                   | 2             | 1                   | 1             | 1                   | 1             |
+| **2**           | 1                   | 3             | 1                   | 2             | 1                   | 2             |
+| **3**           | 2                   | 4             | 2                   | 4             | 1                   | 3             |
+| **4**           | 2                   | 6             | 2                   | 6             | 2                   | 4             |
+| **5**           | 3                   | 8             | 3                   | 8             | 2                   | 5             |
+| **6**           | 3                   | 11            | 3                   | 9             | 2                   | 6             |
+| **7**           | 4                   | 14            | 3                   | 11            | 3                   | 7             |
+| **8**           | 4                   | 18            | 3                   | 12            | 3                   | 8             |
+| **9**           | 5                   | 22            | 4                   | 14            | 3                   | 9             |
+| **10**          | 5                   | 26            | 4                   | 16            | 3                   | 10            |
+| **11**          | 5                   | 30            | 4                   | 18            | 4                   | 11            |
+| **12**          | 6                   | 34            | 4                   | 20            | 4                   | 12            |
+| **13**          | 6                   | 38            | 5                   | 22            | 4                   | 13            |
+| **14**          | 7                   | 42            | 5                   | 24            | 4                   | 14            |
+| **15**          | 7                   | 46            | 6                   | 26            | 4                   | 15            |
+| **16**          | 8                   | 50            | 6                   | 28            | 4                   | 16            |
+| **17**          | 8                   | 53            | 7                   | 30            | 5                   | 17            |
+| **18**          | 9                   | 56            | 7                   | 33            | 5                   | 18            |
+| **19**          | 9                   | 58            | 7                   | 36            | 5                   | 19            |
+| **20**          | 9                   | 60            | 7                   | 30            | 5                   | 20            |
+
+## The Five Colors Magic Paradigm
+
+The standard schools of magic are replaced by five colors, inspired by
+Magic: The Gathering's color system. Each color represents specific
+magic themes and effects (referred to as aspects):
+
+**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
+Suppress *(Peace, law, structure, selflessness, equality)*
+
+**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
+Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
+
+**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
+self-interest, death, sacrifice, uninhibitedness)*
+
+**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
+*(Freedom, emotion, action, impulse, destruction, change)*
+
+**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
+wildlife, connection, spirituality, tradition)*
+
+### Mana Pool
+
+In this system, each mana point in your pool corresponds to a specific
+color. For example, a 4th-level cleric with 12 mana could allocate these
+points as follows: 3W, 2U, 2B, 5G. Spells require mana of their assigned
+color. For instance, a 13th-level sorcerer casting 'Etherealness' (a
+Blue spell) as a 7th-level spell would spend 7 Blue mana. Mana from
+other colors cannot be used.
+
+### Devoting Mana to Colors
+
+After a day's rest, you can redistribute your mana across the colors as
+needed. For example, a 4th-level Law Mage with 12 mana may allocate the
+points as 3W, 2U, 2B, 5G expecting to cast healing spells (Green)
+frequently. After the next rest, the Law Mage could adjust this to 1W,
+1U, 1B, and 2G based on the group's need.

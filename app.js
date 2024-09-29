@@ -42,6 +42,23 @@ function loadUpdatePost()
     { 
 
 
+        title: 'Spell Memorization',
+        content: `Going from the Mana point system to the standard Vancian spell memorization system to simplify spellcasting. I'm still keeping some of the mana categorization, but mechanically it doesn't matter anymore. Now you simply decide what spells you have prepared for the day at dawn.
+
+        <b> Changes: </b>
+
+        - Added the classic Vancian Spell Memorization magic system.
+        - Mana points system is moved to unused rules.
+        - Psionic sleep is now more defined. It is closer to a "mini" version of the spell Sleep.
+        - Added colors to the different titles on the website.
+        - Added dice rolling to randomize starting age.
+        
+        `,
+        date: "2024-09-29 21:57 CET" 
+    },
+
+    { 
+
         title: 'Armor + Fighter Parry',
         content: `The parry mechanic in from Swords & Wizardry (S&W) was created as a way to 'buff' fighters. Since S&W is an OD&D retroclone, it follows similar rules from the game which is different from AD&D, which we also use:
 
@@ -63,7 +80,6 @@ function loadUpdatePost()
 
         - Rebalancing fighter, better parry that includes all enemies in the facing direction. 
         - Worse armor for everyone. 9 base AC up to 16 with plate.
-
         - Added pitons, iron spikes, and hammer to equipment.
 
         `,
@@ -76,7 +92,7 @@ function loadUpdatePost()
         title: 'Movement Rates (Exploration and Encounter speed)',
         content: `As we have been using the OSE movement from before, I replaced the rules for "Indoor, Underground & City Movement". The main point is that Exploration (EX) and Encounter (EN) speeds are named separated, making it easier to reference.
 
-        Changes:
+        <b> Changes: </b>
 
         - Added notes for the Exploration and Encounter speeds and rules.
         
@@ -95,7 +111,7 @@ function loadUpdatePost()
         
         With that said, Wisdom is not totally useless. You can get some magic resist modifiers, a bonus spell, and spell fizzling shared between classes, which is always fun.
 
-        Changes:
+        <b> Changes: </b>
 
         - Added OSRIC combat
         - Split MIND into Intelligence & Wisdom
@@ -105,7 +121,6 @@ function loadUpdatePost()
         - Added Spell Fizzling between casters (Wisdom)
         - Added Reaction Modifiers (Charisma)
         - Added Weapon Speed Factors
-
         - Removed Slow weapon keyword (not needed when using Weapon Speed Factor)
 
         The character sheet has also been updated <a href="https://docs.google.com/spreadsheets/d/1XlUl6O1_ymb5VPnOyDb6dPRgYk0ry6mivazzenZiKyA/edit?usp=sharing" target="_blank"><u>HERE</u></a>
