@@ -22,7 +22,7 @@
 
 **(6) Roll starting hit points**
 
-- Roll your class hit die to determine starting HP. Add or remove depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
+- Roll or choose the average value of your class' hit die rounded down to determine starting HP. Modify depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
 **(7) Roll [<u>starting gold</u>](#Starting-Gold)**
 
@@ -746,7 +746,7 @@ including spells from magic wands and staffs.<>
 cast without spending mana. These spells are often instantaneous and can
 be used as many times as the Mage would like.
 
-**Chaos Mage Advancement Table**
+**Illusionist Advancement Table**
 
 | **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** |
 |-----------|---------------------------|-------------------|------------------|--------------------------|
@@ -1509,7 +1509,7 @@ will most likely require a saving throw to avoid madness and/or horror.
 |Lantern, bullseye  | 14 GP | These shine a beam of light 60 feet long but only 10 feet wide through a hole in the lantern's metal cylinder. They have a hinged cover that allows the light to be hidden. | 1 | ☐ |  
 |Lantern, hooded  | 8 GP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | ☐ |  
 |Lockpick  | 1 GP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | ☑ |  
-|Oil, flask  | 1 GP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | ☑ |  
+|Oil, flask  | 1 GP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | ☐ |  
 |Piton  | 1 SP | Similar to an iron spike, but with an eye which can be used to loop a rope. Can also be hammered into stone. | 1 | ☑ |  
 |Pole, 10 feet  | 1 GP | A wooden pole, similar to a spear without a spearhead. | 1 | ☐ |  
 |Quiver  | 2 GP | Granting easy access to arrows and bolts. A typical quiver is made out of leather or thick canvas and can hold around 20 of either type of ammunition. | - | ☐ |  

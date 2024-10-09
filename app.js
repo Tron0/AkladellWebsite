@@ -42,6 +42,22 @@ function loadUpdatePost()
     { 
 
 
+        title: 'Average HP',
+        content: `There's now the added choice whether to roll for the starting hit die or take the average. This generally makes Barbarians more appealing to pick, as before it was a big gamble when rolling HP at level 1. Levels beyond that you always roll HD as usual however.
+
+        Oil is no longer stackable. My thought process behind this is that you need a way to keep the oil flask from breaking, making them obviously more encumbering when you haul around 10 of them in a pile. This being the case also makes torches more appealing to use if you need the slots for something else, like gold.
+
+        <b> Changes: </b>
+
+        - You can now either roll your starting HD or choose the average, rounded down.
+        - Oil is no longer stackable and counted as 1 slot each.
+        `,
+        date: "2024-10-09 21:40 CET" 
+    },
+
+    { 
+
+
         title: 'Spell Memorization',
         content: `Going from the Mana point system to the standard Vancian spell memorization system to simplify spellcasting. I'm still keeping some of the mana categorization, but mechanically it doesn't matter anymore. Now you simply decide what spells you have prepared for the day at dawn.
 

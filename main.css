@@ -34,29 +34,30 @@ body {
     top: 0;
     left: -100%;
     width: 280px;
-    height: 100vh;
-    max-height: 95vh;
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
     padding: 10px;
-    overflow-y: auto;
     transition: left 0.3s;
     background-color: black;
     color: white;
-    z-index: 1000;
+    z-index: 1000; /* On top of the overlay */
 }
 
 #toc-overlay {
-    position: fixed;
+    position: fixed; /* The overlay should cover the entire screen */
     top: 0;
     left: 0;
     width: 100vw;
-    height: 95vh;
+    height: 100vh; /* Ensures the overlay covers the full screen */
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    display: none;
+    z-index: 999; /* Just behind the TOC panel */
+    display: none; /* Initially hidden */
+    pointer-events: none; 
 }
 
 #toc-panel.visible ~ #toc-overlay {
     display: block;
+    pointer-events: auto; /* Enable pointer events only for the overlay */
 }
 
 #toc-panel.visible {
@@ -232,8 +233,7 @@ header, nav {
     display: none;
 }
 
-/* Mobile Specific Styles */
-@media (max-width: 1200px) {
+@media (pointer: coarse) {
     body {
         flex-direction: column;
         align-items: center;
@@ -250,8 +250,37 @@ header, nav {
 
     #toc-panel {
         width: 70vw;
-        max-width: 400px;
-        padding: 2vw;
+        height: calc(100vh - 20px);
+        max-width: 50%;
+        padding: 5vw;
+        overflow-y: auto;
+        position: fixed; /* Ensure it’s fixed for scrolling */
+        top: 0; 
+        left: -100%; 
+        transition: left 0.3s; 
+        z-index: 1000;
+    }
+
+    #toc-overlay {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999; 
+        display: none;
+        pointer-events: auto; 
+    }
+
+    /* Show overlay when TOC is visible */
+    #toc-panel.visible ~ #toc-overlay {
+        display: block; /* Show overlay when TOC is visible */
+    }
+
+    /* Show TOC when it is visible */
+    #toc-panel.visible {
+        left: 0; /* Slide in TOC */
     }
 
     .centered-container {
@@ -279,5 +308,12 @@ header, nav {
         font-size: 2vw;
         max-width: 40px;
         max-height: 40px;
+    }
+
+    #nav {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between; 
     }
 }
