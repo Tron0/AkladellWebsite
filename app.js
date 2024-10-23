@@ -60,7 +60,7 @@ function loadUpdatePost()
         - Added Special Abilities to roll at 1st level.
         - Changed "Magic Saves" modifier in Wisdom as "Mental Saving Throw Bonus" (versus charm etc)
         - Bonus spells from Wisdom lowered to a maximum of 2nd level.
-        - Clarified the amount of undead turned from the "banishing undead".
+        - Clarified the amount of undead turned from the "banishing undead" ability.
         `,
         date: "2024-10-23 21:33 CET" 
     },
