@@ -42,6 +42,29 @@ function loadUpdatePost()
     { 
 
 
+        title: 'Combat Actions & Special Abilities',
+        content: `There's now a whole write-up from OSRIC/1e on the different combat actions a character can take. In melee especially. It's mostly the same except for a few differences (highly recommend reading it but here's a short version) 
+
+        - Parrying needs to be declared.
+        - Charging and closing into melee is different. Charging doubles movement speed but the defender gets to attack as well. If you decide to close into melee you cannot attack.
+        - You can set spears or similar weapons against charges.
+        - You need to randomly determine enemy targets when attacking in melee. This is not like missiles where you can target allies however.
+
+        Secondly there's now "Special Abilities" or traits that you can roll for at 1st level. It is taken from "Fight On! #15", which I really liked. It was apparently first an idea from Mark Swanson's Special Abilities "in Alarums &
+        Excursions #1" from 1975. Later it was refined from its original concept by David Hargrave who wrote it in "Arduin Grimoire #1" in 1977. There's a lot of very fun ideas in these charts, so I'm dropping it in.
+
+
+        <b> Changes: </b>
+
+        - Added Melee Actions from OSRIC.
+        - Added Special Abilities to roll at 1st level.
+        `,
+        date: "2024-10-23 21:33 CET" 
+    },
+
+    { 
+
+
         title: 'Average HP',
         content: `There's now the added choice whether to roll for the starting hit die or take the average. This generally makes Barbarians more appealing to pick, as before it was a big gamble when rolling HP at level 1. Levels beyond that you always roll HD as usual however.
 

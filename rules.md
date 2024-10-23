@@ -49,6 +49,10 @@
 - [<u>Psionics</u>](#Psionics)
 - [<u>Weapon Proficiencies</u>](#Weapon-Proficiencies) (Initial number on class page)
 
+**(12) Roll for [<u>Special Abilities</u>](#Special-Abilities)**
+
+- After all the previous steps are completed, roll on the [<u>Special Abilities</u>](#Special-Abilities) table and let the DM roll to determine the specific sort of effect it has on the character.
+
 # <span id=Character-Creation> Character Creation </span>
 
 ## Rolling Ability Scores 
@@ -165,6 +169,29 @@ character.
 | 71 - 90            | No skill of measurable worth           | 
 | 90 - 100           | Roll twice, ignoring this result after | 
 
+## <span id=Special-Abilities> Special Abilities </span>
+
+*Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
+
+Special Abilities are more like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your DM. 
+
+| **Type** | **Class** | 
+|------|-------| 
+| Martial | Fighter, Inquisitor, Barbarian 
+| Chaos | Chaos Mage, Illusionist 
+| Law | Law Mage | 
+| Clandestine | Specialist |
+
+Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The DM will then roll for each and tell you exactly what kind of trait(s) your character has received.
+
+| 1d8   | Boons | Banes |
+|-------|-------|-------|
+| 1     |   0   |     1 |
+| 2     |   1   |     2 |
+| 3 - 6 |   1   |     1 |
+| 7     |   2   |     1 |
+| 8     |   1   |     0 |
+
 # <span id=Ability-Scores> Ability Scores </span>
 
 ## Strength
@@ -227,7 +254,7 @@ more XP.
 
 ## Wisdom
 
-| **Score** | **Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+| **Score** | **Mental Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -240,9 +267,9 @@ more XP.
 | 13        | +1              | -                        | 0%                          | 65%
 | 14        | +1              | -                        | 0%                          | 65%
 | 15        | +1              | One 1st level            | 0%                          | 75%
-| 16        | +2              | One 2nd level            | 0%                          | 75%
-| 17        | +2              | One 3rd level            | 0%                          | 85%
-| 18        | +3              | One 3rd level            | 0%                          | 95%
+| 16        | +2              | One 1st level            | 0%                          | 75%
+| 17        | +2              | One 2nd level            | 0%                          | 85%
+| 18        | +3              | One 2nd level            | 0%                          | 95%
 
 \*For [<u>Law Mages</u>](#Law-Mage)
 
@@ -276,7 +303,7 @@ more XP.
 **Weapons Permitted:** Any
 
 **Parry:** Fighters with a Dexterity score of 14 or better can fight on
-the defensive, parrying an enemy blow, as shown on the
+the defensive, parrying enemy blows, as shown on the
 table below. The Fighter can parry enemy attacks in the direction they are facing
 without giving up the ability to attack themselves in the same round.
 Parrying is not effective against ranged weapons, but is effective
@@ -342,7 +369,7 @@ Charisma
 **Magic Items** Inquisitors may only own no more than three magic items.
 
 **Parry:** Inquisitors with a Dexterity score of 14 or better can fight on
-the defensive, parrying an enemy blow, as shown on the
+the defensive, parrying enemy blows, as shown on the
 table below. The Inquisitor can parry one enemy attack
 without giving up the ability to attack themselves in the same round.
 Parrying is not effective against ranged weapons, but is effective
@@ -984,16 +1011,17 @@ They require research, experimentation, training, and perhaps even ingredients t
 ## Order of Combat
 
 1. Determine Surprise (d6)
-2. Declare Spells and General Actions
+2. Declare Spells and Melee actions (Fighting Retreat, Charge, Parry etc)
 3. Determine Initiative (d6)
 4. Winning side acts:
-  - Monster morale
-  - Begin spell casting
   - Movement
+  - Spells/Abilities
   - Missile attacks
   - Melee attacks
 5. Other sides act: In initiative order.
 6. Spells with casting time of 1 round are cast.
+
+
 
 ## Initiative
 
@@ -1016,12 +1044,41 @@ Surprise is checked only once per combat, at the beginning of an encounter. Each
 
 Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's Armor Class (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
 
-## <span id=Leaving-Melee> Leaving Melee </span>
+## <span id=Combat-Actions> Combat Actions </span>
+
+### Melee Attack
+
+A melee attack is an attack with a hand-held weapon such as a sword, halberd, or dagger. A character's strength bonuses "to hit" and on damage are added to melee attacks. It is only possible to make a melee attack when the two combatants are within 10-ft of each other. Two combatants within 10-ft of each other are considered to be "engaged." When faced with more than one opponent, it is not possible to pick which opponent will be the one receiving the attack; in the rapid give and take of melee, any one of the opponents might be the one to let down his guard for a moment. 
+
+When a character is in melee with multiple opponents, the target of an attack roll must be determined randomly, but note that characters or creatures with multiple attacks that are part of the same routine (such as a character wielding a sword and dagger) must make all attacks against the same opponent.
+
+### Closing into Combat
+
+When two groups of combatants are not within the 10-ft melee range, the attackers may choose either to charge into combat or to advance more cautiously, closing into combat. Closing into combat does not allow the character to make an attack roll that round; the cautious advance does not generate the opening to make a significant attack. However, neither may the character's opponent attack until the round after closing. When closing into combat, the character may advance the full amount of his or her movement. 
+
+### Charge
+
+Charging into combat allows the attacker to move and then attack in the same round. A charge is made at twice the normal movement rate (and must terminate within the 10-ft melee range of the target). If the defender has a longer weapon than the attacker, the defender attacks first (unless the defender has already acted in this round). The attacker gains no dexterity bonus against such an attack (and characters with no dexterity bonus receive a -1 AC penalty). Additionally, if the defender has a weapon set against the charge (see below), he or she will inflict additional damage with a successful hit against the charging attacker. 
+
+Assuming that the charging character survives, he or she gains +2 “to hit” on his or her attack. Characters may only perform a charge once every 10 rounds (i.e. once per turn). Characters who are at the maximum encumbrance category may not charge unless they are mounted and the mount is below the maximum encumbrance category. 
+
+### Parrying
+
+A character who parries cannot move for the duration of the combat round. See [<u>Fighter Parry</u>](#Fighter)
+
+### Set Weapon Against Charge 
+
+Certain weapons can be “set” against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but the weapon will inflict double damage against a charging opponent. A charge is any attack that allows the attacker to move and attack, and thus includes leaping attacks that may be made by some monsters. 
+
+Weapons that may be set against a charge include spears, lances (when used dismounted), most pole arms, and tridents. 
+
+### <span id=Leaving-Melee> Leaving Melee </span>
 
 Where two or more creatures are engaged in a melee, either may break off from the engagement during their turn. The creature leaving the melee has two choices:
-- Retreating: You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
 
-- Fighting Withdrawal: A Fighting Withdrawal may be used in combat if the defender wants to backup slowly. Movement backwards is limited to ½ the normal movement per round (or less).
+- **Retreating:** You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
+
+- **Fighting Withdrawal:** A Fighting Withdrawal may be used in combat if the defender wants to backup slowly. Movement backwards is limited to ½ the normal movement per round (or less). This manoeuvre may be used to “switch places” with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy's pursuit while the second character makes a fighting retreat. 
 
 ## Two-Weapon Fighting and Two-Handed Weapons
 
