@@ -254,7 +254,7 @@ more XP.
 
 ## Wisdom
 
-| **Score** | **Mental Magic Saves** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -603,7 +603,8 @@ inscribed and comprehended in the spellbook. Any remaining spells out of
 the initial ten, which are not yet understood, are not added to the
 spellbook until the Mage has successfully learned the initial set.
 
-**Banishing Undead:** Law Mages can Turn Undead as seen below.
+**Banishing Undead:** Law Mages can Turn Undead as seen below. If the number on the dice is equal to or greater than the number shown
+on the table, 2d6 creatures of the targeted type are turned and depart.
 
 | **Challenge Level of Undead** | **Specific Undead** | **Level 1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10-13** | **14-17** | **18+** |
 |-------------------------------|---------------------|-------------|-------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|---------|
