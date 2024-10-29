@@ -28,9 +28,9 @@
 
 - Consult the table and roll for your starting gold depending on the class.
 
-**(8) Purchase [<u>gear</u>](#Rules/#General-Equipment)**
+**(8) Determine equipment**
 
-- Spend any gold on additional weapons, armor, equipment as desired.
+- Roll on the general [<u>starting equipment</u>](#Starting-Equipment) table and the class equipment table that is found on the class page.
 
 **(9) Determine Background**
 
@@ -69,11 +69,10 @@ player may reroll a die with the result in a 1.
 
 ## <span id="Age">Age</span>
 
-The starting age of your character is determined up to you. The table
-below determines the ability score bonuses or penalties your character
+The table below determines the ability score bonuses or penalties your character
 is given based on life stage.
 
-The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modifidy ability scores accordingly, making each change progressively from young adulthood, all aditions and subtractions being cumulative.
+The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modify ability scores accordingly, making each change progressively from young adulthood, all aditions and subtractions being cumulative.
 
 | **Result (1d100)** | **Age**     | **Strength** | **Dexterity** | **Constitution** | **Intelligence** | **Wisdom** | **Charisma** |
 |--------------------|-------------|--------------|---------------|------------------|------------------|------------|--------------|
@@ -302,6 +301,21 @@ more XP.
 
 **Weapons Permitted:** Any
 
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | Leather + Buckler | Crossbow (1d3) 1. Hand. 2. Light. 3. Heavy. + 20 quarrels
+| 2            | Studded Leather | Dagger
+| 3            | Ring Mail | Longsword
+| 4            | Chain Mail + Medium shield | Mace
+| 5            | Splint Mail + Medium shield | Shortsword
+| 6            | Plate Mail | Spear (1d3) 1. Thrown. 2. One-handed. 3. Two-handed
+
+### Talents
+
 **Parry:** Fighters with a Dexterity score of 14 or better can fight on
 the defensive, parrying enemy blows, as shown on the
 table below. The Fighter can parry enemy attacks in the direction they are facing
@@ -326,7 +340,7 @@ except against magic.
 **Multiple Attacks (5th):** At 5th level, a Fighter may attack twice
 when taking an attack action instead of once.
 
-**Fighter Advancement Table**
+### Fighter Advancement Table
 
 | **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** | **Weapon Proficiencies** |
 |-----------|------------------------------|-------------------|-------------------|--------------------------|
@@ -368,6 +382,21 @@ Charisma
 
 **Magic Items** Inquisitors may only own no more than three magic items.
 
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | Chain Mail + Buckler | Dagger
+| 2            | Scale Mail | Shortsword
+| 3            | Splint Mail | Longsword
+| 4            | Banded Mail | Mace
+| 5            | Plate Mail | Claymore
+| 6            | Plate Mail + Medium Shield | Pole Arm
+
+### Talents
+
 **Parry:** Inquisitors with a Dexterity score of 14 or better can fight on
 the defensive, parrying enemy blows, as shown on the
 table below. The Inquisitor can parry one enemy attack
@@ -408,7 +437,7 @@ round to cast.
 spell that incapacitates the body or mind (sleep, hold, charm,
 paralysis, etc.), they may make a new saving throw every round
 
-**Banishing Undead (3rd) :** An Inquisitor gains the power to turn
+**Banishing Undead (3rd):** An Inquisitor gains the power to turn
 undead and fiends when they reach 3rd level. They affect these monsters
 the same as does a [<u>Law Mage</u>](#law-mage) two levels lower—for
 example, at 3rd level they have the turning power of a 1st-level [<u>Law
@@ -418,7 +447,7 @@ Mage</u>](#law-mage).
 dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
 Mage</u>](#law-mage-1) spell dispel evil).
 
-**Inquisitor Advancement Table**
+### Inquisitor Advancement Table
 
 | **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** | **Weapon Proficiencies** |
 |-----------|------------------------------|--------------------|-------------------|--------------------------|
@@ -457,6 +486,23 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 **Saving Throw Bonus:** Specialists gain a +2 bonus on saving throws
 against devices, including traps and other magical devices.
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | None | Club
+| 2            | None | 3 Daggers
+| 3            | Hide  | Shortsword
+| 4            | Leather | Shortbow + 20 arrows
+| 5            | Leather | Whip
+| 6            | Studded Leather | Sling + 20 stones
+
+**Class Items:** Starts play with Thieves' Tools. 
+
+### Talents
 
 **Evasiveness:** Specialists gain a +1 bonus to AC when
 [<u>unencumbered</u>](#_25dl12dlsxgn).
@@ -573,6 +619,23 @@ would be considered Tinkering.
 
 **Alignment:** Law Mages are of Lawful alignment.
 
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | Studded Leather | Dagger
+| 2            | Leather + Medium Shield | Flail
+| 3            | Brigandine | Longsword
+| 4            | Chain Mail + Buckler | Mace
+| 5            | Banded Mail | Shortsword
+| 6            | Plate Mail | Warhammer
+
+**Class Items:** Spellbook containing the initial spells of Law.
+
+### Talents
+
 | **Wisdom Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
 |----------------|---------------------|-----------------------------------------------------|
 | 3 - 7          | 2                   | 2/4                                                 |
@@ -604,7 +667,7 @@ the initial ten, which are not yet understood, are not added to the
 spellbook until the Mage has successfully learned the initial set.
 
 **Banishing Undead:** Law Mages can Turn Undead as seen below. If the number on the dice is equal to or greater than the number shown
-on the table, 2d6 creatures of the targeted type are turned and depart.
+on the table, 2d4 creatures of the targeted type are turned and depart.
 
 | **Challenge Level of Undead** | **Specific Undead** | **Level 1** | **2** | **3** | **4** | **5** | **6** | **7** | **8** | **9** | **10-13** | **14-17** | **18+** |
 |-------------------------------|---------------------|-------------|-------|-------|-------|-------|-------|-------|-------|-------|-----------|-----------|---------|
@@ -622,7 +685,7 @@ on the table, 2d6 creatures of the targeted type are turned and depart.
 | 12                            |                     | \-          | \-    | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13        | 10        | 10      |
 | 15+                           | Lich                | \-          | \-    | \-    | \-    | \-    | \-    | \-    | \-    | 20    | 19        | 16        | 13      |
 
-**Law Mage Advancement Table**
+### Law Mage Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** |
 |-----------|---------------------------|-------------------|------------------|--------------------------|
@@ -661,6 +724,23 @@ on the table, 2d6 creatures of the targeted type are turned and depart.
 
 **Alignment:** Chaos Mages are of Chaotic alignment.
 
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | - | Dagger
+| 2            | - | Dagger
+| 3            | - | Dagger
+| 4            | - | Quarterstaff
+| 5            | - | Quarterstaff
+| 6            | - | 10 Darts
+
+**Class Items:** Spellbook containing the initial spells of Chaos.
+
+### Talents
+
 | **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
 | 3 - 7          | 4                   | 2/4                                                 | 2                              |
@@ -696,7 +776,7 @@ staffs.
 cast without spending mana. These spells are often instantaneous and can
 be used as many times as the Mage would like.
 
-**Chaos Mage Advancement Table**
+### Chaos Mage Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** |
 |-----------|---------------------------|-------------------|------------------|--------------------------|
@@ -734,6 +814,23 @@ be used as many times as the Mage would like.
 **Weapons Permitted:** Dagger, staff and darts
 
 **Alignment:** Illusionists are of Chaotic alignment.
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | - | Dagger
+| 2            | - | Dagger
+| 3            | - | Dagger
+| 4            | - | Quarterstaff
+| 5            | - | Quarterstaff
+| 6            | - | 10 Darts
+
+**Class Items:** Spellbook containing the initial spells of Phantasm.
+
+### Talents
 
 | **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
 |----------------|---------------------|-----------------------------------------------------|--------------------------------|
@@ -774,7 +871,7 @@ including spells from magic wands and staffs.<>
 cast without spending mana. These spells are often instantaneous and can
 be used as many times as the Mage would like.
 
-**Illusionist Advancement Table**
+### Illusionist Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** |
 |-----------|---------------------------|-------------------|------------------|--------------------------|
@@ -809,14 +906,28 @@ be used as many times as the Mage would like.
 
 **Armor/Shield Permitted**: Light armor, medium armor, shield
 
-**Weapons Permitted:** Any, except ranged
+**Weapons Permitted:** Any, except bows/crossbows
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | Hide | Club
+| 2            | Hide + Buckler | Morningstar
+| 3            | Padded | Dagger
+| 4            | Studded Leather | 3 Spears, thrown
+| 5            | Scale Mail + Medium Shield | Great Axe
+| 6            | Splint Mail | Zweihänder
+
+### Talents
 
 **Keen Instincts:** Barbarians can detect and concealed doors easier
 than others. They are able to discover secret and hidden doors on a 1-4
-on 1d6 and may even notice such a door simply by passing near it if they
-roll 1 - 2 on 1d6.
+on 1d6.
 
-**Alertness:** A party containing a Barbarian is unlikely to be surprised, with only a 1-in-6 chance.
+**Alertness:** A party containing a Barbarian is unlikely to be surprised, with only a 1-in-6 chance under normal circumstances. Or +1 if surprise is more likely than 2-in-6.
 
 **Savage Blows:** Barbarians gain an extra +2 to all damage rolls made
 in melee combat.
@@ -831,7 +942,7 @@ sustain themselves when in the wilderness.
 **Saving Throws:** Barbarians receive a +2 bonus to all saving throws
 made to resist spells and magical effects.
 
-**Barbarian Advancement Table**
+### Barbarian Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** | **Weapon Proficiencies** |
 |-----------|---------------------------|--------------------|------------------|--------------------------|
@@ -912,6 +1023,19 @@ that is suited for the spell book at hand. After successfully understanding
 a spell, the mage may decide to rewrite the spell in the book. This costs 100
 GP worth of ink and one day of downtime per spell level. A lightning bolt in
 this case would cost 300 gold and three days' worth of downtime.
+
+## <span id=Spell-Research> Spell Research </span>
+
+Chaos and Law Mages may research new spells (by different methods, of course). This process, and the spell to be created, requires
+the approval of the Referee. 
+
+Research also requires coinage. If the character has access to a wizard's laboratory or an appropriate place to study, the cost of research is 100 - 2,000 gp per spell level. 
+The DM can choose the actual cost or determine it randomly.
+
+The minimum expenditure would yield a 20% chance of successfully developing the spell, and if the researcher invests more in the
+research, every additional minimum expenditure yields an additional 20% chance of success. If this check succeeds, the character has researched the spell. 
+
+The research takes one to two weeks of game time for each level of the spell. 
 
 ## Innate Magic
 
@@ -1021,8 +1145,6 @@ They require research, experimentation, training, and perhaps even ingredients t
   - Melee attacks
 5. Other sides act: In initiative order.
 6. Spells with casting time of 1 round are cast.
-
-
 
 ## Initiative
 
@@ -1528,19 +1650,29 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 # <span id=Items> Items </span>
 
-## <span id=Starting-Gold> Starting Gold </span>
+## <span id=Starting-Equipment> Starting Equipment </span>
 
-| **Class**  | **Starting Gold Pieces (x10)** |
-|------------|--------------------------------|
-| Fighter    | 5d4 (50-200)                   |
-| Specialist | 2d6 (20-120)                   |
-| Law Mage   | 3d6 (30-180)                   |
-| Chaos Mage | 2d4 (20-80)                    |
-| Barbarian  | 2d6 (20-120)                   |
+General items: Common clothes. A backpack containing 2 preserved rations, a waterskin, and a tinder box/flint & steel. A belt pouch containing 3d6 gold pieces.
+
+Roll four times on the table below.
+
+| **Result (1d20)** | **Item** | **Result (1d20)** | **Item** |
+|---------------|------|---------------|------|
+| 1 | Bedroll | 11 | Oil, flask           
+| 2 | Chalk (10 sticks) | 12 | Rope, hemp (50 feet) 
+| 3 | Chisel | 13 | Sack, small
+| 4 | Cooking pots | 14 | Shovel 
+| 5 | Crowbar | 15 | Quiver 
+| 6 | Grappling hook  | 16 | Tent, small (one man) 
+| 7 | Ink, quill, 5 sheets paper | 17 | Torches (3)
+| 8 | Spike, iron (10) | 18 | Twine (100' ball) 
+| 9 | Lantern (hooded) | 19 | Holy water, vial 
+| 10 | Marbles (bag of 20) | 20 | Pole, 10 feet |
+
 
 ## <span id=General-Equipment> General Equipment </span>
 
-| Item                  | Cost       | Description                                               | Weight                     | Stackable |
+| **Item**                  | **Cost**       | **Description**                                              | **Weight**                     | Stackable |
 |-----------------------|------------|-----------------------------------------------------------|----------------------------|-----------|
 | Backpack | 5 GP | A sturdy canvas sack with straps, designed to comfortably carry up to 8 slots of gear.  | —  | ☐ |
 |Bandage  | 2 GP | A length of clean cloth used to wrap wounds and halt bleeding. | 1 | ☑ |      
@@ -3754,3 +3886,13 @@ needed. For example, a 4th-level Law Mage with 12 mana may allocate the
 points as 3W, 2U, 2B, 5G expecting to cast healing spells (Green)
 frequently. After the next rest, the Law Mage could adjust this to 1W,
 1U, 1B, and 2G based on the group's need.
+
+## <span id=Starting-Gold> Starting Gold </span>
+
+| **Class**  | **Starting Gold Pieces (x10)** |
+|------------|--------------------------------|
+| Fighter    | 5d4 (50-200)                   |
+| Specialist | 2d6 (20-120)                   |
+| Law Mage   | 3d6 (30-180)                   |
+| Chaos Mage | 2d4 (20-80)                    |
+| Barbarian  | 2d6 (20-120)                   |

@@ -42,6 +42,25 @@ function loadUpdatePost()
     { 
 
 
+        title: 'Rolling for Equipment & Spell Research',
+        content: `For the sake of time, you can now roll for starting equipment instead of buying. There's a starting items table specific for each class and one general "starting equipment" table that you role on four times. You also get a couple of generic starting items listed under the starting items caption.
+
+        Spell research rules are also written down. They're generally open-ended because I feel like there's no "true" ruling for how to proceed. But general guidelines are now in place.
+
+        <b> Changes: </b>
+
+        - Magical Research rules
+        - Rolling for equipment
+        - Removed Barb passive search, but kept the 1-4 active.
+        - Changed Barb wording: "Any except ranged" -> "Any except bows/crossbows"
+        
+        `,
+        date: "2024-10-29 18:53 CET" 
+    },
+
+    { 
+
+
         title: 'Combat Actions & Special Abilities',
         content: `There's now a whole write-up from OSRIC/1e on the different combat actions a character can take. In melee especially. It's mostly the same except for a few differences (highly recommend reading it but here's a short version) 
 
@@ -61,6 +80,7 @@ function loadUpdatePost()
         - Changed "Magic Saves" modifier in Wisdom as "Mental Saving Throw Bonus" (versus charm etc)
         - Bonus spells from Wisdom lowered to a maximum of 2nd level.
         - Clarified the amount of undead turned from the "banishing undead" ability.
+        
         `,
         date: "2024-10-23 21:33 CET" 
     },
@@ -77,6 +97,7 @@ function loadUpdatePost()
 
         - You can now either roll your starting HD or choose the average, rounded down.
         - Oil is no longer stackable and counted as 1 slot each.
+        
         `,
         date: "2024-10-09 21:40 CET" 
     },
