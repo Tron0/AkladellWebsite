@@ -4,6 +4,7 @@
 
 | Obit | Session | Character |
 |------|---------|-----------| 
+| 2024-10-25 | 52A | Karnak |
 | 2024-09-20 | 48A | Loky Grey |
 | 2024-08-23 | 44A | Sonne Potate |
 | 2024-08-09 | 42A | Harry |
