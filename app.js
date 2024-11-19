@@ -42,6 +42,20 @@ function loadUpdatePost()
     { 
 
 
+        title: 'Details on Spell Research',
+        content: `Added details and steps on spell research. It is closer to AD&D now, and generally less expensive.
+
+        <b> Changes: </b>
+
+        - Spell Research patch
+        
+        `,
+        date: "2024-11-19 21:52 CET" 
+    },
+
+    { 
+
+
         title: 'Rolling for Equipment & Spell Research',
         content: `For the sake of time, you can now roll for starting equipment instead of buying. There's a starting items table specific for each class and one general "starting equipment" table that you role on four times. You also get a couple of generic starting items listed under the starting items caption.
 
