@@ -1027,15 +1027,55 @@ this case would cost 300 gold and three days' worth of downtime.
 ## <span id=Spell-Research> Spell Research </span>
 
 Chaos and Law Mages may research new spells (by different methods, of course). This process, and the spell to be created, requires
-the approval of the Referee. 
+the approval of the Referee. Research also requires coinage. If the character has access to a wizard's laboratory or an appropriate place to study, the cost of research is 100 - 2,000 gp per spell level. 
 
-Research also requires coinage. If the character has access to a wizard's laboratory or an appropriate place to study, the cost of research is 100 - 2,000 gp per spell level. 
-The DM can choose the actual cost or determine it randomly.
+Below are the steps to spell researching.
 
-The minimum expenditure would yield a 20% chance of successfully developing the spell, and if the researcher invests more in the
-research, every additional minimum expenditure yields an additional 20% chance of success. If this check succeeds, the character has researched the spell. 
+#### 1. **Prerequisites** 
 
-The research takes one to two weeks of game time for each level of the spell. 
+- Ensure access to a library or lab appropriate to the spell's alignment and type. Verify that the spell is of a level that the caster is capable of learning.
+
+#### 2. **Cost Calculation**
+
+- Roll 2d10, multiply the result by 100, and then multiply the total by the spell level to determine the total cost of research.
+
+> - This accounts for materials, texts, and other necessary resources, with higher-level spells requiring more significant investment.
+
+> **Example:** For a Level 2 spell, if you roll a total of 8 on 2d10, the cost would be 8 × 100 × 2 = 1,600 gp.
+
+> - Record the cost, as it will affect subsequent rolls if additional weeks are required.
+
+#### 3. **Time Requirement**
+
+- Research requires 1 week per spell level.
+
+#### 4. **Success Determination**
+
+- At the end of the research, calculate the chance of success: 
+
+> - 10% +INT/WIS + Character Level − (2 × Spell Level)
+
+> **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 − (2 × 2) = 27%
+
+- Roll 1d100:
+
+> - Success: The spell is learned.
+
+> - Failure: If the score rolled is greater than the percentage the caster must continue research for another week.
+
+#### 5. **Continuing Failed Research**
+
+- For each additional week:
+
+> - Add +10% to the success chance.
+
+> - Pay an additional cost equal to half the initial cost.
+
+> **Example:**
+
+> - For a Level 2 spell with an initial cost of 1,600 gp, the extra week costs: 1,600÷2=800 gp.
+
+Continue this process until the spell is successfully researched, or cancel.
 
 ## Innate Magic
 
