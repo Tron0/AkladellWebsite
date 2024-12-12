@@ -41,6 +41,24 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Missile Ranges & Stuff',
+        content: `Missile weapon ranges now have separate to-hit penalties for short, medium and long range. This has been in place before but now it is written down.
+
+        In other news, we're going back to individual surprise. Barbarian is getting a +1 bonus to the roll instead of being totally immune or giving group bonuses.
+
+        <b> Changes: </b>
+
+        - Missile Weapon ranges explained in the combat section.
+        - Back to individual surprise. Remember that the DEX surprise modifier is now back in play as well.
+        - Barbarian surprise is now a +1.
+        - Added causes of death in the hall of the dead.
+        - Removed the rolling gold step in character creation.
+        
+        `,
+        date: "2024-12-12 08:00 CET" 
+    },
+
+    { 
 
         title: 'Details on Spell Research',
         content: `Added details and steps on spell research. It is closer to AD&D now, and generally less expensive.
@@ -54,7 +72,6 @@ function loadUpdatePost()
     },
 
     { 
-
 
         title: 'Rolling for Equipment & Spell Research',
         content: `For the sake of time, you can now roll for starting equipment instead of buying. There's a starting items table specific for each class and one general "starting equipment" table that you role on four times. You also get a couple of generic starting items listed under the starting items caption.
@@ -73,7 +90,6 @@ function loadUpdatePost()
     },
 
     { 
-
 
         title: 'Combat Actions & Special Abilities',
         content: `There's now a whole write-up from OSRIC/1e on the different combat actions a character can take. In melee especially. It's mostly the same except for a few differences (highly recommend reading it but here's a short version) 
@@ -101,7 +117,6 @@ function loadUpdatePost()
 
     { 
 
-
         title: 'Average HP',
         content: `There's now the added choice whether to roll for the starting hit die or take the average. This generally makes Barbarians more appealing to pick, as before it was a big gamble when rolling HP at level 1. Levels beyond that you always roll HD as usual however.
 
@@ -117,7 +132,6 @@ function loadUpdatePost()
     },
 
     { 
-
 
         title: 'Spell Memorization',
         content: `Going from the Mana point system to the standard Vancian spell memorization system to simplify spellcasting. I'm still keeping some of the mana categorization, but mechanically it doesn't matter anymore. Now you simply decide what spells you have prepared for the day at dawn.

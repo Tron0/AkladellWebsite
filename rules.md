@@ -24,23 +24,19 @@
 
 - Roll or choose the average value of your class' hit die rounded down to determine starting HP. Modify depending on the [<u>Constitution</u>](#Rules/#Constitution) modifier. You may reroll results of 1 once.
 
-**(7) Roll [<u>starting gold</u>](#Starting-Gold)**
+**(7) Determine equipment**
 
-- Consult the table and roll for your starting gold depending on the class.
+- Roll on the general [<u>starting equipment</u>](#Starting-Equipment) table and the class equipment table that is found on the class page. You are also granted the noted items above the general starting equipment table.
 
-**(8) Determine equipment**
-
-- Roll on the general [<u>starting equipment</u>](#Starting-Equipment) table and the class equipment table that is found on the class page.
-
-**(9) Determine Background**
+**(8) Determine Background**
 
 - Roll or pick a [<u>background</u>](#Backgrounds) that provides a relevant skill.
 
-**(10) Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
+**(9) Note [<u>starting spells</u>](#level-1-spells) (if applicable)**
 
 - If a spellcaster, choose 10 spells (if [<u>Chaos Mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>Law Mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
 
-**(11) Determine miscellaneous information**
+**(10) Determine miscellaneous information**
 
 - Armor class 
 - [<u>Encumbrance</u>](#Encumbrance-&-Movement)
@@ -49,7 +45,7 @@
 - [<u>Psionics</u>](#Psionics)
 - [<u>Weapon Proficiencies</u>](#Weapon-Proficiencies) (Initial number on class page)
 
-**(12) Roll for [<u>Special Abilities</u>](#Special-Abilities)**
+**(11) Roll for [<u>Special Abilities</u>](#Special-Abilities)**
 
 - After all the previous steps are completed, roll on the [<u>Special Abilities</u>](#Special-Abilities) table and let the DM roll to determine the specific sort of effect it has on the character.
 
@@ -482,7 +478,7 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 **Armor/Shield Permitted:** Light armor, no shield
 
-**Weapons Permitted:** Any one handed weapons, ranged weapons.
+**Weapons Permitted:** Any one handed weapons including ranged weapons.
 
 **Saving Throw Bonus:** Specialists gain a +2 bonus on saving throws
 against devices, including traps and other magical devices.
@@ -927,7 +923,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 than others. They are able to discover secret and hidden doors on a 1-4
 on 1d6.
 
-**Alertness:** A party containing a Barbarian is unlikely to be surprised, with only a 1-in-6 chance under normal circumstances. Or +1 if surprise is more likely than 2-in-6.
+**Alertness:** A Barbarian is unlikely to be surprised, with only a 1-in-6 chance under normal circumstances. Or +1 if surprise if the chance of surprise more likely than 2-in-6.
 
 **Savage Blows:** Barbarians gain an extra +2 to all damage rolls made
 in melee combat.
@@ -1201,7 +1197,7 @@ target, the final result must equal or surpass the defender's AC.
 ## Surprise
 <img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
 
-Surprise is checked only once per combat, at the beginning of an encounter. Each side rolls a d6. If the result is a 1, the group is surprised for one segment. If the result is a 2, the group is surprised for two segments. If the result is a 3-6, the group is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round. 
+Surprise is checked only once per combat, at the beginning of an encounter. Each character rolls a d6. If the result is a 1, the group is surprised for one segment. If the result is a 2, the group is surprised for two segments. If the result is a 3-6, the character is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round. 
 
 ## Critical Hits
 
@@ -1256,6 +1252,12 @@ it just increases the likelihood of landing a successful blow.
 
 A character can move up to one-half his normal movement rate and engage in missile fire at half his normal rate of fire. Thus, a man capable of moving 120 feet and armed with a long bow (two shots per round, under normal circumstances) could move 60 feet and still fire one shot. 
 The same man, armed with a heavy crossbow (one shot every other round) would be able to shoot only once every four rounds while on the move.
+
+### Missile Weapon Ranges
+
+Missile weapons have different ranges for short, medium, and long range. Short range attacks suffer no range modifier below the number in feat. Medium-range attacks suffer a -2 penalty to the attack roll. Long-range attacks suffer a -5 penalty.
+
+See [<u>Ranged Weapons</u>](#Ranged-Weapons) to note the ranges.
 
 ## <span id=Calculating-Hits> Calculating Hits per Level </span>
 
@@ -1773,7 +1775,7 @@ Roll four times on the table below.
 
 ## Shields
 
-| **Shield Type** | **AC Bonus Melee/Ranged** | **Cost** | **Description**                                                                      | **Weight** |
+| **Shield Type** | **AC Bonus vs Melee/Missiles** | **Cost** | **Description**                                                                      | **Weight** |
 |-----------------|---------------------------|----------|--------------------------------------------------------------------------------------|------------|
 | Buckler         | +1/+0                     | 5 GP     | A small, round shield with a wooden handle allowing for quick movements and parries. | 1          |
 | Medium Shield   | +1/+1                     | 7 GP     | A versatile shield offering balanced protection and mobility.                        | 1          |
@@ -1863,24 +1865,24 @@ Roll four times on the table below.
 
 ## <span id=Ranged-Weapons> Ranged Weapons </span>
 
-| **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                | **Weight** | **Stackable** | **Rate** | **Range** | **Type** |
-|----------------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|----------|-----------|----------|
-| Shortbow                   | M        |            | 25 GP    | A small bow made of wood or horn used by those requiring short range archery attacks.                                                                          | 1          | ☐             | 2        | 50ft      |
-| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | ☑            |          |           | Piercing
-| Silver Shortbow Arrow      |          | 1d6        | 2 GP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | ☑            |          |           | Piercing
-| Longbow                    | L        |            | 60 GP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Heavy**.    | 1          | ☐             | 1        | 70ft      |
-| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | ☑            |          |           | Piercing
-| Silver Longbow Arrow       |          | 1d8        | 4 GP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | ☑            |          |           | Piercing
-| Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60ft      |
-| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑            |          |           | Piercing
-| Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑            |          |           | Piercing
-| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy** | 2          | ☐             | 1/2      | 80ft      |
-| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑            |          |           | Piercing
-| Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑            |          |           | Piercing
-| Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 30ft      |
-| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | ☑            |          |           | Piercing
-| Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |           | Piercing
-| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 15ft      | Piercing
+| **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                | **Weight** | **Stackable** | **RoF** | **Range** | **Type** |
+|----------------------------|----------|------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------|----------|----------------|----------|
+| Shortbow                   | M        |            | 25 GP    | A small bow made of wood or horn used by those requiring short range archery attacks.                                                                          | 1          | ☐             | 2        | 50, 100, 150ft|
+| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | ☑            |          |                | Piercing
+| Silver Shortbow Arrow      |          | 1d6        | 2 GP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | ☑            |          |                | Piercing
+| Longbow                    | L        |            | 60 GP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Heavy**.                                    | 1          | ☐             | 1        | 70, 140, 210ft|
+| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | ☑            |          |                | Piercing
+| Silver Longbow Arrow       |          | 1d8        | 4 GP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | ☑            |          |                | Piercing
+| Light Crossbow             | M        |            | 30 GP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | ☐             | 1        | 60, 120, 180ft|
+| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | ☑            |          |                | Piercing
+| Silver Light Crossbow Bolt |          | 1d6        | 5 GP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | ☑            |          |                | Piercing
+| Heavy Crossbow             | L        |            | 50 GP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy**                                     | 2          | ☐             | 1/2      | 80, 160, 240ft|
+| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | ☑            |          |                | Piercing
+| Silver Heavy Crossbow Bolt |          | 1d10       | 10 GP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | ☑            |          |                | Piercing
+| Hand Crossbow              | S        |            | 150 GP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | ☐             | 1        | 20, 40, 60ft  |
+| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | ☑            |          |                | Piercing
+| Silver Hand Crossbow Bolt  |          | 1d3        | 5 GP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | ☑            |          |                | Piercing
+| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip                                                                                                               | 1          | ☑            | 3        | 10, 20, 40ft   | Piercing
 
 # <span id=Spell-Tables> Spell Tables </span>
 
