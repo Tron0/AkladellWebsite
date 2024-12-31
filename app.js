@@ -41,6 +41,46 @@ function loadUpdatePost()
 
     { 
 
+        title: 'End of 2024 Changes',
+        content: `God jul! These are the big Christmas and New Year updates. Adding the Ranger subclass from AD&D with multiclass changes, xp changes and more.
+
+        <b> Changes: </b>
+
+        - Added Ranger as a Fighter subclass.
+        - Multiple attacks will be granted during charge, same goes for enemies.
+        - Removing insanity.
+        - Added cool level titles.
+
+        <a>Inquisitor:</a>
+            - Removing parry from Inquisitor to be more consistent with Fighter subclasses. (As the Ranger now is).
+            - Adding protection from evil aura.
+            - Inquisitor now needs to donate adventure earnings until later levels.
+        
+        <a>Barbarian:</a>
+            - Now gains the damage bonus from melee AND heavy thrown weapons.
+            - Hear Sound on 3-6.
+            - Multiple attacks at 5th level.
+
+        <a>Changed the level progression for the following classes:</a>
+        - Illusionist: Less xp needed
+        - Specialist: Less xp needed around level 6-10
+        - Chaos Mage: Less xp needed later levels
+
+        - Barbarian: More xp needed
+        - Inquisitor: More xp needed early levels
+
+        <a>Multiclass Changes:</a>
+        - The OSE (Old School Essentials) multiclass rules will now be used.
+        - Dual classing is no longer a thing.
+        - Multiclassing must be decided at character creation. It is not possible to change or add classes for an already existing character during the campaign.
+        - More is explained on the multiclassing tab.
+        
+        `,
+        date: "2024-12-31 15:20 CET" 
+    },
+
+    { 
+
         title: 'Missile Ranges & Stuff',
         content: `Missile weapon ranges now have separate to-hit penalties for short, medium and long range. This has been in place before but now it is written down.
 

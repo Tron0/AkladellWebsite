@@ -49,13 +49,18 @@
                         <div><a href="#Ability-Scores">Ability Scores</a></div>
                         <div><a href="#Classes">Classes</a></div>
                             <ul>
-                            <li><a href="Fighter">Fighter</a></li>
-                            <li><a href="Inquisitor">Inquisitor</a></li>
-                            <li><a href="Specialist">Specialist</a></li>
-                            <li><a href="Law-Mage">Law Mage</a></li>
-                            <li><a href="Chaos-Mage">Chaos Mage</a></li>
-                            <li><a href="Illusionist">Illusionist</a></li>
                             <li><a href="Barbarian">Barbarian</a></li>
+                            <li><a href="Chaos-Mage">Chaos Mage</a></li>
+                            <ul>
+                                <li><a href="Illusionist">Illusionist</a></li>
+                            </ul>
+                            <li><a href="Fighter">Fighter</a></li>
+                            <ul>
+                                <li><a href="Inquisitor">Inquisitor</a></li>
+                                <li><a href="Ranger">Ranger</a></li>
+                            </ul>
+                            <li><a href="Law-Mage">Law Mage</a></li>
+                            <li><a href="Specialist">Specialist</a></li>
                             </ul>
                         <div><a href="#Languages">Languages</a></div>
                         <div><a href="#Alignment">Alignment</a></div>
@@ -77,7 +82,6 @@
                         <div><a href="#Injury-&-Death">Injury & Death</a></div>
                         <div><a href="#Creature-Size">Creature Size</a></div>
                         <div><a href="#Time">Time</a></div>
-                        <div><a href="#Insanity">Insanity</a></div>
                         <div><a href="#Retainers">Retainers</a></div>
                         <div><a href="#Encumbrance-&-Movement">Encumbrance & Movement</a></div>
                         <div><a href="#Multiclassing">Multiclassing</a></div>
@@ -95,7 +99,7 @@
                         <div><a href="#Cantrip-Descriptions">Cantrip Descriptions</a></div>
                         <div><a href="#Spell-Descriptions">Spell Descriptions</a></div>
                         <div><a href="#Sources">Sources</a></div>
-                        <div><a href="#Unused-Rules">Unused Rules</a></div>
+                        <div><a href="#UnusedRules" onclick="loadContent('#UnusedRules')">Unused Rules</a></div>
                     </ul>
                 </div>
                 <div id="content-wrapper">
@@ -107,7 +111,7 @@
         <footer><hr>Joel Andersson 2024</footer>
     </div>
 
-<script type="module">
+ <script type="module">
 import { marked } from '//cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
 
 function handleTocClick(e) {
@@ -131,6 +135,15 @@ function loadContent(hash) {
         loadAboutPage();
     } else if (hash === '#Hall-of-the-Dead') {
         loadDeadPage();
+    } else if (hash === '#UnusedRules') {
+        // Handle unusedrules.md
+        fetch('./unusedrules.md')
+            .then(response => response.text())
+            .then(data => {
+                const htmlContent = marked.parse(data);
+                document.getElementById('content').innerHTML = `<div class='unused-rules-content'>${htmlContent}</div>`;
+                window.scrollTo(0, 0); // Scroll to the top of the page
+            });
     } else {
         fetch('./rules.md')
             .then(response => response.text())
