@@ -1,4 +1,4 @@
-# <span id=Unused-Rules> Unused Rules </span> 
+# <span id=unused-rules> Unused Rules </span> 
 
 (For reference only!)
 
@@ -376,27 +376,6 @@ magic spells before needing a rest to recover them. They can be two
 | **18**          | 9                   | 56            | 7                   | 33            | 5                   | 18            |
 | **19**          | 9                   | 58            | 7                   | 36            | 5                   | 19            |
 | **20**          | 9                   | 60            | 7                   | 30            | 5                   | 20            |
-
-## The Five Colors Magic Paradigm
-
-The standard schools of magic are replaced by five colors, inspired by
-Magic: The Gathering's color system. Each color represents specific
-magic themes and effects (referred to as aspects):
-
-**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
-Suppress *(Peace, law, structure, selflessness, equality)*
-
-**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
-Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
-
-**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
-self-interest, death, sacrifice, uninhibitedness)*
-
-**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
-*(Freedom, emotion, action, impulse, destruction, change)*
-
-**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
-wildlife, connection, spirituality, tradition)*
 
 ### Mana Pool
 

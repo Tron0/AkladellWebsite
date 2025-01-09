@@ -16,17 +16,169 @@ body {
     margin: 0 auto;
 }
 
+/* General Layout Styles */
 #content {
     width: 100%;
-    text-align: center;
-    flex: 1 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left; /* Always left-aligned */
+    box-sizing: border-box;
+    min-height: 100px;
+    background-color: black; /* Match section background */
+    color: white; /* Ensure text is visible */
+    overflow-x: auto; /* Allow horizontal scrolling */
 }
 
-#content-wrapper {
-    flex-grow: 1;
-    overflow-y: auto;
-    height: 100%;
-    padding: 10px;
+/* Shared Table Styles for Consistency */
+#content table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875em;
+}
+
+#content th, #content td {
+    padding: 4px 6px;
+    border: 1px solid #ccc;
+}
+
+#content table tr:nth-child(even) {
+    background-color: #222; /* Alternate row color */
+}
+
+#home {
+    width: 100%;
+    text-align: center; /* Ensures the header and nav are centered */
+}
+
+#about {
+    width: 100%;
+    text-align: center; /* Ensures the header and nav are centered */
+}
+
+/* Text Styles */
+h1 {
+    color: #DC493A; /* Titles in red */
+    text-align: center; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+h2 {
+    color: #26F0F1; /* Subtitles in cyan */
+}
+
+h3 {
+    color: #F34213; /* Color for h3 titles */
+}
+
+body, p {
+    color: white; /* Normal text in white */
+}
+
+small {
+    color: gray; /* Small text color */
+}
+
+strong, b {
+    color: #F7E8A4; /* Updated bold text color to a golden yellow */
+    font-weight: bold;
+}
+
+/* Post content */
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+    background: black;
+    text-align: left;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 4px 6px; /* Reduce padding */
+    border: 1px solid #ccc;
+}
+
+/* Default link color */
+a {
+    color: lightseagreen; /* Links in lightseagreen */
+    transition: color 2s; /* Smooth transition over 2 seconds */
+}
+
+/* Active link color when clicked */
+a:active {
+    color: rgb(55, 32, 255); /* Color when active */
+    transition: color 0.1s ease; /* Quick transition to active color */
+}
+
+/* Visited or default state after release */
+a:visited, a:hover {
+    color: lightseagreen; /* Transition back to default after hover or visit */
+    transition: color 2s; /* Smooth return over 2 seconds */
+}
+
+/* Header and Navigation Fix */
+header, nav {
+    width: 100%;
+    text-align: center; /* Ensures the header and nav are centered */
+}
+
+#nav {
+    display: flex;
+    justify-content: center; /* Centers navigation links */
+}
+
+#nav a {
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Button Styles */
+#toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
+    width: 40px;
+    height: 40px;
+}
+
+#toTopButton {
+    position: absolute;
+    right: 20px;
+}
+
+#toTopButton:hover, #toggleTocButton:hover, 
+#toTopMobileButton:hover, #toggleTocMobileButton:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Desktop and Mobile Button Visibility */
+.buttons-desktop {
+    display: block;
+    position: fixed;
+    z-index: 1001;
+    left: 440px;
+    top: 20px;
+}
+
+#toggleTocButton {
+    position: absolute;
+    right: 80px;
+}
+
+.buttons-mobile {
+    display: none;
 }
 
 #toc-panel {
@@ -73,164 +225,6 @@ footer {
     margin-top: auto;
     padding: 10px;
     text-align: center;
-}
-
-/* Text Styles */
-h1 {
-    color: #DC493A; /* Titles in red */
-}
-
-h2 {
-    color: #26F0F1; /* Subtitles in cyan */
-}
-
-h3 {
-    color: #F34213; /* Color for h3 titles */
-}
-
-body, p {
-    color: white; /* Normal text in white */
-}
-
-small {
-    color: gray; /* Small text color */
-}
-
-strong, b {
-    color: #F7E8A4; /* Updated bold text color to a golden yellow */
-    font-weight: bold;
-}
-
-/* Post content */
-.post {
-    padding: 20px;
-    margin-bottom: 20px;
-    color: white;
-    border: 1px solid white;
-    background: black;
-    text-align: left;
-}
-
-.post h2 {
-    margin-top: 0;
-}
-
-/* Table Styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th {
-    text-align: center;
-}
-
-th, td {
-    padding: 4px 6px; /* Reduce padding */
-    border: 1px solid #ccc;
-}
-
-/* Specific Styles for Rules and Dead Content Tables */
-.rules-content, .dead-content {
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px;
-    overflow-x: auto;
-}
-
-.rules-content table, .dead-content table {
-    width: 100%;
-    font-size: 0.875em;
-    border-collapse: collapse;
-}
-
-.rules-content th, .dead-content th, 
-.rules-content td, .dead-content td {
-    padding: 4px 6px;
-    text-align: left;
-}
-
-.rules-content table tr:nth-child(even), 
-.dead-content table tr:nth-child(even) {
-    background-color: #222;
-}
-
-/* Default link color */
-a {
-    color: lightseagreen; /* Links in lightseagreen */
-    transition: color 2s; /* Smooth transition over 2 seconds */
-}
-
-/* Active link color when clicked */
-a:active {
-    color: rgb(55, 32, 255); /* Color when active */
-    transition: color 0.1s ease; /* Quick transition to active color */
-}
-
-/* Visited or default state after release */
-a:visited, a:hover {
-    color: lightseagreen; /* Transition back to default after hover or visit */
-    transition: color 2s; /* Smooth return over 2 seconds */
-}
-
-/* Header and Navigation Fix */
-header, nav {
-    width: 100%;
-    text-align: center; /* Ensures the header and nav are centered */
-}
-
-#nav {
-    display: flex;
-    justify-content: center; /* Centers navigation links */
-}
-
-#nav a {
-    margin-right: 20px;
-    text-align: center;
-    display: inline-block;
-}
-
-/* Other unchanged styles */
-#content {
-    width: 100%;
-    text-align: center;
-    flex: 1 0 auto;
-}
-
-/* Button Styles */
-#toTopButton, #toTopMobileButton, #toggleTocButton, #toggleTocMobileButton {
-    width: 40px;
-    height: 40px;
-}
-
-#toTopButton {
-    position: absolute;
-    right: 20px;
-}
-
-#toTopButton:hover, #toggleTocButton:hover, 
-#toTopMobileButton:hover, #toggleTocMobileButton:hover {
-    background-color: black;
-    color: white;
-}
-
-/* Desktop and Mobile Button Visibility */
-.buttons-desktop {
-    display: block;
-    position: fixed;
-    z-index: 1001;
-    left: 440px;
-    top: 20px;
-}
-
-#toggleTocButton {
-    position: absolute;
-    right: 80px;
-}
-
-.buttons-mobile {
-    display: none;
 }
 
 @media (pointer: coarse) {
