@@ -79,6 +79,7 @@ function loadUpdatePost()
         - Changed flanking and facing bonuses.
         - Changed old age to become slightly more rare.
         - Removing Ranger to-hit bonus with ranged to be in line with the Fighter bonus.
+        
         `,
         date: "2025-01-10 20:00 CET" 
     },
