@@ -1,6 +1,6 @@
 # <span id="spells#spell-tables"> Spell Tables </span>
 
-# [Cantrips](#spells#cantrips)
+## [Cantrips](#spells#cantrips)
 
 |**Number**| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
 |----------|--------------------|--------------|---------------------------|-------------|---------------|
@@ -70,9 +70,9 @@
 
 # <span id="spells#descriptions"> Spell Descriptions </span> 
 
-# <span id="spells#cantrips">Cantrips</span>
+## <span id="spells#cantrips">Cantrips</span>
 
-## Stitch (W) / Ravel (B)
+### Stitch (W) / Ravel (B)
 
 **Range:** 30'
 
@@ -88,12 +88,12 @@ This cantrip magically sews seams in cloth or leather:
   yards of leather. The seam created is neither stronger or weaker than
   a seam done without magic.
 
-### Reversed: Ravel
+#### Reversed: Ravel
 
 Tears the same amount of yards in cloth instead of stitching. Can be
 concentrated on to make a neat tear or simply ripped quickly.
 
-## Clean (W) / Dirty (G)
+### Clean (W) / Dirty (G)
 
 **Range:** 30'
 
@@ -110,12 +110,12 @@ foreign objects:
   material is treated in a single application, as care must be taken in
   removal of pigments and the like.
 
-### Reversed: Dirty
+#### Reversed: Dirty
 
 Dirt, stains or other types of filth can magically be applied. This form
 is not recognized as illusion magic as it is a real form conjured.
 
-## Gather (U)
+### Gather (U)
 
 **Range:** 30'
 
@@ -136,7 +136,7 @@ into a stack or pile:
   type of material from another, but only the selected type is gathered
   neatly.
 
-## Open / Close (U)
+### Open / Close (U)
 
 **Range:** 30'
 
@@ -151,11 +151,11 @@ Opens any unlocked door or portal from a distance:
   anything blocking it. The force applied is not enough to damage or
   harm creatures larger than a rat.
 
-### Reversed: Close
+#### Reversed: Close
 
 Closes any object in a reverse fashion.
 
-## Color (U)
+### Color (U)
 
 **Range:** 30'
 
@@ -172,7 +172,7 @@ Covers an area with a new or faded color:
 
 - **People:** Can change the color of skin and hair as well.
 
-## Tweak (U)
+### Tweak (U)
 
 **Range:** 30'
 
@@ -189,7 +189,7 @@ annoyingly, tweak some portion of a chosen sub­ject:
   although the tweaking might distract any creature by causing it to
   turn to dis­cover the source of the annoyance.
 
-## Change (U)
+### Change (U)
 
 **Range:** 30'
 
@@ -208,7 +208,7 @@ the caster's hand:
   into a bat, the bat to a flying squirrel by another use of the same
   type of cantrip, and so forth.
 
-## Smokepuff (B) / Bluelight (W)
+### Smokepuff (B) / Bluelight (W)
 
 **Range:** 30'
 
@@ -223,13 +223,13 @@ depending on the prevailing conditions:
 - **Color:** The caster can create smoke that is white, gray, black,
   brown, yellow, or green.
 
-### Reversed: Bluelight
+#### Reversed: Bluelight
 
 This cantrip enables the caster to conjure a small sphere of glowing
 blue radiance. The light has an eerie effect when seen from a distance,
 but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
-## Exterminate (B)
+### Exterminate (B)
 
 **Range:** 30'
 
@@ -249,7 +249,7 @@ fly, mouse, rat, beetle, or the like:
 - **Area:** If the subject is very small, an area of up to one-half
   cubic foot can be rid of pests
 
-## Firefinger (R)
+### Firefinger (R)
 
 **Range:** Caster
 
@@ -266,7 +266,7 @@ shoot forth from their finger:
   as parchment, twigs, kindling, and the like without difficulty,
   providing the materials are relatively dry.
 
-## Sprout (G)
+### Sprout (G)
 
 **Range:** Caster
 
@@ -284,7 +284,7 @@ of plants:
   on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
   cantrip.
 
-## Warm / Chill (G)
+### Warm / Chill (G)
 
 **Range:** 30'
 
@@ -298,12 +298,12 @@ The caster warms a liquid, solid object or creature by 10 °C:
   living creature above its normal body temperature, nor the temperature
   of an object above 60 °C.
 
-### Reversed: Chill
+#### Reversed: Chill
 
 Cools an object or creature by 10 °C instead. Subject to a minimum
 tempera­ture of freezing, (0 °C)
 
-## Dry / Damp (G)
+### Dry / Damp (G)
 
 **Range:** 30'
 
@@ -319,14 +319,14 @@ Dries an object:
   materials in the area of effect. It is useful for drying cloth or
   herbs and for cleaning chores.
 
-### Reversed: Damp
+#### Reversed: Damp
 
 The area of effect is permeated by a fog-like dampness that leaves all
 material within damp to the touch.
 
-# <span id="spells#chaos-level-1"> 1st Level Chaos Spells </span>
+## <span id="spells#chaos-level-1"> 1st Level Chaos Spells </span>
 
-## Alarm (W) - Chaos
+### Alarm (W) - Chaos
 
 **Range:** 30'
 
@@ -344,7 +344,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-## Armor (W) - Chaos
+### Armor (W) - Chaos
 
 **Range:** Touch
 
@@ -360,7 +360,7 @@ Provides a protective magical armor:
 
 - **Durability:** Lasts until the wearer accumulates damage beyond 8 points + 1 per caster level.
 
-## Burning Hands (R) - Chaos
+### Burning Hands (R) - Chaos
 
 **Range:** Caster 
 
@@ -380,7 +380,7 @@ Produces a fan of flames that sear everything in its arc:
 
 - **Flammable Materials:** Materials like cloth, paper, and thin wood ignite on contact. They can be extinguished in the subsequent round if no other actions are taken.
 
-## Change Self (U) - Chaos
+### Change Self (U) - Chaos
 
 **Range:** Caster
 
@@ -394,7 +394,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-## Charm Person (B) - Chaos
+### Charm Person (B) - Chaos
 
 **Range:** 120'
 
@@ -424,7 +424,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-## Chill Touch (B) - Chaos
+### Chill Touch (B) - Chaos
 
 **Range:** Touch
 
@@ -442,7 +442,7 @@ Envelopes caster's hand in cold energy:
 
 - **Healing:** Damage to strength can be magically cured or naturally healed.
 
-## Detect Magic (U) - Chaos
+### Detect Magic (U) - Chaos
 
 **Range:** Caster
 
@@ -458,7 +458,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-## Detect Undead (B) - Chaos
+### Detect Undead (B) - Chaos
 
 **Range:** Caster
 
@@ -476,7 +476,7 @@ Enables the caster to sense undead presence:
 
 - **Obstruction:** The detection can pass through walls and other barriers but is stopped by 1 foot of solid stone, 1 yard of wood or loose earth, or a thin layer of metal.
 
-## Enlarge (R) / Reduce (R) - Chaos
+### Enlarge (R) / Reduce (R) - Chaos
 
 **Range:** 15'/level
 
@@ -492,11 +492,11 @@ This spell can either enlarge or reduce a target:
 
 - **Damage Alteration:** Hit points, Armor Class, and attack rolls remain unchanged. However, damage rolls increase proportionally with size. For example, a 160% enlarged fighter rolling a 6 for damage adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class, and magic bonuses remain unaltered.
 
-### **Reverse Spell:** Reduce
+#### **Reverse Spell:** Reduce
 
 Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
-## Erase (U) - Chaos
+### Erase (U) - Chaos
 
 **Range:** 90'
 
@@ -517,7 +517,7 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Limitations:** Removes certain magical inscriptions, but not all.
 
-## Feather Fall (R) - Chaos
+### Feather Fall (R) - Chaos
 
 **Range:** 30'/level
 
@@ -537,7 +537,7 @@ Slows the fall of objecst and creatures:
 
 - **Missiles:** Works upon free-falling, flying, or proppelled objects.
 
-## Find Familiar (G) - Chaos
+### Find Familiar (G) - Chaos
 
 **Range:** 1 mile/level
 
@@ -573,7 +573,7 @@ Summons a familiar to aid the caster:
 - **Restrictions:** Only one familiar at a time. Mistreatment or killing
   one's familiar can have serious repercussions.
 
-## Fist of Stone (R) - Chaos
+### Fist of Stone (R) - Chaos
 
 **Range:** Caster
 
@@ -585,7 +585,7 @@ Summons a familiar to aid the caster:
 
 - **Combat:** Bonuses apply only when using the stone fist.
 
-## Floating Disc (U) - Chaos
+### Floating Disc (U) - Chaos
 
 **Range:** 60'
 
@@ -603,7 +603,7 @@ The caster creates a floating disc of force:
 - **Movement:** Accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
-## Hold Portal (W) - Chaos
+### Hold Portal (W) - Chaos
 
 **Range:** 60'
 
@@ -619,7 +619,7 @@ Empowers the caster to magically secure an entryway:
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
-## Identify (U) - Chaos
+### Identify (U) - Chaos
 
 **Range:** Touch
 
@@ -640,7 +640,7 @@ Allows the caster to discern the nature of magical items:
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
 
-## Lasting Breath (G) - Chaos
+### Lasting Breath (G) - Chaos
 
 **Range**: Touch
 
@@ -659,7 +659,7 @@ Extends the duration one can hold their breath:
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
 
-## Light (W) / Darkness (B) - Chaos
+### Light (W) / Darkness (B) - Chaos
 
 **Range:** 120'
 
@@ -681,13 +681,13 @@ This spell has three usages:
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 
-### Reversed: Darkness
+#### Reversed: Darkness
 
 Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-## Magic Missile (R) - Chaos
+### Magic Missile (R) - Chaos
 
 **Range:** 180' + 30'/level
 
@@ -713,7 +713,7 @@ Launches magical missiles that target and hit with precision:
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
 
-## Mending (W) - Chaos
+### Mending (W) - Chaos
 
 **Range:** 90'
 
@@ -731,7 +731,7 @@ This spell repairs small breaks or tears in objects:
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
 
-## Message (U) - Chaos
+### Message (U) - Chaos
 
 **Range:** 30' + 10'/level
 
@@ -750,7 +750,7 @@ Allows for long range communication through whispers:
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
 
-## Mount (G) - Chaos
+### Mount (G) - Chaos
 
 **Range:** 30'
 
@@ -775,7 +775,7 @@ Summons a creature to serve as a mount.
 
   - 15+: Griffon
 
-## Protection from Evil (W) / Protection from Good (B) - Chaos
+### Protection from Evil (W) / Protection from Good (B) - Chaos
 
 **Range:** Caster
 
@@ -797,11 +797,11 @@ This spell wards the caster from attacks by evil creature, as follows:
   engages such a creature in melee, this protection is broken (the
   caster still gains the save and attack bonuses mentioned above).
 
-### Reversed: Protection from Good
+#### Reversed: Protection from Good
 
 Works similarly against good creatures.
 
-## Ray of Fatigue (B) - Chaos
+### Ray of Fatigue (B) - Chaos
 
 **Range:** 30' + 15'/level
 
@@ -826,7 +826,7 @@ Conjures a dark ray of exhaustion:
   - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
-## Read Magic (U) - Chaos
+### Read Magic (U) - Chaos
 
 **Range:** Caster
 
@@ -852,7 +852,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-## Shield (W) - Chaos
+### Shield (W) - Chaos
 
 **Range:** Caster
 
@@ -868,7 +868,7 @@ Conjures an invisible shield around the caster:
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
   visible frontal threats as well as negating Magic Missiles.
 
-## Sleep (G) - Chaos
+### Sleep (G) - Chaos
 
 **Range:** 90'
 
@@ -890,7 +890,7 @@ Induces a deep slumber upon creatures. The spell may target either:
 
 - **Restrictions** Affects living creatures except undead and other certain creatures with immunity.
 
-## Spider Climb (R) - Chaos
+### Spider Climb (R) - Chaos
 
 **Range:** Touch
 
@@ -909,7 +909,7 @@ and feet for this mobility.
 - **Unwilling Targets:** If targeted on unwilling beings, they get a
 saving throw vs. spell to resist.
 
-## Unseen Servant (U) - Chaos
+### Unseen Servant (U) - Chaos
 
 **Range:** Caster
 
@@ -930,7 +930,7 @@ Summons a spectral helper:
 - **Vulnerabilities:** Can't fight and is dispelled after taking 6
   points of damage.
 
-## Ventriloquism (U) - Chaos
+### Ventriloquism (U) - Chaos
 
 **Range:** 30'/level max 270'
 
@@ -951,7 +951,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-## Wizard Mark (U) - Chaos
+### Wizard Mark (U) - Chaos
 
 **Range:** Touch
 
@@ -970,9 +970,9 @@ This spell lets the caster inscribe a personal mark:
 - **Removal:** Cannot be dispelled but can be removed by the original
   caster or an erase spell.
 
-# <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
+## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
-## Phantasmal Force - Chaos
+### Phantasmal Force - Chaos
 
 **Range:** 60'
 
@@ -992,9 +992,9 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-# <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
+## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
 
-## Infravision - Chaos
+### Infravision - Chaos
 
 **Duration:** 1 day
 
@@ -1010,13 +1010,13 @@ Grants infravision to 60':
 
 - **Disruption:** Visible light (normal or magical) and large heat sources prevent infravision from functioning.
 
-# <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
+## <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
 
-## Contingency - Chaos
+### Contingency - Chaos
 
 **Range:** Self
 
-**Duration:** 1 day/level or until triggered
+**Duration:** Indefinite
 
 **Casting Time:** 1 turn
 
@@ -1026,7 +1026,8 @@ This spell allows the caster to predefine a conditional trigger for another spel
 
 - **Contingent Spell Requirements:** Must be of 4th level or lower, have a casting time of 1 round or less, and the caster must cast the contingent spell during the same casting process as Contingency.
 
-- **Limitations:** Only one Contingency spell can be active at a time. Casting a new one dispels the previous. The caster must have access to the contingent spell when casting Contingency (e.g., it must be in their spellbook).
+- **Limitations:** Only one Contingency spell can be active at a time. Casting a new one dispels the previous. It must
+pertain to something within 120' of the triggering event. The caster must have access to the contingent spell when casting Contingency (e.g., it must be in their spellbook).
 
 | Caster Level | Maximum Level of Contingent Spell |
 |--------------|-----------------------------------|
@@ -1036,9 +1037,9 @@ This spell allows the caster to predefine a conditional trigger for another spel
 
 The material components of this spell are (in addition to those of the companion spell) 100 gp worth of quicksilver.
 
-# <span id="spells#illusion-level-2"> 1st Level Illusion Spells </span>
+## <span id="spells#illusion-level-1"> 1st Level Illusion Spells </span>
 
-## Alarm (W) - Illusion
+### Alarm (W) - Illusion
 
 **Range:** 30'
 
@@ -1056,7 +1057,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-## Audible Glamer (U) - Illusion
+### Audible Glamer (U) - Illusion
 
 **Range:** 60'
 
@@ -1074,7 +1075,7 @@ Creates an illusionary sound that can deceive others:
 
 - **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
 
-## Change Self (U) - Illusion
+### Change Self (U) - Illusion
 
 **Range:** Caster
 
@@ -1088,7 +1089,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-## Chromatic Orb (R) - Illusion
+### Chromatic Orb (R) - Illusion
 
 **Range:** Caster
 
@@ -1129,7 +1130,7 @@ The color of the orb determines its effects, as outlined below:
 
 **Material Component:** A gem of the appropriate color or any diamond worth at least 50 gp is required to cast this spell.
 
-## Color Spray (W) - Illusion
+### Color Spray (W) - Illusion
 
 **Range:** 20'/level up to 240'
 
@@ -1145,7 +1146,7 @@ Creates a vivid array of clashing colors that can blind or stun creatures:
 
 - **Effect:** Creatures whose Hit Dice or levels are less than or equal to the spellcaster's level, are struck unconscious for 2d4 rounds; those with Hit Dice or levels 1 or 2 greater than the wizard's level are blinded for 1d4 rounds; those with Hit Dice or levels 3 or more greater than that of the spellcaster are stunned (reeling and unable to think or act coherently) for one round. 
 
-## Dancing Lights (W) - Illusion
+### Dancing Lights (W) - Illusion
 
 **Range:** 120' + 30'/level
 
@@ -1161,7 +1162,7 @@ Creates up to four lights that resemble lanterns or torches:
     
 - **Effect:** Provides light as a torch, but not real heat or fire.
 
-## Detect Illusion (U) - Illusion
+### Detect Illusion (U) - Illusion
 
 **Range:** Caster
 
@@ -1177,7 +1178,7 @@ Allows the caster to see through illusions within the area of effect:
 
 - **Limitations:** Does not dispel illusions, only reveals them.
 
-## Detect Invisibility (U) - Illusion
+### Detect Invisibility (U) - Illusion
 
 **Range:** Caster
 
@@ -1193,7 +1194,7 @@ Enables the caster to see invisible objects and creatures:
 
 - **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
 
-## Gaze Reflection (W) - Illusion
+### Gaze Reflection (W) - Illusion
 
 **Range:** Caster
 
@@ -1209,7 +1210,7 @@ Creates a mirror-like shield that reflects gaze attacks:
     
 - **Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
 
-## Hypnotism (B) - Illusion
+### Hypnotism (B) - Illusion
 
 **Range:** 15'
 
@@ -1225,7 +1226,7 @@ Induces a hypnotic state in one or more creatures:
     
 - **Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
 
-## <span id=Phantasmal-Force> Phantasmal Force </span> - Illusion
+### <span id=Phantasmal-Force> Phantasmal Force </span> - Illusion
 
 **Range:** 60'
 
@@ -1245,7 +1246,7 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-## Phantom Armor (U) - Illusion
+### Phantom Armor (U) - Illusion
 
 **Range:** Caster
 
@@ -1265,7 +1266,7 @@ When cast, this spell creates a quasi-real suit of plate mail that provides the 
 
 **Material Component:** A small plate of mithral, worth 10 gp, is required to cast this spell. The mithral plate disappears when the spell is cast.
 
-## Read Magic (U) - Illusion
+### Read Magic (U) - Illusion
 
 **Range:** Caster
 
@@ -1291,7 +1292,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-## Ventriloquism (U) - Illusion
+### Ventriloquism (U) - Illusion
 
 **Range:** 30'/level max 270'
 
@@ -1312,7 +1313,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-## Wall of Fog (R) - Illusion
+### Wall of Fog (R) - Illusion
 
 **Range:** 90'
 
@@ -1330,9 +1331,9 @@ Creates a bank of misty vapor within the area of effect:
 
 - **Dissipation:** Moderate wind (11+ mph) disperses in spell duration. Strong wind (21+ mph) disperses it in 4 rounds. Dispersed instantly by fireball, gust of wind, or similar spells.
 
-# <span id="spells#law-level-1"> 1st Level Law Spells </span>
+## <span id="spells#law-level-1"> 1st Level Law Spells </span>
 
-## Animal Friendship (G) - Law
+### Animal Friendship (G) - Law
 
 **Range:** 30'
 
@@ -1352,7 +1353,7 @@ Creates a bank of misty vapor within the area of effect:
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-## Bless (W) / Curse (B) - Law
+### Bless (W) / Curse (B) - Law
 
 **Range:** 60'
 
@@ -1370,12 +1371,12 @@ May be used in one of two situations:
 - **Ritual:** Casting bless may also form part of rituals of
   purification or consecration, at the referee's discretion.
 
-### Reversed: Curse
+#### Reversed: Curse
 
 Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
 enemies instead. A save versus spells is allowed to resist the blight.
 
-## Calm Animals (G) - Law
+### Calm Animals (G) - Law
 
 **Range:** 120'
 
@@ -1397,9 +1398,7 @@ detailed:
 - **Specific Species:** All animals affected must belong to the same
   species, and all must be within the spell's range.
 
-
-
-## Command (B) - Law
+### Command (B) - Law
 
 **Range:** 90'
 
@@ -1419,7 +1418,7 @@ demihuman, or human-like monster, as follows:
 
 - **Restrictions:** Undead are not affected.
 
-## Courage (R) - Law
+### Courage (R) - Law
 
 **Range:** 120'
 
@@ -1440,7 +1439,7 @@ This spell imbues the target unit with a temporary burst of courage.
   due to this spell, the magical effect ceases. From then on, they must
   perform all morale checks as usual.
 
-## Cure Light Wounds (W) / Cause Light Wounds (B) - Law
+### Cure Light Wounds (W) / Cause Light Wounds (B) - Law
 
 **Range:** Touch
 
@@ -1455,12 +1454,12 @@ This spell has two usages:
 
 - **Curing paralysis:** Paralysing effects are negated.
 
-### Reversed: Cause Light Wounds
+#### Reversed: Cause Light Wounds
 
 Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
-## Detect Evil (U) - Law
+### Detect Evil (U) - Law
 
 **Range:** Caster
 
@@ -1480,7 +1479,7 @@ are caused to magically glow:
   evil. Beings of chaotic alignment do not always have evil intent.
   Traps and poisons, while potentially harmful, are not evil.
 
-## Detect Magic (U) - Law
+### Detect Magic (U) - Law
 
 **Range:** Caster
 
@@ -1496,7 +1495,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-## Endure Cold & Heat (G) - Law
+### Endure Cold & Heat (G) - Law
 
 **Range:** Touch
 
@@ -1513,7 +1512,7 @@ Bestows a creature with resistance to extreme temperatures, as follows:
   protected creature takes 1 damage point for every hour exposed for
   each degree past the limit.
 
-## Pass Without Trace (U) - Law
+### Pass Without Trace (U) - Law
 
 **Range:** 60'
 
@@ -1532,7 +1531,7 @@ footprints or scent:
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
 
-## Purify Food & Drink (G) / Putrefy Food & Drink (B) - Law
+### Purify Food & Drink (G) / Putrefy Food & Drink (B) - Law
 
 **Duration:** Permanent
 
@@ -1552,11 +1551,11 @@ suitable to eat:
 - **Preservation:** The spell cleanses, but does not protect against
   future decay or spoilage.
 
-  ### Reversed: Putrefy Food & Drink
+  #### Reversed: Putrefy Food & Drink
 
 The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
 
-## Protection from Evil (W) / Protection from Good (B) - Law
+### Protection from Evil (W) / Protection from Good (B) - Law
 
 **Range:** Caster
 
@@ -1578,11 +1577,11 @@ This spell wards the caster from attacks by evil creature, as follows:
   engages such a creature in melee, this protection is broken (the
   caster still gains the save and attack bonuses mentioned above).
 
-### Reversed: Protection from Good
+#### Reversed: Protection from Good
 
 Works similarly against good creatures.
 
-## Light (W) / Darkness (B) - Law
+### Light (W) / Darkness (B) - Law
 
 **Range:** 120'
 
@@ -1602,13 +1601,13 @@ This spell has three usages:
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 
-### Reversed: Darkness
+#### Reversed: Darkness
 
 Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-## Read Magic (U) - Law
+### Read Magic (U) - Law
 
 **Range:** Caster
 
@@ -1635,7 +1634,7 @@ Allows the caster to decipher magical script or runes, as follows:
   without read magic.
 
 
-## Remove Fear (W) / Cause Fear (B) - Law
+### Remove Fear (W) / Cause Fear (B) - Law
 
 **Range:** 30'
 
@@ -1647,7 +1646,7 @@ Allows the caster to decipher magical script or runes, as follows:
 
 The mage casting this spell instills courage in the spell recipient, raising the creature's saving throw rolls against magical fear attacks by +4 for one turn. If the recipient has recently (that day) failed a saving throw against such an attack, the spell immediately grants another saving throw, with a +4 bonus to the die roll.
 
-### Reversed: Cause Fear
+#### Reversed: Cause Fear
 
 Inflicts intense dread upon a target, as described:
 
@@ -1656,9 +1655,9 @@ Inflicts intense dread upon a target, as described:
 - **Resistance:** Targets have a chance to resist this effect by
   succeeding on a save. Neither spell has any effect on undead of any sort. 
 
-# <span id="spells#law-level-2"> 2nd Level Law Spells </span>
+## <span id="spells#law-level-2"> 2nd Level Law Spells </span>
 
-## Hold Person (W)
+### Hold Person (W)
 
 **Range:** 180'
 
@@ -1676,7 +1675,7 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
 
-## Silence 15' Radius (U)
+### Silence 15' Radius (U)
 
 **Range:** 120'
 

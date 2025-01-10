@@ -49,35 +49,35 @@
                         <div><a href="#ability-scores">Ability Scores</a></div>
                         <div><a href="#classes">Classes</a></div>
                             <ul>
-                            <li><a href="barbarian">Barbarian</a></li>
-                            <li><a href="chaos-mage">Chaos Mage</a></li>
+                            <li><a href="#barbarian">Barbarian</a></li>
+                            <li><a href="#chaos-mage">Chaos Mage</a></li>
                             <ul>
-                                <li><a href="illusionist">Illusionist</a></li>
+                                <li><a href="#illusionist">Illusionist</a></li>
                             </ul>
-                            <li><a href="fighter">Fighter</a></li>
+                            <li><a href="#fighter">Fighter</a></li>
                             <ul>
-                                <li><a href="inquisitor">Inquisitor</a></li>
-                                <li><a href="ranger">Ranger</a></li>
+                                <li><a href="#inquisitor">Inquisitor</a></li>
+                                <li><a href="#ranger">Ranger</a></li>
                             </ul>
-                            <li><a href="law-mage">Law Mage</a></li>
-                            <li><a href="specialist">Specialist</a></li>
+                            <li><a href="#law-mage">Law Mage</a></li>
+                            <li><a href="#specialist">Specialist</a></li>
                             </ul>
                         <div><a href="#languages">Languages</a></div>
                         <div><a href="#alignment">Alignment</a></div>
-                        <div><a href="#general-Gameplay">General Gameplay</a></div>
+                        <div><a href="#general-gameplay">General Gameplay</a></div>
                         <div><a href="#spellcasting">Spellcasting</a></div>
                         <ul>
-                            <li><a href="spell-copying">Spell Copying</a></li>
-                            <li><a href="spell-research">Spell Research</a></li>
-                            <li><a href="memorizing-spells">Memorizing Spells</a></li>
+                            <li><a href="#spell-copying">Spell Copying</a></li>
+                            <li><a href="#spell-research">Spell Research</a></li>
+                            <li><a href="#memorizing-spells">Memorizing Spells</a></li>
                         </ul>
                         <div><a href="#combat">Combat</a></div>
                             <ul>
-                            <li><a href="combat-actions">Combat Actions</a></li>
-                            <li><a href="leaving-melee">Leaving Melee</a></li>
-                            <li><a href="missile-and-missile-combat">Missile and Missile Combat</a></li>
-                            <li><a href="calculating-hits">Calculating Hits per Level</a></li>
-                            <li><a href="weapon-proficiencies">Weapon Proficiencies</a></li>    
+                            <li><a href="#combat-actions">Combat Actions</a></li>
+                            <li><a href="#flanking">Flanking</a></li>
+                            <li><a href="#missile-and-missile-combat">Missile and Missile Combat</a></li>
+                            <li><a href="#calculating-hits">Calculating Hits per Level</a></li>
+                            <li><a href="#weapon-proficiencies">Weapon Proficiencies</a></li>    
                             </ul>
                         <div><a href="#injury-&-death">Injury & Death</a></div>
                         <div><a href="#creature-size">Creature Size</a></div>
@@ -88,14 +88,15 @@
                         <div><a href="#psionics">Psionics</a></div>
                         <div><a href="#items">Items</a></div>
                         <ul>
-                            <li><a href="starting-equipment">Starting Equipment</a></li>
-                            <li><a href="general-equipment">General Equipment</a></li>
-                            <li><a href="armor">Armor</a></li>
-                            <li><a href="weapon-keywords">Weapon Keywords</a></li>
-                            <li><a href="melee-weapons">Melee Weapons</a></li>
-                            <li><a href="ranged-weapons">Ranged Weapons</a></li>
+                            <li><a href="#starting-equipment">Starting Equipment</a></li>
+                            <li><a href="#general-equipment">General Equipment</a></li>
+                            <li><a href="#armor">Armor</a></li>
+                            <li><a href="#weapon-keywords">Weapon Keywords</a></li>
+                            <li><a href="#melee-weapons">Melee Weapons</a></li>
+                            <li><a href="#ranged-weapons">Ranged Weapons</a></li>
                         </ul>
-                        <div><a href="#spells" onclick="loadContent('#spells')">Spells</a></div>
+                        <div><a href="#spells" class="spells-link">Spells</a></div>
+
                         <div><a href="#sources">Sources</a></div>
                         <div><a href="#unusedrules" onclick="loadContent('#unusedrules')">Unused Rules</a></div>
                     </ul>
@@ -120,12 +121,12 @@
     function handleTocClick(e) {
         e.preventDefault();
         const hash = this.getAttribute('href');
-        updateHashAndLoadContent(hash);
-    }
-    
-    function updateHashAndLoadContent(hash) {
-        window.location.hash = hash; // Update URL hash
-        loadContent(hash);           // Load content based on hash
+        // If the hash is the same as the current URL, the browser won't fire hashchange
+        if (window.location.hash === hash) {
+            loadContent(hash);
+        } else {
+            window.location.hash = hash; 
+        }
     }
     
     // ========== MAIN ROUTER FUNCTION ==========
@@ -159,38 +160,53 @@
             else window.scrollTo(0, 0);
             })
             .catch(err => console.error('Error loading unusedrules.md:', err));
-        } 
+        }  
         else if (page === 'spells') {
         fetch('./spells.md')
             .then(response => response.text())
             .then(data => {
+            const contentEl = document.getElementById('content');
+            contentEl.className = '';
+            contentEl.classList.add('spells-page');
+            console.log('Adding .spells-page to #content');  // <-- debug line
             const htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = `<div class='unused-rules-content'>${htmlContent}</div>`;
-            if (anchor) scrollToAnchor(anchor);
-            else window.scrollTo(0, 0);
-            })
-            .catch(err => console.error('Error loading spells.md:', err));
-        } 
+            contentEl.innerHTML = `<div>${htmlContent}</div>`;
+
+            if (!anchor) 
+            {
+                window.scrollTo(0, 0);
+            }
+            });
+        
+        }
         else {
         // Default fallback => load rules.md
-        fetch('./rules.md')
-            .then(response => response.text())
-            .then(data => {
-            const htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-            // If there's an anchor, scroll to it
-            if (anchor) scrollToAnchor(anchor);
-            else scrollToHash(hash); 
-            })
+        const contentEl = document.getElementById('content');
+        contentEl.className = ''; // Clear all previously added classes (e.g., spells-page)
+            fetch('./rules.md')
+                .then(response => response.text())
+                .then(data => {
+                    const htmlContent = marked.parse(data);
+                    contentEl.innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
+                    // If there's an anchor, scroll to it
+                    if (anchor) {
+                        scrollToAnchor(anchor);
+                    } else {
+                        scrollToHash(hash);
+                    }
+                })
             .catch(err => console.error('Error loading rules.md:', err));
         }
+
     }
+
+    window.loadContent = loadContent;
     
     // Scroll to an element with ID = anchor
     function scrollToAnchor(anchor) {
         const el = document.getElementById(anchor);
         if (el) {
-        el.scrollIntoView;
+        el.scrollIntoView();
         }
     }
     
@@ -199,7 +215,7 @@
         const id = hash.replace('#', '');
         const el = document.getElementById(id);
         if (el) {
-        el.scrollIntoView;
+        el.scrollIntoView();
         }
     }
     
@@ -303,7 +319,8 @@
         behavior: 'smooth'
         });
     }
-    </script>
+
+</script>
     
     <script src='app.js'></script>
     

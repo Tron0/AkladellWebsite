@@ -51,9 +51,9 @@ body {
     text-align: center; /* Ensures the header and nav are centered */
 }
 
-#about {
-    width: 100%;
-    text-align: center; /* Ensures the header and nav are centered */
+#about 
+{
+    text-align: center; /* Center text inside #about only */
 }
 
 /* Text Styles */
@@ -69,7 +69,12 @@ h2 {
     color: #26F0F1; /* Subtitles in cyan */
 }
 
-h3 {
+#content h3 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin: 16px 0 16px 0;
+    background-color: #000000;
+    border-radius: 5px 5px 5px 5px; /* Top corners round */
     color: #F34213; /* Color for h3 titles */
 }
 

@@ -29,8 +29,36 @@ window.addEventListener('load', function()
 function loadHomePage()
 {
     var mainContent = document.getElementById('content');
+    mainContent.classList.add('about-page');
     mainContent.innerHTML = '<h1>Welcome to the Home Page!</h1>';
 }
+
+document.getElementById('discordlink').addEventListener('click', function(event)
+{
+    event.preventDefault()
+    window.open('https://discord.gg/dhqJpXt42a', '_blank')
+});
+
+function loadAboutPage() {
+    var mainContent = document.getElementById('content');
+    mainContent.className = ''; // Clear any previous page classes (optional)
+  
+    // Inject a container with id="about"
+    mainContent.innerHTML = `
+      <div id="about">
+        <h1>About</h1>
+        <p>This is a website for my Old School Dungeons & Dragons game!</p>
+      </div>
+    `;
+  }
+
+document.addEventListener('DOMContentLoaded', () => {
+document.querySelector('.spells-link').addEventListener('click', e => {
+    e.preventDefault();
+    loadContent('#spells');
+});
+});
+  
 
 function loadUpdatePost()
 {
@@ -38,6 +66,22 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+
+        title: 'Site Changes & More Definitions',
+        content: `Mostly just site changes (moved spells to a seperate .md file). There's also new rules clarification including facing and what grants bonuses.
+        Removing Ranger to-hit bonus with ranged, keeping it simple.
+
+        <b> Changes: </b>
+        
+        - Added subclass header and definition.
+        - Changed flanking and facing bonuses.
+        - Changed old age to become slightly more rare.
+        - Removing Ranger to-hit bonus with ranged to be in line with the Fighter bonus.
+        `,
+        date: "2025-01-10 20:00 CET" 
+    },
 
     { 
 
@@ -414,19 +458,5 @@ function loadUpdatePost()
         var postElement = createUpdatePost(posts[i].title, posts[i].content, posts[i].date);
         mainContent.appendChild(postElement);
     }
-}
-
-document.getElementById('discordlink').addEventListener('click', function(event)
-{
-    event.preventDefault()
-    window.open('https://discord.gg/dhqJpXt42a', '_blank')
-});
-
-function loadAboutPage()
-{
-    var mainContent = document.getElementById('content');
-    mainContent.innerHTML = `<h1>About</h1>
-
-    <p>This is a website for my Old School Dungeons & Dragons game!</p>`;
 }
 

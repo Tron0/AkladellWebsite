@@ -73,9 +73,9 @@ The effects of aging below indicate the total amount of ability score changes gi
 |--------------------|-------------|--------------|---------------|------------------|------------------|------------|--------------|
 | 1 - 30             | Young Adult |     +0       |     +0        |       +1         |    +0            | -1         | +0           |
 | 31 - 70            | Mature      |     +1       |     +0        |       +0         |    +0            | +1         | +0           |
-| 71 - 90            | Middle Aged |     -1       |     +0        |       -1         |    +1            | +1         | +0           |
-| 91 - 96            | Old         |     -2       |     -2        |       -1         |    +0            | +1         | +0           |
-| 97 - 100           | Venerable   |     -1       |     -1        |       -1         |    +1            | +1         | +0           |
+| 71 - 95            | Middle Aged |     -1       |     +0        |       -1         |    +1            | +1         | +0           |
+| 96 - 98            | Old         |     -2       |     -2        |       -1         |    +0            | +1         | +0           |
+| 99 - 100           | Venerable   |     -1       |     -1        |       -1         |    +1            | +1         | +0           |
 
 ## Age by Race
 
@@ -202,7 +202,7 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 18        | +2                    | +3                    | 5 / 6                                          | 25%                                              | 93%       |
 
 \*Penalties still apply to all characters, but modifiers are only
-applied to [<u>fighters.</u>](#fighter) (including subclasses such as [<u>inquisitor</u>](#inquisitor)).
+applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
 
 ## Dexterity
 
@@ -211,6 +211,9 @@ applied to [<u>fighters.</u>](#fighter) (including subclasses such as [<u>inquis
 | 3 - 8     | -1                                       | -1                       | -1                    |
 | 9 - 12    | +0                                       | +0                       | +0                    |
 | 13 - 15   | +1                                       | +1                       | +1                    |
+
+\*Penalties still apply to all characters, but modifiers are only
+applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
 
 ## Constitution
 
@@ -703,8 +706,7 @@ sorts of monsters, Rangers gain +1 damage per level with a successful
 attack roll in melee.
 
 **Hit & Damage Bonuses:** Rangers gain a hit and damage bonus as
-seen on the strength & dexterity ability score sections. In addition to this, 
-Rangers gain the strength to-hit bonus when using ranged weapons.
+seen on the strength & dexterity ability score sections.
 
 **Pursuit:** When the Ranger's party pursues an opposing group in the wilderness, 
 the chance of evasion is reduced by 10%.
@@ -841,7 +843,7 @@ be used as many times as the Mage would like.
 | 19        | 1,100,000                 | 11+8              | 5                | 4                        |                       |
 | 20        | 1,200,000                 | 11+9              | 5                | 4                        |                       |
 
-## <span id=law-Mage> Law Mage </span>
+## <span id=law-mage> Law Mage </span>
 
 **Minimum Requirement:** 9+ Wisdom
 
@@ -1113,7 +1115,14 @@ XP is earned through the acquisition of gold and encounters. For each Gold Piece
 
 ## Costs of Living
 
-Player characters pay an amount of gold per month equal to 1% of their total XP. So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of living during a month of downtime.
+Player characters pay an amount of gold per adventure equal to 1% of their total XP. 
+So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of adventure spending.
+
+## <span id=subclasses> Subclasses </span>
+
+Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), 
+which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
+The only restriction this has on character creation is that you cannot [<u>multiclass</u>](#multiclassing) subclasses with each other, or combine a subclass with a main class. 
 
 # <span id=spellcasting> Spellcasting </span>
 
@@ -1149,7 +1158,7 @@ current level affect their ability to comprehend and learn new magic.
 When gaining a new level, a spellcaster may reroll previously not
 [<u>understood</u>](#intelligence) spells from their spellbook.
 
-## <span id=spell-sopying> Spell Copying </span>
+## <span id=spell-copying> Spell Copying </span>
 
 Copying spells from a scroll runs the cost of an essential magical ink 
 that is suited for the spell book at hand. After successfully understanding 
@@ -1157,7 +1166,7 @@ a spell, the mage may decide to rewrite the spell in the book. This costs 100
 GP worth of ink and one day of downtime per spell level. A lightning bolt in
 this case would cost 300 gold and three days' worth of downtime.
 
-## <span id=spell-sesearch> Spell Research </span>
+## <span id=spell-research> Spell Research </span>
 
 Chaos and Law Mages may research new spells (by different methods, of course). This process, and the spell to be created, requires
 the approval of the Referee. Research also requires coinage. If the character has access to a wizard's laboratory or an appropriate place to study, the cost of research is 100 - 2,000 gp per spell level. 
@@ -1331,8 +1340,8 @@ with factors such as worn armor, carried shields, and
 [<u>dexterity</u>](#dexterity) modifiers. To successfully strike a
 target, the final result must equal or surpass the defender's AC.
 
-## Surprise
-<img src="./media/image1.jpg" style="width:3.36027in;height:2.83134in" />
+## <span id=surprise> Surprise </span>
+<img src="./media/surprise.jpg" style="width:3.36027in;height:2.83134in" />
 
 Surprise is checked only once per combat, at the beginning of an encounter. Each character rolls a d6. If the result is a 1, the character is surprised for one segment. If the result is a 2, the character is surprised for two segments. If the result is a 3-6, the character is not surprised. In some cases, monsters or particular character classes may have special rules for surprise (e.g. some monsters cannot be surprised, others are stealthy enough that the party may be surprised on a roll of higher than 2). If a party of adventurers has alerted monsters to its presence (by hammering away at a door for a round or two, for example), the monsters will not need to make a surprise roll at all; however, merely being alert to the possibility of danger is not enough to avoid making a surprise roll. If neither of the opposing forces is surprised, play moves on to the regular combat round. 
 
@@ -1385,6 +1394,18 @@ fighting with a weapon in each hand gives a +1 to hit. Note that
 fighting with two weapons does not actually give two separate attacks;
 it just increases the likelihood of landing a successful blow.
 
+## <span id=flanking> Flanking </span>
+
+Facing and positioning makes it easier to get certain hits in from the flank and rear. 
+
+**Attack from Front Flank:** Negates Shield & Dex bonus
+
+**Attack from Rear:** Negates Shield & Dex and gives an extra +2 for attacker
+
+<img src="./media/flanking.png" style="width:3in;height:3.2in" /> <img src="./media/diagonalflank.png" style="width:3in;height:3.2in" /> 
+
+Visualization of flanking and diagonal grid facing. Green arrows being front, yellow arrows front flank and red arrows being rear flank.
+
 ## <span id=missile-and-missile-combat> Movement and Missile Combat </span>
 
 A character can move up to one-half his normal movement rate and engage in missile fire at half his normal rate of fire. Thus, a man capable of moving 120 feet and armed with a long bow (two shots per round, under normal circumstances) could move 60 feet and still fire one shot. 
@@ -1392,7 +1413,13 @@ The same man, armed with a heavy crossbow (one shot every other round) would be 
 
 ### Missile Weapon Ranges
 
-Missile weapons have different ranges for short, medium, and long range. Short range attacks suffer no range modifier below the number in feat. Medium-range attacks suffer a -2 penalty to the attack roll. Long-range attacks suffer a -5 penalty.
+Missile weapons have different ranges for short, medium, and long range. 
+
+**Short range attacks:** Suffer no range modifier below the number in feet.
+
+**Medium-range attacks:** Suffer a -2 penalty to the attack roll. 
+
+**Long-range attacks suffer:** a -5 penalty (or disadvantage).
 
 See [<u>ranged weapons</u>](#ranged-weapons) to note the ranges.
 
@@ -1482,11 +1509,11 @@ described then it won't cost a turn most of the time.
 
 ## Combat Time
 
-Combat occurs in rounds, with each round lasting 10 seconds of in-game
+Combat occurs in rounds, with each round lasting 1 minute of in-game
 time. Turn structure defines the sequence of actions and events during a
 round.
 
-Spell casting times are measured in rounds, and spell effects often last
+Spell casting times are measured in segments, and spell effects often last
 a certain number of rounds.
 
 # <span id=retainers> Retainers </span>
@@ -2023,7 +2050,7 @@ Roll four times on the table below.
 | Torch                     | S        | 1d3        | 2 SP     | While its primary purpose is to illuminate, its burning end can be a deterrent to foes.                                                    | 1          | - | 3 |
 | Caestus / Spiked Gauntlet | S        | 1d3        | 1 GP     | A leather glove reinforced with metal and sometimes spikes, it transforms a fist into a weapon of its own. **Wielding two gauntlets grants 2d3 damage instead** | 1          | Bludgeoning | 2 |
 
-## <span id=Ranged-Weapons> Ranged Weapons </span>
+## <span id=ranged-weapons> Ranged Weapons </span>
 
 | **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**| **Weight** | **Stackable** | **RoF** | **Range** | **Type** |
 |----------------------------|----------|------------|----------|------------|---------------|----------|----------------|----------|----------|
