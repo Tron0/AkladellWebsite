@@ -1107,16 +1107,42 @@ Mages.</u>](#law-mage)
 
 # <span id=general-gameplay> General Gameplay </span>
 
-**The following mechanics are changed or specially noted.**
-
 ## Experience Points
 
 XP is earned through the acquisition of gold and encounters. For each Gold Piece (GP) safely collected, players will earn 1 XP. All experience is shared between the party.
 
-## Costs of Living
+## <span id=training> Training </span>
 
-Player characters pay an amount of gold per adventure equal to 1% of their total XP. 
-So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of adventure spending.
+Training reflects the time and effort spent mastering new skills, techniques, or spells.
+When a player character or retainer gains enough experience points to level up, that character needs to train to gain the benefits of the level. 
+Gold and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions. 
+
+**Gold cost per week = 10% of total class XP.**
+
+*Multiclassed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not 
+all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 GP for the 2nd level Fighter level (2000 xp).*
+
+### Session Performance
+
+After each session, the DM grades each player character from one of the following:
+
+E - Excellent, few deviations from norm = 1
+
+S - Superior, deviations minimal but noted = 2
+
+F - Fair performance, more norm than deviations = 3
+
+P - Poor showing with aberrant behavior = 4
+
+When the character is eligible to to level up, the alphabetical ratins are converted into the corresponding numbers. Combine the numbers and then divide them by the number of entries (sessions) to come up with a number
+between 1 and 4. This is the number of weeks it takes for the character to train/study and gain the benefits of the new level. All decimals are retained and because the *Akladell* calendar uses 5 day weeks, every .2 equals one day.
+
+[<u>Law mages</u>](#law-mage) who refuses to heal or support the party, [<u>fighters</u>](#fighter) who flees or hangs back during combat encounters, 
+[<u>specialists</u>](#specialist) who charges into combat blindly, or [<u>chaos mages</u>](#chaos-mage) who ignore magic items they could employ in crucial situations, 
+"cautious" characters who put detriment on the party - these are clear examples of a poor rating.
+
+The baseline after most sessions is superior. And an excellent rating is awarded to those who stick to the roleplay of their class well. Note that this does NOT equal player skill.
+The rating system is based on how well the character stuck to their role and part in the world.
 
 ## <span id=subclasses> Subclasses </span>
 
@@ -1469,19 +1495,22 @@ is unconscious, and if their hp are brought down to -10 or lower, the
 character dies. An unconscious character bleeds continuously without aid
 from others, at a rate of 1 hp/round until death at -10.
 
-All characters regain 1 hp for each day of rest. Additionally, 
-being treated by a physician would add an 1d3
-extra hp per day. Characters that have been knocked unconscious from the
-result of combat need to rest for at least five days, or until their hp
-is back to full to be able to function in a fight again.
+## <span id=healing> Healing </span>
+
+A character regain 1 hp for each day of rest during downtime, up to and including 7 days. Any combat, spell using, 
+or similar activity does not constitute rest, so no hit points can be regained. However a character with a constitution penalty 
+must deduct the 7 day penalty score from his or her days of healing, i.e., a -1 for a character means that 6 hit points healing per 7 days is maximum, and the first day of rest will restore no hit points.
+
+After the first week of continuous rest, characters with a bonus for high constitution add the bonus score to the number of hit points they recover due to resting, i.e., the second set of seven days of rest will restore 8 (7 + 1) hit points to a character with a bonus to constitution. Regardless of the number of hit points a character has, 30 days of continuous rest will restore any character to full strength.
 
 # <span id=creature-size> Creature Size </span>
 
-Medium sized creatures can use Large (L) weapons with both hands; Small
+Medium sized creatures can use Large (L) weapons with both hands; small
 (S) or Medium (M) weapons with one hand. Smaller creatures like goblins
-can't use Large weapons. Must wield Medium weapons with both hands.
+can't use large weapons. They must wield medium weapons with both hands.
 
 # <span id=time> Time </span>
+
 
 ## Travel Time
 

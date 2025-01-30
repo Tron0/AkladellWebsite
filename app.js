@@ -69,6 +69,22 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Training',
+        content: `Upkeep is removed and now we use training as a gold sink. I think it's better to have choices cost instead of removing gold every month or session.
+        Healing is now also by the AD&D rules, meaning only during downtime. This will make more sense when we go back to 1:1 time.
+        
+        <b> Changes: </b>
+
+        - Added training rules.
+        - Changed healing to downtime only (btb).
+        - Removed upkeep. 
+        
+        `,
+        date: "2025-01-29 17:35 CET" 
+    },
+
+    { 
+
         title: 'Site Changes & More Definitions',
         content: `Mostly just site changes (moved spells to a seperate .md file). There's also new rules clarification including facing and what grants bonuses.
         Removing Ranger to-hit bonus with ranged, keeping it simple.

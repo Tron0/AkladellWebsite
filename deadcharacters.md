@@ -4,6 +4,9 @@
 
 | Date | Session | Character | Cause |
 |------|---------|-----------|-------|
+| 2025-01-24 | 65A | Brutus | *Hunted down by giant owl*
+| 2025-01-11 | 63A | Waldemar | *Death by spider venom*
+| 2025-01-11 | 63A | Quint Demeth | *Eaten by grubs*
 | 2024-11-22 | 57A | Durk | *Head chopped off by Dudmun*
 | 2024-10-25 | 52A | Karnak | *Charged and promptly killed by zombies*
 | 2024-09-20 | 48A | Loky Grey | *Consumed by a horde of hungry stirges*

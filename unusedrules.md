@@ -449,3 +449,8 @@ Restrictions regarding armor still apply to the character. Whereas attacks, weap
 | Law Mage   | 2,000         | 12 weeks                  |
 | Chaos Mage | 2,500         | 16 weeks                  |
 | Barbarian  | 1,500         | 8 weeks                   |
+
+## Costs of Living
+
+Player characters pay an amount of gold per adventure equal to 1% of their total XP. 
+So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of adventure spending.
