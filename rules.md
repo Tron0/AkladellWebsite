@@ -247,7 +247,7 @@ more XP.
 
 ## Wisdom
 
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus***          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -260,9 +260,9 @@ more XP.
 | 13        | +1              | -                        | 0%                          | 65%
 | 14        | +1              | -                        | 0%                          | 65%
 | 15        | +1              | One 1st level            | 0%                          | 75%
-| 16        | +2              | One 1st level            | 0%                          | 75%
-| 17        | +2              | One 2nd level            | 0%                          | 85%
-| 18        | +3              | One 2nd level            | 0%                          | 95%
+| 16        | +2              | One 2nd level            | 0%                          | 75%
+| 17        | +2              | One 3rd level            | 0%                          | 85%
+| 18        | +3              | One 4th level            | 0%                          | 95%
 
 \*For [<u>law mages</u>](#law-mage)
 
@@ -277,6 +277,8 @@ more XP.
 | 13 - 15   | 3                              | 8                    | +1
 | 16 - 17   | 4                              | 9                    | +1
 | 18        | 5                              | 10                   | +2
+
+*The bonus spell is rolled up by the DM when the character reaches the level to be able to cast it. "Training" if you will. Choose and write down the spell the character decides on from among the legible.
 
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
@@ -1122,27 +1124,9 @@ Gold and time must then be spent under tutelage for a number of weeks equal to t
 *Multiclassed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not 
 all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 GP for the 2nd level Fighter level (2000 xp).*
 
-### Session Performance
+### Training Time
 
-After each session, the DM grades each player character from one of the following:
-
-E - Excellent, few deviations from norm = 1
-
-S - Superior, deviations minimal but noted = 2
-
-F - Fair performance, more norm than deviations = 3
-
-P - Poor showing with aberrant behavior = 4
-
-When the character is eligible to to level up, the alphabetical ratins are converted into the corresponding numbers. Combine the numbers and then divide them by the number of entries (sessions) to come up with a number
-between 1 and 4. This is the number of weeks it takes for the character to train/study and gain the benefits of the new level. All decimals are retained and because the *Akladell* calendar uses 5 day weeks, every .2 equals one day.
-
-[<u>Law mages</u>](#law-mage) who refuses to heal or support the party, [<u>fighters</u>](#fighter) who flees or hangs back during combat encounters, 
-[<u>specialists</u>](#specialist) who charges into combat blindly, or [<u>chaos mages</u>](#chaos-mage) who ignore magic items they could employ in crucial situations, 
-"cautious" characters who put detriment on the party - these are clear examples of a poor rating.
-
-The baseline after most sessions is superior. And an excellent rating is awarded to those who stick to the roleplay of their class well. Note that this does NOT equal player skill.
-The rating system is based on how well the character stuck to their role and part in the world.
+Roll 3d6 to determine the number of days it takes to train and gain a level.
 
 ## <span id=subclasses> Subclasses </span>
 
@@ -1978,7 +1962,7 @@ Roll four times on the table below.
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
-| Unarmored         | 9               | —        | Flesh and bone.                                                                   | —          | —        |
+| Unarmored         | 10               | —        | Flesh and bone.                                                                   | —          | —        |
 | Leather or Padded | 11              | 10 GP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
 | Hide              | 12              | 20 GP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
 | Studded Leather   | 12              | 30 GP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
@@ -2000,7 +1984,7 @@ Roll four times on the table below.
 
 ## <span id=weapon-keywords> Weapon Keywords </span>
 
-- **Reach**: This weapon can be used at a range of 10 feet. However, when a creature enters melee combat at a distance closer at 5 feet or closer this weapon is ineffective and cannot be used to attack with. 
+- **Reach**: This weapon can be used at a range of 10 feet. However, when a creature enters melee combat at a distance at 5 feet or closer this weapon is ineffective. Weapons with a pommel can be used at close range, but this only does half damage.
 
 - **Heavy**: This weapon requires 10+ Strength to wield properly. If a character under 10 Strength uses it to attack, both the To-Hit and damage roll is penalized equal to the difference. For example, a character with 8 strength would get -2 to damage and To-Hit.
 
@@ -2049,10 +2033,10 @@ Roll four times on the table below.
 | **Weapon**   | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** | **Speed Factor** |
 |--------------|----------|------------|----------|-----------------|------------|----------|------------------|
 | Spear, One-handed | M        | 1d6        | 5 GP     | Balanced for close combat, its sharp point excels for multiple quick stabs.                                                                              | 1          | Piercing        | 3 |
-| Spear, Two-handed | L        | 1d8        | 5 GP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 1          | Piercing        | 6 |
+| Spear, Two-handed | L        | 1d6        | 5 GP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 1          | Piercing        | 6 |
 | Lance             | L        | 1d8        | 10 GP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          | Piercing        | 7 |
 | Quarterstaff      | M        | 1d6        | 2 GP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          | Bludgeoning     | 4 |
-| Pole Arm          | L        | 1d10       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
+| Pole Arm          | L        | 1d8       | 9 GP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
 
 **Flails**
 

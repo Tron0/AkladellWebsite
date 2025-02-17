@@ -30,7 +30,7 @@ function loadHomePage()
 {
     var mainContent = document.getElementById('content');
     mainContent.classList.add('about-page');
-    mainContent.innerHTML = '<h1>Welcome to the Home Page!</h1>';
+    mainContent.innerHTML = '<h1>Home Page</h1>';
 }
 
 document.getElementById('discordlink').addEventListener('click', function(event)
