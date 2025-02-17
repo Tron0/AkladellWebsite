@@ -69,6 +69,25 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Pommels & Wisdom Spell Learning',
+        content: `Minor changes. Mostly some homebrew pommel business and simplifying training to 3d6. 
+        One important thing regarding wisdom now is that you can gain up to a 4th level spell for free. 
+        
+        <b> Changes: </b>
+
+        - 3d6 for days training
+        - Bonus spells for law mages under wisdom are now "learned" when you have the ability to cast them. You need to write down and choose one spell from the ones available when making the character.
+        - Unarmored AC is now 10, making the curve smoother.
+        - Pommel attack with reach weapons, half damage of the weapon damage instead of none.
+        - Lowered weapon damage of two-handed spear and pole arm. 
+        
+        
+
+        `,
+        date: "2025-02-17 11:37 CET" 
+    },
+
+    {
         title: 'Training',
         content: `Upkeep is removed and now we use training as a gold sink. I think it's better to have choices cost instead of removing gold every month or session.
         Healing is now also by the AD&D rules, meaning only during downtime. This will make more sense when we go back to 1:1 time.

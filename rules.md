@@ -266,6 +266,8 @@ more XP.
 
 \*For [<u>law mages</u>](#law-mage)
 
+\*For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the DM when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
+
 ## Charisma
 
 | **Score** | **Maximum Number of Henchman** | **Retainer Loyalty** | **Reaction Modifier** |
@@ -277,8 +279,6 @@ more XP.
 | 13 - 15   | 3                              | 8                    | +1
 | 16 - 17   | 4                              | 9                    | +1
 | 18        | 5                              | 10                   | +2
-
-*The bonus spell is rolled up by the DM when the character reaches the level to be able to cast it. "Training" if you will. Choose and write down the spell the character decides on from among the legible.
 
 Any character with a Charisma score of 13 or more receives a bonus of 5%
 more XP.
