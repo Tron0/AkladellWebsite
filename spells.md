@@ -20,7 +20,7 @@
 |    4     | Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
 |    5     | Mending              | Identify       |                | Magic Missile    |                |
 |    6     | Protection from Evil / Protection from Good (B) | Message        |        | Spider Climb   |   
-|    7     | Shield               | Read Magic     |                |                  |                |
+|    7     | Shield               | Read Chaos Magic     |                |                  |                |
 |    8     |                      | Unseen Servant |                |                  |                |
 |    9     |                      | Ventriloquism  |                |                  |                |
 |    10    |                      | Wizard Mark    |                |                  |                |
@@ -41,6 +41,46 @@
 |----------|----------------------|----------------|----------------|------------------|----------------|
 |    1     |                      | Contingency    |                |                  |                |
 
+<!-- 
+## [2nd Level Chaos Spells](#spells#chaos-level-2)
+|**Number**| **White (W)**                            | **Blue (U)**         | **Black (B)**  | **Red (R)**      | **Green (G)**    |
+|----------|------------------------------------------|----------------------|----------------|------------------|------------------|
+|    1     | Continual Light / Continual Darkness (B) | Detect Evil          |                | Knock            |                  |
+|    2     | Web                                      | Detect Invisible     |                | Levitate         |                  |
+|    3     | Wizard Lock                              | ESP                  |                |                  |                  |
+|    4     |                                          | Locate Object        |                |                  |                  |
+|    5     |                                          | Mirror Image         |                |                  |                  |
+|    6     |                                          | Phantasmal Force     |                |                  |                  |
+|    7     |                                          |                      |                |                  |                  |
+|    8     |                                          |                      |                |                  |                  |
+|    9     |                                          |                      |                |                  |                  |
+
+
+## [3rd Level Chaos Spells](#spells#chaos-level-3)
+|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
+|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
+|    1     | Dispel Magic                     | Clairvoyance               |                | Infravision      | Water Breating   |
+|    2     | Hold Person                      | Invisibility 10' Radius    |                | Fireball         |                  |
+|    3     | Protection from Evil 10' Radius  |                            |                | Fly              |                  |
+|    4     | Protection from Normal Missiles  |                            |                | Haste            |                  |
+|    5     |                                  |                            |                | Lightning Bolt   |                  |
+
+## [4th Level Chaos Spells](#spells#chaos-level-4)
+|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
+|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
+|    1     | Remove Curse / Curse (B)         | Dimension Door             | Charm Monster  | Massmorph        | Growth of Plants |
+|    2     |                                  | Hallucinatory Terrain      | Confusion      | Polymorph Others | Wall of Ice      |
+|    3     |                                  | Wizard Eye                 |                | Polymorph Self   |                  |
+|    4     |                                  |                            |                | Wall of Fire     |                  |
+
+## [5th Level Chaos Spells](#spells#chaos-level-5)
+|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
+|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
+|    1     | Remove Curse / Curse (B)         | Dimension Door             | Charm Monster  | Massmorph        | Growth of Plants |
+|    2     |                                  | Hallucinatory Terrain      | Confusion      | Polymorph Others | Wall of Ice      |
+|    3     |                                  | Wizard Eye                 |                | Polymorph Self   |                  |
+|    4     |                                  |                            |                | Wall of Fire     |                  | -->
+
 ## [1st Level Illusion Spells](#spells#illusion-level-1)
 
 |**Number**| **White (W)**        | **Blue (U)**        | **Black (B)**  | **Red (R)**      | **Green (G)**    |
@@ -51,22 +91,74 @@
 |    4     | Gaze Reflection      | Detect Invisibility |                |                  |                  |
 |    5     | Light / Darkness (B) | Phantasmal Force    |                |                  |                  |
 |    6     |                      | Phantom Armor       |                |                  |                  |
-|    7     |                      | Ventriloquism       |                |                  |                  |
+|    7     |                      | Read Illusion Magic |                |                  |                  |
+|    8     |                      | Ventriloquism       |                |                  |                  |
 
 ## [1st Level Law Spells](#spells#law-level-1)
 
-|**Number**| **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
-|-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
-|     1     | Bless / Curse (B)                          | Detect Evil        | Cause Fear    | Courage     | Animal Friendship     |
-|     2     | Cure Light Wounds / Cause Light Wounds (B) | Detect Magic       | Command       |             | Calm Animals          |
-|     3     | Light / Darkness (B)                       | Pass Without Trace |               |             | Endure Cold / Heat    |
-|     4     | Protection from Evil / Protection from Good (B)  | Read Magic   |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)** | **Red (R)** | **Green (G)**         |
+|-----------|--------------------------------------------------|------------------------|---------------|-------------|-----------------------|
+|     1     | Bless / Curse (B)                                | Detect Evil            | Cause Fear    | Courage     | Animal Friendship     |
+|     2     | Cure Light Wounds / Cause Light Wounds (B)       | Detect Magic           | Command       |             | Calm Animals          |
+|     3     | Light / Darkness (B)                             | Pass Without Trace     |               |             | Endure Cold / Heat    |
+|     4     | Protection from Evil / Protection from Good (B)  | Read Law Magic         |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
 
 ## [2nd Level Law Spells](#spells#law-level-2)
 
-|**Number** | **White (W)**                              | **Blue (U)**       | **Black (B)** | **Red (R)** | **Green (G)**         |
-|-----------|--------------------------------------------|--------------------|---------------|-------------|-----------------------|
-|     1     | Hold Person                                | Silence 15' Radius |               |             |                       |
+|**Number** | **White (W)**                              | **Blue (U)**        | **Black (B)** | **Red (R)**         | **Green (G)**         |
+|-----------|--------------------------------------------|---------------------|---------------|---------------------|-----------------------|
+|     1     | Hold Person                                | Find Traps          | Snake Charm   | Isphek's Burden     | Resist Fire           |
+|     2     |                                            | Know Alignment      |               |                     | Speak With Animals    |
+
+## [3rd Level Law Spells](#spells#law-level-3)
+
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
+|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
+|     1     | Continual Light / Continual Darkness (B)         | Locate Object          | Cause Fear        | Growth of Animal  |                       |
+|     2     | Cure Blindness                                   | Detect Magic           | Command           | Striking          |                       |
+|     3     | Cure Disease / Cause Disease (B)                 |                        | Speak with Dead   |                   |                       |
+|     4     | Remove Curse / Curse (B)                         |                        |                   |                   |                       |
+
+## [4th Level Law Spells](#spells#law-level-4)
+
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
+|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
+|     1     | Cure Serious Wounds / Cause Serious Wounds (B)   |                        | Animate Dead      | Sticks to Snakes  | Create Water          |
+|     2     | Dispel Magic                                     |                        |                   |                   | Speak with Plants     |
+|     3     | Neutralize Poison / Create Poison                |                        |                   |                   |                       |
+|     4     | Protection from Evil 10' radius                  |                        |                   |                   |                       |
+
+## [5th Level Law Spells](#spells#law-level-5)
+
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
+|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
+|     1     | Cure Critical Wounds / Cause Critical Wounds (B) | Truesight              | Animate Dead      |                   | Create Food           |
+|     2     | Dispel Evil                                      |                        | Quest             |                   | Insect Plague         |
+
+## [6th Level Law Spells](#spells#law-level-6)
+
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**                      |
+|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|------------------------------------|
+|     1     | Barrier / Remove Barrier                         | Find the Path          |                   | Animate Objects   | Aerial Servant                     |
+|     2     | Cureall                                          | Word of Recall         |                   |                   | Create Normal Animals              |
+|     3     |                                                  |                        |                   |                   | Speak with Monsters / Babble (R)   |
+
+## [7th Level Law Spells](#spells#law-level-7)
+
+|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**                      |
+|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|------------------------------------|
+|     1     | Holy Word                                        | Travel                 |                   |                   | Earthquake                         |
+|     2     | Restore / Life Drain (B)                         | Wish                   |                   |                   | Survival                           |
+|     3     |                                                  | Wizardry               |                   |                   |                                    |
+|     4     |                                                  |                        |                   |                   |                                    |
+
+
+## [1st Level Druidic Spells](#spells#druid-level-1)
+|**Number** | **White (W)**                                   | **Blue (U)**            | **Black (B)** | **Red (R)** | **Green (G)**           |
+|-----------|-------------------------------------------------|-------------------------|---------------|-------------|-------------------------|
+|     1     | Entagle                                         | Detect Danger           |               | Faerie Fire | Animal Friendship       |
+|     2     |                                                 | Invisibility to Animals |               |             | Locate Plant or Animal  |
+|     3     |                                                 | Predict Weather         |               |             | Speak With Animals      |
 
 # <span id="spells#descriptions"> Spell Descriptions </span> 
 
@@ -996,9 +1088,9 @@ Creates an illusion that appears real to those who perceive it:
 
 ### Infravision - Chaos
 
-**Duration:** 1 day
-
 **Range:** Touch
+
+**Duration:** 1 day
 
 Grants infravision to 60':
 
@@ -1694,3 +1786,15 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 **Casting Upon Objects:**
 
 - The spell may be cast upon an object, causing that object to create no sound. For example, it may be cast upon a door, so that it may be bashed down without noise.
+
+### Isphek's Burden (R)
+**Range:** 30'
+**Duration:** 12 hours
+**Cast time:** 1 Round
+**AoE:** 10' cube
+
+**Effect Upon Objects:** The caster can reduce the weight of inanimate items within the area of effect by a total amount equal to 10 + 1 per caster level in slots. This reduction can be distributed among the targeted items as the caster chooses.
+
+- **Armor:** Can remove weight of armor, but does not make it easier to move in. For example, creatures wearing plate still moves slowly.
+
+- **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.

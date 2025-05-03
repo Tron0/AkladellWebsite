@@ -173,7 +173,7 @@ Special Abilities are more like "special traits" that can both be positive and n
 |------|-------| 
 | Martial | Fighter, Inquisitor, Barbarian 
 | Chaos | Chaos Mage, Illusionist 
-| Law | Law Mage | 
+| Law | Law Mage, Druid | 
 | Clandestine | Specialist |
 
 Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The DM will then roll for each and tell you exactly what kind of trait(s) your character has received.
@@ -287,15 +287,15 @@ more XP.
 
 ## <span id=barbarian> Barbarian </span>
 
-**Minimum Requirement:** 9+ Con
+**Minimum Requirement:** 9+ Constitution.
 
-**Prime Attribute:** Con, 13+ (+5% experience bonus)  
+**Prime Attribute:** Constitution, 13+ (+5% experience bonus).
 
-**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level)
+**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level).
 
-**Armor/Shield Permitted**: Light armor, medium armor, shield
+**Armor/Shield Permitted**: Light armor, medium armor, shield.
 
-**Weapons Permitted:** Any, except bows/crossbows
+**Weapons Permitted:** Any, except bows/crossbows.
 
 **Saving Throws:** Barbarians receive a +2 bonus to all saving throws
 made to resist spells and magical effects.
@@ -366,15 +366,15 @@ sustain themselves when in the wilderness.
 
 ## <span id=chaos-mage> Chaos Mage </span>
 
-**Minimum Requirement:** 9+ Intelligence
+**Minimum Requirement:** 9+ Intelligence.
 
-**Prime Attribute:** Intelligence, 13+ (+5% experience bonus)
+**Prime Attribute:** Intelligence, 13+ (+5% experience bonus).
 
-**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
+**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level).
 
-**Armor/Shield Permitted**: None
+**Armor/Shield Permitted**: None.
 
-**Weapons Permitted:** Dagger, staff and darts
+**Weapons Permitted:** Dagger, staff and darts.
 
 **Alignment:** Chaos Mages are of Chaotic alignment.
 
@@ -459,15 +459,15 @@ be used as many times as the Mage would like.
 
 ## <span id=fighter> Fighter </span>
 
-**Minimum Requirement:** 9+ Strength
+**Minimum Requirement:** 9+ Strength.
 
-**Prime Attribute:** Strength, 13+ (+5% experience bonus)
+**Prime Attribute:** Strength, 13+ (+5% experience bonus).
 
-**Hit Dice:** 1d8/level (Gains 2 hp/level after 9th level)
+**Hit Dice:** 1d8/level (Gains 2 hp/level after 9th level).
 
-**Armor/Shield Permitted**: Any
+**Armor/Shield Permitted**: Any.
 
-**Weapons Permitted:** Any
+**Weapons Permitted:** Any.
 
 **Saving Throw Bonuses:** Fighters gain a +1 bonus on all saving throws
 except against magic.
@@ -535,15 +535,15 @@ against claws, bites and touch attacks.
 ## <span id=inquisitor> Inquisitor </span>
 
 **Minimum Requirement:** 13+ Strength, +9 Constitution, +9 Intelligence, +13 Wisdom, +17
-Charisma
+Charisma.
 
-**Prime Attribute:** Strength, 16+ (+5% experience bonus)
+**Prime Attribute:** Strength, 16+ (+5% experience bonus).
 
-**Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level)
+**Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level).
 
-**Armor/Shield Permitted**: Any
+**Armor/Shield Permitted**: Any.
 
-**Weapons Permitted:** Any
+**Weapons Permitted:** Any.
 
 **Alignment:** Inquisitors are of Lawful alignment.
 
@@ -634,15 +634,15 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 ## <span id=ranger> Ranger </span>
 
-**Minimum Requirement:** 13+ Strength, 14+ Constitution, 13+ Intelligence, 14+ Wisdom
+**Minimum Requirement:** 13+ Strength, 14+ Constitution, 13+ Intelligence, 14+ Wisdom.
 
-**Prime Attribute:** Intelligence, 16+ (+5% experience bonus)
+**Prime Attribute:** Intelligence, 16+ (+5% experience bonus).
 
-**Hit Dice:** 2d8 at 1st level, 1d8/level thereafter (Gains 2 hp/level after 10th level)
+**Hit Dice:** 2d8 at 1st level, 1d8/level thereafter (Gains 2 hp/level after 10th level).
 
-**Armor/Shield Permitted**: Light armor, medium armor, shield
+**Armor/Shield Permitted**: Light armor, medium armor, shield.
 
-**Weapons Permitted:** Any
+**Weapons Permitted:** Any.
 
 **Saving Throw Bonuses:** Rangers gain a +2 bonus on saving throws against being paralyzed or poisoned.
 
@@ -750,15 +750,15 @@ Ranger Tracking Chance of Success:
 
 ## <span id=illusionist> Illusionist </span>
 
-**Minimum Requirement:** 13+ Intelligence, 16+ Dex
+**Minimum Requirement:** 13+ Intelligence, 16+ Dexterity.
 
-**Prime Attribute:** Intelligence, 16+ (+5% experience bonus)  
+**Prime Attribute:** Intelligence, 16+ (+5% experience bonus).
 
-**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level)
+**Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level).
 
-**Armor/Shield Permitted**: None
+**Armor/Shield Permitted**: None.
 
-**Weapons Permitted:** Dagger, staff and darts
+**Weapons Permitted:** Dagger, staff and darts.
 
 **Alignment:** Illusionists are of Chaotic alignment.
 
@@ -847,15 +847,15 @@ be used as many times as the Mage would like.
 
 ## <span id=law-mage> Law Mage </span>
 
-**Minimum Requirement:** 9+ Wisdom
+**Minimum Requirement:** 9+ Wisdom.
 
-**Prime Attribute:** Wisdom, 13+ (+5% experience bonus)
+**Prime Attribute:** Wisdom, 13+ (+5% experience bonus).
 
-**Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level)
+**Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level).
 
-**Armor/Shield Permitted**: Any
+**Armor/Shield Permitted**: Any.
 
-**Weapons Permitted:** Any one handed weapon, no ranged weapons
+**Weapons Permitted:** Any one handed weapon, no ranged weapons.
 
 **Alignment:** Law Mages are of Lawful alignment.
 
@@ -904,7 +904,7 @@ to how many spells are known at character creation.
 spells as well as “Read Law Magic”, a first level blue spell. Refer to the
 spell table above to identify how many of the five spells are already
 inscribed and comprehended in the spellbook. Any remaining spells out of
-the initial ten, which are not yet understood, are not added to the
+the initial five, which are not yet understood, are not added to the
 spellbook until the Mage has successfully learned the initial set.
 
 **Banishing Undead:** Law Mages can Turn Undead as seen below. If the number on the dice is equal to or greater than the number shown
@@ -951,15 +951,118 @@ on the table, 2d4 creatures of the targeted type are turned and depart.
 | 19        | 1,200,000                 | 9+10              | 4                | 6                        |                      |
 | 20        | 1,300,000                 | 9+11              | 4                | 7                        |                      |
 
+## <span id=druid> Druid </span>
+
+**Minimum Requirement:** 12+ Wisdom, 15+ Charisma.
+
+**Prime Attribute:** Wisdom, 16+ (+5% experience bonus).
+
+**Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level).
+
+**Armor/Shield Permitted**: Leather armor, wooden
+shield.
+
+**Weapons Permitted:** Dagger, sickle-shaped sword (treat
+as short sword), spear, sling, oil
+
+**Alignment:** Druids are of Lawful alignment.
+
+**Saving Throw Bonus:** Druids gain a +2 bonus on saving throw rolls against fire.
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | None | None
+| 2            | None | Dagger
+| 3            | Hide | Sickle-shaped sword
+| 4            | Hide | Spear (1d3) 1. Thrown. 2. One-handed. 3. Two-handed
+| 5            | Leather | Sling
+| 6            | Leather | Oil flask
+
+### Talents
+
+**Spellcasting:**
+
+| **Wisdom Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** |
+|----------------|---------------------|-----------------------------------------------------|
+| 3 - 7          | 2                   | 2/4                                                 |
+| 8              | 2                   | 2/4                                                 |
+| 9              | 2                   | 2/4                                                 |
+| 10             | 3                   | 2/4                                                 |
+| 11             | 3                   | 3/5                                                 |
+| 12             | 3                   | 3/5                                                 |
+| 13             | 4                   | 3/5                                                 |
+| 14             | 4                   | 3/5                                                 |
+| 15             | 4                   | 4/5                                                 |
+| 16             | 5                   | 4/5                                                 |
+| 17             | 5                   | 4/5                                                 |
+| 18             | 5                   | 4/5                                                 |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn't met when rolling
+through the list, simply repeat until it is. Maximum is simply the limit
+to how many spells are known at character creation.
+
+**Known Spells:** Law Mages initially have access to five 1st-level
+spells as well as “Read Law Magic”, a first level blue spell. Refer to the
+spell table above to identify how many of the five spells are already
+inscribed and comprehended in the spellbook. Any remaining spells out of
+the initial five, which are not yet understood, are not added to the
+spellbook until the Mage has successfully learned the initial set.
+
+**Path-Finding:** A party with a druid has only a 1-in-6 chance of getting lost in woodlands.
+
+**Identification:** The 2nd-level Druid can determine whether water is pure; identify
+any type of normal plant by sight, smell, or taste; and move easily
+through non-magical undergrowth, including thorns or heavy vines.
+
+**Charm Immunity:** At 5th level, the Druid becomes completely immune to the charms of dryads, naiads, satyrs,
+and other such fey creatures of the wild woods and rivers.
+
+**Shapechange:** At 7th level, the Druid can change shape
+into the form of an animal. The animal’s size can range from
+that of a crow to that of a black bear (but not a huge bear such
+as a grizzly or polar bear). The druid can change into as many as
+three different animal forms per day — one from each category of
+reptile, mammal, and bird — but only once for each form within a
+single day. When the Druid shapeshifts, 1d4 per level of any lost hit
+points are cured in the transformation.
+
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**             |
+|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------------|
+| 1         | 0                         | 1                 | 15               | 2                        | Aspiran                     |
+| 2         | 2,000                     | 2                 | 14               | 2                        | Ovate                       |
+| 3         | 4,000                     | 3                 | 13               | 2                        | Initiate of the 1st Circle  |
+| 4         | 7,500                     | 4                 | 12               | 3                        | Initiate of the 2nd Circle  |
+| 5         | 12,500                    | 5                 | 11               | 3                        | Initiate of the 3rd Circle  |
+| 6         | 20,000                    | 6                 | 10               | 3                        | Initiate of the 4th Circle  |
+| 7         | 60,000                    | 7                 | 9                | 3                        | Initiate of the 5th Circle  |
+| 8         | 60,000                    | 8                 | 8                | 4                        | Initiate of the 6th Circle  |
+| 9         | 90,000                    | 9                 | 7                | 4                        | Initiate of the 7th Circle  |
+| 10        | 125,000                   | 9+1               | 6                | 4                        | Initiate of the 8th Circle  |
+| 11        | 200,000                   | 9+2               | 5                | 4                        | Initiate of the 9th Circle  |
+| 12        | 300,000                   | 9+3               | 4                | 5                        | Druid                       |
+| 13        | 750,000                   | 9+4               | 4                | 5                        | Great Druid                 |
+| 14        | 1,500,000                 | 9+5               | 4                | 5                        | Archdruid                   |
+
+**Reaching 12th Level and Above:**
+There can only be nine druids of 12th level. When a druid has enough experience to reach 12th level, they must challenge and defeat an existing 12lth level druid to advance.
+Likewise, there can only be three 13th level druids and a single 14th level druid, known as the archdruid.
+
+Druids who attain 12th level or above may build a stronghold integrated into a natural setting.
+
 ## <span id=specialist> Specialist </span>
 
-**Minimum Requirement:** 9+ Dexterity
+**Minimum Requirement:** 9+ Dexterity.
 
-**Prime Attribute: Dexterity,** 13+ (+5% experience bonus)
+**Prime Attribute: Dexterity,** 13+ (+5% experience bonus).
 
-**Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level)
+**Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level).
 
-**Armor/Shield Permitted:** Light armor, no shield
+**Armor/Shield Permitted:** Light armor, no shield.
 
 **Weapons Permitted:** Any one handed weapons including ranged weapons.
 
@@ -1274,6 +1377,24 @@ They require research, experimentation, training, and perhaps even ingredients t
 | 18    | 7   | 7   | 7   | 7   | 7   | 4   | 1   |
 | 19    | 8   | 8   | 8   | 7   | 7   | 4   | 2   |
 | 20    | 8   | 8   | 8   | 8   | 8   | 5   | 2   |
+
+### Druid Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th |
+|-------|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | 
+| 2     | 2   | —   | —   | —   | —   | 
+| 3     | 2   | 1   | —   | —   | —   | 
+| 4     | 2   | 2   | —   | —   | —   | 
+| 5     | 2   | 2   | 1   | 1   | —   | 
+| 6     | 2   | 2   | 2   | 1   | 1   | 
+| 7     | 3   | 3   | 2   | 2   | 1   | 
+| 8     | 3   | 3   | 3   | 2   | 2   |
+| 9     | 4   | 4   | 3   | 3   | 2   |
+| 10    | 4   | 4   | 4   | 3   | 3   |
+| 11    | 5   | 5   | 4   | 4   | 3   | 
+| 12    | 5   | 5   | 5   | 4   | 4   |
+| 13    | 6   | 5   | 5   | 5   | 4   | 
+| 14    | 6   | 6   | 5   | 5   | 5   |
 
 ### Chaos Mage Spell Slots by Level
 | Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
