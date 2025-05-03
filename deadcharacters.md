@@ -4,6 +4,11 @@
 
 | Date | Session | Character | Cause |
 |------|---------|-----------|-------|
+| 2025-03-28 | 72A | Yod | *Soul taken by evil spirit*
+| 2025-03-28 | 72A | Jannek | *Soul taken by evil spirit*
+| 2025-03-07 | 71A | Dudmun Walker | *Giant spider venom*
+| 2025-03-07 | 71A | Gaius | *Giant spider venom*
+| 2025-02-20 | 69A | Charles | *Fled into the maws of a giant gecko*
 | 2025-02-07 | 67A | Bool | *Chased down by invisible trolls*
 | 2025-02-07 | 67A | Howard | *Bled to death*
 | 2025-01-24 | 65A | Brutus | *Hunted down by giant owl*
