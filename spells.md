@@ -156,7 +156,7 @@
 ## [1st Level Druidic Spells](#spells#druid-level-1)
 |**Number** | **White (W)**                                   | **Blue (U)**            | **Black (B)** | **Red (R)** | **Green (G)**           |
 |-----------|-------------------------------------------------|-------------------------|---------------|-------------|-------------------------|
-|     1     | Entagle                                         | Detect Danger           |               | Faerie Fire | Animal Friendship       |
+|     1     | Entangle                                         | Detect Danger           |               | Faerie Fire | Animal Friendship       |
 |     2     |                                                 | Invisibility to Animals |               |             | Locate Plant or Animal  |
 |     3     |                                                 | Predict Weather         |               |             | Speak With Animals      |
 
@@ -1431,7 +1431,7 @@ Creates a bank of misty vapor within the area of effect:
 
 **Duration:** Permanent
 
-**Casting Time:** 1 hour
+**Casting Time:** 6 turns
 
 - **Initial Reaction:** If the animal does not succeed in its saving
   throw against the spell at its onset, it remains calm while the spell
@@ -1798,3 +1798,139 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 - **Armor:** Can remove weight of armor, but does not make it easier to move in. For example, creatures wearing plate still moves slowly.
 
 - **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
+
+
+## <span id="spells#druid-level-1"> 1st Level Law Spells </span>
+
+### Animal Friendship (G) - Druid
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 hour
+
+- **Initial Reaction:** If the animal does not succeed in its saving
+  throw against the spell at its onset, it remains calm while the spell
+  completes. After this, the animal follows the caster willingly.
+
+- **Capacity:** The caster can use this magic to befriend animals with
+  up to 2 Hit Dice per their experience level. This is also the maximum
+  total Hit Dice of animals that can be befriended at a single instance,
+  capped at twice the caster's experience level.
+
+- **Restrictions:** Only unaligned animals can be affected by this
+  spell.
+
+### Detect Danger (U) - Druid
+
+**Range:** 5'/level
+
+**Duration:** 6 turns (outdoors), otherwise 3 turns
+
+**Casting Time:** 3 segments
+
+**AoE:** 10' cube
+
+The caster can concentrate to detect dangers within range, such as traps, creatures or objects. 
+
+- **Area of Effect:** Scanning a 10' x 10' area takes one turn.
+
+- **Creatures:** Scanning a creature takes one round.
+
+- **Objects:** Scanning a small object such as a chest or weapon takes one round. Larger objects takes longer.
+
+**After Scanning:** The caster knows whether the area, creature, or object poses a danger to their person. This knowledge distinguishes between immediate dangers and potential dangers.
+
+### Entangle (W) - Druid
+
+**Range:** 80'
+
+**Duration:** 1 turn
+
+**Casting Time:** 3 segments
+
+All plants present in a 20' radius area within range bend and twist, entangling creatures inside the area.
+
+- **Saving Throw:** Each creature in the affected area may save versus spells.
+
+- **On Failed Save:** The creature is entangled for the duration and cannot move.
+
+- **On Successful Save:** The creature is able to move through the entangled area at half its normal movement rate.
+
+### Faerie Fire (R) - Druid
+
+**Range:** 60'
+
+**Duration:** 1 turn
+
+**Casting Time:** 3 segments
+
+Selected objects or creatures in range are outlined with a lambent, green fire.
+
+- **Size of Targets:** The caster either chooses an amount of medium-sized creatures (or smaller), or one creature larger to target. The table below visualizes the options granted depending on the level of the caster.
+
+|**Level**    | **Number of Medium-Sized Creatures**            | **Maximum Height of Taller Creature** | 
+|-------------|-------------------------------------------------|-------------------------|
+|     1 - 4   | 1                                               | —                       |
+|     5 - 9   | 2                                               | 10'                     |
+|     10 - 13 | 3                                               | 15'                     |
+|     14+     | 4                                               | 20'                     |
+
+- **Targets:** The caster must be able to perceive or detect the targets.
+
+- **Harmless:** The faerie fire does not cause damage.
+
+- **Invisibility:** The flickering fire makes invisible targets visible.
+
+- **Low Light:** Attacks on targets in low light conditions gain a +2 bonus to-hit.
+
+### Invisibility to Animals (U) - Druid
+
+**Range:** Creature touched
+
+**Duration:** 1 turn
+
+**Casting Time:** 4 segments
+
+- **Detection:** Renders the subject undetectable to all senses (smell, sight, hearing) or non-magical animals and able to wander among them completely unnoticed.
+
+### Locate Plant or Animal (G) - Druid
+
+**Range:** Caster
+
+**Duration:** 6 turns
+
+**Casting Time:** 1 round
+
+The caster can sense the direction (but not distance) of a non-magical, non-sentient plant or animal of a chosen type. The spell has two uses:
+
+1. **Named Species:** Locating a plant or animal of a named species. In this case, the nearest plant or animal of that species is located.
+
+2. **Individual:** Locating a specific plant or animal which the caster can clearly visualize in all aspects.
+
+### Predict Weather (U) - Druid
+
+**Range:** 1 mile diameter/level
+
+**Duration:** 2 hours/level
+
+**Casting Time:** 1 round
+
+- **Forecast:** The caster gains accurate knowledge of the weather (sky, temperature, precipitation) in a square centering on the caster. For each level of experience of the caster, two hours advance weather can be forecast. Thus, at 1st level the caster knows what the weather will be for two hours; at second level he or she knows the weather for four hours in advance, etc.
+
+### Speak with Animals (G) - Druid
+
+**Range:** 30'
+
+**Duration:** 6 turns
+
+**Casting Time:** 3 segments
+
+The caster can communicate with one type of animal within range when the spell is cast.
+
+- **Type of Animal:** Ordinary animals or giant versions of ordinary animals may be targeted.
+
+- **Questions:** The caster can ask questions of and receive answers from animals of the chosen kind, although the spell doesn't make animals any more friendly or cooperative than normal.
+
+

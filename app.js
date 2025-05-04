@@ -69,6 +69,21 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Druid & More Law Spells',
+        content: `Added the druid and the corresponding level 1 spells. Additionally, because the Seeker's Guild™ now grants law spells to be taught, the names of all law spells have been written up. 
+        
+        <b> Changes: </b>
+
+        - Druid class added (law mage subclass)
+        - Law spell names added.
+        - Fighting withdrawal updated, creatures can now switch places with allies and enemies can choose follow the movement (unless blocked).
+
+        `,
+        date: "2025-04-05 18:25 CET" 
+    },
+
+    { 
+
         title: 'Pommels & Wisdom Spell Learning',
         content: `Minor changes. Mostly some homebrew pommel business and simplifying training to 3d6. 
         One important thing regarding wisdom now is that you can gain up to a 4th level spell for free. 
@@ -81,8 +96,6 @@ function loadUpdatePost()
         - Pommel attack with reach weapons, half damage of the weapon damage instead of none.
         - Lowered weapon damage of two-handed spear and pole arm. 
         
-        
-
         `,
         date: "2025-02-17 11:37 CET" 
     },

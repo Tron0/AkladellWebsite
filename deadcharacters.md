@@ -4,6 +4,7 @@
 
 | Date | Session | Character | Cause |
 |------|---------|-----------|-------|
+| 2025-04-05 | 27B | Franco Forte  | *Crushed by the tail of a dragon*
 | 2025-03-28 | 72A | Yod | *Soul taken by evil spirit*
 | 2025-03-28 | 72A | Jannek | *Soul taken by evil spirit*
 | 2025-03-07 | 71A | Dudmun Walker | *Giant spider venom*

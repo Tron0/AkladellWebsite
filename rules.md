@@ -1514,7 +1514,7 @@ Where two or more creatures are engaged in a melee, either may break off from th
 
 - **Retreating:** You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
 
-- **Fighting Withdrawal:** A Fighting Withdrawal may be used in combat if the defender wants to backup slowly. Movement backwards is limited to ½ the normal movement per round (or less). This manoeuvre may be used to “switch places” with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy's pursuit while the second character makes a fighting retreat. 
+- **Fighting Withdrawal:** A Fighting Withdrawal may be used in combat if the defender wants to back up slowly. Movement backwards is limited to ½ the normal movement per round (or less). This manoeuvre may be used to “switch places” with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy's pursuit while the second character makes a fighting retreat. If the enemy isn't blocked, they can choose to follow the withdrawing creature.
 
 ## Two-Weapon Fighting and Two-Handed Weapons
 
