@@ -84,7 +84,7 @@ function loadUpdatePost()
         - Some items now have different "stacks". For example: Dagger and torch stacks up to 3 instead of 10.
         - Cleared up training to now cost 2% of xp per day instead of week.
 
-        - Changed the coin conversion rate to be more in line with the AD&D rulebook (1 gp = 10 sp, 1 sp = 5 cp)
+        - Changed the coin conversion rate to be more in line with the OD&D rules (1 gp = 10 sp, 1 sp = 5 cp)
         - Changed unarmored travel speed to be the same as lightly armored.
         - Changed "forced march" to always succeed but failing the constitution (changed from strength) check gives exhaustion. You cannot force march if you are exhausted.
 
