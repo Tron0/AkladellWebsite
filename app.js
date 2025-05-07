@@ -69,6 +69,31 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Silver Standard, Item Stacking',
+        content: `The converting of the "gold standard" into a "silver standard" is an idea I've contemplated for some time as many online discussions both note the historical and design flaws this standard introduces to the world economy. (See: <a href="https://deltasdnd.blogspot.com/2010/03/on-money.html?m=1">Delta's D&D Hotspot: On Money</a>)
+
+        While silver was more commonly used in medieval times, my reasoning for this change is mainly in the form of the game design. 
+
+        Copper currently holds little value. As why would you bring back 2,000 copper to just get less than 50 xp? Changing the game to use a silver standard makes this more reasonable while also giving more of a dungeon loot "progression."
+          
+        
+        <b> Changes: </b>
+
+        - Silver is now the new coin standard. Some bookkeeping required for conversion!
+        - All items and rules that referenced gold now uses silver.
+        - Some items now have different "stacks". For example: Dagger and torch stacks up to 3 instead of 10.
+        - Cleared up training to now cost 2% of xp per day instead of week.
+
+        - Changed the coin conversion rate to be more in line with the AD&D rulebook (1 gp = 10 sp, 1 sp = 5 cp)
+        - Changed unarmored travel speed to be the same as lightly armored.
+        - Changed "forced march" to always succeed but failing the constitution (changed from strength) check gives exhaustion. You cannot force march if you are exhausted.
+
+        `,
+        date: "2025-05-07 10:24 CET" 
+    },
+
+    { 
+
         title: 'Druid & More Law Spells',
         content: `Added the druid and the corresponding level 1 spells. Additionally, because the Seeker's Guild™ now grants law spells to be taught, the names of all law spells have been written up. 
         
@@ -79,7 +104,7 @@ function loadUpdatePost()
         - Fighting withdrawal updated, creatures can now switch places with allies and enemies can choose follow the movement (unless blocked).
 
         `,
-        date: "2025-04-05 18:25 CET" 
+        date: "2025-05-04 18:25 CET" 
     },
 
     { 
