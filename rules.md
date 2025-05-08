@@ -2066,20 +2066,25 @@ Roll four times on the table below.
 |Candle  | 1 SP | Can be used to light up a 5' radius. A normal candle will burn about 3 turns per inch of height. | 1 | 10 |  
 |Case (map or scroll)  | 1 SP | A tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells. | 1 | — |  
 |Chalk piece  | 2 SP | A single piece of chalk. Useful for "blazing a trail" through a dungeon or ruin. | 1 | 10 |  
-|Cloak  | 2 SP | A traveler's cloak made out of silk. Often in black, gray or brown. | 1 | — |  
+|Cloak  | 2 SP | A traveler's cloak made out of silk. Often in black, gray or brown. | 1 | — |
+|Cooking Pots  | 3 SP | Small pots for cooking food. | 1 | — |
+|Firewood  | 1 SP | Dry wood in log or branch form. | 1 | 3 |  
 |Flint & steel | 1 SP | Flint and fire steel, used to light small fires. Quick to light a torch - or anything else with abundant, exposed fuel. Lighting any other fire takes 1 minute. | 1 | — |  
 |Garlic, charmed  | 10 SP | A head of garlic with hexes and blessings on it. Normal garlic has a minor effect on undead, but charmed garlic works much better. | 1 | 3 |  
-|Glass bottle or vial  | 1 SP | A small empty vial bottle. Can be filled with 4 ounces of liquid. | 1 | 3 |  
+|Glass bottle or vial  | 1 SP | A small empty vial bottle. Can be filled with 4 ounces of liquid. | 1 | — |  
 |Grappling hook  | 3 SP | A grappling hook, when tied to a rope, can anchor the rope to various protrusions such as battlements, window ledges, tree limbs, and more. | 1 | — |  
 |Hammer | 1 SP | A one-handed hammer with an iron head. | 1 | — |  
-|Holy water, vial  | 10 SP | Holy water, lethal to undead, can be thrown like a grenade or splashed on incorporeal entities when adjacent. Each flask deals 1d6+1 damage to the direct target and 2 damage to any additional undead within a radius. | 1 | 3 |  
+|Holy water, vial  | 10 SP | Holy water, lethal to undead, can be thrown like a grenade or splashed on incorporeal entities when adjacent. Each flask deals 1d6+1 damage to the direct target and 2 damage to any additional undead within a radius. | 1 | — |  
 |Ink, vial  | 8 SP | Mostly used to write down spell transcriptions into spellbooks. One vial of ink is enough for one spell. | 1 | 3 |  
 |Ladder, 10 ft. | 1 SP | A wooden ladder, 10 feet in length, used for scaling walls or reaching high places. | 2 | — |  
 |Lantern  | 5 SP | A lantern will provide light covering a 30' radius; dim light will extend about 20' further. A lantern will consume a flask of oil in 24 turns. | 1 | — |  
 |Lantern, bullseye  | 14 SP | These shine a beam of light 60 feet long but only 10 feet wide through a hole in the lantern's metal cylinder. They have a hinged cover that allows the light to be hidden. | 1 | — |  
 |Lantern, hooded  | 8 SP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | — |  
 |Lockpick  | 1 SP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | 10 |  
-|Oil, flask  | 1 SP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | 3 |  
+|Oil, flask  | 1 SP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | — | 
+|Ration  | 2 SP | A packaged meal providing the necessary sustenance for an adventurer for one day. | 1 | 10 | 
+|Rope, hemp (50 feet) | 2 SP | Standard hemp rope. | 2 | — |  
+|Rope, silk (50 feet) | 10 SP | Silk rope, lighter than hemp but just as sturdy. | 1 | — |   
 |Piton  | 1 SP | Similar to an iron spike, but with an eye which can be used to loop a rope. Can also be hammered into stone. | 1 | 10 |  
 |Pole, 10 feet  | 1 SP | A wooden pole, similar to a spear without a spearhead. | 1 | — |  
 |Quiver  | 2 SP | Granting easy access to arrows and bolts. A typical quiver is made out of leather or thick canvas and can hold around 20 of either type of ammunition. | — | — |  
@@ -2091,9 +2096,6 @@ Roll four times on the table below.
 |Thieves' tools  | 20 SP | Required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools. | 1 | — |  
 |Torch  | 2 SP | Sheds light over a 30' radius, with dim light extending about 20' further, and burns for six turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight. | 1 | 3 |  
 |Waterskin  | 1 SP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | — |  
-|Ration  | 2 SP | A packaged meal providing the necessary sustenance for an adventurer for one day. | 1 | 10 | 
-|Rope, hemp (50 feet) | 2 SP | Standard hemp rope. | 2 | — |  
-|Rope, silk (50 feet) | 10 SP | Silk rope, lighter than hemp but just as sturdy. | 1 | — |  
 
 ## <span id=armor> Armor </span>
 
