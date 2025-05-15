@@ -69,6 +69,22 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Movement changes',
+        content: `Increasing the movement speed inside dungeons (both turns and rounds). This ups the pacing quite a bit and lines it up with S&W. Also sorted the movement section better.
+            
+        
+        <b> Changes: </b>
+
+        - Movement table is now more properly described and outlined.
+        - Removed overencumbrance.
+        - Moved spell slots per level under each class separately.
+
+        `,
+        date: "2025-05-15 17:36 CET" 
+    },
+
+    { 
+
         title: 'Silver Standard, Item Stacking',
         content: `The converting of the "gold standard" into a "silver standard" is an idea I've contemplated for some time as many online discussions both note the historical and design flaws this standard introduces to the world economy. (See: <a href="https://deltasdnd.blogspot.com/2010/03/on-money.html?m=1">Delta's D&D Hotspot: On Money</a>)
 

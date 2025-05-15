@@ -331,7 +331,7 @@ on 1d6.
 
 **Savage Blows:** Barbarians gain an extra +2 to all damage rolls made in melee combat and from heavy thrown weapons such as javelins.
 
-**Swift Runner:** Barbarians move quicker than other humans and have an unencumbered movement rate of 150' instead of the standard 120' (if unarmored) See [<u>encumbrance & movement</u>](#encumbrance-&-movement). If wearing armor, increase the rate to the next highest tier. For example: A barbarian wearing light armor would have a movement rate of 120' instead of 90'.
+**Swift Runner:** Barbarians move quicker than other humans and have a base movement rate of 15 instead of the standard 12 (if unarmored).
 
 **Wilderness Survival:** Barbarians are adept at surviving in the wild
 places of the world and are always able to find food and water to
@@ -456,6 +456,30 @@ be used as many times as the Mage would like.
 | 18        | 1,650,000                 | 11+7              | 5                | 4                        |                       |
 | 19        | 1,800,000                 | 11+8              | 5                | 4                        |                       |
 | 20        | 1,950,000                 | 11+9              | 5                | 4                        |                       |
+
+### Chaos Mage Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
+|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   | —   | —   |
+| 2     | 2   | —   | —   | —   | —   | —   | —   | —   | —   |
+| 3     | 3   | 1   | —   | —   | —   | —   | —   | —   | —   |
+| 4     | 3   | 2   | —   | —   | —   | —   | —   | —   | —   |
+| 5     | 4   | 2   | 1   | —   | —   | —   | —   | —   | —   |
+| 6     | 4   | 2   | 2   | —   | —   | —   | —   | —   | —   |
+| 7     | 4   | 3   | 2   | 1   | —   | —   | —   | —   | —   |
+| 8     | 4   | 3   | 3   | 2   | —   | —   | —   | —   | —   |
+| 9     | 4   | 3   | 3   | 2   | 1   | —   | —   | —   | —   |
+| 10    | 4   | 4   | 3   | 2   | 2   | —   | —   | —   | —   |
+| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   | —   | —   |
+| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   | —   | —   |
+| 13    | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   | —   |
+| 14    | 5   | 5   | 5   | 4   | 4   | 3   | 1   | —   | —   |
+| 15    | 5   | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   |
+| 16    | 5   | 5   | 5   | 5   | 5   | 5   | 2   | 1   | —   |
+| 17    | 5   | 6   | 6   | 6   | 5   | 5   | 2   | 2   | —   |
+| 18    | 5   | 6   | 6   | 6   | 6   | 5   | 2   | 2   | 1   |
+| 19    | 5   | 7   | 7   | 7   | 6   | 6   | 3   | 2   | 2   |
+| 20    | 5   | 7   | 7   | 7   | 7   | 7   | 3   | 3   | 2   |
 
 ## <span id=fighter> Fighter </span>
 
@@ -845,6 +869,30 @@ be used as many times as the Mage would like.
 | 19        | 1,100,000                 | 11+8              | 5                | 4                        |                       |
 | 20        | 1,200,000                 | 11+9              | 5                | 4                        |                       |
 
+### Illusionist Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+|-------|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   |
+| 2     | 2   | —   | —   | —   | —   | —   | —   |
+| 3     | 2   | 1   | —   | —   | —   | —   | —   |
+| 4     | 3   | 2   | —   | —   | —   | —   | —   |
+| 5     | 4   | 2   | 1   | —   | —   | —   | —   |
+| 6     | 4   | 3   | 1   | —   | —   | —   | —   |
+| 7     | 4   | 3   | 2   | —   | —   | —   | —   |
+| 8     | 4   | 3   | 2   | 1   | —   | —   | —   |
+| 9     | 5   | 3   | 3   | 2   | —   | —   | —   |
+| 10    | 5   | 4   | 3   | 2   | 1   | —   | —   |
+| 11    | 5   | 4   | 3   | 3   | 2   | —   | —   |
+| 12    | 5   | 5   | 4   | 3   | 2   | 1   | —   |
+| 13    | 5   | 5   | 4   | 3   | 2   | 2   | —   |
+| 14    | 5   | 5   | 4   | 3   | 2   | 2   | 1   |
+| 15    | 5   | 5   | 4   | 4   | 2   | 2   | 2   |
+| 16    | 5   | 5   | 5   | 4   | 3   | 2   | 2   |
+| 17    | 5   | 5   | 5   | 5   | 3   | 2   | 2   |
+| 18    | 5   | 5   | 5   | 5   | 3   | 3   | 2   |
+| 19    | 5   | 5   | 5   | 5   | 4   | 3   | 2   |
+| 20    | 5   | 5   | 5   | 5   | 4   | 3   | 3   |
+
 ## <span id=law-mage> Law Mage </span>
 
 **Minimum Requirement:** 9+ Wisdom.
@@ -951,6 +999,30 @@ on the table, 2d4 creatures of the targeted type are turned and depart.
 | 19        | 1,200,000                 | 9+10              | 4                | 6                        |                      |
 | 20        | 1,300,000                 | 9+11              | 4                | 7                        |                      |
 
+### Law Mage Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
+|-------|-----|-----|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | —   | —   |
+| 2     | 1   | —   | —   | —   | —   | —   | —   |
+| 3     | 2   | —   | —   | —   | —   | —   | —   |
+| 4     | 2   | 1   | —   | —   | —   | —   | —   |
+| 5     | 2   | 2   | —   | —   | —   | —   | —   |
+| 6     | 2   | 2   | 1   | 1   | —   | —   | —   |
+| 7     | 2   | 2   | 2   | 1   | 1   | —   | —   |
+| 8     | 2   | 2   | 2   | 2   | 2   | —   | —   |
+| 9     | 3   | 3   | 3   | 2   | 2   | —   | —   |
+| 10    | 3   | 3   | 3   | 3   | 3   | —   | —   |
+| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   |
+| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   |
+| 13    | 5   | 5   | 5   | 4   | 4   | 1   | —   |
+| 14    | 5   | 5   | 5   | 5   | 5   | 2   | —   |
+| 15    | 6   | 6   | 6   | 5   | 5   | 2   | —   |
+| 16    | 6   | 6   | 6   | 6   | 6   | 3   | —   |
+| 17    | 7   | 7   | 7   | 6   | 6   | 3   | 1   |
+| 18    | 7   | 7   | 7   | 7   | 7   | 4   | 1   |
+| 19    | 8   | 8   | 8   | 7   | 7   | 4   | 2   |
+| 20    | 8   | 8   | 8   | 8   | 8   | 5   | 2   |
+
 ## <span id=druid> Druid </span>
 
 **Minimum Requirement:** 12+ Wisdom, 15+ Charisma.
@@ -1053,6 +1125,24 @@ There can only be nine druids of 12th level. When a druid has enough experience 
 Likewise, there can only be three 13th level druids and a single 14th level druid, known as the archdruid.
 
 Druids who attain 12th level or above may build a stronghold integrated into a natural setting.
+
+### Druid Spell Slots by Level
+| Level | 1st | 2nd | 3rd | 4th | 5th |
+|-------|-----|-----|-----|-----|-----|
+| 1     | 1   | —   | —   | —   | —   | 
+| 2     | 2   | —   | —   | —   | —   | 
+| 3     | 2   | 1   | —   | —   | —   | 
+| 4     | 2   | 2   | —   | —   | —   | 
+| 5     | 2   | 2   | 1   | 1   | —   | 
+| 6     | 2   | 2   | 2   | 1   | 1   | 
+| 7     | 3   | 3   | 2   | 2   | 1   | 
+| 8     | 3   | 3   | 3   | 2   | 2   |
+| 9     | 4   | 4   | 3   | 3   | 2   |
+| 10    | 4   | 4   | 4   | 3   | 3   |
+| 11    | 5   | 5   | 4   | 4   | 3   | 
+| 12    | 5   | 5   | 5   | 4   | 4   |
+| 13    | 6   | 5   | 5   | 5   | 4   | 
+| 14    | 6   | 6   | 5   | 5   | 5   |
 
 ## <span id=specialist> Specialist </span>
 
@@ -1353,96 +1443,6 @@ into a thing far less, and far worse, than human.
 Some **spells beyond 6th level** are treated as magical projects that would require casting in a proper space.
 They require research, experimentation, training, and perhaps even ingredients to cast. 
 
-### Law Mage Spell Slots by Level
-| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
-|-------|-----|-----|-----|-----|-----|-----|-----|
-| 1     | 1   | —   | —   | —   | —   | —   | —   |
-| 2     | 1   | —   | —   | —   | —   | —   | —   |
-| 3     | 2   | —   | —   | —   | —   | —   | —   |
-| 4     | 2   | 1   | —   | —   | —   | —   | —   |
-| 5     | 2   | 2   | —   | —   | —   | —   | —   |
-| 6     | 2   | 2   | 1   | 1   | —   | —   | —   |
-| 7     | 2   | 2   | 2   | 1   | 1   | —   | —   |
-| 8     | 2   | 2   | 2   | 2   | 2   | —   | —   |
-| 9     | 3   | 3   | 3   | 2   | 2   | —   | —   |
-| 10    | 3   | 3   | 3   | 3   | 3   | —   | —   |
-| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   |
-| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   |
-| 13    | 5   | 5   | 5   | 4   | 4   | 1   | —   |
-| 14    | 5   | 5   | 5   | 5   | 5   | 2   | —   |
-| 15    | 6   | 6   | 6   | 5   | 5   | 2   | —   |
-| 16    | 6   | 6   | 6   | 6   | 6   | 3   | —   |
-| 17    | 7   | 7   | 7   | 6   | 6   | 3   | 1   |
-| 18    | 7   | 7   | 7   | 7   | 7   | 4   | 1   |
-| 19    | 8   | 8   | 8   | 7   | 7   | 4   | 2   |
-| 20    | 8   | 8   | 8   | 8   | 8   | 5   | 2   |
-
-### Druid Spell Slots by Level
-| Level | 1st | 2nd | 3rd | 4th | 5th |
-|-------|-----|-----|-----|-----|-----|
-| 1     | 1   | —   | —   | —   | —   | 
-| 2     | 2   | —   | —   | —   | —   | 
-| 3     | 2   | 1   | —   | —   | —   | 
-| 4     | 2   | 2   | —   | —   | —   | 
-| 5     | 2   | 2   | 1   | 1   | —   | 
-| 6     | 2   | 2   | 2   | 1   | 1   | 
-| 7     | 3   | 3   | 2   | 2   | 1   | 
-| 8     | 3   | 3   | 3   | 2   | 2   |
-| 9     | 4   | 4   | 3   | 3   | 2   |
-| 10    | 4   | 4   | 4   | 3   | 3   |
-| 11    | 5   | 5   | 4   | 4   | 3   | 
-| 12    | 5   | 5   | 5   | 4   | 4   |
-| 13    | 6   | 5   | 5   | 5   | 4   | 
-| 14    | 6   | 6   | 5   | 5   | 5   |
-
-### Chaos Mage Spell Slots by Level
-| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
-|-------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| 1     | 1   | —   | —   | —   | —   | —   | —   | —   | —   |
-| 2     | 2   | —   | —   | —   | —   | —   | —   | —   | —   |
-| 3     | 3   | 1   | —   | —   | —   | —   | —   | —   | —   |
-| 4     | 3   | 2   | —   | —   | —   | —   | —   | —   | —   |
-| 5     | 4   | 2   | 1   | —   | —   | —   | —   | —   | —   |
-| 6     | 4   | 2   | 2   | —   | —   | —   | —   | —   | —   |
-| 7     | 4   | 3   | 2   | 1   | —   | —   | —   | —   | —   |
-| 8     | 4   | 3   | 3   | 2   | —   | —   | —   | —   | —   |
-| 9     | 4   | 3   | 3   | 2   | 1   | —   | —   | —   | —   |
-| 10    | 4   | 4   | 3   | 2   | 2   | —   | —   | —   | —   |
-| 11    | 4   | 4   | 4   | 3   | 3   | —   | —   | —   | —   |
-| 12    | 4   | 4   | 4   | 4   | 4   | 1   | —   | —   | —   |
-| 13    | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   | —   |
-| 14    | 5   | 5   | 5   | 4   | 4   | 3   | 1   | —   | —   |
-| 15    | 5   | 5   | 5   | 5   | 4   | 4   | 2   | —   | —   |
-| 16    | 5   | 5   | 5   | 5   | 5   | 5   | 2   | 1   | —   |
-| 17    | 5   | 6   | 6   | 6   | 5   | 5   | 2   | 2   | —   |
-| 18    | 5   | 6   | 6   | 6   | 6   | 5   | 2   | 2   | 1   |
-| 19    | 5   | 7   | 7   | 7   | 6   | 6   | 3   | 2   | 2   |
-| 20    | 5   | 7   | 7   | 7   | 7   | 7   | 3   | 3   | 2   |
-
-### Illusionist Spell Slots by Level
-| Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
-|-------|-----|-----|-----|-----|-----|-----|-----|
-| 1     | 1   | —   | —   | —   | —   | —   | —   |
-| 2     | 2   | —   | —   | —   | —   | —   | —   |
-| 3     | 2   | 1   | —   | —   | —   | —   | —   |
-| 4     | 3   | 2   | —   | —   | —   | —   | —   |
-| 5     | 4   | 2   | 1   | —   | —   | —   | —   |
-| 6     | 4   | 3   | 1   | —   | —   | —   | —   |
-| 7     | 4   | 3   | 2   | —   | —   | —   | —   |
-| 8     | 4   | 3   | 2   | 1   | —   | —   | —   |
-| 9     | 5   | 3   | 3   | 2   | —   | —   | —   |
-| 10    | 5   | 4   | 3   | 2   | 1   | —   | —   |
-| 11    | 5   | 4   | 3   | 3   | 2   | —   | —   |
-| 12    | 5   | 5   | 4   | 3   | 2   | 1   | —   |
-| 13    | 5   | 5   | 4   | 3   | 2   | 2   | —   |
-| 14    | 5   | 5   | 4   | 3   | 2   | 2   | 1   |
-| 15    | 5   | 5   | 4   | 4   | 2   | 2   | 2   |
-| 16    | 5   | 5   | 5   | 4   | 3   | 2   | 2   |
-| 17    | 5   | 5   | 5   | 5   | 3   | 2   | 2   |
-| 18    | 5   | 5   | 5   | 5   | 3   | 3   | 2   |
-| 19    | 5   | 5   | 5   | 5   | 4   | 3   | 2   |
-| 20    | 5   | 5   | 5   | 5   | 4   | 3   | 3   |
-
 # <span id=combat> Combat </span>
 
 ## Order of Combat
@@ -1727,24 +1727,11 @@ coin inside of a pouch.
 
 # Movement Speed
 
-| **Armor**                     | **Base Movement Speed** |
-|-------------------------------|-------------------------|
-| Light Armor / Unarmored       | 120' EX (40' EN)         |
-| Medium Armor                  | 90' EX (30' EN)         |
-| Heavy Armor                   | 60' EX (20' EN)         |
-
-## Overencumbrance
-
-| **Unique Items Carried**    | **Movement Speed Decrease** |
-|-------------------------------|------------------------|
-| Equal or under Strength Score | -0 EX (0' EN)                  |
-| Strength Score + 1 Item       | -30' EX (10' EN)                     |
-| Strength Score + 2 Items      | -60' EX (20' EN)                    |
-| Strength Score + 3 Items      | -90' EX (30' EN)                    |
-
-*For example, a character with a Strength of 16 would be able to carry
-16 unique items and have a movement rate of 120 EX while unarmored. If that character
-carried 18 items, their base movement rate would be 60 EX.*
+| **Armor**                     | **Base Movement**  |  **Exploration Speed** | **Encounter Speed** |
+|-------------------------------|--------------------|------------------------|---------------------|
+| Light Armor / Unarmored       | 12                 | 240'                   | 120'                |
+| Medium Armor                  | 9                  | 180'                   | 90'                 |
+| Heavy Armor                   | 6                  | 120'                   | 60'                 |
 
 ## Indoor, Underground & City Movement
 
@@ -1756,8 +1743,8 @@ carried 18 items, their base movement rate would be 60 EX.*
 
 |**Description** | **Speed** |
 |----------------|-----------|
-| Hiking         | Base exploration movement rate in miles/day No forced march checks required | Base exploration movement rate in miles/day. No checks required |
-| Forced March   | Double exploration movement rate in miles/day. Forced march checks required after traveling (roll under constitution), characters that fail this check gain one level of exhaustion. Exhausted characters cannot force march. |
+| Hiking         | Base movement rate in miles/day No forced march checks required | Base movement rate in miles/day. No checks required |
+| Forced March   | Double base movement rate in miles/day. Forced march checks required after traveling (roll under constitution), characters that fail this check gain one level of exhaustion. Exhausted characters cannot force march. |
 
 ## Foraging
 
