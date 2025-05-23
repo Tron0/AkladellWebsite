@@ -70,7 +70,7 @@ function loadUpdatePost()
     { 
 
         title: 'Level 0 henchmen',
-        content: `Adding level 0 henchmen, which can be recruited during the PCs first level.
+        content: `Adding level 0 henchmen, which can be recruited by first level PCs.
             
         
         <b> Changes: </b>
