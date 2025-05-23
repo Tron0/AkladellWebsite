@@ -69,6 +69,20 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Level 0 henchmen',
+        content: `Adding level 0 henchmen, which can be recruited during the PCs first level.
+            
+        
+        <b> Changes: </b>
+
+        - Added the description for level 0 henchmen.
+
+        `,
+        date: "2025-05-23 21:39 CET" 
+    },
+
+    { 
+
         title: 'Movement changes',
         content: `Increasing the movement speed inside dungeons (both turns and rounds). This ups the pacing quite a bit and lines it up with S&W. Also sorted the movement section better.
             

@@ -1676,7 +1676,9 @@ Hirelings.
 
 Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
 
-Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen also gain XP as a PC would.
+Recruiting a henchmen requires the PC to be at least one level above the henchmen. To recruit a level 1 henchmen means that the PC needs to be at least level 2. However, first level henchmen can recruit level 0 henchmen, detailed below. If the henchmen becomes one level higher than the PC, they might demand a better share of treasure, or even leave.
+
+Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the XP as the PC receives at the end of the session.
 
 ## Hiring Henchmen
 
@@ -1685,7 +1687,24 @@ Henchmen need to be given suitable equipment and half a share of treasure after 
 | Hiring a crier               | 10 SP      |
 | Posting notices              | 50 SP      |
 | Hiring agents                | 300 SP     |
-| Frequenting inns and taverns | 10-50 SP (repeatable)|
+| Frequenting inns and taverns | 10 SP (repeatable up to 5 times)|
+
+## Level 0 Henchmen
+
+Level 0 henchmen can be recruited at first level. Below are rules for creation:
+
+- Roll age.
+- Roll attribute scores 3d6 down the line, without switching place between attributes.
+- Roll 1d4 HP.
+- Roll general equipment and class equipment of your choice.
+- Begin at -500 XP.
+- Roll background.
+- Roll Psionics.
+- Choose 2 weapon proficiencies. Any armor permissable.
+- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, parrying, tracking etc.
+- Choose one category type from special abilities / "boons and banes".
+
+When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. 
 
 ## Hirelings
 
