@@ -293,15 +293,15 @@ All other classes may be given a maximum hit point bonus adjustment for constitu
 
 ## Charisma
 
-| **Score** | **Maximum Number of Henchman** | **Reaction Modifier / Loyalty Check** |
-|-----------|--------------------------------|----------------------|-----------------------|
-| 3 - 4     | 1                              | -2
-| 5 - 6     | 1                              | -1
-| 7 - 8     | 1                              | -1
-| 9 - 12    | 2                              | +0
-| 13 - 15   | 3                              | +1
-| 16 - 17   | 4                              | +1
-| 18        | 5                              | +2
+| **Score** | **Maximum Number of Henchman** | **Reaction / Loyalty Modifier**       |
+|-----------|--------------------------------|---------------------------------------|
+| 3 - 4     | 1                              | -2                                    |
+| 5 - 6     | 1                              | -1                                    |
+| 7 - 8     | 1                              | -1                                    |
+| 9 - 12    | 2                              | +0                                    |
+| 13 - 15   | 3                              | +1                                    |
+| 16 - 17   | 4                              | +1                                    |
+| 18        | 5                              | +2                                    |
 
 # <span id=classes> Classes </span>
 
