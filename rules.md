@@ -1424,6 +1424,11 @@ After the first week of continuous rest, characters with a bonus for high consti
 
 Characters who rest during adventuring do not regain hp. Successfully getting a good nights rest remove all levels of exhaustion.
 
+## Preparing and Scouting
+
+If characters spend seven days scouting a specific site, doing research, training for their next adventure, and/or any other preparatory
+activity, they gain a +1 bonus on saves for the duration of that adventure. Costs 1d4 silver per day.
+
 ## Rodomontade
 If the entire party (i.e. everyone who was on the adventure) spends a week after their adventure bragging about their shenanigans, singing songs, telling stories, engaging in self-aggrandizement, and spreading the tale of their deeds of derring-do, they gain an additional 5% experience from the previous adventure. Certain classes with oration abilities
 (bards, jesters) may increase this bonus to +10%. No other activities may be performed during this time.
