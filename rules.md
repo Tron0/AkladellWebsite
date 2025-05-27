@@ -507,7 +507,7 @@ be used as many times as the Mage would like.
 
 **Prime Attribute:** 16+ Strength (+10% experience bonus).
 
-**Hit Dice:** 1d10/level (Gains 2 hp/level after 9th level).
+**Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level).
 
 **Armor/Shield Permitted**: Any.
 
