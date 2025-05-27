@@ -39,7 +39,7 @@
 **(10) Determine miscellaneous information**
 
 - Armor class 
-- [<u>Encumbrance</u>](#encumbrance-&-movement)
+- [<u>Movement</u>](#movement)
 - [<u>Languages</u>](#languages)
 - [<u>Psionics</u>](#psionics)
 - [<u>Weapon Proficiencies</u>](#weapon-proficiencies) (Initial number on class page)
@@ -163,6 +163,79 @@ character.
 | 71 - 90            | No skill of measurable worth           | 
 | 90 - 100           | Roll twice, ignoring this result after | 
 
+# <span id=multiclassing> Multiclassing </span>
+
+## Choosing Multiple Classes
+
+A character may be of up to three classes,
+which are selected at character creation.
+
+## Level and Experience Points
+
+The character has a separately tracked
+count of experience points per class.
+When earning XP, the total earned is split
+evenly between the per-class XP counts.
+
+### Prime Requisite XP Adjustments
+The character’s prime requisite XP
+adjustment is calculated separately for each class, 
+based on the prime requisite(s) of the class. The
+per-class adjustment only applies to XP
+added to that class’ XP count.
+
+### Leveling
+
+The character has a separately tracked
+experience level per class. When the
+character has gained enough XP in one of
+their classes, that class increases in level.
+
+A multiclassed character is limited to a maximum amount of levels. 
+A character with two classes are limited to a maximum level of 11 in each and a character with three 
+classes are limited to 9.
+
+## Hit Points
+When determining hit points at character
+creation or upon gaining a level, any hit
+points gained are divided by the number
+of classes. Fractions are tracked and may
+add up to a whole number later on.
+
+For example, a fighter/thief character
+gains a thief level and the player rolls 1d4
+for hit points. The result is a 3, meaning
+that the character gains 1½ hit points.
+Upon gaining a fighter level, the player
+rolls 1d8 for hit points. The result is a 5,
+meaning that the character gains 2½ hit
+points. The half hit points gained for the
+thief and fighter levels add up to a whole
+hit point.
+
+## Saving Throws and To-Hit Bonus
+The character uses the best saving throw
+value in each category and the best
+hit bonus and damage bonus from all of their classes.
+
+## Class Abilities
+
+### Allowed Armor
+The character may use the best armor
+options allowed to any of their classes.
+
+### Allowed Weapons
+The character may use the best weapon
+options allowed to any of their classes.
+
+### Spell Casting
+The character may use the magical abilities of each class without restriction.
+
+### Stealth Skills
+
+Class abilities such as Stealth or Sleight of Hand may only be used when
+wearing armor that is allowed to the class that grants the ability.
+
 ## <span id=special-abilities> Special Abilities </span>
 
 *Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
@@ -185,6 +258,12 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 3 - 6 |   1   |     1 |
 | 7     |   2   |     1 |
 | 8     |   1   |     0 |
+
+## <span id=subclasses> Subclasses </span>
+
+Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), 
+which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
+The only restriction this has on character creation is that you cannot [<u>multiclass</u>](#multiclassing) subclasses with each other, or combine a subclass with a main class.
 
 # <span id=ability-scores> Ability Scores </span>
 
@@ -518,7 +597,7 @@ except against magic.
 
 Roll 1d6 for armor and 1d6 twice for weapons.
 
-| **Result (1d6)** | **Armor** | **Weapons** |
+| **Result (1d6)**     | **Armor** | **Weapons** |
 |--------------|-------|---------|
 | 1            | Leather + Buckler | Crossbow (1d3) 1. Hand. 2. Light. 3. Heavy. + 20 quarrels
 | 2            | Studded Leather | Dagger
@@ -1184,7 +1263,7 @@ chance to climb a wall, a Specialist can most likely do it
 automatically.
 
 **Evasiveness:** Specialists gain a +1 bonus to AC when
-[<u>unencumbered</u>](#encumbrance-&-movement).
+[<u>unencumbered</u>](#encumbrance).
 
 **Moving quietly:** Specialists can move quietly without being heard.
 
@@ -1268,7 +1347,7 @@ would be considered Tinkering.
 
 (Below are examples, either pick one or build your own with the four skill points given at level 1)
 
-| **Dice Score (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
+| **Result (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
 |---------------------|----------------|------------------|--------------|-----------------|------------|---------------------|------------------|-------------|------------|
 | 1                   | Artificer      | 2 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 3 / 6      |
 | 2                   | Assassin       | 1 / 6            | 1 / 6        | 1 / 6           | 1 / 6      | 1 / 6               | 3 / 6            | 3 / 6       | 1 / 6      |
@@ -1279,12 +1358,9 @@ would be considered Tinkering.
 | 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
 | 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
 
-# <span id=languages> Languages </span>
 
-Common, Elvish, Dwarvish, Draconic, Gnomish, Infernal, Halfling, Goblin,
-Orcish, Avian, and Undercommon / Nomad
 
-Law (Spellcasting) and Chaos (Spellcasting)
+# <span id=general-gameplay> General Gameplay </span>
 
 # <span id=alignment> Alignment </span> 
 
@@ -1303,31 +1379,437 @@ contrast with conventional Mage lists which is Chaos Magic. Magic Users
 are either [<u>chaos mages</u>](#chaos-mage) or [<u>Law
 Mages.</u>](#law-mage)
 
-# <span id=general-gameplay> General Gameplay </span>
+# <span id=currency> Currency </span>
 
-## Experience Points
+Silver is the standard trading currency in the world. There are exceptions of course however. Some nobles may prefer to keep gold on themselves, whereas silver and copper is most common for normal townsfolk. 
 
-XP is earned through the acquisition of coinage and encounters. For each Silver Piece (SP) safely collected, players will earn 1 XP. All experience is shared between the party.
+- 1 Platinum (pp) = 5 Gold (gp)
+
+- 1 Gold (gp) = 2 Electrum (ep) = 10 Silver (sp) = 50 Copper (cp)
+
+- 1 Electrum (ep) = 5 Silver (sp)
+
+- 1 Silver (sp) = 5 Copper (cp)
+
+# <span id=downtime> Downtime </span>
+
+Downtime activity is an important part of the game. Some parts like [<u>training</u>](#training) which are necessary for advancement, others to research spells or even carouse. 
+
+## <span id=carousing> Carousing </span>
+
+Characters can trade in their newfound currency to gain experience. 
+
+**Roll 1d8 and multiply it by 100**, that is the amount of silver pieces spent during the week. If the PC lacks the funds they only gain 1/2 the experience.
+The ability check (roll under ability score) is then made by rolling 2d20 and picking the higher score amongst them.
+
+The PC can choose one of the following:
+
+- **Gourmandising**: Characters spend silver seeking new things to eat, consume, or experience. At the end of the week roll a **constitution** check.
+
+- **Study/Research:** Characters spend silver seeking ancient or forgotten lore. At the end of the week roll an **intelligence** check.
+
+- **Philanthropy:** Characters spend silver on a worthy group or establishment. At the end of the week roll a **wisdom** check.
+
+- **Drinking/Orgies:** Characters spend silver on vice and excess. At the end of the week roll a **charisma** check.
+
+On a failed save something interesting has happened. At the end of the week, unless contradicted by the entry, characters gain experience equal to silver spent.
+
+## <span id=healing> Healing </span>
+
+A character regain 1 hp for each day of rest during downtime, up to and including 7 days. Any combat, spell using, 
+or similar activity does not constitute rest, so no hit points can be regained. However a character with a constitution penalty 
+must deduct the 7 day penalty score from his or her days of healing, i.e., a -1 for a character means that 6 hit points healing per 7 days is maximum, and the first day of rest will restore no hit points.
+
+After the first week of continuous rest, characters with a bonus for high constitution add the bonus score to the number of hit points they recover due to resting, i.e., the second set of seven days of rest will restore 8 (7 + 1) hit points to a character with a bonus to constitution. Regardless of the number of hit points a character has, 30 days of continuous rest will restore any character to full strength.
+
+Characters who rest during adventuring do not regain hp. Successfully getting a good nights rest remove all levels of exhaustion.
+
+## Rodomontade
+If the entire party (i.e. everyone who was on the adventure) spends a week after their adventure bragging about their shenanigans, singing songs, telling stories, engaging in self-aggrandizement, and spreading the tale of their deeds of derring-do, they gain an additional 5% experience from the previous adventure. Certain classes with oration abilities
+(bards, jesters) may increase this bonus to +10%. No other activities may be performed during this time.
+
+## Rumors
+
+Spend 1d4×10 sp and make a reaction roll, modified by [<u>charisma</u>](#charisma). This takes 1 full day per attempt. 
+
+| **Result (2d6)**  | **Effect** |
+|------------|--------------------|
+| 2          | Failure, lose another 1d6×10 sp tracking a lead |
+| 3 - 5      | Spend another 1d4×10 sp to hear one rumor       | 
+| 6 - 8      | Hear one rumor                                  | 
+| 7 - 11     | Pay another 2d10 sp to hear an extra rumor      | 
+| 12+        | Hear two rumors                                 | 
+
+Rumors have to be designed around the local area and events.
+
+## Spell Research
+
+Described in [<u>spell research</u>](#spell-research).
 
 ## <span id=training> Training </span>
 
 Training reflects the time and effort spent mastering new skills, techniques, or spells.
 When a player character or retainer gains enough experience points to level up, that character needs to train to gain the benefits of the level. 
-Coinage and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions. 
+Coinage and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions.
 
 **Silver cost per day = 2% of total class XP.**
 
 *Multiclassed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 SP for the 2nd level Fighter level (2000 xp).*
 
-### Training Time
+**Roll 3d6 to determine the number of days it takes to train and gain a level.**
 
-Roll 3d6 to determine the number of days it takes to train and gain a level.
+## Weapon Training
 
-## <span id=subclasses> Subclasses </span>
+Characters may spend time in a location with the appropriate facilities and teachers training their skills or proficiency.
 
-Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), 
-which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
-The only restriction this has on character creation is that you cannot [<u>multiclass</u>](#multiclassing) subclasses with each other, or combine a subclass with a main class. 
+Gaining basic proficiency in a weapon costs 1,000 silver pieces and takes 1 week, allowing them to use the weapon without penalty.
+
+## Experience Points
+
+XP is earned through the acquisition of coinage and encounters. For each Silver Piece (SP) safely collected, players will earn 1 XP. All experience is shared between the party.
+
+# <span id=encumbrance> Encumbrance</span>
+
+Characters have a total number of slots (or unique items carried) equal
+to their Strength Score. Each item carried takes up one slot unless
+noted otherwise. Some items such as torches, bandages, or daggers are
+stackable. Meaning that multiple of the same type can be carried (up to
+10). Mundane items that are small enough to fit in your hand do not
+require a slot. On the other hand, items that require two hands take up
+two slots. Coins are treated as mundane until a hundred of any type are
+carried. After which they take up one slot per a hundred coins. Mundane
+clothing does not count towards encumbrance.
+
+Player characters can carry items such as backpacks, sacks and belts
+which can function as containers for other smaller items. These items
+and their contents should be labeled accordingly in case the character
+loses the container. Generally, all containers that are in use and worn
+etc, does not count towards the total encumbrance.
+
+Three slots should be labled as the “quick draw” slots. Items stored in
+these can be taken out during combat without the use of an action. Any
+other item requires an action to be taken out from the inventory. The
+exception would be stackable items, multiple items of the same type such
+as potions cannot be automatically replaced after they've been used in
+the quick draw slots. But mundane items can be replaced, like rocks or
+coin inside of a pouch.
+
+# <span id=movement> Movement</span>
+
+| **Armor**                     | **Base Movement**  |  **Exploration Speed** | **Encounter Speed** |
+|-------------------------------|--------------------|------------------------|---------------------|
+| Light Armor / Unarmored       | 12                 | 240'                   | 120'                |
+| Medium Armor                  | 9                  | 180'                   | 90'                 |
+| Heavy Armor                   | 6                  | 120'                   | 60'                 |
+
+## Indoor, Underground & City Movement
+
+**Exploring the unknown:** When exploring unknown areas of a dungeon, characters can move their base movement rate in feet per turn. This very slow rate of movement accounts for PCs exploring in a dark, unknown environment, moving carefully and stealthily, and mapping their progress. 
+
+**In familiar areas:** When PCs are moving through dungeon areas with which they are familiar, the referee may allow them to move at a faster rate. For example, the referee might allow PCs to move at three times their base movement rate per turn, when moving through familiar areas. 
+
+## Outdoor Movement
+
+|**Description** | **Speed** |
+|----------------|-----------|
+| Hiking         | Base movement rate in miles/day No forced march checks required | Base movement rate in miles/day. No checks required |
+| Forced March   | Double base movement rate in miles/day. Forced march checks required after traveling (roll under constitution), characters that fail this check gain one level of exhaustion. Exhausted characters cannot force march. |
+
+## Foraging
+
+Characters journeying through the wilderness have the option to forage
+or hunt for food, either to supplement their existing supplies or stave
+off hunger. Food foraging can be done even while traveling.
+
+[<u>Specialists</u>](#specialist) are the only class able to improve the
+chances of foraging. Refer to the [<u>specialist skills</u>](#skills)
+and use that chance for each character's roll. The Specialist is
+regarded as the “scouting leader” when foraging. A successful day of
+foraging provides a day's worth of rations. The foraged food will likely
+be a combination of nuts, berries, and possibly small game.
+
+If characters wish to hunt, they must dedicate a whole day to the task,
+during which they can't travel. Again, use the character with the
+highest foraging [<u>skill</u>](#skills). If successful, the DM will
+roll an additional encounter from the Animal Subtable found in the
+Wilderness Wandering Monster Tables. This encounter is separate from any
+regular encounter rolls for the day. It's important to note that hunting
+cannot occur during days allocated for resting.
+
+# <span id=languages> Languages </span>
+
+## Common Langauges
+
+Pick or roll on the table below.
+
+| **Result (1d10)** | **Result** | 
+|------------|--------------------------------|
+| 1          | Draenerian                     | 
+| 2          | Elvish                         | 
+| 3          | Dwarvish                       | 
+| 4          | Draconic                       | 
+| 5          | Gnomish                        | 
+| 6          | Solarian                       | 
+| 7          | Halfling                       |
+| 8          | Orcish                         |
+| 9          | Avian                          |
+| 10         | Nomad                          |
+
+# <span id=psionics> Psionics </span>
+
+Every character with a high enough Intelligence and or Charisma gets to roll to
+see if they possess Intelligence powers known as psionics. The table columns are
+cumulative. A character with a score of 18 in both abilities would have
+a 12% chance of being psionic. Any number of powers available can be
+used in combination each day.
+
+Consult the following table:
+
+| **Ability Score** | **% for Intelligence** | **% for Charisma** | **Amount of Powers** |
+|-------------------|----------------|--------------------|----------------------|
+| 15                | 1.5%           | 1.5%               | 1d3                  |
+| 16                | 3%             | 3%                 | 1d4                  |
+| 17                | 4.5%           | 4.5%               | 1d6                  |
+| 18                | 6%             | 6%                 | 1d8                  |
+
+| **Level** | **Uses/day** |
+|-----------|--------------|
+| 1st - 2nd | 1            |
+| 3rd - 4th | 2            |
+| 5th - 6th | 3            |
+| 7th - 8th | 4            |
+| 9th +     | 5            |
+
+From the table below, roll a 1d12 a number of times equal to the
+character's “Amount of Powers” as seen earlier. Reroll any duplicate
+numbers.
+
+| **Dice Score** | **Result (1d12)** |
+|----------------|-------------------|
+| Army of One    | 1                 |
+| Clairaudience  | 2                 |
+| Clairvoyance   | 3                 |
+| ESP            | 4                 |
+| Mental Barrier | 5                 |
+| Mental Blast   | 6                 |
+| Mind Control   | 7                 |
+| Precognition   | 8                 |
+| Sleep          | 9                 |
+| Suspend Life   | 10                |
+| Telepathy      | 11                |
+| Telekinesis    | 12                |
+
+## Psionic Powers
+
+### Army of One
+
+**Range: Self**
+
+**Duration: 1 round**
+
+The user becomes a peerless warrior, able to move in battle with inhuman
+reflexes in order to attack enemies within immediate melee range. The
+user is able to make one melee attack for every opponent already
+engaging them. Each attack must be against a different opponent, and the
+extra attacks are not gained if the user must move to engage a foe.
+
+### Clairaudience
+
+**Range: 60'**
+
+**Duration: 2 hours**
+
+The user can hear through solid obstacles. A 2' thickness of stone
+blocks the effect, as does the thinnest layer of lead.
+
+### Clairvoyance
+
+**Range: 60'**
+
+**Duration: 2 hours.**
+
+The user can see through solid obstacles. A 2' thickness of stone blocks
+the effect, as does the thinnest layer of lead.
+
+### ESP
+
+**Range: 60'**
+
+**Duration: 2 hours.**
+
+The user can detect the thoughts of other beings. A 2' thickness of
+stone blocks the effect, as does the thinnest layer of lead.
+
+### Mental Barrier
+
+**Range: 60'**
+
+**Duration: 1 round**
+
+When activated, any attack against a creature with this power recieve a
+-5 penalty to their attack roll for the duration.
+
+### Mental Blast
+
+**Range: 60'**
+
+**Duration: 1 round**
+
+This attack of pure mental energy causes 3d8 damage on a target.
+Intelligent creatures can save vs. magic to avoid the damage. Other
+creatures possessing psionic powers gain a +5 on the save.
+
+### Mind Control
+
+**Range: 120'**
+
+**Duration: Special**
+
+The unfortunate victim of this power falls under the user's influence.
+This psionic power can work on any intelligent creature for as long as
+the user intensely concentrates (no fighting or even walking). A saving
+throw vs magic negates the effect. Animals are immune, as are the Old
+Ones.
+
+### Precognition
+
+**Range: Self**
+
+**Duration: 1 round**
+
+This allows the user to tell what will happen to only themselves if they
+were to do something. No more than 1 minute into the future can be seen.
+
+### Sleep
+
+**Range: 60'**
+
+**Duration: 1d4 turns**
+
+Affects up to 2d4 Hit Dice of creatures or a single target within 60 feet to sleep. 
+
+- **Single Target:** A single creature with up to 4+3 Hit Dice
+
+- **Multiple Targets:** A total of up to 2d4 Hit Dice worth of creatures of 4 Hit Dice or lower within a 20'x20' square. 
+
+The targets are unconscious for 1d4 turns unless awoken. 
+
+Some beings such as undead are immune to this effect as they would be with magical sleep.
+
+### Suspend Life
+
+**Range: Self**
+
+**Duration: Special**
+
+A being with this power may place themselves into a trance that nears
+suspended animation. They feel the passage of one day for every 10 years
+that actually pass. Though on a slower schedule, the being grows hungry
+after a “day” without food (though 10 years pass in actuality) and
+begins to suffer the effects of thirst and starvation as appropriate. It
+takes four rounds to draw oneself out of this trance.
+
+### Telekinesis
+
+**Range: 120'**
+
+**Duration: 1 hour**
+
+The user can move objects using mental power alone. The amount of weight
+they can lift and move is 20 pounds per level.
+
+### Telepathy
+
+**Range: 120'**
+
+**Duration: 1 turn**
+
+Direct mind-to-mind communication with intelligent beings, transcending
+language. Telepathic contact with an Old One is foolish, and the Referee
+will most likely require a saving throw to avoid madness and/or horror.
+
+# <span id=retainers> Retainers </span>
+
+Followers of any kind are separated in two categories, Henchmen and
+Hirelings.
+
+## Henchmen
+
+Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
+
+Recruiting a henchmen requires the PC to be at least one level above the henchmen. To recruit a level 1 henchmen means that the PC needs to be at least level 2. However, first level henchmen can recruit level 0 henchmen, detailed below. If the henchmen becomes one level higher than the PC, they might demand a better share of treasure, or even leave.
+
+Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the XP as the PC receives at the end of the session.
+
+## Hiring Henchmen
+
+| **Method**                   | **Cost**   |
+|------------------------------|------------|
+| Hiring a crier               | 10 SP      |
+| Posting notices              | 50 SP      |
+| Hiring agents                | 300 SP     |
+| Frequenting inns and taverns | 10 SP (repeatable up to 5 times)|
+
+## Level 0 Henchmen
+
+Level 0 henchmen can be recruited at first level. Below are rules for creation:
+
+- Roll [<u>age</u>](#age).
+- Roll [<u>ability scores</u>](#ability-scores) as usual, without switching place between attributes.
+- Roll 1d4 HP.
+- Roll general equipment and class equipment of your choice.
+- Begin at -500 XP.
+- Roll [<u>background</u>](#backgrounds).
+- Roll [<u>psionics</u>](#psionics).
+- Choose 2 weapon proficiencies. Any armor permissable.
+- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
+- Choose one category type from special abilities / "boons and banes".
+
+When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. 
+
+## Hirelings
+
+Hirelings are specialized NPCs that provide services for the party.
+Anything from laborers to torch bearers fit in this category. Hirelings
+can be fighters as well, such as mercenaries or soldiers, but they never
+gain XP or levels. They expect a salary as any worker would, which
+obviously depends on what their profession is. Which in the case of
+mercenaries could be a flat cost for a trip into a dungeon, or if
+traveling for longer might be a day-to-day salary. This completely
+depends on the situation of the job. Hirelings given a work opportunity
+in advance do not require rations or similar if they get extra payment.
+
+# <span id=time> Time </span>
+
+## Travel Time
+
+Distance traveled per day is based on base movement rates, modified by
+terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
+or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
+rougher terrain)
+
+Forced marches at higher speeds are possible but require a [<u>
+constitution check</u>](#strength) to avoid exhaustion.
+
+## Dungeon Time
+
+Delving into dungeons is measured in turns, equal to 10 minutes of
+in-game time. Most actions like searching, spell durations, and ambushes
+happen in turn increments.
+
+Light sources like torches and lanterns burn for a specific number of
+turns before being consumed. Spells are timed in turns. Events,
+wandering monsters, and resting also transpire in turn units. Important
+decisions are also considered turn by turn. For example, lockpicking a
+door or checking for traps. Some other actions like searching a room can
+both be a simple noted action or described in detail by players, if
+described then it won't cost a turn most of the time.
+
+## Combat Time
+
+Combat occurs in rounds, with each round lasting 1 minute of in-game
+time. Turn structure defines the sequence of actions and events during a
+round.
 
 # <span id=spellcasting> Spellcasting </span>
 
@@ -1590,7 +2072,7 @@ If a character is not proficient when using a weapon, a penalty modifier is appl
 
 *Includes Inquisitors
 
-# <span id=injury-&-death> Injury and Death </span>
+## <span id=injury-&-death> Injury and Death </span>
 
 When a character is hit, the amount of damage is deducted from hit points (HP). When the total hit points reach 0, the character is unconscious, and if their HP are brought down to -10 or lower, the character dies. 
 
@@ -1602,436 +2084,14 @@ Sometimes when badly struck down, characters are affected with grievous wounds. 
 
 Bleeding and grievous wounds are separate from one another and each require a separate intelligence check to remove. In the case of multiple grievous wounds, each successful check only removes one. Healing spells such as Cure Light Wounds can be used to stop bleeding in place of a bandage without regaining hit points but still require the intelligence check. 
 
-## <span id=healing> Healing </span>
-
-A character regain 1 hp for each day of rest during downtime, up to and including 7 days. Any combat, spell using, 
-or similar activity does not constitute rest, so no hit points can be regained. However a character with a constitution penalty 
-must deduct the 7 day penalty score from his or her days of healing, i.e., a -1 for a character means that 6 hit points healing per 7 days is maximum, and the first day of rest will restore no hit points.
-
-After the first week of continuous rest, characters with a bonus for high constitution add the bonus score to the number of hit points they recover due to resting, i.e., the second set of seven days of rest will restore 8 (7 + 1) hit points to a character with a bonus to constitution. Regardless of the number of hit points a character has, 30 days of continuous rest will restore any character to full strength.
-
-Characters who rest during adventuring do not regain hp. Successfully getting a good nights rest remove all levels of exhaustion however.
-
-# <span id=creature-size> Creature Size </span>
+## <span id=creature-size> Creature Size </span>
 
 Medium sized creatures can use Large (L) weapons with both hands; small
 (S) or Medium (M) weapons with one hand. Smaller creatures like goblins
 can't use large weapons. They must wield medium weapons with both hands.
 
-# <span id=time> Time </span>
-
-
-## Travel Time
-
-Distance traveled per day is based on base movement rates, modified by
-terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
-or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
-rougher terrain)
-
-Forced marches at higher speeds are possible but require a [<u>
-constitution check</u>](#strength) to avoid exhaustion.
-
-## Dungeon Time
-
-Delving into dungeons is measured in turns, equal to 10 minutes of
-in-game time. Most actions like searching, spell durations, and ambushes
-happen in turn increments.
-
-Light sources like torches and lanterns burn for a specific number of
-turns before being consumed. Spells are timed in turns. Events,
-wandering monsters, and resting also transpire in turn units. Important
-decisions are also considered turn by turn. For example, lockpicking a
-door or checking for traps. Some other actions like searching a room can
-both be a simple noted action or described in detail by players, if
-described then it won't cost a turn most of the time.
-
-## Combat Time
-
-Combat occurs in rounds, with each round lasting 1 minute of in-game
-time. Turn structure defines the sequence of actions and events during a
-round.
-
 Spell casting times are measured in segments, and spell effects often last
 a certain number of rounds.
-
-# <span id=currency> Currency </span>
-
-Silver is the standard trading currency in the world. There are exceptions of course however. Some nobles may prefer to keep gold on themselves, whereas silver and copper is most common for normal townsfolk. 
-
-- 1 Platinum (pp) = 5 Gold (gp)
-
-- 1 Gold (gp) = 2 Electrum (ep) = 10 Silver (sp) = 50 Copper (cp)
-
-- 1 Electrum (ep) = 5 Silver (sp)
-
-- 1 Silver (sp) = 5 Copper (cp)
-
-# <span id=retainers> Retainers </span>
-
-Followers of any kind are separated in two categories, Henchmen and
-Hirelings.
-
-## Henchmen
-
-Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
-
-Recruiting a henchmen requires the PC to be at least one level above the henchmen. To recruit a level 1 henchmen means that the PC needs to be at least level 2. However, first level henchmen can recruit level 0 henchmen, detailed below. If the henchmen becomes one level higher than the PC, they might demand a better share of treasure, or even leave.
-
-Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the XP as the PC receives at the end of the session.
-
-## Hiring Henchmen
-
-| **Method**                   | **Cost**   |
-|------------------------------|------------|
-| Hiring a crier               | 10 SP      |
-| Posting notices              | 50 SP      |
-| Hiring agents                | 300 SP     |
-| Frequenting inns and taverns | 10 SP (repeatable up to 5 times)|
-
-## Level 0 Henchmen
-
-Level 0 henchmen can be recruited at first level. Below are rules for creation:
-
-- Roll age.
-- Roll attribute scores 3d6 down the line, without switching place between attributes.
-- Roll 1d4 HP.
-- Roll general equipment and class equipment of your choice.
-- Begin at -500 XP.
-- Roll background.
-- Roll Psionics.
-- Choose 2 weapon proficiencies. Any armor permissable.
-- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
-- Choose one category type from special abilities / "boons and banes".
-
-When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. 
-
-## Hirelings
-
-Hirelings are specialized NPCs that provide services for the party.
-Anything from laborers to torch bearers fit in this category. Hirelings
-can be fighters as well, such as mercenaries or soldiers, but they never
-gain XP or levels. They expect a salary as any worker would, which
-obviously depends on what their profession is. Which in the case of
-mercenaries could be a flat cost for a trip into a dungeon, or if
-traveling for longer might be a day-to-day salary. This completely
-depends on the situation of the job. Hirelings given a work opportunity
-in advance do not require rations or similar if they get extra payment.
-
-# <span id=encumbrance-&-movement> Encumbrance & Movement </span>
-
-Characters have a total number of slots (or unique items carried) equal
-to their Strength Score. Each item carried takes up one slot unless
-noted otherwise. Some items such as torches, bandages, or daggers are
-stackable. Meaning that multiple of the same type can be carried (up to
-10). Mundane items that are small enough to fit in your hand do not
-require a slot. On the other hand, items that require two hands take up
-two slots. Coins are treated as mundane until a hundred of any type are
-carried. After which they take up one slot per a hundred coins. Mundane
-clothing does not count towards encumbrance.
-
-Player characters can carry items such as backpacks, sacks and belts
-which can function as containers for other smaller items. These items
-and their contents should be labeled accordingly in case the character
-loses the container. Generally, all containers that are in use and worn
-etc, does not count towards the total encumbrance.
-
-Three slots should be labled as the “quick draw” slots. Items stored in
-these can be taken out during combat without the use of an action. Any
-other item requires an action to be taken out from the inventory. The
-exception would be stackable items, multiple items of the same type such
-as potions cannot be automatically replaced after they've been used in
-the quick draw slots. But mundane items can be replaced, like rocks or
-coin inside of a pouch.
-
-# Movement Speed
-
-| **Armor**                     | **Base Movement**  |  **Exploration Speed** | **Encounter Speed** |
-|-------------------------------|--------------------|------------------------|---------------------|
-| Light Armor / Unarmored       | 12                 | 240'                   | 120'                |
-| Medium Armor                  | 9                  | 180'                   | 90'                 |
-| Heavy Armor                   | 6                  | 120'                   | 60'                 |
-
-## Indoor, Underground & City Movement
-
-**Exploring the unknown:** When exploring unknown areas of a dungeon, characters can move their base movement rate in feet per turn. This very slow rate of movement accounts for PCs exploring in a dark, unknown environment, moving carefully and stealthily, and mapping their progress. 
-
-**In familiar areas:** When PCs are moving through dungeon areas with which they are familiar, the referee may allow them to move at a faster rate. For example, the referee might allow PCs to move at three times their base movement rate per turn, when moving through familiar areas. 
-
-## Outdoor Movement
-
-|**Description** | **Speed** |
-|----------------|-----------|
-| Hiking         | Base movement rate in miles/day No forced march checks required | Base movement rate in miles/day. No checks required |
-| Forced March   | Double base movement rate in miles/day. Forced march checks required after traveling (roll under constitution), characters that fail this check gain one level of exhaustion. Exhausted characters cannot force march. |
-
-## Foraging
-
-Characters journeying through the wilderness have the option to forage
-or hunt for food, either to supplement their existing supplies or stave
-off hunger. Food foraging can be done even while traveling.
-
-[<u>Specialists</u>](#specialist) are the only class able to improve the
-chances of foraging. Refer to the [<u>specialist skills</u>](#skills)
-and use that chance for each character's roll. The Specialist is
-regarded as the “scouting leader” when foraging. A successful day of
-foraging provides a day's worth of rations. The foraged food will likely
-be a combination of nuts, berries, and possibly small game.
-
-If characters wish to hunt, they must dedicate a whole day to the task,
-during which they can't travel. Again, use the character with the
-highest foraging [<u>skill</u>](#skills). If successful, the DM will
-roll an additional encounter from the Animal Subtable found in the
-Wilderness Wandering Monster Tables. This encounter is separate from any
-regular encounter rolls for the day. It's important to note that hunting
-cannot occur during days allocated for resting.
-
-# <span id=multiclassing> Multiclassing </span>
-
-## Choosing Multiple Classes
-
-A character may be of up to three classes,
-which are selected at character creation.
-
-## Level and Experience Points
-
-The character has a separately tracked
-count of experience points per class.
-When earning XP, the total earned is split
-evenly between the per-class XP counts.
-
-### Prime Requisite XP Adjustments
-The character’s prime requisite XP
-adjustment is calculated separately for each class, 
-based on the prime requisite(s) of the class. The
-per-class adjustment only applies to XP
-added to that class’ XP count.
-
-### Leveling
-
-The character has a separately tracked
-experience level per class. When the
-character has gained enough XP in one of
-their classes, that class increases in level.
-
-A multiclassed character is limited to a maximum amount of levels. 
-A character with two classes are limited to a maximum level of 11 in each and a character with three 
-classes are limited to 9.
-
-## Hit Points
-When determining hit points at character
-creation or upon gaining a level, any hit
-points gained are divided by the number
-of classes. Fractions are tracked and may
-add up to a whole number later on.
-
-For example, a fighter/thief character
-gains a thief level and the player rolls 1d4
-for hit points. The result is a 3, meaning
-that the character gains 1½ hit points.
-Upon gaining a fighter level, the player
-rolls 1d8 for hit points. The result is a 5,
-meaning that the character gains 2½ hit
-points. The half hit points gained for the
-thief and fighter levels add up to a whole
-hit point.
-
-## Saving Throws and To-Hit Bonus
-The character uses the best saving throw
-value in each category and the best
-hit bonus and damage bonus from all of their classes.
-
-## Class Abilities
-
-### Allowed Armor
-The character may use the best armor
-options allowed to any of their classes.
-
-### Allowed Weapons
-The character may use the best weapon
-options allowed to any of their classes.
-
-### Spell Casting
-The character may use the magical abilities of each class without restriction.
-
-### Stealth Skills
-
-Class abilities such as Stealth or Sleight of Hand may only be used when
-wearing armor that is allowed to the class that grants the ability.
-
-# <span id=psionics> Psionics </span>
-
-Every character with a high enough Intelligence and or Charisma gets to roll to
-see if they possess Intelligence powers known as psionics. The table columns are
-cumulative. A character with a score of 18 in both abilities would have
-a 12% chance of being psionic. Any number of powers available can be
-used in combination each day.
-
-Consult the following table:
-
-| **Ability Score** | **% for Intelligence** | **% for Charisma** | **Amount of Powers** |
-|-------------------|----------------|--------------------|----------------------|
-| 15                | 1.5%           | 1.5%               | 1d3                  |
-| 16                | 3%             | 3%                 | 1d4                  |
-| 17                | 4.5%           | 4.5%               | 1d6                  |
-| 18                | 6%             | 6%                 | 1d8                  |
-
-| **Level** | **Uses/day** |
-|-----------|--------------|
-| 1st - 2nd | 1            |
-| 3rd - 4th | 2            |
-| 5th - 6th | 3            |
-| 7th - 8th | 4            |
-| 9th +     | 5            |
-
-From the table below, roll a 1d12 a number of times equal to the
-character's “Amount of Powers” as seen earlier. Reroll any duplicate
-numbers.
-
-| **Dice Score** | **Result (1d12)** |
-|----------------|-------------------|
-| Army of One    | 1                 |
-| Clairaudience  | 2                 |
-| Clairvoyance   | 3                 |
-| ESP            | 4                 |
-| Mental Barrier | 5                 |
-| Mental Blast   | 6                 |
-| Mind Control   | 7                 |
-| Precognition   | 8                 |
-| Sleep          | 9                 |
-| Suspend Life   | 10                |
-| Telepathy      | 11                |
-| Telekinesis    | 12                |
-
-## Psionic Powers
-
-### Army of One
-
-**Range: Self**
-
-**Duration: 1 round**
-
-The user becomes a peerless warrior, able to move in battle with inhuman
-reflexes in order to attack enemies within immediate melee range. The
-user is able to make one melee attack for every opponent already
-engaging them. Each attack must be against a different opponent, and the
-extra attacks are not gained if the user must move to engage a foe.
-
-### Clairaudience
-
-**Range: 60'**
-
-**Duration: 2 hours**
-
-The user can hear through solid obstacles. A 2' thickness of stone
-blocks the effect, as does the thinnest layer of lead.
-
-### Clairvoyance
-
-**Range: 60'**
-
-**Duration: 2 hours.**
-
-The user can see through solid obstacles. A 2' thickness of stone blocks
-the effect, as does the thinnest layer of lead.
-
-### ESP
-
-**Range: 60'**
-
-**Duration: 2 hours.**
-
-The user can detect the thoughts of other beings. A 2' thickness of
-stone blocks the effect, as does the thinnest layer of lead.
-
-### Mental Barrier
-
-**Range: 60'**
-
-**Duration: 1 round**
-
-When activated, any attack against a creature with this power recieve a
--5 penalty to their attack roll for the duration.
-
-### Mental Blast
-
-**Range: 60'**
-
-**Duration: 1 round**
-
-This attack of pure mental energy causes 3d8 damage on a target.
-Intelligent creatures can save vs. magic to avoid the damage. Other
-creatures possessing psionic powers gain a +5 on the save.
-
-### Mind Control
-
-**Range: 120'**
-
-**Duration: Special**
-
-The unfortunate victim of this power falls under the user's influence.
-This psionic power can work on any intelligent creature for as long as
-the user intensely concentrates (no fighting or even walking). A saving
-throw vs magic negates the effect. Animals are immune, as are the Old
-Ones.
-
-### Precognition
-
-**Range: Self**
-
-**Duration: 1 round**
-
-This allows the user to tell what will happen to only themselves if they
-were to do something. No more than 1 minute into the future can be seen.
-
-### Sleep
-
-**Range: 60'**
-
-**Duration: 1d4 turns**
-
-Affects up to 2d4 Hit Dice of creatures or a single target within 60 feet to sleep. 
-
-- **Single Target:** A single creature with up to 4+3 Hit Dice
-
-- **Multiple Targets:** A total of up to 2d4 Hit Dice worth of creatures of 4 Hit Dice or lower within a 20'x20' square. 
-
-The targets are unconscious for 1d4 turns unless awoken. 
-
-Some beings such as undead are immune to this effect as they would be with magical sleep.
-
-### Suspend Life
-
-**Range: Self**
-
-**Duration: Special**
-
-A being with this power may place themselves into a trance that nears
-suspended animation. They feel the passage of one day for every 10 years
-that actually pass. Though on a slower schedule, the being grows hungry
-after a “day” without food (though 10 years pass in actuality) and
-begins to suffer the effects of thirst and starvation as appropriate. It
-takes four rounds to draw oneself out of this trance.
-
-### Telekinesis
-
-**Range: 120'**
-
-**Duration: 1 hour**
-
-The user can move objects using mental power alone. The amount of weight
-they can lift and move is 20 pounds per level.
-
-### Telepathy
-
-**Range: 120'**
-
-**Duration: 1 turn**
-
-Direct mind-to-mind communication with intelligent beings, transcending
-language. Telepathic contact with an Old One is foolish, and the Referee
-will most likely require a saving throw to avoid madness and/or horror.
-
-
 
 # <span id=items> Items </span>
 
@@ -2232,16 +2292,11 @@ Roll four times on the table below.
 
 # <span id=sources> Sources </span>
 
-[<u>Swords & Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
-
-Dungeons & Dragons (AD&D)
-
-[<u>Tap Untap Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
-
-Carcosa and Specialist, [<u>Lamentations of the Flame Princess</u>](https://www.lotfp.com/RPG/)
-
-Insanity/Madness, [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
-
-OSRIC
-
-OSE
+### [<u>Swords & Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
+### [<u>Advanced Dungeons & Dragons (AD&D)</u>](https://www.drivethrurpg.com/en/product/17004/dungeon-master-s-guide-1e?src=hottest_filtered)
+### [<u>Tap Untap Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
+### [<u>Lamentations of the Flame Princess</u>](https://www.lotfp.com/RPG/)
+### [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
+### [<u>OSRIC</u>](https://osricrpg.com/index.php)
+### [<u>Old School Essentials</u>](https://necroticgnome.com/)
+### [<u>On Downtime and Demesnes</u>](https://agonarchartist.itch.io/on-downtime-and-demesnes)

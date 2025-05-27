@@ -66,6 +66,23 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+    
+    { 
+
+        title: 'Carousing & Downtime',
+        content: `Writing down some more downtime activities such as training for weapon proficiency, carousing, rodomontade.
+            
+        
+        <b> Changes: </b>
+
+        - Added and sorted downtime activity.
+        - Changed henchmen to roll 4d6 dtl (standard stat rolling) instead of 3d6.
+        - Better sorted sidebar categories.
+        - You can now roll for languages.
+
+        `,
+        date: "2025-05-27 22:13 CET" 
+    },
 
     { 
 
@@ -86,7 +103,7 @@ function loadUpdatePost()
         - Removed experience bonuses from intelligence and charisma
 
         `,
-        date: "2025-05-23 11:32 CET" 
+        date: "2025-05-27 11:32 CET" 
     },
 
     { 
