@@ -69,6 +69,28 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Strength, Dex, Con AD&D ability scores',
+        content: `To standardize the usage AD&D I've opted to change the physical ability scores to align similarly with the books. Characters who roll average stats will now be more average, and the more exceptional characters will be stronger. The game was designed with 4d6 drop lowest in mind, whereas S&W/OD&D uses 3d6 down the line. The math is different but it won't change the game drastically. Some Conans might definitely show up though.
+            
+        
+        <b> Changes: </b>
+
+        - Copied the AD&D ability scores (STR, DEX, CON) from players handbook.
+        - Exceptional strength added to strength table.
+        - Dexterity bonuses can be gained by all classes.
+        - Higher end of INT gives search bonus.
+        - Increased prime attribute experience bonus from 5% to 10%
+        - Fighter now has d10 HD instead of d8 as per the book.
+        - Changed inquisitor & ranger multiple atttacks to be later than fighter.
+        - Removed fighter parry.
+        - Removed experience bonuses from intelligence and charisma
+
+        `,
+        date: "2025-05-23 11:32 CET" 
+    },
+
+    { 
+
         title: 'Level 0 henchmen',
         content: `Adding level 0 henchmen, which can be recruited by first level PCs.
             

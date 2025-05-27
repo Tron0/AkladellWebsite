@@ -190,38 +190,65 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 
 ## Strength
 
-| **Score** | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
-|-----------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
-| 3 - 4     | -2                    | -1                    | 1 / 6                                          | 0%                                               | 50%       |
-| 5 - 6     | -1                    | +0                    | 1 / 6                                          | 0%                                               | 65%       |
-| 7 - 8     | +0                    | +0                    | 2 / 6                                          | 0%                                               | 75%       |
-| 9 - 12    | +0                    | +0                    | 2 / 6                                          | 4%                                               | 85%       |
-| 13 - 15   | +1                    | +0                    | 2 / 6                                          | 7%                                               | 90%       |
-| 16        | +1                    | +1                    | 3 / 6                                          | 10%                                              | 91%       |
-| 17        | +2                    | +2                    | 4 / 6                                          | 15%                                              | 92%       |
-| 18        | +2                    | +3                    | 5 / 6                                          | 25%                                              | 93%       |
+| **Score**  | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
+|------------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
+| 3          | -3                    | -1                    | 1 / 6                                          | 0%                                               | 30%       |
+| 4 - 5      | -2                    | -1                    | 1 / 6                                          | 0%                                               | 40%       |
+| 6 - 7      | -1                    | +0                    | 1 / 6                                          | 0%                                               | 50%       |
+| 8 - 9      | +0                    | +0                    | 2 / 6                                          | 1%                                               | 60%       |
+| 10 - 11    | +0                    | +0                    | 2 / 6                                          | 2%                                               | 70%       |
+| 12 - 13    | +0                    | +0                    | 2 / 6                                          | 4%                                               | 80%       |
+| 14 - 15    | +0                    | +0                    | 2 / 6                                          | 7%                                               | 90%       |
+| 16         | +0                    | +1                    | 3 / 6                                          | 10%                                              | 91%       |
+| 17         | +1                    | +1                    | 3 / 6                                          | 13%                                              | 92%       |
+| 18         | +1                    | +2                    | 3 / 6                                          | 16%                                              | 93%       |
+| 18 / 01 - 50 | +1                    | +3                    | 3 / 6                                          | 20%                                              | 94%       |
+| 18 / 51 - 75 | +2                    | +3                    | 4 / 6                                          | 25%                                              | 95%       |
+| 18 / 76 - 90 | +2                    | +4                    | 4 / 6                                          | 30%                                              | 96%       |
+| 18 / 91 - 99 | +2                    | +5                    | 4 / 6                                          | 35%                                              | 97%       |
+| 18 / 00      | +3                    | +6                    | 5 / 6                                          | 40%                                              | 98%       |
 
-\*Penalties still apply to all characters, but modifiers are only
-applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
+\*Penalties still apply to all characters, EXCEPTIONAL STRENGTH modifiers only applied to 
+[<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
 
 ## Dexterity
 
-| **Score** | **Ranged Weapon To-Hit Bonus/Penalty\*** | **Armor Class Modifier** | **Surprise Modifier** |
-|-----------|------------------------------------------|--------------------------|-----------------------|
-| 3 - 8     | -1                                       | -1                       | -1                    |
-| 9 - 12    | +0                                       | +0                       | +0                    |
-| 13 - 15   | +1                                       | +1                       | +1                    |
-
-\*Penalties still apply to all characters, but modifiers are only
-applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
+| **Score** | **Ranged Weapon To-Hit Bonus/Penalty\*** | **Surprise Modifier** | **Armor Class Modifier** |
+|-----------|------------------------------------------|-----------------------|--------------------------|
+| 3         | -3                                       | -3                    | -4                       |
+| 4         | -2                                       | -2                    | -3                       |
+| 5         | -1                                       | -1                    | -2                       |
+| 6         | +0                                       | +0                    | -1                       |
+| 7 - 14    | +0                                       | +0                    | +0                       |
+| 15        | +0                                       | +0                    | +1                       |
+| 16        | +1                                       | +1                    | +2                       |
+| 17        | +2                                       | +2                    | +3                       |
+| 18        | +3                                       | +3                    | +4                       |
 
 ## Constitution
 
 | **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
 |-----------|--------------------------------------|-------------------------|
-| 3 - 8     | -1                                   | 50%                     |
-| 9 - 12    | +0                                   | 75%                     |
-| 13 - 18   | +1                                   | 95%                     |
+| 3         | -2                                   | 40%                     |
+| 4         | -1                                   | 45%                     |
+| 5         | -1                                   | 50%                     |
+| 6         | -1                                   | 55%                     |
+| 7         | +0                                   | 60%                     |
+| 8         | +0                                   | 65%                     |
+| 9         | +0                                   | 70%                     |
+| 10        | +0                                   | 75%                     |
+| 11        | +0                                   | 80%                     |
+| 12        | +0                                   | 85%                     |
+| 13        | +0                                   | 90%                     |
+| 14        | +0                                   | 92%                     |
+| 15        | +1                                   | 94%                     |
+| 16        | +2                                   | 76%                     |
+| 17        | +2 (+3)*                             | 98%                     |
+| 18        | +2 (+4)*                             | 100%                    |
+
+\*Penalties still apply to all characters, but modifiers are only
+applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). 
+All other classes may be given a maximum hit point bonus adjustment for constitution +2.
 
 ## Intelligence
 
@@ -237,17 +264,14 @@ applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclass
 | 14        | Native + 1 additional    | Literate     | 1 / 6     | 65%                                  |
 | 15        | Native + 1 additional    | Literate     | 2 / 6     | 75%                                  |
 | 16        | Native + 2 additional    | Literate     | 2 / 6     | 75%                                  |
-| 17        | Native + 2 additional    | Literate     | 2 / 6     | 85%                                  |
-| 18        | Native + 3 additional    | Literate     | 2 / 6     | 95%                                  |
+| 17        | Native + 2 additional    | Literate     | 3 / 6     | 85%                                  |
+| 18        | Native + 3 additional    | Literate     | 4 / 6     | 95%                                  |
 
 \*For [<u>chaos mages</u>](#chaos-mage)
 
-Any character with a Intelligence score of 13 or more receives a bonus of 5%
-more XP.
-
 ## Wisdom
 
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus***          | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus*** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -270,18 +294,15 @@ more XP.
 
 ## Charisma
 
-| **Score** | **Maximum Number of Henchman** | **Retainer Loyalty** | **Reaction Modifier** |
+| **Score** | **Maximum Number of Henchman** | **Reaction Modifier / Loyalty Check** |
 |-----------|--------------------------------|----------------------|-----------------------|
-| 3 - 4     | 1                              | 4                    | -2
-| 5 - 6     | 1                              | 5                    | -1
-| 7 - 8     | 1                              | 6                    | -1
-| 9 - 12    | 2                              | 7                    | +0
-| 13 - 15   | 3                              | 8                    | +1
-| 16 - 17   | 4                              | 9                    | +1
-| 18        | 5                              | 10                   | +2
-
-Any character with a Charisma score of 13 or more receives a bonus of 5%
-more XP.
+| 3 - 4     | 1                              | -2
+| 5 - 6     | 1                              | -1
+| 7 - 8     | 1                              | -1
+| 9 - 12    | 2                              | +0
+| 13 - 15   | 3                              | +1
+| 16 - 17   | 4                              | +1
+| 18        | 5                              | +2
 
 # <span id=classes> Classes </span>
 
@@ -289,7 +310,7 @@ more XP.
 
 **Minimum Requirement:** 9+ Constitution.
 
-**Prime Attribute:** Constitution, 13+ (+5% experience bonus).
+**Prime Attribute:** 16+ Constitution (+10% experience bonus).
 
 **Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level).
 
@@ -337,7 +358,7 @@ on 1d6.
 places of the world and are always able to find food and water to
 sustain themselves when in the wilderness.
 
-**Multiple Attacks (5th):** At 5th level, a Barbarian may attack twice per round instead of once.
+**Multiple Attacks (7th):** At 7th level, a Barbarian may attack twice per round instead of once.
 
 ### Barbarian Advancement Table
 
@@ -368,7 +389,7 @@ sustain themselves when in the wilderness.
 
 **Minimum Requirement:** 9+ Intelligence.
 
-**Prime Attribute:** Intelligence, 13+ (+5% experience bonus).
+**Prime Attribute:** 16+ Intelligence (+10% experience bonus).
 
 **Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level).
 
@@ -485,9 +506,9 @@ be used as many times as the Mage would like.
 
 **Minimum Requirement:** 9+ Strength.
 
-**Prime Attribute:** Strength, 13+ (+5% experience bonus).
+**Prime Attribute:** 16+ Strength (+10% experience bonus).
 
-**Hit Dice:** 1d8/level (Gains 2 hp/level after 9th level).
+**Hit Dice:** 1d10/level (Gains 2 hp/level after 9th level).
 
 **Armor/Shield Permitted**: Any.
 
@@ -514,21 +535,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 **Hit & Damage Bonuses:** Fighters gain a hit and damage bonus as seen
 on the strength & dexterity ability score sections.
 
-**Parry:** Fighters with a Dexterity score of 14 or better can fight on
-the defensive, parrying enemy blows, as shown on the
-table below. The Fighter can parry enemy attacks in the direction they are facing
-without giving up the ability to attack themselves in the same round.
-Parrying is not effective against ranged weapons, but is effective
-against claws, bites and touch attacks.
-
-| **Dexterity Score** | **Penalty to Enemy Attacks** |
-|---------------------|------------------------------|
-| 14                  | -1                           |
-| 15                  | -2                           |
-| 16                  | -3                           |
-| 17                  | -4                           |
-| 18                  | -5                           |
-
 **Multiple Attacks (5th):** At 5th level, a Fighter may attack twice per round instead of once.
 
 ### Fighter Advancement Table
@@ -544,24 +550,24 @@ against claws, bites and touch attacks.
 | 7         | 64,000                       | 7                 | 9                 | 6                        | Champion              |
 | 8         | 120,000                      | 8                 | 8                 | 6                        | Superhero             |
 | 9         | 240,000                      | 9                 | 7                 | 7                        | Lord                  |
-| 10        | 360,000                      | 9+2               | 6                 | 7                        |                       |
-| 11        | 480,000                      | 9+4               | 5                 | 7                        |                       |
-| 12        | 600,000                      | 9+6               | 5                 | 8                        |                       |
-| 13        | 720,000                      | 9+8               | 5                 | 8                        |                       |
-| 14        | 840,000                      | 9+10              | 5                 | 8                        |                       |
-| 15        | 960,000                      | 9+12              | 5                 | 9                        |                       |
-| 16        | 1,080,000                    | 9+14              | 5                 | 9                        |                       |
-| 17        | 1,200,000                    | 9+16              | 5                 | 9                        |                       |
-| 18        | 1,320,000                    | 9+18              | 5                 | 10                       |                       |
-| 19        | 1,440,000                    | 9+20              | 5                 | 10                       |                       |
-| 20        | 1,560,000                    | 9+22              | 5                 | 10                       |                       |
+| 10        | 360,000                      | 9+3               | 6                 | 7                        |                       |
+| 11        | 480,000                      | 9+6               | 5                 | 7                        |                       |
+| 12        | 600,000                      | 9+9               | 5                 | 8                        |                       |
+| 13        | 720,000                      | 9+12              | 5                 | 8                        |                       |
+| 14        | 840,000                      | 9+15              | 5                 | 8                        |                       |
+| 15        | 960,000                      | 9+18              | 5                 | 9                        |                       |
+| 16        | 1,080,000                    | 9+21              | 5                 | 9                        |                       |
+| 17        | 1,200,000                    | 9+24              | 5                 | 9                        |                       |
+| 18        | 1,320,000                    | 9+27              | 5                 | 10                       |                       |
+| 19        | 1,440,000                    | 9+30              | 5                 | 10                       |                       |
+| 20        | 1,560,000                    | 9+33              | 5                 | 10                       |                       |
 
 ## <span id=inquisitor> Inquisitor </span>
 
 **Minimum Requirement:** 13+ Strength, +9 Constitution, +9 Intelligence, +13 Wisdom, +17
 Charisma.
 
-**Prime Attribute:** Strength, 16+ (+5% experience bonus).
+**Prime Attribute:** 16+ Strength, 16+ Wisdom (+10% experience bonus).
 
 **Hit Dice:** 1d10/level (Gains 3 hp/level after 9th level).
 
@@ -625,7 +631,7 @@ the same as does a [<u>law mage</u>](#law-mage) two levels lower—for
 example, at 3rd level they have the turning power of a 1st-level [<u>Law
 Mage</u>](#law-mage).
 
-**Multiple Attacks (5th):** At 5th level, an Inquisitor may attack twice per round instead of once.
+**Multiple Attacks (7th):** At 7th level, an Inquisitor may attack twice per round instead of once.
 
 **Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
 dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
@@ -649,18 +655,18 @@ Mage</u>](#law-mage-1) spell dispel evil).
 | 12        | 800,000                      | 9+9 hp             | 5                 | 8                        |                       |
 | 13        | 950,000                      | 9+12 hp            | 5                 | 8                        |                       |
 | 14        | 1,100,000                    | 9+15 hp            | 5                 | 8                        |                       |
-| 15        | 1,250,000                    | 9+15 hp            | 5                 | 9                        |                       |
-| 16        | 1,400,000                    | 9+15 hp            | 5                 | 9                        |                       |
-| 17        | 1,550,000                    | 9+15 hp            | 5                 | 9                        |                       |
-| 18        | 1,700,000                    | 9+15 hp            | 5                 | 10                       |                       |
-| 19        | 1,850,000                    | 9+15 hp            | 5                 | 10                       |                       |
-| 20        | 2,000,000                    | 9+15 hp            | 5                 | 10                       |                       |
+| 15        | 1,250,000                    | 9+18 hp            | 5                 | 9                        |                       |
+| 16        | 1,400,000                    | 9+21 hp            | 5                 | 9                        |                       |
+| 17        | 1,550,000                    | 9+24 hp            | 5                 | 9                        |                       |
+| 18        | 1,700,000                    | 9+27 hp            | 5                 | 10                       |                       |
+| 19        | 1,850,000                    | 9+30 hp            | 5                 | 10                       |                       |
+| 20        | 2,000,000                    | 9+33 hp            | 5                 | 10                       |                       |
 
 ## <span id=ranger> Ranger </span>
 
 **Minimum Requirement:** 13+ Strength, 14+ Constitution, 13+ Intelligence, 14+ Wisdom.
 
-**Prime Attribute:** Intelligence, 16+ (+5% experience bonus).
+**Prime Attribute:** 16+ Strength, 16+ Intelligence, 16+ Wisdom  (+10% experience bonus).
 
 **Hit Dice:** 2d8 at 1st level, 1d8/level thereafter (Gains 2 hp/level after 10th level).
 
@@ -770,13 +776,13 @@ Ranger Tracking Chance of Success:
 | 9         | 100% |
 | 10+       | 110% |
 
-**Multiple Attacks (5th):** At 5th level, a Ranger may attack twice per round instead of once.
+**Multiple Attacks (8th):** At 8th level, a Ranger may attack twice per round instead of once.
 
 ## <span id=illusionist> Illusionist </span>
 
 **Minimum Requirement:** 13+ Intelligence, 16+ Dexterity.
 
-**Prime Attribute:** Intelligence, 16+ (+5% experience bonus).
+**Prime Attribute:** 16+ Intelligence (+10% experience bonus).
 
 **Hit Dice:** 1d4/level (Gains 1 hp/level after 11th level).
 
@@ -897,7 +903,7 @@ be used as many times as the Mage would like.
 
 **Minimum Requirement:** 9+ Wisdom.
 
-**Prime Attribute:** Wisdom, 13+ (+5% experience bonus).
+**Prime Attribute:** 16+ Wisdom (+10% experience bonus).
 
 **Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level).
 
@@ -1027,7 +1033,7 @@ on the table, 2d4 creatures of the targeted type are turned and depart.
 
 **Minimum Requirement:** 12+ Wisdom, 15+ Charisma.
 
-**Prime Attribute:** Wisdom, 16+ (+5% experience bonus).
+**Prime Attribute:** 16+ Wisdom, 16+ Charisma. (+10% experience bonus).
 
 **Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level).
 
@@ -1148,7 +1154,7 @@ Druids who attain 12th level or above may build a stronghold integrated into a n
 
 **Minimum Requirement:** 9+ Dexterity.
 
-**Prime Attribute: Dexterity,** 13+ (+5% experience bonus).
+**Prime Attribute: Dexterity,** 16+ Dexterity (+10% experience bonus).
 
 **Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level).
 
@@ -1448,7 +1454,7 @@ They require research, experimentation, training, and perhaps even ingredients t
 ## Order of Combat
 
 1. Determine Surprise (d6)
-2. Declare Spells and Melee actions (Fighting Retreat, Charge, Parry etc)
+2. Declare Spells and Melee actions (Fighting Retreat, Charge, Magic Missiel etc)
 3. Determine Initiative (d6)
 4. Winning side acts:
   - Movement
@@ -1502,10 +1508,6 @@ Assuming that the charging character survives, he or she gains +2 “to hit” o
 Certain weapons can be “set” against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but the weapon will inflict double damage against a charging opponent. A charge is any attack that allows the attacker to move and attack, and thus includes leaping attacks that may be made by some monsters. 
 
 Weapons that may be set against a charge include spears, lances (when used dismounted), most pole arms, and tridents. 
-
-### Parrying
-
-A character who parries cannot move for the duration of the combat round. See [<u>Fighter Parry</u>](#fighter)
 
 ### <span id=leaving-melee> Leaving Melee </span>
 
@@ -1701,7 +1703,7 @@ Level 0 henchmen can be recruited at first level. Below are rules for creation:
 - Roll background.
 - Roll Psionics.
 - Choose 2 weapon proficiencies. Any armor permissable.
-- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, parrying, tracking etc.
+- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
 - Choose one category type from special abilities / "boons and banes".
 
 When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. 
