@@ -208,8 +208,7 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 18 / 91 - 99 | +2                    | +5                    | 4 / 6                                          | 35%                                              | 97%       |
 | 18 / 00      | +3                    | +6                    | 5 / 6                                          | 40%                                              | 98%       |
 
-\*Penalties still apply to all characters, EXCEPTIONAL STRENGTH modifiers only applied to 
-[<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
+\*EXCEPTIONAL STRENGTH modifiers only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
 
 ## Dexterity
 
