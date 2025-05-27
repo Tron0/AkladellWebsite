@@ -8,7 +8,7 @@
 
 - Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
 
-**(3) Determine ability scores**
+**(3) Determine [<u>ability scores</u>](#ability-scores)**
 
 - Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma.
 
@@ -245,9 +245,7 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 17        | +2 (+3)*                             | 98%                     |
 | 18        | +2 (+4)*                             | 100%                    |
 
-\*Penalties still apply to all characters, but modifiers are only
-applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). 
-All other classes may be given a maximum hit point bonus adjustment for constitution +2.
+\*Only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). All other classes may be given a maximum hit point bonus adjustment for constitution +2.
 
 ## Intelligence
 
@@ -270,7 +268,7 @@ All other classes may be given a maximum hit point bonus adjustment for constitu
 
 ## Wisdom
 
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus*** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|-------------------------------------------
 | 3 - 5     | -3              | -                        | 20%                         | 30%
 | 6         | -2              | -                        | 10%                         | 30%
@@ -289,7 +287,7 @@ All other classes may be given a maximum hit point bonus adjustment for constitu
 
 \*For [<u>law mages</u>](#law-mage)
 
-\*For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the DM when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
+\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the DM when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
 
 ## Charisma
 
