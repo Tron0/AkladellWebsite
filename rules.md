@@ -241,7 +241,7 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 13        | +0                                   | 90%                     |
 | 14        | +0                                   | 92%                     |
 | 15        | +1                                   | 94%                     |
-| 16        | +2                                   | 76%                     |
+| 16        | +2                                   | 96%                     |
 | 17        | +2 (+3)*                             | 98%                     |
 | 18        | +2 (+4)*                             | 100%                    |
 
