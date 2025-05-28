@@ -1395,6 +1395,21 @@ Silver is the standard trading currency in the world. There are exceptions of co
 
 Downtime activity is an important part of the game. Some parts like [<u>training</u>](#training) which are necessary for advancement, others to research spells or even carouse. 
 
+## <span id=upkeep> Upkeep </span>
+
+Engaging in any sort of downtime activity costs silver pieces. Otherwise it's assumed the character works to produce a salary for themselves.
+
+### Lifestyles
+
+The character is required to provide upkeep for those in their employ, as well as themselves. There are three levels of upkeep:
+meager, comfortable, and rich.
+
+ **Lifestyle** | **Cost** | **Effect** |
+|--------------|-------|---------|
+| Meager       | 1 sp/day  | Start with one level of exhaustion. Risk of disease. Hireling morale and henchman loyalty checks are at -1
+| Comfortable  | 2 sp/day  | No effects.
+| Rich         | 4 sp/day  | Hireling morale and henchman loyalty checks are at +1
+
 ## <span id=carousing> Carousing </span>
 
 Characters can trade in their newfound currency to gain experience. 
@@ -1429,9 +1444,12 @@ Characters who rest during adventuring do not regain hp. Successfully getting a 
 If characters spend seven days scouting a specific site, doing research, training for their next adventure, and/or any other preparatory
 activity, they gain a +1 bonus on saves for the duration of that adventure. Costs 1d4 silver per day.
 
+## Professional Income
+Characters can choose to practice a craft or a profession in a suitalbe location. This negates their living expenses and earns them an
+appropriate salary each month.
+
 ## Rodomontade
-If the entire party (i.e. everyone who was on the adventure) spends a week after their adventure bragging about their shenanigans, singing songs, telling stories, engaging in self-aggrandizement, and spreading the tale of their deeds of derring-do, they gain an additional 5% experience from the previous adventure. Certain classes with oration abilities
-(bards, jesters) may increase this bonus to +10%. No other activities may be performed during this time.
+If the entire party (i.e. everyone who was on the adventure) spends a week after their adventure bragging about their shenanigans, singing songs, telling stories, engaging in self-aggrandizement, and spreading the tale of their deeds of derring-do, they gain an additional 5% experience from the previous adventure. Certain classes with oration abilities (bards, jesters) may increase this bonus to +10%. No other activities may be performed during this time.
 
 ## Rumors
 
