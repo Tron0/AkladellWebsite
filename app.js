@@ -66,6 +66,23 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+
+        title: 'Law Mage Scaling',
+        content: `Law mage changes. Copying over the charisma table.
+            
+        
+        <b> Changes: </b>
+
+        - Faster law mage spell scaling. 
+        - Law mage needs more xp past early levels.
+        - Expanded charisma table. Including procentile loyalty. 
+        - Changed charisma table "maximum henchmen" to "maximum retainers".
+        - Low intelligence PCs can still search :)
+        `,
+        date: "2025-06-01 01:11 CET" 
+    },
     
     { 
 
@@ -98,9 +115,9 @@ function loadUpdatePost()
         - Higher end of INT gives search bonus.
         - Increased prime attribute experience bonus from 5% to 10%
         - Fighter now has d10 HD instead of d8 as per the book.
-        - Changed inquisitor & ranger multiple atttacks to be later than fighter.
+        - Changed ranger & inquisitor multiple atttacks to be later than fighter.
         - Removed fighter parry.
-        - Removed experience bonuses from intelligence and charisma
+        - Removed experience bonuses from intelligence and charisma.
 
         `,
         date: "2025-05-27 11:32 CET" 
