@@ -6,7 +6,7 @@
 
 **(2) Determine your character's [<u>age</u>](#age)**
 
-- Pick an appropriate starting age and roll for any additional years based on class. Apply age modifiers.
+- Roll starting age and for any additional years based on class. Apply age modifiers.
 
 **(3) Determine [<u>ability scores</u>](#ability-scores)**
 
