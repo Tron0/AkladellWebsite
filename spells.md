@@ -115,8 +115,8 @@
 |**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
 |-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
 |     1     | Continual Light / Continual Darkness (B)         | Locate Object          | Cause Fear        | Growth of Animal  |                       |
-|     2     | Cure Blindness                                   | Detect Magic           | Command           | Striking          |                       |
-|     3     | Cure Disease / Cause Disease (B)                 |                        | Speak with Dead   |                   |                       |
+|     2     | Cure Blindness                                   |                        | Speak with Dead   | Striking          |                       |
+|     3     | Cure Disease / Cause Disease (B)                 |                        |                   |                   |                       |
 |     4     | Remove Curse / Curse (B)                         |                        |                   |                   |                       |
 
 ## [4th Level Law Spells](#spells#law-level-4)
