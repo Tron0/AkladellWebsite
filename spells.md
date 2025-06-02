@@ -107,16 +107,17 @@
 
 |**Number** | **White (W)**                              | **Blue (U)**        | **Black (B)** | **Red (R)**         | **Green (G)**         |
 |-----------|--------------------------------------------|---------------------|---------------|---------------------|-----------------------|
-|     1     | Hold Person                                | Find Traps          | Snake Charm   | Isphek's Burden     | Resist Fire           |
-|     2     |                                            | Know Alignment      |               |                     | Speak With Animals    |
+|     1     | Hold Person                                | Find Traps          | Snake Charm   | Isphek's Burden     | Messenger             |
+|     2     |                                            | Know Alignment      |               |                     | Resist Fire           |
+|     3     |                                            |                     |               |                     | Speak With Animals    |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
 |**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
 |-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
 |     1     | Continual Light / Continual Darkness (B)         | Locate Object          | Cause Fear        | Growth of Animal  |                       |
-|     2     | Cure Blindness                                   |                        | Speak with Dead   | Striking          |                       |
-|     3     | Cure Disease / Cause Disease (B)                 |                        |                   |                   |                       |
+|     2     | Cure Blindness                                   | Detect Magic           | Command           |                   |                       |
+|     3     | Cure Disease / Cause Disease (B)                 |                        | Speak with Dead   |                   |                       |
 |     4     | Remove Curse / Curse (B)                         |                        |                   |                   |                       |
 
 ## [4th Level Law Spells](#spells#law-level-4)
@@ -692,7 +693,7 @@ The caster creates a floating disc of force:
 
 - **Load:** Can hold 100 pounds of weight per caster level.
 
-- **Movement:** Accompanies the caster up to a speed of 6 or maintains a
+- **Movement:** Floats 3' above the ground and accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
 ### Hold Portal (W) - Chaos
@@ -1541,14 +1542,14 @@ This spell imbues the target unit with a temporary burst of courage.
 
 This spell has two usages:
 
-- **Healing a living subject:** Restores 1d6+1 hit points of damage.
+- **Healing a living subject:** Restores 1d8 hit points of damage.
   This cannot raise the subject's hit points above their normal maximum.
 
 - **Curing paralysis:** Paralysing effects are negated.
 
 #### Reversed: Cause Light Wounds
 
-Inflicts 1d6+1 hit points of damage to a touched creature. In combat, a
+Inflicts 1d8 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
 ### Detect Evil (U) - Law
@@ -1732,7 +1733,7 @@ Allows the caster to decipher magical script or runes, as follows:
 
 **Duration:** Special
 
-**Casting Time:** 1 segment
+**Casting Time:** 4 segments
 
 **AoE:** 1 creature/4 levels
 
@@ -1767,6 +1768,43 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
 
+### Isphek's Burden (R)
+
+**Range:** 30'
+
+**Duration:** 12 hours
+
+**Cast time:** 1 Round
+
+**AoE:** 10' cube
+
+**Effect Upon Objects:** The caster can reduce the weight of inanimate items within the area of effect by a total amount equal to 10 + 1 per caster level in slots. This reduction can be distributed among the targeted items as the caster chooses.
+
+- **Armor:** Can remove weight of armor, but does not make it easier to move in. For example, creatures wearing plate still moves slowly.
+
+- **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
+
+### Messenger (G)
+
+**Range:** 20'/level
+
+**Duration:** 1 hour/level
+
+**Cast time:** 1 Round
+
+**AoE:** One creature
+
+**Targets Creature:**
+
+- **Restrictions:** The creature has to be size small, cannot be a "giant" type, and has to be of intelligence 4 or lower.
+
+- **Save:** The Creature is allowed a saving throw versus spell, and if this succeeds the spell fails. If the saving throw is failed, the creature will
+advance toward the caster and await his or her bidding. 
+
+- **Communication:** The caster can communicate with the creature in a crude fashion, telling it to go to a certain place, but directions must be simple. The spell caster can attach some small item or note to the creature. If so instructed, the creature will then wait at that location until the duration of the spell expires. (Note that unless the intended recipient of a message is expecting a messenger in the form of a creature, the carrier may be ignored.) When the spell’s duration expires, the creature will return to its normal activities. The intended receiver of a message gains
+no communication ability. 
+
+
 ### Silence 15' Radius (U)
 
 **Range:** 120'
@@ -1787,20 +1825,29 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - The spell may be cast upon an object, causing that object to create no sound. For example, it may be cast upon a door, so that it may be bashed down without noise.
 
-### Isphek's Burden (R)
-**Range:** 30'
-**Duration:** 12 hours
-**Cast time:** 1 Round
-**AoE:** 10' cube
 
-**Effect Upon Objects:** The caster can reduce the weight of inanimate items within the area of effect by a total amount equal to 10 + 1 per caster level in slots. This reduction can be distributed among the targeted items as the caster chooses.
+## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
 
-- **Armor:** Can remove weight of armor, but does not make it easier to move in. For example, creatures wearing plate still moves slowly.
+### Locate Object / Obscure Object (U)
 
-- **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
+**Range:** 30'/level
 
+**Duration:** 1 round/level
 
-## <span id="spells#druid-level-1"> 1st Level Law Spells </span>
+**Cast Time:** 1 turn
+
+**AoE:** Special
+
+- **Seeks:** The location of a known or familiar object. Caster turns and faces the direction of the object, if located.
+
+- **Examples:** Will locate such objects as apparel, jewelry, furniture, tools, weapons, or even a ladder or stairway. 
+
+- **Restrictions:** Neither application of the spell will affect a living creature or a corpse.
+
+#### **Reverse Spell:** Obscure Object
+By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
+
+## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
 ### Animal Friendship (G) - Druid
 

@@ -4,7 +4,10 @@
 
 | Date | Session | Character | Cause |
 |------|---------|-----------|-------|
-| 2025-04-05 | 27B | Franco Forte  | *Crushed by the tail of a dragon*
+| 2025-06-01 | 20B | Ulfric  | *Executed by a Rhagodessa*
+| 2025-05-30 | 19B | Sandrokan  | *Grabbed and bitten by a Rhagodessa*
+| 2025-05-30 | 19B | Kamelon  | *Poisoned by a stray spider*
+| 2025-04-05 | 17B | Franco Forte  | *Crushed by the tail of a dragon*
 | 2025-03-28 | 72A | Yod | *Soul taken by evil spirit*
 | 2025-03-28 | 72A | Jannek | *Soul taken by evil spirit*
 | 2025-03-07 | 71A | Dudmun Walker | *Giant spider venom*
