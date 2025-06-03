@@ -585,7 +585,7 @@ This spell can either enlarge or reduce a target:
 
 - **Damage Alteration:** Hit points, Armor Class, and attack rolls remain unchanged. However, damage rolls increase proportionally with size. For example, a 160% enlarged fighter rolling a 6 for damage adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class, and magic bonuses remain unaltered.
 
-#### **Reverse Spell:** Reduce
+#### **Reversed:** Reduce
 
 Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
@@ -1828,6 +1828,32 @@ no communication ability.
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
 
+### Dispel Curse (W) / Bestow Curse
+
+**Range:** Touch   
+
+**Duration:** Permanent
+
+**Cast Time:** 6 segments
+
+**AoE:** Special 
+
+- **Evil Curses** Removed permanently. Whether the curse is on an object, person or in the general area of an evil presence.
+
+- **Restrictions:** The spell is unable to remove curses from magical items, but can remove the negative effects brought upon a character which was caused by the item.
+
+#### **Reversed:** Bestow Curse
+
+**Duration:** 1 turn/level
+
+On touch, the target is granted a saving throw. If the creature fails the saving throw, the following effects might occur:
+
+  - Lowers a random ability score to 3 (randomly selected), 50% chance.
+  - Reduce the "to-hit" and saving throw probabilities by -4, 25% chance.
+  - Makes the target drop whatever they are holding (or simply do nothing incase of creatures not using tools), 50% chance.
+
+It is possible for a caster to devise his or her own curse, and it should be similar in power to those shown. Consult your referee.
+
 ### Locate Object / Obscure Object (U)
 
 **Range:** 30'/level
@@ -1844,7 +1870,7 @@ no communication ability.
 
 - **Restrictions:** Neither application of the spell will affect a living creature or a corpse.
 
-#### **Reverse Spell:** Obscure Object
+#### **Reversed:** Obscure Object
 By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
