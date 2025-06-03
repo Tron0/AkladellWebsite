@@ -118,7 +118,7 @@
 |     1     | Continual Light / Continual Darkness (B)         | Locate Object          | Cause Fear        | Growth of Animal  |                       |
 |     2     | Cure Blindness                                   | Detect Magic           | Command           |                   |                       |
 |     3     | Cure Disease / Cause Disease (B)                 |                        | Speak with Dead   |                   |                       |
-|     4     | Remove Curse / Curse (B)                         |                        |                   |                   |                       |
+|     4     | Remove Curse / Bestow Curse (B)                  |                        |                   |                   |                       |
 
 ## [4th Level Law Spells](#spells#law-level-4)
 
