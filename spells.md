@@ -1828,7 +1828,7 @@ no communication ability.
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
 
-### Dispel Curse (W) / Bestow Curse
+### Remove Curse (W) / Bestow Curse
 
 **Range:** Touch   
 
