@@ -2,14 +2,14 @@
 
 ## [Cantrips](#spells#cantrips)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          | Dry/Damp       | Change         | Smokepuff/Bluelight       |                |                       | Clean/Dirty   |                       |                |
-| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Warm/Chill    |                       |                |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
+| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         |                       |                |
+| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Warm          |                       |                |
 | 3          |                | Gather         |                           |                |                       |               |                       |                |
-| 4          |                | Open/Close     |                           |                |                       |               |                       |                |
+| 4          |                | Open           |                           |                |                       |               |                       |                |
 | 5          |                | Sprout         |                           |                |                       |               |                       |                |
-| 6          |                | Stitch/Ravel   |                           |                |                       |               |                       |                |
+| 6          |                | Stitch         |                           |                |                       |               |                       |                |
 | 7          |                |                |                           |                |                       |               |                       |                |
 | 8          |                |                |                           |                |                       |               |                       |                |
 | 9          |                |                |                           |                |                       |               |                       |                |
@@ -18,39 +18,39 @@
 
 ## [1st Level Chaos Spells](#spells#chaos-level-1)
 
-| **Number** | **Abjuration**  | **Alteration** | **Conjuration/Summoning**| **Divination**   | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-|------------|-----------------|----------------|--------------------------|------------------|-----------------------|---------------|-----------------------|----------------|
-| 1          | Alarm                     | Burning Hands  | Armor          | Detect Magic     | Charm Person          | Floating Disc | Change Self           | Chill Touch    |
-| 2          | Protection from Evil/Good | Enlarge/Reduce | Find Familiar  | Detect Undead    | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
-| 3          | Shield                    | Erase          | Mount          | Identify         |                       |               |                       |                |
-| 4          |                           | Feather Fall   | Unseen Servant | Read Chaos Magic |                       |               |                       |                |
-| 5          |                           | Hold Portal    |                |                  |                       |               |                       |                |
-| 6          |                           | Lasting Breath |                |                  |                       |               |                       |                |
-| 7          |                           | Light/Darkness |                |                  |                       |               |                       |                |
-| 8          |                           | Mending        |                |                  |                       |               |                       |                |
-| 9          |                           | Message        |                |                  |                       |               |                       |                |
-| 10         |                           | Spider Climb   |                |                  |                       |               |                       |                |
-| 11         |                           | Wizard Mark    |                |                  |                       |               |                       |                |
+| **Number** | **Abjuration**       | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| ---------- | -------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
+| 1          | Alarm                | Burning Hands  | Armor                     | Detect Magic   | Charm Person          | Floating Disc | Change Self           | Chill Touch    |
+| 2          | Protection from Evil | Enlarge        | Find Familiar             | Detect Undead  | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
+| 3          | Shield               | Erase          | Mount                     | Identify       |                       |               |                       |                |
+| 4          |                      | Feather Fall   | Unseen Servant            | Read Magic     |                       |               |                       |                |
+| 5          |                      | Hold Portal    |                           |                |                       |               |                       |                |
+| 6          |                      | Lasting Breath |                           |                |                       |               |                       |                |
+| 7          |                      | Light          |                           |                |                       |               |                       |                |
+| 8          |                      | Mending        |                           |                |                       |               |                       |                |
+| 9          |                      | Message        |                           |                |                       |               |                       |                |
+| 10         |                      | Spider Climb   |                           |                |                       |               |                       |                |
+| 11         |                      | Wizard Mark    |                           |                |                       |               |                       |                |
 	
 
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       |               | Phantasmal Force      |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                | Infravision    |                           |                |                       |               |                       |                |
 
 
 ## [9th Level Chaos Spells](#spells#chaos-level-9)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       | Contingency   |                       |                |
 | 2          |                |                |                           |                |                       |               |                       |                |
@@ -105,42 +105,43 @@
 
 ## [1st Level Illusion Spells](#spells#illusion-level-1)
 
-|**Number**| **White (W)**        | **Blue (U)**        | **Black (B)**  | **Red (R)**      | **Green (G)**    |
-|----------|----------------------|---------------------|----------------|------------------|------------------|
-|    1     | Alarm                | Audible Glamour     | Hypnotism      | Chromatic Orb    |                  |
-|    2     | Color Spray          | Change Self         |                | Wall of Fog      |                  |
-|    3     | Dancing Lights       | Detect Illusion     |                |                  |                  |
-|    4     | Gaze Reflection      | Detect Invisibility |                |                  |                  |
-|    5     | Light / Darkness (B) | Phantasmal Force    |                |                  |                  |
-|    6     |                      | Phantom Armor       |                |                  |                  |
-|    7     |                      | Read Illusion Magic |                |                  |                  |
-|    8     |                      | Ventriloquism       |                |                  |                  |
+| **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| ---------- | -------------- | --------------- | ------------------------- | ------------------- | --------------------- | ------------- | --------------------- | --------------- |
+| 1          | Alarm          | Dancing Lights  |                           | Detect Illusion     | Hypnotism             | Chromatic Orb | Audible Glamer        |                 |
+| 2          |                | Gaze Reflection |                           | Detect Invisibility |                       |               | Change Self           |                 |
+| 3          |                | Light           |                           | Read Magic          |                       |               | Phantasmal Force      |                 |
+| 4          |                | Wall of Fog     |                           |                     |                       |               | Phantom Armor         |                 |
+| 5          |                |                 |                           |                     |                       |               | Ventriloquism         |                 |
+
 
 ## [1st Level Law Spells](#spells#law-level-1)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)** | **Red (R)** | **Green (G)**         |
-|-----------|--------------------------------------------------|------------------------|---------------|-------------|-----------------------|
-|     1     | Bless / Curse (B)                                | Detect Evil            | Cause Fear    | Courage     | Animal Friendship     |
-|     2     | Cure Light Wounds / Cause Light Wounds (B)       | Detect Magic           | Command       |             | Calm Animals          |
-|     3     | Light / Darkness (B)                             | Pass Without Trace     |               |             | Endure Cold / Heat    |
-|     4     | Protection from Evil / Protection from Good (B)  | Read Law Magic         |               |             | Purify Food and Drink / Putrefy Food & Drink (B) |
+| **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**   |
+| ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
+| 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
+| 2          | Protection From Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
+| 3          |                      | Purify Food & Drink |                           | Read Magic     | Command               |               |                       |                   |
+| 4          |                      |                     |                           |                | Courage               |               |                       |                   |
+| 5          |                      |                     |                           |                | Pass Without Trace    |               |                       |                   |
+
 
 ## [2nd Level Law Spells](#spells#law-level-2)
 
-|**Number** | **White (W)**                              | **Blue (U)**        | **Black (B)** | **Red (R)**         | **Green (G)**         |
-|-----------|--------------------------------------------|---------------------|---------------|---------------------|-----------------------|
-|     1     | Hold Person                                | Find Traps          | Snake Charm   | Isphek's Burden     | Messenger             |
-|     2     |                                            | Know Alignment      |               |                     | Resist Fire           |
-|     3     |                                            |                     |               |                     | Speak With Animals    |
+| **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+|------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
+| 1          |                | Isphek's Burden    |                           | Find Traips    | Hold Person           |               |                       |                 |
+| 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
+| 3          |                | Speak With Animals |                           |                | Snake Charm           |               |                       |                 |
+
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
-|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
-|     1     | Continual Light / Continual Darkness (B)         | Locate Object          | Cause Fear        | Growth of Animal  |                       |
-|     2     | Cure Blindness                                   | Detect Magic           | Command           |                   |                       |
-|     3     | Cure Disease / Cause Disease (B)                 |                        | Speak with Dead   |                   |                       |
-|     4     | Remove Curse / Bestow Curse (B)                  |                        |                   |                   |                       |
+| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+|------------|----------------|------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
+| 1          | Cure Blindness | Continual Light  |                           | Locate Object  |                       |               |                       | Speak With Dead |
+| 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       |                 |
+| 3          | Remove Curse   |                  |                           |                |                       |               |                       |                 |
+
 
 ## [4th Level Law Spells](#spells#law-level-4)
 
