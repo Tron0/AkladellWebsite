@@ -9,7 +9,7 @@ body {
 
 .centered-container {
     display: flex;
-    max-width: 800px;
+    max-width: 900px;
     width: 100%;
     box-sizing: border-box;
     flex-direction: column;
@@ -19,7 +19,7 @@ body {
 /* General Layout Styles */
 #content {
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
     margin: 0 auto;
     padding: 10px;
     text-align: left; /* Always left-aligned */
@@ -34,7 +34,7 @@ body {
 #content table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.875em;
+    font-size: 0.85em;
 }
 
 #content th, #content td {
