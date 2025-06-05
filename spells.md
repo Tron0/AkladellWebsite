@@ -2,44 +2,66 @@
 
 ## [Cantrips](#spells#cantrips)
 
-|**Number**| **White (W)**      | **Blue (U)** | **Black (B)**             | **Red (R)** | **Green (G)** |
-|----------|--------------------|--------------|---------------------------|-------------|---------------|
-|    1     | Stitch / Ravel (B) | Gather       | Smokepuff / Bluelight (W) | Firefinger  | Sprout        |
-|    2     | Clean / Dirty (G)  | Open / Close | Exterminate               |             | Warm / Chill  |
-|    3     |                    | Color        |                           |             | Dry / Damp    |
-|    4     |                    | Tweak        |                           |             |               |
-|    5     |                    | Change       |                           |             |               |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
+| 1          | Dry/Damp       | Change         | Smokepuff/Bluelight       |                |                       | Clean/Dirty   |                       |                |
+| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Warm/Chill    |                       |                |
+| 3          |                | Gather         |                           |                |                       |               |                       |                |
+| 4          |                | Open/Close     |                           |                |                       |               |                       |                |
+| 5          |                | Sprout         |                           |                |                       |               |                       |                |
+| 6          |                | Stitch/Ravel   |                           |                |                       |               |                       |                |
+| 7          |                |                |                           |                |                       |               |                       |                |
+| 8          |                |                |                           |                |                       |               |                       |                |
+| 9          |                |                |                           |                |                       |               |                       |                |
+| 10         |                |                |                           |                |                       |               |                       |                |
+
 
 ## [1st Level Chaos Spells](#spells#chaos-level-1)
 
-|**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
-|----------|----------------------|----------------|----------------|------------------|----------------|
-|    1     | Alarm                | Change Self    | Charm Person   | Burning Hands    | Find Familiar  |
-|    2     | Armor                | Detect Magic   | Chill Touch    | Enlarge / Reduce | Lasting Breath |
-|    3     | Hold Portal          | Erase          | Detect Undead  | Feather Fall     | Mount          |
-|    4     | Light / Darkness (B) | Floating Disc  | Ray of Fatigue | Fist of Stone    | Sleep          |
-|    5     | Mending              | Identify       |                | Magic Missile    |                |
-|    6     | Protection from Evil / Protection from Good (B) | Message        |        | Spider Climb   |   
-|    7     | Shield               | Read Chaos Magic     |                |                  |                |
-|    8     |                      | Unseen Servant |                |                  |                |
-|    9     |                      | Ventriloquism  |                |                  |                |
-|    10    |                      | Wizard Mark    |                |                  |                |
+| **Number** | **Abjuration**  | **Alteration** | **Conjuration/Summoning**| **Divination**   | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|-----------------|----------------|--------------------------|------------------|-----------------------|---------------|-----------------------|----------------|
+| 1          | Alarm                     | Burning Hands  | Armor          | Detect Magic     | Charm Person          | Floating Disc | Change Self           | Chill Touch    |
+| 2          | Protection from Evil/Good | Enlarge/Reduce | Find Familiar  | Detect Undead    | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
+| 3          | Shield                    | Erase          | Mount          | Identify         |                       |               |                       |                |
+| 4          |                           | Feather Fall   | Unseen Servant | Read Chaos Magic |                       |               |                       |                |
+| 5          |                           | Hold Portal    |                |                  |                       |               |                       |                |
+| 6          |                           | Lasting Breath |                |                  |                       |               |                       |                |
+| 7          |                           | Light/Darkness |                |                  |                       |               |                       |                |
+| 8          |                           | Mending        |                |                  |                       |               |                       |                |
+| 9          |                           | Message        |                |                  |                       |               |                       |                |
+| 10         |                           | Spider Climb   |                |                  |                       |               |                       |                |
+| 11         |                           | Wizard Mark    |                |                  |                       |               |                       |                |
+	
+
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
-|**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
-|----------|----------------------|----------------|----------------|------------------|----------------|
-|    1     |                      | Phantasmal Force |              |                  |                |
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
+| 1          |                |                |                           |                |                       |               | Phantasmal Force      |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
-|**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
-|----------|----------------------|----------------|----------------|------------------|----------------|
-|    1     |                      |                |                | Infravision      |                |
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
+| 1          |                | Infravision    |                           |                |                       |               |                       |                |
+
 
 ## [9th Level Chaos Spells](#spells#chaos-level-9)
-|**Number**| **White (W)**        | **Blue (U)**   | **Black (B)**  | **Red (R)**      | **Green (G)**  |
-|----------|----------------------|----------------|----------------|------------------|----------------|
-|    1     |                      | Contingency    |                |                  |                |
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
+| 1          |                |                |                           |                |                       | Contingency   |                       |                |
+| 2          |                |                |                           |                |                       |               |                       |                |
+| 3          |                |                |                           |                |                       |               |                       |                |
+| 4          |                |                |                           |                |                       |               |                       |                |
+| 5          |                |                |                           |                |                       |               |                       |                |
+| 6          |                |                |                           |                |                       |               |                       |                |
+| 7          |                |                |                           |                |                       |               |                       |                |
+| 8          |                |                |                           |                |                       |               |                       |                |
+| 9          |                |                |                           |                |                       |               |                       |                |
+| 10         |                |                |                           |                |                       |               |                       |                |
 
 <!-- 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
