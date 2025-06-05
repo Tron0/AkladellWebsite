@@ -3,17 +3,14 @@
 ## [Cantrips](#spells#cantrips)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
-| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         |                       |                |
-| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Warm          |                       |                |
-| 3          |                | Gather         |                           |                |                       |               |                       |                |
-| 4          |                | Open           |                           |                |                       |               |                       |                |
-| 5          |                | Sprout         |                           |                |                       |               |                       |                |
-| 6          |                | Stitch         |                           |                |                       |               |                       |                |
-| 7          |                |                |                           |                |                       |               |                       |                |
-| 8          |                |                |                           |                |                       |               |                       |                |
-| 9          |                |                |                           |                |                       |               |                       |                |
-| 10         |                |                |                           |                |                       |               |                       |                |
+| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
+| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         |                       |                 |
+| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Color         |                       |                 |
+| 3          |                | Gather         |                           |                |                       | Warm          |                       |                 |
+| 4          |                | Open           |                           |                |                       |               |                       |                 |
+| 5          |                | Sprout         |                           |                |                       |               |                       |                 |
+| 6          |                | Stitch         |                           |                |                       |               |                       |                 |
+
 
 
 ## [1st Level Chaos Spells](#spells#chaos-level-1)
@@ -53,15 +50,7 @@
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       | Contingency   |                       |                |
-| 2          |                |                |                           |                |                       |               |                       |                |
-| 3          |                |                |                           |                |                       |               |                       |                |
-| 4          |                |                |                           |                |                       |               |                       |                |
-| 5          |                |                |                           |                |                       |               |                       |                |
-| 6          |                |                |                           |                |                       |               |                       |                |
-| 7          |                |                |                           |                |                       |               |                       |                |
-| 8          |                |                |                           |                |                       |               |                       |                |
-| 9          |                |                |                           |                |                       |               |                       |                |
-| 10         |                |                |                           |                |                       |               |                       |                |
+
 
 <!-- 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
@@ -137,58 +126,59 @@
 ## [3rd Level Law Spells](#spells#law-level-3)
 
 | **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
-|------------|----------------|------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          | Cure Blindness | Continual Light  |                           | Locate Object  |                       |               |                       | Speak With Dead |
-| 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       |                 |
+| ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
+| 1          | Cure Blindness | Continual Light  |                           | Locate Object  |                       |               |                       | Animate Dead    |
+| 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       | Speak With Dead |
 | 3          | Remove Curse   |                  |                           |                |                       |               |                       |                 |
 
 
 ## [4th Level Law Spells](#spells#law-level-4)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
-|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
-|     1     | Cure Serious Wounds / Cause Serious Wounds (B)   |                        | Animate Dead      | Sticks to Snakes  | Create Water          |
-|     2     | Dispel Magic                                     |                        |                   |                   | Speak with Plants     |
-|     3     | Neutralize Poison / Create Poison                |                        |                   |                   |                       |
-|     4     | Protection from Evil 10' radius                  |                        |                   |                   |                       |
+| **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**     |
+|------------|----------------------------------|---------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|---------------------|
+| 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | Cure Serious Wounds |
+| 2          | Neutralize Poison                | Speak with Plants   |                           |                |                       |               |                       |                     |
+| 3          | Protection from Evil, 10' Radius | Sticks to Snakes    |                           |                |                       |               |                       |                     |
+
 
 ## [5th Level Law Spells](#spells#law-level-5)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**         |
-|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|-----------------------|
-|     1     | Cure Critical Wounds / Cause Critical Wounds (B) | Truesight              | Animate Dead      |                   | Create Food           |
-|     2     | Dispel Evil                                      |                        | Quest             |                   | Insect Plague         |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**      |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------------|
+| 1          | Dispel Evil    |                | Insect Plague             | True Sight     | Quest                 |               |                       | Cure Critical Wounds |
+
 
 ## [6th Level Law Spells](#spells#law-level-6)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**                      |
-|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|------------------------------------|
-|     1     | Barrier / Remove Barrier                         | Find the Path          |                   | Animate Objects   | Aerial Servant                     |
-|     2     | Cureall                                          | Word of Recall         |                   |                   | Create Normal Animals              |
-|     3     |                                                  |                        |                   |                   | Speak with Monsters / Babble (R)   |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
+| 1          |                | Animate Object | Aerial Servant            | Find the Path  |                       | Blade Barrier |                       |                 |
+| 2          |                | Word of Recall |                           |                |                       |               |                       |                 |
 
 ## [7th Level Law Spells](#spells#law-level-7)
 
-|**Number** | **White (W)**                                    | **Blue (U)**           | **Black (B)**     | **Red (R)**       | **Green (G)**                      |
-|-----------|--------------------------------------------------|------------------------|-------------------|-------------------|------------------------------------|
-|     1     | Holy Word                                        | Travel                 |                   |                   | Earthquake                         |
-|     2     | Restore / Life Drain (B)                         | Wish                   |                   |                   | Survival                           |
-|     3     |                                                  | Wizardry               |                   |                   |                                    |
-|     4     |                                                  |                        |                   |                   |                                    |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**       | **Illusion/Phantasm** | **Necromantic** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------------|-----------------------|-----------------|
+| 1          | Earthquake     | Astral Spell   | Holy Word                 |                |                       | Digit of Disruption |                       | Regenerate      |
+| 2          |                |                | Symbol                    |                |                       |                     |                       | Restoration     |
+
 
 
 ## [1st Level Druidic Spells](#spells#druid-level-1)
-|**Number** | **White (W)**                                   | **Blue (U)**            | **Black (B)** | **Red (R)** | **Green (G)**           |
-|-----------|-------------------------------------------------|-------------------------|---------------|-------------|-------------------------|
-|     1     | Entangle                                         | Detect Danger           |               | Faerie Fire | Animal Friendship       |
-|     2     |                                                 | Invisibility to Animals |               |             | Locate Plant or Animal  |
-|     3     |                                                 | Predict Weather         |               |             | Speak With Animals      |
+
+| **Number** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+|------------|----------------|-------------------------|---------------------------|------------------------|-----------------------|---------------|-----------------------|-----------------|
+| 1          |                | Entangle                |                           | Detect Danger          | Animal Friendship     |               |                       |                 |
+| 2          |                | Faerie Fire             |                           | Locate Plant or Animal |                       |               |                       |                 |
+| 3          |                | Invisibility to Animals |                           | Predict Weather        |                       |               |                       |                 |
+| 4          |                | Speak with Animals      |                           |                        |                       |               |                       |                 |
+
 
 # <span id="spells#descriptions"> Spell Descriptions </span> 
 
 ## <span id="spells#cantrips">Cantrips</span>
 
-### Stitch (W) / Ravel (B)
+### Stitch (Alteration)
 
 **Range:** 30'
 
@@ -209,7 +199,7 @@ This cantrip magically sews seams in cloth or leather:
 Tears the same amount of yards in cloth instead of stitching. Can be
 concentrated on to make a neat tear or simply ripped quickly.
 
-### Clean (W) / Dirty (G)
+### Clean (Alteration)
 
 **Range:** 30'
 
@@ -231,7 +221,7 @@ foreign objects:
 Dirt, stains or other types of filth can magically be applied. This form
 is not recognized as illusion magic as it is a real form conjured.
 
-### Gather (U)
+### Gather (Alteration)
 
 **Range:** 30'
 
@@ -252,7 +242,7 @@ into a stack or pile:
   type of material from another, but only the selected type is gathered
   neatly.
 
-### Open / Close (U)
+### Open (Alteration)
 
 **Range:** 30'
 
@@ -271,7 +261,7 @@ Opens any unlocked door or portal from a distance:
 
 Closes any object in a reverse fashion.
 
-### Color (U)
+### Color 
 
 **Range:** 30'
 
@@ -288,7 +278,7 @@ Covers an area with a new or faded color:
 
 - **People:** Can change the color of skin and hair as well.
 
-### Tweak (U)
+### Tweak (Conjuration/Summoning)
 
 **Range:** 30'
 
@@ -324,7 +314,7 @@ the caster's hand:
   into a bat, the bat to a flying squirrel by another use of the same
   type of cantrip, and so forth.
 
-### Smokepuff (B) / Bluelight (W)
+### Bluelight (Abjuration)
 
 **Range:** 30'
 
@@ -332,18 +322,18 @@ the caster's hand:
 
 **Casting Time:** 1 segment
 
+This cantrip enables the caster to conjure a small sphere of glowing
+blue radiance. The light has an eerie effect when seen from a distance,
+but the 3-inch sphere only illuminates an area of 5 feet around itself.
+
+#### Reversed: Bluelight
+
 A puff of actual smoke appears in front of the spellcaster in a desired
 location which ascends or is dis­sipated as a normal cloud of smoke,
 depending on the prevailing conditions:
 
-- **Color:** The caster can create smoke that is white, gray, black,
+- **Color:** The caster can create light that is white, gray, black,
   brown, yellow, or green.
-
-#### Reversed: Bluelight
-
-This cantrip enables the caster to conjure a small sphere of glowing
-blue radiance. The light has an eerie effect when seen from a distance,
-but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
 ### Exterminate (B)
 
@@ -1647,7 +1637,7 @@ footprints or scent:
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
 
-### Purify Food & Drink (G) / Putrefy Food & Drink (B) - Law
+### Purify Food & Drink (Alteration) - Law
 
 **Duration:** Permanent
 
