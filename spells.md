@@ -21,15 +21,15 @@
 | 2          | Protection from Evil | Enlarge        | Find Familiar             | Detect Undead  | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
 | 3          | Shield               | Erase          | Mount                     | Identify       |                       |               |                       |                |
 | 4          |                      | Feather Fall   | Unseen Servant            | Read Magic     |                       |               |                       |                |
-| 5          |                      | Hold Portal    |                           |                |                       |               |                       |                |
-| 6          |                      | Lasting Breath |                           |                |                       |               |                       |                |
-| 7          |                      | Light          |                           |                |                       |               |                       |                |
-| 8          |                      | Mending        |                           |                |                       |               |                       |                |
-| 9          |                      | Message        |                           |                |                       |               |                       |                |
-| 10         |                      | Spider Climb   |                           |                |                       |               |                       |                |
-| 11         |                      | Wizard Mark    |                           |                |                       |               |                       |                |
+| 5          |                      | Fist of Stone  |                           |                |                       |               |                       |                |
+| 6          |                      | Hold Portal    |                           |                |                       |               |                       |                |
+| 7          |                      | Lasting Breath |                           |                |                       |               |                       |                |
+| 8          |                      | Light          |                           |                |                       |               |                       |                |
+| 9          |                      | Mending        |                           |                |                       |               |                       |                |
+| 10          |                      | Message        |                           |                |                       |               |                       |                |
+| 11         |                      | Spider Climb   |                           |                |                       |               |                       |                |
+| 12         |                      | Wizard Mark    |                           |                |                       |               |                       |                |
 	
-
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
 
@@ -261,7 +261,7 @@ Opens any unlocked door or portal from a distance:
 
 Closes any object in a reverse fashion.
 
-### Color 
+### Color (Evocation)
 
 **Range:** 30'
 
@@ -295,7 +295,7 @@ annoyingly, tweak some portion of a chosen sub­ject:
   although the tweaking might distract any creature by causing it to
   turn to dis­cover the source of the annoyance.
 
-### Change (U)
+### Change (Alteration)
 
 **Range:** 30'
 
@@ -314,7 +314,7 @@ the caster's hand:
   into a bat, the bat to a flying squirrel by another use of the same
   type of cantrip, and so forth.
 
-### Bluelight (Abjuration)
+### Bluelight (Conjuration/Summoning)
 
 **Range:** 30'
 
@@ -326,7 +326,7 @@ This cantrip enables the caster to conjure a small sphere of glowing
 blue radiance. The light has an eerie effect when seen from a distance,
 but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
-#### Reversed: Bluelight
+#### Reversed: Smokepuff
 
 A puff of actual smoke appears in front of the spellcaster in a desired
 location which ascends or is dis­sipated as a normal cloud of smoke,
@@ -335,7 +335,7 @@ depending on the prevailing conditions:
 - **Color:** The caster can create light that is white, gray, black,
   brown, yellow, or green.
 
-### Exterminate (B)
+### Exterminate (Abjuration)
 
 **Range:** 30'
 
@@ -355,7 +355,7 @@ fly, mouse, rat, beetle, or the like:
 - **Area:** If the subject is very small, an area of up to one-half
   cubic foot can be rid of pests
 
-### Firefinger (R)
+### Firefinger (Alteration)
 
 **Range:** Caster
 
@@ -372,7 +372,7 @@ shoot forth from their finger:
   as parchment, twigs, kindling, and the like without difficulty,
   providing the materials are relatively dry.
 
-### Sprout (G)
+### Sprout (Alteration)
 
 **Range:** Caster
 
@@ -390,7 +390,7 @@ of plants:
   on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
   cantrip.
 
-### Warm / Chill (G)
+### Warm (Evocation)
 
 **Range:** 30'
 
@@ -409,7 +409,7 @@ The caster warms a liquid, solid object or creature by 10 °C:
 Cools an object or creature by 10 °C instead. Subject to a minimum
 tempera­ture of freezing, (0 °C)
 
-### Dry / Damp (G)
+### Dry (Abjuration)
 
 **Range:** 30'
 
@@ -432,7 +432,7 @@ material within damp to the touch.
 
 ## <span id="spells#chaos-level-1"> 1st Level Chaos Spells </span>
 
-### Alarm (W) - Chaos
+### Alarm (Abjuration) - Chaos
 
 **Range:** 30'
 
@@ -450,7 +450,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-### Armor (W) - Chaos
+### Armor (Conjuration/Summoning) - Chaos
 
 **Range:** Touch
 
@@ -466,7 +466,7 @@ Provides a protective magical armor:
 
 - **Durability:** Lasts until the wearer accumulates damage beyond 8 points + 1 per caster level.
 
-### Burning Hands (R) - Chaos
+### Burning Hands (Alteration) - Chaos
 
 **Range:** Caster 
 
@@ -486,7 +486,7 @@ Produces a fan of flames that sear everything in its arc:
 
 - **Flammable Materials:** Materials like cloth, paper, and thin wood ignite on contact. They can be extinguished in the subsequent round if no other actions are taken.
 
-### Change Self (U) - Chaos
+### Change Self (Illusion/Phantasm) - Chaos
 
 **Range:** Caster
 
@@ -500,7 +500,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-### Charm Person (B) - Chaos
+### Charm Person (Enchantment/Charm) - Chaos
 
 **Range:** 120'
 
@@ -530,7 +530,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-### Chill Touch (B) - Chaos
+### Chill Touch (Necromantic) - Chaos
 
 **Range:** Touch
 
@@ -548,7 +548,7 @@ Envelopes caster's hand in cold energy:
 
 - **Healing:** Damage to strength can be magically cured or naturally healed.
 
-### Detect Magic (U) - Chaos
+### Detect Magic (Divination) - Chaos
 
 **Range:** Caster
 
@@ -564,7 +564,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-### Detect Undead (B) - Chaos
+### Detect Undead (Divination) - Chaos
 
 **Range:** Caster
 
@@ -582,7 +582,7 @@ Enables the caster to sense undead presence:
 
 - **Obstruction:** The detection can pass through walls and other barriers but is stopped by 1 foot of solid stone, 1 yard of wood or loose earth, or a thin layer of metal.
 
-### Enlarge (R) / Reduce (R) - Chaos
+### Enlarge (Alteration) - Chaos
 
 **Range:** 15'/level
 
@@ -602,7 +602,7 @@ This spell can either enlarge or reduce a target:
 
 Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
-### Erase (U) - Chaos
+### Erase (Alteration) - Chaos
 
 **Range:** 90'
 
@@ -623,7 +623,7 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Limitations:** Removes certain magical inscriptions, but not all.
 
-### Feather Fall (R) - Chaos
+### Feather Fall (Alteration) - Chaos
 
 **Range:** 30'/level
 
@@ -643,7 +643,7 @@ Slows the fall of objecst and creatures:
 
 - **Missiles:** Works upon free-falling, flying, or proppelled objects.
 
-### Find Familiar (G) - Chaos
+### Find Familiar (Conjuration/Summoning) - Chaos
 
 **Range:** 1 mile/level
 
@@ -679,7 +679,7 @@ Summons a familiar to aid the caster:
 - **Restrictions:** Only one familiar at a time. Mistreatment or killing
   one's familiar can have serious repercussions.
 
-### Fist of Stone (R) - Chaos
+### Fist of Stone (Alteration) - Chaos
 
 **Range:** Caster
 
@@ -691,7 +691,7 @@ Summons a familiar to aid the caster:
 
 - **Combat:** Bonuses apply only when using the stone fist.
 
-### Floating Disc (U) - Chaos
+### Floating Disc (Evocation) - Chaos
 
 **Range:** 60'
 
@@ -709,7 +709,7 @@ The caster creates a floating disc of force:
 - **Movement:** Floats 3' above the ground and accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
-### Hold Portal (W) - Chaos
+### Hold Portal (Alteration) - Chaos
 
 **Range:** 60'
 
@@ -725,7 +725,7 @@ Empowers the caster to magically secure an entryway:
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
-### Identify (U) - Chaos
+### Identify (Divination) - Chaos
 
 **Range:** Touch
 
@@ -746,7 +746,7 @@ Allows the caster to discern the nature of magical items:
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
 
-### Lasting Breath (G) - Chaos
+### Lasting Breath (Alteration) - Chaos
 
 **Range**: Touch
 
@@ -765,7 +765,7 @@ Extends the duration one can hold their breath:
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
 
-### Light (W) / Darkness (B) - Chaos
+### Light (Alteration) - Chaos
 
 **Range:** 120'
 
@@ -793,7 +793,7 @@ Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-### Magic Missile (R) - Chaos
+### Magic Missile (Evocation) - Chaos
 
 **Range:** 180' + 30'/level
 
@@ -819,7 +819,7 @@ Launches magical missiles that target and hit with precision:
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
 
-### Mending (W) - Chaos
+### Mending (Alteration) - Chaos
 
 **Range:** 90'
 
@@ -837,7 +837,7 @@ This spell repairs small breaks or tears in objects:
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
 
-### Message (U) - Chaos
+### Message (Alteration) - Chaos
 
 **Range:** 30' + 10'/level
 
@@ -856,7 +856,7 @@ Allows for long range communication through whispers:
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
 
-### Mount (G) - Chaos
+### Mount (Conjuration/Summoning) - Chaos
 
 **Range:** 30'
 
@@ -881,7 +881,7 @@ Summons a creature to serve as a mount.
 
   - 15+: Griffon
 
-### Protection from Evil (W) / Protection from Good (B) - Chaos
+### Protection from Evil (Abjuration)  - Chaos
 
 **Range:** Caster
 
@@ -907,7 +907,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### Ray of Fatigue (B) - Chaos
+### Ray of Fatigue (Necromantic) - Chaos
 
 **Range:** 30' + 15'/level
 
@@ -932,7 +932,7 @@ Conjures a dark ray of exhaustion:
   - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
-### Read Magic (U) - Chaos
+### Read Magic (Divination) - Chaos
 
 **Range:** Caster
 
@@ -958,7 +958,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-### Shield (W) - Chaos
+### Shield (Abjuration) - Chaos
 
 **Range:** Caster
 
@@ -974,7 +974,7 @@ Conjures an invisible shield around the caster:
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
   visible frontal threats as well as negating Magic Missiles.
 
-### Sleep (G) - Chaos
+### Sleep (Enchantment/Charm) - Chaos
 
 **Range:** 90'
 
@@ -996,7 +996,7 @@ Induces a deep slumber upon creatures. The spell may target either:
 
 - **Restrictions** Affects living creatures except undead and other certain creatures with immunity.
 
-### Spider Climb (R) - Chaos
+### Spider Climb (Alteration) - Chaos
 
 **Range:** Touch
 
@@ -1015,7 +1015,7 @@ and feet for this mobility.
 - **Unwilling Targets:** If targeted on unwilling beings, they get a
 saving throw vs. spell to resist.
 
-### Unseen Servant (U) - Chaos
+### Unseen Servant (Conjuration/Summoning) - Chaos
 
 **Range:** Caster
 
@@ -1036,7 +1036,7 @@ Summons a spectral helper:
 - **Vulnerabilities:** Can't fight and is dispelled after taking 6
   points of damage.
 
-### Ventriloquism (U) - Chaos
+### Ventriloquism (Illusion/Phantasm) - Chaos
 
 **Range:** 30'/level max 270'
 
@@ -1057,7 +1057,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-### Wizard Mark (U) - Chaos
+### Wizard Mark (Alteration) - Chaos
 
 **Range:** Touch
 
