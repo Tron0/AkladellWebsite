@@ -78,7 +78,7 @@ function loadUpdatePost()
 
         - Spell research cost lowered.
         - Spell research involves at least one initial week of prepping costs & planning.
-        . Added cost of and time of creating libraries.
+        - Added cost of and time of creating libraries.
         - Changed spell colors to schools (abjuration, divination, necromantic etc)
         `,
         date: "2025-06-09 11:05 CET" 
