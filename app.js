@@ -71,7 +71,7 @@ function loadUpdatePost()
 
         title: 'Library Creation & Schools of Magic',
         content: `Spell research is now more closer to 1e than 2e. It's not fully by the book but close enough. At least one week of spell research needs to be planned out, which makes sense. 
-        You can now also create a library by paying the cost it takes  
+        You can now also create a libraries as well. This costs a lot but lowers the longterm costs.
             
         
         <b> Changes: </b>
