@@ -1890,33 +1890,53 @@ this case would cost 300 silver and three days' worth of downtime.
 ## <span id=spell-research> Spell Research </span>
 
 Chaos and Law Mages may research new spells (by different methods, of course). This process, and the spell to be created, requires
-the approval of the Referee. Research also requires coinage. If the character has access to a wizard's laboratory or an appropriate place to study, the cost of research is 100 - 2,000 SP per spell level. 
+the approval of the Referee. 
 
 Below are the steps to spell researching.
 
-#### 1. **Prerequisites** 
+### 1. **Prerequisites** 
 
-- Ensure access to a library or lab appropriate to the spell's alignment and type. Verify that the spell is of a level that the caster is capable of learning.
+- Verify the caster can learn spells of the desired level. 
+- Ensure access to an appropriate library or lab suited to the spell's type and alignment. If unavailable, you may create one
 
-#### 2. **Cost Calculation**
+### 2. **Cost Calculation**
 
-- Roll 2d10, multiply the result by 100, and then multiply the total by the spell level to determine the total cost of research.
+#### Base Cost:
 
-> - This accounts for materials, texts, and other necessary resources, with higher-level spells requiring more significant investment.
+- **With Library:** 200 SP x spell level x week
 
-> **Example:** For a Level 2 spell, if you roll a total of 8 on 2d10, the cost would be 8 × 100 × 2 = 1,600 SP.
+- **Without Library:** 2000 SP x spell level x week
 
-> - Record the cost, as it will affect subsequent rolls if additional weeks are required.
+#### **Creating a Library:**
+
+- If no library exists, a caster may choose to invest the initial creation cost (2000 SP x spell level) during the first week to gather enough materials, thus creating a permanent library for future research at that spell level. This expense is incurred even if the initial research attempt fails.
+
+> - **Example:** A Chaos Mage attempts to research the level 1 spell "Identify" without a library, spending 2000 SP
+initially. Regardless of success, a Level 1 spell library is now established. Future Level 1 research
+reduces to 200 SP per week.
+
+#### **Variable Costs:**
+
+- Roll 1d4 per spell level, multiply the result by 100, then add this to the base cost per week. This
+accounts for texts, materials, and additional resources. 
+
+- Formula: (d4 total × 100) + base cost per week. Record the weekly cost clearly, as it may impact further attempts if needed.
+
+> - **Example:** Level 2 spell research: You roll 2d4, totaling 5. Variable Cost: 5 x 100 = 500 SP. Base Cost (with library): 2 × 200 = 400 SP. Total Weekly Cost: 500 SP + 400 SP = 900 SP
 
 #### 3. **Time Requirement**
 
-- Research requires 1 week per spell level.
+- Spell research requires 1 week per spell level.
+- Additionally, the caster must spend a separate initial week purely gathering necessary materials and
+preparing research tools. This week is separate from research weeks.
+
+- Formula: 1 initial week of preparation + (spell level × 1 research week)
 
 #### 4. **Success Determination**
 
 - At the end of the research, calculate the chance of success: 
 
-> - 10% +INT/WIS + Character Level − (2 × Spell Level)
+> - 10% + INT/WIS + Character Level − (2 x Spell Level)
 
 > **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 − (2 × 2) = 27%
 
@@ -1924,19 +1944,13 @@ Below are the steps to spell researching.
 
 > - Success: The spell is learned.
 
-> - Failure: If the score rolled is greater than the percentage the caster must continue research for another week.
+> - Failure: If the score rolled is greater than the percentage the caster must continue research for another week or abandon the research.
 
 #### 5. **Continuing Failed Research**
 
 - For each additional week:
 
 > - Add +10% to the success chance.
-
-> - Pay an additional cost equal to half the initial cost.
-
-> **Example:**
-
-> - For a Level 2 spell with an initial cost of 1,600 SP, the extra week costs: 1,600÷2=800 SP.
 
 Continue this process until the spell is successfully researched, or cancel.
 

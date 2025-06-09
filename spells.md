@@ -96,11 +96,11 @@
 
 | **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
 | ---------- | -------------- | --------------- | ------------------------- | ------------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Alarm          | Dancing Lights  |                           | Detect Illusion     | Hypnotism             | Chromatic Orb | Audible Glamer        |                 |
-| 2          |                | Gaze Reflection |                           | Detect Invisibility |                       |               | Change Self           |                 |
-| 3          |                | Light           |                           | Read Magic          |                       |               | Phantasmal Force      |                 |
-| 4          |                | Wall of Fog     |                           |                     |                       |               | Phantom Armor         |                 |
-| 5          |                |                 |                           |                     |                       |               | Ventriloquism         |                 |
+| 1          | Alarm          | Color Spray     |                           | Detect Illusion     | Hypnotism             | Chromatic Orb | Audible Glamer        |                 |
+| 2          |                | Dancing Lights  |                           | Detect Invisibility |                       |               | Change Self           |                 |
+| 3          |                | Gaze Reflection |                           | Read Magic          |                       |               | Phantasmal Force      |                 |
+| 4          |                | Light           |                           |                     |                       |               | Phantom Armor         |                 |
+| 5          |                | Wall of Fog     |                           |                     |                       |               | Ventriloquism         |                 |
 
 
 ## [1st Level Law Spells](#spells#law-level-1)
@@ -110,7 +110,7 @@
 | 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
 | 2          | Protection From Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
 | 3          |                      | Purify Food & Drink |                           | Read Magic     | Command               |               |                       |                   |
-| 4          |                      |                     |                           |                | Courage               |               |                       |                   |
+| 4          |                      | Silence, 15' Radius |                           |                | Courage               |               |                       |                   |
 | 5          |                      |                     |                           |                | Pass Without Trace    |               |                       |                   |
 
 
@@ -598,7 +598,7 @@ This spell can either enlarge or reduce a target:
 
 - **Damage Alteration:** Hit points, Armor Class, and attack rolls remain unchanged. However, damage rolls increase proportionally with size. For example, a 160% enlarged fighter rolling a 6 for damage adjusts the roll to 10 (6 x 1.6 = 9.6, rounded up). Strength, class, and magic bonuses remain unaltered.
 
-#### **Reversed:** Reduce
+#### Reversed: Reduce
 
 Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
@@ -1078,7 +1078,7 @@ This spell lets the caster inscribe a personal mark:
 
 ## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
-### Phantasmal Force - Chaos
+### Phantasmal Force (Illusion/Phantasm) - Chaos
 
 **Range:** 60'
 
@@ -1100,7 +1100,7 @@ Creates an illusion that appears real to those who perceive it:
 
 ## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
 
-### Infravision - Chaos
+### Infravision (Alteration) - Chaos
 
 **Range:** Touch
 
@@ -1118,9 +1118,9 @@ Grants infravision to 60':
 
 ## <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
 
-### Contingency - Chaos
+### Contingency (Evocation) - Chaos
 
-**Range:** Self
+**Range:** Touch
 
 **Duration:** Indefinite
 
@@ -1145,7 +1145,7 @@ The material components of this spell are (in addition to those of the companion
 
 ## <span id="spells#illusion-level-1"> 1st Level Illusion Spells </span>
 
-### Alarm (W) - Illusion
+### Alarm (Abjuration) - Illusionist
 
 **Range:** 30'
 
@@ -1163,7 +1163,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-### Audible Glamer (U) - Illusion
+### Audible Glamer (Illusion/Phantasm) - Illusionist
 
 **Range:** 60'
 
@@ -1181,7 +1181,7 @@ Creates an illusionary sound that can deceive others:
 
 - **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
 
-### Change Self (U) - Illusion
+### Change Self (Illusion/Phantasm) - Illusionist
 
 **Range:** Caster
 
@@ -1195,7 +1195,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-### Chromatic Orb (R) - Illusion
+### Chromatic Orb (Evocation) - Illusionist
 
 **Range:** Caster
 
@@ -1236,7 +1236,7 @@ The color of the orb determines its effects, as outlined below:
 
 **Material Component:** A gem of the appropriate color or any diamond worth at least 50 gp is required to cast this spell.
 
-### Color Spray (W) - Illusion
+### Color Spray (Alteration) - Illusionist
 
 **Range:** 20'/level up to 240'
 
@@ -1252,7 +1252,7 @@ Creates a vivid array of clashing colors that can blind or stun creatures:
 
 - **Effect:** Creatures whose Hit Dice or levels are less than or equal to the spellcaster's level, are struck unconscious for 2d4 rounds; those with Hit Dice or levels 1 or 2 greater than the wizard's level are blinded for 1d4 rounds; those with Hit Dice or levels 3 or more greater than that of the spellcaster are stunned (reeling and unable to think or act coherently) for one round. 
 
-### Dancing Lights (W) - Illusion
+### Dancing Lights (Alteration) - Illusionist
 
 **Range:** 120' + 30'/level
 
@@ -1268,7 +1268,7 @@ Creates up to four lights that resemble lanterns or torches:
     
 - **Effect:** Provides light as a torch, but not real heat or fire.
 
-### Detect Illusion (U) - Illusion
+### Detect Illusion (Divination) - Illusionist
 
 **Range:** Caster
 
@@ -1284,7 +1284,7 @@ Allows the caster to see through illusions within the area of effect:
 
 - **Limitations:** Does not dispel illusions, only reveals them.
 
-### Detect Invisibility (U) - Illusion
+### Detect Invisibility (Divination) - Illusionist
 
 **Range:** Caster
 
@@ -1300,7 +1300,7 @@ Enables the caster to see invisible objects and creatures:
 
 - **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
 
-### Gaze Reflection (W) - Illusion
+### Gaze Reflection (Alteration) - Illusionist
 
 **Range:** Caster
 
@@ -1316,7 +1316,7 @@ Creates a mirror-like shield that reflects gaze attacks:
     
 - **Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
 
-### Hypnotism (B) - Illusion
+### Hypnotism (Enchantment) - Illusionist
 
 **Range:** 15'
 
@@ -1332,7 +1332,7 @@ Induces a hypnotic state in one or more creatures:
     
 - **Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
 
-### <span id=Phantasmal-Force> Phantasmal Force </span> - Illusion
+### <span id=Phantasmal-Force> Phantasmal Force </span> (Illusion/Phantasm) - Illusionist
 
 **Range:** 60'
 
@@ -1352,7 +1352,7 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-### Phantom Armor (U) - Illusion
+### Phantom Armor (Illusion/Phantasm) - Illusionist
 
 **Range:** Caster
 
@@ -1372,7 +1372,7 @@ When cast, this spell creates a quasi-real suit of plate mail that provides the 
 
 **Material Component:** A small plate of mithral, worth 10 gp, is required to cast this spell. The mithral plate disappears when the spell is cast.
 
-### Read Magic (U) - Illusion
+### Read Magic (Divination) - Illusionist
 
 **Range:** Caster
 
@@ -1398,7 +1398,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-### Ventriloquism (U) - Illusion
+### Ventriloquism (Illusionist) - Illusion
 
 **Range:** 30'/level max 270'
 
@@ -1419,7 +1419,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-### Wall of Fog (R) - Illusion
+### Wall of Fog (Alteration) - Illusion
 
 **Range:** 90'
 
@@ -1439,7 +1439,7 @@ Creates a bank of misty vapor within the area of effect:
 
 ## <span id="spells#law-level-1"> 1st Level Law Spells </span>
 
-### Animal Friendship (G) - Law
+### Animal Friendship (Enchantment/Charm) - Law
 
 **Range:** 30'
 
@@ -1459,7 +1459,7 @@ Creates a bank of misty vapor within the area of effect:
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-### Bless (W) / Curse (B) - Law
+### Bless (Conjuration/Summoning) - Law
 
 **Range:** 60'
 
@@ -1482,7 +1482,7 @@ May be used in one of two situations:
 Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
 enemies instead. A save versus spells is allowed to resist the blight.
 
-### Calm Animals (G) - Law
+### Calm Animals (Enchantment/Charm) - Law
 
 **Range:** 120'
 
@@ -1504,7 +1504,7 @@ detailed:
 - **Specific Species:** All animals affected must belong to the same
   species, and all must be within the spell's range.
 
-### Command (B) - Law
+### Command (Enchantment/Charm) - Law
 
 **Range:** 90'
 
@@ -1524,7 +1524,7 @@ demihuman, or human-like monster, as follows:
 
 - **Restrictions:** Undead are not affected.
 
-### Courage (R) - Law
+### Courage (Enchantment/Charm) - Law
 
 **Range:** 120'
 
@@ -1545,7 +1545,7 @@ This spell imbues the target unit with a temporary burst of courage.
   due to this spell, the magical effect ceases. From then on, they must
   perform all morale checks as usual.
 
-### Cure Light Wounds (W) / Cause Light Wounds (B) - Law
+### Cure Light Wounds (Necromantic) - Law
 
 **Range:** Touch
 
@@ -1565,7 +1565,7 @@ This spell has two usages:
 Inflicts 1d8 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
-### Detect Evil (U) - Law
+### Detect Evil (Divination) - Law
 
 **Range:** Caster
 
@@ -1585,7 +1585,7 @@ are caused to magically glow:
   evil. Beings of chaotic alignment do not always have evil intent.
   Traps and poisons, while potentially harmful, are not evil.
 
-### Detect Magic (U) - Law
+### Detect Magic (Divination) - Law
 
 **Range:** Caster
 
@@ -1601,7 +1601,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-### Endure Cold & Heat (G) - Law
+### Endure Cold & Heat (Alteration) - Law
 
 **Range:** Touch
 
@@ -1618,7 +1618,9 @@ Bestows a creature with resistance to extreme temperatures, as follows:
   protected creature takes 1 damage point for every hour exposed for
   each degree past the limit.
 
-### Pass Without Trace (U) - Law
+- **Limitations:** The spell is immediately cancelled if the recipient is affected by any non-normal heat or cold, such as magic, breath weapons, and so on. 
+
+### Pass Without Trace (Enchantment/Charm) - Law
 
 **Range:** 60'
 
@@ -1661,7 +1663,7 @@ suitable to eat:
 
 The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
 
-### Protection from Evil (W) / Protection from Good (B) - Law
+### Protection from Evil (Abjuration) - Law
 
 **Range:** Caster
 
@@ -1687,7 +1689,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### Light (W) / Darkness (B) - Law
+### Light (Alteration) - Law
 
 **Range:** 120'
 
@@ -1713,7 +1715,7 @@ Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-### Read Magic (U) - Law
+### Read Magic (Divination) - Law
 
 **Range:** Caster
 
@@ -1740,7 +1742,7 @@ Allows the caster to decipher magical script or runes, as follows:
   without read magic.
 
 
-### Remove Fear (W) / Cause Fear (B) - Law
+### Remove Fear (Abjuration) - Law
 
 **Range:** 30'
 
@@ -1763,7 +1765,7 @@ Inflicts intense dread upon a target, as described:
 
 ## <span id="spells#law-level-2"> 2nd Level Law Spells </span>
 
-### Hold Person (W)
+### Hold Person (Enchantment/Charm) - Law
 
 **Range:** 180'
 
@@ -1781,7 +1783,7 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
 
-### Isphek's Burden (R)
+### Isphek's Burden (Alteration) - Law
 
 **Range:** 30'
 
@@ -1797,7 +1799,7 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
 
-### Messenger (G)
+### Messenger (Enchantment/Charm) - Law
 
 **Range:** 20'/level
 
@@ -1818,7 +1820,7 @@ advance toward the caster and await his or her bidding.
 no communication ability. 
 
 
-### Silence 15' Radius (U)
+### Silence 15' Radius (Alteration) - Law
 
 **Range:** 120'
 
@@ -1841,7 +1843,7 @@ no communication ability.
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
 
-### Remove Curse (W) / Bestow Curse
+### Remove Curse (Abjuration) - Law
 
 **Range:** Touch   
 
@@ -1855,7 +1857,7 @@ no communication ability.
 
 - **Restrictions:** The spell is unable to remove curses from magical items, but can remove the negative effects brought upon a character which was caused by the item.
 
-#### **Reversed:** Bestow Curse
+#### Reversed: Bestow Curse
 
 **Duration:** 1 turn/level
 
@@ -1867,7 +1869,7 @@ On touch, the target is granted a saving throw. If the creature fails the saving
 
 It is possible for a caster to devise his or her own curse, and it should be similar in power to those shown. Consult your referee.
 
-### Locate Object / Obscure Object (U)
+### Locate Object (Divination) - Law
 
 **Range:** 30'/level
 
@@ -1883,12 +1885,12 @@ It is possible for a caster to devise his or her own curse, and it should be sim
 
 - **Restrictions:** Neither application of the spell will affect a living creature or a corpse.
 
-#### **Reversed:** Obscure Object
+#### Reversed: Obscure Object
 By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
-### Animal Friendship (G) - Druid
+### Animal Friendship (Enchantment/Charm) - Druid
 
 **Range:** 30'
 
@@ -1908,7 +1910,7 @@ By reversal (obscure object), the caster is able to hide an object from location
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-### Detect Danger (U) - Druid
+### Detect Danger (Divination) - Druid
 
 **Range:** 5'/level
 
@@ -1928,7 +1930,7 @@ The caster can concentrate to detect dangers within range, such as traps, creatu
 
 **After Scanning:** The caster knows whether the area, creature, or object poses a danger to their person. This knowledge distinguishes between immediate dangers and potential dangers.
 
-### Entangle (W) - Druid
+### Entangle (Alteration) - Druid
 
 **Range:** 80'
 
@@ -1944,7 +1946,7 @@ All plants present in a 20' radius area within range bend and twist, entangling 
 
 - **On Successful Save:** The creature is able to move through the entangled area at half its normal movement rate.
 
-### Faerie Fire (R) - Druid
+### Faerie Fire (Alteration) - Druid
 
 **Range:** 60'
 
@@ -1971,9 +1973,9 @@ Selected objects or creatures in range are outlined with a lambent, green fire.
 
 - **Low Light:** Attacks on targets in low light conditions gain a +2 bonus to-hit.
 
-### Invisibility to Animals (U) - Druid
+### Invisibility to Animals (Divination) - Druid
 
-**Range:** Creature touched
+**Range:** Touch
 
 **Duration:** 1 turn
 
@@ -1981,7 +1983,7 @@ Selected objects or creatures in range are outlined with a lambent, green fire.
 
 - **Detection:** Renders the subject undetectable to all senses (smell, sight, hearing) or non-magical animals and able to wander among them completely unnoticed.
 
-### Locate Plant or Animal (G) - Druid
+### Locate Plant or Animal (Divination) - Druid
 
 **Range:** Caster
 
@@ -1995,7 +1997,7 @@ The caster can sense the direction (but not distance) of a non-magical, non-sent
 
 2. **Individual:** Locating a specific plant or animal which the caster can clearly visualize in all aspects.
 
-### Predict Weather (U) - Druid
+### Predict Weather (Divination) - Druid
 
 **Range:** 1 mile diameter/level
 
@@ -2005,7 +2007,7 @@ The caster can sense the direction (but not distance) of a non-magical, non-sent
 
 - **Forecast:** The caster gains accurate knowledge of the weather (sky, temperature, precipitation) in a square centering on the caster. For each level of experience of the caster, two hours advance weather can be forecast. Thus, at 1st level the caster knows what the weather will be for two hours; at second level he or she knows the weather for four hours in advance, etc.
 
-### Speak with Animals (G) - Druid
+### Speak with Animals (Alteration) - Druid
 
 **Range:** 30'
 

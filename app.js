@@ -66,6 +66,23 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+    
+    { 
+
+        title: 'Library Creation & Schools of Magic',
+        content: `Spell research is now more closer to 1e than 2e. It's not fully by the book but close enough. At least one week of spell research needs to be planned out, which makes sense. 
+        You can now also create a library by paying the cost it takes  
+            
+        
+        <b> Changes: </b>
+
+        - Spell research cost lowered.
+        - Spell research involves at least one initial week of prepping costs & planning.
+        . Added cost of and time of creating libraries.
+        - Changed spell colors to schools (abjuration, divination, necromantic etc)
+        `,
+        date: "2025-06-09 11:05 CET" 
+    },
 
     { 
 
