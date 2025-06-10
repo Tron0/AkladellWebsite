@@ -77,7 +77,8 @@ function loadUpdatePost()
 
         - Slightly different to-hit scalings per level. Under "calculating hits per level".
         - Fighters gain +1 to-hit per level.
-        - Barbs and fighter subclasses get +2 every other level. 
+        - Barbs and fighter subclasses get +2 every other level. For example.
+        
         `,
         date: "2025-06-10 10:40 CET" 
     },
@@ -95,6 +96,7 @@ function loadUpdatePost()
         - Spell research involves at least one initial week of prepping costs & planning.
         - Added cost and time of creating libraries.
         - Changed spell colors to schools (abjuration, divination, necromantic etc)
+
         `,
         date: "2025-06-09 11:05 CET" 
     },
@@ -112,6 +114,7 @@ function loadUpdatePost()
         - Expanded charisma table. Including procentile loyalty. 
         - Changed charisma table "maximum henchmen" to "maximum retainers".
         - Low intelligence PCs can still search :)
+
         `,
         date: "2025-06-01 01:11 CET" 
     },
