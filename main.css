@@ -78,6 +78,14 @@ h2 {
     color: #F34213; /* Color for h3 titles */
 }
 
+#content h4 {
+    font-size: large;
+    color: #13f34b; /* Color for h4 titles */
+    margin: 16px 0 16px 0;
+    border: 1px solid #434343;
+    padding: 8px;
+}
+
 body, p {
     color: white; /* Normal text in white */
 }

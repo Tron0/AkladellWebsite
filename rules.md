@@ -1799,7 +1799,7 @@ Level 0 henchmen can be recruited at first level. Below are rules for creation:
 - The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
 - Choose one category type from special abilities / "boons and banes".
 
-When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. 
+When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. [<u>Training</u>](#training) is needed for the henchmen to turn level 1. Treat the cost as if the henchmen has 500 xp. 
 
 ## Hirelings
 
@@ -1907,7 +1907,7 @@ Below are the steps to spell researching.
 
 - **Without Library:** 2000 SP x spell level x week
 
-#### **Creating a Library:**
+#### Creating a Library:
 
 - If no library exists, a caster may choose to invest the initial creation cost (2000 SP x spell level) during the first week to gather enough materials, thus creating a permanent library for future research at that spell level. This expense is incurred even if the initial research attempt fails.
 
@@ -1915,7 +1915,7 @@ Below are the steps to spell researching.
 initially. Regardless of success, a Level 1 spell library is now established. Future Level 1 research
 reduces to 200 SP per week.
 
-#### **Variable Costs:**
+#### Variable Costs:
 
 - Roll 1d4 per spell level, multiply the result by 100, then add this to the base cost per week. This
 accounts for texts, materials, and additional resources. 
@@ -1924,7 +1924,7 @@ accounts for texts, materials, and additional resources.
 
 > - **Example:** Level 2 spell research: You roll 2d4, totaling 5. Variable Cost: 5 x 100 = 500 SP. Base Cost (with library): 2 × 200 = 400 SP. Total Weekly Cost: 500 SP + 400 SP = 900 SP
 
-#### 3. **Time Requirement**
+### 3. Time Requirement
 
 - Spell research requires 1 week per spell level.
 - Additionally, the caster must spend a separate initial week purely gathering necessary materials and
@@ -1932,7 +1932,7 @@ preparing research tools. This week is separate from research weeks.
 
 - Formula: 1 initial week of preparation + (spell level × 1 research week)
 
-#### 4. **Success Determination**
+### 4. Success Determination
 
 - At the end of the research, calculate the chance of success: 
 
@@ -1946,7 +1946,7 @@ preparing research tools. This week is separate from research weeks.
 
 > - Failure: If the score rolled is greater than the percentage the caster must continue research for another week or abandon the research.
 
-#### 5. **Continuing Failed Research**
+### 5. Continuing Failed Research
 
 - For each additional week:
 
@@ -2084,25 +2084,34 @@ See [<u>ranged weapons</u>](#ranged-weapons) to note the ranges.
 
 ## <span id=calculating-hits> Calculating Hits per Level </span>
 
-Level 1 to 10
+When a character gains a new level, they might progress their combat capabilities and gain a better "to-hit" modifier depending on class.
 
-| **Class**  | Level 1 |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10  |
-|------------|---------|-----|-----|-----|-----|-----|-----|-----|-----|------|
-| Law Mage   | +0      | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4  | +5   |
-| Fighter\*  | +0      | +0  | +1  | +2  | +2  | +3  | +4  | +5  | +6  | +7   |
-| Chaos Mage | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
-| Specialist | +0      | +0  | +0  | +1  | +1  | +2  | +2  | +3  | +3  | +4   |
+#### Chaos Mages, Illusionists
 
-Level 11 to 20
+|**1-5**|**6-10**|**11-15**|**16-20**|
+|-------|--------|---------|---------|
+|+0     | +1     | +3      | +6      | 
 
-| **Class**  | 11 | 12 | 13 | 14 | 15 |  16  |  17  |  18  | 19  | 20  |
-|------------|----|----|----|----|-----|-----|-----|-----|-----|-----|
-| Law Mage   | +5 | +6 | +7 | +7 | +8  | +8  | +9  | +10 | +10 | +11 |
-| Fighter\*  | +7 | +8 | +9 | +9 | +10 | +11 | +12 | +12 | +13 | +13 |
-| Chaos Mage | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
-| Specialist | +5 | +5 | +5 | +6 | +6  | +7  | +7  | +7  | +7  | +8  |
+#### Barbarians, Rangers, Inquisitors
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
-*Includes Inquisitors
+#### Fighters
+|**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|
+|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+|+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
+
+#### Law Mages, Druids
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
+
+#### Specialists
+|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
+|-------|-------|--------|---------|---------|---------|
+| +0    | +1    | +4     | +6      | +8      | +10     |
+
 
 ## <span id=weapon-proficiencies> Weapon Proficiencies </span>
 
@@ -2334,7 +2343,7 @@ Roll four times on the table below.
 | Hand Crossbow              | S        |            | 150 SP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | —             | 1        | 20, 40, 60ft  |
 | Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | 20            |          |                | Piercing
 | Silver Hand Crossbow Bolt  |          | 1d3        | 5 SP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | 20            |          |                | Piercing
-| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip | 1 | 10 | 1 | 10, 20 , 30 | Piercing |                                 
+| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip | 1 | 10 | 3 | 10, 20 , 30 | Piercing |                                 
 | Hand Axe                   | S        | 1d6        | 4 SP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances. | 1 | — | 1 | 10, 20 , 30 | Slashing |                                                                   | 1          | 3            | 3        | 10, 20, 40ft   | Piercing
 | Spear, Thrown              | M        | 1d6        | 5 SP     | Lightweight and aerodynamic, this spear is crafted for distance and can simply be hurled at enemies. | 1 | 3 | 1 | 20, 40, 60, | Piercing |
 

@@ -69,9 +69,24 @@ function loadUpdatePost()
     
     { 
 
+        title: 'By the book to-hit per level',
+        content: `Organized the "to-hit" per level tables for different classes. Fighters scale faster compared to fighter subclasses such as inquisitor and ranger.
+            
+        
+        <b> Changes: </b>
+
+        - Slightly different to-hit scalings per level. Under "calculating hits per level".
+        - Fighters gain +1 to-hit per level.
+        - Barbs and fighter subclasses get +2 every other level. 
+        `,
+        date: "2025-06-10 10:40 CET" 
+    },
+    
+    { 
+
         title: 'Library Creation & Schools of Magic',
         content: `Spell research is now more closer to 1e than 2e. It's not fully by the book but close enough. At least one week of spell research needs to be planned out, which makes sense. 
-        You can now also create a libraries as well. This costs a lot but lowers the long term costs.
+        You can now also create libraries as well. This costs a lot but lowers the long term costs.
             
         
         <b> Changes: </b>
