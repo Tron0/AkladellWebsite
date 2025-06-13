@@ -291,7 +291,7 @@ The only restriction this has on character creation is that you cannot [<u>multi
 
 ## Dexterity
 
-| **Score** | **Ranged Weapon To-Hit Bonus/Penalty\*** | **Surprise Modifier** | **Armor Class Modifier** |
+| **Score** | **Ranged Weapon To-Hit Bonus/Penalty** | **Surprise Modifier** | **Armor Class Modifier** |
 |-----------|------------------------------------------|-----------------------|--------------------------|
 | 3         | -3                                       | -3                    | -4                       |
 | 4         | -2                                       | -2                    | -3                       |
