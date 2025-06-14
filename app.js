@@ -66,6 +66,23 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+
+        title: 'More HP More Problems',
+        content: `Health in the negatives has been a little bit annoying for me to keep track of during combat rounds, this and the potential of stronger player characters has left me with two choices: Doing death at 0 and giving PCs max HP at level 1, or the same but with a saving throw while keeping any dismemberment.
+        I'm opting for the second one to make it more simple and less predictable as I want to encourage tactics rather than anyone relying on the dice to defeat opposition.
+            
+        
+        <b> Changes: </b>
+
+        - Removing grevious wounds.
+        - Removing death at -10 (and henchmen death at -5)
+        - Adding unconscious at 0, save or die.
+        
+        `,
+        date: "2025-06-14 19:37 CET" 
+    },
     
     { 
 

@@ -2131,15 +2131,7 @@ If a character is not proficient when using a weapon, a penalty modifier is appl
 
 ## <span id=injury-&-death> Injury and Death </span>
 
-When a character is hit, the amount of damage is deducted from hit points (HP). When the total hit points reach 0, the character is unconscious, and if their HP are brought down to -10 or lower, the character dies. 
-
-Henchmen have a lower threshold than player characters and die at -5 HP.
-
-An unconscious character bleeds continuously without aid from others at a rate of 1 hp/round until death at -10 (or -5 if henchmen). Stopping a character from bleeding requires an intelligence check to be made (1d20 roll under intelligence). If successful, the character is stable.
-
-Sometimes when badly struck down, characters are affected with grievous wounds. All grievous wounds need to be removed in the same fashion as bleeding does but within 3 rounds. The player in control of the afflicted character may roll 1d6 at the start of each round; on a 1, they remove one grievous wound.
-
-Bleeding and grievous wounds are separate from one another and each require a separate intelligence check to remove. In the case of multiple grievous wounds, each successful check only removes one. Healing spells such as Cure Light Wounds can be used to stop bleeding in place of a bandage without regaining hit points but still require the intelligence check. 
+When a character is hit, the amount of damage is deducted from hit points (HP). When the total hit points reach 0, the character is unconscious. The unconscious character then makes a saving throw vs. death, if failed that character dies.
 
 ## <span id=creature-size> Creature Size </span>
 
