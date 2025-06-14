@@ -76,7 +76,7 @@ function loadUpdatePost()
         
         <b> Changes: </b>
 
-        - Removing grevious wounds.
+        - Removing grievous wounds.
         - Removing death at -10 (and henchmen death at -5)
         - Adding unconscious at 0, save or die.
         
