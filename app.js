@@ -69,6 +69,22 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Five Save Categories',
+        content: `Each class now has five different saving throw categories that scale with level, depending on class. This is slightly different from the S&W base save, just with more variation. 
+        Categories have different names. For example: Wands would be magical devices or "dodging missiles" save, breath weapon is large AoE, spell is the same and paralysis/poison is merged with death saves.
+            
+        
+        <b> Changes: </b>
+
+        - Changed saving throw into the 1e categories.
+        - Organized to hit scaling per level under each class description on the website.
+        
+        `,
+        date: "2025-06-16 12:27 CET" 
+    },
+
+    { 
+
         title: 'More HP More Problems',
         content: `Health in the negatives has been a little bit annoying for me to keep track of during combat rounds, this and the potential of stronger player characters has left me with two choices: Doing death at 0 and giving PCs max HP at level 1, or the same but with a saving throw while keeping any dismemberment.
         I'm opting for the second one to make it more simple and less predictable as I want to encourage tactics rather than anyone relying on the dice to defeat opposition.
