@@ -1920,12 +1920,11 @@ Henchmen need to be given suitable equipment and half a share of treasure after 
 
 ## Level 0 Henchmen
 
-Level 0 henchmen can be recruited at first level. Below are rules for creation:
+Level 0 henchmen can be recruited at first level. They do not begin with any starting equipment. Below are rules for creation:
 
 - Roll [<u>age</u>](#age).
 - Roll [<u>ability scores</u>](#ability-scores) as usual, without switching place between attributes.
 - Roll 1d4 HP.
-- Roll general equipment and class equipment of your choice.
 - Begin at -500 XP.
 - Roll [<u>background</u>](#backgrounds).
 - Roll [<u>psionics</u>](#psionics).

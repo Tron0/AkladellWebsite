@@ -122,7 +122,6 @@
 | 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
 | 3          |                | Speak With Animals |                           |                | Snake Charm           |               |                       |                 |
 
-
 ## [3rd Level Law Spells](#spells#law-level-3)
 
 | **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
@@ -1839,6 +1838,22 @@ no communication ability.
 **Casting Upon Objects:**
 
 - The spell may be cast upon an object, causing that object to create no sound. For example, it may be cast upon a door, so that it may be bashed down without noise.
+
+### Snake Charm (Enchantment/Charm) - Law
+
+**Range:** 60'
+
+**Duration:** Special
+
+**Casting Time:** 5 segments
+
+**AoE:** 30 ft cube
+
+One or more snakes are rendered non-hostile, rearing up and swaying to and fro but not attacking.
+
+- **HD affected:** The spell affects up to 1 HD of snakes per level of the caster. For example, a 6th level caster could affect three 2 HD snakes, two 3 HD snakes, etc.
+
+- **Duration:** When cast on snakes that are already attacking, the spell lasts for 1d4+1 rounds. Otherwise, it lasts for 1d4+1 turns.
 
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
