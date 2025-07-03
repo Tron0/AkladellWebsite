@@ -686,9 +686,11 @@ Summons a familiar to aid the caster:
 
 **Casting Time:** 1 segment
 
-- **Strength:** Allows caster to use one hand as if having a strength of 18.
+- **Strength:** Allows caster to use one hand as if having a strength of 18/00. It is flexible and can be used to punch, smash, or crush objects.
 
-- **Combat:** Bonuses apply only when using the stone fist.
+- **Combat:** Combat bonuses for Strength do not apply if the caster uses any weapon other than his fist. 
+
+- **Spell Restriction:** While the spell is in effect, the magic user cannot cast spells requiring somatic components. 
 
 ### Floating Disc (Evocation) - Chaos
 
