@@ -207,7 +207,7 @@ gains a thief level and the player rolls 1d4
 for hit points. The result is a 3, meaning
 that the character gains 1½ hit points.
 Upon gaining a fighter level, the player
-rolls 1d8 for hit points. The result is a 5,
+rolls 1d10 for hit points. The result is a 5,
 meaning that the character gains 2½ hit
 points. The half hit points gained for the
 thief and fighter levels add up to a whole
@@ -261,8 +261,8 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 
 ## <span id=subclasses> Subclasses </span>
 
-Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), 
-which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
+Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
+
 The only restriction this has on character creation is that you cannot [<u>multiclass</u>](#multiclassing) subclasses with each other, or combine a subclass with a main class.
 
 # <span id=ability-scores> Ability Scores </span>
@@ -393,102 +393,6 @@ The only restriction this has on character creation is that you cannot [<u>multi
 | 18        | 15              | +40%                                 | +35%                  | 
 
 # <span id=classes> Classes </span>
-
-## <span id=barbarian> Barbarian </span>
-
-**Minimum Requirement:** 9+ Constitution.
-
-**Prime Attribute:** 16+ Constitution (+10% experience bonus).
-
-**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level).
-
-**Armor/Shield Permitted**: Light armor, medium armor, shield.
-
-**Weapons Permitted:** Any, except bows/crossbows.
-
-### Starting Equipment
-
-Roll 1d6 for armor and 1d6 twice for weapons.
-
-| **Result (1d6)** | **Armor** | **Weapons** |
-|--------------|-------|---------|
-| 1            | Hide | Club
-| 2            | Hide + Buckler | Morningstar
-| 3            | Padded | Dagger
-| 4            | Studded Leather | 3 Spears, thrown
-| 5            | Scale Mail + Medium Shield | Great Axe
-| 6            | Splint Mail | Zweihänder
-
-### Talents
-
-**Alertness:** A Barbarian is unlikely to be surprised, 
-with only a 1-in-6 chance under normal circumstances. 
-This amount is decreased by 1 if the chance of surprise is higher. 
-For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
-
-**Hear Sound:** A Barbarian can hear well when concentrating; this
-mainly includes listening at doors, but can also be used to hear un-
-usual or discordant sounds in the wilderness. They are able to listen at doors
-on a 1-3 on 1d6. 
-
-**Keen Instincts:** Barbarians can detect and concealed doors easier
-than others. They are able to discover secret and hidden doors on a 1-4
-on 1d6.
-
-**Savage Blows:** Barbarians gain an extra +2 to all damage rolls made in melee combat and from heavy thrown weapons such as javelins.
-
-**Swift Runner:** Barbarians move quicker than other humans and have a base movement rate of 15 instead of the standard 12 (if unarmored).
-
-**Wilderness Survival:** Barbarians are adept at surviving in the wild
-places of the world and are always able to find food and water to
-sustain themselves when in the wilderness.
-
-**Multiple Attacks (8th):** At 8th level, a Barbarian may attack twice per round instead of once.
-
-### Barbarian Advancement Table
-
-| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|---------------------------|--------------------|------------------|--------------------------|-----------------------|
-| 1         | 0                         | 1                  | 15               | 4                        | Bushwacker            |
-| 2         | 2,500                     | 2                  | 14               | 4                        | Berserker             |
-| 3         | 5,000                     | 3                  | 13               | 5                        | Ravager               |
-| 4         | 10,000                    | 4                  | 12               | 5                        | Savage Commander      |
-| 5         | 20,000                    | 5                  | 11               | 5                        | Chieftain             |
-| 6         | 40,000                    | 6                  | 10               | 6                        | Berserker Chief       |
-| 7         | 90,000                    | 7                  | 9                | 6                        | Hordechief            |
-| 8         | 160,000                   | 8                  | 8                | 6                        | Conqueror             |
-| 9         | 275,000                   | 9+4                | 7                | 7                        | High Conqueror        |
-| 10        | 400,000                   | 9+8                | 6                | 7                        |                       |
-| 11        | 530,000                   | 9+12               | 5                | 7                        |                       |
-| 12        | 660,000                   | 9+16               | 5                | 8                        |                       |
-| 13        | 790,000                   | 9+20               | 5                | 8                        |                       |
-| 14        | 920,000                   | 9+24               | 5                | 8                        |                       |
-| 15        | 1,050,000                 | 9+28               | 5                | 9                        |                       |
-| 16        | 1,180,000                 | 9+32               | 5                | 9                        |                       |
-| 17        | 1,310,000                 | 9+36               | 5                | 9                        |                       |
-| 18        | 1,440,000                 | 9+40               | 5                | 10                       |                       |
-| 19        | 1,570,000                 | 9+44               | 5                | 10                       |                       |
-| 20        | 1,700,000                 | 9+48               | 5                | 10                       |                       |
-
-#### Saving Throws
-
-| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
-|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
-| 1 – 2       | 14                                       | 15                             | 16                      | 17                | 17        |
-| 3 – 4       | 13                                       | 14                             | 15                      | 16                | 16        |
-| 5 – 6       | 11                                       | 12                             | 13                      | 13                | 14        |
-| 7 – 8       | 10                                       | 11                             | 12                      | 12                | 13        |
-| 9 – 10      | 8                                        | 9                              | 10                      | 9                 | 11        |
-| 11 – 12     | 7                                        | 8                              | 9                       | 8                 | 10        |
-| 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
-| 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
-| 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
-|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
 ## <span id=chaos-mage> Chaos Mage </span>
 
@@ -776,8 +680,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Talents
 
-**Hit & Damage Bonuses:** Fighters gain a hit and damage bonus as seen
-on the strength & dexterity ability score sections.
+**Cleave:** When a Fighter successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Fighter each round.
 
 **Multiple Attacks (5th):** At 5th level, a Fighter may attack twice per round instead of once.
 
@@ -826,6 +729,102 @@ on the strength & dexterity ability score sections.
 |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
 |+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
 
+## <span id=barbarian> Barbarian </span>
+
+**Minimum Requirement:** 9+ Strength, 13+ Dexterity, 13+ Constitution
+
+**Prime Attribute:** 16+ Dexterity, 16+ Constitution (+10% experience bonus).
+
+**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level).
+
+**Armor/Shield Permitted**: Light armor, medium armor, shield.
+
+**Weapons Permitted:** Any, except bows/crossbows.
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)** | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | Hide | Club
+| 2            | Hide + Buckler | Morningstar
+| 3            | Padded | Dagger
+| 4            | Studded Leather | 3 Spears, thrown
+| 5            | Scale Mail + Medium Shield | Great Axe
+| 6            | Splint Mail | Zweihänder
+
+### Talents
+
+**Alertness:** A Barbarian is unlikely to be surprised, 
+with only a 1-in-6 chance under normal circumstances. 
+This amount is decreased by 1 if the chance of surprise is higher. 
+For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
+
+**Cleave:** When a Barbarian successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Barbarian each round.
+
+**Hear Sound:** A Barbarian can hear well when concentrating; this
+mainly includes listening at doors, but can also be used to hear un-
+usual or discordant sounds in the wilderness. They are able to listen at doors
+on a 1-3 on 1d6. 
+
+**Keen Instincts:** Barbarians can detect and concealed doors easier
+than others. They are able to discover secret and hidden doors on a 1-4
+on 1d6.
+
+**Swift Runner:** Barbarians move quicker than other humans and have a base movement rate of 15 instead of the standard 12 (if unarmored).
+
+**Wilderness Survival:** Barbarians are adept at surviving in the wild
+places of the world and are always able to find food and water to
+sustain themselves when in the wilderness.
+
+**Multiple Attacks (8th):** At 8th level, a Barbarian may attack twice per round instead of once.
+
+### Barbarian Advancement Table
+
+| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
+|-----------|---------------------------|--------------------|------------------|--------------------------|-----------------------|
+| 1         | 0                         | 1                  | 15               | 4                        | Bushwacker            |
+| 2         | 2,500                     | 2                  | 14               | 4                        | Berserker             |
+| 3         | 5,000                     | 3                  | 13               | 5                        | Ravager               |
+| 4         | 10,000                    | 4                  | 12               | 5                        | Savage Commander      |
+| 5         | 20,000                    | 5                  | 11               | 5                        | Chieftain             |
+| 6         | 40,000                    | 6                  | 10               | 6                        | Berserker Chief       |
+| 7         | 90,000                    | 7                  | 9                | 6                        | Hordechief            |
+| 8         | 160,000                   | 8                  | 8                | 6                        | Conqueror             |
+| 9         | 275,000                   | 9+4                | 7                | 7                        | High Conqueror        |
+| 10        | 400,000                   | 9+8                | 6                | 7                        |                       |
+| 11        | 530,000                   | 9+12               | 5                | 7                        |                       |
+| 12        | 660,000                   | 9+16               | 5                | 8                        |                       |
+| 13        | 790,000                   | 9+20               | 5                | 8                        |                       |
+| 14        | 920,000                   | 9+24               | 5                | 8                        |                       |
+| 15        | 1,050,000                 | 9+28               | 5                | 9                        |                       |
+| 16        | 1,180,000                 | 9+32               | 5                | 9                        |                       |
+| 17        | 1,310,000                 | 9+36               | 5                | 9                        |                       |
+| 18        | 1,440,000                 | 9+40               | 5                | 10                       |                       |
+| 19        | 1,570,000                 | 9+44               | 5                | 10                       |                       |
+| 20        | 1,700,000                 | 9+48               | 5                | 10                       |                       |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 2       | 14                                       | 15                             | 16                      | 17                | 17        |
+| 3 – 4       | 13                                       | 14                             | 15                      | 16                | 16        |
+| 5 – 6       | 11                                       | 12                             | 13                      | 13                | 14        |
+| 7 – 8       | 10                                       | 11                             | 12                      | 12                | 13        |
+| 9 – 10      | 8                                        | 9                              | 10                      | 9                 | 11        |
+| 11 – 12     | 7                                        | 8                              | 9                       | 8                 | 10        |
+| 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
+| 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
+| 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
+
+### Calculating To Hit Modifier by Level
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+
 ## <span id=inquisitor> Inquisitor </span>
 
 **Minimum Requirement:** 13+ Strength, +9 Constitution, +9 Intelligence, +13 Wisdom, +17
@@ -872,9 +871,6 @@ one round. This ability detects evil monsters and characters.
 **Disease immunity:** An Inquisitor is immune to all forms of disease.
 (Note that certain magical afflictions—lycanthropy and mummy rot—are
 curses and not diseases.)
-
-**Hit & Damage Bonuses:** Inquisitors gain a hit and damage bonus as
-seen on the strength & dexterity ability score sections.
 
 **Lay on Hands:** An Inquisitor can “lay on hands” once per day to cure
 others or one self of 2 hit points of damage per level of the Inquisitor, or to cure
@@ -1016,9 +1012,6 @@ attack roll in melee.
 - Tasloi
 - Troll
 - Xvart
-
-**Hit & Damage Bonuses:** Rangers gain a hit and damage bonus as
-seen on the strength & dexterity ability score sections.
 
 **Pursuit:** When the Ranger's party pursues an opposing group in the wilderness, 
 the chance of evasion is reduced by 10%.
@@ -2322,9 +2315,8 @@ If a character is not proficient when using a weapon, a penalty modifier is appl
 | Specialist | -3                 | 
 | Law Mage   | -3                 | 
 | Chaos Mage | -5                 | 
-| Barbarian  | -2                 | 
 
-*Includes Inquisitors
+*Includes Barbarians, Inquisitors, Rangers
 
 ## <span id=injury-&-death> Injury and Death </span>
 

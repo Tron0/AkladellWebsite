@@ -69,6 +69,25 @@ function loadUpdatePost()
     
     { 
 
+        title: 'Fighter Cleave & Barb subclassing',
+        content: `A rule inside the AD&D DMG mentions what some people call "Sweep" attacks. This grants fighters a way to quickly disperse of <1 HD creatures in melee.
+        I do think it's a fair thing to give fighters a bit more of "heroicism" when it comes to slaying goblins, however I'm going with a different rule. 
+        This is similar in that it grants extra attacks, but only when the PC kills an enemy within range. Only Fighters and Barbarians are given this talent. 
+
+        Barbarians are now also a Fighter subclass, they do not get a melee damage bonus anymore but instead gain exceptional/superior strength.
+        
+        <b> Changes: </b>
+
+        - Fighters and Barbarians can now "Cleave".
+        - Barbarian is now a Fighter subclass.
+        - Some of the prerequisite stat requirements are a bit higher for barbarians.
+        
+        `,
+        date: "2025-07-10 20:28 CET" 
+    },
+    
+    { 
+
         title: 'More languages',
         content: `Optional table added that encompasses a bunch of random monsters, roll it and have fun. In other news, the intelligence and wisdom % to learn spells are slightly lower. 
         The reason for this is that they only go up to 85% in AD&D.
