@@ -4,6 +4,11 @@
 
 | Date | Session | Character | Cause |
 |------|---------|-----------|-------|
+| 2025-06-20 | 3C | Screech  | *Death by 12 giant rats*
+| 2025-06-19 | 80A | Buttons VII  | *Perished by skeleton*
+| 2025-06-17 | 22B | Lemmen  | *Threw oil flask on themselves*
+| 2025-06-13 | 79A | Thorstain  | *Eaten by zombies*
+| 2025-06-08 | 21B | Brutus  | *Eaten by Rhagodessa*
 | 2025-06-01 | 20B | Ulfric  | *Executed by a Rhagodessa*
 | 2025-05-30 | 19B | Sandrokan  | *Grabbed and bitten by a Rhagodessa*
 | 2025-05-30 | 19B | Kamelon  | *Poisoned by a stray spider*

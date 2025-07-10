@@ -328,43 +328,44 @@ The only restriction this has on character creation is that you cannot [<u>multi
 
 ## Intelligence
 
-| **Score** | **Spoken Languages**     | **Literacy** |**Search** | **Chance to Understand Chaos Spell\*** |
+| **Score** | **Spoken Languages**\*     | **Literacy** |**Search** | **Chance to Understand Chaos Spell**** |
 |-----------|--------------------------|--------------|-----------|--------------------------------------|
-| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 30%                                  |
-| 8         | Native                   | Basic        | 1 / 6     | 40%                                  |
-| 9         | Native                   | Literate     | 1 / 6     | 45%                                  |
-| 10        | Native                   | Literate     | 1 / 6     | 50%                                  |
-| 11        | Native                   | Literate     | 1 / 6     | 50%                                  |
-| 12        | Native                   | Literate     | 1 / 6     | 55%                                  |
-| 13        | Native + 1 additional    | Literate     | 1 / 6     | 65%                                  |
-| 14        | Native + 1 additional    | Literate     | 1 / 6     | 65%                                  |
-| 15        | Native + 1 additional    | Literate     | 2 / 6     | 75%                                  |
-| 16        | Native + 2 additional    | Literate     | 2 / 6     | 75%                                  |
-| 17        | Native + 2 additional    | Literate     | 3 / 6     | 85%                                  |
-| 18        | Native + 3 additional    | Literate     | 4 / 6     | 95%                                  |
+| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 35%                                  |
+| 8         | Native +1                | Basic        | 1 / 6     | 35%                                  |
+| 9         | Native +1                | Literate     | 1 / 6     | 35%                                  |
+| 10        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 11        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 12        | Native +3                | Literate     | 1 / 6     | 45%                                  |
+| 13        | Native +3                | Literate     | 1 / 6     | 55%                                  |
+| 14        | Native +4                | Literate     | 1 / 6     | 55%                                  |
+| 15        | Native +4                | Literate     | 2 / 6     | 65%                                  |
+| 16        | Native +5                | Literate     | 2 / 6     | 65%                                  |
+| 17        | Native +6                | Literate     | 3 / 6     | 75%                                  |
+| 18        | Native +7                | Literate     | 4 / 6     | 85%                                  |
 
-\*For [<u>chaos mages</u>](#chaos-mage)
+\* Native plus additonal languages.
+\**For [<u>chaos mages</u>](#chaos-mage).
 
 ## Wisdom
 
 | **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
 |-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
-| 3         | -3              | -                        | 20%                         | 30%
-| 4         | -2              | -                        | 15%                         | 30%
-| 5         | -1              | -                        | 10%                         | 30%
-| 6         | -1              | -                        | 5%                          | 30%
-| 7         | -1              | -                        | 1%                          | 30%
-| 8         | +0              | -                        | 0%                          | 40%
-| 9         | +0              | -                        | 0%                          | 45%
-| 10        | +0              | -                        | 0%                          | 50%
-| 11        | +0              | -                        | 0%                          | 50%
-| 12        | +0              | -                        | 0%                          | 55%
-| 13        | +0              | -                        | 0%                          | 65%
-| 14        | +0              | -                        | 0%                          | 65%
-| 15        | +1              | One 1st level            | 0%                          | 75%
-| 16        | +2              | One 2nd level            | 0%                          | 75%
-| 17        | +3              | One 3rd level            | 0%                          | 85%
-| 18        | +4              | One 4th level            | 0%                          | 95%
+| 3         | -3              | -                        | 20%                         | 35%
+| 4         | -2              | -                        | 15%                         | 35%
+| 5         | -1              | -                        | 10%                         | 35%
+| 6         | -1              | -                        | 5%                          | 35%
+| 7         | -1              | -                        | 1%                          | 35%
+| 8         | +0              | -                        | 0%                          | 35%
+| 9         | +0              | -                        | 0%                          | 35%
+| 10        | +0              | -                        | 0%                          | 45%
+| 11        | +0              | -                        | 0%                          | 45%
+| 12        | +0              | -                        | 0%                          | 45%
+| 13        | +0              | -                        | 0%                          | 55%
+| 14        | +0              | -                        | 0%                          | 55%
+| 15        | +1              | One 1st level            | 0%                          | 65%
+| 16        | +2              | One 2nd level            | 0%                          | 65%
+| 17        | +3              | One 3rd level            | 0%                          | 75%
+| 18        | +4              | One 4th level            | 0%                          | 85%
 
 \*For [<u>law mages</u>](#law-mage)
 
@@ -859,6 +860,8 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Limited Possessions:** An Inquisitor may only keep wealth and possessions that can be kept on their person. Excess must be donated to worthy causes (not other PCs). This restriction is lifted when the character becomes a Paladin.
 
+**Tithe:** In addition to not retaining wealth, Inquisitors also need to tithe 10% of their earnings immediately after shares are split.
+
 ### Talents
 
 **Detect Evil**: An Inquisitor can detect the presence of evil intent up
@@ -875,12 +878,12 @@ seen on the strength & dexterity ability score sections.
 
 **Lay on Hands:** An Inquisitor can “lay on hands” once per day to cure
 others or one self of 2 hit points of damage per level of the Inquisitor, or to cure
-disease. If the other person is afflicted by more than one disease, only
-one of these will be affected per five levels the Inquisitor has
-attained. This takes one round to cast.
+disease. This takes one round to cast while curing disease can only be done once per week per five levels of experience.
 
 **Protection from Evil Aura:**
 The Inquisitor has a continious 10' emanation of a *protection from evil* spell.
+
+**Saving Throw Bonus:** Inquisitors gain a +2 bonus on saving throws.
 
 **Strong Willed:** Whenever the Inquisitor is under the effects of a
 spell that incapacitates the body or mind (sleep, hold, charm,
@@ -1708,7 +1711,9 @@ cannot occur during days allocated for resting.
 
 ## Common Langauges
 
-Pick or roll on the table below.
+Either pick a language on the "common language" table, or roll on the "foreign tongue" table.
+
+### Common Language
 
 | **Result (1d10)** | **Result** | 
 |------------|--------------------------------|
@@ -1722,6 +1727,73 @@ Pick or roll on the table below.
 | 8          | Orcish                         |
 | 9          | Avian                          |
 | 10         | Nomad                          |
+
+### Foreign Tongue
+
+| **Result (1d100)** | **Result**                         |
+| ------------------ | ---------------------------------- |
+| 01                 | Brownie                            |
+| 02 - 03            | Bugbear                            |
+| 04                 | Centaur                            |
+| 05 - 06            | Demonic                            |
+| 07                 | Dragon, Amethyst                   |
+| 08                 | Dragon, Blue                       |
+| 09                 | Dragon, Bronze                     |
+| 10                 | Dragon, Copper                     |
+| 11                 | Dragon, Crystal                    |
+| 12                 | Dragon, Emerald                    |
+| 13                 | Dragon, Gold                       |
+| 14                 | Dragon, Green                      |
+| 15                 | Dragon, Red                        |
+| 16                 | Dragon, Sapphire                   |
+| 17                 | Dragon, Silver                     |
+| 18                 | Dragon, Topaz                      |
+| 19                 | Dragon, White                      |
+| 20                 | Dryad                              |
+| 21                 | Duergar                            |
+| 22                 | Ettin                              |
+| 23 - 25            | Fey                                |
+| 26                 | Gargoyle                           |
+| 27                 | Giant, Cloud                       |
+| 28                 | Giant, Fire                        |
+| 29                 | Giant, Frost                       |
+| 30 - 33            | Giant, Hill                        |
+| 34                 | Giant, Stone                       |
+| 35                 | Giant, Storm                       |
+| 36 - 38            | Gnoll                              |
+| 39 - 43            | Goblin                             |
+| 44 - 46            | Hobgoblin                          |
+| 47                 | Lammasu                            |
+| 48 - 51            | Lizard Man                         |
+| 52                 | Manticore                          |
+| 53                 | Medusian                           |
+| 54                 | Minotaur                           |
+| 55                 | Naga, Guardian                     |
+| 56                 | Naga, Nixie                        |
+| 57                 | Naga, Spirit                       |
+| 58                 | Naga, Water                        |
+| 59                 | Nymph                              |
+| 60 - 63            | Ogrish                             |
+| 64                 | Ogre Magian                        |
+| 65                 | Pixie                              |
+| 66                 | Salamander                         |
+| 67                 | Satyr                              |
+| 68                 | Sprite                             |
+| 69                 | Sylph                              |
+| 70 - 73            | Thieves Cant'                      |
+| 74                 | Thracian                           |
+| 75                 | Titan                              |
+| 76                 | Treant                             |
+| 77                 | Troglodyte                         |
+| 78                 | Troll                              |
+| 79                 | Werebear                           |
+| 80                 | Wereboar                           |
+| 81                 | Wererat                            |
+| 82                 | Weretiger                          |
+| 83                 | Werewolf                           |
+| 84                 | Xorn                               |
+| 86                 | Xvart                              |
+| 87 - 00            | Reroll, ignoring rolls over 86     |
 
 # <span id=psionics> Psionics </span>
 

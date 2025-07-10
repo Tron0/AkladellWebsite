@@ -66,6 +66,22 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+    
+    { 
+
+        title: 'More languages',
+        content: `Optional table added that encompasses a bunch of random monsters, roll it and have fun. In other news, the intelligence and wisdom % to learn spells are slightly lower. 
+        The reason for this is that they only go up to 85% in AD&D.
+        
+        <b> Changes: </b>
+
+        - Added foreign tongue language table.
+        - More languages per level under INT.
+        - Overall lower % to learn spells under INT and WIS. 
+        
+        `,
+        date: "2025-07-10 16:15 CET" 
+    },
 
     { 
 
