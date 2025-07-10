@@ -990,9 +990,32 @@ This amount is decreased by 1 if the chance of surprise is higher.
 For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
 
 **Giants and Goblin-types:** Rangers are well trained to deal with
-giants, trolls, ogres, orcs, goblins, and kobolds. Against any of these
-sorts of monsters, Rangers gain +1 damage per level with a successful
+giants and other similar monsters. Against any of these
+sorts of monsters from the table below grants  Rangers to gain +1 damage per level with a successful
 attack roll in melee.
+
+- Bugbear
+- Cyclopskin
+- Dune Stalker
+- Etti
+- Flind
+- Giant
+- Gibberling
+- Gnoll
+- Goblin
+- Grimlock
+- Hobgoblin
+- Kobold
+- Meazel
+- Norker
+- Ogre
+- Ogre Mage
+- Ogrillon
+- Orc
+- Quaggoth
+- Tasloi
+- Troll
+- Xvart
 
 **Hit & Damage Bonuses:** Rangers gain a hit and damage bonus as
 seen on the strength & dexterity ability score sections.
