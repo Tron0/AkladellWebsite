@@ -2,11 +2,11 @@
 
 ## [Cantrips](#spells#cantrips)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         |                       |                 |
+| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         | Hide                  |                 |
 | 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Color         |                       |                 |
-| 3          |                | Gather         |                           |                |                       | Warm          |                       |                 |
+| 3          |                | Gather         | Spider                    |                |                       | Warm          |                       |                 |
 | 4          |                | Open           |                           |                |                       |               |                       |                 |
 | 5          |                | Sprout         |                           |                |                       |               |                       |                 |
 | 6          |                | Stitch         |                           |                |                       |               |                       |                 |
@@ -15,7 +15,7 @@
 
 ## [1st Level Chaos Spells](#spells#chaos-level-1)
 
-| **Number** | **Abjuration**       | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration**       | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
 | 1          | Alarm                | Burning Hands  | Armor                     | Detect Magic   | Charm Person          | Floating Disc | Change Self           | Chill Touch    |
 | 2          | Protection from Evil | Enlarge        | Find Familiar             | Detect Undead  | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
@@ -26,75 +26,74 @@
 | 7          |                      | Lasting Breath |                           |                |                       |               |                       |                |
 | 8          |                      | Light          |                           |                |                       |               |                       |                |
 | 9          |                      | Mending        |                           |                |                       |               |                       |                |
-| 10          |                      | Message        |                           |                |                       |               |                       |                |
+| 10         |                      | Message        |                           |                |                       |               |                       |                |
 | 11         |                      | Spider Climb   |                           |                |                       |               |                       |                |
 | 12         |                      | Wizard Mark    |                           |                |                       |               |                       |                |
 	
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       |               | Phantasmal Force      |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          |                | Infravision    |                           |                |                       |               |                       |                |
+| 1          |                | Blink          |                           |                | Hold Person           |               | Phantasmal Force      |                |
+| 2          |                | Infravision    |                           |                |                       |               |                       |                |
+| 3          |                |                |                           |                |                       |               |                       |                |
+| 4          |                |                |                           |                |                       |               |                       |                |
+| 5          |                |                |                           |                |                       |               |                       |                |
+| 6          |                |                |                           |                |                       |               |                       |                |
 
+## [4th Level Chaos Spells](#spells#chaos-level-4)
+
+| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**  | **Necromancy**  |
+| ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | ---------------------  | --------------- |
+| 1          |                | Enchanted Weapon |                           |                |                       | Dig           | Hallucionatory Terrain |                 |
+| 2          |                | Wizard Eye       |                           |                |                       | Fire Shield   |                        |                 |
+| 3          |                |                  |                           |                |                       | Wall of Ice   |                        |                 |
+| 4          |                |                  |                           |                |                       |               |                        |                 |
+| 5          |                |                  |                           |                |                       |               |                        |                 |
+| 6          |                |                  |                           |                |                       |               |                        |                 |
+
+## [5th Level Chaos Spells](#spells#chaos-level-5)
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
+| 1          | Dismissal      |                |                           |                |                       |               |                       | Animate Dead   |
+
+## [6th Level Chaos Spells](#spells#chaos-level-6)
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**          | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|------------------------|-----------------------|----------------|
+| 1          |                |                |                           | True Name      |                       | Bigby's Forceful Hand  |                       |                |
+
+## [7th Level Chaos Spells](#spells#chaos-level-7)
+
+| **Number** | **Abjuration** | **Alteration**            | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**          | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|---------------------------|---------------------------|----------------|-----------------------|------------------------|-----------------------|----------------|
+| 1          |                | Teleport Without Error    |                           |                |                       | Mordenkainen's Sword   |                       |                |
+
+## [8th Level Chaos Spells](#spells#chaos-level-8)
+
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm**         | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-------------------------------|---------------|-----------------------|----------------|
+| 1          |                |                |                           |                | Otto's Irresistable Dance     |               |                       |                |
 
 ## [9th Level Chaos Spells](#spells#chaos-level-9)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       | Contingency   |                       |                |
 
 
-<!-- 
-## [2nd Level Chaos Spells](#spells#chaos-level-2)
-|**Number**| **White (W)**                            | **Blue (U)**         | **Black (B)**  | **Red (R)**      | **Green (G)**    |
-|----------|------------------------------------------|----------------------|----------------|------------------|------------------|
-|    1     | Continual Light / Continual Darkness (B) | Detect Evil          |                | Knock            |                  |
-|    2     | Web                                      | Detect Invisible     |                | Levitate         |                  |
-|    3     | Wizard Lock                              | ESP                  |                |                  |                  |
-|    4     |                                          | Locate Object        |                |                  |                  |
-|    5     |                                          | Mirror Image         |                |                  |                  |
-|    6     |                                          | Phantasmal Force     |                |                  |                  |
-|    7     |                                          |                      |                |                  |                  |
-|    8     |                                          |                      |                |                  |                  |
-|    9     |                                          |                      |                |                  |                  |
-
-
-## [3rd Level Chaos Spells](#spells#chaos-level-3)
-|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
-|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
-|    1     | Dispel Magic                     | Clairvoyance               |                | Infravision      | Water Breating   |
-|    2     | Hold Person                      | Invisibility 10' Radius    |                | Fireball         |                  |
-|    3     | Protection from Evil 10' Radius  |                            |                | Fly              |                  |
-|    4     | Protection from Normal Missiles  |                            |                | Haste            |                  |
-|    5     |                                  |                            |                | Lightning Bolt   |                  |
-
-## [4th Level Chaos Spells](#spells#chaos-level-4)
-|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
-|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
-|    1     | Remove Curse / Curse (B)         | Dimension Door             | Charm Monster  | Massmorph        | Growth of Plants |
-|    2     |                                  | Hallucinatory Terrain      | Confusion      | Polymorph Others | Wall of Ice      |
-|    3     |                                  | Wizard Eye                 |                | Polymorph Self   |                  |
-|    4     |                                  |                            |                | Wall of Fire     |                  |
-
-## [5th Level Chaos Spells](#spells#chaos-level-5)
-|**Number**| **White (W)**                    | **Blue (U)**               | **Black (B)**  | **Red (R)**      | **Green (G)**    |
-|----------|----------------------------------|----------------------------|----------------|------------------|------------------|
-|    1     | Remove Curse / Curse (B)         | Dimension Door             | Charm Monster  | Massmorph        | Growth of Plants |
-|    2     |                                  | Hallucinatory Terrain      | Confusion      | Polymorph Others | Wall of Ice      |
-|    3     |                                  | Wizard Eye                 |                | Polymorph Self   |                  |
-|    4     |                                  |                            |                | Wall of Fire     |                  | -->
-
 ## [1st Level Illusion Spells](#spells#illusion-level-1)
 
-| **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | --------------- | ------------------------- | ------------------- | --------------------- | ------------- | --------------------- | --------------- |
 | 1          | Alarm          | Color Spray     |                           | Detect Illusion     | Hypnotism             | Chromatic Orb | Audible Glamer        |                 |
 | 2          |                | Dancing Lights  |                           | Detect Invisibility |                       |               | Change Self           |                 |
@@ -105,7 +104,7 @@
 
 ## [1st Level Law Spells](#spells#law-level-1)
 
-| **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**   |
+| **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
 | ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
 | 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
 | 2          | Protection From Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
@@ -116,7 +115,7 @@
 
 ## [2nd Level Law Spells](#spells#law-level-2)
 
-| **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | Isphek's Burden    |                           | Find Traips    | Hold Person           |               |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
@@ -124,7 +123,7 @@
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
-| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
 | 1          | Cure Blindness | Continual Light  |                           | Locate Object  |                       |               |                       | Animate Dead    |
 | 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       | Speak With Dead |
@@ -133,7 +132,7 @@
 
 ## [4th Level Law Spells](#spells#law-level-4)
 
-| **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**     |
+| **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**     |
 |------------|----------------------------------|---------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|---------------------|
 | 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | Cure Serious Wounds |
 | 2          | Neutralize Poison                | Speak with Plants   |                           |                |                       |               |                       |                     |
@@ -142,21 +141,21 @@
 
 ## [5th Level Law Spells](#spells#law-level-5)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic**      |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**      |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------------|
 | 1          | Dispel Evil    |                | Insect Plague             | True Sight     | Quest                 |               |                       | Cure Critical Wounds |
 
 
 ## [6th Level Law Spells](#spells#law-level-6)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | Animate Object | Aerial Servant            | Find the Path  |                       | Blade Barrier |                       |                 |
 | 2          |                | Word of Recall |                           |                |                       |               |                       |                 |
 
 ## [7th Level Law Spells](#spells#law-level-7)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**       | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**       | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------------|-----------------------|-----------------|
 | 1          | Earthquake     | Astral Spell   | Holy Word                 |                |                       | Digit of Disruption |                       | Regenerate      |
 | 2          |                |                | Symbol                    |                |                       |                     |                       | Restoration     |
@@ -165,7 +164,7 @@
 
 ## [1st Level Druidic Spells](#spells#druid-level-1)
 
-| **Number** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromantic** |
+| **Number** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|-------------------------|---------------------------|------------------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | Entangle                |                           | Detect Danger          | Animal Friendship     |               |                       |                 |
 | 2          |                | Faerie Fire             |                           | Locate Plant or Animal |                       |               |                       |                 |
@@ -177,28 +176,47 @@
 
 ## <span id="spells#cantrips">Cantrips</span>
 
-### Stitch (Alteration)
+### Bluelight (Conjuration/Summoning) - Chaos
 
 **Range:** 30'
 
-**Duration:** Permanent
+**Duration:** 1 round + 1 round/level
 
 **Casting Time:** 1 segment
 
-**AoE:** Special
+This cantrip enables the caster to conjure a small sphere of glowing
+blue radiance. The light has an eerie effect when seen from a distance,
+but the 3-inch sphere only illuminates an area of 5 feet around itself.
 
-This cantrip magically sews seams in cloth or leather:
+#### Reversed: Smokepuff
 
-- **Stitch:** About 20 yards of cloth can be stitched, but only about 2
-  yards of leather. The seam created is neither stronger or weaker than
-  a seam done without magic.
+A puff of actual smoke appears in front of the spellcaster in a desired
+location which ascends or is dis­sipated as a normal cloud of smoke,
+depending on the prevailing conditions:
 
-#### Reversed: Ravel
+- **Color:** The caster can create light that is white, gray, black,
+  brown, yellow, or green.
 
-Tears the same amount of yards in cloth instead of stitching. Can be
-concentrated on to make a neat tear or simply ripped quickly.
+### Change (Alteration) - Chaos
 
-### Clean (Alteration)
+**Range:** 30'
+
+**Duration:** 1 round + 1 round/level
+
+**Casting Time:** 1 segment
+
+The caster alters one small object or creature to another. The object or
+creature can weigh only a few ounces, and must be small enough to fit in
+the caster's hand:
+
+- **Restrictions:** The change must be within the same category of
+  item/creature. For example: A piece of parchment can be changed into a
+  brightly colored square of linen, and then the cloth changed into a
+  rose by another use of the cantrip. Likewise, a bird can be changed
+  into a bat, the bat to a flying squirrel by another use of the same
+  type of cantrip, and so forth.
+
+### Clean (Alteration) - Chaos
 
 **Range:** 30'
 
@@ -220,7 +238,82 @@ foreign objects:
 Dirt, stains or other types of filth can magically be applied. This form
 is not recognized as illusion magic as it is a real form conjured.
 
-### Gather (Alteration)
+### Color (Evocation) - Chaos
+
+**Range:** 30'
+
+**Duration:** 1 month
+
+**Casting Time:** 1 segment
+
+**AoE:** 1 cubic yard
+
+Covers an area with a new or faded color:
+
+- **Changes:** Brings color to any object within range. This can be
+  completely different from the original hue, brightened or dulled.
+
+- **People:** Can change the color of skin and hair as well.
+
+### Dry (Abjuration) - Chaos
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 segment
+
+**AoE:** 3' cube
+
+Dries an object:
+
+- **Use:** This cantrip removes dampness and excess moisture from
+  materials in the area of effect. It is useful for drying cloth or
+  herbs and for cleaning chores.
+
+#### Reversed: Damp
+
+The area of effect is permeated by a fog-like dampness that leaves all
+material within damp to the touch.
+
+### Exterminate (Abjuration) - Chaos
+
+**Range:** 30'
+
+**Duration:** Instant
+
+**Casting Time:** 1 segment
+
+**AoE:** ½' cube
+
+When this cantrip is used, the caster may kill a small pest such as a
+fly, mouse, rat, beetle, or the like:
+
+- **Restrictions:** This cantrip is not effective against magical
+  creations and normal-sized creatures magically shrunk to insect-size,
+  nor on polymorphed creatures and similarly enchanted beings.
+
+- **Area:** If the subject is very small, an area of up to one-half
+  cubic foot can be rid of pests
+
+### Firefinger (Alteration) - Chaos
+
+**Range:** Caster
+
+**Duration:** 1 round
+
+**Casting Time:** 1 segment
+
+**AoE:** 6" line
+
+Enables the caster to cause a jet of flame up to a half foot long to
+shoot forth from their finger:
+
+- **Ignition:** The flame is hot and ignites combustible materials such
+  as parchment, twigs, kindling, and the like without difficulty,
+  providing the materials are relatively dry.
+
+### Gather (Alteration) - Chaos
 
 **Range:** 30'
 
@@ -241,7 +334,25 @@ into a stack or pile:
   type of material from another, but only the selected type is gathered
   neatly.
 
-### Open (Alteration)
+### Hide (Illusion) - Chaos
+
+**Range:** 30'
+
+**Duration:** Special
+
+**Casting Time:** 1/10 segment
+
+Magically hides one object for an amount of time depending on its size.
+
+- **4 feet across or smaller:** Lasts 1 turn.
+
+- **Larger than 4 feet, up to 8 feet:** Duration decreases by 1 round for every additional 2 cubic yards of size.
+
+- **Larger than 8 feet, up to 10 feet:** Duration decreases by 1 segment for every additional 2 cubic yards of size.
+
+- **More than 10 feet across:** Disappears only momentarily before reappearing.
+
+### Open (Alteration) - Chaos
 
 **Range:** 30'
 
@@ -260,118 +371,23 @@ Opens any unlocked door or portal from a distance:
 
 Closes any object in a reverse fashion.
 
-### Color (Evocation)
+### Spider (Conjuration/Summoning) - Chaos
 
-**Range:** 30'
+**Range:** 10'
 
-**Duration:** 1 month
+**Duration:** 1 segment
 
-**Casting Time:** 1 segment
+**Casting Time:** 1⁄2 segment
 
-**AoE:** 1 cubic yard
+Summons a small garden spider. No larger than an inch or two in diameter, and basically harmless.
 
-Covers an area with a new or faded color:
+- **Bite:** The spider has a chance to be annoyed and immediately bite any creature upon which it finds itself. 
 
-- **Changes:** Brings color to any object within range. This can be
-  completely different from the original hue, brightened or dulled.
+- **Distracts:** Someone bitten for 1 segment.
 
-- **People:** Can change the color of skin and hair as well.
+- **Venom:** There is a 5% chance that the spider is of a very venomous sort. If bitten, the victim must also make a saving throw vs. poison at +4. Success means 1 point of damage is inflicted. Failure means 2 points of damage are inflicted, and the victim feels sick and is unable to act normally for 1d4 days unless a neutralize poison spell is cast to remove the toxin.
 
-### Tweak (Conjuration/Summoning)
-
-**Range:** 30'
-
-**Duration:** 1 round
-
-**Casting Time:** 1 segment
-
-The caster causes an unseen thumb and forefinger to harmlessly, but
-annoyingly, tweak some portion of a chosen sub­ject:
-
-- **Areas:** Nose, ear, beard, moustache, whiskers, or tail or similar.
-
-- **Distraction:** The cantrip's effects does not disturb spellcasting,
-  although the tweaking might distract any creature by causing it to
-  turn to dis­cover the source of the annoyance.
-
-### Change (Alteration)
-
-**Range:** 30'
-
-**Duration:** 1 round + 1 round/level
-
-**Casting Time:** 1 segment
-
-The caster alters one small object or creature to another. The object or
-creature can weigh only a few ounces, and must be small enough to fit in
-the caster's hand:
-
-- **Restrictions:** The change must be within the same category of
-  item/creature. For example: A piece of parchment can be changed into a
-  brightly colored square of linen, and then the cloth changed into a
-  rose by another use of the cantrip. Likewise, a bird can be changed
-  into a bat, the bat to a flying squirrel by another use of the same
-  type of cantrip, and so forth.
-
-### Bluelight (Conjuration/Summoning)
-
-**Range:** 30'
-
-**Duration:** 1 round + 1 round/level
-
-**Casting Time:** 1 segment
-
-This cantrip enables the caster to conjure a small sphere of glowing
-blue radiance. The light has an eerie effect when seen from a distance,
-but the 3-inch sphere only illuminates an area of 5 feet around itself.
-
-#### Reversed: Smokepuff
-
-A puff of actual smoke appears in front of the spellcaster in a desired
-location which ascends or is dis­sipated as a normal cloud of smoke,
-depending on the prevailing conditions:
-
-- **Color:** The caster can create light that is white, gray, black,
-  brown, yellow, or green.
-
-### Exterminate (Abjuration)
-
-**Range:** 30'
-
-**Duration:** Instant
-
-**Casting Time:** 1 segment
-
-**AoE:** ½' cube
-
-When this cantrip is used, the caster may kill a small pest such as a
-fly, mouse, rat, beetle, or the like:
-
-- **Restrictions:** This cantrip is not effective against magical
-  creations and normal-sized creatures magically shrunk to insect-size,
-  nor on polymorphed creatures and similarly enchanted beings.
-
-- **Area:** If the subject is very small, an area of up to one-half
-  cubic foot can be rid of pests
-
-### Firefinger (Alteration)
-
-**Range:** Caster
-
-**Duration:** 1 round
-
-**Casting Time:** 1 segment
-
-**AoE:** 6" line
-
-Enables the caster to cause a jet of flame up to a half foot long to
-shoot forth from their finger:
-
-- **Ignition:** The flame is hot and ignites combustible materials such
-  as parchment, twigs, kindling, and the like without difficulty,
-  providing the materials are relatively dry.
-
-### Sprout (Alteration)
+### Sprout (Alteration) - Chaos
 
 **Range:** Caster
 
@@ -389,7 +405,45 @@ of plants:
   on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
   cantrip.
 
-### Warm (Evocation)
+### Stitch (Alteration) - Chaos
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 segment
+
+**AoE:** Special
+
+This cantrip magically sews seams in cloth or leather:
+
+- **Stitch:** About 20 yards of cloth can be stitched, but only about 2
+  yards of leather. The seam created is neither stronger or weaker than
+  a seam done without magic.
+
+#### Reversed: Ravel
+
+Tears the same amount of yards in cloth instead of stitching. Can be
+concentrated on to make a neat tear or simply ripped quickly.
+
+### Tweak (Conjuration/Summoning) - Chaos
+
+**Range:** 30'
+
+**Duration:** 1 round
+
+**Casting Time:** 1 segment
+
+The caster causes an unseen thumb and forefinger to harmlessly, but
+annoyingly, tweak some portion of a chosen sub­ject:
+
+- **Areas:** Nose, ear, beard, moustache, whiskers, or tail or similar.
+
+- **Distraction:** The cantrip's effects does not disturb spellcasting,
+  although the tweaking might distract any creature by causing it to
+  turn to dis­cover the source of the annoyance.
+
+### Warm (Evocation) - Chaos
 
 **Range:** 30'
 
@@ -408,26 +462,7 @@ The caster warms a liquid, solid object or creature by 10 °C:
 Cools an object or creature by 10 °C instead. Subject to a minimum
 tempera­ture of freezing, (0 °C)
 
-### Dry (Abjuration)
 
-**Range:** 30'
-
-**Duration:** Permanent
-
-**Casting Time:** 1 segment
-
-**AoE:** 3' cube
-
-Dries an object:
-
-- **Use:** This cantrip removes dampness and excess moisture from
-  materials in the area of effect. It is useful for drying cloth or
-  herbs and for cleaning chores.
-
-#### Reversed: Damp
-
-The area of effect is permeated by a fog-like dampness that leaves all
-material within damp to the touch.
 
 ## <span id="spells#chaos-level-1"> 1st Level Chaos Spells </span>
 
@@ -529,7 +564,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-### Chill Touch (Necromantic) - Chaos
+### Chill Touch (Necromancy) - Chaos
 
 **Range:** Touch
 
@@ -908,7 +943,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### Ray of Fatigue (Necromantic) - Chaos
+### Ray of Fatigue (Necromancy) - Chaos
 
 **Range:** 30' + 15'/level
 
@@ -1079,7 +1114,65 @@ This spell lets the caster inscribe a personal mark:
 
 ## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
-### Phantasmal Force (Illusion/Phantasm) - Chaos
+## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
+
+### Blink (Alteration) - Chaos
+
+**Range:** Self
+
+**Duration:** 1 round/level
+
+**Casting Time:** 1 segment
+
+The caster vanishes and instantaneously reappears a short distance away at a random point each round.
+
+- **Blink timing:** At the start of each round, roll 2d4. The caster blinks out of the material plane on that segment.
+
+- **Distance:** The caster teleports 5 feet in a random direction described below, if this would place the caster inside a solid object, reroll the direction. If every direction is still solid, the caster instead teleports up to 10 feet in the same direction. If this is also blocked, the caster is trapped inside the Ethereal Plane and the spell ends.
+
+- **Direction (1d8):** 1 North, 2 Northeast, 3 East, 4 Southeast, 5 South, 6 Southwest, 7 West, 8 Northwest.
+
+- **Attacks vs the caster:** Any attack that resolves after the blink segment automatically misses, unless it covers both positions (e.g., fireball, breath weapon). Attacks resolving before the blink has occurred can hit normally.
+
+- **Caster’s actions:** The caster’s actions resolve normally by initiative. If the blink occurs first, the caster must complete their declared action immediately afterward on the blink segment.
+
+- **Restrictions:** The disorienting nature of the blink spell imposes a 25% chance of failing when casting spells, using magic items, or performing any action more complex than a physical attack.
+
+### Hold Person (Enchantment/Charm) - Chaos
+
+**Range:** 180'
+
+**Duration**: 2 rounds/level
+
+**Casting Time:** 3 segments
+
+**AoE:** 20' cube
+
+Holds humans, demihumans or humanoids paralysed and in place if they fail a saving throw vs spells. It may be cast in two ways:
+
+- **Against an individual:** The target's saving throw is penalised by -2.
+
+- **Against a group:** 1d4 individuals in the group are targeted.
+
+- **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
+
+### Infravision (Alteration) - Chaos
+
+**Range:** Touch
+
+**Duration:** 1 day
+
+Grants infravision to 60':
+
+- **Heat tones:** Characters with infravision can see heat tones, with warm objects (such as living creatures) appearing bright, cold objects as black, and cool objects as grey.
+
+- **Reading:** It is not possible to read in the dark with infravision, because fine detail cannot be perceived.
+
+- **Range:** Infravision works within a limited range (60’ for monsters, unless specified otherwise in a monster’s description).
+
+- **Disruption:** Visible light (normal or magical) and large heat sources prevent infravision from functioning.
+
+### Phantasmal Force (Illusion) - Chaos
 
 **Range:** 60'
 
@@ -1099,23 +1192,271 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
+## <span id="spells#chaos-level-4"> 4th Level Chaos Spells </span>
 
-### Infravision (Alteration) - Chaos
+### Dig (Evocation) - Chaos
+
+**Range:** 90'
+
+**Duration:** 1 round/level 
+
+**Casting TIme:** 4 segments
+
+**AoE:** 5' cube/level
+
+Excavates earth with shocking speed, hurling spoil to the edges and forming a pit or trench where the caster directs.
+
+- **Rate:** Each round, the spell removes one 5'x5'x5' cube of dirt, sand, or mud (125 ft³). The caster may expand the same hole or start a new, contiguous cavity each round. The caster chooses the squares affected each round; pits, trenches, and ramps are possible, provided removed material has somewhere to go.
+
+- **Creatures directly above: **If cast beneath a creature, it falls in—no saving throw.
+
+- **Creatures at the rim: **Any creature at the edge of the area must make a Dexterity check or fall. 
+
+- **Rushing into the area:** A creature moving toward the newly opened pit in the first round must Save vs Spells or fall. 
+
+- **Collapse risk:** If the pit is dug deeper than 5', there is a 25% chance per round the sides collapse, modified by material (e.g., higher in sand or mud). Creatures in the pit when it collapses should Save vs Death to avoid being buried; success scrambles out to the edge.
+
+- **Tunneling:** Horizontal excavation is possible only if spoil can be ejected; consider doubling collapse chances unless shored.
+
+### Enchanted Weapon (Alteration) - Chaos
 
 **Range:** Touch
 
-**Duration:** 1 day
+**Duration:** 5 rounds/level 
 
-Grants infravision to 60':
+**Casting Time:** 1 turn
 
-- **Heat tones:** Characters with infravision can see heat tones, with warm objects (such as living creatures) appearing bright, cold objects as black, and cool objects as grey.
+**AoE:** One full-sized weapon or two small weapons
 
-- **Reading:** It is not possible to read in the dark with infravision, because fine detail cannot be perceived.
+With a touch, the caster places a weak, temporary enchantment upon a weapon:
 
-- **Range:** Infravision works within a limited range (60’ for monsters, unless specified otherwise in a monster’s description).
+- **Targets:** Choose one full-sized melee weapon (e.g., sword, mace, spear) or two small weapons (e.g., arrows, bolts, daggers). Each chosen item must be present and touched at the end of casting.
 
-- **Disruption:** Visible light (normal or magical) and large heat sources prevent infravision from functioning.
+- **Use & discharge:** The enchantment on a weapon ends the first time that weapon hits successfully. If it misses, the enchantment remains until it hits or the duration expires. For two small weapons, each carries its own charge and discharges independently on hit.
+
+- **Limitations:** Does not stack with other magical properties and does not grant a to-hit or damage bonuses. It only enables striking as a magical weapon.
+
+#### Reverse: Disenchant Weapon - Chaos
+
+- **Touching a magical weapon:** The caster suppresses its magical nature for the duration. The weapon is treated as non-magical and loses any ability to hit creatures requiring magical weapons and loses any to-hit/damage bonuses while the effect lasts.
+
+### Fire Shield (Evocation) - Chaos
+
+**Range:** Self
+
+**Duration:** 2 rounds + 1 round/level
+
+**Casting Time:** 4 segments
+
+Wreaths the caster in protective flames chosen at casting—Cold Flame or Hot Flame—which guard against one energy and leave the opposite as a risk. Choose one at casting:
+
+- **Cold Flame vs fire:** Cold flame grants the magic user a +2 bonus on any saving throw vs fire damage, also guaranteeing half damage (or no damage against all fire attacks that allow a saving throw for half damage) provided the saving throw is successful. If the caster fails a saving throw against a cold based attack, however, he or she will suffer twice the normal damage.
+
+- **Hot Flame vs cold:** Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
+
+### Hallucinatory Terrain (Illusion) - Chaos
+
+**Range:** 240’
+
+**Duration:** Special
+
+**Casting Time:** 1 turn
+
+**AoE:** 10x10' square/level
+
+Hallucinatory terrain either conjures an illusory terrain feature (e.g. a hill, wood, marsh, etc.) or hides an existing terrain feature.
+
+- **Area:** The illusion must fit completely within the spell’s range.
+
+- **Touching:** If an intelligent being touches the illusion, it vanishes, ending the spell.
+
+### Wall of Ice (Evocation) - Chaos
+
+**Range:** 10'/level
+
+**Duration:** 1 turn/level
+
+**Casting Time:** 4 segments
+
+**AoE:** Up to 1,200 sq. feet
+
+Conjures a semi-transparent sheet of ice, shaped as the caster wishes.
+
+- **Size:** The wall can be any length, height, and shape the caster wishes, up to 1,200 sq. ft total. For example, it may be a straight wall 10’ high and 120’ long or a ring 20’ high and 10’ radius.
+
+- **Location:** The wall must be supported (e.g. by the ground) and cannot be created in an area occupied by objects.
+
+- **Monsters with fewer than 4 HD:** Cannot pass the wall of ice.
+
+- **Monsters with 4 or more HD:** Can break through through the wall, but suffer 1d6 damage. Fire-based creatures (e.g. flame salamanders) suffer double damage.
+
+### Wizard Eye (Alteration) - Chaos
+
+**Range:** 240’
+
+**Duration:** 6 turns
+
+**Casting Time:** 1 turn
+
+An invisible, magical eye is conjured that allows the caster to see at a distance.
+
+- **Movement:** The eye can be directed to move within range at up to 120’ per turn.
+
+- **Seeing through the eye:** By concentrating, the caster can see through the eye.
+
+- **Types of vision:** The magical eye grants infravision to 60’ as well as normal vision.
+
+- **Barriers:** Though invisible, the eye is tangible and cannot pass through solid barriers.
+
+- **Size:** The eye is as big as a normal human eye.
+
+## <span id="spells#chaos-level-5"> 5th Level Chaos Spells </span>
+
+### Animate Dead (Necromancy) - Chaos
+
+**Range:** 60'
+
+**Duration:** Permanent
+
+**Casting Time:** 5 rounds
+
+Causes corpses or skeletons to rise as undead skeletons or zombies.
+
+- **Obedient:** Created undead obey the caster’s commands.
+
+- **Special abilities:** They are unable to use any special abilities (including spell casting) that they possessed in life.
+
+- **Duration:** The reanimating magic remains active until dispelled or until the undead are slain.
+
+**Number:** The spell animates up to 1 Hit Die of zombies or skeletons per level of the caster:
+
+- **Skeletons:** Have AC 7 [12] and HD equal to those the creature had in life.
+
+- **Zombies:** Have AC 8 [11] and HD one greater than the creature had in life.
+
+- **Classed characters:** If a PC or NPC with levels in a class is reanimated by this spell, the levels are not counted as HD. For example, the reanimated corpse of a 5th level fighter would have 2 HD (1 HD as a normal human, +1 for being reanimated as a zombie).
+
+### Dismissal (Abjuration) - Chaos
+
+**Duration:** Permanent
+
+**Range:** 30’
+
+**Casting Time:** 1 round
+
+Attempts to send one extraplanar creature back to its home plane:
+
+- **Resistance & save:** If the target is unwilling the creature makes a Save vs Spells. The caster's level is compared to the creature's level or Hit Dice. If the caster's level is higher, the difference is subtracted from the creature's die roll for its saving throw vs. spell. If the creature's level or Hit Dice is higher, the difference is added to the saving throw roll. 
+
+- **Mishap:** On a successful dismissal, there is a 20% chance the subject is sent to a different plane instead. 
+
+#### Reverse: Beckon
+
+Attempts to conjure a creature from another plane. The type of creature, and the true name (if any), must be spoken.
+
+- **Magic resistance:** Is checked only if the creature has no true name. The creature's saving throw is determined as in the dismissal spell. If the creature fails its save, it is immediately transported to the spellcaster's location. 
+
+- **Restrictions:** This does not guarantee that the creature will be friendly to the spellcaster, nor does the spell caster have any form of control over the creature.
+
+## <span id="spells#chaos-level-6"> 6th Level Chaos Spells </span>
+
+### Bigby’s Forceful Hand (Evocation) - Chaos
+
+**Range:** 30'/level 
+
+**Duration:** 1 round/level 
+
+**Casting Time:** 6 segments
+
+Creates a disembodied hand of force that places itself between the caster and one opponent, moving to remain between them. Upon summoned it can be between 5 feet and 21 feet across.
+
+- **≤ 500 lb:** pushed away up to 30'/round
+
+- **500–2,000 lb:** movement limited to 10'/round.
+
+- **2,000 lb:** movement limited to 5'/round.
+
+- **No damage:** Purely interposing/pressing force. 
+
+- **Hand stats:** AC 19. Hit Points equaling the caster’s full HP. Vanishes if destroyed.
+
+- **Control:** Caster may command the hand to retreat (e.g., to free a trapped foe) or dismiss it.
+
+### True Name (Divination) - Chaos
+
+**Range:** 90'
+
+**Duration:** Instant
+
+**Casting Time:** 1 round
+
+This spell lets the caster pry into the secret essence of a subject. When properly focused, it can reveal either a creature’s true name or the command word of a device.
+
+- **Creature’s true name:** If the caster holds a personal item of the target as a focus during casting, the creature must save vs spells; on a failure, the caster learns the creature’s true name.
+
+- **Command words:** If the caster properly holds, bears, or wears a device while casting, the spell reveals its command word.
+
+- **Material component:** A potion of ESP which the caster must drink before casting.
+
+## <span id="spells#chaos-level-7"> 7th Level Chaos Spells </span>
+
+### Mordenkainen’s Sword (Evocation) - Chaos
+
+**Range:** 90'
+
+**Duration:** 1 round/level 
+
+**Casting Time:** 7 segments
+
+Conjures a shimmering, sword-like plane of force that the caster mentally wields, to the exclusion of all actions other than movement, striking any foe within range.
+
+- **To hit:** Always hits on an attack roll of 19–20 regardless of AC. Attacks as a fighter of half the caster’s level without any magical attack bonus. Can strike creatures normally hit only by +3 weapons, and those astral/ethereal/out of phase. 
+
+- **Damage:** 5d4 vs man-size or smaller; 5d6 vs larger creatures.
+
+- **End:** Persists until duration expires, if a dispel magic is used, or the caster dismisses it. 
+
+- **Material Component:** a miniature platinum sword with copper/zinc pommel worth 500 gp, which is consumed.
+
+### Teleport Without Error (Alteration) - Chaos
+
+**Range:** Touch
+
+**Duration:** Instant
+
+**Casting Time:** 1 segment
+
+Transports the caster and carried/touched load to a known location with perfect accuracy on the same world. 
+
+- **Accuracy:** No error on the same world; if the specified arrival point is occupied, the caster appears safely nearby. Interplanar travel is allowed but uses the teleport accuracy table below.
+
+| **Destination is…**   | **High** | **On Target** | **Low** |
+| ----------------- | -------: | ------------: | ------: |
+| Very familiar     |    01–02 |         03–99 |      00 |
+| Studied carefully |    01–04 |         05–98 |   99–00 |
+| Seen casually     |    01–08 |         09–96 |   97–00 |
+| Viewed once       |    01–16 |         17–92 |   93–00 |
+| Never seen        |    01–32 |         33–84 |   85–00 |
+
+- **Load:** As teleport: up to 25 slots + 15 slots/level above 10th.
+
+- **Restrictions:** Must arrive on a firm surface; orientation on arrival is uncontrolled. The caster can do nothing else in the round of arrival.
+
+## <span id="spells#chaos-level-8"> 8th Level Chaos Spells </span>
+
+### Otto’s Irresistible Dance (Enchantment/Charm) - Chaos
+
+**Range:** Touch
+
+**Duration:** 1d4+1 rounds
+
+**Casting Time:** 5 segments
+
+Compels the touched creature to dance uncontrollably, to the exclusion of all other actions.
+
+- **Touch:** As a melee attack is required.
+
+- **Effects:** Target cannot act except to caper. AC worsens by –4 and saving throws are only possible on a natural 20. No shield benefit.
 
 ## <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
 
@@ -1546,7 +1887,7 @@ This spell imbues the target unit with a temporary burst of courage.
   due to this spell, the magical effect ceases. From then on, they must
   perform all morale checks as usual.
 
-### Cure Light Wounds (Necromantic) - Law
+### Cure Light Wounds (Necromancy) - Law
 
 **Range:** Touch
 
@@ -1904,6 +2245,68 @@ It is possible for a caster to devise his or her own curse, and it should be sim
 
 #### Reversed: Obscure Object
 By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
+
+## <span id="spells#law-level-4"> 4th Level Law Spells </span>
+
+### Cure Serious Wounds (Necromancy)
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Cast Time:** 7 segments
+
+- **Healing a living subject:** The caster’s touch heals 2d8+1 hit points worth of damage on a living subject.
+
+### Reversed: Cause Serious Wounds
+
+- **Harm on touch:** Inflicts 2d8+1 hit points of damage to a touched creature. In combat, a melee attack roll is required.
+
+## <span id="spells#law-level-5"> 5th Level Law Spells </span>
+
+### Insect Plague (Conjuration/Summoning)
+
+**Range:** 360'
+
+**Duration:** 2 rounds/level
+
+**Casting Time:** 1 turn
+
+**AoE:** 180' x 60' cloud
+
+Cast above ground, this spell conjures a 60’ diameter swarm of flying insects with the following properties:
+
+- **Summoning:** The insects swarm in an area that centers around a summoning point determined by the spellcaster.
+
+- **Vision:** Within the area of the swarm is obscured to 10'.
+
+- **Creatures of 2 HD or less:** Are driven away, if caught within the swarm.
+
+- **Creatures of 5 HD or less:** Must check morale; failure means they run as described above.
+
+- **Strong fire:** Dissipates an area of the insect. A fireball would briefly dissipate them as it travels but a torch is not strong enough to remove any, however brief. 
+
+- **Restrictions:** The spell has no effect if cast underground.
+
+## <span id="spells#law-level-6"> 6th Level Law Spells </span>
+
+### Aerial Servant (Conjuration/Summoning)
+
+**Range:** 30'
+
+**Duration:** 1 day/level
+
+**Casting Time:** 9 segments
+
+Summons an invisible aerial creature to fetch an item or creature described by the caster.
+
+- **Summoning ritual:** The caster will need to cast a Protection from Evil spell, be in a protective circle, or have a special item used to control the aerial servant. Otherwise it will attempt to slay the caster and return from whence it came.
+
+- **The object or creature:** Must be such as to allow the aerial servant to physically bring it to the caster. It needs to be below 1,000 pounds or 100 slots in total.
+
+- **Dispelled:** Whenever the spell lapses, its duty is fulfilled, it is dispelled, the caster releases it, or the caster is slain.
+
+- **Restrictions:** Cannot be made to fight for the summoner.
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
