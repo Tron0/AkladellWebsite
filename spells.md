@@ -280,7 +280,7 @@ material within damp to the touch.
 
 **Range:** 30'
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time:** 1 segment
 
@@ -504,7 +504,7 @@ Provides a protective magical armor:
 
 **Range:** Caster 
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time:** 1 segment
 
@@ -833,7 +833,7 @@ a light spell.
 
 **Range:** 180' + 30'/level
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time:** 1 segment
 
@@ -1118,7 +1118,7 @@ This spell lets the caster inscribe a personal mark:
 
 ### Blink (Alteration) - Chaos
 
-**Range:** Self
+**Range:** Caster
 
 **Duration:** 1 round/level
 
@@ -1242,7 +1242,7 @@ With a touch, the caster places a weak, temporary enchantment upon a weapon:
 
 ### Fire Shield (Evocation) - Chaos
 
-**Range:** Self
+**Range:** Caster
 
 **Duration:** 2 rounds + 1 round/level
 
@@ -1262,7 +1262,7 @@ Wreaths the caster in protective flames chosen at casting—Cold Flame or Hot Fl
 
 **Casting Time:** 1 turn
 
-**AoE:** 10x10' square/level
+**AoE:** 10 x 10' square/level
 
 Hallucinatory terrain either conjures an illusory terrain feature (e.g. a hill, wood, marsh, etc.) or hides an existing terrain feature.
 
@@ -1386,7 +1386,7 @@ Creates a disembodied hand of force that places itself between the caster and on
 
 **Range:** 90'
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time:** 1 round
 
@@ -1422,7 +1422,7 @@ Conjures a shimmering, sword-like plane of force that the caster mentally wields
 
 **Range:** Touch
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time:** 1 segment
 
@@ -1582,7 +1582,7 @@ The color of the orb determines its effects, as outlined below:
 
 **Range:** 20'/level up to 240'
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time**: 1 segment
 
@@ -1891,7 +1891,7 @@ This spell imbues the target unit with a temporary burst of courage.
 
 **Range:** Touch
 
-**Duration:** Instant
+**Duration:** Instantaneous
 
 **Casting Time**: 5 segments
 
@@ -2107,6 +2107,40 @@ Inflicts intense dread upon a target, as described:
 
 ## <span id="spells#law-level-2"> 2nd Level Law Spells </span>
 
+### Augury (Divination) - Law
+
+**Range:** Caster 
+
+**Duration:** Instantaneous
+
+**Casting Time:** 2 rounds
+
+Divines whether a proposed action in the next 3 turns will bring weal or woe to the party. 
+
+- **Result:** Referee answers “weal” or “woe.”
+
+- **Accuracy:** 70% + 1% per caster level.
+
+- **Restrictions:** Only the immediate future (about 30 minutes). Gives direction, not details or maps.
+
+- **Material Component:** Divination tokens (e.g. dragon‑bone or gold‑inlaid sticks) and a tea‑leaf infusion using a crushed 100 gp pearl, which is consumed.
+
+<!-- ### Find Traps (Divination) - Law
+
+**Range:** Caster
+
+**Duration:** 3 turns
+
+**Casting Time:** 5 segments
+
+**AoE:** 10' wide x 30’ line
+
+Reveals traps (mechanical or magical) directly ahead of the caster.
+
+**Perceive:** Presence of traps and their general nature (magical/mechanical). Close examination can reveal likely triggers.
+
+**Restrictions** Cannot distinguish exact effects or disarming method. Ambushes, creatures and natural hazards aren’t regarded as traps for this spell.  -->
+
 ### Hold Person (Enchantment/Charm) - Law
 
 **Range:** 180'
@@ -2141,6 +2175,25 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
 
+<!-- ### Know Alignment (Divination) - Law
+
+**Range:** 30'
+
+**Duration:** 1 turn
+
+**Casting Time:** 1 round
+
+Reads the aura of a creature, revealing exact alignment if the subject doesn’t resist.
+
+**Examination Cadence:** Requires 1 full round of steady concentration per subject. 
+
+**Amount:** The auras of up to ten creatures may be examined by use of the spell, and the caster will be able to identify the exact alignment of each.
+
+**Saving throw:** Creatures may save vs. spells to prevent revelation. Some magic items negate this spell. 
+
+#### Reverse: Obscure Alignment
+Conceals alignment for a total of 1 turn, divisible among multiple creatures e.g., 2 creatures for 5 rounds each. -->
+
 ### Messenger (Enchantment/Charm) - Law
 
 **Range:** 20'/level
@@ -2161,6 +2214,17 @@ advance toward the caster and await his or her bidding.
 - **Communication:** The caster can communicate with the creature in a crude fashion, telling it to go to a certain place, but directions must be simple. The spell caster can attach some small item or note to the creature. If so instructed, the creature will then wait at that location until the duration of the spell expires. (Note that unless the intended recipient of a message is expecting a messenger in the form of a creature, the carrier may be ignored.) When the spell’s duration expires, the creature will return to its normal activities. The intended receiver of a message gains
 no communication ability. 
 
+<!-- ### Resist Fire (Abjuration) - Law
+
+**Range:** Touch 
+**Duration:** 1 turn/level 
+**Casting Time:** 5 segments
+
+Bestows strong protection from heat and flame upon a creature touched.
+
+- **Normal heat:** Unharmed by non‑magical heat/fire (bonfires, boiling water, etc.). 
+
+- **Intense or magical fire:** +3 on saving throws vs. fire; damage taken is halved on a failed save or ¼ on a successful save. The saving throw is permitted even against attacks that would not ordinarily allow a saving throw. -->
 
 ### Silence 15' Radius (Alteration) - Law
 
@@ -2198,8 +2262,72 @@ One or more snakes are rendered non-hostile, rearing up and swaying to and fro b
 
 - **Duration:** When cast on snakes that are already attacking, the spell lasts for 1d4+1 rounds. Otherwise, it lasts for 1d4+1 turns.
 
+<!-- ### Speak with Animals (Alteration) - Law
+
+**Range:** Caster
+
+**Duration:** 2 rounds/level 
+
+**Casting Time:** 5 segments
+
+Allows conversation with one normal or giant, non‑fantastic animal within 30’. The animal’s replies reflect its nature and intellect.
+
+- **Targeting:** One animal within 30’ of the caster at a time. 
+
+**Behavior during parley:** While the spell lasts, friendliness and cooperation aren’t guaranteed, but creatures of similar or neutral alignment may perform a small service at the Referee’s discretion. 
+
+**Restrictions**: Does not affect mindless/unnatural creatures; does not grant extra intelligence. -->
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
+
+<!-- ### Continual Light - Law
+
+**Range:**  120'
+
+**Duration:** Permanent
+
+**Casting Time:** 6 segments
+
+**AoE:** 60' x 60 sphere
+
+Creates bright magical illumination, roughly as daylight, in a 60'‑radius globe; negated by continual darkness or dispel magic. 
+
+**Offensive use:** If cast at a creature’s eyes, it blinds. Save vs Spells avoids. On a successful save, the light forms just behind the target instead.
+
+- **Restrictions:** Stationary unless cast on a moving object or creature.
+
+#### Reverse: Continual darkness. 
+Cancels opposing light of equal or lower potency.
+
+### Cure Blindness - Law
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+Removes virtually all forms of blindness from one creature. 
+
+- **Effect:** Target’s sight is restored.
+
+#### Reverse: Cause Blindness
+The reverse, cause blindness, requires a touch attack. Victim may Save vs Spells to negate. On a failed save, blindness is permanent until cured.
+
+### Cure Disease - Law
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Casting Time:** 1 turn
+
+Cures most diseases.
+
+- **Recovery time:** From 1 turn to 1 week, at the referee’s discretion.
+
+#### Reverse: Cause Disease 
+On a failed Save vs Spells (touch attack required), symptoms begin in 1d6 turns. Thereafter the victim takes 1 hp/round and loses 1 STR per hour until reduced to 10% of original hp/STR. Disease runs its course in 1d6 days or until cured. -->
 
 ### Remove Curse (Abjuration) - Law
 
@@ -2258,9 +2386,41 @@ By reversal (obscure object), the caster is able to hide an object from location
 
 - **Healing a living subject:** The caster’s touch heals 2d8+1 hit points worth of damage on a living subject.
 
-### Reversed: Cause Serious Wounds
+#### Reversed: Cause Serious Wounds
 
 - **Harm on touch:** Inflicts 2d8+1 hit points of damage to a touched creature. In combat, a melee attack roll is required.
+
+### Neutralise Poison (Transmutation/Alteration) - Law
+
+**Range:** Touch 
+
+**Duration:** Instant 
+
+**Casting Time:** 7 segments
+
+Detoxifies any poison in a touched creature or substance. Also prevents a poisoned character from suffering the poison’s effects. 
+
+- **Target size:** One creature or a volume up to a 1‑ft cube per 2 caster levels.
+
+- **Touch required:** To cleanse a venomous creature/object, the cleric must successfully touch it with a successful  to-hit roll.
+
+#### Reverse: Poison 
+
+Allows the caster to deliver a lethally poisonous touch, requiring a successful roll to hit, and allowing a saving throw against the poison. 
+
+### Speak with Plants (Transmutation/Alteration) - Law
+
+**Range:** Caster 
+
+**Duration:** 1 round/level 
+
+**Casting Time:** 1 turn
+
+Enables conversation with living plant matter and allows limited persuasion of mobile plants. 
+
+- **Communication:** The caster understands questions and answers given, although any conclusions or opinions the plant provides will be based on the plant's level of intelligence.
+
+- **Influence:** Mobile plants can be coaxed to act (e.g. draw aside to open a path, hinder foes) at the referee’s discretion. If the plants are capable of motion, it will be possible for the cleric to persuade them into a course of action, such as drawing aside to allow passage, or even attacking an enemy citadel. 
 
 ## <span id="spells#law-level-5"> 5th Level Law Spells </span>
 
@@ -2288,9 +2448,25 @@ Cast above ground, this spell conjures a 60’ diameter swarm of flying insects 
 
 - **Restrictions:** The spell has no effect if cast underground.
 
+### Quest (Enchantment/Charm) - Law
+
+**Range:** 60' 
+
+**Duration:** Special
+
+**Casting Time:** 8 segments
+
+Compels one creature to undertake a specific task and return with proof of completion.
+
+- **Compulsion:** The subject must follow both letter and spirit of the task.
+
+- **Neglect:** Each day of delay or evasion imposes –1 to all saving throws. This penalty, which is itself in the nature of a curse, remains with the creature until the quest is completed or the curse is removed by the caster or by some other agency.
+
+- **Save:** Save vs Spells negates.
+
 ## <span id="spells#law-level-6"> 6th Level Law Spells </span>
 
-### Aerial Servant (Conjuration/Summoning)
+### Aerial Servant (Conjuration/Summoning) - Law
 
 **Range:** 30'
 
@@ -2307,6 +2483,26 @@ Summons an invisible aerial creature to fetch an item or creature described by t
 - **Dispelled:** Whenever the spell lapses, its duty is fulfilled, it is dispelled, the caster releases it, or the caster is slain.
 
 - **Restrictions:** Cannot be made to fight for the summoner.
+
+### Find the Path (Divination) - Law
+
+**Range:** Touch 
+
+**Duration:** 1 turn/level 
+
+**Casting Time:** 3 rounds
+
+Imbues one creature with an uncanny sense of the shortest route into or out of a chosen locale. 
+
+- **Locale:** Works only for locales (outdoors, underground, a specific place, a trap, or a maze). It does not find objects or creatures within a locale.
+
+- **Sense:** Grants visceral direction and distance. At the right moments it indicates the exact path or physical actions to take. If slow moving and with concentration the subject can sense trip wires or the proper word to bypass a glyph.
+
+- **Restrictions:** Cannot be used to cleverly bypass dangers. It is impossible for the creature under this spell to chart maps.
+
+#### Reverse 
+
+- **Lose the Path:** On a successful touch to-hit attack, the target becomes totally lost and unable to make significant movement decisions for the duration, though it can be led by others. Save vs Spells negates this effect.
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
