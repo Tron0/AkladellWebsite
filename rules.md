@@ -2456,8 +2456,8 @@ Roll four times on the table below.
 |------------|----------|------------|----------|-----------------|------------|----------|------------------|
 | Shortsword / Cutlass | S | 1d6   | 6 SP     | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing | 3 |
 | Longsword / Scimitar | M | 1d8   | 10 SP    | A balanced, medium sized and versatile weapon. | 1 | Slashing | 5 |
-| Claymore             | L | 1d10  | 25 SP    | A large sword, designed for powerful swings and longer reach. Its size demands respect. | 1  | Slashing | 8 |
-| Zweihänder           | L | 1d12  | 50 SP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield  effectively. **Heavy** | 1 | Slashing | 10 |
+| Claymore             | L | 1d10  | 25 SP    | A large sword, designed for powerful swings and longer reach. Its size demands respect. | 2  | Slashing | 8 |
+| Zweihänder           | L | 1d12  | 50 SP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield  effectively. **Heavy** | 2 | Slashing | 10 |
 
 **Hammers & Maces**
 
@@ -2475,10 +2475,10 @@ Roll four times on the table below.
 | **Weapon**   | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** | **Speed Factor** |
 |--------------|----------|------------|----------|-----------------|------------|----------|------------------|
 | Spear, One-handed | M        | 1d6        | 5 SP     | Balanced for close combat, its sharp point excels for multiple quick stabs.                                                                              | 1          | Piercing        | 3 |
-| Spear, Two-handed | L        | 1d6        | 5 SP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 1          | Piercing        | 6 |
+| Spear, Two-handed | L        | 1d8        | 5 SP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 2          | Piercing        | 6 |
 | Lance             | L        | 1d8        | 10 SP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          | Piercing        | 7 |
 | Quarterstaff      | M        | 1d6        | 2 SP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          | Bludgeoning     | 4 |
-| Pole Arm          | L        | 1d8       | 9 SP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
+| Pole Arm          | L        | 1d10       | 9 SP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
 
 **Flails**
 
