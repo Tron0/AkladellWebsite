@@ -117,7 +117,7 @@
 
 | **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Isphek's Burden    |                           | Find Traips    | Hold Person           |               |                       |                 |
+| 1          |                | Isphek's Burden    |                           | Find Traps    | Hold Person           |               |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
 | 3          |                | Speak With Animals |                           |                | Snake Charm           |               |                       |                 |
 
@@ -135,7 +135,7 @@
 | **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**     |
 |------------|----------------------------------|---------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|---------------------|
 | 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | Cure Serious Wounds |
-| 2          | Neutralize Poison                | Speak with Plants   |                           |                |                       |               |                       |                     |
+| 2          | Neutralise Poison                | Speak with Plants   |                           |                |                       |               |                       |                     |
 | 3          | Protection from Evil, 10' Radius | Sticks to Snakes    |                           |                |                       |               |                       |                     |
 
 
