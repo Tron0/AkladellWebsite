@@ -1387,11 +1387,11 @@ Druids who attain 12th level or above may build a stronghold integrated into a n
 
 **Prime Attribute:** None.
 
-**Hit Dice: 1d4/level** 2d4 at 1st level.
+**Hit Dice:** 2d4 at 1st level, 1d4/level thereafter
 
 **Armor/Shield Permitted:** None
 
-**Weapons Permitted:** Martial arts weapons, hand axes, crossbows, daggers, halberds, spears
+**Weapons Permitted:** Martial arts weapons, clubs, hand axes, crossbows, daggers, halberds, spears
 
 ### Starting Equipment
 
@@ -1400,36 +1400,33 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | **Result (1d6)** | **Armor** | **Weapons** |
 |--------------|-------|---------|
 | 1            | None | Club
-| 2            | None | 3 Daggers
-| 3            | Hide  | Shortsword
-| 4            | Leather | Shortbow + 20 arrows
-| 5            | Leather | Whip
-| 6            | Studded Leather | Sling + 20 stones
+| 2            | None | Spear
+| 3            | None | Quarterstaff
+| 4            | None | Halberd
+| 5            | None | Whip
+| 6            | None Leather | Light Crossbow + 20 quarrels
 
 ### Monk Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Movement** | **Weapon Proficiencies** | **Level Title**          |
-|-----------|---------------------------|-------------------|--------------|--------------------------|--------------------------|
-| 1         | 0                         | 2                 | 15'          | 3                        | Novice                   |
-| 2         | 2,250                     | 3                 | 16'          | 3                        | Initiate                 |
-| 3         | 4,750                     | 4                 | 17'          | 4                        | Brother                  |
-| 4         | 10,000                    | 5                 | 18'          | 4                        | Disciple                 |
-| 5         | 22,500                    | 6                 | 19'          | 5                        | Immaculate               |
-| 6         | 47,500                    | 7                 | 20'          | 5                        | Master                   |
-| 7         | 40,000                    | 8                 | 21'          | 6                        | Superior Master          |
-| 8         | 98,000                    | 9                 | 22'          | 6                        | Master of Dragons        |
-| 9         | 200,000                   | 10                | 23'          | 7                        | Master of the North Wind |
-| 10        | 400,000                   | 11                | 24'          | 7                        | Master of the West Wind  |
-| 11        | 600,000                   | 12                | 25'          | 8                        | Master of the South Wind |
-| 12        | 800,000                   | 13                | 26'          | 8                        | Master of the East Wind  |
-| 13        | 1,000,000                 | 14                | 27'          | 9                        | Master of Winter         |
-| 14        | 1,200,000                 | 15                | 28'          | 9                        | Master of Autumn         |
-| 15        | 1,400,000                 | 16                | 29'          | 10                       | Master of Summer         |
-| 16        | 1,600,000                 | 17                | 30'          | 10                       | Master of Spring         |
-| 17        | 1,800,000                 | 18                | 31'          | 12                       | Grand Master of Flowers  |
-| 18        | 2,000,000                 | 18+1              | 32'          | 12                       |                          |
-| 19        | 2,200,000                 | 18+2              | 32'          | 13                       |                          |
-| 20        | 2,400,000                 | 18+3              | 32'          | 13                       |                          |
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Weapon Proficiencies** | **Level Title**  |
+|-----------|---------------------------|-------------------|--------------------------|--------------------------|
+| 1         | 0                         | 2                 | 3                        | Novice                   |
+| 2         | 2,250                     | 3                 | 3                        | Initiate                 |
+| 3         | 4,750                     | 4                 | 4                        | Brother                  |
+| 4         | 10,000                    | 5                 | 4                        | Disciple                 |
+| 5         | 22,500                    | 6                 | 5                        | Immaculate               |
+| 6         | 47,500                    | 7                 | 5                        | Master                   |
+| 7         | 40,000                    | 8                 | 6                        | Superior Master          |
+| 8         | 98,000                    | 9                 | 6                        | Master of Dragons        |
+| 9         | 200,000                   | 10                | 7                        | Master of the North Wind |
+| 10        | 400,000                   | 11                | 7                        | Master of the West Wind  |
+| 11        | 600,000                   | 12                | 8                        | Master of the South Wind |
+| 12        | 800,000                   | 13                | 8                        | Master of the East Wind  |
+| 13        | 1,000,000                 | 14                | 9                        | Master of Winter         |
+| 14        | 1,200,000                 | 15                | 9                        | Master of Autumn         |
+| 15        | 1,400,000                 | 16                | 10                       | Master of Summer         |
+| 16        | 1,600,000                 | 17                | 10                       | Master of Spring         |
+| 17        | 1,800,000                 | 18                | 11                       | Grand Master of Flowers  |
 
 ### Restrictions
 
@@ -1441,7 +1438,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Talents
 
-**Magical Resistance:** When making saving throws vs. magical attacks, the monk takes no damage from the magic if it would normally cause half damage on a successful save. This can only be used once per day.
+**Magical Resistance:** When making saving throws vs. magical attacks, the monk takes no damage from the magic if it would normally cause half damage on a successful save. This defense can only be used once per day.
 
 **Martial Style:** A Monk always fights using a certain Martial Arts Style. This style gives the monk several benefits not available to anyone else. This is described further below under the "Monk Capabilities Table".
 
@@ -1451,7 +1448,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Shielded Mind (4th):** ESP only has a 30% chance to read the mind of a Monk when they reach 4th level. This protection is improved by 2% at each level beyond 4th. Thus ESP only has a 28% chance of success on a 5th level, 26% on a 6th level Monk etc.
 
-**Body Immune (5th):** The Monk is immune to all types of disease and is unaffected by all types of haste or slow spells once turned 5th level.
+**Body Immune (5th):** The Monk is immune to all types of disease and is unaffected by all types of haste or slow spells.
 
 **Stillness (6th):** At 6th level, the Monk can perfectly simulate death. This can be done over a period of turns equaling the level of the Monk. They are however oblivious to their surroundings during this state, so the player must state at the beginning how long they intend to be remain still. 
 
@@ -1461,22 +1458,252 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 | **Level** | **AC** | **Movement** | **Martial Bonus Attacks** | **Martial Bonus Damage** | **Lockpicking** | **Find Traps** | **Stealth** | **Hear Sound** | **Climb** | **Surprise** |
 |-----------|--------|--------------|---------------------------|--------------------------|-----------------|----------------|-------------|----------------|-----------|--------------|
-| 1         | 10     | 15'          | —                         | —                        | 2/6             | 1/6            | 1/6         | 1/6            | 85%       | +0           |
-| 2         | 10     | 16'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 86%       | +0           |
-| 3         | 11     | 17'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 87%       | +0           |
-| 4         | 12     | 18'          | 1/4                       | —                        | 2/6             | 2/6            | 2/6         | 2/6            | 88%       | +0           |
+| 1         | 10     | 15'          | —                         | —                        | 2/6             | 1/6            | 1/6         | 1/6            | 85%       | Normal       |
+| 2         | 11     | 16'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 86%       | +0           |
+| 3         | 12     | 17'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 87%       | +0           |
+| 4         | 13     | 18'          | 1/4                       | —                        | 2/6             | 2/6            | 2/6         | 2/6            | 88%       | +0           |
 | 5         | 13     | 19'          | 1/4                       | +1                       | 3/6             | 2/6            | 2/6         | 2/6            | 89%       | +1           |
 | 6         | 14     | 20'          | 1/2                       | +2                       | 3/6             | 3/6            | 2/6         | 2/6            | 90%       | +1           |
-| 7         | 14     | 21'          | 1/2                       | +2                       | 3/6             | 3/6            | 3/6         | 3/6            | 91%       | +1           |
-| 8         | 15     | 22'          | 1/2                       | +1D                      | 3/6             | 3/6            | 3/6         | 3/6            | 92%       | +1           |
-| 9         | 16     | 23'          | 1/1                       | +1D+1                    | 4/6             | 3/6            | 4/6         | 3/6            | 93%       | +2           |
+| 7         | 15     | 21'          | 1/2                       | +2                       | 3/6             | 3/6            | 3/6         | 2/6            | 91%       | +1           |
+| 8         | 16     | 22'          | 1/2                       | +1D                      | 3/6             | 3/6            | 3/6         | 2/6            | 92%       | +1           |
+| 9         | 17     | 23'          | 1/1                       | +1D+1                    | 4/6             | 3/6            | 4/6         | 3/6            | 93%       | +2           |
 | 10        | 17     | 24'          | 1/1                       | +1D+2                    | 4/6             | 4/6            | 4/6         | 3/6            | 94%       | +2           |
 | 11        | 18     | 25'          | 3/2                       | +1D+2                    | 4/6             | 4/6            | 5/6         | 3/6            | 95%       | +2           |
-| 12        | 18     | 26'          | 3/2                       | +2D                      | 4/6             | 4/6            | 5/6         | 3/6            | 96%       | +2           |
-| 13        | 19     | 27'          | 3/2                       | +2D                      | 5/6             | 4/6            | 5/6         | 3/6            | 97%       | +3           |
-| 14        | 20     | 28'          | 2/1                       | +2D+1                    | 5/6             | 5/6            | 5/6         | 3/6            | 98%       | +3           |
-| 15        | 21     | 29'          | 2/1                       | +3D                      | 5/6             | 5/6            | 5/6         | 3/6            | 99%       | +3           |
-| 16        | 22     | 30'          | 3/1                       | +3D+1                    | 5/6             | 5/6            | 5/6         | 3/6            | 99%       | +3           |
+| 12        | 19     | 26'          | 3/2                       | +2D                      | 4/6             | 4/6            | 5/6         | 3/6            | 96%       | +2           |
+| 13        | 20     | 27'          | 3/2                       | +2D                      | 5/6             | 4/6            | 5/6         | 3/6            | 97%       | +3           |
+| 14        | 21     | 28'          | 2/1                       | +2D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 98%       | +3           |
+| 15        | 21     | 29'          | 2/1                       | +3D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +3           |
+| 16        | 22     | 30'          | 3/1                       | +3D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
+| 17        | 23     | 32'          | 3/1                       | +4D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
+
+### Martial Arts
+
+Martial Arts are separated into "styles" which gives the monk a pool of options. When creating your character you must choose one style that determine any future special maneuvers you get to learn. These are learned in place of weapon proficiencies.
+
+At 1st level, a monk automatically starts with proficiency in one martial arts style and two special maneuvers from that style. All monks also gain the "Missile Deflection" maneuver, it’s not counted against style maneuvers. When in combat, a monk uses either their natural AC or the style’s AC, whichever is better.
+
+No more than two proficienty slots can be expended on a single martial arts style per per level. Special maneuvers must be learned in order of difficulty. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
+
+#### Martial Arts Styles
+
+| **Name**   | **Attacks** | **Damage** | **AC** | **Principal** | **Special Maneuvers**                                                                                                                                                                                                |
+| ---------- | ----------: | ---------: | -----: | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tiger**  |         3/1 |        1–6 |     12 | Hand          | [Strike 1](#strike-1), [Strike 2](#strike-2), [Strike 3](#strike-3); [Kick 1](#kick-1); [Movement 1](#movement-1); [Mental 1](#mental-1)                                                                             |
+| **Snake**  |         2/1 |        1–6 |     14 | Hand          | [Lock 1](#lock-1), [Lock 2](#lock-2), [Lock 3](#lock-3); [Strike 1](#strike-1), [Strike 2](#strike-2); [Kick 2](#kick-2); [Movement 4](#movement-4); [Mental 5](#mental-5)                                           |
+| **Eagle**  |         1/1 |        1–8 |     12 | Foot          | [Kick 1](#kick-1), [Kick 2](#kick-2), [Kick 3](#kick-3); [Strike 1](#strike-1); [Throw 4](#throw-4); [Movement 5](#movement-5)                                                                                       |
+| **Monkey** |         2/1 |        1–6 |     13 | Hand          | [Throw 1](#throw-1), [Throw 2](#throw-2), [Throw 3](#throw-3), [Throw 4](#throw-4); [Movement 1](#movement-1), [Movement 3](#movement-3); [Vital Area 1](#vital-1), [Vital Area 2](#vital-2); [Mental 1](#mental-1), [Mental 2](#mental-2), [Mental 3](#mental-3)    |
+
+
+**Number of attacks** functions in the same manner as it does for normal combat. When using martial arts, the number of attacks depends on the style used and may differ from the number of attacks with weapons. Thus a character's ability to attack may increase, decrease or remain the same when using martial arts.
+
+**Damage** is the die that is rolled to determine the effect of a hit. Defensive styles generally do low damage; offensive styles have the opposite effect.
+
+**Armor class** is a measure of the degree of protection the character gains when using the style. This protection comes from the character's training which may allow him to avoid, deflect, or withstand blows.
+
+**Principal attack form** is the part or parts of the body most often used in the style. So long as the character has the listed body part free he can continue to make effective attacks. Karate emphasizes the fist, so the character can attack even though his
+legs may be held. Other styles use the legs, elbows, torso, etc.
+
+**Special maneuvers** are the secrets of the art, secrets that allow fantastic feats, but are difficult to learn. These include things such as Backward Kick, Sticking Touch, Great Throw. lronskin, and other normally impossible abilities.
+
+### Special Maneuvers
+
+### <a id="strike-1"></a>**Strike 1 — Iron fist (Hard)**
+
+**Range:** Self
+
+**Duration:** 1 round
+
+**Action:** —
+
+**Save:** —
+
+- **Reinforce:** If the style’s principal body part is hands, each unarmed attack deals 1d10 damage. If not, each attack deals 1d10 per round and any others deal normal damage.
+
+### <a id="strike-2"></a>**Strike 2 — Crushing blow (Hard)**
+
+**Range:** Melee
+
+**Duration:** Instant
+
+**Action:** Attack
+
+**Save:** —
+
+- **Objects:** Breaks 1/2" wood or 1/4" brittle stone per level (metal excluded). Requires a normal attack roll. The DM sets AC for stationary objects. Hardness, shape, and age may modify.
+
+- **Living target:** Deals damage + the level of the monk.
+
+- **On a miss vs. a hard object:** The monk takes damage and the hand is unusable for 24 hours.
+
+### <a id="strike-3"></a>**Strike 3 — Eagle claw (Hard)**
+
+**Range:** Melee
+
+**Duration:** Instant
+
+**Action:** Attack
+
+**Save:** —
+
+- **On hit:** Shatters objects (snap shafts, crush stones), crushes metal items, or deals 3d10 damage to the target (attack roll required).
+
+### <a id="kick-1"></a>**Kick 1 — Circle kick (Hard)**
+
+**Range:** Melee
+
+**Duration:** Instant
+
+**Action:** Attack
+
+**Save:** —
+
+- **On hit:** Deals double normal damage.
+
+- **On miss:** The attacker has to spend this round recovering balance.
+
+### <a id="kick-2"></a>**Kick 2 — Flying kick (Hard)**
+
+**Range:** Melee (requires ≥ 5' run-up)
+
+**Duration:** Instant
+
+**Action:** Attack
+
+**Save:** —
+
+- **On hit:** Deals triple normal damage.
+
+- **On miss:** The monk falls prone adjacent to the target and must spend the next round standing (unless Prone Fighting or Instant Stand applies).
+
+### <a id="kick-3"></a>**Kick 3 — Backward kick (Hard/Soft)**
+
+**Range:** Melee (creature directly behind the attacker)
+
+**Duration:** Instant
+
+**Action:** Attack
+
+**Save:** —
+
+- **On hit:** Deals normal damage to a creature directly behind the monk.
+
+- **On miss:** No additional effect.
+
+<a id="throw-1"></a>Throw 1 — Fall (Hard/Soft)
+
+- The first maneuver any student of this style learns is how to fall correctly. He learns to fall and roll, taking the impact of the fall on the safest areas of his body. Once learned this maneuver is constantly in effect. Thereafter he suffers only 1/2 the normal amount of damage from any fall.
+
+<a id="throw-2"></a>Throw 2 — Instant stand (Hard/Soft)
+
+- After learning to fall, the student learns how to gain his
+feet quickly either by rolling up to a standing position or using an acrobatic
+jump. Normally one round is required for a character to gain his feet, but a
+character knowing this maneuver can regain his feet automatically
+instead of making an attack. He may do other actions in the round if he has
+attacks available
+
+<a id="throw-3"></a>Throw 3 — Hurl (Hard)
+
+- This type of throw relies a great deal on strength and less on lever-
+age. The character can attempt to pick up an opponent and throw him to
+the ground 1d4 feet away. The victim suffers double damage from the
+throw. Characters with Immovability can resist this maneuver. A success-
+ful to hit roll must be made for the Hurl to work. If the roll is failed, the char-
+acter loses all remaining attacks for the round and automatically loses
+initiative for the next round.
+
+<a id="throw-4"></a>Throw 4 — Great throw (Soft)
+
+- Using leverage and his opponent's momentum, the char-
+acter is able to throw his enemy a great distance. A normal to hit roll must
+be made. If the victim is stationary, the character can throw him one foot
+per level. If the victim is charging the character, the distance thrown is six
+feet plus one foot per level. The victim suffers triple normal damage from
+the throw. If the to hit roll is unsuccessful, the opponent has countered the
+move and the character has been knocked off his feet, automatically los-
+ing initiative the next round.
+
+Vital Area
+
+<a id="vital-1"></a>Vital Area 1 — Pain touch (Soft)
+
+- Simply by pressing his finger against specific points of the
+body, the character can cause great pain in i1is victim. This can be done in
+place of a normal attack. It causes no damage, but if the to hit roll is successful, the victim feels as if he is on fire. Thereafter, he will be -2 on his
+chance to hit and + 2 on chance of being hit. The effect lasts for 1-3
+rounds. There is no adverse effect on the victim if the to hit roll is failed
+
+<a id="vital-2"></a>Vital Area 2 — Stunning touch (Soft)
+
+- With a light slap of his fingers in the correct place, the
+character can stun and daze his opponent. This can be done in place of a nor-
+mal attack and causes no damage. A normal to hit roll must be made. If suc-
+cessful, the victim is allowed a saving throw vs. paralyzation. If this is failed,
+the victim is stunned for 1d4 rounds, unable to take any action. However,
+should the to hit roll fail or the saving throw be passed, the attack has no effect.
+
+<a id="vital-3"></a>Vital Area 3 — Paralyzing touch (Soft)
+
+- By placing pressure on specific nerve junctions, the
+character can paralyze his victim, leaving him unable to move for 1d6
+turns. A normal to hit roll must be made and the victim is allowed a saving
+throw vs. paralyzation. If the attack fails or the saving throw is made, no
+damage is done.
+
+<a id="vital-4"></a>Vital Area 4 — Distance death (Soft)
+
+- This is the ultimate skill of this method and requires
+great practice and concentration. To learn it, the character must practice
+at a pool of water, driving his finger at it without touching it. As he does so,
+he concentrates on his own power, trying to extend it from his finger. When
+he can hear the echo of his thrust rebound from the water, he has mas-
+tered the maneuver.
+
+Distance Death requires great concentration and is the only action the
+character can take during the melee round. It has a range of one foot per
+level of the character. With it the character can choose to apply the effects
+of Pain, Stunning, or Paralyzing Touch or he can choose to do three times
+his normal damage on the attack. If Pain is chosen, the victim is not
+allowed a saving throw; for Stunning the saving throw is -2 on the die roll.
+In all cases a normal to hit roll must be made.
+
+Lock
+
+<a id="lock-1"></a>Lock 1 — Choke hold (Hard/Soft)
+<a id="lock-2"></a>Lock 2 — Locking block (Soft)
+<a id="lock-3"></a>Lock 3 — Incapacitator (Hard/Soft)
+<a id="lock-4"></a>Lock 4 — Missile deflection (Soft)
+
+Movement
+
+<a id="movement-1"></a>Movement 1 — Feint (Hard/Soft)
+<a id="movement-2"></a>Movement 2 — Prone fighting (Soft)
+<a id="movement-3"></a>Movement 3 — Immovability (Soft)
+<a id="movement-4"></a>Movement 4 — Immobilizing (Hard/Soft)
+<a id="movement-5"></a>Movement 5 — Leap (Soft)
+<a id="movement-6"></a>Movement 6 — Speed (Hard/Soft)
+<a id="movement-7"></a>Movement 7 — Slow resistance (Hard/Soft)
+
+Push
+
+<a id="push-1"></a>Push 1 — Concentrated push (Soft)
+<a id="push-2"></a>Push 2 — Sticking touch (Soft)
+<a id="push-3"></a>Push 3 — One finger (Soft)
+
+Weapon
+
+<a id="weapon-1"></a>Weapon 1 — Weapon catch (Hard/Soft)
+<a id="weapon-2"></a>Weapon 2 — Weapon breaker (Hard/Soft)
+<a id="weapon-3"></a>Weapon 3 — Steel cloth (Soft)
+
+Mental & Physical Training
+
+<a id="mental-1"></a>Mental 1 — Meditation (Hard/Soft)
+<a id="mental-2"></a>Mental 2 — All-around sight (Soft)
+<a id="mental-3"></a>Mental 3 — Mental resistance (Soft)
+<a id="mental-4"></a>Mental 4 — Blind fighting (Soft)
+<a id="mental-5"></a>Mental 5 — Ironskin (Hard)
+<a id="mental-6"></a>Mental 6 — Levitation (Soft)
 
 ## <span id=specialist> Specialist </span>
 
@@ -1484,7 +1711,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Prime Attribute:** 16+ Dexterity (+10% experience bonus).
 
-**Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level).
+**Hit Dice:** 1d4/level (Gains 1 hp/level after 10th level).
 
 **Armor/Shield Permitted:** Light armor, no shield.
 
