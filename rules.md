@@ -1404,7 +1404,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 3            | None | Quarterstaff
 | 4            | None | Halberd
 | 5            | None | Dagger
-| 6            | None Leather | Light Crossbow + 20 quarrels
+| 6            | None | Light Crossbow + 20 quarrels
 
 ### Monk Advancement Table
 
@@ -1440,7 +1440,17 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Magical Resistance:** When making saving throws vs. magical attacks, the monk takes no damage from the magic if it would normally cause half damage on a successful save. This defense can only be used once per day.
 
-**Martial Style:** A Monk always fights using a certain Martial Arts Style. This style gives the monk several benefits not available to anyone else. This is described further below under the "Monk Capabilities Table".
+**Martial Style:** A Monk always fights using a certain Martial Arts Style. This style gives the monk several benefits not available to anyone else. This is described further below the "Monk Capabilities Table".
+
+**Stunning Strike:** When a martial-arts attack against a man-sized target comes up an unmodified 20, the target must attempt a save vs. paralyzation. On a successful save the target is not stunned or incapacitated, but still takes normal damage. On a failed save compare the number rolled on the save die to the target’s Hit Dice (HD) or level.
+
+- If the roll is ≤ HD/level: the target is stunned for 1d6 rounds.
+
+- If the roll is > HD/level: the target is incapacitated for 1–3 hours.
+
+For this comparison only, creatures with +4 or more hit-point adders on their HD count as having one extra HD.
+
+Example: A character hits a lizard man (2+1 HD) with a natural 20. The lizard man fails its save with a roll of 2. Because 2 equals its effective HD, it is stunned for 1d6 rounds. If the failed save roll had been 6, it would be incapacitated for 1–3 hours.
 
 **Speak with Animals (3rd):** At 3rd level Monks gain the ability to Speak With Animals.
 
@@ -1454,11 +1464,21 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Healing Hands (7th):** By concentrating on inner power, the Monk can heal 1d4+1 points of damage on their own body once per day. This is increased by one point each level beyond level 7.
 
+**Speak to Plants (8th):** At 8th level the monk gains the ability to speak to plants, as per the spell of the same name.
+
+**Magical Damage and Charm Resistance (9th):** From 9th-level on, the monk suffers only half-damage from any magical attack that causes damage, even if the monk fails his saving throw. If the saving throw is successful, the monk suffers no damage at all. This power is still limited to a number of uses per day equal to the level of the character. In addition, charm, hypnosis, and suggestion spelis of all types have only a 50% chance to affect the monk. This resistance improves by 5% at every level beyond 9th.
+
+**Poison Immunity (11th):** At 11th level the monk is immune to all types of poison.
+
+**Greater Charm Immunity (12th):** At 12th level the monk is immune to geas and quest spells.
+
+**Martial Arts Master (13th):** At 13th level the monk automatically gains any one martial arts special maneuver of the player's choice.
+
 ### Monk Capabilities Table
 
 | **Level** | **AC** | **Movement** | **Martial Bonus Attacks** | **Martial Bonus Damage** | **Lockpicking** | **Find Traps** | **Stealth** | **Hear Sound** | **Climb** | **Surprise** |
 |-----------|--------|--------------|---------------------------|--------------------------|-----------------|----------------|-------------|----------------|-----------|--------------|
-| 1         | 10     | 15'          | —                         | —                        | 2/6             | 1/6            | 1/6         | 1/6            | 85%       | Normal       |
+| 1         | 10     | 15'          | —                         | —                        | 2/6             | 1/6            | 1/6         | 1/6            | 85%       | +0       |
 | 2         | 11     | 16'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 86%       | +0           |
 | 3         | 12     | 17'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 87%       | +0           |
 | 4         | 13     | 18'          | 1/4                       | —                        | 2/6             | 2/6            | 2/6         | 2/6            | 88%       | +0           |
@@ -1621,7 +1641,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Action:** 1 attack
 
-**Save:** Varies
+**Save:** Special
 
 - **On hit:** The target is thrown 1d4' and takes double normal damage.
 
@@ -1641,9 +1661,9 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **On hit:**
 
-  - **Stationary target:** Thrown 1' per level.
+  - **Stationary target:** Thrown 1' /level.
 
-  - **Charging target:** Thrown 6 ft + 1 ft per level.
+  - **Charging target:** Thrown 6' + 1' /level.
 
 - **Damage:** Target takes triple normal damage.
 
@@ -1665,7 +1685,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **On miss:** No effect.
 
-## <a id="vital-2"></a>**Vital Area 2 — Stunning touch (Soft)**
+### <a id="vital-2"></a>**Vital Area 2 — Stunning touch (Soft)**
 
 **Range:** Touch
 
@@ -1701,7 +1721,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Action:** 1 action
 
-**Save:** varies by effect
+**Save:** Special
 
 - **Target:** Humanoids only (for Pain/Stunning/Paralyzing Touch effects).
 
@@ -1711,7 +1731,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
   - **Stunning Touch:** Save vs. paralyzation at –2.
   - **Paralyzing Touch:** Normal save vs. paralyzation.
 
-  - **Damage:** Triple normal damage.
+  - **Damage:** Triple norml damage.
 
 ### <a id="lock-1"></a>**Lock 1 — Choke hold (Hard/Soft)**
 
@@ -1827,7 +1847,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **Effect:** When the monk would be knocked, lifted, or thrown, a successful save keeps the monk in place.
 
-## <a id="movement-4"></a>**Movement 4 — Missile deflection (Soft)**
+### <a id="movement-4"></a>**Movement 4 — Missile deflection (Soft)**
 
 **Range:** Self
 
