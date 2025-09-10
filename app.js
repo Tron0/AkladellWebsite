@@ -69,6 +69,25 @@ function loadUpdatePost()
     
     { 
 
+        title: '36th Chamber',
+        content: `The Monk is now here, specificially the Oriental Adventures (1985) version. It's a strange class in both how it's written and how it plays, but the cool factor is enough for me as of now.
+
+        After looking at the PHB monk and this one, I think the OA version is better designed. The PHB monk is much weaker on paper, but it also comes with some weird "insta kill" mechanics that I thought was cheap. 
+        With that mentioned I thought the simplicity of it was nice. 
+        
+        Ultimately however I decided to go with the OA monk as it's somewhat crazy. There's a lot of martial abilities you can do each round of combat which might have the consequence of slowing down combat.
+        That is why I think anyone who wants to play this should read through it thoroughly. Plan ahead like a true tactician because you won't have time to think in the heat of combat.    
+        
+        <b> Changes: </b>
+
+        - Added the Monk class.
+        
+        `,
+        date: "2025-07-10 20:28 CET" 
+    },
+    
+    { 
+
         title: 'Fighter Cleave & Barb subclassing',
         content: `A rule inside the AD&D DMG mentions what some people call "Sweep" attacks. This grants fighters a way to quickly disperse of <1 HD creatures in melee.
         I do think it's a fair thing to give fighters a bit more of "heroicism" when it comes to slaying goblins, however I'm going with a different rule. 
