@@ -83,7 +83,7 @@ function loadUpdatePost()
         - Added the Monk class.
         
         `,
-        date: "2025-07-10 20:28 CET" 
+        date: "2025-09-10 13:02 CET" 
     },
     
     { 
