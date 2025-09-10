@@ -1400,10 +1400,10 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | **Result (1d6)** | **Armor** | **Weapons** |
 |--------------|-------|---------|
 | 1            | None | Club
-| 2            | None | Spear
+| 2            | None | Short spear
 | 3            | None | Quarterstaff
 | 4            | None | Halberd
-| 5            | None | Whip
+| 5            | None | Dagger
 | 6            | None Leather | Light Crossbow + 20 quarrels
 
 ### Monk Advancement Table
@@ -1525,7 +1525,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Duration:** Instant
 
-**Action:** Attack
+**Action:** 1 action
 
 **Save:** —
 
@@ -1533,7 +1533,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **Living target:** Deals damage + the level of the monk.
 
-- **On a miss vs. a hard object:** The monk takes damage and the hand is unusable for 24 hours.
+- **On a miss vs. a hard object:** The monk takes unarmed attack damage and the hand is unusable for 24 hours.
 
 ### <a id="strike-3"></a>**Strike 3 — Eagle claw (Hard)**
 
@@ -1541,11 +1541,11 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Duration:** Instant
 
-**Action:** Attack
+**Action:** 1 action
 
 **Save:** —
 
-- **On hit:** Shatters objects (snap shafts, crush stones), crushes metal items, or deals 3d10 damage to the target (attack roll required).
+- **On hit:** Shatters objects. Snap shafts, crush stones, crushes metal items, or deals 3d10 damage to a target with a successful to-hit roll.
 
 ### <a id="kick-1"></a>**Kick 1 — Circle kick (Hard)**
 
@@ -1553,21 +1553,21 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Duration:** Instant
 
-**Action:** Attack
+**Action:** 1 attack
 
 **Save:** —
 
 - **On hit:** Deals double normal damage.
 
-- **On miss:** The attacker has to spend this round recovering balance.
+- **On miss:** The monk has to spend this round recovering balance.
 
-### <a id="kick-2"></a>**Kick 2 — Flying kick (Hard)**
+### <a id="kick-2"></a>**Kick 2 — Flying Kick (Hard)**
 
-**Range:** Melee (requires ≥ 5' run-up)
+**Range:** Melee, requires ≥ 5' run-up
 
 **Duration:** Instant
 
-**Action:** Attack
+**Action:** 1 attack
 
 **Save:** —
 
@@ -1575,13 +1575,13 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **On miss:** The monk falls prone adjacent to the target and must spend the next round standing (unless Prone Fighting or Instant Stand applies).
 
-### <a id="kick-3"></a>**Kick 3 — Backward kick (Hard/Soft)**
+### <a id="kick-3"></a>**Kick 3 — Backward Kick (Hard/Soft)**
 
-**Range:** Melee (creature directly behind the attacker)
+**Range:** Melee
 
 **Duration:** Instant
 
-**Action:** Attack
+**Action:** 1 attack
 
 **Save:** —
 
@@ -1589,121 +1589,483 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **On miss:** No additional effect.
 
-<a id="throw-1"></a>Throw 1 — Fall (Hard/Soft)
+### <a id="throw-1"></a>**Throw 1 — Fall (Hard/Soft)**
 
-- The first maneuver any student of this style learns is how to fall correctly. He learns to fall and roll, taking the impact of the fall on the safest areas of his body. Once learned this maneuver is constantly in effect. Thereafter he suffers only 1/2 the normal amount of damage from any fall.
+**Range:** Self
 
-<a id="throw-2"></a>Throw 2 — Instant stand (Hard/Soft)
+**Duration:** Permanent
 
-- After learning to fall, the student learns how to gain his
-feet quickly either by rolling up to a standing position or using an acrobatic
-jump. Normally one round is required for a character to gain his feet, but a
-character knowing this maneuver can regain his feet automatically
-instead of making an attack. He may do other actions in the round if he has
-attacks available
+**Action:** —
 
-<a id="throw-3"></a>Throw 3 — Hurl (Hard)
+**Save:** —
 
-- This type of throw relies a great deal on strength and less on lever-
-age. The character can attempt to pick up an opponent and throw him to
-the ground 1d4 feet away. The victim suffers double damage from the
-throw. Characters with Immovability can resist this maneuver. A success-
-ful to hit roll must be made for the Hurl to work. If the roll is failed, the char-
-acter loses all remaining attacks for the round and automatically loses
-initiative for the next round.
+- **Effect:** The monk takes half normal damage from any fall. Always applicable once learned.
 
-<a id="throw-4"></a>Throw 4 — Great throw (Soft)
+### <a id="throw-2"></a>**Throw 2 — Instant Stand (Hard/Soft)**
 
-- Using leverage and his opponent's momentum, the char-
-acter is able to throw his enemy a great distance. A normal to hit roll must
-be made. If the victim is stationary, the character can throw him one foot
-per level. If the victim is charging the character, the distance thrown is six
-feet plus one foot per level. The victim suffers triple normal damage from
-the throw. If the to hit roll is unsuccessful, the opponent has countered the
-move and the character has been knocked off his feet, automatically los-
-ing initiative the next round.
+**Range:** Self
 
-Vital Area
+**Duration:** Instant
 
-<a id="vital-1"></a>Vital Area 1 — Pain touch (Soft)
+**Action:** 1 attack
 
-- Simply by pressing his finger against specific points of the
-body, the character can cause great pain in i1is victim. This can be done in
-place of a normal attack. It causes no damage, but if the to hit roll is successful, the victim feels as if he is on fire. Thereafter, he will be -2 on his
-chance to hit and + 2 on chance of being hit. The effect lasts for 1-3
-rounds. There is no adverse effect on the victim if the to hit roll is failed
+**Save:** —
 
-<a id="vital-2"></a>Vital Area 2 — Stunning touch (Soft)
+- **Effect:** The monk regains their footing automatically instead of making an attack. Other actions may be taken if additional attacks remain that round.
 
-- With a light slap of his fingers in the correct place, the
-character can stun and daze his opponent. This can be done in place of a nor-
-mal attack and causes no damage. A normal to hit roll must be made. If suc-
-cessful, the victim is allowed a saving throw vs. paralyzation. If this is failed,
-the victim is stunned for 1d4 rounds, unable to take any action. However,
-should the to hit roll fail or the saving throw be passed, the attack has no effect.
+### <a id="throw-3"></a>**Throw 3 — Hurl (Hard)**
 
-<a id="vital-3"></a>Vital Area 3 — Paralyzing touch (Soft)
+**Range:** Melee
 
-- By placing pressure on specific nerve junctions, the
-character can paralyze his victim, leaving him unable to move for 1d6
-turns. A normal to hit roll must be made and the victim is allowed a saving
-throw vs. paralyzation. If the attack fails or the saving throw is made, no
-damage is done.
+**Duration:** Instant
 
-<a id="vital-4"></a>Vital Area 4 — Distance death (Soft)
+**Action:** 1 attack
 
-- This is the ultimate skill of this method and requires
-great practice and concentration. To learn it, the character must practice
-at a pool of water, driving his finger at it without touching it. As he does so,
-he concentrates on his own power, trying to extend it from his finger. When
-he can hear the echo of his thrust rebound from the water, he has mas-
-tered the maneuver.
+**Save:** Varies
 
-Distance Death requires great concentration and is the only action the
-character can take during the melee round. It has a range of one foot per
-level of the character. With it the character can choose to apply the effects
-of Pain, Stunning, or Paralyzing Touch or he can choose to do three times
-his normal damage on the attack. If Pain is chosen, the victim is not
-allowed a saving throw; for Stunning the saving throw is -2 on the die roll.
-In all cases a normal to hit roll must be made.
+- **On hit:** The target is thrown 1d4' and takes double normal damage.
 
-Lock
+- **Interaction:** A target with Immovability may resist or be granted a saving throw to being lifted or thrown.
 
-<a id="lock-1"></a>Lock 1 — Choke hold (Hard/Soft)
-<a id="lock-2"></a>Lock 2 — Locking block (Soft)
-<a id="lock-3"></a>Lock 3 — Incapacitator (Hard/Soft)
-<a id="lock-4"></a>Lock 4 — Missile deflection (Soft)
+- **On miss:** The monk loses all remaining attacks this round and automatically loses initiative next round.
 
-Movement
+### <a id="throw-4"></a>**Throw 4 — Great throw (Soft)**
 
-<a id="movement-1"></a>Movement 1 — Feint (Hard/Soft)
-<a id="movement-2"></a>Movement 2 — Prone fighting (Soft)
-<a id="movement-3"></a>Movement 3 — Immovability (Soft)
-<a id="movement-4"></a>Movement 4 — Immobilizing (Hard/Soft)
-<a id="movement-5"></a>Movement 5 — Leap (Soft)
-<a id="movement-6"></a>Movement 6 — Speed (Hard/Soft)
-<a id="movement-7"></a>Movement 7 — Slow resistance (Hard/Soft)
+**Range:** Melee
 
-Push
+**Duration:** Instant
 
-<a id="push-1"></a>Push 1 — Concentrated push (Soft)
-<a id="push-2"></a>Push 2 — Sticking touch (Soft)
-<a id="push-3"></a>Push 3 — One finger (Soft)
+**Action:** 1 attack
 
-Weapon
+**Save:** —
 
-<a id="weapon-1"></a>Weapon 1 — Weapon catch (Hard/Soft)
-<a id="weapon-2"></a>Weapon 2 — Weapon breaker (Hard/Soft)
-<a id="weapon-3"></a>Weapon 3 — Steel cloth (Soft)
+- **On hit:**
 
-Mental & Physical Training
+  - **Stationary target:** Thrown 1' per level.
 
-<a id="mental-1"></a>Mental 1 — Meditation (Hard/Soft)
-<a id="mental-2"></a>Mental 2 — All-around sight (Soft)
-<a id="mental-3"></a>Mental 3 — Mental resistance (Soft)
-<a id="mental-4"></a>Mental 4 — Blind fighting (Soft)
-<a id="mental-5"></a>Mental 5 — Ironskin (Hard)
-<a id="mental-6"></a>Mental 6 — Levitation (Soft)
+  - **Charging target:** Thrown 6 ft + 1 ft per level.
+
+- **Damage:** Target takes triple normal damage.
+
+- **On miss:** The opponent counters and the monk is knocked off their feet and automatically loses initiative next round.
+
+### <a id="vital-1"></a>**Vital Area 1 — Pain Touch (Soft)**
+
+**Range:** Touch
+
+**Duration:** 1d3 rounds
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **Target:** Humanoids only.
+
+- **On hit:** Target suffers –2 to hit and +2 on chance of being hit. No damage is dealt.
+
+- **On miss:** No effect.
+
+## <a id="vital-2"></a>**Vital Area 2 — Stunning touch (Soft)**
+
+**Range:** Touch
+
+**Duration:** 1d4 rounds
+
+**Action:** 1 attack
+
+**Save:** vs. paralyzation
+
+- **Target:** Humanoids only.
+
+- **On hit:** If the target fails the save, it is stunned and can take no actions for the duration. If the attack misses or the save succeeds there is no effect.
+
+### <a id="vital-3"></a>**Vital Area 3 — Paralyzing touch (Soft)**
+
+**Range:** Melee
+
+**Duration:** 1d6 turns
+
+**Action:** 1 attack
+
+**Save:** vs. paralyzation
+
+- **Target:** Humanoids only.
+
+- **On hit:** If the target fails the save, it is paralyzed for 1d6 turns. Otherwise there is no effect.
+
+### <a id="vital-4"></a>**Vital Area 4 — Distance death (Soft)**
+
+**Range:** 1' /level
+
+**Duration:** Instant
+
+**Action:** 1 action
+
+**Save:** varies by effect
+
+- **Target:** Humanoids only (for Pain/Stunning/Paralyzing Touch effects).
+
+- **On hit (choose one):**
+
+  - **Pain Touch:** No save.
+  - **Stunning Touch:** Save vs. paralyzation at –2.
+  - **Paralyzing Touch:** Normal save vs. paralyzation.
+
+  - **Damage:** Triple normal damage.
+
+### <a id="lock-1"></a>**Lock 1 — Choke hold (Hard/Soft)**
+
+**Range:** Melee
+
+**Duration:** Special
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **On hit:** The hold is applied on a successful attack roll.
+
+- **Maintaining Duration:** The hold is kept until the end of the next round and the monk cannot take any other actions during this duration.
+
+- **Escaping the Hold:** The target may spend each available attack to attempt to escape at -2. If the hit is successful they break free.
+
+- **Failing to Escape:** If all attempts fail, the target falls unconscious at the end of the round for 1–3 rounds.
+
+### <a id="lock-2"></a>**Lock 2 — Locking block (Soft)**
+
+**Range:** Melee
+
+**Duration:** Special
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **On hit:** Traps the opponent’s weapon, arm, or leg so it cannot be used to attack.
+
+- **Follow-ups:** While the lock is held, foot-only attacks the monk uses gain a +4 to hit.
+
+- **Breaking free:** The target may spend an attack to attempt a normal attack roll to break the lock. If the attack hits the lock is broken.
+
+- **Damage:** The locking block causes no damage.
+
+- **On miss versus unarmed:** The attack is lost with no further effect.
+
+- **On miss versus a weapon:** The monk is struck by that weapon and takes normal damage.
+
+### <a id="lock-3"></a>**Lock 3 — Incapacitator (Hard/Soft)**
+
+**Range:** Melee, grapple
+
+**Duration:** 24 hours for the affected limb
+
+**Action:** 1 attack
+
+**Save:** vs. paralyzation
+
+- **On hit:** If the save fails, one finger, arm, or leg is useless for 24 hours and the target takes double normal damage.
+
+- **On save or miss:** No effect and no damage.
+
+- **Reference:** If an arm is incapacitated, the character can still fight, though they cannot use two-handed weapons. Spells requiring somatic components can be cast 75% of the time. If a leg is incapacitated, the character's movement rate is reduced to 1/4 its normal. Armor Class decreases by 3 and the creature suffers a -4 on his chance to hit. 
+
+### <a id="lock-4"></a>**Lock 4 — Immobilizing (Hard/Soft)**
+
+**Range:** Melee
+
+**Duration:** Special
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **On hit:** The target is held and cannot take actions. The monk may still attack with feet or a free hand and can apply an additional immobilizing lock to another foe.
+
+- **Breaking free:** The target may to attempt an attack roll at -6 to break the hold.
+
+- **On miss:** The monk suffers -4 to the next attack.
+
+- **Damage:** None from the lock itself.
+
+### <a id="movement-1"></a>**Movement 1 — Feint (Hard/Soft)**
+
+**Range:** Self
+
+**Duration:** Until next attack this round
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **Effect:** On a successful attack roll, the monk's next attack this round against the same opponent gains +2 to hit. The feint deals no damage.
+
+- **On miss:** No effect beyond losing the attack.
+
+### <a id="movement-2"></a>**Movement 2 — Prone fighting (Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** The monk gains the ability to fight effectively while prone.
+
+- **Limitation:** While prone, no special maneuvers may be used except Instant Stand.
+
+### <a id="movement-3"></a>**Movement 3 — Immovability (Soft)**
+
+**Range:** Self
+
+**Duration:** Constant
+
+**Action:** —
+
+**Save:** vs. paralyzation
+
+- **Effect:** When the monk would be knocked, lifted, or thrown, a successful save keeps the monk in place.
+
+## <a id="movement-4"></a>**Movement 4 — Missile deflection (Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** vs. paralyzation per missile
+
+- **Effect:** Against nonmagical missile attacks and against magical arrows and bolts, the monk attempts a save for each missile. On a successful save, the missile is avoided; on a failed save, it hits normally.
+
+- **Restrictions:** The monk must be aware of the missile.
+
+### <a id="movement-5"></a>**Movement 5 — Leap (Soft)**
+
+**Range:** Self
+
+**Duration:** Instant
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **Standing start:** Leap 4 ft upward and 3 ft forward plus 1 ft per level. The monk may flip in mid-air to change facing.
+
+- **Running start:** With 10 ft of run, leap 8 ft upward and 10 ft forward plus 1 ft per level.
+
+- **Landing check:** Make a normal attack roll to land safely. On a failure, the monk falls prone.
+
+- **Action economy:** The leap uses one attack. Any remaining attacks may still be used.
+
+### <a id="movement-6"></a>**Movement 6 — Speed (Hard/Soft)**
+
+**Range:** Self
+
+**Duration:** Up to 5 rounds
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** Doubles melee attacks per round for martial arts and normal combat, and doubles combat movement rate.
+
+- **Limits:** Usable once per day. Cannot be maintained for more than 5 rounds. Afterward the monk must rest for 1d3 rounds.
+
+- **Note:** Does not increase non-combat movement.
+
+
+### <a id="movement-7"></a>**Movement 7 — Slow resistance (Hard/Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** The monk is immune to slow effects.
+
+### <a id="push-1"></a>**Push 1 — Concentrated push (Soft)**
+
+**Range:** Melee
+
+**Duration:** Instant
+
+**Action:** 1 attack
+
+**Save:** vs. paralyzation
+
+- **On hit:** The target is pushed 1 ft per level of the monk.
+
+- **Staying upright:** If pushed more than 3 ft, the target must save or fall prone.
+
+- **Collision:** If the target strikes a solid object, it takes damage as if it had fallen the same distance.
+
+- **Immovability:** Targets with Immovability may be immune or resist with a save against being moved.
+
+- **On miss:** Until the end of the round, all attacks against the monk gain +2 to hit.
+
+### <a id="push-2"></a>**Push 2 — Sticking touch (Soft)**
+
+**Range:** Melee
+
+**Duration:** Special
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **On hit:** After a successful to-hit and while maintaining contact, the monk gains +2 to hit and improved AC by 2 against that opponent.
+
+- **Breaking contact:** The touch is broken if the opponent moves in a way or at a speed beyond the monk ability. If both possess the Leap maneuver, the monk may choose to leap at the same time to maintain contact.
+
+### <a id="push-3"></a>**Push 3 — One finger (Soft)**
+
+**Range:** 1' /level
+
+**Duration:** Instant
+
+**Action:** 1 action
+
+**Save:** vs. paralyzation
+
+- **On hit:** The target is affected as by Concentrated Push at range. The target is pushed 1 ft per level of the monk. If pushed more than 3 ft, the target must save or fall prone. Collisions deal falling damage.
+
+- **Immovability:** Targets with Immovability may not be affected or resist being moved with a successful saving throw.
+
+- **On miss:** No effect.
+
+
+### <a id="weapon-1"></a>**Weapon 1 — Weapon catch (Hard/Soft)**
+
+**Range:** Melee
+
+**Duration:** Special
+
+**Action:** 1 attack
+
+**Save:** —
+
+- **On hit:** With their own weapon, the monk catches and locks the opponent’s attacking limb or weapon in place so it cannot be used to attack.
+
+- **Follow-ups:** If the monk's correct principal body part is free, subsequent attacks against that opponent gain +2 to hit.
+
+- **Breaking free:** The opponent may drop the weapon or spend an attack to attempt a normal attack roll to break free.
+
+- **On miss:** The monk fouls the weapon and is disarmed.
+
+### <a id="weapon-2"></a>**Weapon 2 — Weapon breaker (Hard/Soft)**
+
+**Range:** Melee
+
+**Duration:** Instant
+
+**Action:** 1 attack
+
+**Save:** weapon save vs. crushing blow
+
+- **On hit:** The struck weapon must save vs. crushing blow or it breaks.
+
+- **Scope:** Works only against melee weapons, not against unarmed foes. May be used with a bo stick or staff against thinner weapons.
+
+- **Damage:** None to the opponent on a break attempt.
+
+### <a id="weapon-3"></a>**Weapon 3 — Steel cloth (Soft)**
+
+**Range:** Self
+
+**Duration:** Special
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** By whirling a 6 to 10 ft length of cloth, the monk forms a rigid weapon treated as a spear that cannot be thrown.
+
+- **Use:** Does not require any rolls to be formed, but otherwise functions like a normal spear of the suitable size.
+
+### <a id="mental-1"></a>**Mental 1 — Meditation (Hard/Soft)**
+
+**Range:** Self
+
+**Duration:** As per Meditation rules
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** By meditating, the monk focuses and regains his energies. One hour of uninterrupted meditation is as restful as two hours of sleep. 
+
+- **While meditating:** The monk is oblivious to hunger, thirst, heat, and cold. He is still conscious and aware of his surroundings, however, so he does not suffer any penalties on surprise or initiative dice rolls.
+
+### <a id="mental-2"></a>**Mental 2 — All-around sight (Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** Detects opponents on all sides that are not invisible. The monk cannot be struck from behind and does not suffer penalties from back attacks.
+
+### <a id="mental-3"></a>**Mental 3 — Mental resistance (Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** +2 on all saving throws against mental attacks including charm, illusion, and hold spells.
+
+### <a id="mental-4"></a>**Mental 4 — Blind fighting (Soft)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** When fighting in darkness, when blinded, or against invisible foes, the monk suffers only -1 to hit.
+
+- **Limitation:** Any of the above combined with silence renders the monk effectively blind again and normal penalties apply.
+
+### <a id="mental-5"></a>**Mental 5 — Ironskin (Hard)**
+
+**Range:** Self
+
+**Duration:** Permanent
+
+**Action:** —
+
+**Save:** —
+
+- **Effect:** Improves AC by 2.
+
+### <a id="mental-6"></a>**Mental 6 — Levitation (Soft)**
+
+**Range:** Self
+
+**Duration:** Special
+
+**Action:** 1 turn
+
+**Save:** —
+
+- **Effect:** After 1 turn of uninterrupted concentration, the monk can levitate and move up, down, or sideways at 5 ft per round.
+
+- **While levitating:** The monk cannot take any other actions. If concentration is broken, the monk falls.
+
+- **Afterward:** Upon ending levitation, the monk must rest for 1 round before taking other actions.
 
 ## <span id=specialist> Specialist </span>
 
@@ -2483,9 +2845,9 @@ preparing research tools. This week is separate from research weeks.
 
 - At the end of the research, calculate the chance of success: 
 
-> - 10% + INT/WIS + Character Level − (2 x Spell Level)
+> - 10% + INT/WIS + Character Level - (2 x Spell Level)
 
-> **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 − (2 × 2) = 27%
+> **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 - (2 × 2) = 27%
 
 - Roll 1d100:
 
