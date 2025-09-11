@@ -423,41 +423,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Class Items:** Spellbook containing the initial spells of Chaos.
 
-### Talents
-
-**Spellcasting:**
-
-| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
-|----------------|---------------------|-----------------------------------------------------|--------------------------------|
-| 3 - 7          | 4                   | 2/4                                                 | 2                              |
-| 8              | 5                   | 3/5                                                 | 2                              |
-| 9              | 5                   | 3/5                                                 | 2                              |
-| 10             | 5                   | 4/6                                                 | 3                              |
-| 11             | 6                   | 4/6                                                 | 3                              |
-| 12             | 6                   | 4/6                                                 | 3                              |
-| 13             | 7                   | 5/8                                                 | 4                              |
-| 14             | 7                   | 5/8                                                 | 4                              |
-| 15             | 8                   | 6/10                                                | 4                              |
-| 16             | 8                   | 6/10                                                | 5                              |
-| 17             | 9                   | 7/All                                               | 5                              |
-| 18             | 9                   | 8/All                                               | 6                              |
-
-\*Minimum is the least amount of spells learned at character creation
-from the selected roster of spells. If the amount isn't met when rolling
-through the list, simply repeat until it is.
-
-**Known Spells:** Chaos Mages initially have access to ten 1st-level
-spells and two Cantrips as well as “Read Chaos Magic”, a first level blue
-spell. Refer to the spell table above to identify how many of the ten
-spells are already inscribed and comprehended in the spellbook. Any
-remaining spells out of the initial ten, which are not yet understood,
-are not added to the spellbook until the Mage has successfully learned
-the initial set.
-
-**Cantrips:** Small magic tricks or simple utility spells that can be
-cast without spending mana. These spells are often instantaneous and can
-be used as many times as the Mage would like.
-
 ### Chaos Mage Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Weapon Proficiencies** | **Level Title** |
@@ -500,6 +465,40 @@ be used as many times as the Mage would like.
 |-------|--------|---------|---------|
 |+0     | +1     | +3      | +6      | 
 
+### Talents
+
+**Spellcasting:**
+
+| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+|----------------|---------------------|-----------------------------------------------------|--------------------------------|
+| 3 - 7          | 4                   | 2/4                                                 | 2                              |
+| 8              | 5                   | 3/5                                                 | 2                              |
+| 9              | 5                   | 3/5                                                 | 2                              |
+| 10             | 5                   | 4/6                                                 | 3                              |
+| 11             | 6                   | 4/6                                                 | 3                              |
+| 12             | 6                   | 4/6                                                 | 3                              |
+| 13             | 7                   | 5/8                                                 | 4                              |
+| 14             | 7                   | 5/8                                                 | 4                              |
+| 15             | 8                   | 6/10                                                | 4                              |
+| 16             | 8                   | 6/10                                                | 5                              |
+| 17             | 9                   | 7/All                                               | 5                              |
+| 18             | 9                   | 8/All                                               | 6                              |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn't met when rolling
+through the list, simply repeat until it is.
+
+**Known Spells:** Chaos Mages initially have access to ten 1st-level
+spells and two Cantrips as well as “Read Chaos Magic”, a first level blue
+spell. Refer to the spell table above to identify how many of the ten
+spells are already inscribed and comprehended in the spellbook. Any
+remaining spells out of the initial ten, which are not yet understood,
+are not added to the spellbook until the Mage has successfully learned
+the initial set.
+
+**Cantrips:** Small magic tricks or simple utility spells that can be
+cast without spending mana. These spells are often instantaneous and can
+be used as many times as the Mage would like.
 
 ### Chaos Mage Spell Slots by Level
 | Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
@@ -554,41 +553,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Class Items:** Spellbook containing the initial spells of Phantasm.
 
-### Talents
-
-**Spellcasting:**
-
-| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
-|----------------|---------------------|-----------------------------------------------------|--------------------------------|
-| 3 - 7          | 2                   | 2/4                                                 | 2                              |
-| 8              | 3                   | 3/5                                                 | 2                              |
-| 9              | 3                   | 3/5                                                 | 2                              |
-| 10             | 3                   | 4/6                                                 | 3                              |
-| 11             | 4                   | 4/6                                                 | 3                              |
-| 12             | 4                   | 4/6                                                 | 3                              |
-| 13             | 5                   | 5/8                                                 | 4                              |
-| 14             | 5                   | 5/8                                                 | 4                              |
-| 15             | 6                   | 6/10                                                | 4                              |
-| 16             | 6                   | 6/10                                                | 5                              |
-| 17             | 7                   | 7/All                                               | 5                              |
-| 18             | 7                   | 8/All                                               | 6                              |
-
-\*Minimum is the least amount of spells learned at character creation
-from the selected roster of spells. If the amount isn't met when rolling
-through the list, simply repeat until it is.
-
-**Known Spells:** Illusionists initially have access to ten 1st-level
-spells and two Cantrips as well as “Read Illusion Magic”, a first level blue
-spell. Refer to the spell table above to identify how many of the ten
-spells are already inscribed and comprehended in the spellbook. Any
-remaining spells out of the initial ten, which are not yet understood,
-are not added to the spellbook until the Mage has successfully learned
-the initial set.
-
-**Cantrips:** Small magic tricks or simple utility spells that can be
-cast without spending mana. These spells are often instantaneous and can
-be used as many times as the Mage would like.
-
 ### Illusionist Advancement Table
 
 | **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
@@ -628,6 +592,41 @@ be used as many times as the Mage would like.
 |**1-5**|**6-10**|**11-15**|**16-20**|
 |-------|--------|---------|---------|
 |+0     | +1     | +3      | +6      | 
+
+### Talents
+
+**Spellcasting:**
+
+| **Intelligence Score** | **Max Spell Level** | **Min/Max Number of Basic Spells Understandable\*** | **Maximum Number of Cantrips** |
+|----------------|---------------------|-----------------------------------------------------|--------------------------------|
+| 3 - 7          | 2                   | 2/4                                                 | 2                              |
+| 8              | 3                   | 3/5                                                 | 2                              |
+| 9              | 3                   | 3/5                                                 | 2                              |
+| 10             | 3                   | 4/6                                                 | 3                              |
+| 11             | 4                   | 4/6                                                 | 3                              |
+| 12             | 4                   | 4/6                                                 | 3                              |
+| 13             | 5                   | 5/8                                                 | 4                              |
+| 14             | 5                   | 5/8                                                 | 4                              |
+| 15             | 6                   | 6/10                                                | 4                              |
+| 16             | 6                   | 6/10                                                | 5                              |
+| 17             | 7                   | 7/All                                               | 5                              |
+| 18             | 7                   | 8/All                                               | 6                              |
+
+\*Minimum is the least amount of spells learned at character creation
+from the selected roster of spells. If the amount isn't met when rolling
+through the list, simply repeat until it is.
+
+**Known Spells:** Illusionists initially have access to ten 1st-level
+spells and two Cantrips as well as “Read Illusion Magic”, a first level blue
+spell. Refer to the spell table above to identify how many of the ten
+spells are already inscribed and comprehended in the spellbook. Any
+remaining spells out of the initial ten, which are not yet understood,
+are not added to the spellbook until the Mage has successfully learned
+the initial set.
+
+**Cantrips:** Small magic tricks or simple utility spells that can be
+cast without spending mana. These spells are often instantaneous and can
+be used as many times as the Mage would like.
 
 ### Illusionist Spell Slots by Level
 | Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
@@ -678,12 +677,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 5            | Splint Mail + Medium shield | Shortsword
 | 6            | Plate Mail | Spear (1d3) 1. Thrown. 2. One-handed. 3. Two-handed
 
-### Talents
-
-**Cleave:** When a Fighter successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Fighter each round.
-
-**Multiple Attacks (5th):** At 5th level, a Fighter may attack twice per round instead of once.
-
 ### Fighter Advancement Table
 
 | **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
@@ -729,6 +722,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
 |+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
 
+### Talents
+
+**Cleave:** When a Fighter successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Fighter each round.
+
+**Multiple Attacks (5th):** At 5th level, a Fighter may attack twice per round instead of once.
+
 ## <span id=barbarian> Barbarian </span>
 
 **Minimum Requirement:** 9+ Strength, 13+ Dexterity, 13+ Constitution
@@ -753,32 +752,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 4            | Studded Leather | 3 Spears, thrown
 | 5            | Scale Mail + Medium Shield | Great Axe
 | 6            | Splint Mail | Zweihänder
-
-### Talents
-
-**Alertness:** A Barbarian is unlikely to be surprised, 
-with only a 1-in-6 chance under normal circumstances. 
-This amount is decreased by 1 if the chance of surprise is higher. 
-For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
-
-**Cleave:** When a Barbarian successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Barbarian each round.
-
-**Hear Sound:** A Barbarian can hear well when concentrating; this
-mainly includes listening at doors, but can also be used to hear un-
-usual or discordant sounds in the wilderness. They are able to listen at doors
-on a 1-3 on 1d6. 
-
-**Keen Instincts:** Barbarians can detect and concealed doors easier
-than others. They are able to discover secret and hidden doors on a 1-4
-on 1d6.
-
-**Swift Runner:** Barbarians move quicker than other humans and have a base movement rate of 15 instead of the standard 12 (if unarmored).
-
-**Wilderness Survival:** Barbarians are adept at surviving in the wild
-places of the world and are always able to find food and water to
-sustain themselves when in the wilderness.
-
-**Multiple Attacks (8th):** At 8th level, a Barbarian may attack twice per round instead of once.
 
 ### Barbarian Advancement Table
 
@@ -825,6 +798,32 @@ sustain themselves when in the wilderness.
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
+### Talents
+
+**Alertness:** A Barbarian is unlikely to be surprised, 
+with only a 1-in-6 chance under normal circumstances. 
+This amount is decreased by 1 if the chance of surprise is higher. 
+For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
+
+**Cleave:** When a Barbarian successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Barbarian each round.
+
+**Hear Sound:** A Barbarian can hear well when concentrating; this
+mainly includes listening at doors, but can also be used to hear un-
+usual or discordant sounds in the wilderness. They are able to listen at doors
+on a 1-3 on 1d6. 
+
+**Keen Instincts:** Barbarians can detect and concealed doors easier
+than others. They are able to discover secret and hidden doors on a 1-4
+on 1d6.
+
+**Swift Runner:** Barbarians move quicker than other humans and have a base movement rate of 15 instead of the standard 12 (if unarmored).
+
+**Wilderness Survival:** Barbarians are adept at surviving in the wild
+places of the world and are always able to find food and water to
+sustain themselves when in the wilderness.
+
+**Multiple Attacks (8th):** At 8th level, a Barbarian may attack twice per round instead of once.
+
 ## <span id=inquisitor> Inquisitor </span>
 
 **Minimum Requirement:** 13+ Strength, +9 Constitution, +9 Intelligence, +13 Wisdom, +17
@@ -852,50 +851,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 4            | Banded Mail | Mace
 | 5            | Plate Mail | Claymore
 | 6            | Plate Mail + Medium Shield | Pole Arm
-
-### Restrictions
-
-**Unclouded:** Inquisitors may only equip no more than three magic items.
-
-**Limited Possessions:** An Inquisitor may only keep wealth and possessions that can be kept on their person. Excess must be donated to worthy causes (not other PCs). This restriction is lifted when the character becomes a Paladin.
-
-**Tithe:** In addition to not retaining wealth, Inquisitors also need to tithe 10% of their earnings immediately after shares are split.
-
-### Talents
-
-**Detect Evil**: An Inquisitor can detect the presence of evil intent up
-to 60 feet away by concentrating on locating evil in a particular
-direction. They can do this as often as desired, but each attempt takes
-one round. This ability detects evil monsters and characters.
-
-**Disease immunity:** An Inquisitor is immune to all forms of disease.
-(Note that certain magical afflictions—lycanthropy and mummy rot—are
-curses and not diseases.)
-
-**Lay on Hands:** An Inquisitor can “lay on hands” once per day to cure
-others or one self of 2 hit points of damage per level of the Inquisitor, or to cure
-disease. This takes one round to cast while curing disease can only be done once per week per five levels of experience.
-
-**Protection from Evil Aura:**
-The Inquisitor has a continious 10' emanation of a *protection from evil* spell.
-
-**Saving Throw Bonus:** Inquisitors gain a +2 bonus on saving throws.
-
-**Strong Willed:** Whenever the Inquisitor is under the effects of a
-spell that incapacitates the body or mind (sleep, hold, charm,
-paralysis, etc.), they may make a new saving throw every round.
-
-**Banishing Undead (3rd):** An Inquisitor gains the power to turn
-undead and fiends when they reach 3rd level. They affect these monsters
-the same as does a [<u>law mage</u>](#law-mage) two levels lower—for
-example, at 3rd level they have the turning power of a 1st-level [<u>Law
-Mage</u>](#law-mage).
-
-**Multiple Attacks (7th):** At 7th level, an Inquisitor may attack twice per round instead of once.
-
-**Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
-dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
-Mage</u>](#law-mage-1) spell dispel evil).
 
 ### Inquisitor Advancement Table
 
@@ -942,6 +897,50 @@ Mage</u>](#law-mage-1) spell dispel evil).
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
+### Restrictions
+
+**Unclouded:** Inquisitors may only equip no more than three magic items.
+
+**Limited Possessions:** An Inquisitor may only keep wealth and possessions that can be kept on their person. Excess must be donated to worthy causes (not other PCs). This restriction is lifted when the character becomes a Paladin.
+
+**Tithe:** In addition to not retaining wealth, Inquisitors also need to tithe 10% of their earnings immediately after shares are split.
+
+### Talents
+
+**Detect Evil**: An Inquisitor can detect the presence of evil intent up
+to 60 feet away by concentrating on locating evil in a particular
+direction. They can do this as often as desired, but each attempt takes
+one round. This ability detects evil monsters and characters.
+
+**Disease immunity:** An Inquisitor is immune to all forms of disease.
+(Note that certain magical afflictions—lycanthropy and mummy rot—are
+curses and not diseases.)
+
+**Lay on Hands:** An Inquisitor can “lay on hands” once per day to cure
+others or one self of 2 hit points of damage per level of the Inquisitor, or to cure
+disease. This takes one round to cast while curing disease can only be done once per week per five levels of experience.
+
+**Protection from Evil Aura:**
+The Inquisitor has a continious 10' emanation of a *protection from evil* spell.
+
+**Saving Throw Bonus:** Inquisitors gain a +2 bonus on saving throws.
+
+**Strong Willed:** Whenever the Inquisitor is under the effects of a
+spell that incapacitates the body or mind (sleep, hold, charm,
+paralysis, etc.), they may make a new saving throw every round.
+
+**Banishing Undead (3rd):** An Inquisitor gains the power to turn
+undead and fiends when they reach 3rd level. They affect these monsters
+the same as does a [<u>law mage</u>](#law-mage) two levels lower—for
+example, at 3rd level they have the turning power of a 1st-level [<u>Law
+Mage</u>](#law-mage).
+
+**Multiple Attacks (7th):** At 7th level, an Inquisitor may attack twice per round instead of once.
+
+**Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
+dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
+Mage</u>](#law-mage-1) spell dispel evil).
+
 ## <span id=ranger> Ranger </span>
 
 **Minimum Requirement:** 13+ Strength, 14+ Constitution, 13+ Intelligence, 14+ Wisdom.
@@ -954,6 +953,10 @@ Mage</u>](#law-mage-1) spell dispel evil).
 
 **Weapons Permitted:** Any.
 
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
 | **Result (1d6)** | **Armor** | **Weapons** |
 |--------------|-------|---------|
 | 1            | Leather | Longbow + 20 Arrows
@@ -962,6 +965,51 @@ Mage</u>](#law-mage-1) spell dispel evil).
 | 4            | Brigandine | Spear (1d3) 1. Thrown. 2. One-handed. 3. Two-handed
 | 5            | Chain Mail | Shortsword
 | 6            | Scale Mail | Light Crossbow + 20 light quarrels
+
+### Ranger Advancement Table
+
+| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
+|-----------|------------------------------|-------------------|-------------------|--------------------------|-----------------------|
+| 1         | 0                            | 2                 | 15                | 4                        | Runner                |
+| 2         | 2,250                        | 3                 | 14                | 4                        | Strider               |
+| 3         | 4,500                        | 4                 | 13                | 5                        | Scout                 |
+| 4         | 10,000                       | 5                 | 12                | 5                        | Courser               |
+| 5         | 20,000                       | 6                 | 11                | 5                        | Tracker               |
+| 6         | 40,000                       | 7                 | 10                | 6                        | Guide                 |
+| 7         | 90,000                       | 8                 | 9                 | 6                        | Pathfinder            |
+| 8         | 150,000                      | 9                 | 8                 | 6                        | Ranger                |
+| 9         | 275,000                      | 10                | 7                 | 7                        | Ranger-Knight         |
+| 10        | 400,000                      | 11                | 6                 | 7                        | Ranger Lord           |
+| 11        | 525,000                      | 11+2              | 5                 | 7                        |                       |
+| 12        | 650,000                      | 11+4              | 5                 | 8                        |                       |
+| 13        | 725,000                      | 11+6              | 5                 | 8                        |                       |
+| 14        | 850,000                      | 11+8              | 5                 | 8                        |                       |
+| 15        | 975,000                      | 11+10             | 5                 | 9                        |                       |
+| 16        | 1,100,000                    | 11+12             | 5                 | 9                        |                       |
+| 17        | 1,225,000                    | 11+14             | 5                 | 9                        |                       |
+| 18        | 1,350,000                    | 11+16             | 5                 | 10                       |                       |
+| 19        | 1,475,000                    | 11+18             | 5                 | 10                       |                       |
+| 20        | 1,600,000                    | 11+20             | 5                 | 10                       |                       |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 2       | 14                                       | 15                             | 16                      | 17                | 17        |
+| 3 – 4       | 13                                       | 14                             | 15                      | 16                | 16        |
+| 5 – 6       | 11                                       | 12                             | 13                      | 13                | 14        |
+| 7 – 8       | 10                                       | 11                             | 12                      | 12                | 13        |
+| 9 – 10      | 8                                        | 9                              | 10                      | 9                 | 11        |
+| 11 – 12     | 7                                        | 8                              | 9                       | 8                 | 10        |
+| 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
+| 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
+| 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
+
+### Calculating To Hit Modifier by Level
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
 ### Restrictions:
 
@@ -1051,51 +1099,6 @@ Ranger Tracking Chance of Success:
 
 **Multiple Attacks (8th):** At 8th level, a Ranger may attack twice per round instead of once.
 
-### Ranger Advancement Table
-
-| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|------------------------------|-------------------|-------------------|--------------------------|-----------------------|
-| 1         | 0                            | 2                 | 15                | 4                        | Runner                |
-| 2         | 2,250                        | 3                 | 14                | 4                        | Strider               |
-| 3         | 4,500                        | 4                 | 13                | 5                        | Scout                 |
-| 4         | 10,000                       | 5                 | 12                | 5                        | Courser               |
-| 5         | 20,000                       | 6                 | 11                | 5                        | Tracker               |
-| 6         | 40,000                       | 7                 | 10                | 6                        | Guide                 |
-| 7         | 90,000                       | 8                 | 9                 | 6                        | Pathfinder            |
-| 8         | 150,000                      | 9                 | 8                 | 6                        | Ranger                |
-| 9         | 275,000                      | 10                | 7                 | 7                        | Ranger-Knight         |
-| 10        | 400,000                      | 11                | 6                 | 7                        | Ranger Lord           |
-| 11        | 525,000                      | 11+2              | 5                 | 7                        |                       |
-| 12        | 650,000                      | 11+4              | 5                 | 8                        |                       |
-| 13        | 725,000                      | 11+6              | 5                 | 8                        |                       |
-| 14        | 850,000                      | 11+8              | 5                 | 8                        |                       |
-| 15        | 975,000                      | 11+10             | 5                 | 9                        |                       |
-| 16        | 1,100,000                    | 11+12             | 5                 | 9                        |                       |
-| 17        | 1,225,000                    | 11+14             | 5                 | 9                        |                       |
-| 18        | 1,350,000                    | 11+16             | 5                 | 10                       |                       |
-| 19        | 1,475,000                    | 11+18             | 5                 | 10                       |                       |
-| 20        | 1,600,000                    | 11+20             | 5                 | 10                       |                       |
-
-#### Saving Throws
-
-| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
-|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
-| 1 – 2       | 14                                       | 15                             | 16                      | 17                | 17        |
-| 3 – 4       | 13                                       | 14                             | 15                      | 16                | 16        |
-| 5 – 6       | 11                                       | 12                             | 13                      | 13                | 14        |
-| 7 – 8       | 10                                       | 11                             | 12                      | 12                | 13        |
-| 9 – 10      | 8                                        | 9                              | 10                      | 9                 | 11        |
-| 11 – 12     | 7                                        | 8                              | 9                       | 8                 | 10        |
-| 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
-| 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
-| 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
-|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
-
 ## <span id=law-mage> Law Mage </span>
 
 **Minimum Requirement:** 9+ Wisdom.
@@ -1124,6 +1127,49 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 6            | Plate Mail | Warhammer
 
 **Class Items:** Spellbook containing the initial spells of Law.
+
+### Law Mage Advancement Table
+
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
+|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------|
+| 1         | 0                         | 1                 | 15               | 2                        | Pupil                |
+| 2         | 1,500                     | 2                 | 14               | 2                        | Acolyte              |
+| 3         | 3,000                     | 3                 | 13               | 2                        | Adept                |
+| 4         | 6,000                     | 4                 | 12               | 3                        | Priest               |
+| 5         | 13,000                    | 5                 | 11               | 3                        | Curate               |
+| 6         | 27,500                    | 6                 | 10               | 3                        | Canon                |
+| 7         | 55,000                    | 7                 | 9                | 3                        | Lama                 |
+| 8         | 110,000                   | 8                 | 8                | 4                        | Patriarch            |
+| 9         | 220,000                   | 9                 | 7                | 4                        | High Priest          |
+| 10        | 330,000                   | 9+1               | 6                | 4                        |                      |
+| 11        | 440,000                   | 9+2               | 5                | 4                        |                      |
+| 12        | 550,000                   | 9+3               | 4                | 5                        |                      |
+| 13        | 660,000                   | 9+4               | 4                | 5                        |                      |
+| 14        | 770,000                   | 9+5               | 4                | 5                        |                      |
+| 15        | 880,000                   | 9+6               | 4                | 5                        |                      |
+| 16        | 990,000                   | 9+7               | 4                | 6                        |                      |
+| 17        | 1,100,000                 | 9+8               | 4                | 6                        |                      |
+| 18        | 1,200,000                 | 9+9               | 4                | 6                        |                      |
+| 19        | 1,300,000                 | 9+10              | 4                | 6                        |                      |
+| 20        | 1,400,000                 | 9+11              | 4                | 7                        |                      |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 3     | 10                                       | 13                             | 14                      | 16                | 15        |
+| 4 - 6     | 9                                        | 12                             | 13                      | 15                | 14        |
+| 7 – 9     | 7                                        | 10                             | 11                      | 13                | 12        |
+| 10 – 12   | 6                                        | 9                              | 10                      | 12                | 11        |
+| 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
+| 16 – 18   | 4                                        | 7                              | 8                       | 10                | 9         |
+| 19+       | 2                                        | 5                              | 6                       | 8                 | 7         |
+
+### Calculating To Hit Modifier by Level
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
 ### Talents
 
@@ -1174,49 +1220,6 @@ on the table, 2d4 creatures of the targeted type are turned and depart.
 | 11                            | Vampire\*           | \-          | \-    | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13        | 10        | 7       |
 | 12                            |                     | \-          | \-    | \-    | \-    | \-    | \-    | 20    | 19    | 16    | 13        | 10        | 10      |
 | 15+                           | Lich                | \-          | \-    | \-    | \-    | \-    | \-    | \-    | \-    | 20    | 19        | 16        | 13      |
-
-### Law Mage Advancement Table
-
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------|
-| 1         | 0                         | 1                 | 15               | 2                        | Pupil                |
-| 2         | 1,500                     | 2                 | 14               | 2                        | Acolyte              |
-| 3         | 3,000                     | 3                 | 13               | 2                        | Adept                |
-| 4         | 6,000                     | 4                 | 12               | 3                        | Priest               |
-| 5         | 13,000                    | 5                 | 11               | 3                        | Curate               |
-| 6         | 27,500                    | 6                 | 10               | 3                        | Canon                |
-| 7         | 55,000                    | 7                 | 9                | 3                        | Lama                 |
-| 8         | 110,000                   | 8                 | 8                | 4                        | Patriarch            |
-| 9         | 220,000                   | 9                 | 7                | 4                        | High Priest          |
-| 10        | 330,000                   | 9+1               | 6                | 4                        |                      |
-| 11        | 440,000                   | 9+2               | 5                | 4                        |                      |
-| 12        | 550,000                   | 9+3               | 4                | 5                        |                      |
-| 13        | 660,000                   | 9+4               | 4                | 5                        |                      |
-| 14        | 770,000                   | 9+5               | 4                | 5                        |                      |
-| 15        | 880,000                   | 9+6               | 4                | 5                        |                      |
-| 16        | 990,000                   | 9+7               | 4                | 6                        |                      |
-| 17        | 1,100,000                 | 9+8               | 4                | 6                        |                      |
-| 18        | 1,200,000                 | 9+9               | 4                | 6                        |                      |
-| 19        | 1,300,000                 | 9+10              | 4                | 6                        |                      |
-| 20        | 1,400,000                 | 9+11              | 4                | 7                        |                      |
-
-#### Saving Throws
-
-| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
-|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
-| 1 – 3     | 10                                       | 13                             | 14                      | 16                | 15        |
-| 4 - 6     | 9                                        | 12                             | 13                      | 15                | 14        |
-| 7 – 9     | 7                                        | 10                             | 11                      | 13                | 12        |
-| 10 – 12   | 6                                        | 9                              | 10                      | 12                | 11        |
-| 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
-| 16 – 18   | 4                                        | 7                              | 8                       | 10                | 9         |
-| 19+       | 2                                        | 5                              | 6                       | 8                 | 7         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
-|-------|-------|-------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
 ### Law Mage Spell Slots by Level
 | Level | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th |
@@ -1271,6 +1274,49 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 5            | Leather | Sling
 | 6            | Leather | Oil flask
 
+### Druid Advancement Table
+
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**             |
+|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------------|
+| 1         | 0                         | 1                 | 15               | 2                        | Aspiran                     |
+| 2         | 2,000                     | 2                 | 14               | 2                        | Ovate                       |
+| 3         | 4,000                     | 3                 | 13               | 2                        | Initiate of the 1st Circle  |
+| 4         | 7,500                     | 4                 | 12               | 3                        | Initiate of the 2nd Circle  |
+| 5         | 12,500                    | 5                 | 11               | 3                        | Initiate of the 3rd Circle  |
+| 6         | 20,000                    | 6                 | 10               | 3                        | Initiate of the 4th Circle  |
+| 7         | 60,000                    | 7                 | 9                | 3                        | Initiate of the 5th Circle  |
+| 8         | 60,000                    | 8                 | 8                | 4                        | Initiate of the 6th Circle  |
+| 9         | 90,000                    | 9                 | 7                | 4                        | Initiate of the 7th Circle  |
+| 10        | 125,000                   | 9+1               | 6                | 4                        | Initiate of the 8th Circle  |
+| 11        | 200,000                   | 9+2               | 5                | 4                        | Initiate of the 9th Circle  |
+| 12        | 300,000                   | 9+3               | 4                | 5                        | Druid                       |
+| 13        | 750,000                   | 9+4               | 4                | 5                        | Great Druid                 |
+| 14        | 1,500,000                 | 9+5               | 4                | 5                        | Archdruid                   |
+
+**Reaching 12th Level and Above:**
+There can only be nine druids of 12th level. When a druid has enough experience to reach 12th level, they must challenge and defeat an existing 12lth level druid to advance.
+Likewise, there can only be three 13th level druids and a single 14th level druid, known as the archdruid.
+
+Druids who attain 12th level or above may build a stronghold integrated into a natural setting.
+
+### Calculating To Hit Modifier by Level
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 3     | 10                                       | 13                             | 14                      | 16                | 15        |
+| 4 - 6     | 9                                        | 12                             | 13                      | 15                | 14        |
+| 7 – 9     | 7                                        | 10                             | 11                      | 13                | 12        |
+| 10 – 12   | 6                                        | 9                              | 10                      | 12                | 11        |
+| 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
+| 16 – 18   | 4                                        | 7                              | 8                       | 10                | 9         |
+| 19+       | 2                                        | 5                              | 6                       | 8                 | 7         |
+
 ### Talents
 
 **Spellcasting:**
@@ -1319,47 +1365,6 @@ three different animal forms per day — one from each category of
 reptile, mammal, and bird — but only once for each form within a
 single day. When the Druid shapeshifts, 1d4 per level of any lost hit
 points are cured in the transformation.
-
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**             |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------------|
-| 1         | 0                         | 1                 | 15               | 2                        | Aspiran                     |
-| 2         | 2,000                     | 2                 | 14               | 2                        | Ovate                       |
-| 3         | 4,000                     | 3                 | 13               | 2                        | Initiate of the 1st Circle  |
-| 4         | 7,500                     | 4                 | 12               | 3                        | Initiate of the 2nd Circle  |
-| 5         | 12,500                    | 5                 | 11               | 3                        | Initiate of the 3rd Circle  |
-| 6         | 20,000                    | 6                 | 10               | 3                        | Initiate of the 4th Circle  |
-| 7         | 60,000                    | 7                 | 9                | 3                        | Initiate of the 5th Circle  |
-| 8         | 60,000                    | 8                 | 8                | 4                        | Initiate of the 6th Circle  |
-| 9         | 90,000                    | 9                 | 7                | 4                        | Initiate of the 7th Circle  |
-| 10        | 125,000                   | 9+1               | 6                | 4                        | Initiate of the 8th Circle  |
-| 11        | 200,000                   | 9+2               | 5                | 4                        | Initiate of the 9th Circle  |
-| 12        | 300,000                   | 9+3               | 4                | 5                        | Druid                       |
-| 13        | 750,000                   | 9+4               | 4                | 5                        | Great Druid                 |
-| 14        | 1,500,000                 | 9+5               | 4                | 5                        | Archdruid                   |
-
-**Reaching 12th Level and Above:**
-There can only be nine druids of 12th level. When a druid has enough experience to reach 12th level, they must challenge and defeat an existing 12lth level druid to advance.
-Likewise, there can only be three 13th level druids and a single 14th level druid, known as the archdruid.
-
-Druids who attain 12th level or above may build a stronghold integrated into a natural setting.
-
-#### Saving Throws
-
-| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
-|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
-| 1 – 3     | 10                                       | 13                             | 14                      | 16                | 15        |
-| 4 - 6     | 9                                        | 12                             | 13                      | 15                | 14        |
-| 7 – 9     | 7                                        | 10                             | 11                      | 13                | 12        |
-| 10 – 12   | 6                                        | 9                              | 10                      | 12                | 11        |
-| 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
-| 16 – 18   | 4                                        | 7                              | 8                       | 10                | 9         |
-| 19+       | 2                                        | 5                              | 6                       | 8                 | 7         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
-|-------|-------|-------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
 ### Druid Spell Slots by Level
 | Level | 1st | 2nd | 3rd | 4th | 5th |
@@ -1426,6 +1431,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16        | 1,600,000                 | 17                | 10                       | Master of Spring         |
 | 17        | 1,800,000                 | 18                | 11                       | Grand Master of Flowers  |
 
+### Calculating To Hit Modifier by Level
+
+|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
+|-------|-------|--------|---------|---------|---------|
+| +0    | +1    | +4     | +6      | +8      | +10     |
+
 ### Restrictions
 
 **Followers:** Until reaching the status of a Superior Master, the character may not hire or accept followers of any kind, not even lantern-bearers or servants.
@@ -1433,6 +1444,8 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 **Limited Possessions:** A Monk may not retain more than a small fraction of any treasure they recover: Only enough to cover their needs for food and clothing.
 
 **No Magical Reliance:** Unless specifically noted, Monk's cannot wield or use magical items. For items that do not have this restriction, only two weapons and three other magical items can be used at any one time.
+
+**Strength & Dex Bonuses:** Monks never receive bonuses on to-hit or damage rolls for high Strength scores and never receive adjustments to their armor class for high Dexterity.
 
 ### Talents
 
@@ -1500,7 +1513,7 @@ Martial Arts are separated into "styles" which gives the monk a pool of options.
 
 At 1st level, a monk automatically starts with proficiency in one martial arts style and two special maneuvers from that style. All monks also gain the "Missile Deflection" maneuver, it’s not counted against style maneuvers. When in combat, a monk uses either their natural AC or the style’s AC, whichever is better.
 
-No more than two proficienty slots can be expended on a single martial arts style per per level. Special maneuvers must be learned in order of difficulty. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
+No more than two proficiency slots can be expended on a single martial arts style per per level. Special maneuvers must be learned in order of difficulty. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
 
 #### Martial Arts Styles
 
@@ -2112,6 +2125,37 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Class Items:** Starts play with Thieves' Tools. 
 
+### Specialist Advancement Table
+
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Skill Points** | **Weapon Proficiencies** | **Level Title** |
+|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------|
+| 1         | 0                         | 1                 | 4                | 2                        | Apprentice      |
+| 2         | 1,250                     | 2                 | 6                | 2                        | Footpad         |
+| 3         | 2,500                     | 3                 | 8                | 2                        | Rogue           |
+| 4         | 5,000                     | 4                 | 10               | 3                        | Treasure Hunter |
+| 5         | 10,000                    | 5                 | 12               | 3                        | Raconteur       |
+| 6         | 20,000                    | 6                 | 14               | 3                        | Tomb Robber     |
+| 7         | 40,000                    | 7                 | 16               | 4                        | Sharper         |
+| 8         | 60,000                    | 8                 | 18               | 4                        | Magsman         |
+| 9         | 90,000                    | 9                 | 20               | 4                        | Thief           |
+| 10        | 120,000                   | 10                | 22               | 5                        | Expert          |
+| 11        | 240,000                   | 10+1              | 24               | 5                        | Arch Rogue      |
+| 12        | 370,000                   | 10+2              | 26               | 5                        |                 |
+| 13        | 500,000                   | 10+3              | 28               | 6                        |                 |
+| 14        | 630,000                   | 10+4              | 30               | 6                        |                 |
+| 15        | 760,000                   | 10+5              | 32               | 6                        |                 |
+| 16        | 890,000                   | 10+6              | 34               | 7                        |                 |
+| 17        | 1,020,000                 | 10+7              | 36               | 7                        |                 |
+| 18        | 1,150,000                 | 10+8              | 38               | 7                        |                 |
+| 19        | 1,280,000                 | 10+9              | 40               | 8                        |                 |
+| 20        | 1,410,000                 | 10+10             | 42               | 8                        |                 |
+
+### Calculating To Hit Modifier by Level
+
+|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
+|-------|-------|--------|---------|---------|---------|
+| +0    | +1    | +4     | +6      | +8      | +10     |
+
 ### Talents
 
 **Climbing walls or cliffs:** In general, if a normal person has a
@@ -2174,31 +2218,6 @@ engaged in battle.
 small impromptu devices or even creating objects from mechanical parts
 would be considered Tinkering.
 
-### Specialist Advancement Table
-
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Skill Points** | **Weapon Proficiencies** | **Level Title** |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------|
-| 1         | 0                         | 1                 | 4                | 2                        | Apprentice      |
-| 2         | 1,250                     | 2                 | 6                | 2                        | Footpad         |
-| 3         | 2,500                     | 3                 | 8                | 2                        | Rogue           |
-| 4         | 5,000                     | 4                 | 10               | 3                        | Treasure Hunter |
-| 5         | 10,000                    | 5                 | 12               | 3                        | Raconteur       |
-| 6         | 20,000                    | 6                 | 14               | 3                        | Tomb Robber     |
-| 7         | 40,000                    | 7                 | 16               | 4                        | Sharper         |
-| 8         | 60,000                    | 8                 | 18               | 4                        | Magsman         |
-| 9         | 90,000                    | 9                 | 20               | 4                        | Thief           |
-| 10        | 120,000                   | 10                | 22               | 5                        | Expert          |
-| 11        | 240,000                   | 10+1              | 24               | 5                        | Arch Rogue      |
-| 12        | 370,000                   | 10+2              | 26               | 5                        |                 |
-| 13        | 500,000                   | 10+3              | 28               | 6                        |                 |
-| 14        | 630,000                   | 10+4              | 30               | 6                        |                 |
-| 15        | 760,000                   | 10+5              | 32               | 6                        |                 |
-| 16        | 890,000                   | 10+6              | 34               | 7                        |                 |
-| 17        | 1,020,000                 | 10+7              | 36               | 7                        |                 |
-| 18        | 1,150,000                 | 10+8              | 38               | 7                        |                 |
-| 19        | 1,280,000                 | 10+9              | 40               | 8                        |                 |
-| 20        | 1,410,000                 | 10+10             | 42               | 8                        |                 |
-
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -2208,6 +2227,8 @@ would be considered Tinkering.
 | 9 - 12    | 11                                       | 10                             | 10                      | 14                | 11        |
 | 13 – 16   | 10                                       | 9                              | 8                       | 13                | 9         |
 | 17 – 20   | 9                                        | 8                              | 6                       | 12                | 7         |
+
+
 
 #### Disciplines
 
@@ -2223,12 +2244,6 @@ would be considered Tinkering.
 | 6                   | Scholar        | 3 / 6            | 1 / 6        | 1 / 6           | 3 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
 | 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
 | 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
-
-### Calculating To Hit Modifier by Level
-
-|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
-|-------|-------|--------|---------|---------|---------|
-| +0    | +1    | +4     | +6      | +8      | +10     |
 
 # <span id=general-gameplay> General Gameplay </span>
 
