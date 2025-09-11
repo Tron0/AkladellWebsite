@@ -450,6 +450,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,800,000                 | 11+8              | 4                        |                 |
 | 20        | 1,950,000                 | 11+9              | 4                        |                 |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-5**|**6-10**|**11-15**|**16-20**|
+|-------|--------|---------|---------|
+|+0     | +1     | +3      | +6      | 
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -458,12 +464,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 6 - 10    | 13                                       | 11                             | 9                       | 13                | 10        |
 | 11 - 15   | 11                                       | 9                              | 7                       | 11                | 8         |
 | 16 - 20   | 10                                       | 7                              | 5                       | 9                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-5**|**6-10**|**11-15**|**16-20**|
-|-------|--------|---------|---------|
-|+0     | +1     | +3      | +6      | 
 
 ### Talents
 
@@ -578,6 +578,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,100,000                 | 11+8              | 5                | 4                        |                       |
 | 20        | 1,200,000                 | 11+9              | 5                | 4                        |                       |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-5**|**6-10**|**11-15**|**16-20**|
+|-------|--------|---------|---------|
+|+0     | +1     | +3      | +6      | 
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -586,12 +592,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 6 - 10    | 13                                       | 11                             | 9                       | 13                | 10        |
 | 11 - 15   | 11                                       | 9                              | 7                       | 11                | 8         |
 | 16 - 20   | 10                                       | 7                              | 5                       | 9                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-5**|**6-10**|**11-15**|**16-20**|
-|-------|--------|---------|---------|
-|+0     | +1     | +3      | +6      | 
 
 ### Talents
 
@@ -702,6 +702,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,440,000                    | 9+30              | 5                 | 10                       |                       |
 | 20        | 1,560,000                    | 9+33              | 5                 | 10                       |                       |
 
+#### Calculating To Hit Modifier by Level
+
+|**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|
+|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+|+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -715,12 +721,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
 | 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
 | 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|
-|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
-|+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
 
 ### Talents
 
@@ -778,6 +778,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,570,000                 | 9+44               | 5                | 10                       |                       |
 | 20        | 1,700,000                 | 9+48               | 5                | 10                       |                       |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -791,12 +797,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
 | 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
 | 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
-|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
 ### Talents
 
@@ -877,6 +877,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,850,000                    | 9+30 hp            | 5                 | 10                       |                       |
 | 20        | 2,000,000                    | 9+33 hp            | 5                 | 10                       |                       |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -890,12 +896,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
 | 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
 | 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
-|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
 ### Restrictions
 
@@ -991,6 +991,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,475,000                    | 11+18             | 5                 | 10                       |                       |
 | 20        | 1,600,000                    | 11+20             | 5                 | 10                       |                       |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -1004,12 +1010,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 13 – 14     | 5                                        | 6                              | 7                       | 5                 | 8         |
 | 15 – 16     | 4                                        | 5                              | 6                       | 4                 | 7         |
 | 17+         | 3                                        | 4                              | 5                       | 4                 | 6         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
-|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
 ### Restrictions:
 
@@ -1153,6 +1153,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,300,000                 | 9+10              | 4                | 6                        |                      |
 | 20        | 1,400,000                 | 9+11              | 4                | 7                        |                      |
 
+#### Calculating To Hit Modifier by Level
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -1164,12 +1170,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
 | 16 – 18   | 4                                        | 7                              | 8                       | 10                | 9         |
 | 19+       | 2                                        | 5                              | 6                       | 8                 | 7         |
-
-### Calculating To Hit Modifier by Level
-
-|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
-|-------|-------|-------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
 ### Talents
 
@@ -1299,7 +1299,7 @@ Likewise, there can only be three 13th level druids and a single 14th level drui
 
 Druids who attain 12th level or above may build a stronghold integrated into a natural setting.
 
-### Calculating To Hit Modifier by Level
+#### Calculating To Hit Modifier by Level
 
 |**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
 |-------|-------|-------|---------|---------|---------|---------|
@@ -1431,11 +1431,21 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16        | 1,600,000                 | 17                | 10                       | Master of Spring         |
 | 17        | 1,800,000                 | 18                | 11                       | Grand Master of Flowers  |
 
-### Calculating To Hit Modifier by Level
+#### Calculating To Hit Modifier by Level
 
 |**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
 |-------|-------|--------|---------|---------|---------|
 | +0    | +1    | +4     | +6      | +8      | +10     |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 4     | 13                                       | 12                             | 14                      | 16                | 15        |
+| 5 – 8     | 12                                       | 11                             | 12                      | 15                | 13        |
+| 9 - 12    | 11                                       | 10                             | 10                      | 14                | 11        |
+| 13 – 16   | 10                                       | 9                              | 8                       | 13                | 9         |
+| 17 – 20   | 9                                        | 8                              | 6                       | 12                | 7         |
 
 ### Restrictions
 
@@ -2150,11 +2160,21 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 19        | 1,280,000                 | 10+9              | 40               | 8                        |                 |
 | 20        | 1,410,000                 | 10+10             | 42               | 8                        |                 |
 
-### Calculating To Hit Modifier by Level
+#### Calculating To Hit Modifier by Level
 
 |**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
 |-------|-------|--------|---------|---------|---------|
 | +0    | +1    | +4     | +6      | +8      | +10     |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 4     | 13                                       | 12                             | 14                      | 16                | 15        |
+| 5 – 8     | 12                                       | 11                             | 12                      | 15                | 13        |
+| 9 - 12    | 11                                       | 10                             | 10                      | 14                | 11        |
+| 13 – 16   | 10                                       | 9                              | 8                       | 13                | 9         |
+| 17 – 20   | 9                                        | 8                              | 6                       | 12                | 7         |
 
 ### Talents
 
@@ -2217,18 +2237,6 @@ engaged in battle.
 **Tinker:** Disarming traps, disabling pressure plates, manipulating
 small impromptu devices or even creating objects from mechanical parts
 would be considered Tinkering.
-
-#### Saving Throws
-
-| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
-|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
-| 1 – 4     | 13                                       | 12                             | 14                      | 16                | 15        |
-| 5 – 8     | 12                                       | 11                             | 12                      | 15                | 13        |
-| 9 - 12    | 11                                       | 10                             | 10                      | 14                | 11        |
-| 13 – 16   | 10                                       | 9                              | 8                       | 13                | 9         |
-| 17 – 20   | 9                                        | 8                              | 6                       | 12                | 7         |
-
-
 
 #### Disciplines
 
