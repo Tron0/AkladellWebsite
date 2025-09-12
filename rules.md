@@ -2307,8 +2307,7 @@ meager, comfortable, and rich.
 
 Characters can trade in their newfound currency to gain experience. 
 
-**Roll 1d8 and multiply it by 100**, that is the amount of silver pieces spent during the week. If the PC lacks the funds they only gain 1/2 the experience.
-The ability check (roll under ability score) is then made by rolling 2d20 and picking the higher score amongst them.
+**Roll 1d8 and multiply it by 100**, that is the amount of silver pieces spent during the week. Make a corresponding d20 check by rolling under the ability score.
 
 The PC can choose one of the following:
 
@@ -2320,7 +2319,7 @@ The PC can choose one of the following:
 
 - **Drinking/Orgies:** Characters spend silver on vice and excess. At the end of the week roll a **charisma** check.
 
-On a failed save something interesting has happened. At the end of the week, unless contradicted by the entry, characters gain experience equal to silver spent.
+If the PC lacks the funds they only gain 1/2 the experience and the ability check (roll under ability score) is made by rolling 2d20 and picking the higher score amongst them. On a failed save something interesting has happened. At the end of the week, unless contradicted by the entry, characters gain experience equal to silver spent.
 
 ## <span id=healing> Healing </span>
 
