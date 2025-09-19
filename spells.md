@@ -3,33 +3,31 @@
 ## [Cantrips](#spells#cantrips)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Dry            | Change         | Bluelight                 |                |                       | Clean         | Hide                  |                 |
-| 2          | Exterminate    | Firefinger     | Tweak                     |                |                       | Color         |                       |                 |
-| 3          |                | Gather         | Spider                    |                |                       | Warm          |                       |                 |
-| 4          |                | Open           |                           |                |                       |               |                       |                 |
-| 5          |                | Sprout         |                           |                |                       |               |                       |                 |
-| 6          |                | Stitch         |                           |                |                       |               |                       |                 |
-
-
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
+| 1          | [Dry](#spells#cantrips#dry) | [Change](#spells#cantrips#change) | [Bluelight](#spells#cantrips#bluelight) |                |                       | [Clean](#spells#cantrips#clean) | [Hide](#spells#cantrips#hide) |                |
+| 2          | [Exterminate](#spells#cantrips#exterminate) | [Firefinger](#spells#cantrips#firefinger) | [Tweak](#spells#cantrips#tweak) |                |                       | [Color](#spells#cantrips#color) |                       |                |
+| 3          |                | [Gather](#spells#cantrips#gather) | [Spider](#spells#cantrips#spider) |                |                       | [Warm](#spells#cantrips#warm) |                       |                |
+| 4          |                | [Open](#spells#cantrips#open) |                           |                |                       |                |                       |                |
+| 5          |                | [Sprout](#spells#cantrips#sprout) |                           |                |                       |                |                       |                |
+| 6          |                | [Stitch](#spells#cantrips#stitch) |                           |                |                       |                |                       |                |
 
 ## [1st Level Chaos Spells](#spells#chaos-level-1)
 
-| **Number** | **Abjuration**       | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-| ---------- | -------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          | Alarm                | Burning Hands  | Armor                     | Detect Magic   | Charm Person          | Floating Disc | Change Self           | Chill Touch    |
-| 2          | Protection from Evil | Enlarge        | Find Familiar             | Detect Undead  | Sleep                 | Magic Missile | Ventriloquism         | Ray of Fatigue |
-| 3          | Shield               | Erase          | Mount                     | Identify       |                       |               |                       |                |
-| 4          |                      | Feather Fall   | Unseen Servant            | Read Magic     |                       |               |                       |                |
-| 5          |                      | Fist of Stone  |                           |                |                       |               |                       |                |
-| 6          |                      | Hold Portal    |                           |                |                       |               |                       |                |
-| 7          |                      | Lasting Breath |                           |                |                       |               |                       |                |
-| 8          |                      | Light          |                           |                |                       |               |                       |                |
-| 9          |                      | Mending        |                           |                |                       |               |                       |                |
-| 10         |                      | Message        |                           |                |                       |               |                       |                |
-| 11         |                      | Spider Climb   |                           |                |                       |               |                       |                |
-| 12         |                      | Wizard Mark    |                           |                |                       |               |                       |                |
-	
+| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+|------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
+| 1          | [Alarm](#spells#chaos#level1#alarm) | [Burning Hands](#spells#chaos#level1#burninghands) | [Armor](#spells#chaos#level1#armor) | [Detect Magic](#spells#chaos#level1#detectmagic) | [Charm Person](#spells#chaos#level1#charmperson) | [Floating Disc](#spells#chaos#level1#floatingdisc) | [Change Self](#spells#chaos#level1#changeself) | [Chill Touch](#spells#chaos#level1#chilltouch) |
+| 2          | [Protection from Evil](#spells#chaos#level1#protectionfromevil) | [Enlarge](#spells#chaos#level1#enlarge) | [Find Familiar](#spells#chaos#level1#findfamiliar) | [Detect Undead](#spells#chaos#level1#detectundead) | [Sleep](#spells#chaos#level1#sleep) | [Magic Missile](#spells#chaos#level1#magicmissile) | [Ventriloquism](#spells#chaos#level1#ventriloquism) | [Ray of Fatigue](#spells#chaos#level1#rayoffatigue) |
+| 3          | [Shield](#spells#chaos#level1#shield) | [Erase](#spells#chaos#level1#erase) | [Mount](#spells#chaos#level1#mount) | [Identify](#spells#chaos#level1#identify) |                       |                |                       |                |
+| 4          |                | [Feather Fall](#spells#chaos#level1#featherfall) | [Unseen Servant](#spells#chaos#level1#unseenservant) | [Read Magic](#spells#chaos#level1#readmagic) |                       |                |                       |                |
+| 5          |                | [Fist of Stone](#spells#chaos#level1#fistofstone) |                           |                |                       |                |                       |                |
+| 6          |                | [Hold Portal](#spells#chaos#level1#holdportal) |                           |                |                       |                |                       |                |
+| 7          |                | [Lasting Breath](#spells#chaos#level1#lastingbreath) |                           |                |                       |                |                       |                |
+| 8          |                | [Light](#spells#chaos#level1#light) |                           |                |                       |                |                       |                |
+| 9          |                | [Mending](#spells#chaos#level1#mending) |                           |                |                       |                |                       |                |
+| 10         |                | [Message](#spells#chaos#level1#message) |                           |                |                       |                |                       |                |
+| 11         |                | [Spider Climb](#spells#chaos#level1#spiderclimb) |                           |                |                       |                |                       |                |
+| 12         |                | [Wizard Mark](#spells#chaos#level1#wizardmark) |                           |                |                       |                |                       |                |
+
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
 
@@ -176,7 +174,7 @@
 
 ## <span id="spells#cantrips">Cantrips</span>
 
-### Bluelight (Conjuration/Summoning) - Chaos
+### <span id="spells#cantrips#bluelight">Bluelight (Conjuration/Summoning)</span>
 
 **Range:** 30'
 
@@ -197,7 +195,7 @@ depending on the prevailing conditions:
 - **Color:** The caster can create light that is white, gray, black,
   brown, yellow, or green.
 
-### Change (Alteration) - Chaos
+### <span id="spells#cantrips#change">Change (Alteration)</span>
 
 **Range:** 30'
 
@@ -216,7 +214,7 @@ the caster's hand:
   into a bat, the bat to a flying squirrel by another use of the same
   type of cantrip, and so forth.
 
-### Clean (Alteration) - Chaos
+### <span id="spells#cantrips#clean">Clean (Evocation)</span>
 
 **Range:** 30'
 
@@ -238,7 +236,7 @@ foreign objects:
 Dirt, stains or other types of filth can magically be applied. This form
 is not recognized as illusion magic as it is a real form conjured.
 
-### Color (Evocation) - Chaos
+### <span id="spells#cantrips#color">Color (Evocation)</span>
 
 **Range:** 30'
 
@@ -255,7 +253,7 @@ Covers an area with a new or faded color:
 
 - **People:** Can change the color of skin and hair as well.
 
-### Dry (Abjuration) - Chaos
+### <span id="spells#cantrips#dry">Dry (Abjuration)</span>
 
 **Range:** 30'
 
@@ -276,7 +274,7 @@ Dries an object:
 The area of effect is permeated by a fog-like dampness that leaves all
 material within damp to the touch.
 
-### Exterminate (Abjuration) - Chaos
+### <span id="spells#cantrips#exterminate">Exterminate (Abjuration)</span>
 
 **Range:** 30'
 
@@ -296,7 +294,7 @@ fly, mouse, rat, beetle, or the like:
 - **Area:** If the subject is very small, an area of up to one-half
   cubic foot can be rid of pests
 
-### Firefinger (Alteration) - Chaos
+### <span id="spells#cantrips#firefinger">Firefinger (Alteration)</span>
 
 **Range:** Caster
 
@@ -313,7 +311,7 @@ shoot forth from their finger:
   as parchment, twigs, kindling, and the like without difficulty,
   providing the materials are relatively dry.
 
-### Gather (Alteration) - Chaos
+### <span id="spells#cantrips#gather">Gather (Alteration)</span>
 
 **Range:** 30'
 
@@ -334,7 +332,7 @@ into a stack or pile:
   type of material from another, but only the selected type is gathered
   neatly.
 
-### Hide (Illusion) - Chaos
+### <span id="spells#cantrips#hide">Hide (Illusion/Phantasm)</span>
 
 **Range:** 30'
 
@@ -352,7 +350,7 @@ Magically hides one object for an amount of time depending on its size.
 
 - **More than 10 feet across:** Disappears only momentarily before reappearing.
 
-### Open (Alteration) - Chaos
+### <span id="spells#cantrips#open">Open (Alteration)</span>
 
 **Range:** 30'
 
@@ -371,7 +369,7 @@ Opens any unlocked door or portal from a distance:
 
 Closes any object in a reverse fashion.
 
-### Spider (Conjuration/Summoning) - Chaos
+### <span id="spells#cantrips#spider">Spider (Conjuration/Summoning)</span>
 
 **Range:** 10'
 
@@ -387,7 +385,7 @@ Summons a small garden spider. No larger than an inch or two in diameter, and ba
 
 - **Venom:** There is a 5% chance that the spider is of a very venomous sort. If bitten, the victim must also make a saving throw vs. poison at +4. Success means 1 point of damage is inflicted. Failure means 2 points of damage are inflicted, and the victim feels sick and is unable to act normally for 1d4 days unless a neutralize poison spell is cast to remove the toxin.
 
-### Sprout (Alteration) - Chaos
+### <span id="spells#cantrips#sprout">Sprout (Alteration)</span>
 
 **Range:** Caster
 
@@ -397,15 +395,15 @@ Summons a small garden spider. No larger than an inch or two in diameter, and ba
 
 **AoE:** 3' cube
 
-By means of this cantrip, the caster causes ac­celeration in the growth
+By means of this cantrip, the caster causes acceleration in the growth
 of plants:
 
 - **Growth: T**he cantrip causes seeds to shoot forth tiny sprouts,
   newly sprouted plants to grow an inch or so, buds to flower, and so
-  on. Fruits and vegeta­bles can be ripened (even to spoilage) by this
+  on. Fruits and vegetables can be ripened (even to spoilage) by this
   cantrip.
 
-### Stitch (Alteration) - Chaos
+### <span id="spells#cantrips#stitch">Stitch (Alteration)</span>
 
 **Range:** 30'
 
@@ -426,7 +424,7 @@ This cantrip magically sews seams in cloth or leather:
 Tears the same amount of yards in cloth instead of stitching. Can be
 concentrated on to make a neat tear or simply ripped quickly.
 
-### Tweak (Conjuration/Summoning) - Chaos
+### <span id="spells#cantrips#tweak">Tweak (Conjuration/Summoning)</span>
 
 **Range:** 30'
 
@@ -443,7 +441,7 @@ annoyingly, tweak some portion of a chosen sub­ject:
   although the tweaking might distract any creature by causing it to
   turn to dis­cover the source of the annoyance.
 
-### Warm (Evocation) - Chaos
+### <span id="spells#cantrips#warm">Warm (Evocation)</span>
 
 **Range:** 30'
 
@@ -462,11 +460,9 @@ The caster warms a liquid, solid object or creature by 10 °C:
 Cools an object or creature by 10 °C instead. Subject to a minimum
 tempera­ture of freezing, (0 °C)
 
-
-
 ## <span id="spells#chaos-level-1"> 1st Level Chaos Spells </span>
 
-### Alarm (Abjuration) - Chaos
+### <span id="spells#chaos#level1#alarm">Alarm (Abjuration)</span>
 
 **Range:** 30'
 
@@ -484,7 +480,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-### Armor (Conjuration/Summoning) - Chaos
+### <span id="spells#chaos#level1#armor">Armor (Conjuration/Summoning)</span>
 
 **Range:** Touch
 
@@ -494,13 +490,13 @@ Allows the caster to set a protective alarm, as follows:
 
 Provides a protective magical armor:
 
-- **Defense**: Acts as if the recipient is wearing ring mail (AC 14).
+- **Defense**: Acts as if the recipient is wearing ring mail (AC 13).
 
 - **Cumulative Effects:** Works in tandem with Dexterity and other bonuses, excluding the shield spell.
 
 - **Durability:** Lasts until the wearer accumulates damage beyond 8 points + 1 per caster level.
 
-### Burning Hands (Alteration) - Chaos
+### <span id="spells#chaos#level1#burninghands">Burning Hands (Alteration)</span>
 
 **Range:** Caster 
 
@@ -520,7 +516,8 @@ Produces a fan of flames that sear everything in its arc:
 
 - **Flammable Materials:** Materials like cloth, paper, and thin wood ignite on contact. They can be extinguished in the subsequent round if no other actions are taken.
 
-### Change Self (Illusion/Phantasm) - Chaos
+
+### <span id="spells#chaos#level1#changeself">Change Self (Illusion/Phantasm)</span>
 
 **Range:** Caster
 
@@ -534,8 +531,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-### Charm Person (Enchantment/Charm) - Chaos
-
+### <span id="spells#chaos#level1#charmperson">Charm Person (Enchantment/Charm)</span>
 **Range:** 120'
 
 **Duration:** Special
@@ -564,7 +560,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-### Chill Touch (Necromancy) - Chaos
+### <span id="spells#chaos#level1#chilltouch">Chill Touch (Necromancy)</span>
 
 **Range:** Touch
 
@@ -582,7 +578,7 @@ Envelopes caster's hand in cold energy:
 
 - **Healing:** Damage to strength can be magically cured or naturally healed.
 
-### Detect Magic (Divination) - Chaos
+### <span id="spells#chaos#level1#detectmagic">Detect Magic (Divination)</span>
 
 **Range:** Caster
 
@@ -598,7 +594,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-### Detect Undead (Divination) - Chaos
+### <span id="spells#chaos#level1#detectundead">Detect Undead (Divination)</span>
 
 **Range:** Caster
 
@@ -616,7 +612,7 @@ Enables the caster to sense undead presence:
 
 - **Obstruction:** The detection can pass through walls and other barriers but is stopped by 1 foot of solid stone, 1 yard of wood or loose earth, or a thin layer of metal.
 
-### Enlarge (Alteration) - Chaos
+### <span id="spells#chaos#level1#enlarge">Enlarge (Alteration)</span>
 
 **Range:** 15'/level
 
@@ -636,7 +632,7 @@ This spell can either enlarge or reduce a target:
 
 Shrinks creature or object by 10% per caster level, to a minimum size of 10%. May damage materials attached to shrinking objects. Objects will only shrink if undamaged. Unwilling creatures get a saving throw vs. spells.
 
-### Erase (Alteration) - Chaos
+### <span id="spells#chaos#level1#erase">Erase (Alteration)</span>
 
 **Range:** 90'
 
@@ -657,7 +653,7 @@ Allows the spellcaster to erase writings, either magical or mundane:
 
 - **Limitations:** Removes certain magical inscriptions, but not all.
 
-### Feather Fall (Alteration) - Chaos
+### <span id="spells#chaos#level1#featherfall">Feather Fall (Alteration)</span>
 
 **Range:** 30'/level
 
@@ -677,7 +673,7 @@ Slows the fall of objecst and creatures:
 
 - **Missiles:** Works upon free-falling, flying, or proppelled objects.
 
-### Find Familiar (Conjuration/Summoning) - Chaos
+### <span id="spells#chaos#level1#findfamiliar">Find Familiar (Conjuration/Summoning)</span>
 
 **Range:** 1 mile/level
 
@@ -713,7 +709,7 @@ Summons a familiar to aid the caster:
 - **Restrictions:** Only one familiar at a time. Mistreatment or killing
   one's familiar can have serious repercussions.
 
-### Fist of Stone (Alteration) - Chaos
+### <span id="spells#chaos#level1#fistofstone">Fist of Stone (Alteration)</span>
 
 **Range:** Caster
 
@@ -727,7 +723,7 @@ Summons a familiar to aid the caster:
 
 - **Spell Restriction:** While the spell is in effect, the magic user cannot cast spells requiring somatic components. 
 
-### Floating Disc (Evocation) - Chaos
+### <span id="spells#chaos#level1#floatingdisc">Floating Disc (Evocation)</span>
 
 **Range:** 60'
 
@@ -745,7 +741,7 @@ The caster creates a floating disc of force:
 - **Movement:** Floats 3' above the ground and accompanies the caster up to a speed of 6 or maintains a
   6-foot distance if unguided.
 
-### Hold Portal (Alteration) - Chaos
+### <span id="spells#chaos#level1#holdportal">Hold Portal (Alteration)</span>
 
 **Range:** 60'
 
@@ -761,7 +757,7 @@ Empowers the caster to magically secure an entryway:
 - **Countermeasures:** Held portals can be broken with physical force. A
   knock or successful dispel magic spell can also override the hold.
 
-### Identify (Divination) - Chaos
+### <span id="spells#chaos#level1#identify">Identify (Divination)</span>
 
 **Range:** Touch
 
@@ -782,7 +778,7 @@ Allows the caster to discern the nature of magical items:
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
 
-### Lasting Breath (Alteration) - Chaos
+### <span id="spells#chaos#level1#lastingbreath">Lasting Breath (Alteration)</span>
 
 **Range**: Touch
 
@@ -801,7 +797,7 @@ Extends the duration one can hold their breath:
 - **Exceeding Duration:** At the end of the spell's duration, a saving
   throw is needed, and the character must breathe or fall unconscious.
 
-### Light (Alteration) - Chaos
+### <span id="spells#chaos#level1#light">Light (Alteration)</span>
 
 **Range:** 120'
 
@@ -829,7 +825,7 @@ Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-### Magic Missile (Evocation) - Chaos
+### <span id="spells#chaos#level1#magicmissile">Magic Missile (Evocation)</span>
 
 **Range:** 180' + 30'/level
 
@@ -855,7 +851,7 @@ Launches magical missiles that target and hit with precision:
   levels. Two at 3rd, three at 5th, four at 7th, maxing at five missiles
   by 9th level. Missiles can target one or multiple creatures.
 
-### Mending (Alteration) - Chaos
+### <span id="spells#chaos#level1#mending">Mending (Alteration)</span>
 
 **Range:** 90'
 
@@ -873,7 +869,7 @@ This spell repairs small breaks or tears in objects:
 - **Endurance:** One turn after the spell is cast, the magic of the
   joining fades, and the effect cannot be magically dispelled.
 
-### Message (Alteration) - Chaos
+### <span id="spells#chaos#level1#message">Message (Alteration)</span>
 
 **Range:** 30' + 10'/level
 
@@ -892,7 +888,7 @@ Allows for long range communication through whispers:
 - **Obstructions:** An unobstructed path is required between the caster
   and the recipient(s).
 
-### Mount (Conjuration/Summoning) - Chaos
+### <span id="spells#chaos#level1#mount">Mount (Conjuration/Summoning)</span>
 
 **Range:** 30'
 
@@ -917,7 +913,7 @@ Summons a creature to serve as a mount.
 
   - 15+: Griffon
 
-### Protection from Evil (Abjuration)  - Chaos
+### <span id="spells#chaos#level1#protectionfromevil">Protection from Evil (Abjuration)</span>
 
 **Range:** Caster
 
@@ -943,7 +939,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### Ray of Fatigue (Necromancy) - Chaos
+### <span id="spells#chaos#level1#rayoffatigue">Ray of Fatigue (Necromancy)</span>
 
 **Range:** 30' + 15'/level
 
@@ -968,7 +964,7 @@ Conjures a dark ray of exhaustion:
   - **Severely encumbered:** -4 penalty to attack rolls and a -3 Armor
     Class penalty.
 
-### Read Magic (Divination) - Chaos
+### <span id="spells#chaos#level1#readmagic">Read Magic (Divination)</span>
 
 **Range:** Caster
 
@@ -994,7 +990,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-### Shield (Abjuration) - Chaos
+### <span id="spells#chaos#level1#shield">Shield (Abjuration)</span>
 
 **Range:** Caster
 
@@ -1010,7 +1006,7 @@ Conjures an invisible shield around the caster:
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
   visible frontal threats as well as negating Magic Missiles.
 
-### Sleep (Enchantment/Charm) - Chaos
+### <span id="spells#chaos#level1#sleep">Sleep (Enchantment/Charm)</span>
 
 **Range:** 90'
 
@@ -1032,7 +1028,7 @@ Induces a deep slumber upon creatures. The spell may target either:
 
 - **Restrictions** Affects living creatures except undead and other certain creatures with immunity.
 
-### Spider Climb (Alteration) - Chaos
+### <span id="spells#chaos#level1#spiderclimb">Spider Climb (Alteration)</span>
 
 **Range:** Touch
 
@@ -1051,7 +1047,7 @@ and feet for this mobility.
 - **Unwilling Targets:** If targeted on unwilling beings, they get a
 saving throw vs. spell to resist.
 
-### Unseen Servant (Conjuration/Summoning) - Chaos
+### <span id="spells#chaos#level1#unseenservant">Unseen Servant (Conjuration/Summoning)</span>
 
 **Range:** Caster
 
@@ -1072,7 +1068,7 @@ Summons a spectral helper:
 - **Vulnerabilities:** Can't fight and is dispelled after taking 6
   points of damage.
 
-### Ventriloquism (Illusion/Phantasm) - Chaos
+### <span id="spells#chaos#level1#ventriloquism">Ventriloquism (Illusion/Phantasm)</span>
 
 **Range:** 30'/level max 270'
 
@@ -1093,7 +1089,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-### Wizard Mark (Alteration) - Chaos
+### <span id="spells#chaos#level1#wizardmark">Wizard Mark (Alteration)</span>
 
 **Range:** Touch
 
