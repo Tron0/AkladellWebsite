@@ -33,7 +33,7 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          |                |                |                           |                |                       |               | Phantasmal Force      |                |
+| 1          |                |                |                           |                |                       |               |       |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
@@ -107,7 +107,7 @@
 | 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
 | 2          | Protection From Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
 | 3          |                      | Purify Food & Drink |                           | Read Magic     | Command               |               |                       |                   |
-| 4          |                      | Silence, 15' Radius |                           |                | Courage               |               |                       |                   |
+| 4          |                      |  |                           |                | Courage               |               |                       |                   |
 | 5          |                      |                     |                           |                | Pass Without Trace    |               |                       |                   |
 
 
@@ -115,9 +115,10 @@
 
 | **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Isphek's Burden    |                           | Find Traps    | Hold Person           |               |                       |                 |
+| 1          |                | Isphek's Burden    |                           | Find Traps     | Hold Person           |               |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
 | 3          |                | Speak With Animals |                           |                | Snake Charm           |               |                       |                 |
+| 4          |                | Silence 15' Radius |                           |                |                       |               |                       |                 |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 

@@ -1394,7 +1394,7 @@ points are cured in the transformation.
 
 **Armor/Shield Permitted:** None
 
-**Weapons Permitted:** Martial arts weapons, clubs, hand axes, crossbows, daggers, halberds, spears
+**Weapons Permitted:** Martial arts weapons, longbows, clubs, hand axes, crossbows, daggers, halberds, spears
 
 ### Starting Equipment
 
@@ -1472,6 +1472,8 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 For this comparison only, creatures with +4 or more hit-point adders on their HD count as having one extra HD.
 
 Example: A character hits a lizard man (2+1 HD) with a natural 20. The lizard man fails its save with a roll of 2. Because 2 equals its effective HD, it is stunned for 1d6 rounds. If the failed save roll had been 6, it would be incapacitated for 1–3 hours.
+
+**Weapon Damage Bonus:** When using a weapon, the monk causes one extra point of damage for every two experience levels. 
 
 **Speak with Animals (3rd):** At 3rd level Monks gain the ability to Speak With Animals.
 
