@@ -46,7 +46,7 @@
 
 **(11) Roll for [<u>special abilities</u>](#special-abilities)**
 
-- After all the previous steps are completed, roll on the [<u>special abilities</u>](#special-abilities) table and let the DM roll to determine the specific sort of effect it has on the character.
+- After all the previous steps are completed, roll on the [<u>special abilities</u>](#special-abilities) table and let the referee roll to determine the specific sort of effect it has on the character.
 
 # <span id=character-creation> Character Creation </span>
 
@@ -240,7 +240,7 @@ wearing armor that is allowed to the class that grants the ability.
 
 *Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
 
-Special Abilities are more like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your DM. 
+Special Abilities are more like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your referee. 
 
 | **Type** | **Class** | 
 |------|-------| 
@@ -249,7 +249,7 @@ Special Abilities are more like "special traits" that can both be positive and n
 | Law | Law Mage, Druid | 
 | Clandestine | Specialist |
 
-Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The DM will then roll for each and tell you exactly what kind of trait(s) your character has received.
+Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The referee will then roll for each and tell you exactly what kind of trait(s) your character has received.
 
 | 1d8   | Boons | Banes |
 |-------|-------|-------|
@@ -369,7 +369,7 @@ The only restriction this has on character creation is that you cannot [<u>multi
 
 \*For [<u>law mages</u>](#law-mage)
 
-\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the DM when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
+\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the referee when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
 
 ## Charisma
 
@@ -555,28 +555,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Illusionist Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------|
-| 1         | 0                         | 1                 | 15               | 1                        | Prestidigitator       |
-| 2         | 2,250                     | 2                 | 14               | 1                        | Minor Trickster       |
-| 3         | 4,500                     | 3                 | 13               | 1                        | Trickster             |
-| 4         | 9,000                     | 4                 | 12               | 1                        | Master Trickster      |
-| 5         | 18,000                    | 5                 | 11               | 1                        | Cabalist              |
-| 6         | 35,000                    | 6                 | 10               | 2                        | Visionist             |
-| 7         | 50,000                    | 7                 | 9                | 2                        | Phantasmist           |
-| 8         | 75,000                    | 8                 | 8                | 2                        | Apparitionist         |
-| 9         | 100,000                   | 9                 | 7                | 2                        | Spellbinder           |
-| 10        | 200,000                   | 10                | 6                | 2                        | Illusionist           |
-| 11        | 300,000                   | 11                | 5                | 3                        | Master Illusionist    |
-| 12        | 400,000                   | 11+1              | 5                | 3                        |                       |
-| 13        | 500,000                   | 11+2              | 5                | 3                        |                       |
-| 14        | 600,000                   | 11+3              | 5                | 3                        |                       |
-| 15        | 700,000                   | 11+4              | 5                | 3                        |                       |
-| 16        | 800,000                   | 11+5              | 5                | 4                        |                       |
-| 17        | 900,000                   | 11+6              | 5                | 4                        |                       |
-| 18        | 1,000,000                 | 11+7              | 5                | 4                        |                       |
-| 19        | 1,100,000                 | 11+8              | 5                | 4                        |                       |
-| 20        | 1,200,000                 | 11+9              | 5                | 4                        |                       |
+| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Weapon Proficiencies** | **Level Title**    |
+|-----------|---------------------------|-------------------|--------------------------|--------------------|
+| 1         | 0                         | 1                 | 1                        | Prestidigitator    |
+| 2         | 2,250                     | 2                 | 1                        | Minor Trickster    |
+| 3         | 4,500                     | 3                 | 1                        | Trickster          |
+| 4         | 9,000                     | 4                 | 1                        | Master Trickster   |
+| 5         | 18,000                    | 5                 | 1                        | Cabalist           |
+| 6         | 35,000                    | 6                 | 2                        | Visionist          |
+| 7         | 50,000                    | 7                 | 2                        | Phantasmist        |
+| 8         | 75,000                    | 8                 | 2                        | Apparitionist      |
+| 9         | 100,000                   | 9                 | 2                        | Spellbinder        |
+| 10        | 200,000                   | 10                | 2                        | Illusionist        |
+| 11        | 300,000                   | 11                | 3                        | Master Illusionist |
+| 12        | 400,000                   | 11+1              | 3                        |                    |
+| 13        | 500,000                   | 11+2              | 3                        |                    |
+| 14        | 600,000                   | 11+3              | 3                        |                    |
+| 15        | 700,000                   | 11+4              | 3                        |                    |
+| 16        | 800,000                   | 11+5              | 4                        |                    |
+| 17        | 900,000                   | 11+6              | 4                        |                    |
+| 18        | 1,000,000                 | 11+7              | 4                        |                    |
+| 19        | 1,100,000                 | 11+8              | 4                        |                    |
+| 20        | 1,200,000                 | 11+9              | 4                        |                    |
 
 #### Calculating To Hit Modifier by Level
 
@@ -652,6 +652,669 @@ be used as many times as the Mage would like.
 | 19    | 5   | 5   | 5   | 5   | 4   | 3   | 2   |
 | 20    | 5   | 5   | 5   | 5   | 4   | 3   | 3   |
 
+## <span id=enchanter> Enchanter </span>
+
+**Minimum Requirement:** 13+ Intelligence, +13 Charisma
+
+**Prime Attribute:** 16+ Intelligence, +16 Charisma (+10% experience bonus).
+
+**Hit Dice:** 1d6/level (Gains 1 hp/level after 10th level).
+
+**Armor/Shield Permitted**: Light armor, medium armor, no shields
+
+**Weapons Permitted:** Small and medium sized weapons
+
+**Alignment:** Enchanters are of Chaotic alignment.
+
+### Starting Equipment
+
+Roll 1d6 for armor and 1d6 twice for weapons.
+
+| **Result (1d6)**     | **Armor** | **Weapons** |
+|--------------|-------|---------|
+| 1            | None | Club
+| 2            | None | Dagger
+| 3            | Leather | Shortsword
+| 4            | Studded leather | Sickle
+| 5            | Chain mail | Shortbow + 20 arrows
+| 6            | Splint mail | Spear (1d4) 1-2. Thrown. 3-4. One-handed.
+
+### Enchanter Advancement Table
+
+| **Level** | **XP Requirement for Level** | **Hit Dice (d6)** | **Weapon Proficiencies** | **Level Title**       | **Glamours** | **Rune Acquisition Bonus** |
+| --------- | ---------------------------- | ----------------- | ------------------------ | --------------------- | ------------ | -------------------------- |
+| 1         | 0                            | 1                 | 2                        | Briar Initiate        | 1            | +0                         |
+| 2         | 1,750                        | 2                 | 2                        | Sylvan Adept          | 2            | +0                         |
+| 3         | 3,500                        | 3                 | 3                        | Briar Duelist         | 3            | +0                         |
+| 4         | 7,000                        | 4                 | 3                        | Spellblade            | 3            | +1                         |
+| 5         | 28,000                       | 5                 | 4                        | Briar Knight          | 4            | +1                         |
+| 6         | 56,000                       | 6                 | 4                        | Moon-Touched Champion | 5            | +1                         |
+| 7         | 112,000                      | 7                 | 5                        | Briar Warden          | 6            | +2                         |
+| 8         | 220,000                      | 8                 | 5                        | Knight Magus          | 6            | +2                         |
+| 9         | 340,000                      | 9                 | 6                        | Enchanter             | 7            | +2                         |
+| 10        | 460,000                      | 10                | 6                        |                       | 7            | +3                         |
+| 11        | 580,000                      | 10+1              | 7                        |                       | 8            | +3                         |
+| 12        | 700,000                      | 10+2              | 7                        |                       | 8            | +3                         |
+| 13        | 820,000                      | 10+3              | 8                        |                       | 9            | +3                         |
+| 14        | 940,000                      | 10+4              | 8                        |                       | 9            | +3                         |
+| 15        | 960,000                      | 10+5              | 9                        |                       | 10           | +3                         |
+
+#### Calculating To Hit Modifier by Level
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|
+|-------|-------|-------|---------|---------|
+| +0    | +2    | +4    | +6      | +8      |
+
+#### Saving Throws
+
+| **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
+|-----------|------------------------------------------|--------------------------------|-------------------------|-------------------|-----------|
+| 1 – 3     | 11                                       | 13                             | 14                      | 16                | 15        |
+| 4 - 6     | 9                                        | 12                             | 13                      | 15                | 14        |
+| 7 – 9     | 7                                        | 10                             | 11                      | 13                | 12        |
+| 10 – 12   | 6                                        | 9                              | 10                      | 12                | 11        |
+| 13 – 15   | 5                                        | 8                              | 9                       | 11                | 10        |
+
+### Talents
+
+**Detect Magic:** By touch, enchanters have the ability to detect the magic of an object, place or creature. If the check is successful, they know whether the target is magical or not. If the target in question is magical, the enchanter also knows of what school the magic stems from. I.e abjuration, necromancy etc. Each attempt to detect magic requires 1 turn, this can be repeated multiple times. The player should not know whether the detection roll failed so this check is always rolled by the referee. 
+
+| **Level** | **Detect Magic Chance** |
+| --------- | ----------------------- |
+| 1 - 4     | 1 / 6                   |
+| 5 - 6     | 2 / 6                   |
+| 7 - 8     | 3 / 6                   |
+| 9 - 10+   | 4 / 6                   |
+
+**Downtime Detection:** If the enchanter spends 1 hour in a safe location, they will automatically know if any one object, place or creature is magical or not given they physically touch it.
+
+**Glamours:** Glamours are activated by thought alone. And unless noted otherwise, there is no limit to the number of times a glamour can be used. In combat, a glamour is activated on the spells segment and the enchanter needs to be standing still. When an enchanter is eligible to learn a new glamour, roll on the glamour table.
+
+**Runes:** By controlling the powers of Fairy, the enchanter is able to wield certain secret and magical sigils which are guarded by the rulers. Runes are not physical objects and are divided into three categories tiers: Lesser, greater and mighty. At level 1 the enchanter is granted one randomly selected lesser rune.
+
+**Gaining Runes:** At subsequent levels the acquisition of runes are granted by the fairy lords and rulers. Whenever a character has the chance of gaining a new rune upon leveling up, consult the table below and any rune acquisition bonus on the advancement table.
+
+| **2d6**   | **Rune Acquired** |
+|-----------|-------------------------|
+| 2 or less | Nothing granted         |  
+| 3 - 7     | 1 lesser rune           |   
+| 8 - 11    | 1 greater rune          |  
+| 12+       | 1 mighty rune           |
+
+**Rune Usage:** Runes are also activated with thought. The enchanter needs to stand still in order to activate a rune, but they do not need to gesture or speak. Depending on the tier of the rune and the level of the enchanter, one specific rune can only be used a set amount of times, described below.
+
+| **Caster Level** | **Lesser Rune** | **Greater Rune** | **Mighty Rune** |
+|------------------|-----------------|------------------|-----------------|
+| 1 - 4            | Once per day    | Once per level   | Once ever       |
+| 5 - 9            | Twice per day   | Once per week    | Once ever       |
+| 10+              | Thrice per day  | Once per day     | Once per year   |
+
+### Restrictions
+
+**Magic Items:** The enchanter can use magical items that are exclusive to magic-users. Magical scrolls, wands, staves etc.
+
+**Resistance to Law:** Enchanters wield an inherently chaotic form of magic. If an enchanter is the subject of a lawful or holy spell, there is a 2/6 chance it has no effect. By the same logic, it's not possible for an enchanter to multiclass as any other lawful class or cast lawful magic.
+
+### Glamour Table
+
+When an enchanter is eligible to learn a new glamour, roll on the glamour table below.
+
+| **Number (1d20)** | **Glamour**                                         |
+| ----------------- | --------------------------------------------------- |
+| 1                 | [Awe](#glamours#awe)                                 |
+| 2                 | [Beguilement](#glamours#beguilement)                 |
+| 3                 | [Breath of the Wind](#glamours#breath-of-the-wind)   |
+| 4                 | [Cloak of Darkness](#glamours#cloak-of-darkness)     |
+| 5                 | [Conjure Treats](#glamours#conjure-treats)           |
+| 6                 | [Dancing Flame](#glamours#dancing-flame)             |
+| 7                 | [Disguise Object](#glamours#disguise-object)         |
+| 8                 | [Fairy Dust](#glamours#fairy-dust)                   |
+| 9                 | [Flame Charm](#glamours#flame-charm)                 |
+| 10                | [Fool's Gold](#glamours#fools-gold)                  |
+| 11                | [Forgetting](#glamours#forgetting)                   |
+| 12                | [Masquerade](#glamours#masquerade)                   |
+| 13                | [Mirth and Malice](#glamours#mirth-and-malice)       |
+| 14                | [Moon Sight](#glamours#moon-sight)                   |
+| 15                | [Seeming](#glamours#seeming)                         |
+| 16                | [Silver Tongue](#glamours#silver-tongue)             |
+| 17                | [Subtle Sight](#glamours#subtle-sight)               |
+| 18                | [Through the Keyhole](#glamours#through-the-keyhole) |
+| 19                | [Vanishing](#glamours#vanishing)                     |
+| 20                | [Walk in Shadows](#glamours#walk-in-shadows)         |
+
+### Lesser Rune Table
+
+| **Number (1d6)** | **Lesser Rune**                                                     |
+| ---------------- | ------------------------------------------------------------------- |
+| 1                | [Deathly Blossom](#rune-lesser#deathly-blossom)                     |
+| 2                | [Fog Cloud](#rune-lesser#fog-cloud)                                 |
+| 3                | [Gust of Wind](#rune-lesser#gust-of-wind)                           |
+| 4                | [Proof Against Deadly Harm](#rune-lesser#proof-against-deadly-harm) |
+| 5                | [Rune of Vanishing](#rune-lesser#rune-of-vanishing)                 |
+| 6                | [Sway of the Mortal Mind](#rune-lesser#sway-of-the-mortal-mind)     |
+
+### Greater Rune Table
+
+| **Number (1d6)** | **Greater Rune**                                           |
+| ---------------- | ---------------------------------------------------------- |
+| 1                | [Arcane Unbinding](#rune-greater#arcane-unbinding)         |
+| 2                | [Fairy Gold](#rune-greater#fairy-gold)                     |
+| 3                | [Fairy Steed](#rune-greater#fairy-steed)                   |
+| 4                | [Ice Storm](#rune-greater#ice-storm)                       |
+| 5                | [Rune of Invisibility](#rune-greater#rune-of-invisibility) |
+| 6                | [Sway the Mind](#rune-greater#sway-the-mind)               |
+
+### Mighty Rune Table
+
+| **Number (1d6)** | **Mighty Rune**                                   |
+| ---------------- | ------------------------------------------------- |
+| 1                | [Dream Ship](#rune-mighty#dream-ship)             |
+| 2                | [Eternal Slumber](#rune-mighty#eternal-slumber)   |
+| 3                | [Rune of Death](#rune-mighty#rune-of-death)       |
+| 4                | [Rune of Wishing](#rune-mighty#rune-of-wishing)   |
+| 5                | [Summon Wild Hunt](#rune-mighty#summon-wild-hunt) |
+| 6                | [Unravel Death](#rune-mighty#unravel-death)       |
+
+### Glamour List
+
+#### <span id="glamours#awe">Awe</span>
+
+**Range:** 30'
+
+**Duration:** 1d4 rounds
+
+**Usage Frequency:** Once per turn
+
+The enchanter conjures a disturbing presence to unnerve a group of mortals, triggering a morale check.
+
+- **Upon failed morale:** Creatures whose HD totals up to the enchanters level flee the casters presence. Creatures of the lowest HD are targeted first.
+
+#### <span id="glamours#beguilement">Beguilement</span>
+
+**Range:** 30'
+
+**Duration:** 1d4 rounds
+
+**Usage Frequency:** Once per day per subject
+
+With words of great power over subjects, a single mortal addressed by the caster must save vs spell or believe the enchanters words for a short period. 
+
+- **Language:** The target must understand the caster.
+
+- **End of duration:** The target is obvious that a magical deception has been cast upon them.
+
+#### <span id="glamours#breath-of-the-wind">Breath of the Wind</span>
+
+**Range:** 30'
+
+**Duration:** 1d4 rounds
+
+**Usage Frequency:** Once per turn
+
+A flurry of wind causes leaves and dust to billow, and so forth, making the caster able to move in complete silence by creatures within range.
+
+#### <span id="glamours#cloak-of-darkness">Cloak of Darkness</span>
+
+**Range:** Caster
+
+**Duration:** Special
+
+**Usage Frequency:** Once per turn
+
+The enchanter creates an area of shadow, hiding themselves from normal sight.
+
+- **Duration:** The cloak lasts as long as the caster remains motionless. Once the caster moves or performs some other action, the cloak lasts 1 round.
+
+- **Visual:** The cloak itself is visible in an obvious location such as a bright forest environment or a torch lit area. It's a lot more subtle inside a dark dungeon.
+
+#### <span id="glamours#conjure-treats">Conjure Treats</span>
+
+**Range:** Caster
+
+**Duration:** Permanent
+
+**Usage Frequency:** Once per day per subject
+
+With a burgeoning gesture, the enchanter conjures a mortal's or animal's favorite meal out of thin air.
+
+- **Offering** With a successful reaction roll and upon offering it to the mortal or animal, their demenour toward the caster is improved.
+
+- **Sustenance:** The treats, albeit real, do not provide any sustenance.
+
+#### <span id="glamours#dancing-flame">Dancing Flame</span>
+
+**Range:** 60'
+
+**Duration:** 2d6 rounds
+
+A small commanded flame within range (torch, lantern etc) is disconnected from its source and made to float.
+
+- **Movement:** The flame moves at 10' per round.
+
+- **Concentration:** The enchanter must concentrate on the flame, they can move but no other action can be taken or the magic is dispelled.
+
+#### <span id="glamours#disguise-object">Disguise Object</span>
+
+**Range:** Touch
+
+**Duration:** Special
+
+Upon touching an object, it is made into something else with similar dimensions.
+
+- **Duration:** Lasts until another object touches the disguised object or until this glamour is used again.
+
+- **Restriction:** Only one object can be disguised at one time by the same caster.
+
+#### <span id="glamours#fairy-dust">Fairy Dust</span>
+
+**Range:** 30'
+
+**Duration:** 1 round
+
+**Usage Frequency:** Once per day
+
+Purple, glittering dust forms in the palms of the enchanter and the dust can be thrown into the air to momentarely reveal any invisible creatures or objects in range. 
+
+- **Attack Penalty:** Invisible creatures can be attacked for a -1 to-hit instead of a heavier penalty.
+
+#### <span id="glamours#flame-charm">Flame Charm</span>
+
+**Range:** Caster
+
+**Duration:** Special
+
+Flame charm makes the caster be able to create and extinguish small flames.
+
+- **Conjuring:** A colorful flame emerges from the fingertip. It can be used to light smaller fires but does only provides a light similar to a candle. No other action is possbile except for movement, else the flame is snuffed.
+
+- **Extinguishing:** By the snap of a finger the caster can extinguish a non-magical flame within 10'. The size of the flame cannot be larger than a candle or a table lamp. If a creature is holding the light source they may save vs spell to prevent the flame from going out.
+
+#### <span id="glamours#fools-gold">Fool's Gold</span>
+
+**Range:** Touch
+
+**Duration:** 1d6 minutes
+
+**Usage Frequency:** Once per day
+
+**AoE:** 20 copper coins
+
+The enchanter disguises up to 20 copper coins to appear as gold in order to fool gullible mortals.
+
+- **Saving Throw:** Creatures looking at the coins save vs spell, if successful they see through the illusion for what it is.
+
+#### <span id="glamours#forgetting">Forgetting</span>
+
+**Range:** 30'
+
+**Duration:** Permanent
+
+**Usage Frequency:** Once per day per subject
+
+Fey magic trickery causes a mortal or animal to forget what they just witnessed a moment ago.
+
+- **Saving Throw:** Any target must save vs spell to resist the glamour.
+
+#### <span id="glamours#masquerade">Masquerade</span>
+
+**Range:** Caster
+
+**Duration:** Permanent until dismissed
+
+The enchanter alters their facial features in the form of a minor illusion. 
+
+- **Subtle Changes:** Eye color and hair color, can be changed quickly.
+
+- **Dramatic Changes:** Requires 1 turn of concentration to complete.
+
+- **Restrictions:** It's not possible to duplicate a specific person with this magic.
+
+#### <span id="glamours#mirth-and-malice">Mirth and Malice</span>
+
+**Range:** 30'
+
+**Duration:** 1 turn
+
+**Usage Frequency:** Once per day per group
+
+**AoE:** 1 target/level
+
+In conversation, the enchanter can induce a faux anger into a group of subjects, making them irritable or affactionate to an unknown and subtle discord.
+
+- **Speaking Time:** The caster must speak to the subject(s) for at least 1 turn in order for the magic to come into effect.
+
+- **Saving Throw:** Any targets save vs spell. On a failed save they come to express great anger or affection.
+
+- **When the caster stops speaking:** The magical emotion dissipates within 1 turn.
+
+. **Restrictions:** The targets must understand the caster and share the same language, and the caster has no control over how the subjects feel when the spell takes effect.
+
+#### <span id="glamours#moon-sight">Moon Sight</span>
+
+**Range:** Caster
+
+**Duration:** Permanent
+
+This enables the enchanter to see in darkness up to 60', viewing any dark surrounding as though glowing in faint moonlight.
+
+**Restrictions:** This does magic does not give any penalty in combat, but fine detail, like writing, cannot be read.
+
+#### <span id="glamours#seeming">Seeming</span>
+
+**Range:** CasterShadows
+
+**Duration:** Permanent
+
+The caster can magically and visually change their outfit or clothing to appear in whatever form they wish.
+
+**Illusion:** The clothing is only visual, and is disbelieved if touched or made obvious in detail.
+
+#### <span id="glamours#silver-tongue">Silver Tongue</span>
+
+**Range:** Caster
+
+**Duration:** 1 day
+
+**Usage Frequency:** Once per day
+
+By being granted the immortal tongue of fairy, the enchanter is able to speak to any being or mortal.
+
+**Restriction:** This magic can be used to communicate via any one language per day.
+
+#### <span id="glamours#subtle-sight">Subtle Sight</span>
+
+**Range:** Caster
+
+**Duration:** Permanent
+
+The caster gains the ability to perceieve surroundings more easily, giving anything invisible a faint shimmering outline.
+
+**Locating:** There is a 3/6 chance of the enchanter seeing invisible creatures or objects in their line of sight.
+
+**In combat:** Attacks versus invisible creatures only occur a –1 attack penalty.
+
+#### <span id="glamours#through-the-keyhole">Through the Keyhole</span>
+
+**Range:** Touch
+
+**Duration:** Instant
+
+**Usage Frequency:** Once per day per target
+
+The caster may traverse keyholes, peepholes, or small portals. Disappearing momentarily and reappearing on the other side. 
+
+**Magically Sealed Doors:** Are not traversable unless the caster makes a successful save vs spell.
+
+#### <span id="glamours#vanishing">Vanishing</span>
+
+**Range:** 60'
+
+**Duration:** 1d3 rounds
+
+**Usage Frequency:** Once per day per target
+
+By a swift magical cloak, the enchanter briefly disappears from the sight of any one creature witihn range. 
+
+**Gear & Equipment:** Is rendered invisible as long as it's carried or worn. Light sources are still visible.
+
+**Combat:** If the caster attempts to attack the targeted creature, the glamour is dispelled.
+
+#### <span id="glamours#walk-in-shadows">Walk in Shadows</span>
+
+**Range:** Caster
+
+**Duration:** 1 round
+
+The caster may walk in the realm between shadowed surfaces. Seemingly vanishing and reappearing.
+
+**Locating:** Not all dark areas contain suitable shadows for traversal. The caster can scan a 10' x 10' area of darkness. There is a 2/6 chance of finding a suitable shadow door.
+
+**Traversing:** Stepping through a suitable shadow, the caster disappears for 1 round before reeappearing at a random shadow location within 60'.
+
+### Lesser Rune List
+
+#### <span id="rune-lesser#deathly-blossom">Deathly Blossom</span>
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+A white rose is conjured in the hand of the enchanter.
+
+**Proffering:** Anyone who smells the rose must save versus death or fall into a deep sleep. Appearing practically dead for 1d6 Turns.
+
+**The flower**: Remains until it is used or 1 turn passes.
+
+**Restrictions:** Only living and mortal creatures are affected.
+
+#### <span id="rune-lesser#fog-cloud">Fog Cloud</span>
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+**AoE:** 20' x 20'
+
+A cloud of fog surroundings the caster, filling an area.
+
+**Vision:** The fog blocks all mundane vision of creatures except for the enchanter who can perceive through the cloud.
+
+**Stationary:** The cloud is stationary at the casting spot and does not move with the enchanter.
+
+**Strong or Magical Wind:** Clears the fog before the duration has expired.
+
+#### <span id="rune-lesser#gust-of-wind">Gust of Wind</span>
+
+**Range:** Caster
+
+**Duration:** 1 round
+
+**AoE:** 10' wide 60' line
+
+A blast strong of wind emerges from the hands of the caster.
+
+**Light Sources:** Small flames and exposed light sources are extinguished. Protected sources such as lanterns have a 3/6 chance of going out. 
+
+**Fog:** Scatters natural and magical mist.
+
+**Creatures:** Small and medium creatures in the area must save vs paralyzation or be pushed back 1d3 x 10'.
+
+#### <span id="rune-lesser#proof-against-deadly-harm">Proof Against Deadly Harm</span>
+
+**Range:** Caster
+
+**Duration:** 2d6 rounds
+
+The enchanter is rendered completely immune to a specific type of weapon, such as swords, claws, bows etc. 
+
+**Restrictions:** Attacks from magical creatures, cold iron weapons and enchanted weapons still harm the caster.
+
+#### <span id="rune-lesser#rune-of-vanishing">Rune of Vanishing</span>
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+The enchanter is made invisible to the sight of mortal creatures and animals.
+
+**Equipment and Clothing:** Anything worn or carried is rendered invisible. Items put down become visible. 
+
+**Light:** Which is cast from sources like torches or lanterns are not invisible.
+
+**Attacking:** If the caster attacks while under duration of the magic, they are temporarely rendered visible. Opponents may attack in the same round or in the next at a -2 to-hit penalty.
+
+#### <span id="rune-lesser#sway-the-mortal-mind">Sway the Mortal Mind</span>
+
+**Range:** Caster
+
+**Duration:** 1 day
+
+Charms one mortal creature by the power of fairy magic.
+
+**Saving Throw:** The targeted creature may save vs spell to resist the magic. 
+
+**Friendship:** The subject regards the enchanter as a close friend.
+
+**Commands:** If the subject and the caster shares a language, the caster may command the charmed creature. Suicidal or clearly harmful commands are always refused.
+
+**Restrictions:** Only small or medium sized humanoid creatures with sentient intelligence or greater may be affected.
+
+### Greater Rune List
+
+#### <span id="rune-greater#arcane-unbinding">Arcane Unbinding</span>
+
+**Range:** 120'
+
+**Duration:** Special
+
+**AoE:** 20' x 20'
+
+All magical effects of chaos or fairy origin is negated in the area.
+
+**Negation:** Effects created by lower or equal level casters are dispelled automatically. Effects created by higher level casters are unaffected.
+
+**Magic Items:** Are negated for 1 round.
+
+**Law or Holy Magic:** Is unaffected.
+
+#### <span id="rune-greater#fairy-coin">Fairy Coin</span>
+
+**Range:** Caster
+
+**Duration:** 1d6 hours
+
+This rune conjures a bag of 2d100 silver coins from a fairy noble into the hands of the caster.
+
+**End of Duration:** The coins are whisked back to the vault of the fairy lord who granted it.
+
+#### <span id="rune-greater#fairy-steed">Fairy Steed</span>
+
+**Range:** 10'
+
+**Duration:** 1 day
+
+Summons a magical 2 HD 13 AC fairy steed in the presence of the enchanter.
+
+**Servitude:** The fairy horse servers the caster as a mount. It understands commands and obeys and reasonable requests.
+
+#### <span id="rune-greater#ice-storm">Ice Storm</span>
+
+**Range:** 120'
+
+**Duration:** Instant
+
+**AoE:** 30' diameter
+
+A dangerous blizzard descends upon an area within range.  
+
+**Damage:** All creatures within the area takes 3d8 cold damage.
+
+**Icy Surface:** The surface of the area remains icy for 1 turn. Anyone who wishes to move over the area must do so half speed to avoid slipping. 
+
+#### <span id="rune-greater#rune-of-invisibility">Rune of Invisibility</span>
+
+**Range:** Caster
+
+**Duration:** 1 day
+
+The enchanter is made invisible to the sight of mortal creatures and animals.
+
+**Equipment and Clothing:** Anything worn or carried is rendered invisible. Items put down become visible. 
+
+**Light:** Which is cast from sources like torches or lanterns are not invisible.
+
+**Attacking:** If the caster attacks while under duration of the magic, they are temporarely rendered visible. Opponents may attack in the same round or in the next at a -2 to-hit penalty.
+
+**Becoming Visible:** The enchanter can at any time choose to end the effect of the rune.
+
+#### <span id="rune-greater#sway-the-mind">Sway the Mind</span>
+
+**Range:** 30'
+
+**Duration:** 1 day
+
+Any one single creature must make a save vs spell or be charmed by fairy magic. Fairies gain a +4 bonus on the save.
+
+**Friendship:** The subject regards the enchanter as a close friend.
+
+**Commands:** If the subject and the caster shares a language, the caster may command the charmed creature. Suicidal or clearly harmful commands are always refused.
+
+### Mighty Rune List
+
+#### <span id="rune-mighty#dream-ship">Dream Ship</span>
+
+**Range:** Caster
+
+**Duration:** 1 turn
+
+A phantasmal galleon appearss, sailing down from the sky and docking as close to the caster as possible.
+
+**Passengers:** The caster and up to 12 passengers can board the ship.
+
+**Travel:** The ship can travel to any named destination.
+
+**The voyage:** Drifting through dream land, the voyage seems to take 1d6 hours for the passengers, but in reality takes a mere ten minutes of real time.
+
+#### <span id="rune-mighty#eternal-slumber">Eternal Slumber</span>
+
+**Range:** 20'
+
+**Duration:** Permanent
+
+A mortal creature within range is placed into a state of eternal sleep.
+
+**Awakening:** The target can only be awoken by a specific condition set by the caster, or by dispelling the magic of the rune.
+
+#### <span id="rune-mighty#rune-of-death">Rune of Death</span>
+
+**Range:** 120'
+
+**Duration:** Instant
+
+**AoE:** 30' diameter
+
+By invoking the power of this rune, the caster brings death upon an area.
+
+**Effect:** A total of up to 4d8 HD of mortals or animals inside the area must save vs death or instantly die. Lowest HD creatures are affected first.
+
+**Restrictions:** Creatures of 8 HD or greater are unnaffected.
+
+#### <span id="rune-mighty#rune-of-wishing">Rune of Wishing</span>
+
+**Range:** Special
+
+**Duration:** Permanent
+
+This rune has the power to alter and change reality in any way the caster wishes.
+
+**Life Force:** The sheer power of this rune saps te life force of the caster, causing a permanent loss of 1d3 constitution. This loss cannot be restored by any means.
+
+#### <span id="rune-mighty#summon-wild-hunt">Summon Wild Hunt</span>
+
+**Range:** 60'
+
+**Duration:** 1d6 hours
+
+This invokes the sound of ghostly horns, summoning a horde of wild spirits fron the woods of fairy. 
+
+**Composition:** The wild hunt consits of 4d6 fairy hounds (1 HD, 12 AC), 4d20 elf hunters on foot (1 HD, 12 AC, Shortbow, Shortsword), 4d20 elf hunters mounted on fairy horses, 1d6 goblin horn-blowers (1 HD, AC 12, Dagger). 
+
+**Hunting:** The caster may direct the host to chase a specific quarry.
+
+**Duration:** The summons remain until the hunt is completed or until 1d6 hours have passed.
+
+#### <span id="rune-mighty#unravel-death">Unravel Death</span>
+
+**Range:** Touch
+
+**Duration:** Instant
+
+A deceased mortal, demi-fey, or fairy whom the caster touches instantly returns to life.
+
+**Time Limit:** The deceased target cannot have been dead for longer than 7 days.  
+
+**Weakness:** The target returns to life with 1 HP, cannot carry heavy items, attack, cast spells or use class capabilities. This weakness cannot be shortened by any magical means and instead requires 2 full weeks of bed rest before the target regains their strength.
+
 ## <span id=fighter> Fighter </span>
 
 **Minimum Requirement:** 9+ Strength.
@@ -679,28 +1342,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Fighter Advancement Table
 
-| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|------------------------------|-------------------|-------------------|--------------------------|-----------------------|
-| 1         | 0                            | 1                 | 15                | 4                        | Veteran               |
-| 2         | 2,000                        | 2                 | 14                | 4                        | Warrior               |
-| 3         | 4,000                        | 3                 | 13                | 5                        | Swordsman             |
-| 4         | 8,000                        | 4                 | 12                | 5                        | Hero                  |
-| 5         | 16,000                       | 5                 | 11                | 5                        | Swashbuckler          |
-| 6         | 32,000                       | 6                 | 10                | 6                        | Myrmidon              |
-| 7         | 64,000                       | 7                 | 9                 | 6                        | Champion              |
-| 8         | 120,000                      | 8                 | 8                 | 6                        | Superhero             |
-| 9         | 240,000                      | 9                 | 7                 | 7                        | Lord                  |
-| 10        | 360,000                      | 9+3               | 6                 | 7                        |                       |
-| 11        | 480,000                      | 9+6               | 5                 | 7                        |                       |
-| 12        | 600,000                      | 9+9               | 5                 | 8                        |                       |
-| 13        | 720,000                      | 9+12              | 5                 | 8                        |                       |
-| 14        | 840,000                      | 9+15              | 5                 | 8                        |                       |
-| 15        | 960,000                      | 9+18              | 5                 | 9                        |                       |
-| 16        | 1,080,000                    | 9+21              | 5                 | 9                        |                       |
-| 17        | 1,200,000                    | 9+24              | 5                 | 9                        |                       |
-| 18        | 1,320,000                    | 9+27              | 5                 | 10                       |                       |
-| 19        | 1,440,000                    | 9+30              | 5                 | 10                       |                       |
-| 20        | 1,560,000                    | 9+33              | 5                 | 10                       |                       |
+| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Weapon Proficiencies** | **Level Title** |
+|-----------|------------------------------|--------------------|--------------------------|-----------------|
+| 1         | 0                            | 1                  | 4                        | Veteran         |
+| 2         | 2,000                        | 2                  | 4                        | Warrior         |
+| 3         | 4,000                        | 3                  | 5                        | Swordsman       |
+| 4         | 8,000                        | 4                  | 5                        | Hero            |
+| 5         | 16,000                       | 5                  | 5                        | Swashbuckler    |
+| 6         | 32,000                       | 6                  | 6                        | Myrmidon        |
+| 7         | 64,000                       | 7                  | 6                        | Champion        |
+| 8         | 120,000                      | 8                  | 6                        | Superhero       |
+| 9         | 240,000                      | 9                  | 7                        | Lord            |
+| 10        | 360,000                      | 9+3                | 7                        |                 |
+| 11        | 480,000                      | 9+6                | 7                        |                 |
+| 12        | 600,000                      | 9+9                | 8                        |                 |
+| 13        | 720,000                      | 9+12               | 8                        |                 |
+| 14        | 840,000                      | 9+15               | 8                        |                 |
+| 15        | 960,000                      | 9+18               | 9                        |                 |
+| 16        | 1,080,000                    | 9+21               | 9                        |                 |
+| 17        | 1,200,000                    | 9+24               | 9                        |                 |
+| 18        | 1,320,000                    | 9+27               | 10                       |                 |
+| 19        | 1,440,000                    | 9+30               | 10                       |                 |
+| 20        | 1,560,000                    | 9+33               | 10                       |                 |
 
 #### Calculating To Hit Modifier by Level
 
@@ -755,28 +1418,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Barbarian Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|---------------------------|--------------------|------------------|--------------------------|-----------------------|
-| 1         | 0                         | 1                  | 15               | 4                        | Bushwacker            |
-| 2         | 2,500                     | 2                  | 14               | 4                        | Berserker             |
-| 3         | 5,000                     | 3                  | 13               | 5                        | Ravager               |
-| 4         | 10,000                    | 4                  | 12               | 5                        | Savage Commander      |
-| 5         | 20,000                    | 5                  | 11               | 5                        | Chieftain             |
-| 6         | 40,000                    | 6                  | 10               | 6                        | Berserker Chief       |
-| 7         | 90,000                    | 7                  | 9                | 6                        | Hordechief            |
-| 8         | 160,000                   | 8                  | 8                | 6                        | Conqueror             |
-| 9         | 275,000                   | 9+4                | 7                | 7                        | High Conqueror        |
-| 10        | 400,000                   | 9+8                | 6                | 7                        |                       |
-| 11        | 530,000                   | 9+12               | 5                | 7                        |                       |
-| 12        | 660,000                   | 9+16               | 5                | 8                        |                       |
-| 13        | 790,000                   | 9+20               | 5                | 8                        |                       |
-| 14        | 920,000                   | 9+24               | 5                | 8                        |                       |
-| 15        | 1,050,000                 | 9+28               | 5                | 9                        |                       |
-| 16        | 1,180,000                 | 9+32               | 5                | 9                        |                       |
-| 17        | 1,310,000                 | 9+36               | 5                | 9                        |                       |
-| 18        | 1,440,000                 | 9+40               | 5                | 10                       |                       |
-| 19        | 1,570,000                 | 9+44               | 5                | 10                       |                       |
-| 20        | 1,700,000                 | 9+48               | 5                | 10                       |                       |
+| **Level** | **XP Required for Level** | **Hit Dice (d12)** | **Weapon Proficiencies** | **Level Title**  |
+|-----------|---------------------------|--------------------|--------------------------|------------------|
+| 1         | 0                         | 1                  | 4                        | Bushwacker       |
+| 2         | 2,500                     | 2                  | 4                        | Berserker        |
+| 3         | 5,000                     | 3                  | 5                        | Ravager          |
+| 4         | 10,000                    | 4                  | 5                        | Savage Commander |
+| 5         | 20,000                    | 5                  | 5                        | Chieftain        |
+| 6         | 40,000                    | 6                  | 6                        | Berserker Chief  |
+| 7         | 90,000                    | 7                  | 6                        | Hordechief       |
+| 8         | 160,000                   | 8                  | 6                        | Conqueror        |
+| 9         | 275,000                   | 9+4                | 7                        | High Conqueror   |
+| 10        | 400,000                   | 9+8                | 7                        |                  |
+| 11        | 530,000                   | 9+12               | 7                        |                  |
+| 12        | 660,000                   | 9+16               | 8                        |                  |
+| 13        | 790,000                   | 9+20               | 8                        |                  |
+| 14        | 920,000                   | 9+24               | 8                        |                  |
+| 15        | 1,050,000                 | 9+28               | 9                        |                  |
+| 16        | 1,180,000                 | 9+32               | 9                        |                  |
+| 17        | 1,310,000                 | 9+36               | 9                        |                  |
+| 18        | 1,440,000                 | 9+40               | 10                       |                  |
+| 19        | 1,570,000                 | 9+44               | 10                       |                  |
+| 20        | 1,700,000                 | 9+48               | 10                       |                  |
 
 #### Calculating To Hit Modifier by Level
 
@@ -854,28 +1517,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Inquisitor Advancement Table
 
-| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|------------------------------|--------------------|-------------------|--------------------------|-----------------------|
-| 1         | 0                            | 1                  | 15                | 4                        | Gallant               |
-| 2         | 2,750                        | 2                  | 14                | 4                        | Keeper                |
-| 3         | 5,500                        | 3                  | 13                | 5                        | Protector             |
-| 4         | 12,000                       | 4                  | 12                | 5                        | Defender              |
-| 5         | 24,000                       | 5                  | 11                | 5                        | Warder                |
-| 6         | 45,000                       | 6                  | 10                | 6                        | Guardian              |
-| 7         | 95,000                       | 7                  | 9                 | 6                        | Chevalier             |
-| 8         | 175,000                      | 8                  | 8                 | 6                        | Justicar              |
-| 9         | 350,000                      | 9                  | 7                 | 7                        | Paladin               |
-| 10        | 500,000                      | 9+3 hp             | 6                 | 7                        |                       |
-| 11        | 650,000                      | 9+6 hp             | 5                 | 7                        |                       |
-| 12        | 800,000                      | 9+9 hp             | 5                 | 8                        |                       |
-| 13        | 950,000                      | 9+12 hp            | 5                 | 8                        |                       |
-| 14        | 1,100,000                    | 9+15 hp            | 5                 | 8                        |                       |
-| 15        | 1,250,000                    | 9+18 hp            | 5                 | 9                        |                       |
-| 16        | 1,400,000                    | 9+21 hp            | 5                 | 9                        |                       |
-| 17        | 1,550,000                    | 9+24 hp            | 5                 | 9                        |                       |
-| 18        | 1,700,000                    | 9+27 hp            | 5                 | 10                       |                       |
-| 19        | 1,850,000                    | 9+30 hp            | 5                 | 10                       |                       |
-| 20        | 2,000,000                    | 9+33 hp            | 5                 | 10                       |                       |
+| **Level** | **XP Requirement for Level** | **Hit Dice (d10)** | **Weapon Proficiencies** | **Level Title** |
+|-----------|------------------------------|--------------------|--------------------------|-----------------|
+| 1         | 0                            | 1                  | 4                        | Gallant         |
+| 2         | 2,750                        | 2                  | 4                        | Keeper          |
+| 3         | 5,500                        | 3                  | 5                        | Protector       |
+| 4         | 12,000                       | 4                  | 5                        | Defender        |
+| 5         | 24,000                       | 5                  | 5                        | Warder          |
+| 6         | 45,000                       | 6                  | 6                        | Guardian        |
+| 7         | 95,000                       | 7                  | 6                        | Chevalier       |
+| 8         | 175,000                      | 8                  | 6                        | Justicar        |
+| 9         | 350,000                      | 9                  | 7                        | Paladin         |
+| 10        | 500,000                      | 9+3 hp             | 7                        |                 |
+| 11        | 650,000                      | 9+6 hp             | 7                        |                 |
+| 12        | 800,000                      | 9+9 hp             | 8                        |                 |
+| 13        | 950,000                      | 9+12 hp            | 8                        |                 |
+| 14        | 1,100,000                    | 9+15 hp            | 8                        |                 |
+| 15        | 1,250,000                    | 9+18 hp            | 9                        |                 |
+| 16        | 1,400,000                    | 9+21 hp            | 9                        |                 |
+| 17        | 1,550,000                    | 9+24 hp            | 9                        |                 |
+| 18        | 1,700,000                    | 9+27 hp            | 10                       |                 |
+| 19        | 1,850,000                    | 9+30 hp            | 10                       |                 |
+| 20        | 2,000,000                    | 9+33 hp            | 10                       |                 |
 
 #### Calculating To Hit Modifier by Level
 
@@ -968,28 +1631,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Ranger Advancement Table
 
-| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Saving Throws** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|------------------------------|-------------------|-------------------|--------------------------|-----------------------|
-| 1         | 0                            | 2                 | 15                | 4                        | Runner                |
-| 2         | 2,250                        | 3                 | 14                | 4                        | Strider               |
-| 3         | 4,500                        | 4                 | 13                | 5                        | Scout                 |
-| 4         | 10,000                       | 5                 | 12                | 5                        | Courser               |
-| 5         | 20,000                       | 6                 | 11                | 5                        | Tracker               |
-| 6         | 40,000                       | 7                 | 10                | 6                        | Guide                 |
-| 7         | 90,000                       | 8                 | 9                 | 6                        | Pathfinder            |
-| 8         | 150,000                      | 9                 | 8                 | 6                        | Ranger                |
-| 9         | 275,000                      | 10                | 7                 | 7                        | Ranger-Knight         |
-| 10        | 400,000                      | 11                | 6                 | 7                        | Ranger Lord           |
-| 11        | 525,000                      | 11+2              | 5                 | 7                        |                       |
-| 12        | 650,000                      | 11+4              | 5                 | 8                        |                       |
-| 13        | 725,000                      | 11+6              | 5                 | 8                        |                       |
-| 14        | 850,000                      | 11+8              | 5                 | 8                        |                       |
-| 15        | 975,000                      | 11+10             | 5                 | 9                        |                       |
-| 16        | 1,100,000                    | 11+12             | 5                 | 9                        |                       |
-| 17        | 1,225,000                    | 11+14             | 5                 | 9                        |                       |
-| 18        | 1,350,000                    | 11+16             | 5                 | 10                       |                       |
-| 19        | 1,475,000                    | 11+18             | 5                 | 10                       |                       |
-| 20        | 1,600,000                    | 11+20             | 5                 | 10                       |                       |
+| **Level** | **XP Requirement for Level** | **Hit Dice (d8)** | **Weapon Proficiencies** | **Level Title** |
+|-----------|------------------------------|-------------------|--------------------------|-----------------|
+| 1         | 0                            | 2                 | 4                        | Runner          |
+| 2         | 2,250                        | 3                 | 4                        | Strider         |
+| 3         | 4,500                        | 4                 | 5                        | Scout           |
+| 4         | 10,000                       | 5                 | 5                        | Courser         |
+| 5         | 20,000                       | 6                 | 5                        | Tracker         |
+| 6         | 40,000                       | 7                 | 6                        | Guide           |
+| 7         | 90,000                       | 8                 | 6                        | Pathfinder      |
+| 8         | 150,000                      | 9                 | 6                        | Ranger          |
+| 9         | 275,000                      | 10                | 7                        | Ranger-Knight   |
+| 10        | 400,000                      | 11                | 7                        | Ranger Lord     |
+| 11        | 525,000                      | 11+2              | 7                        |                 |
+| 12        | 650,000                      | 11+4              | 8                        |                 |
+| 13        | 725,000                      | 11+6              | 8                        |                 |
+| 14        | 850,000                      | 11+8              | 8                        |                 |
+| 15        | 975,000                      | 11+10             | 9                        |                 |
+| 16        | 1,100,000                    | 11+12             | 9                        |                 |
+| 17        | 1,225,000                    | 11+14             | 9                        |                 |
+| 18        | 1,350,000                    | 11+16             | 10                       |                 |
+| 19        | 1,475,000                    | 11+18             | 10                       |                 |
+| 20        | 1,600,000                    | 11+20             | 10                       |                 |
 
 #### Calculating To Hit Modifier by Level
 
@@ -1130,28 +1793,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Law Mage Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**       |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------|
-| 1         | 0                         | 1                 | 15               | 2                        | Pupil                |
-| 2         | 1,500                     | 2                 | 14               | 2                        | Acolyte              |
-| 3         | 3,000                     | 3                 | 13               | 2                        | Adept                |
-| 4         | 6,000                     | 4                 | 12               | 3                        | Priest               |
-| 5         | 13,000                    | 5                 | 11               | 3                        | Curate               |
-| 6         | 27,500                    | 6                 | 10               | 3                        | Canon                |
-| 7         | 55,000                    | 7                 | 9                | 3                        | Lama                 |
-| 8         | 110,000                   | 8                 | 8                | 4                        | Patriarch            |
-| 9         | 220,000                   | 9                 | 7                | 4                        | High Priest          |
-| 10        | 330,000                   | 9+1               | 6                | 4                        |                      |
-| 11        | 440,000                   | 9+2               | 5                | 4                        |                      |
-| 12        | 550,000                   | 9+3               | 4                | 5                        |                      |
-| 13        | 660,000                   | 9+4               | 4                | 5                        |                      |
-| 14        | 770,000                   | 9+5               | 4                | 5                        |                      |
-| 15        | 880,000                   | 9+6               | 4                | 5                        |                      |
-| 16        | 990,000                   | 9+7               | 4                | 6                        |                      |
-| 17        | 1,100,000                 | 9+8               | 4                | 6                        |                      |
-| 18        | 1,200,000                 | 9+9               | 4                | 6                        |                      |
-| 19        | 1,300,000                 | 9+10              | 4                | 6                        |                      |
-| 20        | 1,400,000                 | 9+11              | 4                | 7                        |                      |
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Weapon Proficiencies** | **Level Title** |
+|-----------|---------------------------|-------------------|--------------------------|-----------------|
+| 1         | 0                         | 1                 | 2                        | Pupil           |
+| 2         | 1,500                     | 2                 | 2                        | Acolyte         |
+| 3         | 3,000                     | 3                 | 2                        | Adept           |
+| 4         | 6,000                     | 4                 | 3                        | Priest          |
+| 5         | 13,000                    | 5                 | 3                        | Curate          |
+| 6         | 27,500                    | 6                 | 3                        | Canon           |
+| 7         | 55,000                    | 7                 | 3                        | Lama            |
+| 8         | 110,000                   | 8                 | 4                        | Patriarch       |
+| 9         | 220,000                   | 9                 | 4                        | High Priest     |
+| 10        | 330,000                   | 9+1               | 4                        |                 |
+| 11        | 440,000                   | 9+2               | 4                        |                 |
+| 12        | 550,000                   | 9+3               | 5                        |                 |
+| 13        | 660,000                   | 9+4               | 5                        |                 |
+| 14        | 770,000                   | 9+5               | 5                        |                 |
+| 15        | 880,000                   | 9+6               | 5                        |                 |
+| 16        | 990,000                   | 9+7               | 6                        |                 |
+| 17        | 1,100,000                 | 9+8               | 6                        |                 |
+| 18        | 1,200,000                 | 9+9               | 6                        |                 |
+| 19        | 1,300,000                 | 9+10              | 6                        |                 |
+| 20        | 1,400,000                 | 9+11              | 7                        |                 |
 
 #### Calculating To Hit Modifier by Level
 
@@ -1276,22 +1939,22 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Druid Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Saving Throw** | **Weapon Proficiencies** | **Level Title**             |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------------------|
-| 1         | 0                         | 1                 | 15               | 2                        | Aspiran                     |
-| 2         | 2,000                     | 2                 | 14               | 2                        | Ovate                       |
-| 3         | 4,000                     | 3                 | 13               | 2                        | Initiate of the 1st Circle  |
-| 4         | 7,500                     | 4                 | 12               | 3                        | Initiate of the 2nd Circle  |
-| 5         | 12,500                    | 5                 | 11               | 3                        | Initiate of the 3rd Circle  |
-| 6         | 20,000                    | 6                 | 10               | 3                        | Initiate of the 4th Circle  |
-| 7         | 60,000                    | 7                 | 9                | 3                        | Initiate of the 5th Circle  |
-| 8         | 60,000                    | 8                 | 8                | 4                        | Initiate of the 6th Circle  |
-| 9         | 90,000                    | 9                 | 7                | 4                        | Initiate of the 7th Circle  |
-| 10        | 125,000                   | 9+1               | 6                | 4                        | Initiate of the 8th Circle  |
-| 11        | 200,000                   | 9+2               | 5                | 4                        | Initiate of the 9th Circle  |
-| 12        | 300,000                   | 9+3               | 4                | 5                        | Druid                       |
-| 13        | 750,000                   | 9+4               | 4                | 5                        | Great Druid                 |
-| 14        | 1,500,000                 | 9+5               | 4                | 5                        | Archdruid                   |
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Weapon Proficiencies** | **Level Title**            |
+|-----------|---------------------------|-------------------|--------------------------|----------------------------|
+| 1         | 0                         | 1                 | 2                        | Aspiran                    |
+| 2         | 2,000                     | 2                 | 2                        | Ovate                      |
+| 3         | 4,000                     | 3                 | 2                        | Initiate of the 1st Circle |
+| 4         | 7,500                     | 4                 | 3                        | Initiate of the 2nd Circle |
+| 5         | 12,500                    | 5                 | 3                        | Initiate of the 3rd Circle |
+| 6         | 20,000                    | 6                 | 3                        | Initiate of the 4th Circle |
+| 7         | 60,000                    | 7                 | 3                        | Initiate of the 5th Circle |
+| 8         | 60,000                    | 8                 | 4                        | Initiate of the 6th Circle |
+| 9         | 90,000                    | 9                 | 4                        | Initiate of the 7th Circle |
+| 10        | 125,000                   | 9+1               | 4                        | Initiate of the 8th Circle |
+| 11        | 200,000                   | 9+2               | 4                        | Initiate of the 9th Circle |
+| 12        | 300,000                   | 9+3               | 5                        | Druid                      |
+| 13        | 750,000                   | 9+4               | 5                        | Great Druid                |
+| 14        | 1,500,000                 | 9+5               | 5                        | Archdruid                  |
 
 **Reaching 12th Level and Above:**
 There can only be nine druids of 12th level. When a druid has enough experience to reach 12th level, they must challenge and defeat an existing 12lth level druid to advance.
@@ -1521,18 +2184,18 @@ Example: A character hits a lizard man (2+1 HD) with a natural 20. The lizard ma
 
 ### Martial Arts
 
-Martial Arts are separated into "styles" which gives the monk a pool of options. When creating your character you must choose one style that determine any future special maneuvers you get to learn. These are learned in place of weapon proficiencies.
+Martial Arts are separated into "styles" which gives the monk a pool of options. When creating your character you must choose one style that determine any future special maneuvers you get to learn. These can be learned in place of weapon proficiencies.
 
 At 1st level, a monk automatically starts with proficiency in one martial arts style and two special maneuvers from that style. All monks also gain the "Missile Deflection" maneuver, it’s not counted against style maneuvers. When in combat, a monk uses either their natural AC or the style’s AC, whichever is better.
 
-No more than two proficiency slots can be expended on a single martial arts style per per level. Special maneuvers must be learned in order of difficulty. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
+No more than two proficiency slots can be expended on a single martial arts style per level. Special maneuvers must be learned in order of difficulty inside of what is listed in the style maneuver list. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
 
 #### Martial Arts Styles
 
 | **Name**   | **Attacks** | **Damage** | **AC** | **Principal** | **Special Maneuvers**                                                                                                                                                                                                |
 | ---------- | ----------: | ---------: | -----: | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Tiger**  |         3/1 |        1–6 |     12 | Hand          | [Strike 1](#strike-1), [Strike 2](#strike-2), [Strike 3](#strike-3); [Kick 1](#kick-1); [Movement 1](#movement-1); [Mental 1](#mental-1)                                                                             |
-| **Snake**  |         2/1 |        1–6 |     14 | Hand          | [Lock 1](#lock-1), [Lock 2](#lock-2), [Lock 3](#lock-3); [Strike 1](#strike-1), [Strike 2](#strike-2); [Kick 2](#kick-2); [Movement 4](#movement-4); [Mental 5](#mental-5)                                           |
+| **Snake**  |         2/1 |        1–6 |     14 | Hand          | [Lock 1](#lock-1), [Lock 2](#lock-2), [Lock 3](#lock-3); [Strike 1](#strike-1), [Strike 2](#strike-2); [Kick 2](#kick-2); [Mental 5](#mental-5); [Push 3](#push-3)                                          |
 | **Eagle**  |         1/1 |        1–8 |     12 | Foot          | [Kick 1](#kick-1), [Kick 2](#kick-2), [Kick 3](#kick-3); [Strike 1](#strike-1); [Throw 4](#throw-4); [Movement 5](#movement-5)                                                                                       |
 | **Monkey** |         2/1 |        1–6 |     13 | Hand          | [Throw 1](#throw-1), [Throw 2](#throw-2), [Throw 3](#throw-3), [Throw 4](#throw-4); [Movement 1](#movement-1), [Movement 3](#movement-3); [Vital Area 1](#vital-1), [Vital Area 2](#vital-2); [Mental 1](#mental-1), [Mental 2](#mental-2), [Mental 3](#mental-3)    |
 
@@ -1560,7 +2223,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Save:** —
 
-- **Reinforce:** If the style’s principal body part is hands, each unarmed attack deals 1d10 damage. If not, each attack deals 1d10 per round and any others deal normal damage.
+- **Reinforce:** If the style’s principal body part is hands, each unarmed attack deals 1d10 damage. If not, one attack per round deals 1d10 and any others deal normal style damage.
 
 ### <a id="strike-2"></a>**Strike 2 — Crushing blow (Hard)**
 
@@ -1572,7 +2235,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Save:** —
 
-- **Objects:** Breaks 1/2" wood or 1/4" brittle stone per level (metal excluded). Requires a normal attack roll. The DM sets AC for stationary objects. Hardness, shape, and age may modify.
+- **Objects:** Breaks 1/2" wood or 1/4" brittle stone per level (metal excluded). Requires a normal attack roll. The referee sets AC for stationary objects. Hardness, shape, and age may modify.
 
 - **Living target:** Deals damage + the level of the monk.
 
@@ -1724,7 +2387,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 ### <a id="vital-3"></a>**Vital Area 3 — Paralyzing touch (Soft)**
 
-**Range:** Melee
+**Range:** Touch
 
 **Duration:** 1d6 turns
 
@@ -2326,10 +2989,7 @@ If the PC lacks the funds they only gain 1/2 the experience and the ability chec
 ## <span id=healing> Healing </span>
 
 A character regain 1 hp for each day of rest during downtime, up to and including 7 days. Any combat, spell using, 
-or similar activity does not constitute rest, so no hit points can be regained. However a character with a constitution penalty 
-must deduct the 7 day penalty score from his or her days of healing, i.e., a -1 for a character means that 6 hit points healing per 7 days is maximum, and the first day of rest will restore no hit points.
-
-After the first week of continuous rest, characters with a bonus for high constitution add the bonus score to the number of hit points they recover due to resting, i.e., the second set of seven days of rest will restore 8 (7 + 1) hit points to a character with a bonus to constitution. Regardless of the number of hit points a character has, 30 days of continuous rest will restore any character to full strength.
+or similar activity does not constitute rest, so no hit points can be regained. Regardless of the number of hit points a character has, 30 days of continuous rest will restore any character to full strength.
 
 Characters who rest during adventuring do not regain hp. Successfully getting a good nights rest remove all levels of exhaustion.
 
@@ -2447,7 +3107,7 @@ be a combination of nuts, berries, and possibly small game.
 
 If characters wish to hunt, they must dedicate a whole day to the task,
 during which they can't travel. Again, use the character with the
-highest foraging [<u>skill</u>](#skills). If successful, the DM will
+highest foraging [<u>skill</u>](#skills). If successful, the referee will
 roll an additional encounter from the Animal Subtable found in the
 Wilderness Wandering Monster Tables. This encounter is separate from any
 regular encounter rolls for the day. It's important to note that hunting
@@ -3260,11 +3920,16 @@ Roll four times on the table below.
 
 # <span id=sources> Sources </span>
 
+This document is fan made and written in my own words. Inspired by classic fantasy RPGs including AD&D, OSRIC, Old School Essentials, and Dolmenwood. All trademarks and product names are the property of their respective owners. All text and game mechanics in this work are designated as Open Game Content under the Open Game License v1.0a. No portion of this work is declared Product Identity.
+
 ### [<u>Swords & Wizardry</u>](https://www.drivethrurpg.com/product/438315/Swords--Wizardry-Complete-Rulebook-Revised?src=hottest_filtered&filters=0_0_45583_0_0)
 ### [<u>Advanced Dungeons & Dragons (AD&D)</u>](https://www.drivethrurpg.com/en/product/17004/dungeon-master-s-guide-1e?src=hottest_filtered)
-### [<u>Tap Untap Burn</u>](https://www.dmsguild.com/product/314196/Tap-Untap-Burn-5-Color-Mana-Spell-Point-Variant-Rules-Core-Mechanics?filters=0_0_0_0_45759_0_0_0)
 ### [<u>Lamentations of the Flame Princess</u>](https://www.lotfp.com/RPG/)
-### [<u>Silent Legions</u>](https://www.drivethrurpg.com/en/product/145769/silent-legions)
 ### [<u>OSRIC</u>](https://osricrpg.com/index.php)
-### [<u>Old School Essentials</u>](https://necroticgnome.com/)
+### [<u>Old School Essentials & Dolmenwood</u>](https://necroticgnome.com/)
+
+Section 15: COPYRIGHT NOTICE
+Open Game License v1.0a © 2000 Wizards of the Coast, Inc.
+Old-School Essentials System Reference Document © Necrotic Gnome. Open Game Content as designated on the OSE SRD OGL page.
+
 ### [<u>On Downtime and Demesnes</u>](https://agonarchartist.itch.io/on-downtime-and-demesnes)

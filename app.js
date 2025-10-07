@@ -66,6 +66,25 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+
+        title: 'Dolmenwood + Enchanter',
+        content: `I just recently got the physical books of the Dolmenwood core bundle and I can definitely say it's one of the most impressive TTRPG settings I've read. Not excusively because of the game content, but because of the layout, ease of use, and attention to detail.
+
+        Dolmenwood exists now as a region north of Draeneria and east of the elves. It's a location which holds more potent magic and overall strangeness, this new class basically reflects that. 
+
+        The enchanter is one of the classes from the book, rewritten in my own words. I think it's a quite interesting class, almost an "anti-cleric" spellsword.  If you decide to roll an enchanter up, it means that you hail from the fairy region around Dolmenwood.
+        
+        <b> Changes: </b>
+
+        - Added Dolmenwood as a region in the game setting.
+        - Added the Enchanter class.
+        - Changed a few monk descriptions for clarification.
+        
+        `,
+        date: "2025-10-07 16:05 CET" 
+    },
     
     { 
 
