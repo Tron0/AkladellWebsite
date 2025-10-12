@@ -1564,7 +1564,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Unclouded:** Inquisitors may only equip no more than three magic items.
 
-**Limited Possessions:** An Inquisitor may only keep wealth and possessions that can be kept on their person. Excess must be donated to worthy causes (not other PCs). This restriction is lifted when the character becomes a Paladin.
+**Limited Possessions:** An Inquisitor may only retain wealth and possessions that can be reasonably carried on their person. All other coin, assets, and valuables must be surrendered to a worthy legal cause, institution, or function, never to fellow adventurers. The value of all donated wealth is tracked. When the Inquisitor earns enough XP to reach the next level, they must pay the usual training cost. If past donations meet or exceed the cost, no additional donation is required. Otherwise, the Inquisitor must donate the remainder to be able to train. After training is done, remove any donations that were previously recorded.
 
 **Tithe:** In addition to not retaining wealth, Inquisitors also need to tithe 10% of their earnings immediately after shares are split.
 
@@ -1676,9 +1676,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Restrictions:
 
-**Limited Possessions:** A Ranger may only keep wealth and possessions that can be kept on their person. 
-Excess must be donated to worthy causes (not other PCs). This restriction is lifted when the
-character becomes a Ranger-Knight.
+**Limited Possessions:** A Ranger may only retain wealth and possessions that can be reasonably carried on their person. All other coin, assets, and valuables must be surrendered to a worthy legal cause, institution, or function, never to fellow adventurers. The value of all donated wealth is tracked. When the Ranger earns enough XP to reach the next level, they must pay the usual training cost. If past donations meet or exceed the cost, no additional donation is required. Otherwise, the Ranger must donate the remainder to be able to train. After training is done, remove any donations that were previously recorded. This restriction is lifted when the character becomes a Ranger-Knight.
 
 **Association with Other Rangers:** Until the character reaches
 the status of a Ranger-Knight, a Ranger may not operate in
@@ -2114,7 +2112,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Followers:** Until reaching the status of a Superior Master, the character may not hire or accept followers of any kind, not even lantern-bearers or servants.
 
-**Limited Possessions:** A Monk may not retain more than a small fraction of any treasure they recover: Only enough to cover their needs for food and clothing.
+**Limited Possessions:** A Monk may only retain wealth and possessions that can be reasonably carried on their person. All other coin, assets, and valuables must be surrendered their temple function, never to fellow adventurers. The value of all donated wealth is tracked. When the Monk earns enough XP to reach the next level, they must pay the usual training cost. If past donations meet or exceed the cost, no additional donation is required. Otherwise, the Monk must donate the remainder to be able to train. After training is done, remove any donations that were previously recorded.
 
 **No Magical Reliance:** Unless specifically noted, Monk's cannot wield or use magical items. For items that do not have this restriction, only two weapons and three other magical items can be used at any one time.
 

@@ -4,34 +4,24 @@
 
 # Races
 
-Races do not have ability score requirements. You can be a dwarf with 8
-constitution or a halfling with 18 strength. There are no class
-restrictions for specific races. As long as you fulfill the ability
-requirements for the class, any race can be any class.
-
 ## Human
+
+**Classes:** All
 
 **Size:** Medium
 
-**Languages:** Common
+**Languages:** Draenerian
 
 **Description:** Humans are the most diverse and adaptable of all the
 races, found in every corner of the world, but the majority live in the
 land of Draeneria. Humans have relatively short lifespans compared to
-other races. But the ability to adapt to any situation makes them an
-exceptional jack-of-all-trades.
+other races.
 
-**Decisiveness:** Humans have an innate ability to quickly assess and
-adapt to combat situations. Once per combat encounter, when the party
-rolls for group initiative, the human player can opt to reroll the
-initiative dice. The second roll must be used, regardless of whether it
-is higher or lower than the first. This is limited to once per party
-initiative.
+**Quick Learner:** +10% permanent experience bonus.
 
-**Leadership:** All of a human's henchmen and hirelings gain a +1 bonus
-to loyalty and morale.
+**Versatile:** Start with 1 extra weapon proficiency.
 
-**Ability Score Bonus:** +1 in any score.
+**Ability Score Bonus:** +1 in any ability score.
 
 ## Elf
 
@@ -41,10 +31,7 @@ to loyalty and morale.
 
 **Description:** In the realm of Fae'lor, the elves live by the snowy
 mountains and forests. Distinguished by their tall builds and pointed
-ears. With dark, tousled hair and piercing, sharp eyes, the elves exude
-a captivating aura of wisdom and resilience. Their skin, pale like
-winter's frost, hints at their affinity for the cold climates they call
-home.
+ears.
 
 **Keen Senses:** Elves have naturally sharp eyesight that allow them to
 detect secret doors and hidden parts of rooms in a 4-in-6 chance when
@@ -53,7 +40,9 @@ searching.
 **Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
 inflict.
 
-**Ability Score Bonus:** +1 Constitution or +1 Mind
+**Sleep and Charm resistance:** Elves have a 90% resistance to sleep and charm spells.
+
+**Ability Score Bonus:** +1 Wisdom, -1 Strength
 
 ## Dwarf
 
@@ -67,15 +56,12 @@ dwarves have built a society symbiotic with the living rock. Through
 generations of shared existence, they have cultivated a unique bond with
 the mountain stone. This mystical bond allows them to coax the mountain
 into shifting and changing, creating their intricate homes and defenses.
-
-Their tough, compact bodies are akin to boulders, with skin appearing as
-though dusted with crushed granite. Deep-set eyes flicker with the
-steady glow of precious gemstones, reflecting their hearty souls and
-unwavering determination. It is said to be a natural bond with the web
+ 
+They are said to have a natural bond with the web
 of chaos magic that allows them to meld rock.
 
 **Mountain's Child:** Born and raised in the heart of mountains, dwarves
-can navigate through caves and tunnels without losing their way**.**
+can navigate through caves and tunnels without losing their way.
 This includes moving at normal pace without getting lost and the ability
 to approximate their depth underground.
 
@@ -95,8 +81,7 @@ or scale of the build.
 
 **Description:** Scaled, tall but wingless creatures, the Draconians are
 an ancient race closely related to dragons. The inherited magical blood
-makes any draconian have the potential to be a powerful mage if they
-wish to make use of it.
+makes any draconian have the potential to be a powerful mage.
 
 **Magical Bloodline**: The magical dragon blood within Draconians grants
 them a unique spell resistance. Draconians gain a save bonus of +2 vs
@@ -107,7 +92,7 @@ them natural armor. They gain a +2 bonus to their armor class when not
 wearing any armor. If wearing armor, choose the highest number of the
 two as the AC.
 
-**Ability Score Bonus:** +1 Strength or +1 Mind
+**Ability Score Bonus:** +1 Intelligence, -1 Charisma
 
 ## Gnome
 
@@ -116,19 +101,17 @@ two as the AC.
 **Languages:** Common, Gnomish
 
 **Description:** Known for their brilliant minds and agile hands, Gnomes
-are tinkerers, jewelsmiths and craftsmen. With a small stature, they are
-often overlooked, but their keen wit and resourcefulness have earned
-them respect amongst the other races. Their skin varies from pale to
-earthy brown, and they have large round eyes and inquisitive
+are tinkerers, jewelsmiths and craftsmen. Their skin varies from pale to
+earthy brown and black, and they have large round eyes and inquisitive
 expressions.
 
 **Tinkering:** Gnomes are particularly good with machinery and traps.
-They have a 4-in-6 chance in tinker.
+They have a 4-in-6 chance to tinker.
 
 **Gnome Cunning:** Gnomes are resistant to certain types of magic. They
 save against illusions with a +2 bonus.
 
-**Ability Score Bonus:** +1 Dexterity or +1 Mind
+**Ability Score Bonus:** +1 Dexterity, -1 Strength
 
 ## Solarian
 
@@ -138,22 +121,19 @@ save against illusions with a +2 bonus.
 
 **Description:** The supposedly oldest race in Akladell. The Solarians
 are creatures with scorched features. Pointed ears, claws and horns.
-Standing on digitigrade legs, their exterior bodies are roughly the same
-size as humans. Some parts are made out of extruding sharp bone, almost
-like spikes.
+Their exterior bodies are roughly the same size as humans.
 
 They are said to be a descendant from the demons who made their way to
 the outside world from the abyss a long time ago.
 
 **Claws:** Solarians have naturally deadly claws. Instead of using the
-base of 1 damage when using an unarmed strike, Solarians deal 1d4
+base of 1 damage when using an unarmed strike, Solarians deal 1d3
 damage.
 
 **Fiery Resilience:** Solarians are resistant to fire due to their
 infernal heritage. They take half damage from fire-based attacks and can
 withstand temperatures that would harm others without penalty.
 
- 
 **Ability Score Bonus:** +1 Strength or +1 Charisma
 
 ## Halfling
@@ -191,11 +171,11 @@ to overcome their innate disarray, aligning with nobler causes.
 water, and shelter for only themselves on a roll of 3-6 on a d6.
 
 **Bargain Hunter:** Goblins have an uncanny knack for finding useful
-items in the least expected places. Once a day, when they have time to
-explore an area (1 hour), they can find small items or coins that others
+items in the least expected places. Once a day, when they have downtime to
+explore an area, they can find small items or coins that others
 might overlook depending on the area (subject to DM's discretion).
 
-**Ability Score Bonus:** +1 Dexterity
+**Ability Score Bonus:** +1 Dexterity, -1 Strength
 
 ## Radigen
 
@@ -223,7 +203,7 @@ ingesting it, possibly resulting in immediate death.
 developed a natural resistance to toxins and radiation. They save vs
 poison and venom with a +2 bonus.
 
-**Attribute Score Bonus:** +1 Constitution
+**Attribute Score Bonus:** +1 Constitution, -1 Charisma
 
 ## Kobold
 
@@ -240,13 +220,15 @@ and kin. They have dragon-like scales that usually range from a rusty
 brown color to dark green, and large, sensitive eyes that shine in the
 dark.
 
+**Pack Tactics:** Kobolds are at their best when they outnumber their
+enemies. When a Kobold is engaged in combat with more allies than
+enemies, they gain +1 to their attack rolls.
+
 **Trapsmith:** Kobolds are renowned for their ability to craft traps.
 They have a 4-in-6 chance to construct a simple trap or alarm system
 given appropriate materials and time.
 
-**Pack Tactics:** Kobolds are at their best when they outnumber their
-enemies. When a Kobold is engaged in combat with more allies than
-enemies, they gain +1 to their attack rolls.
+**Infravision:** Kobolds can see up to 60'
 
 **Ability Score Bonus:** +1 Dexterity
 
