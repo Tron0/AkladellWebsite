@@ -32,20 +32,20 @@
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          |                |                |                           |                |                       |               |       |                |
+| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
+| 1          |                |                |                           |                |                       |               | Leomund's Trap        |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          |                | Blink          |                           |                | Hold Person           |               | Phantasmal Force      |                |
-| 2          |                | Infravision    |                           |                |                       |               |                       |                |
-| 3          |                |                |                           |                |                       |               |                       |                |
-| 4          |                |                |                           |                |                       |               |                       |                |
-| 5          |                |                |                           |                |                       |               |                       |                |
-| 6          |                |                |                           |                |                       |               |                       |                |
+| **Number** | **Abjuration**                  | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**    | **Necromancy** |
+| ---------- | ------------------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | ------------------------ | -------------- |
+| 1          | Protection from Normal Missiles | Blink          |                           |                | Hold Person           |               | Invisibility, 10' Radius |                |
+| 2          |                                 | Infravision    |                           |                |                       |               | Phantasmal Force         |                |
+| 3          |                                 |                |                           |                |                       |               |                          |                |
+| 4          |                                 |                |                           |                |                       |               |                          |                |
+| 5          |                                 |                |                           |                |                       |               |                          |                |
+| 6          |                                 |                |                           |                |                       |               |                          |                |
 
 ## [4th Level Chaos Spells](#spells#chaos-level-4)
 
@@ -61,20 +61,21 @@
 ## [5th Level Chaos Spells](#spells#chaos-level-5)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          | Dismissal      |                |                           |                |                       |               |                       | Animate Dead   |
+| ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
+| 1          | Dismissal      | Passwall       |                           |                |                       |               |                       | Animate Dead   |
 
 ## [6th Level Chaos Spells](#spells#chaos-level-6)
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**          | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|----------------|---------------------------|----------------|-----------------------|------------------------|-----------------------|----------------|
-| 1          |                |                |                           | True Name      |                       | Bigby's Forceful Hand  |                       |                |
+| **Number** | **Abjuration**   | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**         | **Illusion/Phantasm** | **Necromancy** |
+| ---------- | ---------------- | -------------- | ------------------------- | -------------- | --------------------- | --------------------- | --------------------- | -------------- |
+| 1          | Guards and Wards |                |                           | True Name      |                       | Bigby's Forceful Hand |                       |                |
 
 ## [7th Level Chaos Spells](#spells#chaos-level-7)
 
-| **Number** | **Abjuration** | **Alteration**            | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**          | **Illusion/Phantasm** | **Necromancy** |
-|------------|----------------|---------------------------|---------------------------|----------------|-----------------------|------------------------|-----------------------|----------------|
-| 1          |                | Teleport Without Error    |                           |                |                       | Mordenkainen's Sword   |                       |                |
+| **Number** | **Abjuration** | **Alteration**         | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**        | **Illusion/Phantasm** | **Necromancy** |
+| ---------- | -------------- | ---------------------- | ------------------------- | -------------- | --------------------- | -------------------- | --------------------- | -------------- |
+| 1          |                | Duo-Dimension          |                           |                |                       | Mordenkainen's Sword |                       |                |
+| 2          |                | Teleport Without Error |                           |                |                       |                      |                       |                |
 
 ## [8th Level Chaos Spells](#spells#chaos-level-8)
 
@@ -105,7 +106,7 @@
 | **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
 | ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
 | 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
-| 2          | Protection From Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
+| 2          | Protection from Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
 | 3          |                      | Purify Food & Drink |                           | Read Magic     | Command               |               |                       |                   |
 | 4          |                      |  |                           |                | Courage               |               |                       |                   |
 | 5          |                      |                     |                           |                | Pass Without Trace    |               |                       |                   |
@@ -766,8 +767,6 @@ Empowers the caster to magically secure an entryway:
 
 **Casting Time:** Special
 
-**Components:** A pearl worth 100 gp
-
 Allows the caster to discern the nature of magical items:
 
 - **Preparation:** The 8 hours prior to casting must be dedicated to
@@ -778,6 +777,8 @@ Allows the caster to discern the nature of magical items:
 
 - **Handling:** Any effects from handling the items impacts the caster
   which may end the spell.
+
+- **Components:** A pearl worth 100 gp
 
 ### <span id="spells#chaos#level1#lastingbreath">Lasting Breath (Alteration)</span>
 
@@ -1111,6 +1112,28 @@ This spell lets the caster inscribe a personal mark:
 
 ## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
+### Leomund's Trap
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Casting Time:** 3 rounds
+
+**AoE:** Object touched
+
+Creates the illusion of a false trap on any small object.
+
+- **Mechanism:** Such as a lock, hinge, lid, door handle etc.
+
+- **Any detection:** Devices or characters positively regard the object as trapped if investigated.
+
+- **If sprung:** Nothing happens.
+
+- **Restrictions:** If another instance of this spell is cast within 50 feet of one that is active, the casting fails.
+
+- **Components:** A special dust worth 200 sp 
+
 ## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
 
 ### Blink (Alteration) - Chaos
@@ -1188,6 +1211,42 @@ Creates an illusion that appears real to those who perceive it:
 - **Limitations:** The illusion can include sound but not smell, texture, or temperature.
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
+
+### Invisibility, 10' Radius (Illusion) - Chaos
+
+**Range:** Touch
+
+**Duration:** 1 day
+
+**Casting Time:** 3 segments
+
+**AoE:** 10' radius of creature touched
+
+Confers invisibility upon all creatures within 10 feet of creature touched.
+
+- **Items:** Clothes worn, items carried and light sources are included, but any light emitted from within the area is still visible.
+
+- **Visibility:** Those affected by this spell cannot see others inside the area.
+
+- **Restrictions:** Creatures moving into the area after the spell is cast do not become invisible. Affected creatures other than the recipient that attack or casts spells become visible themselves. If the spell recipient attacks or cast another spell, the magic is broken.
+
+### Protection from Normal Missiles (Abjuration)
+
+**Range:** Touch
+
+**Duration:** 1 turn/level
+
+**Casting Time:** 3 segments
+
+**AoE:** 1 creature
+
+Bestows total invulnerability to normal hurled and thrown missiles.
+
+**Normal Missiles:** Arrows, javelins, small stones, and similar projectiles cause no damage to the protected creature.
+
+**Special Missiles:** Large or magical missiles have their damage reduced by 1 hit point per die.
+
+**Restrictions:** This spell does not convey any protection from magical spells such as fireballs, lightning bolts, or magic missiles.
 
 ## <span id="spells#chaos-level-4"> 4th Level Chaos Spells </span>
 
@@ -1341,7 +1400,7 @@ Causes corpses or skeletons to rise as undead skeletons or zombies.
 
 **Casting Time:** 1 round
 
-Attempts to send one extraplanar creature back to its home plane:
+Attempts to send one extraplanar creature back to its home plane.
 
 - **Resistance & save:** If the target is unwilling the creature makes a Save vs Spells. The caster's level is compared to the creature's level or Hit Dice. If the caster's level is higher, the difference is subtracted from the creature's die roll for its saving throw vs. spell. If the creature's level or Hit Dice is higher, the difference is added to the saving throw roll. 
 
@@ -1354,6 +1413,24 @@ Attempts to conjure a creature from another plane. The type of creature, and the
 - **Magic resistance:** Is checked only if the creature has no true name. The creature's saving throw is determined as in the dismissal spell. If the creature fails its save, it is immediately transported to the spellcaster's location. 
 
 - **Restrictions:** This does not guarantee that the creature will be friendly to the spellcaster, nor does the spell caster have any form of control over the creature.
+
+### Passwall (Abjuration) - Chaos
+
+**Duration:** 1 hour + 1 turn/level
+
+**Range:** 90'
+
+**Casting Time:** 5 segments
+
+**AoE:** 
+
+Conjures a magical passageway that the spellcaster and any other creatures may walk through. 
+
+- **Dimensions:**  The spell causes a 5 foot wide x 8 foot high x 10 foot deep opening.
+
+- **Continuous passage:** Multiple passages can be interconnect to create a deeper one.
+
+- **If dispelled:**  When the duration ends or the magic is dispelled by outside means, the passwall closes away from the dispelling caster, ejecting those in the passage.
 
 ## <span id="spells#chaos-level-6"> 6th Level Chaos Spells </span>
 
@@ -1379,6 +1456,32 @@ Creates a disembodied hand of force that places itself between the caster and on
 
 - **Control:** Caster may command the hand to retreat (e.g., to free a trapped foe) or dismiss it.
 
+### Guards and Wards (Divination) - Chaos
+
+**Range:** 400' x 400'
+
+**Duration:** 6 turns/level
+
+**Casting Time:** 3 turns
+ 
+Wards a one-story stronghold. The following take place in the warded area upon casting the spell:
+
+- All corridors become misty; visibility is reduced to 10 feet.
+- All doors are wizard locked.
+- Stairs are filled with webs from top to bottom. These act as the 2nd-level web spell, except that they regrow within one turn if destroyed.
+- Where there are choices in direction—such as a cross or side passage—a minor confusion-type spell functions so as to make it 50% probable that intruders believe they are going in the exact opposite direction.
+- The whole area radiates magic. The normal use of the detect magic spell becomes impossible for those of less than the caster's level and difficult for others.
+- One door per level of experience of the wizard is covered by an illusion to appear as if it were a plain wall.
+- The wizard can place one of the following additional magical effects:
+
+  - A. Dancing lights in four corridors.
+  - B. A magic mouth in two places.
+  - C. A stinking cloud in two places.
+  - D. A gust of wind in one corridor or room.
+  - E. A suggestion in one place.
+
+- **Restrictions:** Some spells does only function when the mage is totally familiar with the area of the spell's effect. Dispel magic can remove one effect, at random, per casting. A remove curse spell will not work.
+
 ### True Name (Divination) - Chaos
 
 **Range:** 90'
@@ -1397,6 +1500,26 @@ This spell lets the caster pry into the secret essence of a subject. When proper
 
 ## <span id="spells#chaos-level-7"> 7th Level Chaos Spells </span>
 
+### Duo-Dimension (Evocation) - Chaos
+
+**Range:** Caster
+
+**Duration:** 3 rounds + 1 round/level
+
+**Casting Time:** 7 segments
+
+This spell physically causes the caster to only exist in two dimensions. Only height and width, but no depth.
+
+- **Viewed from an angle:** Rendered invisible when turned sideways. This invisibility can be detected only by means of a true seeing spell or similar methods.
+
+- **Passthrough:** The caster can move in between the thinnest of spaces as long as there is enough height. Going through the space between a door and its frame is a simple task.
+
+- **Actions:** The caster can perform all actions normally, including spells.
+
+- **When visible:** The caster is subject to double the amount of damage when visible in the material plane. And because a part of the caster is in the astral plane, there is a risk of getting attacked and pull through completely. Such an attack inflicts only normal damage.
+
+- **Material component:** A custom flat ivory likeness of the spellcaster which must be of finest workmanship, gold filigreed, enameled and gem-studded at an average cost of 500 to 1,000 sp as well as a strip of parchment. As the spell is uttered, the parchment is given half a twist and joined at the ends. The figurine is then passed through the parchment loop, and both disappear forever.
+
 ### Mordenkainen’s Sword (Evocation) - Chaos
 
 **Range:** 90'
@@ -1413,7 +1536,7 @@ Conjures a shimmering, sword-like plane of force that the caster mentally wields
 
 - **End:** Persists until duration expires, if a dispel magic is used, or the caster dismisses it. 
 
-- **Material Component:** a miniature platinum sword with copper/zinc pommel worth 500 gp, which is consumed.
+- **Material Component:** a miniature platinum sword with copper/zinc pommel worth 500 sp, which is consumed.
 
 ### Teleport Without Error (Alteration) - Chaos
 
@@ -1480,7 +1603,7 @@ pertain to something within 120' of the triggering event. The caster must have a
 | 15 - 17 	   | 5th                               |
 | 18+          | 6th                               |
 
-The material components of this spell are (in addition to those of the companion spell) 100 gp worth of quicksilver.
+The material components of this spell are (in addition to those of the companion spell) 100 sp worth of quicksilver.
 
 ## <span id="spells#illusion-level-1"> 1st Level Illusion Spells </span>
 
@@ -1573,7 +1696,7 @@ The color of the orb determines its effects, as outlined below:
 
 - **9th level - Black:** The target is killed (save vs. death magic to avoid, if successful becomes paralyzed instead for 1d4+1 rounds).
 
-**Material Component:** A gem of the appropriate color or any diamond worth at least 50 gp is required to cast this spell.
+**Material Component:** A gem of the appropriate color or any diamond worth at least 50 sp is required to cast this spell.
 
 ### Color Spray (Alteration) - Illusionist
 
@@ -1709,7 +1832,7 @@ When cast, this spell creates a quasi-real suit of plate mail that provides the 
 
 - **Bonus to Saves:** The phantom armor grants a +1 bonus to saving throws against attacks that would normally be mitigated by magical armor.
 
-**Material Component:** A small plate of mithral, worth 10 gp, is required to cast this spell. The mithral plate disappears when the spell is cast.
+**Material Component:** A small plate of mithral, worth 10 sp, is required to cast this spell. The mithral plate disappears when the spell is cast.
 
 ### Read Magic (Divination) - Illusionist
 
