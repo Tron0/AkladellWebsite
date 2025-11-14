@@ -33,12 +33,6 @@ function loadHomePage()
     mainContent.innerHTML = '<h1>Home Page</h1>';
 }
 
-document.getElementById('discordlink').addEventListener('click', function(event)
-{
-    event.preventDefault()
-    window.open('https://discord.gg/dhqJpXt42a', '_blank')
-});
-
 function loadAboutPage() {
     var mainContent = document.getElementById('content');
     mainContent.className = ''; // Clear any previous page classes (optional)
