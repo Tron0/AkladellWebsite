@@ -2289,11 +2289,13 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 **AoE:** 10' cube
 
-**Effect Upon Objects:** The caster can reduce the weight of inanimate items within the area of effect by a total amount equal to 10 + 1 per caster level in slots. This reduction can be distributed among the targeted items as the caster chooses.
+**Effect Upon Objects:** The caster reduces the weight of inanimate items within the area of effect by a total amount equal to 10 + 1 per caster level in slots. This reduction can be distributed among the targeted items as the caster chooses.
 
 - **Armor:** Can remove weight of armor, but does not make it easier to move in. For example, creatures wearing plate still moves slowly.
 
-- **Targeting Restrictions:** Only works on inanimate objects and not creatures or corpses.
+- **Collections of Small Items:** Such as coins, sand, or other granular materials are not considered a single object, even if stored in a container. Their total weight cannot be reduced below their natural minimum of 1 slot per 100 coins.
+
+- **Restrictions:** Only works on inanimate objects and not creatures or corpses. No individual object may be reduced below 1 slot.
 
 <!-- ### Know Alignment (Divination) - Law
 
