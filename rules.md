@@ -4,39 +4,35 @@
 
 - Note your character race as Human. You know the language of Draeneria and your size is Medium.
 
-**(2) Determine your character's [<u>age</u>](#age)**
+**(2) Determine [<u>ability scores</u>](#ability-scores)**
+
+- Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma. You may swap any two ability scores with each other once.
+
+**(3) Determine your character's [<u>age</u>](#age)**
 
 - Roll starting age and for any additional years based on class. Apply age modifiers.
 
-**(3) Determine [<u>ability scores</u>](#ability-scores)**
-
-- Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma.
-
-**(4) Swap one pair of ability scores**
-
-- You can swap any two ability scores with each other once.
-
-**(5) Select a [<u>class</u>](#classes)**
+**(4) Select a [<u>class</u>](#classes)**
 
 - Pick a class and make sure you meet the minimum ability score requirements.
 
-**(6) Roll starting hit points**
+**(5) Roll starting hit points**
 
 - Roll your starting hit die to determine starting HP. Modify depending on the [<u>constitution</u>](#constitution) modifier. You may reroll results of 1 once.
 
-**(7) Determine equipment**
+**(6) Determine equipment**
 
 - Roll on the general [<u>starting equipment</u>](#starting-equipment) table and the class equipment table that is found on the class page. You are also granted the noted items above the general starting equipment table.
 
-**(8) Determine Background**
+**(7) Determine Background**
 
 - Roll a [<u>background</u>](#backgrounds) that provides a relevant skill.
 
-**(9) Note [<u>spells</u>](#spells) (if applicable)**
+**(8) Note [<u>spells</u>](#spells) (if applicable)**
 
 - If a spellcaster, choose 10 spells (if [<u>chaos mage</u>](#chaos-mage), also pick two [<u>cantrips</u>](#cantrips) at level 1 that you learn automatically) or 5 (if [<u>law mage</u>](#law-mage)). Roll the percentile dice to determine which ones you know, remove the rest.
 
-**(10) Determine miscellaneous information**
+**(9) Determine miscellaneous information**
 
 - Armor class 
 - [<u>Movement</u>](#movement)
@@ -44,7 +40,7 @@
 - [<u>Psionics</u>](#psionics)
 - [<u>Weapon Proficiencies</u>](#weapon-proficiencies) (Initial number on class page)
 
-**(11) Roll for [<u>special abilities</u>](#special-abilities)**
+**(10) Roll for [<u>special abilities</u>](#special-abilities)**
 
 - After all the previous steps are completed, roll on the [<u>special abilities</u>](#special-abilities) table and let the referee roll to determine the specific sort of effect it has on the character.
 
@@ -93,25 +89,6 @@ The effects of aging below indicate the total amount of ability score changes gi
 | Kobold    | 6 - 30          | 31 - 60    | 61 - 85         | 86 - 100  | 101 - 125     |
 | Avian     | 20 - 35         | 36 - 50    | 51 - 75         | 76 - 100  | 101 - 130     |
 | Orc       | 15 - 20         | 21 - 35    | 36 - 55         | 56 - 80   | 81 - 100      |
-
-## Starting Age
-
-When determining the starting age of your character, first choose the life stage most appropriate for your character's backstory and personality. Refer to the base age range specified for the race in the table above. From this base, an optional rule is to add additional years based on the chosen class, reflecting the time the character has spent training or studying in that particular vocation. To determine these additional years, roll the dice corresponding to the character's class.
-
-| **Race**  | **Fighter** | **Specialist** | **Law Mage** | **Chaos Mage** |
-|-----------|-------------|----------------|--------------|----------------|
-| Human     | 1d4         | 1d4            | 3d6          | 2d10           |
-| Elf       | 3d20        | 2d10           | 4d20         | 1d100 + 3d10   |
-| Dwarf     | 2d8         | 2d6            | 2d20 + 1d10  | 3d20           |
-| Draconian | 3d6         | 4d4            | 3d20         | 4d12           |
-| Gnome     | 6d6         | 4d8            | 1d100        | 1d100 + 2d12   |
-| Solarian  | 2d10        | 3d6            | 5d8          | 2d20 + 2d10    |
-| Halfling  | 2d4 + 1d6   | 2d6            | 2d20         | 4d8            |
-| Goblin    | 1d4         | 1d4            | 2d10         | 1d20           |
-| Radigen   | 1d6         | 1d4            | 3d6          | 1d20           |
-| Kobold    | 2d8         | 3d4            | 2d20 + 2d6   | 3d12 + 2d8     |
-| Avian     | 3d4 + 1d6   | 1d12 + 1d6     | 3d10         | 1d20 + 2d8     |
-| Orc       | 1d4         | 1d4            | 3d6          | 2d8            |
 
 ## Starting Height & Weight
 
@@ -2188,7 +2165,7 @@ At 1st level, a monk automatically starts with proficiency in one martial arts s
 
 No more than two proficiency slots can be expended on a single martial arts style per level. Special maneuvers must be learned in order of difficulty inside of what is listed in the style maneuver list. All difficulty 1 maneuvers must be learned before the character can progress to difficulty 2 maneuvers, and so forth. 
 
-#### Martial Arts Styles
+#### <span id=martial-arts-styles> Martial Arts Styles </span>
 
 | **Name**   | **Attacks** | **Damage** | **AC** | **Principal** | **Special Maneuvers**                                                                                                                                                                                                |
 | ---------- | ----------: | ---------: | -----: | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
