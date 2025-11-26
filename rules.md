@@ -3723,7 +3723,7 @@ a certain number of rounds.
 
 ## <span id=starting-equipment> Starting Equipment </span>
 
-General items: Common clothes. A backpack containing 2 preserved rations, a waterskin, and a tinder box/flint & steel. A belt pouch containing 3d6 silver pieces.
+General items: Common clothes. A backpack containing 2 iron rations, a waterskin, and a tinder box/flint & steel. A belt pouch containing 3d6 silver pieces.
 
 Roll four times on the table below.
 
@@ -3745,7 +3745,7 @@ Roll four times on the table below.
 
 | **Item**                  | **Cost**       | **Description**                                              | **Weight**                     | **Stack** |
 |-----------------------|------------|-----------------------------------------------------------|----------------------------|-----------|
-| Backpack | 5 SP | A sturdy canvas sack with straps, designed to comfortably carry up to 8 slots of gear.  | —  | — |
+|Backpack | 5 SP | A sturdy canvas sack with straps, designed to comfortably carry up to 8 slots of gear.  | —  | — |
 |Bandage  | 2 SP | A length of clean cloth used to wrap wounds and halt bleeding. | 1 | 3 |      
 |Barrel  | 5 SP | Can be filled with water or any other type of liquid. Up to 20 units of the chosen kind. | 2 (+2 per 10 units) | — | 
 |Bedroll  | 2 SP | A rolled-up mattress and blanket, providing basic comfort. | 1 | — |   
@@ -3754,10 +3754,11 @@ Roll four times on the table below.
 |Belt pouch  | 1 SP | A compact pouch that can hold up to 100 coins, or quick draw slots for items such as potions. | 1 | — |   
 |Block & tackle  | 5 SP | A combination of a rope threaded between two pulleys. Used to lift heavy weight when fastened to a ceiling. | 1 | — |   
 |Bottle of wine, glass  | 2 SP | This standard wine bottle, crafted from clear glass. Holds a generous 25 ounces of wine, or 750ml. | 1 | — | 
-|Candle  | 1 SP | Can be used to light up a 5' radius. A normal candle will burn about 3 turns per inch of height. | 1 | 10 |  
+|Candle  | 1 CP | Can be used to light up a 5' radius. A normal candle will burn about 3 turns per inch of height. | 1 | 10 |  
 |Case (map or scroll)  | 1 SP | A tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells. | 1 | — |  
 |Chalk piece  | 2 SP | A single piece of chalk. Useful for "blazing a trail" through a dungeon or ruin. | 1 | 10 |  
-|Cloak  | 2 SP | A traveler's cloak made out of silk. Often in black, gray or brown. | 1 | — |
+|Cloak  | 2 CP | A traveler's cloak made out of silk. Often in black, gray or brown. | 1 | — |
+|Crowbar  | 1 SP | A sturdy iron bar used for prying, lifting, or forcing open doors and containers. Grants leverage for breaking or bending objects. | 1 | — |
 |Cooking Pots  | 3 SP | Small pots for cooking food. | 1 | — |
 |Firewood  | 1 SP | Dry wood in log or branch form. | 1 | 3 |  
 |Flint & steel | 1 SP | Flint and fire steel, used to light small fires. Quick to light a torch - or anything else with abundant, exposed fuel. Lighting any other fire takes 1 minute. | 1 | — |  
@@ -3773,7 +3774,8 @@ Roll four times on the table below.
 |Lantern, hooded  | 8 SP | A hooded lantern allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. | 1 | — |  
 |Lockpick  | 1 SP | Lockpicks, used alongside Thieves' Tools, are essential for unlocking locks or similar mechanisms. If an attempt to pick a lock fails, the lockpick will snap on a roll of 1-6. | 1 | 10 |  
 |Oil, flask  | 1 SP | An oil flask can be hurled as a fiery grenade. When ignited, a direct hit inflicts 1d8 fire damage, and an additional 1d3 splash damage is inflicted to anything within 3 feet. | 1 | — | 
-|Ration  | 2 SP | A packaged meal providing the necessary sustenance for an adventurer for one day. | 1 | 10 | 
+|Ration, standard  | 1 SP | A packaged meal providing the necessary sustenance for an adventurer for one day. Spoils after one week. | 1 | 10 |
+|Ration, iron  | 2 SP | A hardier travel ration of dried meats and fruits. Designed for long journeys, it is preserved far longer than standard fare while still feeding an adventurer for a full day. | 1 | 10 |
 |Rope, hemp (50 feet) | 2 SP | Standard hemp rope. | 2 | — |  
 |Rope, silk (50 feet) | 10 SP | Silk rope, lighter than hemp but just as sturdy. | 1 | — |   
 |Piton  | 1 SP | Similar to an iron spike, but with an eye which can be used to loop a rope. Can also be hammered into stone. | 1 | 10 |  
@@ -3792,7 +3794,7 @@ Roll four times on the table below.
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
-| Unarmored         | 10               | —        | Flesh and bone.                                                                   | —          | —        |
+| Unarmored         | 10               | —        | Flesh and bone.                                                                  | —          | —        |
 | Leather or Padded | 11              | 10 SP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
 | Hide              | 12              | 20 SP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
 | Studded Leather   | 12              | 30 SP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
@@ -3802,7 +3804,9 @@ Roll four times on the table below.
 | Scale Mail        | 15              | 80 SP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
 | Splint Mail       | 15              | 100 SP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
 | Banded Mail       | 16              | 150 SP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
-| Plate Mail        | 16              | 300 SP   | Large metal plates covering vital areas, with chain or leather in between.        | 3          | Heavy    |
+| Plate Mail        | 16              | 300 SP   | Large metal plates covering vital areas, with a softer material in between.       | 3          | Heavy    |
+| Field Plate Armor | 17              | 2000 SP   | A suit of articulated steel plates. **Needs to be form fitted to the wearer**.                    | 4          | Heavy    |
+| Full Plate Armor  | 18              | 4000 SP   | A fully articulated, expertly crafted suit of metal plates. **Needs to be tailored to the wearer’s exact measurements.**        | 4          | Heavy    |
 
 ### Shields
 
