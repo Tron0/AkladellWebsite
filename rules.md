@@ -3799,99 +3799,107 @@ Roll four times on the table below.
 
 **Axes**
 
-| **Weapon**| **Size** | **Damage** | **Cost** |**Description**| **Weight** | **Type** | **Speed Factor** |
-|-----------|----------|------------|----------|---------------|------------|----------|------------------|
-| Hand Axe  | S        | 1d6        | 4 SP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.| 1 | Slashing | 4 |
-| Battle Axe | M | 1d8        | 7 SP     | A large, double-edged axe crafted for combat. | 1 | Slashing | 7 |
-| Great Axe | L  | 1d10       | 14 SP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy** | 2 | Slashing | 9 |
-| Pickaxe (Military Pick)  | S        | 1d6        | 6 SP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor. | 1 | Piercing | 5 |
-| Mattock (Footman's Pick) | M        | 1d8        | 8 SP     | A versatile battlefield tool with a blade on one side and a pick on the other. Can be utilized for basic excavation tasks.                                       | 1          | Piercing | 7 |
+| **Weapon**               | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                                 | **Weight** | **Type** | **Speed Factor** |
+|--------------------------|----------|-------------------|-----------------|----------|---------------------------------------------------------------------------------------------------------------------------------|------------|----------|------------------|
+| Hand Axe                 | S        | 1d6               | 1d4             | 4 SP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances.                          | 1          | Slashing | 4                |
+| Battle Axe               | M        | 1d8               | 1d8             | 7 SP     | A large, double-edged axe crafted for combat.                                                                                   | 1          | Slashing | 7                |
+| Great Axe                | L        | 1d10              | 2d6             | 14 SP    | A massive two-handed axe boasting a broad blade that can bring devastating blows. Can cleave through minor obstacles. **Heavy** | 2          | Slashing | 9                |
+| Pickaxe (Military Pick)  | S        | 1d4+1             | 1d4             | 6 SP     | A more dangerous version of the tool, its pointed end optimized for penetrating armor.                                          | 1          | Piercing | 5                |
+| Mattock (Footman's Pick) | M        | 1d6+1             | 2d4             | 8 SP     | A versatile battlefield tool with a blade on one side and a pick on the other. Can be utilized for basic excavation tasks.      | 1          | Piercing | 7                |
 
 **Daggers**
 
-| **Weapon**  | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Stack** | **Type** | **Speed Factor** |
-|-------------|----------|------------|----------|-----------------|------------|---------------|----------|------------------|
-| Dagger           | S        | 1d4        | 4 SP     | A lightweight, pointed blade. Easily concealed for stealthy strikes. | 1          | 3            | Piercing | 2 |
-| Defending Dagger | S        | 1d4        | 7 SP     | A dagger specially designed with a broader guard.                    | 1          | 3            | Piercing | 2 |
-| Silver Dagger    | S        | 1d4        | 14 SP    | A dagger with a silver blade.                                        | 1          | 3            | Piercing | 2 |
+| **Weapon**       | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                      | **Weight** | **Stack** | **Type** | **Speed Factor** |
+| ---------------- | -------- | ----------------- | --------------- | -------- | -------------------------------------------------------------------- | ---------- | --------- | -------- | ---------------- |
+| Dagger           | S        | 1d4               | 1d3             | 4 SP     | A lightweight, pointed blade. Easily concealed for stealthy strikes. | 1          | 3         | Piercing | 2                |
+| Defending Dagger | S        | 1d4               | 1d3             | 7 SP     | A dagger specially designed with a broader guard.                    | 1          | 3         | Piercing | 2                |
+| Silver Dagger    | S        | 1d4               | 1d3             | 14 SP    | A dagger with a silver blade.                                        | 1          | 3         | Piercing | 2                |
+
+
 
 **Swords**
 
-| **Weapon** | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** | **Speed Factor** |
-|------------|----------|------------|----------|-----------------|------------|----------|------------------|
-| Shortsword / Cutlass | S | 1d6   | 6 SP     | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.   | 1 | Slashing | 3 |
-| Longsword / Scimitar | M | 1d8   | 10 SP    | A balanced, medium sized and versatile weapon. | 1 | Slashing | 5 |
-| Claymore             | L | 1d10  | 25 SP    | A large sword, designed for powerful swings and longer reach. Its size demands respect. | 2  | Slashing | 8 |
-| Zweihänder           | L | 1d12  | 50 SP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield  effectively. **Heavy** | 2 | Slashing | 10 |
+| **Weapon**           | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                                                  | **Weight** | **Type** | **Speed Factor** |
+|----------------------|----------|-------------------|-----------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------|----------|------------------|
+| Shortsword / Cutlass | S        | 1d6               | 1d8             | 6 SP     | A versatile one-handed blade, with the shortsword being straight-edged and the cutlass boasting a slight curve.                                  | 1          | Slashing | 3                |
+| Longsword / Scimitar | M        | 1d8               | 1d12            | 10 SP    | A balanced, medium sized and versatile weapon.                                                                                                   | 1          | Slashing | 5                |
+| Claymore             | L        | 2d4               | 2d8             | 25 SP    | A large sword, designed for powerful swings and longer reach. Its size demands respect.                                                          | 2          | Slashing | 8                |
+| Zweihänder           | L        | 1d10              | 3d6             | 50 SP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield effectively. **Heavy** | 2          | Slashing | 10               |
+
+
 
 **Hammers & Maces**
 
-| **Weapon**   | **Size** | **Damage** | **Cost** | **Description**                                                                                                                                                                      | **Weight** | **Type** | **Speed Factor** |
-|-------------------|----------|------------|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------------|------------------|
-| Warhammer         | S        | 1d6        | 4 SP     | A balanced one-handed weapon, featuring a hammerhead on one side and often a spike on the other, ideal for crushing armor.                                                           | 1          | Bludgeoning | 4 
-| Light Mace        | S        | 1d6        | 4 SP     | Shorter and more maneuverable than a normal mace, designed for swift strikes.                                                                                                        | 1          | Bludgeoning | 4
-| Mace              | M        | 1d8        | 6 SP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                                                         | 1          | Bludgeoning | 6 
-| Morningstar       | M        | 1d8        | 6 SP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                                                 | 1          | Piercing | 7 
-| Maul / Great Mace | L        | 1d10       | 10 SP    | Requiring two hands, the massive mace head can easily shatter shields and armor. **Heavy**                                                                                                     | 2          | Bludgeoning | 9 |
-| Greathammer       | L        | 1d12       | 35 SP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning | 11 |
+| **Weapon**        | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                                                     | **Weight** | **Type**    | **Speed Factor** |
+|-------------------|----------|-------------------|-----------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|------------------|
+| Warhammer         | S        | 1d6+1             | 1d6             | 4 SP     | A balanced one-handed weapon, featuring a hammerhead on one side and often a spike on the other, ideal for crushing armor.                          | 1          | Bludgeoning | 4                |
+| Light Mace        | S        | 1d4+1             | 1d4+1           | 4 SP     | Shorter and more maneuverable than a normal mace, designed for swift strikes.                                                                       | 1          | Bludgeoning | 4                |
+| Mace              | M        | 1d6+1             | 1d6             | 6 SP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                        | 1          | Bludgeoning | 6                |
+| Morningstar       | M        | 2d4               | 1d6+1           | 6 SP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                | 1          | Piercing    | 7                |
+| Maul / Great Mace | L        | 1d10              | 1d8             | 10 SP    | Requiring two hands, the massive mace head can easily shatter shields and armor. **Heavy**                                                          | 2          | Bludgeoning | 9                |
+| Greathammer       | L        | 1d12              | 1d8+1           | 35 SP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning | 11               |
 
 **Spears & Polearms**
 
-| **Weapon**   | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** | **Speed Factor** |
-|--------------|----------|------------|----------|-----------------|------------|----------|------------------|
-| Spear, One-handed | M        | 1d6        | 5 SP     | Balanced for close combat, its sharp point excels for multiple quick stabs.                                                                              | 1          | Piercing        | 3 |
-| Spear, Two-handed | L        | 1d8        | 5 SP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach**                                    | 2          | Piercing        | 6 |
-| Lance             | L        | 1d8        | 10 SP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.                                                  | 2          | Piercing        | 7 |
-| Quarterstaff      | M        | 1d6        | 2 SP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                                                                            | 1          | Bludgeoning     | 4 |
-| Pole Arm          | L        | 1d10       | 9 SP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2          | Piercing/Slashing | 9 |
+| **Weapon**        | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                           | **Weight** | **Type**            | **Speed Factor** |
+|-------------------|----------|-------------------|-----------------|----------|-----------------------------------------------------------------------------------------------------------|------------|---------------------|------------------|
+| Halberd           | L        | 1d10              | 2d6             | 9 SP     | A heavy polearm topped with an axe blade, spike, and hook, ideal for pulling riders from saddles and smashing through armor. **Reach** | 2 | Piercing/Slashing | 9 |
+| Lance             | L        | 2d4+1             | 3d6             | 10 SP    | Crafted for mounted combat, its length and stout tip make it a knight's favored weapon during a charge.   | 2          | Piercing            | 7                |
+| Pole Arm          | L        | 1d6+1             | 1d10            | 9 SP     | A combination of blade, hook, and thrusting point on a long shaft, it's the Swiss army knife of medieval weapons, allowing for varied combat techniques. **Reach** | 2 | Piercing/Slashing | 9 |
+| Quarterstaff      | M        | 1d6               | 1d6             | 2 SP     | A long, sturdy wooden staff. Double-ended use provides versatility in combat.                             | 1          | Bludgeoning         | 4                |
+| Spear, One-handed | M        | 1d6               | 1d8             | 5 SP     | Balanced for close combat, its sharp point excels for multiple quick stabs.                               | 1          | Piercing            | 3                |
+| Spear, Thrown     | M        | 1d6               | 1d4             | 5 SP     | A light spear balanced for throwing, effective at range but still usable in close combat.                 | 1          | Piercing            | 4                |
+| Spear, Two-handed | L        | 1d8               | 1d10            | 5 SP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach** | 2 | Piercing | 6 |
+| Trident           | M        | 1d6+1             | 3d4             | 4 SP     | A three-tined spear often used by fishermen or gladiators, excellent for catching and driving back foes. | 1          | Piercing            | 6                |
+
 
 **Flails**
 
-| **Weapon** | **Size** | **Damage** | **Cost** | **Description**| **Weight** | **Type** | **Speed Factor** |
-|------------|----------|------------|----------|----------------|------------|----------|------------------|
-| Flail           | M        | 1d8        | 8 SP     | Comprising a handle and a metal ball connected by a chain, its movement can catch foes off guard. **Ignores shields**                                                   | 1          | Bludgeoning     | 7 |
-| Great Flail     | L        | 1d10       | 12 SP    | A larger, two-handed version of the flail, its swings are more powerful and its impact more devastating. **Heavy**, **Ignores shields** | 2          | Bludgeoning     | 9 |
+| **Weapon**   | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                 | **Weight** | **Type**      | **Speed Factor** |
+|--------------|----------|-------------------|-----------------|----------|---------------------------------------------------------------------------------|------------|---------------|------------------|
+| Flail        | M        | 1d4+1             | 1d4+1           | 8 SP     | Comprising a handle and a metal ball connected by a chain, its movement can catch foes off guard. **Ignores shields** | 1          | Bludgeoning   | 7                |
+| Great Flail  | L        | 1d6+1             | 2d4             | 12 SP    | A larger, two-handed version of the flail, its swings are more powerful and its impact more devastating. **Heavy**, **Ignores shields** | 2 | Bludgeoning | 9 |
 
 **Other Melee Weapons**
 
-| **Weapon**           | **Size** | **Damage** | **Cost** | **Description** | **Weight** | **Type** | **Speed Factor** |
-|---------------------------|----------|------------|----------|------------|------------|----------|------------------|
-| Whip                      | M        | 1d3/1d6    | 3 SP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes. **Reach**             | 1          | Slashing | 7 |
-| Club / Walking Staff      | M        | 1d4        | 2 CP     | Simple yet effective, this wooden weapon can deliver solid blows in combat.                                                                | 1          | Bludgeoning | 2 |
-| Silver Walking Staff      | M        | 1d4        | 4 SP     | A walking staff adorned with silver details.                                                                                               | 1          | Bludgeoning | 2 |
-| Greatclub                 | L        | 1d8        | 3 SP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy** | 2          | Bludgeoning | 8 |
-| Hook                      | S        | 1d4        | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful.             | 1          | Piercing | 3 |
-| Sickle                    | S        | 1d6        | 2 SP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.                             | 1          | Slashing | 3 |
-| Scythe                    | L        | 1d8        | 5 SP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent.                   | 2          | Slashing |
-| Crowbar                   | M        | 1d6        | 2 SP     | This metal tool is indispensable for prying open objects and can serve as a makeshift weapon.                                              | 1          | Bludgeoning | 5 |
-| Shovel                    | M        | 1d6        | 2 SP     | Primarily a digging tool, its broad blade can also be employed as a weapon.                                                                | 1          | Bludgeoning | 6 |
-| Pitchfork                 | M        | 1d6        | 1 SP     | With its long handle and sharp tines, it's designed for farming but can become a formidable weapon in desperate hands.                     | 1          | Piercing | 4 |
-| Frying Pan                | S        | 1d4        | 8 SP     | Cast iron and heavy, it's meant for cooking but can deliver a surprisingly effective smack.                                                | 1          | Bludgeoning | 4 |
-| Torch                     | S        | 1d3        | 2 SP     | While its primary purpose is to illuminate, its burning end can be a deterrent to foes.                                                    | 1          | - | 3 |
-| Caestus / Spiked Gauntlet | S        | 1d3        | 1 SP     | A leather glove reinforced with metal and sometimes spikes, it transforms a fist into a weapon of its own. **Wielding two gauntlets grants 2d3 damage instead** | 1          | Bludgeoning | 2 |
+| **Weapon**                | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                         | **Weight** | **Type**      | **Speed Factor** |
+|---------------------------|----------|-------------------|-----------------|----------|-------------------------------------------------------------------------------------------------------------------------|------------|---------------|------------------|
+| Whip                      | M        | 1d3/1d6           | 1d2/1d4         | 3 SP     | Made of braided leather or cord, its long reach can disarm or inflict stinging pain. Does more damage against unarmored foes. **Reach** | 1          | Slashing      | 7                |
+| Club / Walking Staff      | M        | 1d4               | 1d3             | 2 CP     | Simple yet effective, this wooden weapon can deliver solid blows in combat.                                             | 1          | Bludgeoning   | 2                |
+| Silver Walking Staff      | M        | 1d4               | 1d3             | 4 SP     | A walking staff adorned with silver details.                                                                            | 1          | Bludgeoning   | 2                |
+| Greatclub                 | L        | 1d8               | 1d6             | 3 SP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy**               | 2          | Bludgeoning   | 8                |
+| Hook                      | S        | 1d4               | 1d3             | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful. | 1    | Piercing      | 3                |
+| Sickle                    | S        | 1d6               | 1d4             | 2 SP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.          | 1          | Slashing      | 3                |
+| Scythe                    | L        | 1d8               | 1d10            | 5 SP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent. | 2         | Slashing      |                  |
+| Crowbar                   | M        | 1d6               | 1d4             | 2 SP     | This metal tool is indispensable for prying open objects and can serve as a makeshift weapon.                           | 1          | Bludgeoning   | 5                |
+| Shovel                    | M        | 1d6               | 1d4             | 2 SP     | Primarily a digging tool, its broad blade can also be employed as a weapon.                                             | 1          | Bludgeoning   | 6                |
+| Pitchfork                 | M        | 1d6               | 1d8             | 1 SP     | With its long handle and sharp tines, it's designed for farming but can become a formidable weapon in desperate hands.  | 1          | Piercing      | 4                |
+| Frying Pan                | S        | 1d4               | 1d3             | 8 SP     | Cast iron and heavy, it's meant for cooking but can deliver a surprisingly effective smack.                             | 1          | Bludgeoning   | 4                |
+| Torch                     | S        | 1d3               | 1d2             | 2 SP     | While its primary purpose is to illuminate, its burning end can be a deterrent to foes.                                 | 1          | -             | 3                |
+| Caestus / Spiked Gauntlet | S        | 1d3/2d3           | 1d2/2d2         | 1 SP     | A leather glove reinforced with metal and sometimes spikes, it transforms a fist into a weapon of its own. **Wielding two gauntlets grants damage bonus** | 1 | Bludgeoning | 2 |
 
 ## <span id=ranged-weapons> Ranged Weapons </span>
 
-| **Weapon Type**            | **Size** | **Damage** | **Cost** | **Description**| **Weight** | **Stack** | **RoF** | **Range** | **Type** |
-|----------------------------|----------|------------|----------|------------|---------------|----------|----------------|----------|----------|
-| Shortbow |  | M | 25 SP    | A small bow made of wood or horn used by those requiring short range archery attacks.                                                                          | 1          | —             | 2        | 50, 100, 150ft|
-| Shortbow Arrow             |          | 1d6        | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights.                                                           | 1          | 20            |          |                | Piercing
-| Silver Shortbow Arrow      |          | 1d6        | 2 SP     | Shortbow arrows specially crafted with silver arrowheads.                                                                                                      | 1          | 20            |          |                | Piercing
-| Longbow                    | L        |            | 60 SP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Heavy**.                                    | 1          | —             | 1        | 70, 140, 210ft|
-| Longbow Arrow              |          | 1d8        | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range.                                                     | 1          | 20            |          |                | Piercing
-| Silver Longbow Arrow       |          | 1d8        | 4 SP     | Longbow arrows with silver arrowheads .                                                                                                                        | 1          | 20            |          |                | Piercing
-| Light Crossbow             | M        |            | 30 SP    | A medieval ranged weapon using a horizontal bow mounted on a stock for spanning that fires short bolts.                                                        | 1          | —             | 1        | 60, 120, 180ft|
-| Light Crossbow Bolt        |          | 1d6        | 2 SP     | Short bolts for light crossbows.                                                                                                                               | 1          | 20            |          |                | Piercing
-| Silver Light Crossbow Bolt |          | 1d6        | 5 SP     | Light crossbow bolts crafted with silvered heads.                                                                                                              | 1          | 20            |          |                | Piercing
-| Heavy Crossbow             | L        |            | 50 SP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy**                                     | 2          | —             | 1/2      | 80, 160, 240ft|
-| Heavy Crossbow Bolt        |          | 1d10       | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                                                                                 | 1          | 10            |          |                | Piercing
-| Silver Heavy Crossbow Bolt |          | 1d10       | 10 SP    | Heavy crossbow bolts with heads of pure silver.                                                                                                                | 1          | 10            |          |                | Piercing
-| Hand Crossbow              | S        |            | 150 SP   | A small crossbow held in one hand, fires short bolts.                                                                                                          | 1          | —             | 1        | 20, 40, 60ft  |
-| Hand Crossbow Bolt         |          | 1d3        | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                                                                                        | 1          | 20            |          |                | Piercing
-| Silver Hand Crossbow Bolt  |          | 1d3        | 5 SP     | Small hand crossbow bolts with silver heads.                                                                                                                   | 1          | 20            |          |                | Piercing
-| Dart                       | S        | 1d3        | 2 SP     | A small and lightweight dart with a leather grip | 1 | 10 | 3 | 10, 20 , 30 | Piercing |                                 
-| Hand Axe                   | S        | 1d6        | 4 SP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances. | 1 | — | 1 | 10, 20 , 30 | Slashing |                                                                   | 1          | 3            | 3        | 10, 20, 40ft   | Piercing
-| Spear, Thrown              | M        | 1d6        | 5 SP     | Lightweight and aerodynamic, this spear is crafted for distance and can simply be hurled at enemies. | 1 | 3 | 1 | 20, 40, 60, | Piercing |
+| **Weapon Type**            | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                 | **Weight** | **Stack** | **RoF** | **Range**        | **Type**   |
+|----------------------------|----------|-------------------|-----------------|----------|-------------------------------------------------------------------------------------------------|------------|-----------|--------|------------------|------------|
+| Shortbow                   | M        | —                 | —               | 25 SP    | A small bow made of wood or horn used by those requiring short range archery attacks.          | 1          | —         | 2      | 50, 100, 150 ft  | —          |
+| Shortbow Arrow             | —        | 1d6               | 1d6             | 1 SP     | Arrows with metal points designed as ammunition for shortbows, optimizing balance for short flights. | 1      | 20        | —      | —                | Piercing   |
+| Silver Shortbow Arrow      | —        | 1d6               | 1d6             | 2 SP     | Shortbow arrows specially crafted with silver arrowheads.                                      | 1          | 20        | —      | —                | Piercing   |
+| Longbow                    | L        | —                 | —               | 60 SP    | A tall wooden longbow requiring significant strength that launches arrows at high speeds for long range attacks. **Heavy** | 1  | —         | 1      | 70, 140, 210 ft  | —          |
+| Longbow Arrow              | —        | 1d6               | 1d6             | 2 SP     | Long wooden shafts fletched with feathers serving as ammunition for longbows, providing accuracy at range. | 1 | 20        | —      | —                | Piercing   |
+| Silver Longbow Arrow       | —        | 1d6               | 1d6             | 4 SP     | Longbow arrows with silver arrowheads.                                                        | 1          | 20        | —      | —                | Piercing   |
+| Light Crossbow             | M        | —                 | —               | 30 SP    | A medieval ranged weapon using a horizontal bow mounted on a stock that fires short bolts.     | 1          | —         | 1      | 60, 120, 180 ft  | —          |
+| Light Crossbow Bolt        | —        | 1d4+1             | 1d4+1           | 2 SP     | Short bolts for light crossbows.                                                              | 1          | 20        | —      | —                | Piercing   |
+| Silver Light Crossbow Bolt | —        | 1d4+1             | 1d4+1           | 5 SP     | Light crossbow bolts crafted with silvered heads.                                             | 1          | 20        | —      | —                | Piercing   |
+| Heavy Crossbow             | L        | —                 | —               | 50 SP    | A lumbering but forceful ranged weapon requiring strength and a loading tool, firing heavy bolts at high impact. **Heavy** | 2 | —         | 1/2    | 80, 160, 240 ft  | —          |
+| Heavy Crossbow Bolt        | —        | 1d6+1             | 1d6+1           | 4 SP     | Thick bolts made as ammunition for heavy crossbows, delivering forceful blows.                | 1          | 10        | —      | —                | Piercing   |
+| Silver Heavy Crossbow Bolt | —        | 1d6+1             | 1d6+1           | 10 SP    | Heavy crossbow bolts with heads of pure silver.                                               | 1          | 10        | —      | —                | Piercing   |
+| Hand Crossbow              | S        | —                 | —               | 150 SP   | A small crossbow held in one hand, fires short bolts.                                         | 1          | —         | 1      | 20, 40, 60 ft    | —          |
+| Hand Crossbow Bolt         | —        | 1d3               | 1d2             | 2 SP     | Diminutive bolts used as ammunition for hand crossbows.                                       | 1          | 20        | —      | —                | Piercing   |
+| Silver Hand Crossbow Bolt  | —        | 1d3               | 1d2             | 5 SP     | Small hand crossbow bolts with silver heads.                                                  | 1          | 20        | —      | —                | Piercing   |
+| Dart                       | S        | 1d3               | 1d2             | 2 SP     | A small and lightweight dart with a leather grip.                                             | 1          | 10        | 3      | 10, 20, 30 ft    | Piercing   |
+| Hand Axe (thrown)          | S        | 1d6               | 1d4             | 4 SP     | A single-bladed axe designed around its balanced weight, making it ideal to be thrown short distances. | 1 | —         | 1      | 10, 20, 40 ft    | Slashing   |
+| Spear, Thrown              | M        | 1d6               | 1d4             | 5 SP     | Lightweight and aerodynamic, this spear is crafted for distance and can be hurled at enemies. | 1          | 3         | 1      | 20, 40, 60 ft    | Piercing   |
 
 # <span id=sources> Sources </span>
 

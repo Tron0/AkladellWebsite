@@ -63,6 +63,20 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Weapon Damage vs Large Creatures',
+        content: `Listed in the AD&D 1e PHB is weapon damage vs s/m (small/medium) and vs l (large). Opted not to use it until now but it might add some fun variation.
+        
+        <b> Changes: </b>
+
+        - Changed some weapon damage in order to line up closer with the PHB.
+        - Added weapon damage vs large creatures.
+
+        `,
+        date: "2025-11-27 15:15 CET" 
+    },
+
+    { 
+
         title: 'Dolmenwood + Enchanter',
         content: `I just recently got the physical books of the Dolmenwood core bundle and I can definitely say it's one of the most impressive TTRPG settings I've read. Not excusively because of the game content, but because of the layout, ease of use, and attention to detail.
 
