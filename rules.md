@@ -1364,7 +1364,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Talents
 
-**Cleave:** When a Fighter successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Fighter each round.
+**Fighting the Unskilled:** A fighter gains one melee attack per level when battling creatures with less than 1 full Hit Die. Each attack must be directed at a different eligible target. If fewer qualifying enemies are within reach than the fighter’s total number of attacks, the excess attacks are lost.
 
 **Multiple Attacks (5th):** At 5th level, a Fighter may attack twice per round instead of once.
 
@@ -1445,7 +1445,7 @@ with only a 1-in-6 chance under normal circumstances.
 This amount is decreased by 1 if the chance of surprise is higher. 
 For example: A 3-in-6 chance of surprised is decreased to a 2-in-6.
 
-**Cleave:** When a Barbarian successfully slays an enemy inside melee range, they can make an additional attack against another enemy who they are within melee of. This can be done once for each level of the Barbarian each round.
+**Fighting the Unskilled:** A fighter gains one melee attack per level when battling creatures with less than 1 full Hit Die. Each attack must be directed at a different eligible target. If fewer qualifying enemies are within reach than the fighter’s total number of attacks, the excess attacks are lost.
 
 **Hear Sound:** A Barbarian can hear well when concentrating; this
 mainly includes listening at doors, but can also be used to hear un-
@@ -3836,12 +3836,12 @@ Roll four times on the table below.
 
 | **Weapon**        | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                                                     | **Weight** | **Type**    | **Speed Factor** |
 |-------------------|----------|-------------------|-----------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|------------------|
-| Warhammer         | S        | 1d6+1             | 1d6             | 4 SP     | A balanced one-handed weapon, featuring a hammerhead on one side and often a spike on the other, ideal for crushing armor.                          | 1          | Bludgeoning | 4                |
+| Warhammer         | S        | 1d6+1             | 1d6             | 2 SP     | A balanced one-handed weapon, featuring a hammerhead on one side and often a spike on the other, ideal for crushing armor.                          | 1          | Bludgeoning | 4                |
 | Light Mace        | S        | 1d4+1             | 1d4+1           | 4 SP     | Shorter and more maneuverable than a normal mace, designed for swift strikes.                                                                       | 1          | Bludgeoning | 4                |
 | Mace              | M        | 1d6+1             | 1d6             | 6 SP     | A sturdy, blunt weapon with a flanged or rounded head, designed to deliver concussive blows.                                                        | 1          | Bludgeoning | 6                |
-| Morningstar       | M        | 2d4               | 1d6+1           | 6 SP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                | 1          | Piercing    | 7                |
+| Morningstar       | M        | 2d4               | 1d6+1           | 8 SP     | A mace augmented with spikes, combining blunt force with piercing capabilities for versatile damage.                                                | 1          | Piercing    | 7                |
 | Maul / Great Mace | L        | 1d10              | 1d8             | 10 SP    | Requiring two hands, the massive mace head can easily shatter shields and armor. **Heavy**                                                          | 2          | Bludgeoning | 9                |
-| Greathammer       | L        | 1d12              | 1d8+1           | 35 SP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning | 11               |
+| Greathammer       | L        | 1d12              | 1d8+1           | 20 SP    | This two-handed weapon combines a lengthy grip with a daunting, oversized hammerhead which can easily destroy wooden barricades or doors. **Heavy** | 2          | Bludgeoning | 11               |
 
 **Spears & Polearms**
 
@@ -3874,7 +3874,7 @@ Roll four times on the table below.
 | Greatclub                 | L        | 1d8               | 1d6             | 3 SP     | An oversized, heavy wooden weapon, it demands strength to wield but promises a crushing impact. **Heavy**               | 2          | Bludgeoning   | 8                |
 | Hook                      | S        | 1d4               | 1d3             | 6 SP     | Curved and sharp, this tool can be wielded offensively to snag and pull foes, or defensively to parry and control if skillful. | 1    | Piercing      | 3                |
 | Sickle                    | S        | 1d6               | 1d4             | 2 SP     | A curved blade attached to a short handle, its original purpose was harvesting but can be deadly if sharpened.          | 1          | Slashing      | 3                |
-| Scythe                    | L        | 1d8               | 1d10            | 5 SP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent. | 2         | Slashing      |                  |
+| Scythe                    | L        | 1d8               | 1d10            | 5 SP     | A long wooden shaft with a curved blade at one end, it reaps grain as easily as it can enemies when wielded with intent. | 2         | Slashing      | 9                 |
 | Crowbar                   | M        | 1d6               | 1d4             | 2 SP     | This metal tool is indispensable for prying open objects and can serve as a makeshift weapon.                           | 1          | Bludgeoning   | 5                |
 | Shovel                    | M        | 1d6               | 1d4             | 2 SP     | Primarily a digging tool, its broad blade can also be employed as a weapon.                                             | 1          | Bludgeoning   | 6                |
 | Pitchfork                 | M        | 1d6               | 1d8             | 1 SP     | With its long handle and sharp tines, it's designed for farming but can become a formidable weapon in desperate hands.  | 1          | Piercing      | 4                |
