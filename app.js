@@ -68,7 +68,7 @@ function loadUpdatePost()
         
         <b> Changes: </b>
 
-        - Changed specialist went from d4 HD to d6.
+        - Changed specialist HD from d4 to d6.
         - Added Storage containers.
         - Added beasts of burden, including horses.
         - Added water vessels
