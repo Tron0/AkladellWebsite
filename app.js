@@ -63,6 +63,22 @@ function loadUpdatePost()
 
     { 
 
+        title: 'D6 Specialists',
+        content: `Specialists now have a d6 hit die. Different types of storage containers are also added under general items.
+        
+        <b> Changes: </b>
+
+        - Changed specialist went from d4 HD to d6.
+        - Added Storage containers.
+        - Added beasts of burden, including horses.
+        - Added water vessels
+
+        `,
+        date: "2025-12-16 16:14 CET" 
+    },
+
+    { 
+
         title: 'Weapon Damage vs Large Creatures',
         content: `Listed in the AD&D 1e PHB is weapon damage vs s/m (small/medium) and vs l (large). Opted not to use it until now but it might add some fun variation.
         

@@ -2754,7 +2754,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 **Prime Attribute: Dexterity,** 16+ Dexterity (+10% experience bonus).
 
-**Hit Dice: 1d4/level** (Gains 1 hp/level after 10th level).
+**Hit Dice: 1d6/level** (Gains 1 hp/level after 10th level).
 
 **Armor/Shield Permitted:** Light armor, no shield.
 
@@ -2777,7 +2777,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Specialist Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d4)** | **Skill Points** | **Weapon Proficiencies** | **Level Title** |
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Skill Points** | **Weapon Proficiencies** | **Level Title** |
 |-----------|---------------------------|-------------------|------------------|--------------------------|-----------------|
 | 1         | 0                         | 1                 | 4                | 2                        | Apprentice      |
 | 2         | 1,250                     | 2                 | 6                | 2                        | Footpad         |
@@ -2854,7 +2854,7 @@ understanding of how it works.
 
 **Sleight of Hand:** Picking the pockets of an unaware person, hiding a
 small object from a search, readying a weapon without any observers
-noticing, swappingout an object on a weight-sensitive plate with a
+noticing, swapping out an object on a weight-sensitive plate with a
 similarly-weighted bag of sand, these and more are examples of Sleight
 of Hand.
 
@@ -2880,7 +2880,7 @@ would be considered Tinkering.
 
 #### Disciplines
 
-(Below are examples, either pick one or build your own with the four skill points given at level 1)
+Below are examples, either pick one or build your own with the four skill points given at level 1.
 
 | **Result (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
 |---------------------|----------------|------------------|--------------|-----------------|------------|---------------------|------------------|-------------|------------|
@@ -3765,7 +3765,86 @@ Roll four times on the table below.
 |Tent, small (one man)  | 5 SP | A compact and portable shelter, this small tent is designed to comfortably house a single individual. Made from durable canvas, its beige coloration blends naturally with most terrains. The tent's design is suited for travelers who prioritize mobility and speed of setup. | 1 | — |  
 |Thieves' tools  | 20 SP | Required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools. | 1 | — |  
 |Torch  | 2 SP | Sheds light over a 30' radius, with dim light extending about 20' further, and burns for six turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight. | 1 | 3 |  
-|Waterskin  | 1 SP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | — |  
+|Waterskin  | 1 SP | A container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight. | +1 when filled | — |
+
+## <span id=storage> Storage </span>
+
+### Chests
+
+| **Type**        | **Weight (slots)** | **Capacity** | **Price** |
+| --------------- | ------------------ | ------------ | --------- |
+| Small Chest     | 2                  |       10      | 4 sp      |
+| Small Strongbox | 3                  |       10      | 50 sp     |
+| Medium Chest    | 4                  |       15      | 10 sp     |
+| Large Chest     | 8                  |       20      | 20 sp     |
+
+### Food & Liquid Storage
+
+| **Type**      | **Weight (slots)** | **Capacity** | **Price** |
+| ------------- | ------------------ | ------------ | --------- |
+| Keg           | 1                  | 3            | 2 sp      |
+| Quarterbarrel | 1                  | 5            | 4 sp      |
+| Cask          | 2                  | 10           | 8 sp      |
+| Barrel        | 4                  | 15           | 1 sp      |
+| Hogshead      | 5                  | 20           | 2 sp      |
+| Butt          | 10                 | 40           | 3 sp      |
+| Tun           | 20                 | 80           | 5 sp      |
+
+#### Land Transportation
+
+| **Type** | **Capacity** | **Price** |
+| -------- | ------------ | --------- |
+| Cart     | 20           | 50 sp     |
+| Wagon    | 72           | 200 sp    |
+
+## <span id=beasts-of-burden> Beasts of Burden </span>
+
+| **Animal**     | **Max Slots** | **Cost** | **Movement Rate** | **Miles per Day** |
+| :------------- | :------------------- | :------: | :---------------: | :---------------: |
+| Camel          | 30                   |  100 sp  |     150’ (50’)    |         30        |
+| Horse (draft)  | 24                   |   40 sp  |     90’ (30’)     |         18        |
+| Horse (riding) | 6 (rider + small bags)               |   75 sp  |     240’ (80’)    |         48        |
+| Horse (war)    | 8                    |  250 sp  |     120’ (40’)    |         24        |
+| Mule           | 18                   |   30 sp  |     120’ (40’)    |         12        |
+
+#### Movement
+
+| **Mount**    | **Smooth Terrain** | **Hills or Rough** | **Mountain** | **Forest** | **Swamp/Marsh** |
+| ------------ | ------------------ | ------------------ | ------------ | ---------- | --------------- |
+| Cart         | 12                 | 6                  | 2            | 6          | 1               |
+| Wagon        | 12                 | 6                  | 1            | 3          | 0               |
+| Riding Horse | 48                 | 24                 | 0-3          | 12         | 3               |
+| Mule         | 12                 | 12                 | 6            | 12         | 6               |
+
+## <span id=water-vessels> Water Vessels </span>
+
+| **Vessel**              |  **Cost** | **Cargo Capacity (Coins)** | **Cargo Capacity (Slots)** | **Usage**                 | **Length** | **Beam** | **Draft** |
+| :---------------------- | :-------: | :------------------------: | :------------------------: | :------------------------ | :--------: | :------: | :-------: |
+| Lifeboat                |  1,000 sp |           15,000           |             150            | Any                       |     20’    |   4’–5’  |   1’–2’   |
+| Longship                | 15,000 sp |           40,000           |             400            | Any                       |   60’–80’  |  10’–15’ |   2’–3’   |
+| Sailing ship (large)    | 20,000 sp |           300,000          |            3,000           | Coastal waters, open seas |  100’–150’ |  25’–30’ |  10’–12’  |
+| Sailing ship (small)    |  5,000 sp |           100,000          |            1,000           | Coastal waters, open seas |   60’–80’  |  20’–30’ |   5’–8’   |
+| Troop transport (large) | 26,600 sp |           300,000          |            3,000           | Coastal waters, open seas |  100’–150’ |  25’–30’ |  10’–12’  |
+| Troop transport (small) |  6,600 sp |           100,000          |            1,000           | Coastal waters, open seas |   60’–80’  |  20’–30’ |   5’–8’   |
+| Warship (large)         | 26,600 sp |           300,000          |            3,000           | Coastal waters, open seas |  100’–150’ |  25’–30’ |  10’–12’  |
+| Warship (small)         |  6,600 sp |           100,000          |            1,000           | Coastal waters, open seas |   60’–80’  |  20’–30’ |   5’–8’   |
+
+#### Vessel Movement and Crew
+
+| **Vessel**           | **Requires Captain?** | **Req. Crew**  | **Miles/Day** | **Movement Rate** |
+| :------------------- | :-------------------: | :-------:  | :-------: | :-----------: |
+| Lifeboat             |        No             |     1**    |    18     |   90’ (30’)   |
+| Longship             |        Yes            |     75*    |    90     |  450’ (150’)  |
+| Sailing ship (large) |        Yes            |     20     |    72     |  360’ (120’)  |
+| Sailing ship (small) |        Yes            |     10     |    90     |  450’ (150’)  |
+| Troop trans. (large) |        Yes            |     20     |    72     |  360’ (120’)  |
+| Troop trans. (small) |        Yes            |     10     |    90     |  450’ (150’)  |
+| Warship (large)      |        Yes            |     20     |    72     |  360’ (120’)  |
+| Warship (small)      |        Yes            |     10     |    90     |  450’ (150’)  |
+
+\* Crew act as rowers, sailors, and fighters
+
+** May be piloted by unskilled characters
 
 ## <span id=armor> Armor </span>
 
