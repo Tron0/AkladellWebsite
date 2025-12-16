@@ -63,7 +63,7 @@ function loadUpdatePost()
 
     { 
 
-        title: 'D6 Specialists',
+        title: 'D6 Specialists + Storage',
         content: `Specialists now have a d6 hit die. Different types of storage containers are also added under general items.
         
         <b> Changes: </b>
