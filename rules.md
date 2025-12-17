@@ -2982,15 +2982,17 @@ If the entire party (i.e. everyone who was on the adventure) spends a week after
 
 ## Rumors
 
-Spend 1d4×10 sp and make a reaction roll, modified by [<u>charisma</u>](#charisma). This takes 1 full day per attempt. 
+Spend 1d4×10 sp and make a reaction roll, modified by the [<u>reaction modifier</u>](#charisma). This takes 1 full day per attempt. 
 
-| **Result (2d6)**  | **Effect** |
-|------------|--------------------|
-| 2          | Failure, lose another 1d6×10 sp tracking a lead |
-| 3 - 5      | Spend another 1d4×10 sp to hear one rumor       | 
-| 6 - 8      | Hear one rumor                                  | 
-| 7 - 11     | Pay another 2d10 sp to hear an extra rumor      | 
-| 12+        | Hear two rumors                                 | 
+| **1d100** | **Result**|
+| --------- | ----------------------------------------------- |
+| 01–05     | Failure, lose another 1d6×10 sp tracking a lead |
+| 06–30     | Spend another 1d4×10 sp to hear one rumor       |
+| 31–70     | Hear one rumor                                  |
+| 71–95     | Pay another 2d10 sp to hear an extra rumor      |
+| 96–00     | Hear two rumors                                 |
+
+
 
 Rumors have to be designed around the local area and events.
 
