@@ -436,3 +436,24 @@ Restrictions regarding armor still apply to the character. Whereas attacks, weap
 
 Player characters pay an amount of gold per adventure equal to 1% of their total XP. 
 So for example, a 2nd level fighter that has garnered a total of 3000 XP pays 30 gold per month for the cost of adventure spending.
+
+## The Five Colors Magic Paradigm
+
+The standard schools of magic are replaced by five colors, inspired by
+Magic: The Gathering's color system. Each color represents specific
+magic themes and effects (referred to as aspects):
+
+**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
+Suppress *(Peace, law, structure, selflessness, equality)*
+
+**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
+Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
+
+**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
+self-interest, death, sacrifice, uninhibitedness)*
+
+**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
+*(Freedom, emotion, action, impulse, destruction, change)*
+
+**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
+wildlife, connection, spirituality, tradition)*

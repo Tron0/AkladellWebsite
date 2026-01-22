@@ -140,12 +140,10 @@ character.
 | 71 - 90            | No skill of measurable worth           | 
 | 90 - 100           | Roll twice, ignoring this result after | 
 
-# <span id=multiclassing> Multiclassing </span>
+# <span id=multi-classing> Multi-Classing </span>
 
-## Choosing Multiple Classes
-
-A character may be of up to three classes,
-which are selected at character creation.
+A demi-human character may be of up to three classes.
+These are selected during character creation.
 
 ## Level and Experience Points
 
@@ -168,7 +166,7 @@ experience level per class. When the
 character has gained enough XP in one of
 their classes, that class increases in level.
 
-A multiclassed character is limited to a maximum amount of levels. 
+A multi-classed character is limited to a maximum amount of levels. 
 A character with two classes are limited to a maximum level of 11 in each and a character with three 
 classes are limited to 9.
 
@@ -195,7 +193,7 @@ The character uses the best saving throw
 value in each category and the best
 hit bonus and damage bonus from all of their classes.
 
-## Class Abilities
+## Class Talents
 
 ### Allowed Armor
 The character may use the best armor
@@ -208,16 +206,166 @@ options allowed to any of their classes.
 ### Spell Casting
 The character may use the magical abilities of each class without restriction.
 
-### Stealth Skills
+### Stealth
 
-Class abilities such as Stealth or Sleight of Hand may only be used when
+Class talents such as Stealth or Sleight of Hand may only be used when
 wearing armor that is allowed to the class that grants the ability.
 
-## <span id=special-abilities> Special Abilities </span>
+# <span id=dual-classing> Dual-Classing </span>
+
+A human character may have two classes by
+dual-classing and the second class is
+chosen later in play and not during character
+creation.
+
+## Ability Score Requirements
+
+To dual-class, the character must have at
+least 15 in the Prime Requisite(s) of the
+class they are changing from, and at
+least 17 in the Prime Requisite(s) of the
+class they are changing to.
+
+If either class has multiple Prime
+Requisites, the character must meet the
+requirement for all of them.
+
+## Level and Experience Points
+
+The character has a separately tracked
+count of experience points per class, but
+only one class earns XP at a time.
+
+While advancing in the new class, all XP
+earned is added only to the new class’ XP
+count. The old class’ XP count does not
+increase.
+
+### Prime Requisite XP Adjustments
+
+The character’s prime requisite XP
+adjustment is calculated separately for
+each class, based on the prime
+requisite(s) of that class. The prime
+requisite adjustment only applies to XP
+added to the currently advancing class.
+
+### Leveling
+
+The character has a separately tracked
+experience level per class, but is only
+considered to be “advancing” in one class
+at a time.
+
+When the character dual-classes, they
+become 1st level in the new class.
+
+Until the character’s new class level
+becomes higher than the level they had
+in the old class, the character is treated as
+a character of the new class for purposes
+of leveling, XP, and class progression.
+
+## Hit Points
+
+When the character dual-classes, they keep
+the hit points they already have.
+
+After dual-classing, the character does not
+gain any additional hit points upon gaining
+levels in the new class until their new
+class level becomes higher than the
+level they had in the old class.
+
+Once the new class level is higher than the
+old class level, the character gains hit
+points normally when gaining levels in the
+new class.
+
+## Saving Throws and To-Hit Bonus
+
+While the character’s new class level is not
+higher than the old class level, the
+character uses the saving throws and
+to-hit bonus of the new class.
+
+Once the character’s new class level is
+higher than the old class level, the
+character uses the best saving throw value
+in each category and the best hit bonus
+and damage bonus from either of their
+classes.
+
+## Class Talents
+
+### Using Old Class Talents
+
+Until the character’s new class level is
+higher than the old class level, the
+character normally does not use the old
+class’ talents.
+
+The character may choose to use an old
+class talent, but if they do, they forfeit all
+XP for that sessions adventure.
+
+Once the character’s new class level is
+higher than the old class level, the
+character may use the talents of both
+classes without penalty.
+
+### Allowed Armor
+
+The character follows the armor
+restrictions of the class whose talents
+they are using.
+
+- While advancing in the new class and before
+  exceeding the old class level, the
+  character is limited to armor allowed by
+  the new class.
+
+- Once the new class level is higher than
+  the old class level, the character may use
+  the best armor options allowed to either
+  class.
+
+### Allowed Weapons
+
+The character may use any weapons
+allowed by either class.
+
+### Spell Casting
+
+Normal spell restrictions still apply, such as:
+
+- Chaos mage and illusionist spells cannot be
+  cast while wearing armor.
+
+- Druid spells cannot be cast while wearing
+  armor a druid cannot use.
+
+### Stealth
+
+Physical specialist talents may only be used when
+wearing armor allowed to a thief.
+
+Monks cannot use their class maneuvers while
+wearing armor. The exception is specialist
+talents, which follow the thief armor
+restrictions above.
+
+## <span id=subclasses> Subclasses </span>
+
+Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
+
+The only restriction this has on character creation is that you cannot [<u>multi-class</u>](#multi-classing) subclasses with each other, or combine a subclass with a main class.
+
+# <span id=boons-&-banes> Boons & Banes </span>
 
 *Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
 
-Special Abilities are more like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your referee. 
+Boons and banes are like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your referee. 
 
 | **Type** | **Class** | 
 |------|-------| 
@@ -235,12 +383,6 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 | 3 - 6 |   1   |     1 |
 | 7     |   2   |     1 |
 | 8     |   1   |     0 |
-
-## <span id=subclasses> Subclasses </span>
-
-Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
-
-The only restriction this has on character creation is that you cannot [<u>multiclass</u>](#multiclassing) subclasses with each other, or combine a subclass with a main class.
 
 # <span id=ability-scores> Ability Scores </span>
 
@@ -422,8 +564,6 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16        | 1,350,000                 | 11+5              | 4                        |                 |
 | 17        | 1,500,000                 | 11+6              | 4                        |                 |
 | 18        | 1,650,000                 | 11+7              | 4                        |                 |
-| 19        | 1,800,000                 | 11+8              | 4                        |                 |
-| 20        | 1,950,000                 | 11+9              | 4                        |                 |
 | 19        | 1,800,000                 | 11+8              | 4                        |                 |
 | 20        | 1,950,000                 | 11+9              | 4                        |                 |
 
@@ -730,7 +870,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Magic Items:** The enchanter can use magical items that are exclusive to magic-users. Magical scrolls, wands, staves etc.
 
-**Resistance to Law:** Enchanters wield an inherently chaotic form of magic. If an enchanter is the subject of a lawful or holy spell, there is a 2/6 chance it has no effect. By the same logic, it's not possible for an enchanter to multiclass as any other lawful class or cast lawful magic.
+**Resistance to Law:** Enchanters wield an inherently chaotic form of magic. If an enchanter is the subject of a lawful or holy spell, there is a 2/6 chance it has no effect. By the same logic, it's not possible for an enchanter to multi-class as any other lawful class or cast lawful magic.
 
 ### Glamour Table
 
@@ -1422,7 +1562,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 |**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
-| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+| +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +18     |
 
 #### Saving Throws
 
@@ -2057,23 +2197,23 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 4         | 10,000                    | 5                 | 4                        | Disciple                 |
 | 5         | 22,500                    | 6                 | 5                        | Immaculate               |
 | 6         | 47,500                    | 7                 | 5                        | Master                   |
-| 7         | 40,000                    | 8                 | 6                        | Superior Master          |
-| 8         | 98,000                    | 9                 | 6                        | Master of Dragons        |
-| 9         | 200,000                   | 10                | 7                        | Master of the North Wind |
-| 10        | 400,000                   | 11                | 7                        | Master of the West Wind  |
-| 11        | 600,000                   | 12                | 8                        | Master of the South Wind |
-| 12        | 800,000                   | 13                | 8                        | Master of the East Wind  |
-| 13        | 1,000,000                 | 14                | 9                        | Master of Winter         |
-| 14        | 1,200,000                 | 15                | 9                        | Master of Autumn         |
-| 15        | 1,400,000                 | 16                | 10                       | Master of Summer         |
-| 16        | 1,600,000                 | 17                | 10                       | Master of Spring         |
-| 17        | 1,800,000                 | 18                | 11                       | Grand Master of Flowers  |
+| 7         | 98,000                    | 8                 | 6                        | Superior Master          |
+| 8         | 200,000                   | 9                 | 6                        | Master of Dragons        |
+| 9         | 350,000                   | 10                | 7                        | Master of the North Wind |
+| 10        | 500,000                   | 11                | 7                        | Master of the West Wind  |
+| 11        | 700,000                   | 12                | 8                        | Master of the South Wind |
+| 12        | 950,000                   | 13                | 8                        | Master of the East Wind  |
+| 13        | 1,250,000                 | 14                | 9                        | Master of Winter         |
+| 14        | 1,500,000                 | 15                | 9                        | Master of Autumn         |
+| 15        | 1,750,000                 | 16                | 10                       | Master of Summer         |
+| 16        | 2,000,000                 | 17                | 10                       | Master of Spring         |
+| 17        | 2,250,000                 | 18                | 11                       | Grand Master of Flowers  |
 
 #### Calculating To Hit Modifier by Level
 
-|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|**16-20**|
-|-------|-------|--------|---------|---------|---------|
-| +0    | +1    | +4     | +6      | +8      | +10     |
+|**1-4**|**5-8**|**9-12**|**13-16**|**17+**|
+|-------|-------|--------|---------|---------|
+| +0    | +1    | +4     | +6      | +8      |
 
 #### Saving Throws
 
@@ -2083,7 +2223,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 5 – 8     | 12                                       | 11                             | 12                      | 15                | 13        |
 | 9 - 12    | 11                                       | 10                             | 10                      | 14                | 11        |
 | 13 – 16   | 10                                       | 9                              | 8                       | 13                | 9         |
-| 17 – 20   | 9                                        | 8                              | 6                       | 12                | 7         |
+| 17+       | 9                                        | 8                              | 6                       | 12                | 7         |
 
 ### Restrictions
 
@@ -3008,7 +3148,7 @@ Coinage and time must then be spent under tutelage for a number of weeks equal t
 
 **Silver cost per day = 2% of total class XP.**
 
-*Multiclassed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 SP for the 2nd level Fighter level (2000 xp).*
+*Multi-classed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 SP for the 2nd level Fighter level (2000 xp).*
 
 **Roll 3d6 to determine the number of days it takes to train and gain a level.**
 
@@ -3385,7 +3525,7 @@ Level 0 henchmen can be recruited at first level. They do not begin with any sta
 - Roll [<u>psionics</u>](#psionics).
 - Choose 2 weapon proficiencies. Any armor permissable.
 - The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
-- Choose one category type from special abilities / "boons and banes".
+- Choose one category type from [<u>boons & banes</u>](#boons-&-banes), depending on class picked.
 
 When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. [<u>Training</u>](#training) is needed for the henchmen to turn level 1. Treat the cost as if the henchmen has 500 xp. 
 
@@ -3434,27 +3574,6 @@ time. Turn structure defines the sequence of actions and events during a
 round.
 
 # <span id=spellcasting> Spellcasting </span>
-
-## The Five Colors Magic Paradigm
-
-The standard schools of magic are replaced by five colors, inspired by
-Magic: The Gathering's color system. Each color represents specific
-magic themes and effects (referred to as aspects):
-
-**White (W):** Bind, Disrupt, Enhance, Light, Protect, Radiance,
-Suppress *(Peace, law, structure, selflessness, equality)*
-
-**Blue (U):** Communication, Dimensions, Illusion, Knowledge, Reveal,
-Time, Voyages *(Knowledge, deceit, caution, deliberation, perfection)*
-
-**Black (B):** Acid, Coerce, Cold, Darkness, Fear, Necrotic *(Power,
-self-interest, death, sacrifice, uninhibitedness)*
-
-**Red (R):** Alter, Creation, Fire, Force, Freedom, Kinetics, Lightning
-*(Freedom, emotion, action, impulse, destruction, change)*
-
-**Green (G):** Creatures, Earth, Healing, Plants, Water, Wind *(Nature,
-wildlife, connection, spirituality, tradition)*
 
 ## Learning Spells
 

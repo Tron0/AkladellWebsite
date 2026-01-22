@@ -60,6 +60,21 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+    
+    { 
+
+        title: 'Dual-classing',
+        content: `Humans use the dual-classing rules from now on, and demi-humans can only multi-class.
+        
+        <b> Changes: </b>
+
+        - Added dual-classing rules for humans.
+        - Changed multi-classing to be demi-human only.
+        - Removed any reference to the five colors magic paradigm as it's not used.
+
+        `,
+        date: "2026-01-26 16:34 CET" 
+    },
 
     { 
 
