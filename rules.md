@@ -1514,7 +1514,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Prime Attribute:** 16+ Dexterity, 16+ Constitution (+10% experience bonus).
 
-**Hit Dice:** 1d12/level (Gains 4 hp/level after 10th level).
+**Hit Dice:** 1d12/level (Gains 4 hp/level after 9th level).
 
 **Armor/Shield Permitted**: Light armor, medium armor, shield.
 
@@ -1545,18 +1545,18 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 6         | 40,000                    | 6                  | 6                        | Berserker Chief  |
 | 7         | 90,000                    | 7                  | 6                        | Hordechief       |
 | 8         | 160,000                   | 8                  | 6                        | Conqueror        |
-| 9         | 275,000                   | 9+4                | 7                        | High Conqueror   |
-| 10        | 400,000                   | 9+8                | 7                        |                  |
-| 11        | 530,000                   | 9+12               | 7                        |                  |
-| 12        | 660,000                   | 9+16               | 8                        |                  |
-| 13        | 790,000                   | 9+20               | 8                        |                  |
-| 14        | 920,000                   | 9+24               | 8                        |                  |
-| 15        | 1,050,000                 | 9+28               | 9                        |                  |
-| 16        | 1,180,000                 | 9+32               | 9                        |                  |
-| 17        | 1,310,000                 | 9+36               | 9                        |                  |
-| 18        | 1,440,000                 | 9+40               | 10                       |                  |
-| 19        | 1,570,000                 | 9+44               | 10                       |                  |
-| 20        | 1,700,000                 | 9+48               | 10                       |                  |
+| 9         | 275,000                   | 9                  | 7                        | High Conqueror   |
+| 10        | 400,000                   | 9+4                | 7                        |                  |
+| 11        | 530,000                   | 9+8                | 7                        |                  |
+| 12        | 660,000                   | 9+12               | 8                        |                  |
+| 13        | 790,000                   | 9+16               | 8                        |                  |
+| 14        | 920,000                   | 9+20               | 8                        |                  |
+| 15        | 1,050,000                 | 9+24               | 9                        |                  |
+| 16        | 1,180,000                 | 9+28               | 9                        |                  |
+| 17        | 1,310,000                 | 9+32               | 9                        |                  |
+| 18        | 1,440,000                 | 9+36               | 10                       |                  |
+| 19        | 1,570,000                 | 9+40               | 10                       |                  |
+| 20        | 1,700,000                 | 9+44               | 10                       |                  |
 
 #### Calculating To Hit Modifier by Level
 
@@ -3986,6 +3986,14 @@ Roll four times on the table below.
 | Field Plate Armor | 17              | 2000 SP   | A suit of articulated steel plates. **Needs to be form fitted to the wearer**.                    | 4          | Heavy    |
 | Full Plate Armor  | 18              | 4000 SP   | A fully articulated, expertly crafted suit of metal plates. **Needs to be tailored to the wearer’s exact measurements.**        | 4          | Heavy    |
 
+### Donning & Doffing Armor
+
+| **Armor**  | **Don (with help)** | **Don (solo)** | **Doff (with help)** | **Doff (solo)** |
+| ---------  | ------------------- | -------------  | ----------------     | ----------- |
+| Light      | 1 round             | 1 round        | 1 round              | 1 round     |
+| Medium     | 2 rounds            | 2 rounds       | 1 round              | 1 round     |
+| Heavy      | 1 turn              | 2 turns        | 5 rounds             | 1 turn      |
+
 ### Shields
 
 | **Shield Type** | **AC Bonus vs Melee/Missiles** | **Cost** | **Description**                                                                      | **Weight** |
@@ -4020,8 +4028,6 @@ Roll four times on the table below.
 | Defending Dagger | S        | 1d4               | 1d3             | 7 SP     | A dagger specially designed with a broader guard.                    | 1          | 3         | Piercing | 2                |
 | Silver Dagger    | S        | 1d4               | 1d3             | 14 SP    | A dagger with a silver blade.                                        | 1          | 3         | Piercing | 2                |
 
-
-
 **Swords**
 
 | **Weapon**           | **Size** | **Damage vs S/M** | **Damage vs L** | **Cost** | **Description**                                                                                                                                  | **Weight** | **Type** | **Speed Factor** |
@@ -4030,8 +4036,6 @@ Roll four times on the table below.
 | Longsword / Scimitar | M        | 1d8               | 1d12            | 10 SP    | A balanced, medium sized and versatile weapon.                                                                                                   | 1          | Slashing | 5                |
 | Claymore             | L        | 2d4               | 2d8             | 25 SP    | A large sword, designed for powerful swings and longer reach. Its size demands respect.                                                          | 2          | Slashing | 8                |
 | Zweihänder           | L        | 1d10              | 3d6             | 50 SP    | A colossal two-handed sword with a lengthy grip and imposing blade. Requires both hands and significant strength to wield effectively. **Heavy** | 2          | Slashing | 10               |
-
-
 
 **Hammers & Maces**
 
@@ -4056,7 +4060,6 @@ Roll four times on the table below.
 | Spear, Thrown     | M        | 1d6               | 1d4             | 5 SP     | A light spear balanced for throwing, effective at range but still usable in close combat.                 | 1          | Piercing            | 4                |
 | Spear, Two-handed | L        | 1d8               | 1d10            | 5 SP     | Longer and often with a wider blade, this spear provides reach and leverage, allowing for powerful thrusts. **Reach** | 2 | Piercing | 6 |
 | Trident           | M        | 1d6+1             | 3d4             | 4 SP     | A three-tined spear often used by fishermen or gladiators, excellent for catching and driving back foes. | 1          | Piercing            | 6                |
-
 
 **Flails**
 

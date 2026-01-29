@@ -33,15 +33,15 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          |                |                |                           |                |                       |               | Leomund's Trap        |                |
+| 1          |                |                |                           |                |                       |               | [Leomund's Trap](#spells#chaos#level2#leomundstrap)        |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
 
 | **Number** | **Abjuration**                  | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**    | **Necromancy** |
 | ---------- | ------------------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | ------------------------ | -------------- |
-| 1          | Protection from Normal Missiles | Blink          |                           |                | Hold Person           |               | Invisibility, 10' Radius |                |
-| 2          |                                 | Infravision    |                           |                |                       |               | Phantasmal Force         |                |
+| 1          | [Protection from Normal Missiles](#spells#chaos#level3#protectionfromnormalmissiles) | [Blink](#spells#chaos#level3#blink)          |                           |                | [Hold Person](#spells#chaos#level3#holdperson)           |               | [Invisibility, 10' Radius](#spells#chaos#level3#invisibility10radius) |                |
+| 2          |                                 | [Infravision](#spells#chaos#level3#infravision)    |                           |                |                       |               | [Phantasmal Force](#spells#chaos#level3#phantasmalforce)         |                |
 | 3          |                                 |                |                           |                |                       |               |                          |                |
 | 4          |                                 |                |                           |                |                       |               |                          |                |
 | 5          |                                 |                |                           |                |                       |               |                          |                |
@@ -51,9 +51,9 @@
 
 | **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**  | **Necromancy**  |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | ---------------------  | --------------- |
-| 1          |                | Enchanted Weapon |                           |                |                       | Dig           | Hallucionatory Terrain |                 |
-| 2          |                | Wizard Eye       |                           |                |                       | Fire Shield   |                        |                 |
-| 3          |                |                  |                           |                |                       | Wall of Ice   |                        |                 |
+| 1          |                | [Enchanted Weapon](#spells#chaos#level4#enchantedweapon) |                           |                |                       | [Dig](#spells#chaos#level4#dig)           | [Hallucinatory Terrain](#spells#chaos#level4#hallucinatoryterrain) |                 |
+| 2          |                | [Wizard Eye](#spells#chaos#level4#wizardeye)       |                           |                |                       | [Fire Shield](#spells#chaos#level4#fireshield)   |                        |                 |
+| 3          |                |                  |                           |                |                       | [Wall of Ice](#spells#chaos#level4#wallofice)   |                        |                 |
 | 4          |                |                  |                           |                |                       |               |                        |                 |
 | 5          |                |                  |                           |                |                       |               |                        |                 |
 | 6          |                |                  |                           |                |                       |               |                        |                 |
@@ -62,80 +62,80 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          | Dismissal      | Passwall       |                           |                |                       |               |                       | Animate Dead   |
+| 1          | [Dismissal](#spells#chaos#level5#dismissal)      | [Passwall](#spells#chaos#level5#passwall)       |                           |                |                       |               |                       | [Animate Dead](#spells#chaos#level5#animatedead)   |
 
 ## [6th Level Chaos Spells](#spells#chaos-level-6)
 
 | **Number** | **Abjuration**   | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**         | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | ---------------- | -------------- | ------------------------- | -------------- | --------------------- | --------------------- | --------------------- | -------------- |
-| 1          | Guards and Wards |                |                           | True Name      |                       | Bigby's Forceful Hand |                       |                |
+| 1          | [Guards and Wards](#spells#chaos#level6#guardsandwards) |                |                           | [True Name](#spells#chaos#level6#truename)      |                       | [Bigby's Forceful Hand](#spells#chaos#level6#bigbysforcefulhand) |                       |                |
 
 ## [7th Level Chaos Spells](#spells#chaos-level-7)
 
 | **Number** | **Abjuration** | **Alteration**         | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**        | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------------- | ------------------------- | -------------- | --------------------- | -------------------- | --------------------- | -------------- |
-| 1          |                | Duo-Dimension          |                           |                |                       | Mordenkainen's Sword |                       |                |
-| 2          |                | Teleport Without Error |                           |                |                       |                      |                       |                |
+| 1          |                | [Duo-Dimension](#spells#chaos#level7#duodimension)          |                           |                |                       | [Mordenkainen's Sword](#spells#chaos#level7#mordenkainenssword) |                       |                |
+| 2          |                | [Teleport Without Error](#spells#chaos#level7#teleportwithouterror) |                           |                |                       |                      |                       |                |
 
 ## [8th Level Chaos Spells](#spells#chaos-level-8)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm**         | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-------------------------------|---------------|-----------------------|----------------|
-| 1          |                |                |                           |                | Otto's Irresistable Dance     |               |                       |                |
+| 1          |                |                |                           |                | [Otto's Irresistible Dance](#spells#chaos#level8#ottosirresistibledance)     |               |                       |                |
 
 ## [9th Level Chaos Spells](#spells#chaos-level-9)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
-| 1          |                |                |                           |                |                       | Contingency   |                       |                |
+| 1          |                |                |                           |                |                       | [Contingency](#spells#chaos#level9#contingency)   |                       |                |
 
 
 ## [1st Level Illusion Spells](#spells#illusion-level-1)
 
 | **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | --------------- | ------------------------- | ------------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Alarm          | Color Spray     |                           | Detect Illusion     | Hypnotism             | Chromatic Orb | Audible Glamer        |                 |
-| 2          |                | Dancing Lights  |                           | Detect Invisibility |                       |               | Change Self           |                 |
-| 3          |                | Gaze Reflection |                           | Read Magic          |                       |               | Phantasmal Force      |                 |
-| 4          |                | Light           |                           |                     |                       |               | Phantom Armor         |                 |
-| 5          |                | Wall of Fog     |                           |                     |                       |               | Ventriloquism         |                 |
+| 1          | [Alarm](#spells#illusion#level1#alarm)          | [Color Spray](#spells#illusion#level1#colorspray)     |                           | [Detect Illusion](#spells#illusion#level1#detectillusion)     | [Hypnotism](#spells#illusion#level1#hypnotism)             | [Chromatic Orb](#spells#illusion#level1#chromaticorb) | [Audible Glamer](#spells#illusion#level1#audibleglamer)        |                 |
+| 2          |                | [Dancing Lights](#spells#illusion#level1#dancinglights)  |                           | [Detect Invisibility](#spells#illusion#level1#detectinvisibility) |                       |               | [Change Self](#spells#illusion#level1#changeself)           |                 |
+| 3          |                | [Gaze Reflection](#spells#illusion#level1#gazereflection) |                           | [Read Magic](#spells#illusion#level1#readmagic)          |                       |               | [Phantasmal Force](#spells#illusion#level1#phantasmalforce)      |                 |
+| 4          |                | Light           |                           |                     |                       |               | [Phantom Armor](#spells#illusion#level1#phantomarmor)         |                 |
+| 5          |                | [Wall of Fog](#spells#illusion#level1#walloffog)     |                           |                     |                       |               | [Ventriloquism](#spells#illusion#level1#ventriloquism)         |                 |
 
 
 ## [1st Level Law Spells](#spells#law-level-1)
 
 | **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
 | ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
-| 1          | Remove Fear          | Endure Cold         | Bless                     | Detect Evil    | Animal Friendship     |               |                       | Cure Light Wounds |
-| 2          | Protection from Evil | Light               |                           | Detect Magic   | Calm Animals          |               |                       |                   |
-| 3          |                      | Purify Food & Drink |                           | Read Magic     | Command               |               |                       |                   |
-| 4          |                      |  |                           |                | Courage               |               |                       |                   |
-| 5          |                      |                     |                           |                | Pass Without Trace    |               |                       |                   |
+| 1          | [Remove Fear](#spells#law#level1#removefear)          | [Endure Cold & Heat](#spells#law#level1#endurecoldheat)         | [Bless](#spells#law#level1#bless)                     | [Detect Evil](#spells#law#level1#detectevil)    | [Animal Friendship](#spells#law#level1#animalfriendship)     |               |                       | [Cure Light Wounds](#spells#law#level1#curelightwounds) |
+| 2          | [Protection from Evil](#spells#law#level1#protectionfromevil) | [Light](#spells#law#level1#light)               |                           | [Detect Magic](#spells#law#level1#detectmagic)   | [Calm Animals](#spells#law#level1#calmanimals)          |               |                       |                   |
+| 3          |                      | [Purify Food & Drink](#spells#law#level1#purifyfooddrink) |                           | [Read Magic](#spells#law#level1#readmagic)     | [Command](#spells#law#level1#command)               |               |                       |                   |
+| 4          |                      |  |                           |                | [Courage](#spells#law#level1#courage)               |               |                       |                   |
+| 5          |                      |                     |                           |                | [Pass Without Trace](#spells#law#level1#passwithouttrace)    |               |                       |                   |
 
 
 ## [2nd Level Law Spells](#spells#law-level-2)
 
 | **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Isphek's Burden    |                           | Find Traps     | Hold Person           |               |                       |                 |
-| 2          |                | Resist Fire        |                           | Know Alignment | Messenger             |               |                       |                 |
-| 3          |                | Speak With Animals |                           |                | Snake Charm           |               |                       |                 |
-| 4          |                | Silence 15' Radius |                           |                |                       |               |                       |                 |
+| 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           |               |                       |                 |
+| 2          |                | Resist Fire        |                           | Know Alignment | [Messenger](#spells#law#level2#messenger)             |               |                       |                 |
+| 3          |                | Speak With Animals |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
+| 4          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                |                       |               |                       |                 |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
 | **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Cure Blindness | Continual Light  |                           | Locate Object  |                       |               |                       | Animate Dead    |
+| 1          | Cure Blindness | Continual Light  |                           | [Locate Object](#spells#law#level3#locateobject)  |                       |               |                       | Animate Dead    |
 | 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       | Speak With Dead |
-| 3          | Remove Curse   |                  |                           |                |                       |               |                       |                 |
+| 3          | [Remove Curse](#spells#law#level3#removecurse)   |                  |                           |                |                       |               |                       |                 |
 
 
 ## [4th Level Law Spells](#spells#law-level-4)
 
 | **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**     |
 |------------|----------------------------------|---------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|---------------------|
-| 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | Cure Serious Wounds |
-| 2          | Neutralise Poison                | Speak with Plants   |                           |                |                       |               |                       |                     |
+| 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | [Cure Serious Wounds](#spells#law#level4#cureseriouswounds) |
+| 2          | [Neutralise Poison](#spells#law#level4#neutralisepoison)                | [Speak with Plants](#spells#law#level4#speakwithplants)   |                           |                |                       |               |                       |                     |
 | 3          | Protection from Evil, 10' Radius | Sticks to Snakes    |                           |                |                       |               |                       |                     |
 
 
@@ -143,14 +143,14 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**      |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------------|
-| 1          | Dispel Evil    |                | Insect Plague             | True Sight     | Quest                 |               |                       | Cure Critical Wounds |
+| 1          | Dispel Evil    |                | [Insect Plague](#spells#law#level5#insectplague)             | True Sight     | [Quest](#spells#law#level5#quest)                 |               |                       | Cure Critical Wounds |
 
 
 ## [6th Level Law Spells](#spells#law-level-6)
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Animate Object | Aerial Servant            | Find the Path  |                       | Blade Barrier |                       |                 |
+| 1          |                | Animate Object | [Aerial Servant](#spells#law#level6#aerialservant)            | [Find the Path](#spells#law#level6#findthepath)  |                       | Blade Barrier |                       |                 |
 | 2          |                | Word of Recall |                           |                |                       |               |                       |                 |
 
 ## [7th Level Law Spells](#spells#law-level-7)
@@ -166,10 +166,10 @@
 
 | **Number** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|-------------------------|---------------------------|------------------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Entangle                |                           | Detect Danger          | Animal Friendship     |               |                       |                 |
-| 2          |                | Faerie Fire             |                           | Locate Plant or Animal |                       |               |                       |                 |
-| 3          |                | Invisibility to Animals |                           | Predict Weather        |                       |               |                       |                 |
-| 4          |                | Speak with Animals      |                           |                        |                       |               |                       |                 |
+| 1          |                | [Entangle](#spells#druid#level1#entangle)                |                           | [Detect Danger](#spells#druid#level1#detectdanger)          | [Animal Friendship](#spells#druid#level1#animalfriendship)     |               |                       |                 |
+| 2          |                | [Faerie Fire](#spells#druid#level1#faeriefire)             |                           | [Locate Plant or Animal](#spells#druid#level1#locateplantoranimal) |                       |               |                       |                 |
+| 3          |                | [Invisibility to Animals](#spells#druid#level1#invisibilitytoanimals) |                           | [Predict Weather](#spells#druid#level1#predictweather)        |                       |               |                       |                 |
+| 4          |                | [Speak with Animals](#spells#druid#level1#speakwithanimals)      |                           |                        |                       |               |                       |                 |
 
 
 # <span id="spells#descriptions"> Spell Descriptions </span> 
@@ -1112,7 +1112,7 @@ This spell lets the caster inscribe a personal mark:
 
 ## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
-### Leomund's Trap
+### <span id="spells#chaos#level2#leomundstrap">Leomund's Trap</span>
 
 **Range:** Touch
 
@@ -1136,7 +1136,7 @@ Creates the illusion of a false trap on any small object.
 
 ## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
 
-### Blink (Alteration) - Chaos
+### <span id="spells#chaos#level3#blink">Blink (Alteration) - Chaos</span>
 
 **Range:** Caster
 
@@ -1158,7 +1158,7 @@ The caster vanishes and instantaneously reappears a short distance away at a ran
 
 - **Restrictions:** The disorienting nature of the blink spell imposes a 25% chance of failing when casting spells, using magic items, or performing any action more complex than a physical attack.
 
-### Hold Person (Enchantment/Charm) - Chaos
+### <span id="spells#chaos#level3#holdperson">Hold Person (Enchantment/Charm) - Chaos</span>
 
 **Range:** 180'
 
@@ -1176,7 +1176,7 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
 
-### Infravision (Alteration) - Chaos
+### <span id="spells#chaos#level3#infravision">Infravision (Alteration) - Chaos</span>
 
 **Range:** Touch
 
@@ -1192,7 +1192,7 @@ Grants infravision to 60':
 
 - **Disruption:** Visible light (normal or magical) and large heat sources prevent infravision from functioning.
 
-### Phantasmal Force (Illusion) - Chaos
+### <span id="spells#chaos#level3#phantasmalforce">Phantasmal Force (Illusion) - Chaos</span>
 
 **Range:** 60'
 
@@ -1212,7 +1212,7 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-### Invisibility, 10' Radius (Illusion) - Chaos
+### <span id="spells#chaos#level3#invisibility10radius">Invisibility, 10' Radius (Illusion) - Chaos</span>
 
 **Range:** Touch
 
@@ -1230,7 +1230,7 @@ Confers invisibility upon all creatures within 10 feet of creature touched.
 
 - **Restrictions:** Creatures moving into the area after the spell is cast do not become invisible. Affected creatures other than the recipient that attack or casts spells become visible themselves. If the spell recipient attacks or cast another spell, the magic is broken.
 
-### Protection from Normal Missiles (Abjuration)
+### <span id="spells#chaos#level3#protectionfromnormalmissiles">Protection from Normal Missiles (Abjuration)</span>
 
 **Range:** Touch
 
@@ -1250,7 +1250,7 @@ Bestows total invulnerability to normal hurled and thrown missiles.
 
 ## <span id="spells#chaos-level-4"> 4th Level Chaos Spells </span>
 
-### Dig (Evocation) - Chaos
+### <span id="spells#chaos#level4#dig">Dig (Evocation) - Chaos</span>
 
 **Range:** 90'
 
@@ -1274,7 +1274,7 @@ Excavates earth with shocking speed, hurling spoil to the edges and forming a pi
 
 - **Tunneling:** Horizontal excavation is possible only if spoil can be ejected; consider doubling collapse chances unless shored.
 
-### Enchanted Weapon (Alteration) - Chaos
+### <span id="spells#chaos#level4#enchantedweapon">Enchanted Weapon (Alteration) - Chaos</span>
 
 **Range:** Touch
 
@@ -1296,7 +1296,7 @@ With a touch, the caster places a weak, temporary enchantment upon a weapon:
 
 - **Touching a magical weapon:** The caster suppresses its magical nature for the duration. The weapon is treated as non-magical and loses any ability to hit creatures requiring magical weapons and loses any to-hit/damage bonuses while the effect lasts.
 
-### Fire Shield (Evocation) - Chaos
+### <span id="spells#chaos#level4#fireshield">Fire Shield (Evocation) - Chaos</span>
 
 **Range:** Caster
 
@@ -1310,7 +1310,7 @@ Wreaths the caster in protective flames chosen at casting—Cold Flame or Hot Fl
 
 - **Hot Flame vs cold:** Hot flame offers the converse of the protections afforded by cold flame. Cold based attacks receive a bonus of +2 on saving throws and guarantee that the caster receives only half damage (or none at all) if his or her saving throw is successful against attacks that would cause full or half damage.
 
-### Hallucinatory Terrain (Illusion) - Chaos
+### <span id="spells#chaos#level4#hallucinatoryterrain">Hallucinatory Terrain (Illusion) - Chaos</span>
 
 **Range:** 240’
 
@@ -1326,7 +1326,7 @@ Hallucinatory terrain either conjures an illusory terrain feature (e.g. a hill, 
 
 - **Touching:** If an intelligent being touches the illusion, it vanishes, ending the spell.
 
-### Wall of Ice (Evocation) - Chaos
+### <span id="spells#chaos#level4#wallofice">Wall of Ice (Evocation) - Chaos</span>
 
 **Range:** 10'/level
 
@@ -1346,7 +1346,7 @@ Conjures a semi-transparent sheet of ice, shaped as the caster wishes.
 
 - **Monsters with 4 or more HD:** Can break through through the wall, but suffer 1d6 damage. Fire-based creatures (e.g. flame salamanders) suffer double damage.
 
-### Wizard Eye (Alteration) - Chaos
+### <span id="spells#chaos#level4#wizardeye">Wizard Eye (Alteration) - Chaos</span>
 
 **Range:** 240’
 
@@ -1368,7 +1368,7 @@ An invisible, magical eye is conjured that allows the caster to see at a distanc
 
 ## <span id="spells#chaos-level-5"> 5th Level Chaos Spells </span>
 
-### Animate Dead (Necromancy) - Chaos
+### <span id="spells#chaos#level5#animatedead">Animate Dead (Necromancy) - Chaos</span>
 
 **Range:** 60'
 
@@ -1392,7 +1392,7 @@ Causes corpses or skeletons to rise as undead skeletons or zombies.
 
 - **Classed characters:** If a PC or NPC with levels in a class is reanimated by this spell, the levels are not counted as HD. For example, the reanimated corpse of a 5th level fighter would have 2 HD (1 HD as a normal human, +1 for being reanimated as a zombie).
 
-### Dismissal (Abjuration) - Chaos
+### <span id="spells#chaos#level5#dismissal">Dismissal (Abjuration) - Chaos</span>
 
 **Duration:** Permanent
 
@@ -1414,7 +1414,7 @@ Attempts to conjure a creature from another plane. The type of creature, and the
 
 - **Restrictions:** This does not guarantee that the creature will be friendly to the spellcaster, nor does the spell caster have any form of control over the creature.
 
-### Passwall (Abjuration) - Chaos
+### <span id="spells#chaos#level5#passwall">Passwall (Abjuration) - Chaos</span>
 
 **Duration:** 1 hour + 1 turn/level
 
@@ -1434,7 +1434,7 @@ Conjures a magical passageway that the spellcaster and any other creatures may w
 
 ## <span id="spells#chaos-level-6"> 6th Level Chaos Spells </span>
 
-### Bigby’s Forceful Hand (Evocation) - Chaos
+### <span id="spells#chaos#level6#bigbysforcefulhand">Bigby’s Forceful Hand (Evocation) - Chaos</span>
 
 **Range:** 30'/level 
 
@@ -1456,7 +1456,7 @@ Creates a disembodied hand of force that places itself between the caster and on
 
 - **Control:** Caster may command the hand to retreat (e.g., to free a trapped foe) or dismiss it.
 
-### Guards and Wards (Divination) - Chaos
+### <span id="spells#chaos#level6#guardsandwards">Guards and Wards (Divination) - Chaos</span>
 
 **Range:** 400' x 400'
 
@@ -1482,7 +1482,7 @@ Wards a one-story stronghold. The following take place in the warded area upon c
 
 - **Restrictions:** Some spells does only function when the mage is totally familiar with the area of the spell's effect. Dispel magic can remove one effect, at random, per casting. A remove curse spell will not work.
 
-### True Name (Divination) - Chaos
+### <span id="spells#chaos#level6#truename">True Name (Divination) - Chaos</span>
 
 **Range:** 90'
 
@@ -1500,7 +1500,7 @@ This spell lets the caster pry into the secret essence of a subject. When proper
 
 ## <span id="spells#chaos-level-7"> 7th Level Chaos Spells </span>
 
-### Duo-Dimension (Evocation) - Chaos
+### <span id="spells#chaos#level7#duodimension">Duo-Dimension (Evocation) - Chaos</span>
 
 **Range:** Caster
 
@@ -1520,7 +1520,7 @@ This spell physically causes the caster to only exist in two dimensions. Only he
 
 - **Material component:** A custom flat ivory likeness of the spellcaster which must be of finest workmanship, gold filigreed, enameled and gem-studded at an average cost of 500 to 1,000 sp as well as a strip of parchment. As the spell is uttered, the parchment is given half a twist and joined at the ends. The figurine is then passed through the parchment loop, and both disappear forever.
 
-### Mordenkainen’s Sword (Evocation) - Chaos
+### <span id="spells#chaos#level7#mordenkainenssword">Mordenkainen’s Sword (Evocation) - Chaos</span>
 
 **Range:** 90'
 
@@ -1538,7 +1538,7 @@ Conjures a shimmering, sword-like plane of force that the caster mentally wields
 
 - **Material Component:** a miniature platinum sword with copper/zinc pommel worth 500 sp, which is consumed.
 
-### Teleport Without Error (Alteration) - Chaos
+### <span id="spells#chaos#level7#teleportwithouterror">Teleport Without Error (Alteration) - Chaos</span>
 
 **Range:** Touch
 
@@ -1564,7 +1564,7 @@ Transports the caster and carried/touched load to a known location with perfect 
 
 ## <span id="spells#chaos-level-8"> 8th Level Chaos Spells </span>
 
-### Otto’s Irresistible Dance (Enchantment/Charm) - Chaos
+### <span id="spells#chaos#level8#ottosirresistibledance">Otto’s Irresistible Dance (Enchantment/Charm) - Chaos</span>
 
 **Range:** Touch
 
@@ -1580,7 +1580,7 @@ Compels the touched creature to dance uncontrollably, to the exclusion of all ot
 
 ## <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
 
-### Contingency (Evocation) - Chaos
+### <span id="spells#chaos#level9#contingency">Contingency (Evocation) - Chaos</span>
 
 **Range:** Touch
 
@@ -1607,7 +1607,7 @@ The material components of this spell are (in addition to those of the companion
 
 ## <span id="spells#illusion-level-1"> 1st Level Illusion Spells </span>
 
-### Alarm (Abjuration) - Illusionist
+### <span id="spells#illusion#level1#alarm">Alarm (Abjuration) - Illusionist</span>
 
 **Range:** 30'
 
@@ -1625,7 +1625,7 @@ Allows the caster to set a protective alarm, as follows:
 
 - **Dismissal:** The caster can silence the alarm at any moment.
 
-### Audible Glamer (Illusion/Phantasm) - Illusionist
+### <span id="spells#illusion#level1#audibleglamer">Audible Glamer (Illusion/Phantasm) - Illusionist</span>
 
 **Range:** 60'
 
@@ -1643,7 +1643,7 @@ Creates an illusionary sound that can deceive others:
 
 - **Enhancement:** Can enhance the effectiveness of the phantasmal force spell.
 
-### Change Self (Illusion/Phantasm) - Illusionist
+### <span id="spells#illusion#level1#changeself">Change Self (Illusion/Phantasm) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1657,7 +1657,7 @@ Grants the caster temporary appearance alteration:
 
 - **Limitations:** Only modifies visual appearance without granting abilities or behaviors of the new form. Touch will reveal the illusion.
 
-### Chromatic Orb (Evocation) - Illusionist
+### <span id="spells#illusion#level1#chromaticorb">Chromatic Orb (Evocation) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1698,7 +1698,7 @@ The color of the orb determines its effects, as outlined below:
 
 **Material Component:** A gem of the appropriate color or any diamond worth at least 50 sp is required to cast this spell.
 
-### Color Spray (Alteration) - Illusionist
+### <span id="spells#illusion#level1#colorspray">Color Spray (Alteration) - Illusionist</span>
 
 **Range:** 20'/level up to 240'
 
@@ -1714,7 +1714,7 @@ Creates a vivid array of clashing colors that can blind or stun creatures:
 
 - **Effect:** Creatures whose Hit Dice or levels are less than or equal to the spellcaster's level, are struck unconscious for 2d4 rounds; those with Hit Dice or levels 1 or 2 greater than the wizard's level are blinded for 1d4 rounds; those with Hit Dice or levels 3 or more greater than that of the spellcaster are stunned (reeling and unable to think or act coherently) for one round. 
 
-### Dancing Lights (Alteration) - Illusionist
+### <span id="spells#illusion#level1#dancinglights">Dancing Lights (Alteration) - Illusionist</span>
 
 **Range:** 120' + 30'/level
 
@@ -1730,7 +1730,7 @@ Creates up to four lights that resemble lanterns or torches:
     
 - **Effect:** Provides light as a torch, but not real heat or fire.
 
-### Detect Illusion (Divination) - Illusionist
+### <span id="spells#illusion#level1#detectillusion">Detect Illusion (Divination) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1746,7 +1746,7 @@ Allows the caster to see through illusions within the area of effect:
 
 - **Limitations:** Does not dispel illusions, only reveals them.
 
-### Detect Invisibility (Divination) - Illusionist
+### <span id="spells#illusion#level1#detectinvisibility">Detect Invisibility (Divination) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1762,7 +1762,7 @@ Enables the caster to see invisible objects and creatures:
 
 - **Limitation:** Does not reveal hidden or obscured objects, only creatures made invisible by magic.
 
-### Gaze Reflection (Alteration) - Illusionist
+### <span id="spells#illusion#level1#gazereflection">Gaze Reflection (Alteration) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1778,7 +1778,7 @@ Creates a mirror-like shield that reflects gaze attacks:
     
 - **Limitations:** Only works against gaze attacks, not other forms of magic. It is not effective against creatures whose effect comes from being gazed upon (such as a medusa)
 
-### Hypnotism (Enchantment) - Illusionist
+### <span id="spells#illusion#level1#hypnotism">Hypnotism (Enchantment) - Illusionist</span>
 
 **Range:** 15'
 
@@ -1794,7 +1794,7 @@ Induces a hypnotic state in one or more creatures:
     
 - **Command:** Caster can issue a simple, reasonable command to hypnotized creatures that share a language with the caster. Those who are exceptionally wary or hostile save with +1 to +3 bonuses. If the spell is cast at an individual creature that meets the caster's gaze, the saving throw is made with a penalty of -2. 
 
-### <span id=Phantasmal-Force> Phantasmal Force </span> (Illusion/Phantasm) - Illusionist
+### <span id="spells#illusion#level1#phantasmalforce">Phantasmal Force (Illusion/Phantasm) - Illusionist</span>
 
 **Range:** 60'
 
@@ -1814,7 +1814,7 @@ Creates an illusion that appears real to those who perceive it:
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
 
-### Phantom Armor (Illusion/Phantasm) - Illusionist
+### <span id="spells#illusion#level1#phantomarmor">Phantom Armor (Illusion/Phantasm) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1834,7 +1834,7 @@ When cast, this spell creates a quasi-real suit of plate mail that provides the 
 
 **Material Component:** A small plate of mithral, worth 10 sp, is required to cast this spell. The mithral plate disappears when the spell is cast.
 
-### Read Magic (Divination) - Illusionist
+### <span id="spells#illusion#level1#readmagic">Read Magic (Divination) - Illusionist</span>
 
 **Range:** Caster
 
@@ -1860,7 +1860,7 @@ Allows the caster to decipher magical script or runes, as follows:
   magical inscription, they can always understand that script again
   without read magic.
 
-### Ventriloquism (Illusionist) - Illusion
+### <span id="spells#illusion#level1#ventriloquism">Ventriloquism (Illusionist) - Illusion</span>
 
 **Range:** 30'/level max 270'
 
@@ -1881,7 +1881,7 @@ location:
 
 - **Detection:** With respect to such voices and sounds, anyone rolling a successful saving throw vs. spell with a -2 penalty detects the ruse.
 
-### Wall of Fog (Alteration) - Illusion
+### <span id="spells#illusion#level1#walloffog">Wall of Fog (Alteration) - Illusion</span>
 
 **Range:** 90'
 
@@ -1901,7 +1901,7 @@ Creates a bank of misty vapor within the area of effect:
 
 ## <span id="spells#law-level-1"> 1st Level Law Spells </span>
 
-### Animal Friendship (Enchantment/Charm) - Law
+### <span id="spells#law#level1#animalfriendship">Animal Friendship (Enchantment/Charm) - Law</span>
 
 **Range:** 30'
 
@@ -1921,7 +1921,7 @@ Creates a bank of misty vapor within the area of effect:
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-### Bless (Conjuration/Summoning) - Law
+### <span id="spells#law#level1#bless">Bless (Conjuration/Summoning) - Law</span>
 
 **Range:** 60'
 
@@ -1944,7 +1944,7 @@ May be used in one of two situations:
 Incurs a -1 penalty to morale checks, attack rolls, and damage rolls of
 enemies instead. A save versus spells is allowed to resist the blight.
 
-### Calm Animals (Enchantment/Charm) - Law
+### <span id="spells#law#level1#calmanimals">Calm Animals (Enchantment/Charm) - Law</span>
 
 **Range:** 120'
 
@@ -1966,7 +1966,7 @@ detailed:
 - **Specific Species:** All animals affected must belong to the same
   species, and all must be within the spell's range.
 
-### Command (Enchantment/Charm) - Law
+### <span id="spells#law#level1#command">Command (Enchantment/Charm) - Law</span>
 
 **Range:** 90'
 
@@ -1986,7 +1986,7 @@ demihuman, or human-like monster, as follows:
 
 - **Restrictions:** Undead are not affected.
 
-### Courage (Enchantment/Charm) - Law
+### <span id="spells#law#level1#courage">Courage (Enchantment/Charm) - Law</span>
 
 **Range:** 120'
 
@@ -2007,7 +2007,7 @@ This spell imbues the target unit with a temporary burst of courage.
   due to this spell, the magical effect ceases. From then on, they must
   perform all morale checks as usual.
 
-### Cure Light Wounds (Necromancy) - Law
+### <span id="spells#law#level1#curelightwounds">Cure Light Wounds (Necromancy) - Law</span>
 
 **Range:** Touch
 
@@ -2027,7 +2027,7 @@ This spell has two usages:
 Inflicts 1d8 hit points of damage to a touched creature. In combat, a
 melee attack roll is required.
 
-### Detect Evil (Divination) - Law
+### <span id="spells#law#level1#detectevil">Detect Evil (Divination) - Law</span>
 
 **Range:** Caster
 
@@ -2047,7 +2047,7 @@ are caused to magically glow:
   evil. Beings of chaotic alignment do not always have evil intent.
   Traps and poisons, while potentially harmful, are not evil.
 
-### Detect Magic (Divination) - Law
+### <span id="spells#law#level1#detectmagic">Detect Magic (Divination) - Law</span>
 
 **Range:** Caster
 
@@ -2063,7 +2063,7 @@ Empowers the spellcaster to perceive magical presences, as outlined:
 
 - **Comprehensive Detection:** The distinct type of magic is revealed to the spellcaster when investigated.
 
-### Endure Cold & Heat (Alteration) - Law
+### <span id="spells#law#level1#endurecoldheat">Endure Cold & Heat (Alteration) - Law</span>
 
 **Range:** Touch
 
@@ -2082,7 +2082,7 @@ Bestows a creature with resistance to extreme temperatures, as follows:
 
 - **Limitations:** The spell is immediately cancelled if the recipient is affected by any non-normal heat or cold, such as magic, breath weapons, and so on. 
 
-### Pass Without Trace (Enchantment/Charm) - Law
+### <span id="spells#law#level1#passwithouttrace">Pass Without Trace (Enchantment/Charm) - Law</span>
 
 **Range:** 60'
 
@@ -2101,7 +2101,7 @@ footprints or scent:
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
 
-### Purify Food & Drink (Alteration) - Law
+### <span id="spells#law#level1#purifyfooddrink">Purify Food & Drink (Alteration) - Law</span>
 
 **Duration:** Permanent
 
@@ -2125,7 +2125,7 @@ suitable to eat:
 
 The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
 
-### Protection from Evil (Abjuration) - Law
+### <span id="spells#law#level1#protectionfromevil">Protection from Evil (Abjuration) - Law</span>
 
 **Range:** Caster
 
@@ -2151,7 +2151,7 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### Light (Alteration) - Law
+### <span id="spells#law#level1#light">Light (Alteration) - Law</span>
 
 **Range:** 120'
 
@@ -2177,7 +2177,7 @@ Creates a 15' radius area of magical blackness, preventing normal sight.
 Like light, it may alternatively be used to blind creatures or to dispel
 a light spell.
 
-### Read Magic (Divination) - Law
+### <span id="spells#law#level1#readmagic">Read Magic (Divination) - Law</span>
 
 **Range:** Caster
 
@@ -2204,7 +2204,7 @@ Allows the caster to decipher magical script or runes, as follows:
   without read magic.
 
 
-### Remove Fear (Abjuration) - Law
+### <span id="spells#law#level1#removefear">Remove Fear (Abjuration) - Law</span>
 
 **Range:** 30'
 
@@ -2227,7 +2227,7 @@ Inflicts intense dread upon a target, as described:
 
 ## <span id="spells#law-level-2"> 2nd Level Law Spells </span>
 
-### Augury (Divination) - Law
+### <span id="spells#law#level2#augury">Augury (Divination) - Law</span>
 
 **Range:** Caster 
 
@@ -2261,7 +2261,7 @@ Reveals traps (mechanical or magical) directly ahead of the caster.
 
 **Restrictions** Cannot distinguish exact effects or disarming method. Ambushes, creatures and natural hazards aren’t regarded as traps for this spell.  -->
 
-### Hold Person (Enchantment/Charm) - Law
+### <span id="spells#law#level2#holdperson">Hold Person (Enchantment/Charm) - Law</span>
 
 **Range:** 180'
 
@@ -2279,7 +2279,7 @@ Holds humans, demihumans or humanoids paralysed and in place if they fail a savi
 
 - **Restrictions:** Undead and human-like monsters of greater than 4+1 HD are not affected. 
 
-### Isphek's Burden (Alteration) - Law
+### <span id="spells#law#level2#ispheksburden">Isphek's Burden (Alteration) - Law</span>
 
 **Range:** 30'
 
@@ -2316,7 +2316,7 @@ Reads the aura of a creature, revealing exact alignment if the subject doesn’t
 #### Reverse: Obscure Alignment
 Conceals alignment for a total of 1 turn, divisible among multiple creatures e.g., 2 creatures for 5 rounds each. -->
 
-### Messenger (Enchantment/Charm) - Law
+### <span id="spells#law#level2#messenger">Messenger (Enchantment/Charm) - Law</span>
 
 **Range:** 20'/level
 
@@ -2348,7 +2348,7 @@ Bestows strong protection from heat and flame upon a creature touched.
 
 - **Intense or magical fire:** +3 on saving throws vs. fire; damage taken is halved on a failed save or ¼ on a successful save. The saving throw is permitted even against attacks that would not ordinarily allow a saving throw. -->
 
-### Silence 15' Radius (Alteration) - Law
+### <span id="spells#law#level2#silence15radius">Silence 15' Radius (Alteration) - Law</span>
 
 **Range:** 120'
 
@@ -2368,7 +2368,7 @@ Bestows strong protection from heat and flame upon a creature touched.
 
 - The spell may be cast upon an object, causing that object to create no sound. For example, it may be cast upon a door, so that it may be bashed down without noise.
 
-### Snake Charm (Enchantment/Charm) - Law
+### <span id="spells#law#level2#snakecharm">Snake Charm (Enchantment/Charm) - Law</span>
 
 **Range:** 60'
 
@@ -2451,7 +2451,7 @@ Cures most diseases.
 #### Reverse: Cause Disease 
 On a failed Save vs Spells (touch attack required), symptoms begin in 1d6 turns. Thereafter the victim takes 1 hp/round and loses 1 STR per hour until reduced to 10% of original hp/STR. Disease runs its course in 1d6 days or until cured. -->
 
-### Remove Curse (Abjuration) - Law
+### <span id="spells#law#level3#removecurse">Remove Curse (Abjuration) - Law</span>
 
 **Range:** Touch   
 
@@ -2477,7 +2477,7 @@ On touch, the target is granted a saving throw. If the creature fails the saving
 
 It is possible for a caster to devise his or her own curse, and it should be similar in power to those shown. Consult your referee.
 
-### Locate Object (Divination) - Law
+### <span id="spells#law#level3#locateobject">Locate Object (Divination) - Law</span>
 
 **Range:** 30'/level
 
@@ -2498,7 +2498,7 @@ By reversal (obscure object), the caster is able to hide an object from location
 
 ## <span id="spells#law-level-4"> 4th Level Law Spells </span>
 
-### Cure Serious Wounds (Necromancy)
+### <span id="spells#law#level4#cureseriouswounds">Cure Serious Wounds (Necromancy)</span>
 
 **Range:** Touch
 
@@ -2512,7 +2512,7 @@ By reversal (obscure object), the caster is able to hide an object from location
 
 - **Harm on touch:** Inflicts 2d8+1 hit points of damage to a touched creature. In combat, a melee attack roll is required.
 
-### Neutralise Poison (Transmutation/Alteration) - Law
+### <span id="spells#law#level4#neutralisepoison">Neutralise Poison (Transmutation/Alteration) - Law</span>
 
 **Range:** Touch 
 
@@ -2530,7 +2530,7 @@ Detoxifies any poison in a touched creature or substance. Also prevents a poison
 
 Allows the caster to deliver a lethally poisonous touch, requiring a successful roll to hit, and allowing a saving throw against the poison. 
 
-### Speak with Plants (Transmutation/Alteration) - Law
+### <span id="spells#law#level4#speakwithplants">Speak with Plants (Transmutation/Alteration) - Law</span>
 
 **Range:** Caster 
 
@@ -2546,7 +2546,7 @@ Enables conversation with living plant matter and allows limited persuasion of m
 
 ## <span id="spells#law-level-5"> 5th Level Law Spells </span>
 
-### Insect Plague (Conjuration/Summoning)
+### <span id="spells#law#level5#insectplague">Insect Plague (Conjuration/Summoning)</span>
 
 **Range:** 360'
 
@@ -2570,7 +2570,7 @@ Cast above ground, this spell conjures a 60’ diameter swarm of flying insects 
 
 - **Restrictions:** The spell has no effect if cast underground.
 
-### Quest (Enchantment/Charm) - Law
+### <span id="spells#law#level5#quest">Quest (Enchantment/Charm) - Law</span>
 
 **Range:** 60' 
 
@@ -2588,7 +2588,7 @@ Compels one creature to undertake a specific task and return with proof of compl
 
 ## <span id="spells#law-level-6"> 6th Level Law Spells </span>
 
-### Aerial Servant (Conjuration/Summoning) - Law
+### <span id="spells#law#level6#aerialservant">Aerial Servant (Conjuration/Summoning) - Law</span>
 
 **Range:** 30'
 
@@ -2606,7 +2606,7 @@ Summons an invisible aerial creature to fetch an item or creature described by t
 
 - **Restrictions:** Cannot be made to fight for the summoner.
 
-### Find the Path (Divination) - Law
+### <span id="spells#law#level6#findthepath">Find the Path (Divination) - Law</span>
 
 **Range:** Touch 
 
@@ -2628,7 +2628,7 @@ Imbues one creature with an uncanny sense of the shortest route into or out of a
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
-### Animal Friendship (Enchantment/Charm) - Druid
+### <span id="spells#druid#level1#animalfriendship">Animal Friendship (Enchantment/Charm) - Druid</span>
 
 **Range:** 30'
 
@@ -2648,7 +2648,7 @@ Imbues one creature with an uncanny sense of the shortest route into or out of a
 - **Restrictions:** Only unaligned animals can be affected by this
   spell.
 
-### Detect Danger (Divination) - Druid
+### <span id="spells#druid#level1#detectdanger">Detect Danger (Divination) - Druid</span>
 
 **Range:** 5'/level
 
@@ -2668,7 +2668,7 @@ The caster can concentrate to detect dangers within range, such as traps, creatu
 
 **After Scanning:** The caster knows whether the area, creature, or object poses a danger to their person. This knowledge distinguishes between immediate dangers and potential dangers.
 
-### Entangle (Alteration) - Druid
+### <span id="spells#druid#level1#entangle">Entangle (Alteration) - Druid</span>
 
 **Range:** 80'
 
@@ -2684,7 +2684,7 @@ All plants present in a 20' radius area within range bend and twist, entangling 
 
 - **On Successful Save:** The creature is able to move through the entangled area at half its normal movement rate.
 
-### Faerie Fire (Alteration) - Druid
+### <span id="spells#druid#level1#faeriefire">Faerie Fire (Alteration) - Druid</span>
 
 **Range:** 60'
 
@@ -2711,7 +2711,7 @@ Selected objects or creatures in range are outlined with a lambent, green fire.
 
 - **Low Light:** Attacks on targets in low light conditions gain a +2 bonus to-hit.
 
-### Invisibility to Animals (Divination) - Druid
+### <span id="spells#druid#level1#invisibilitytoanimals">Invisibility to Animals (Divination) - Druid</span>
 
 **Range:** Touch
 
@@ -2721,7 +2721,7 @@ Selected objects or creatures in range are outlined with a lambent, green fire.
 
 - **Detection:** Renders the subject undetectable to all senses (smell, sight, hearing) or non-magical animals and able to wander among them completely unnoticed.
 
-### Locate Plant or Animal (Divination) - Druid
+### <span id="spells#druid#level1#locateplantoranimal">Locate Plant or Animal (Divination) - Druid</span>
 
 **Range:** Caster
 
@@ -2735,7 +2735,7 @@ The caster can sense the direction (but not distance) of a non-magical, non-sent
 
 2. **Individual:** Locating a specific plant or animal which the caster can clearly visualize in all aspects.
 
-### Predict Weather (Divination) - Druid
+### <span id="spells#druid#level1#predictweather">Predict Weather (Divination) - Druid</span>
 
 **Range:** 1 mile diameter/level
 
@@ -2745,7 +2745,7 @@ The caster can sense the direction (but not distance) of a non-magical, non-sent
 
 - **Forecast:** The caster gains accurate knowledge of the weather (sky, temperature, precipitation) in a square centering on the caster. For each level of experience of the caster, two hours advance weather can be forecast. Thus, at 1st level the caster knows what the weather will be for two hours; at second level he or she knows the weather for four hours in advance, etc.
 
-### Speak with Animals (Alteration) - Druid
+### <span id="spells#druid#level1#speakwithanimals">Speak with Animals (Alteration) - Druid</span>
 
 **Range:** 30'
 
@@ -2758,5 +2758,3 @@ The caster can communicate with one type of animal within range when the spell i
 - **Type of Animal:** Ordinary animals or giant versions of ordinary animals may be targeted.
 
 - **Questions:** The caster can ask questions of and receive answers from animals of the chosen kind, although the spell doesn't make animals any more friendly or cooperative than normal.
-
-
