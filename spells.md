@@ -27,6 +27,7 @@
 | 10         |                | [Message](#spells#chaos#level1#message) |                           |                |                       |                |                       |                |
 | 11         |                | [Spider Climb](#spells#chaos#level1#spiderclimb) |                           |                |                       |                |                       |                |
 | 12         |                | [Wizard Mark](#spells#chaos#level1#wizardmark) |                           |                |                       |                |                       |                |
+| 13         |                |                |                           | [Comprehend Languages](#spells#chaos#level1#comprehendlanguages) |                       |                |                       |                |
 
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
@@ -561,6 +562,40 @@ Influences perceptions and actions of a humanoid:
 - **INT 9–12:** Save once each week.
 
 - **INT 13–18:** Save once every day.
+
+### <span id="spells#chaos#level1#comprehendlanguages">Comprehend Languages (Chaos)</span>
+
+**Range:** Caster
+
+**Duration:** 5 rounds
+
+**Casting Time:** 1 round
+
+**AoE:** One written object or one creature
+
+This spell allows the caster to decipher a written language, including pictographs, but not including magical script, or to understand the speech of another creature that can talk.
+
+- **Writings & Speech:** The caster comprehends the meaning of the writing or the meaning of the creature’s speech.
+
+- **Restrictions:** The spell does not permit understanding of the "speech" of animals; only true, spoken languages can be comprehended. This spell does not grant any ability to speak or write the language.
+
+#### Reversed: Confuse Languages
+
+**Range:** Touch
+
+**Duration:** 5 rounds
+
+**Casting Time:** 1 round
+
+**AoE:** One written object or one creature
+
+This spell makes a particular piece of writing indecipherable, makes one creature incapable of coherent speech, or may be used to cancel the effects of a comprehend languages spell.
+
+- **Touch Required:** The caster must touch the target.
+
+- **Writing:** The writing becomes wholly indecipherable for the duration. If a creature is affected, it cannot speak coherently for the duration.
+
+- **Spellcasting:** An affected creature cannot cast spells for the duration.
 
 ### <span id="spells#chaos#level1#chilltouch">Chill Touch (Necromancy)</span>
 
