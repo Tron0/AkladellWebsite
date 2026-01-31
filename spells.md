@@ -15,11 +15,11 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
-| 1          | [Alarm](#spells#chaos#level1#alarm) | [Burning Hands](#spells#chaos#level1#burninghands) | [Armor](#spells#chaos#level1#armor) | [Detect Magic](#spells#chaos#level1#detectmagic) | [Charm Person](#spells#chaos#level1#charmperson) | [Floating Disc](#spells#chaos#level1#floatingdisc) | [Change Self](#spells#chaos#level1#changeself) | [Chill Touch](#spells#chaos#level1#chilltouch) |
-| 2          | [Protection from Evil](#spells#chaos#level1#protectionfromevil) | [Enlarge](#spells#chaos#level1#enlarge) | [Find Familiar](#spells#chaos#level1#findfamiliar) | [Detect Undead](#spells#chaos#level1#detectundead) | [Sleep](#spells#chaos#level1#sleep) | [Magic Missile](#spells#chaos#level1#magicmissile) | [Ventriloquism](#spells#chaos#level1#ventriloquism) | [Ray of Fatigue](#spells#chaos#level1#rayoffatigue) |
-| 3          | [Shield](#spells#chaos#level1#shield) | [Erase](#spells#chaos#level1#erase) | [Mount](#spells#chaos#level1#mount) | [Identify](#spells#chaos#level1#identify) |                       |                |                       |                |
-| 4          |                | [Feather Fall](#spells#chaos#level1#featherfall) | [Unseen Servant](#spells#chaos#level1#unseenservant) | [Read Magic](#spells#chaos#level1#readmagic) |                       |                |                       |                |
-| 5          |                | [Fist of Stone](#spells#chaos#level1#fistofstone) |                           |                |                       |                |                       |                |
+| 1          | [Alarm](#spells#chaos#level1#alarm) | [Burning Hands](#spells#chaos#level1#burninghands) | [Armor](#spells#chaos#level1#armor) | [Comprehend Languages](#spells#chaos#level1#comprehendlanguages) | [Charm Person](#spells#chaos#level1#charmperson) | [Floating Disc](#spells#chaos#level1#floatingdisc) | [Change Self](#spells#chaos#level1#changeself) | [Chill Touch](#spells#chaos#level1#chilltouch) |
+| 2          | [Protection from Evil](#spells#chaos#level1#protectionfromevil) | [Enlarge](#spells#chaos#level1#enlarge) | [Find Familiar](#spells#chaos#level1#findfamiliar) | [Detect Magic](#spells#chaos#level1#detectmagic) | [Sleep](#spells#chaos#level1#sleep) | [Magic Missile](#spells#chaos#level1#magicmissile) | [Ventriloquism](#spells#chaos#level1#ventriloquism) | [Ray of Fatigue](#spells#chaos#level1#rayoffatigue) |
+| 3          | [Shield](#spells#chaos#level1#shield) | [Erase](#spells#chaos#level1#erase) | [Mount](#spells#chaos#level1#mount) | [Detect Undead](#spells#chaos#level1#detectundead) |                       |                |                       |                |
+| 4          |                | [Feather Fall](#spells#chaos#level1#featherfall) | [Unseen Servant](#spells#chaos#level1#unseenservant) | [Identify](#spells#chaos#level1#identify) |                       |                |                       |                |
+| 5          |                | [Fist of Stone](#spells#chaos#level1#fistofstone) |                           | [Read Magic](#spells#chaos#level1#readmagic) |                       |                |                       |                |
 | 6          |                | [Hold Portal](#spells#chaos#level1#holdportal) |                           |                |                       |                |                       |                |
 | 7          |                | [Lasting Breath](#spells#chaos#level1#lastingbreath) |                           |                |                       |                |                       |                |
 | 8          |                | [Light](#spells#chaos#level1#light) |                           |                |                       |                |                       |                |
@@ -27,7 +27,6 @@
 | 10         |                | [Message](#spells#chaos#level1#message) |                           |                |                       |                |                       |                |
 | 11         |                | [Spider Climb](#spells#chaos#level1#spiderclimb) |                           |                |                       |                |                       |                |
 | 12         |                | [Wizard Mark](#spells#chaos#level1#wizardmark) |                           |                |                       |                |                       |                |
-| 13         |                |                |                           | [Comprehend Languages](#spells#chaos#level1#comprehendlanguages) |                       |                |                       |                |
 
 
 ## [2nd Level Chaos Spells](#spells#chaos-level-2)
@@ -563,7 +562,7 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
-### <span id="spells#chaos#level1#comprehendlanguages">Comprehend Languages (Chaos)</span>
+### <span id="spells#chaos#level1#comprehendlanguages">Comprehend Languages (Divination)</span>
 
 **Range:** Caster
 
