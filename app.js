@@ -63,6 +63,20 @@ function loadUpdatePost()
     
     { 
 
+        title: 'Simplified Spell Research + Basic Magic Item Creation',
+        content: `Made spell research cheaper and easier. Also added some ACKS rulings to have the libraries grow when more coin is put into spell researching. 
+        
+        <b> Changes: </b>
+
+        - Added rules for basic magic item creation.
+        - Changed spell research.
+
+        `,
+        date: "2026-02-09 22:50 CET" 
+    },
+
+    { 
+
         title: 'Dual-classing',
         content: `Humans use the dual-classing rules from now on, and demi-humans can only multi-class.
         
