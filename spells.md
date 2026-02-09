@@ -5,8 +5,8 @@
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
 | 1          | [Dry](#spells#cantrips#dry) | [Change](#spells#cantrips#change) | [Bluelight](#spells#cantrips#bluelight) |                |                       | [Clean](#spells#cantrips#clean) | [Hide](#spells#cantrips#hide) |                |
-| 2          | [Exterminate](#spells#cantrips#exterminate) | [Firefinger](#spells#cantrips#firefinger) | [Tweak](#spells#cantrips#tweak) |                |                       | [Color](#spells#cantrips#color) |                       |                |
-| 3          |                | [Gather](#spells#cantrips#gather) | [Spider](#spells#cantrips#spider) |                |                       | [Warm](#spells#cantrips#warm) |                       |                |
+| 2          | [Exterminate](#spells#cantrips#exterminate) | [Firefinger](#spells#cantrips#firefinger) | [Spider](#spells#cantrips#spider) |                |                       | [Color](#spells#cantrips#color) |                       |                |
+| 3          |                | [Gather](#spells#cantrips#gather) | [Tweak](#spells#cantrips#tweak) |                |                       | [Warm](#spells#cantrips#warm) |                       |                |
 | 4          |                | [Open](#spells#cantrips#open) |                           |                |                       |                |                       |                |
 | 5          |                | [Sprout](#spells#cantrips#sprout) |                           |                |                       |                |                       |                |
 | 6          |                | [Stitch](#spells#cantrips#stitch) |                           |                |                       |                |                       |                |
@@ -42,7 +42,7 @@
 | ---------- | ------------------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | ------------------------ | -------------- |
 | 1          | [Protection from Normal Missiles](#spells#chaos#level3#protectionfromnormalmissiles) | [Blink](#spells#chaos#level3#blink)          |                           |                | [Hold Person](#spells#chaos#level3#holdperson)           |               | [Invisibility, 10' Radius](#spells#chaos#level3#invisibility10radius) |                |
 | 2          |                                 | [Infravision](#spells#chaos#level3#infravision)    |                           |                |                       |               | [Phantasmal Force](#spells#chaos#level3#phantasmalforce)         |                |
-| 3          |                                 |                |                           |                |                       |               |                          |                |
+| 3          |                                 | [Tongues](#spells#chaos#level3#tongues)            |                           |                |                       |               |                          |                |
 | 4          |                                 |                |                           |                |                       |               |                          |                |
 | 5          |                                 |                |                           |                |                       |               |                          |                |
 | 6          |                                 |                |                           |                |                       |               |                          |                |
@@ -105,8 +105,8 @@
 
 | **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
 | ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
-| 1          | [Remove Fear](#spells#law#level1#removefear)          | [Endure Cold & Heat](#spells#law#level1#endurecoldheat)         | [Bless](#spells#law#level1#bless)                     | [Detect Evil](#spells#law#level1#detectevil)    | [Animal Friendship](#spells#law#level1#animalfriendship)     |               |                       | [Cure Light Wounds](#spells#law#level1#curelightwounds) |
-| 2          | [Protection from Evil](#spells#law#level1#protectionfromevil) | [Light](#spells#law#level1#light)               |                           | [Detect Magic](#spells#law#level1#detectmagic)   | [Calm Animals](#spells#law#level1#calmanimals)          |               |                       |                   |
+| 1          | [Protection from Evil](#spells#law#level1#protectionfromevil) | [Endure Cold & Heat](#spells#law#level1#endurecoldheat)         | [Bless](#spells#law#level1#bless)                     | [Detect Evil](#spells#law#level1#detectevil)    | [Animal Friendship](#spells#law#level1#animalfriendship)     |               |                       | [Cure Light Wounds](#spells#law#level1#curelightwounds) |
+| 2          | [Remove Fear](#spells#law#level1#removefear)          | [Light](#spells#law#level1#light)               |                           | [Detect Magic](#spells#law#level1#detectmagic)   | [Calm Animals](#spells#law#level1#calmanimals)          |               |                       |                   |
 | 3          |                      | [Purify Food & Drink](#spells#law#level1#purifyfooddrink) |                           | [Read Magic](#spells#law#level1#readmagic)     | [Command](#spells#law#level1#command)               |               |                       |                   |
 | 4          |                      |  |                           |                | [Courage](#spells#law#level1#courage)               |               |                       |                   |
 | 5          |                      |                     |                           |                | [Pass Without Trace](#spells#law#level1#passwithouttrace)    |               |                       |                   |
@@ -118,8 +118,8 @@
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           |               |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | [Messenger](#spells#law#level2#messenger)             |               |                       |                 |
-| 3          |                | Speak With Animals |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
-| 4          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                |                       |               |                       |                 |
+| 3          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
+| 4          |                | Speak With Animals |                           |                |                       |               |                       |                 |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
@@ -562,11 +562,29 @@ Influences perceptions and actions of a humanoid:
 
 - **INT 13–18:** Save once every day.
 
+### <span id="spells#chaos#level1#chilltouch">Chill Touch (Necromancy)</span>
+
+**Range:** Touch
+
+**Duration:** 3 rounds + 1 round/level
+
+**Casting Time**: 1 segment
+
+Envelopes caster's hand in cold energy:
+
+- **Life Force Attack:** On a successful melee attack, the touched creature must save vs. spells. Failure results in 1d4 damage and a 1 point Strength loss. A successful save negates the effects.
+
+- **Effect on Strength:** Creatures without Strength ratings get a -1 attack roll penalty for every other successful touch. Lost Strength is regained at 1 point per hour.
+
+- **Undead Interaction:** Undead touched are unharmed and don't lose Strength. However, they must save vs. spells or flee for 1d4 rounds + 1 round per caster level.
+
+- **Healing:** Damage to strength can be magically cured or naturally healed.
+
 ### <span id="spells#chaos#level1#comprehendlanguages">Comprehend Languages (Divination)</span>
 
 **Range:** Caster
 
-**Duration:** 5 rounds
+**Duration:** 5 rounds/level
 
 **Casting Time:** 1 round
 
@@ -595,24 +613,6 @@ This spell makes a particular piece of writing indecipherable, makes one creatur
 - **Writing:** The writing becomes wholly indecipherable for the duration. If a creature is affected, it cannot speak coherently for the duration.
 
 - **Spellcasting:** An affected creature cannot cast spells for the duration.
-
-### <span id="spells#chaos#level1#chilltouch">Chill Touch (Necromancy)</span>
-
-**Range:** Touch
-
-**Duration:** 3 rounds + 1 round/level
-
-**Casting Time**: 1 segment
-
-Envelopes caster's hand in cold energy:
-
-- **Life Force Attack:** On a successful melee attack, the touched creature must save vs. spells. Failure results in 1d4 damage and a 1 point Strength loss. A successful save negates the effects.
-
-- **Effect on Strength:** Creatures without Strength ratings get a -1 attack roll penalty for every other successful touch. Lost Strength is regained at 1 point per hour.
-
-- **Undead Interaction:** Undead touched are unharmed and don't lose Strength. However, they must save vs. spells or flee for 1d4 rounds + 1 round per caster level.
-
-- **Healing:** Damage to strength can be magically cured or naturally healed.
 
 ### <span id="spells#chaos#level1#detectmagic">Detect Magic (Divination)</span>
 
@@ -1226,6 +1226,18 @@ Grants infravision to 60':
 
 - **Disruption:** Visible light (normal or magical) and large heat sources prevent infravision from functioning.
 
+### <span id="spells#chaos#level3#invisibility10radius">Invisibility, 10' Radius (Illusion) - Chaos</span>
+
+**Range:** Touch
+
+**Duration:** 1 day
+
+**Casting Time:** 3 segments
+
+**AoE:** 10' radius of creature touched
+
+Confers invisibility upon all creatures within 10 feet of creature touched.
+
 ### <span id="spells#chaos#level3#phantasmalforce">Phantasmal Force (Illusion) - Chaos</span>
 
 **Range:** 60'
@@ -1245,18 +1257,6 @@ Creates an illusion that appears real to those who perceive it:
 - **Limitations:** The illusion can include sound but not smell, texture, or temperature.
 
 - **Duration:** The illusion lasts until struck by an opponent—unless the spellcaster causes the illusion to react appropriately—or until the wizard ceases concentration upon the spell (due to desire, moving, or a successful attack that causes damage)
-
-### <span id="spells#chaos#level3#invisibility10radius">Invisibility, 10' Radius (Illusion) - Chaos</span>
-
-**Range:** Touch
-
-**Duration:** 1 day
-
-**Casting Time:** 3 segments
-
-**AoE:** 10' radius of creature touched
-
-Confers invisibility upon all creatures within 10 feet of creature touched.
 
 - **Items:** Clothes worn, items carried and light sources are included, but any light emitted from within the area is still visible.
 
@@ -1281,6 +1281,44 @@ Bestows total invulnerability to normal hurled and thrown missiles.
 **Special Missiles:** Large or magical missiles have their damage reduced by 1 hit point per die.
 
 **Restrictions:** This spell does not convey any protection from magical spells such as fireballs, lightning bolts, or magic missiles.
+
+### <span id="spells#chaos#level3#tongues">Tongues (Alteration) - Chaos</span>
+
+**Range:** Caster
+
+**Duration:** 1 round/level
+
+**Casting Time:** 3 segments
+
+**AoE:** 30' radius
+
+Within the area of effect, the caster is able to speak and understand any verbal language spoken.
+
+- **Fixed Area:** The spell’s area of effect does not move with the caster.
+
+- **Hearing Speech:** Only the caster hears the magical translation when other creatures speak, and only if the words are spoken within the area of effect.
+
+- **Speaking:** All creatures within the area of effect hear the magical translation of the caster’s words.
+
+- **Restrictions:** Creatures understand the caster only if they naturally speak at least one language.
+
+#### Reversed: Babble
+
+**Range:** Caster
+
+**Duration:** 1 round/level
+
+**Casting Time:** 3 segments
+
+**AoE:** 30' radius
+
+This spell makes any verbal communication impossible for any creature in the spell’s area, or it may be used to cancel out the effects of a tongues spell.
+
+- **Speech:** Spoken words become meaningless within the area of effect.
+
+- **Other communication:** Creatures may still gesture, write, and otherwise communicate.
+
+- **Spellcasting:** Creatures in the area of effect cannot cast spells for the duration, assuming they require speech to cast the spell.
 
 ## <span id="spells#chaos-level-4"> 4th Level Chaos Spells </span>
 
@@ -2116,6 +2154,32 @@ Bestows a creature with resistance to extreme temperatures, as follows:
 
 - **Limitations:** The spell is immediately cancelled if the recipient is affected by any non-normal heat or cold, such as magic, breath weapons, and so on. 
 
+### <span id="spells#law#level1#light">Light (Alteration) - Law</span>
+
+**Range:** 120'
+
+**Duration:** 12 turns
+
+**Casting Time:** 4 segments
+
+This spell has three usages:
+
+- **Conjuring light:** In a 15' radius. The magical light is sufficient
+  for reading, but is not as bright as daylight. The spell may be cast
+  upon an object, in which case the light moves with the object.
+
+- **Blinding a creature:** By casting the spell upon its eyes. If the
+  target fails a saving throw versus spells, it is blinded for the
+  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
+
+- **Cancelling darkness:** Light may cancel a darkness spell.
+
+#### Reversed: Darkness
+
+Creates a 15' radius area of magical blackness, preventing normal sight.
+Like light, it may alternatively be used to blind creatures or to dispel
+a light spell.
+
 ### <span id="spells#law#level1#passwithouttrace">Pass Without Trace (Enchantment/Charm) - Law</span>
 
 **Range:** 60'
@@ -2134,30 +2198,6 @@ footprints or scent:
 
 - **Untraceable:** Tracking any individual under this spell's effect
   becomes impossible through conventional means.
-
-### <span id="spells#law#level1#purifyfooddrink">Purify Food & Drink (Alteration) - Law</span>
-
-**Duration:** Permanent
-
-**Range:** 90'
-
-**Casting Time:** 1 round
-
-The spell enables the caster to cleanse consumables, ensuring them
-suitable to eat:
-
-- **Cleansing Effect:** Transforms spoiled, rotten, or contaminated food
-  and drink into fresh and safe consumables.
-
-- **Volume:** Up to 1 cubic foot of food and drink per caster level can
-  be purified.
-
-- **Preservation:** The spell cleanses, but does not protect against
-  future decay or spoilage.
-
-  #### Reversed: Putrefy Food & Drink
-
-The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
 
 ### <span id="spells#law#level1#protectionfromevil">Protection from Evil (Abjuration) - Law</span>
 
@@ -2185,31 +2225,29 @@ This spell wards the caster from attacks by evil creature, as follows:
 
 Works similarly against good creatures.
 
-### <span id="spells#law#level1#light">Light (Alteration) - Law</span>
+### <span id="spells#law#level1#purifyfooddrink">Purify Food & Drink (Alteration) - Law</span>
 
-**Range:** 120'
+**Duration:** Permanent
 
-**Duration:** 12 turns
+**Range:** 90'
 
-**Casting Time:** 4 segments
+**Casting Time:** 1 round
 
-This spell has three usages:
+The spell enables the caster to cleanse consumables, ensuring them
+suitable to eat:
 
-- **Conjuring light:** In a 15' radius. The magical light is sufficient
-  for reading, but is not as bright as daylight. The spell may be cast
-  upon an object, in which case the light moves with the object.
+- **Cleansing Effect:** Transforms spoiled, rotten, or contaminated food
+  and drink into fresh and safe consumables.
 
-- **Blinding a creature:** By casting the spell upon its eyes. If the
-  target fails a saving throw versus spells, it is blinded for the
-  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
+- **Volume:** Up to 1 cubic foot of food and drink per caster level can
+  be purified.
 
-- **Cancelling darkness:** Light may cancel a darkness spell.
+- **Preservation:** The spell cleanses, but does not protect against
+  future decay or spoilage.
 
-#### Reversed: Darkness
+  #### Reversed: Putrefy Food & Drink
 
-Creates a 15' radius area of magical blackness, preventing normal sight.
-Like light, it may alternatively be used to blind creatures or to dispel
-a light spell.
+The reverse of the spell spoils even holy water; however, it likewise has no effect upon creatures or potions. 
 
 ### <span id="spells#law#level1#readmagic">Read Magic (Divination) - Law</span>
 
@@ -2485,6 +2523,25 @@ Cures most diseases.
 #### Reverse: Cause Disease 
 On a failed Save vs Spells (touch attack required), symptoms begin in 1d6 turns. Thereafter the victim takes 1 hp/round and loses 1 STR per hour until reduced to 10% of original hp/STR. Disease runs its course in 1d6 days or until cured. -->
 
+### <span id="spells#law#level3#locateobject">Locate Object (Divination) - Law</span>
+
+**Range:** 30'/level
+
+**Duration:** 1 round/level
+
+**Cast Time:** 1 turn
+
+**AoE:** Special
+
+- **Seeks:** The location of a known or familiar object. Caster turns and faces the direction of the object, if located.
+
+- **Examples:** Will locate such objects as apparel, jewelry, furniture, tools, weapons, or even a ladder or stairway. 
+
+- **Restrictions:** Neither application of the spell will affect a living creature or a corpse.
+
+#### Reversed: Obscure Object
+By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
+
 ### <span id="spells#law#level3#removecurse">Remove Curse (Abjuration) - Law</span>
 
 **Range:** Touch   
@@ -2510,25 +2567,6 @@ On touch, the target is granted a saving throw. If the creature fails the saving
   - Makes the target drop whatever they are holding (or simply do nothing incase of creatures not using tools), 50% chance.
 
 It is possible for a caster to devise his or her own curse, and it should be similar in power to those shown. Consult your referee.
-
-### <span id="spells#law#level3#locateobject">Locate Object (Divination) - Law</span>
-
-**Range:** 30'/level
-
-**Duration:** 1 round/level
-
-**Cast Time:** 1 turn
-
-**AoE:** Special
-
-- **Seeks:** The location of a known or familiar object. Caster turns and faces the direction of the object, if located.
-
-- **Examples:** Will locate such objects as apparel, jewelry, furniture, tools, weapons, or even a ladder or stairway. 
-
-- **Restrictions:** Neither application of the spell will affect a living creature or a corpse.
-
-#### Reversed: Obscure Object
-By reversal (obscure object), the caster is able to hide an object from location by spell, crystal ball, or similar means. 
 
 ## <span id="spells#law-level-4"> 4th Level Law Spells </span>
 

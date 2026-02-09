@@ -3587,13 +3587,27 @@ current level affect their ability to comprehend and learn new magic.
 When gaining a new level, a spellcaster may reroll previously not
 [<u>understood</u>](#intelligence) spells from their spellbook.
 
+## <span id=memorizing-spells> Memorizing Spells </span>
+
+Mages can hold only a certain quantity of magical power in
+mental, memorized reserve to be released later in the form of a spell.
+Indeed, it is the first warning taught to apprentice mages: that to successfully memorize a 
+spell beyond one’s training and mental powers
+is the last action one will ever take as a sane human being. The mind
+will be utterly broken, and the vitriol of Chaos will seep into that
+broken vessel (if the fool is even left alive), turning the mindless husk
+into a thing far less, and far worse, than human.
+
+Some **spells beyond 6th level** are treated as magical projects that would require casting in a proper space.
+They require research, experimentation, training, and perhaps even ingredients to cast. 
+
 ## <span id=spell-copying> Spell Copying </span>
 
 Copying spells from a scroll runs the cost of an essential magical ink 
 that is suited for the spell book at hand. After successfully understanding 
 a spell, the mage may decide to rewrite the spell in the book. This costs 100
 SP worth of ink and one day of downtime per spell level. A lightning bolt in
-this case would cost 300 silver and three days' worth of downtime.
+this case would cost 300 SP and three days' worth of downtime.
 
 ## <span id=spell-research> Spell Research </span>
 
@@ -3605,15 +3619,10 @@ Below are the steps to spell researching.
 ### **Prerequisites** 
 
 - Verify the caster can learn spells of the desired level. 
-- Ensure access to an appropriate library or lab suited to the spell's type and alignment. If unavailable, you may create one, see below.
 
-### **Cost Calculation**
+- Ensure access to an appropriate library or lab suited to the spell's type and alignment. 
 
-#### Base Cost:
-
-For each week spent researching, calculate the cost:
-
-200 SP x spell level 
+If a library of the appropriate spell level is available, the cost is **500 SP x level of the spell** per week.
 
 ### Libraries
 
@@ -3621,14 +3630,13 @@ For each week spent researching, calculate the cost:
 
 > - **Example:** A Chaos Mage attempts to research the level 1 spell "Identify" without a library, spending 2000 SP
 initially. Regardless of success, a level 1 spell library is now established in that location. Future level 1 spell research
-is reduced to 200 SP per week if the library is used.
+is reduced to 500 SP per week if the library is used.
 
 #### Expanding Libraries
 
-- Having the employment of a grand library aids research. For every 10,000 sp of value above the minimum required for the spell, the spellcaster receives a +10% bonus on their magical research, up
-to a maximum +30% bonus. 
-
 - Everytime a spellcaster successfully researches a spell, 10% of the currency spent is added to the overall library value, reflecting the value of notes and annotations gathered.
+
+- Having the employment of a grand library aids research. For every **10,000 SP** of value above the minimum required for the spell, the spellcaster receives a +10% bonus on their magical research, up to a maximum +30% bonus. 
 
 - Certain legendary tomes might provide an additional bonus to research specific spells or types of spells.
 
@@ -3638,7 +3646,7 @@ to a maximum +30% bonus.
 
 - At the end of the weeks spent researching, calculate the chance of success: 
 
-> - 10% + INT/WIS score + character level − (2 x Spell Level)
+> - 10% + INT/WIS score + character level − (2 x Spell Level). A minimum of 5%, maximum 95%.
 
 > **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 − (2 × 2) = 27%
 
@@ -3648,7 +3656,7 @@ to a maximum +30% bonus.
 
 > - Failure: If the score rolled is greater than the percentage the caster must continue research for one more additional week or abandon the research.
 
-##### Continuing Failed Research
+#### Continuing Failed Research
 
 - For each additional week:
 
@@ -3671,20 +3679,6 @@ beings might be born with innate magical powers, such as the Dwarves.
 For these unique cases, spellcasting might not adhere to the same rules
 as described above. Always consult the specific race or class
 descriptions for these unique magical users.
-
-## <span id=memorizing-spells> Memorizing Spells </span>
-
-Mages can hold only a certain quantity of magical power in
-mental, memorized reserve to be released later in the form of a spell.
-Indeed, it is the first warning taught to apprentice mages: that to successfully memorize a 
-spell beyond one’s training and mental powers
-is the last action one will ever take as a sane human being. The mind
-will be utterly broken, and the vitriol of Chaos will seep into that
-broken vessel (if the fool is even left alive), turning the mindless husk
-into a thing far less, and far worse, than human.
-
-Some **spells beyond 6th level** are treated as magical projects that would require casting in a proper space.
-They require research, experimentation, training, and perhaps even ingredients to cast. 
 
 # <span id=combat> Combat </span>
 
