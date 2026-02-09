@@ -3602,49 +3602,43 @@ the approval of the Referee.
 
 Below are the steps to spell researching.
 
-### 1. **Prerequisites** 
+### **Prerequisites** 
 
 - Verify the caster can learn spells of the desired level. 
-- Ensure access to an appropriate library or lab suited to the spell's type and alignment. If unavailable, you may create one
+- Ensure access to an appropriate library or lab suited to the spell's type and alignment. If unavailable, you may create one, see below.
 
-### 2. **Cost Calculation**
+### **Cost Calculation**
 
 #### Base Cost:
 
-- **With Library:** 200 SP x spell level x week
+For each week spent researching, calculate the cost:
 
-- **Without Library:** 2000 SP x spell level x week
+200 SP x spell level 
 
-#### Creating a Library:
+### Libraries
 
 - If no library exists, a caster may choose to invest the initial creation cost (2000 SP x spell level) during the first week to gather enough materials, thus creating a permanent library for future research at that spell level. This expense is incurred even if the initial research attempt fails.
 
 > - **Example:** A Chaos Mage attempts to research the level 1 spell "Identify" without a library, spending 2000 SP
-initially. Regardless of success, a Level 1 spell library is now established. Future Level 1 research
-reduces to 200 SP per week.
+initially. Regardless of success, a level 1 spell library is now established in that location. Future level 1 spell research
+is reduced to 200 SP per week if the library is used.
 
-#### Variable Costs:
+#### Expanding Libraries
 
-- Roll 1d4 per spell level, multiply the result by 100, then add this to the base cost per week. This
-accounts for texts, materials, and additional resources. 
+- Having the employment of a grand library aids research. For every 10,000 sp of value above the minimum required for the spell, the spellcaster receives a +10% bonus on their magical research, up
+to a maximum +30% bonus. 
 
-- Formula: (d4 total × 100) + base cost per week. Record the weekly cost clearly, as it may impact further attempts if needed.
+- Everytime a spellcaster successfully researches a spell, 10% of the currency spent is added to the overall library value, reflecting the value of notes and annotations gathered.
 
-> - **Example:** Level 2 spell research: You roll 2d4, totaling 5. Variable Cost: 5 x 100 = 500 SP. Base Cost (with library): 2 × 200 = 400 SP. Total Weekly Cost: 500 SP + 400 SP = 900 SP
+- Certain legendary tomes might provide an additional bonus to research specific spells or types of spells.
 
-### 3. Time Requirement
+### Research Steps
 
 - Spell research requires 1 week per spell level.
-- Additionally, the caster must spend a separate initial week purely gathering necessary materials and
-preparing research tools. This week is separate from research weeks.
 
-- Formula: 1 initial week of preparation + (spell level × 1 research week)
+- At the end of the weeks spent researching, calculate the chance of success: 
 
-### 4. Success Determination
-
-- At the end of the research, calculate the chance of success: 
-
-> - 10% + INT/WIS + Character Level − (2 x Spell Level)
+> - 10% + INT/WIS score + character level − (2 x Spell Level)
 
 > **Example:**  A Level 5 caster with 16 INT researching a Level 2 spell: 10% + 16 + 5 − (2 × 2) = 27%
 
@@ -3652,15 +3646,23 @@ preparing research tools. This week is separate from research weeks.
 
 > - Success: The spell is learned.
 
-> - Failure: If the score rolled is greater than the percentage the caster must continue research for another week or abandon the research.
+> - Failure: If the score rolled is greater than the percentage the caster must continue research for one more additional week or abandon the research.
 
-### 5. Continuing Failed Research
+##### Continuing Failed Research
 
 - For each additional week:
 
-> - Add +10% to the success chance.
+> - Add +10% to the chance of success.
 
-Continue this process until the spell is successfully researched, or cancel.
+Continue this process until the spell is successfully researched or omit to cancel.
+
+## <span id=creation-of-magic-items> Creation of Magic Items </span>
+
+- Starting at 5th level, spellcasters may begin to scribe scrolls and brew potions. 
+
+- At 9th level, any spellcaster may attempt to make other types of magic items, such as rods, rings, swords, and other items.
+
+- A chaotic spellcaster may never create magic items that are exclusive to lawful spellcasters and vice versa. This is however dependant on the item, so do consult your GM.
 
 ## Innate Magic
 
