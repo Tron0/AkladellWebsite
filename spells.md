@@ -2485,7 +2485,7 @@ One or more snakes are rendered non-hostile, rearing up and swaying to and fro b
 
 Conjures a hammer of force that strikes once per round at a target within range, as directed by the caster.
 
-- **Attack:** The hammer attacks as a magical weapon for purposes of striking creatures that require magic to hit, but it grants no magical bonus to the roll or damage.
+- **Attack:** The hammer attacks as a magical weapon for purposes of striking creatures that require magic to hit. It gains a bonus of +1 per six experience levels (or fraction) of the spellcaster (i.e., +1 at levels 1–6, +2 at 7–12, +3 at 13+), to a maximum of +3 to the attack roll and +3 to the damage roll.
 
 - **Damage:** 1d6 vs Medium creatures or smaller. 1d4 vs Large.
 
