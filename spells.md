@@ -34,6 +34,7 @@
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
 | 1          |                |                |                           |                |                       |               | [Leomund's Trap](#spells#chaos#level2#leomundstrap)        |                |
+| 2          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud) |                       |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
@@ -119,13 +120,13 @@
 | 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           |               |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | [Messenger](#spells#law#level2#messenger)             |               |                       |                 |
 | 3          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
-| 4          |                | Speak With Animals |                           |                |                       |               |                       |                 |
+| 4          |                | Speak With Animals |                           |                |                       | [Spiritual Hammer](#spells#law#level2#spiritualhammer) |                       |                 |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
 | **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
-| 1          | Cure Blindness | Continual Light  |                           | [Locate Object](#spells#law#level3#locateobject)  |                       |               |                       | Animate Dead    |
+| 1          | [Cure Blindness](#spells#law#level3#cureblindness) | Continual Light  |                           | [Locate Object](#spells#law#level3#locateobject)  |                       |               |                       | [Animate Dead](#spells#law#level3#animatedead)    |
 | 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       | Speak With Dead |
 | 3          | [Remove Curse](#spells#law#level3#removecurse)   |                  |                           |                |                       |               |                       |                 |
 
@@ -150,7 +151,7 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | Animate Object | [Aerial Servant](#spells#law#level6#aerialservant)            | [Find the Path](#spells#law#level6#findthepath)  |                       | Blade Barrier |                       |                 |
+| 1          |                | [Animate Object](#spells#law#level6#animateobject) | [Aerial Servant](#spells#law#level6#aerialservant)            | [Find the Path](#spells#law#level6#findthepath)  |                       | Blade Barrier |                       |                 |
 | 2          |                | Word of Recall |                           |                |                       |               |                       |                 |
 
 ## [7th Level Law Spells](#spells#law-level-7)
@@ -1167,6 +1168,24 @@ Creates the illusion of a false trap on any small object.
 - **Restrictions:** If another instance of this spell is cast within 50 feet of one that is active, the casting fails.
 
 - **Components:** A special dust worth 200 sp 
+
+### <span id="spells#chaos#level2#stinkingcloud">Stinking Cloud (Evocation) - Chaos</span>
+
+**Range:** 30'
+
+**Duration:** 1 round/level
+
+**Casting Time:** 2 segments
+
+**AoE:** 20' sphere
+
+Creates a nauseating cloud of vapors to billow forth in a location within range.
+
+- **Saving Throw:** All creatures in the cloud must save vs poison.
+
+- **Fail:** The creature collapses, retching and gagging, unable to act for 1d4+1 rounds.
+
+- **Success:** The creature is stunned for 1 round and can do nothing except leave the area as fast as possible.
 
 ## <span id="spells#chaos-level-3"> 3rd Level Chaos Spells </span>
 
@@ -2456,6 +2475,26 @@ One or more snakes are rendered non-hostile, rearing up and swaying to and fro b
 
 - **Duration:** When cast on snakes that are already attacking, the spell lasts for 1d4+1 rounds. Otherwise, it lasts for 1d4+1 turns.
 
+### <span id="spells#law#level2#spiritualhammer">Spiritual Hammer (Evocation) - Law</span>
+
+**Range:** 60'
+
+**Duration:** 1 round/level
+
+**Casting Time:** 5 segments
+
+Conjures a hammer of force that strikes once per round at a target within range, as directed by the caster.
+
+- **Attack:** The hammer attacks as a magical weapon for purposes of striking creatures that require magic to hit, but it grants no magical bonus to the roll or damage.
+
+- **Damage:** 1d6 vs Medium creatures or smaller. 1d4 vs Large.
+
+- **Direction:** The caster must concentrate each round to direct the hammer. 
+
+- **Positioning:** The hammer can be directed to strike from behind a target if positioned correctly. Apply flanking bonuses and ignore the target's shield and dexterity bonuses, if any.
+
+- **Restrictions:** The hammer cannot be used to see or scout. The caster must be able to see the target. If the caster attacks or casts a spell, concentration ends and the hammer vanishes.
+
 <!-- ### Speak with Animals (Alteration) - Law
 
 **Range:** Caster
@@ -2474,6 +2513,41 @@ Allows conversation with one normal or giant, nonâ€‘fantastic animal within 30â€
 
 ## <span id="spells#law-level-3"> 3rd Level Law Spells </span>
 
+### <span id="spells#law#level3#animatedead">Animate Dead (Necromancy) - Law</span>
+
+**Range:** 10'
+
+**Duration:** Permanent
+
+**Casting Time:** 1 round
+
+See [Animate Dead (Chaos)](#spells#chaos#level5#animatedead) for the full description.
+
+### <span id="spells#law#level3#cureblindness">Cure Blindness (Necromancy) - Law</span>
+
+**Range:** Touch
+
+**Duration:** Permanent
+
+**Casting Time:** 8 segments
+
+Restores the sight of the creature touched. It does not heal damaged eyes or restore missing eyes.
+
+- **Physical blindness:** Restores physical blindness, not blindness imposed on the mind.
+
+- **Illusions:** Does not remove illusions placed on the creature or what it sees.
+
+- **Environmental effects:** Does not remove fog, darkness, or similar conditions.
+
+#### Reversed: Cause Blindness
+
+- **Attack:** An attack roll is required.
+
+- **Saving throw:** The creature touched may save vs spells.
+
+- **Effect:** Causes the target to become blind. The blindness is potentially permanent.
+
+- **Cure:** It can be cured by Cure Blindness or by being dispelled.
 <!-- ### Continual Light - Law
 
 **Range:**  120'
@@ -2677,6 +2751,24 @@ Summons an invisible aerial creature to fetch an item or creature described by t
 - **Dispelled:** Whenever the spell lapses, its duty is fulfilled, it is dispelled, the caster releases it, or the caster is slain.
 
 - **Restrictions:** Cannot be made to fight for the summoner.
+
+### <span id="spells#law#level6#animateobject">Animate Object (Transmutation/Alteration) - Law</span>
+
+**Range:** 30'
+
+**Duration:** 1 round/level
+
+**Casting Time:** 9 segments
+
+**AoE:** 1 cubic foot/level
+
+This spell rouses inanimate objects, granting them mobility and .
+
+- **Commands:** The objects obey the caster's spoken orders, even reckless ones. Issuing commands does not take the caster's action in combat, but the caster cannot cast other spells in the same round as the speech would be required.
+
+- **Mind:** The object(s) have no self-preservation, cannot speak, and do not understand languages beyond the caster's magical commands.
+
+- **Form and stats:** Size and material determine what they can do. Heavy objects hit hard, flexible like rope or rugs can constrict.
 
 ### <span id="spells#law#level6#findthepath">Find the Path (Divination) - Law</span>
 

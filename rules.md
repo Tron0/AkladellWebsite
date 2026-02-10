@@ -3166,7 +3166,7 @@ XP is earned through the acquisition of coinage and encounters. For each Silver 
 # <span id=encumbrance> Encumbrance</span>
 
 Characters have a total number of slots (or unique items carried) equal
-to their Strength Score. Each item carried takes up one slot unless
+to their Strength Score, or 8, whichever is higher. Each item carried takes up one slot unless
 noted otherwise. Some items such as torches, bandages, or daggers are
 stackable. Meaning that multiple of the same type can be carried (up to
 10). Mundane items that are small enough to fit in your hand do not
