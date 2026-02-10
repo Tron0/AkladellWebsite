@@ -33,8 +33,8 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          |                |                |                           |                |                       |               | [Leomund's Trap](#spells#chaos#level2#leomundstrap)        |                |
-| 2          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud) |                       |                |
+| 1          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud)              | [Leomund's Trap](#spells#chaos#level2#leomundstrap)        |                |
+| 2          |                |                |                           |                |                       |  |                       |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
@@ -117,10 +117,10 @@
 
 | **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
-| 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           |               |                       |                 |
+| 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           | [Spiritual Hammer](#spells#law#level2#spiritualhammer) |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | [Messenger](#spells#law#level2#messenger)             |               |                       |                 |
 | 3          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
-| 4          |                | Speak With Animals |                           |                |                       | [Spiritual Hammer](#spells#law#level2#spiritualhammer) |                       |                 |
+| 4          |                | Speak With Animals |                           |                |                       |               |                       |                 |
 
 ## [3rd Level Law Spells](#spells#law-level-3)
 
