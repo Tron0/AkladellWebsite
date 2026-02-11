@@ -134,6 +134,203 @@
         headerIds: true,  
         mangle: false    
     });
+
+    const MD_CACHE_VERSION = 'v1';
+    const MD_CACHE_PREFIX = `mdcache:${MD_CACHE_VERSION}:`;
+    const memoryCache = new Map();
+    const inFlight = new Map();
+    const NON_RULE_PAGES = new Set(['home', 'updates', 'about', 'hall-of-the-dead', 'unusedrules', 'spells']);
+
+    function getCacheKey(page) {
+        return `${MD_CACHE_PREFIX}${page}`;
+    }
+
+    function hashString(str) {
+        let hash = 5381;
+        for (let i = 0; i < str.length; i++) {
+            hash = ((hash << 5) + hash) ^ str.charCodeAt(i);
+        }
+        return (hash >>> 0).toString(16);
+    }
+
+    function readStorage(page) {
+        try {
+            const raw = localStorage.getItem(getCacheKey(page));
+            if (!raw) return null;
+            return JSON.parse(raw);
+        } catch (err) {
+            console.warn('md cache read failed', err);
+            return null;
+        }
+    }
+
+    function writeStorage(page, data) {
+        try {
+            localStorage.setItem(getCacheKey(page), JSON.stringify(data));
+        } catch (err) {
+            console.warn('md cache write failed', err);
+        }
+    }
+
+    function logPerf(page, details) {
+        const parts = [];
+        if (details.source) parts.push(details.source);
+        if (details.fetchMs != null) parts.push(`fetch ${details.fetchMs.toFixed(1)}ms`);
+        if (details.parseMs != null) parts.push(`parse ${details.parseMs.toFixed(1)}ms`);
+        if (details.totalMs != null) parts.push(`total ${details.totalMs.toFixed(1)}ms`);
+        if (parts.length) {
+            console.log(`[perf] ${page} - ${parts.join(', ')}`);
+        }
+    }
+
+    function resolvePageFromHash(hash) {
+        const clean = (hash || '').replace('#', '');
+        const [page] = clean.split('#', 2);
+        return page || 'home';
+    }
+
+    function isCurrentPage(page) {
+        const current = resolvePageFromHash(window.location.hash);
+        if (page === 'rules') {
+            return !NON_RULE_PAGES.has(current);
+        }
+        return current === page;
+    }
+
+    function renderMarkdown({ html, wrapperClass, pageClass, anchor, hash, scrollMode }) {
+        const contentEl = document.getElementById('content');
+        contentEl.className = '';
+        if (pageClass) contentEl.classList.add(pageClass);
+
+        if (wrapperClass) {
+            contentEl.innerHTML = `<div class='${wrapperClass}'>${html}</div>`;
+        } else {
+            contentEl.innerHTML = `<div>${html}</div>`;
+        }
+
+        if (scrollMode === 'anchor' && anchor) {
+            scrollToAnchor(anchor);
+        } else if (scrollMode === 'hash' && hash) {
+            scrollToHash(hash);
+        } else if (scrollMode === 'top') {
+            window.scrollTo(0, 0);
+        }
+    }
+
+    async function fetchAndParseMarkdown(page, url) {
+        if (inFlight.has(page)) {
+            return inFlight.get(page);
+        }
+        const promise = (async () => {
+            const fetchStart = performance.now();
+            const response = await fetch(url);
+            const text = await response.text();
+            const fetchMs = performance.now() - fetchStart;
+            const parseStart = performance.now();
+            const html = marked.parse(text);
+            const parseMs = performance.now() - parseStart;
+            const hash = hashString(text);
+            return { html, hash, fetchMs, parseMs };
+        })();
+
+        inFlight.set(page, promise);
+        try {
+            return await promise;
+        } catch (err) {
+            console.error(`Error loading ${url}:`, err);
+            return null;
+        } finally {
+            inFlight.delete(page);
+        }
+    }
+
+    async function revalidateMarkdown(options) {
+        const { page, url, previousHash, wrapperClass, pageClass, anchor, hash, canRender = false } = options;
+        const start = performance.now();
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+
+        if (result.hash === previousHash) {
+            logPerf(page, { source: 'revalidate-same', fetchMs: result.fetchMs, totalMs: performance.now() - start });
+            return;
+        }
+
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+
+        if (canRender && isCurrentPage(page)) {
+            renderMarkdown({
+                html: result.html,
+                wrapperClass,
+                pageClass,
+                anchor,
+                hash,
+                scrollMode: 'none'
+            });
+        }
+
+        logPerf(page, { source: 'revalidate-update', fetchMs: result.fetchMs, parseMs: result.parseMs, totalMs: performance.now() - start });
+    }
+
+    async function loadMarkdownPage(options) {
+        const { page, url, wrapperClass, pageClass, anchor, hash, scrollMode } = options;
+        const start = performance.now();
+
+        const inMemory = memoryCache.get(page);
+        if (inMemory && inMemory.html) {
+            renderMarkdown({ html: inMemory.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+            logPerf(page, { source: 'memory', totalMs: performance.now() - start });
+            return;
+        }
+
+        const stored = readStorage(page);
+        if (stored && stored.html && stored.hash) {
+            memoryCache.set(page, { html: stored.html, hash: stored.hash });
+            renderMarkdown({ html: stored.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+            logPerf(page, { source: 'storage', totalMs: performance.now() - start });
+
+            revalidateMarkdown({ page, url, previousHash: stored.hash, wrapperClass, pageClass, anchor, hash, canRender: true });
+            return;
+        }
+
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+        renderMarkdown({ html: result.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+        logPerf(page, { source: 'network', fetchMs: result.fetchMs, parseMs: result.parseMs, totalMs: performance.now() - start });
+    }
+
+    async function warmMarkdownCache(page, url) {
+        if (memoryCache.has(page)) return;
+
+        const stored = readStorage(page);
+        if (stored && stored.html && stored.hash) {
+            memoryCache.set(page, { html: stored.html, hash: stored.hash });
+            revalidateMarkdown({ page, url, previousHash: stored.hash });
+            return;
+        }
+
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+        logPerf(page, { source: 'prefetch', fetchMs: result.fetchMs, parseMs: result.parseMs });
+    }
+
+    function scheduleIdlePrefetch() {
+        const prefetch = () => {
+            warmMarkdownCache('rules', './rules.md');
+            warmMarkdownCache('spells', './spells.md');
+        };
+
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(prefetch, { timeout: 2000 });
+        } else {
+            setTimeout(prefetch, 1200);
+        }
+    }
     
     function handleTocClick(e) {
         e.preventDefault();
@@ -147,7 +344,7 @@
     }
     
     // ========== MAIN ROUTER FUNCTION ==========
-    function loadContent(hash) {
+    async function loadContent(hash) {
         // Example: "#spells#fireball"
         // Remove the leading "#" => "spells#fireball"
         const clean = hash.replace('#', '');      
@@ -167,52 +364,38 @@
         loadDeadPage();
         } 
         else if (page === 'unusedrules') {
-        fetch('./unusedrules.md')
-            .then(response => response.text())
-            .then(data => {
-            const htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = `<div class='unused-rules-content'>${htmlContent}</div>`;
-            // If there's an anchor, scroll to it
-            if (anchor) scrollToAnchor(anchor);
-            else window.scrollTo(0, 0);
-            })
-            .catch(err => console.error('Error loading unusedrules.md:', err));
+        await loadMarkdownPage({
+            page: 'unusedrules',
+            url: './unusedrules.md',
+            wrapperClass: 'unused-rules-content',
+            pageClass: '',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'anchor' : 'top'
+        });
         }  
         else if (page === 'spells') {
-        fetch('./spells.md')
-            .then(response => response.text())
-            .then(data => {
-            const contentEl = document.getElementById('content');
-            contentEl.className = '';
-            contentEl.classList.add('spells-page');
-            console.log('Adding .spells-page to #content');  // <-- debug line
-            const htmlContent = marked.parse(data);
-            contentEl.innerHTML = `<div>${htmlContent}</div>`;
-
-            if (!anchor) 
-            {
-                window.scrollTo(0, 0);
-            }
-            });
-        
+        await loadMarkdownPage({
+            page: 'spells',
+            url: './spells.md',
+            wrapperClass: '',
+            pageClass: 'spells-page',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'none' : 'top'
+        });
         }
         else {
         // Default fallback => load rules.md
-        const contentEl = document.getElementById('content');
-        contentEl.className = ''; // Clear all previously added classes (e.g., spells-page)
-            fetch('./rules.md')
-                .then(response => response.text())
-                .then(data => {
-                    const htmlContent = marked.parse(data);
-                    contentEl.innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-                    // If there's an anchor, scroll to it
-                    if (anchor) {
-                        scrollToAnchor(anchor);
-                    } else {
-                        scrollToHash(hash);
-                    }
-                })
-            .catch(err => console.error('Error loading rules.md:', err));
+        await loadMarkdownPage({
+            page: 'rules',
+            url: './rules.md',
+            wrapperClass: 'rules-content',
+            pageClass: '',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'anchor' : 'hash'
+        });
         }
 
     }
@@ -308,6 +491,8 @@
         window.location.hash = "#home";
         loadContent("#home");
         }
+
+        scheduleIdlePrefetch();
     });
     
     // Color shift on every link
