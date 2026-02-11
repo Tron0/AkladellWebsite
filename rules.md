@@ -3672,6 +3672,21 @@ Continue this process until the spell is successfully researched or omit to canc
 
 - A chaotic spellcaster may never create magic items that are exclusive to lawful spellcasters and vice versa. This is however dependant on the item, so do consult your GM.
 
+### Laboratories
+
+- Creating magic items requires access to a suitable laboratory.
+
+- Guilds and major temples may grant access to one.
+
+- A spellcaster may establish a personal laboratory by investing 4,000 SP, which supports creation up to 1st-level effects.
+
+- Each additional spell level requires another 2,000 SP investment.
+
+- Each time a spellcaster successfully creates a magic item, 10% of the currency spent is added to the laboratory value, reflecting improved equipment, tools, and refinements.
+
+- For every 10,000 SP in laboratory value above the minimum required, the spellcaster gains +10% to the magic item creation chance, up to +30%.
+
+
 ### Magic Item Creation Chance
 
 - At the end of the required crafting time, calculate the chance of success:
