@@ -3672,6 +3672,50 @@ Continue this process until the spell is successfully researched or omit to canc
 
 - A chaotic spellcaster may never create magic items that are exclusive to lawful spellcasters and vice versa. This is however dependant on the item, so do consult your GM.
 
+### Magic Item Creation Chance
+
+- At the end of the required crafting time, calculate the chance of success:
+
+> - 10% + INT/WIS score + character level - (2 x spell level of the item effect). A minimum of 5%, maximum 95%.
+
+- Roll 1d100:
+
+> - Success: The item is completed.
+
+> - Failure: Continue crafting for one more week and pay one more week of cost.
+
+#### Continuing Failed Creation
+
+- For each additional week:
+
+> - Add +10% to the chance of success.
+
+### Magic Item Costs
+
+| Item Type | Weekly Cost | Time |
+|-----------|-----------|------|
+| One time effect (potions, scrolls) | 250 SP x spell level | 1 week x spell level |
+| Charged effect | 250 SP x spell level x charges* | 2 days x spell level x charges |
+| Permanent effect, unlimited use | 250 SP x spell level x 50 | 100 days x spell level |
+| Permanent effect, use 1/turn | 250 SP x spell level x 33 | 80 days x spell level |
+| Permanent effect, use 1/3 turns | 250 SP x spell level x 25 | 70 days x spell level |
+| Permanent effect, use 1/hour | 250 SP x spell level x 16 | 60 days x spell level |
+| Permanent effect, use 3/day | 250 SP x spell level x 12 | 50 days x spell level |
+| Permanent effect, use 1/day | 250 SP x spell level x 10 | 40 days x spell level |
+| Permanent effect, use 1/week | 250 SP x spell level x 6 | 30 days x spell level |
+| Magic weapon +1 | 2,500 SP** | 1 month x weapon base cost / 10*** |
+| Raise weapon bonus from +1 to +2 | +5,000 SP** | +1 month x weapon base cost / 10*** |
+| Raise weapon bonus from +2 to +3 | +10,000 SP** | +1 month x weapon base cost / 10*** |
+| Magic armor +1 | 2,500 SP** | 1 month x Armor Class |
+| Raise armor bonus from +1 to +2 | +5,000 SP** | +1 month |
+| Raise armor bonus from +2 to +3 | +10,000 SP** | +1 month |
+
+\*If one charged item carries multiple spell effects on the same charge pool, use full weekly cost and full time for the highest spell level effect, then add half weekly cost and half time for each extra effect. Minimum creation time is still 1 week per spell level of the highest effect.
+
+\**If a weapon or armor bonus applies only against a specific class or opponent type, price that extra bonus at half cost. Any added spell-like powers are priced separately using the charged or permanent effect rules above.
+
+\***Arrows, bolts, and sling stones are enchanted in sets of 20, with a weekly cost of 5 SP.
+
 ## Innate Magic
 
 There are some exceptions to the typical rules of spellcasting. Certain
