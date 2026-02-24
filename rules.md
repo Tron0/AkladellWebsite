@@ -2231,7 +2231,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Limited Possessions:** A Monk may only retain wealth and possessions that can be reasonably carried on their person. All other coin, assets, and valuables must be surrendered their temple function, never to fellow adventurers. The value of all donated wealth is tracked. When the Monk earns enough XP to reach the next level, they must pay the usual training cost. If past donations meet or exceed the cost, no additional donation is required. Otherwise, the Monk must donate the remainder to be able to train. After training is done, remove any donations that were previously recorded.
 
-**No Magical Reliance:** Unless specifically noted, Monk's cannot wield or use magical items. For items that do not have this restriction, only two weapons and three other magical items can be used at any one time.
+**Limited Magical Reliance:** Only magical weapons of proper permission may be used, as well as rings and miscellaneous magic items. No other magic items can be used by the monk.
 
 **Strength & Dex Bonuses:** Monks never receive bonuses on to-hit or damage rolls for high Strength scores and never receive adjustments to their armor class for high Dexterity.
 

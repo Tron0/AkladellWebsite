@@ -33,8 +33,8 @@
 
 | **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
-| 1          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud)              | [Leomund's Trap](#spells#chaos#level2#leomundstrap)        |                |
-| 2          |                |                |                           |                |                       |  |                       |                |
+| 1          |                |                |                           |                |                       | [Flaming Spirit](#spells#chaos#level2#flamingspirit) | [Leomund's Trap](#spells#chaos#level2#leomundstrap) |                |
+| 2          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud) |                       |                |
 
 
 ## [3rd Level Chaos Spells](#spells#chaos-level-3)
@@ -1147,6 +1147,20 @@ This spell lets the caster inscribe a personal mark:
 
 ## <span id="spells#chaos-level-2"> 2nd Level Chaos Spells </span>
 
+### <span id="spells#chaos#level2#flamingspirit">Flaming Spirit (Evocation) - Chaos</span>
+
+**Range:** 60'
+
+**Duration:** 1 round/level
+
+**Casting Time:** 2 segments
+
+Summons a whirling line of crackling white flame that darts at the caster’s command.
+
+- **Directing:** Each round, the caster may send the flame toward a target within 30' of the flame’s current location.
+
+- **Saving Throw:** The target must save vs. spell or take 1d6 damage.
+
 ### <span id="spells#chaos#level2#leomundstrap">Leomund's Trap</span>
 
 **Range:** Touch
@@ -1359,7 +1373,7 @@ Excavates earth with shocking speed, hurling spoil to the edges and forming a pi
 
 - **Creatures at the rim: **Any creature at the edge of the area must make a Dexterity check or fall. 
 
-- **Rushing into the area:** A creature moving toward the newly opened pit in the first round must Save vs Spells or fall. 
+- **Rushing into the area:** A creature moving toward the newly opened pit in the first round must save vs spell or fall. 
 
 - **Collapse risk:** If the pit is dug deeper than 5', there is a 25% chance per round the sides collapse, modified by material (e.g., higher in sand or mud). Creatures in the pit when it collapses should Save vs Death to avoid being buried; success scrambles out to the edge.
 
@@ -1493,7 +1507,7 @@ Causes corpses or skeletons to rise as undead skeletons or zombies.
 
 Attempts to send one extraplanar creature back to its home plane.
 
-- **Resistance & save:** If the target is unwilling the creature makes a Save vs Spells. The caster's level is compared to the creature's level or Hit Dice. If the caster's level is higher, the difference is subtracted from the creature's die roll for its saving throw vs. spell. If the creature's level or Hit Dice is higher, the difference is added to the saving throw roll. 
+- **Resistance & save:** If the target is unwilling the creature makes a save vs spell. The caster's level is compared to the creature's level or Hit Dice. If the caster's level is higher, the difference is subtracted from the creature's die roll for its saving throw vs. spell. If the creature's level or Hit Dice is higher, the difference is added to the saving throw roll. 
 
 - **Mishap:** On a successful dismissal, there is a 20% chance the subject is sent to a different plane instead. 
 
@@ -1583,7 +1597,7 @@ Wards a one-story stronghold. The following take place in the warded area upon c
 
 This spell lets the caster pry into the secret essence of a subject. When properly focused, it can reveal either a creature’s true name or the command word of a device.
 
-- **Creature’s true name:** If the caster holds a personal item of the target as a focus during casting, the creature must save vs spells; on a failure, the caster learns the creature’s true name.
+- **Creature’s true name:** If the caster holds a personal item of the target as a focus during casting, the creature must save vs spell. On a failure, the caster learns the creature’s true name.
 
 - **Command words:** If the caster properly holds, bears, or wears a device while casting, the spell reveals its command word.
 
@@ -2543,7 +2557,7 @@ Restores the sight of the creature touched. It does not heal damaged eyes or res
 
 - **Attack:** An attack roll is required.
 
-- **Saving throw:** The creature touched may save vs spells.
+- **Saving throw:** The creature touched may save vs spell.
 
 - **Effect:** Causes the target to become blind. The blindness is potentially permanent.
 
@@ -2730,7 +2744,7 @@ Compels one creature to undertake a specific task and return with proof of compl
 
 - **Neglect:** Each day of delay or evasion imposes –1 to all saving throws. This penalty, which is itself in the nature of a curse, remains with the creature until the quest is completed or the curse is removed by the caster or by some other agency.
 
-- **Save:** Save vs Spells negates.
+- **Save:** Save vs spell negates.
 
 ## <span id="spells#law-level-6"> 6th Level Law Spells </span>
 
@@ -2788,7 +2802,7 @@ Imbues one creature with an uncanny sense of the shortest route into or out of a
 
 #### Reverse 
 
-- **Lose the Path:** On a successful touch to-hit attack, the target becomes totally lost and unable to make significant movement decisions for the duration, though it can be led by others. Save vs Spells negates this effect.
+- **Lose the Path:** On a successful touch to-hit attack, the target becomes totally lost and unable to make significant movement decisions for the duration, though it can be led by others. save vs spells negates this effect.
 
 ## <span id="spells#druid-level-1"> 1st Level Druid Spells </span>
 
