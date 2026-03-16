@@ -195,18 +195,18 @@ hit bonus and damage bonus from all of their classes.
 
 ## Class Talents
 
-### Allowed Armor
+##### Allowed Armor
 The character may use the best armor
 options allowed to any of their classes.
 
-### Allowed Weapons
+##### Allowed Weapons
 The character may use the best weapon
 options allowed to any of their classes.
 
-### Spell Casting
+##### Spell Casting
 The character may use the magical abilities of each class without restriction.
 
-### Stealth
+##### Stealth
 
 Class talents such as Stealth or Sleight of Hand may only be used when
 wearing armor that is allowed to the class that grants the ability.
@@ -3147,13 +3147,53 @@ Training reflects the time and effort spent mastering new skills, techniques, or
 When a player character or retainer gains enough experience points to level up, that character needs to train to gain the benefits of the level. 
 Coinage and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions.
 
-**Silver cost per day = 2% of total class XP.**
+### Cost of Training
 
-*Multi-classed characters train one class at a time. The cost per week equals to the separated XP of the chosen class and not all of them combined. For example, a Fighter 1, Specialist 2 would pay 200 SP for the 2nd level Fighter level (2000 xp).*
+Training cost is based upon the character’s current level, not the level to be gained.
 
-**Roll 3d6 to determine the number of days it takes to train and gain a level.**
+| **Type of Trainer**      | **Cost**                 |
+| ------------------------ | ------------------------ |
+| No Proper Trainer        | 1,500 sp × current level |
+| Related Class PC Trainer | 1,000 sp × current level |
+| Exact Class PC Trainer   |   750 sp × current level |
+| Respected NPC Trainer    |   500 sp × current level |
 
-## Weapon Training
+
+#####  No Proper Trainer
+
+The character must rely upon self-practice, fragmentary instruction, trial and error, old notes, or whatever guidance can be had.
+
+##### Related Class PC Trainer
+A player character of a cognate or overlapping discipline, able to provide partial but imperfect instruction. Examples include fighter to ranger, cleric to druid, or magic-user to enchanter or illusionist, where such relation is deemed reasonable by the referee.
+
+##### Exact Class PC Trainer
+
+A player character of the same class or subclass as the trainee, and of sufficient standing to instruct another in the same discipline. A trainer of this degree is required to be of an higher level.
+
+##### Respected NPC Trainer
+
+A specific, named NPC of suitable attainment, reputation, and standing with the PC, known to the campaign world and capable of proper instruction. A respected trainer is required to be of an higher level than the trainee.
+ 
+### Training Time
+
+| **Type of Trainer**      | **Training Time** |
+| ------------------------ | ------------      |
+| No Proper Trainer        |      4d6 days     |
+| Related Class PC Trainer |      3d6 days     |
+| Exact Class PC Trainer   |      2d6 days     |
+| Respected NPC Trainer    |    1d6 + 2 days     |
+
+### On the Availability of Trainers
+
+Respected NPC trainers are not a general service to be had by mere declaration in any town or city.
+
+Such trainers are specific persons and must be found, known, approached, and befriended through play. Their existence, class, disposition, and willingness to instruct shall depend upon the nature of the setting and the actions of the players.
+
+It is the intent of this rule that players be rewarded for cultivating ties with temples, guilds, brotherhoods, hermit sages, military captains, magicians, and other individuals who may in time serve as trainers.
+
+Thus, in some places, a fighter or mage instructor may be readily found, while an enchanter, monk, or other unusual sort may require rumor, introduction, patronage, service, or a special expedition to locate.
+
+## Proficiency Training
 
 Characters may spend time in a location with the appropriate facilities and teachers training their skills or proficiency.
 

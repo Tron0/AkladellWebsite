@@ -60,6 +60,20 @@ function loadUpdatePost()
     mainContent.innerHTML = '<h1>Updates</h1>';
 
     var posts = [
+
+    { 
+
+        title: 'Fixed Training',
+        content: `Training is now balanced to be cheaper in the later levels and more expensive early. Time is now dependent on  It's more akin to the BtB rules in 1e.
+        
+        <b> Changes: </b>
+
+        - Changed training costs added training time variants.
+        - QoL changes in #spells on the site.
+
+        `,
+        date: "2026-03-16 16:54 CET" 
+    },
     
     { 
 

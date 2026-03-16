@@ -87,6 +87,12 @@ h2 {
     padding: 8px;
 }
 
+#content h5 {
+    font-size: large;
+    color: #F7E8A4; /* Distinct color for h5 titles */
+    margin: 16px 0 16px 0;
+}
+
 body, p {
     color: white; /* Normal text in white */
 }
@@ -202,7 +208,9 @@ header, nav {
     width: 280px;
     height: 100vh; /* Full viewport height */
     overflow-y: auto; /* Enable vertical scrolling */
-    padding: 10px;
+    box-sizing: border-box;
+    padding: 10px 10px calc(24px + env(safe-area-inset-bottom));
+    scroll-padding-bottom: 24px;
     transition: left 0.3s;
     background-color: black;
     color: white;
@@ -288,9 +296,11 @@ footer {
 
     #toc-panel {
         width: 70vw;
-        height: calc(100vh - 20px);
+        height: 100vh;
+        height: 100dvh;
         max-width: 50%;
-        padding: 5vw;
+        box-sizing: border-box;
+        padding: 5vw 5vw calc(6vw + env(safe-area-inset-bottom));
         overflow-y: auto;
         position: fixed; /* Ensure it’s fixed for scrolling */
         top: 0; 
