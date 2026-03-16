@@ -64,7 +64,7 @@ function loadUpdatePost()
     { 
 
         title: 'Fixed Training',
-        content: `Training is now balanced to be cheaper in the later levels and more expensive early. Time is now dependent on  It's more akin to the BtB rules in 1e.
+        content: `Training is now balanced to be cheaper in the later levels and more expensive early. Time is now dependent on trainers. It's more akin to the BtB rules in 1e.
         
         <b> Changes: </b>
 
