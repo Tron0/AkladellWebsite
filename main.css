@@ -209,6 +209,36 @@ header, nav {
     z-index: 1000; /* On top of the overlay */
 }
 
+#toc-panel[data-mode="rules"] #toc-title {
+    color: #26F0F1;
+    transition: color 0.4s ease;
+}
+
+#toc-panel[data-mode="spells"] #toc-title {
+    color: #F7E8A4;
+    transition: color 0.4s ease;
+}
+
+#toc-spells ul {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#toc-spells li,
+#toc-spells div {
+    margin: 2px 0;
+}
+
+#toc-rules ul {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#toc-rules li,
+#toc-rules div {
+    margin: 2px 0;
+}
+
 #toc-overlay {
     position: fixed; /* The overlay should cover the entire screen */
     top: 0;

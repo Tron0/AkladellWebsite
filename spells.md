@@ -1,8 +1,8 @@
 # <span id="spells#spell-tables"> Spell Tables </span>
 
-## [Cantrips](#spells#cantrips)
+## <span id="spells#table-cantrips"> Cantrips </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
 | 1          | [Dry](#spells#cantrips#dry) | [Change](#spells#cantrips#change) | [Bluelight](#spells#cantrips#bluelight) |                |                       | [Clean](#spells#cantrips#clean) | [Hide](#spells#cantrips#hide) |                |
 | 2          | [Exterminate](#spells#cantrips#exterminate) | [Firefinger](#spells#cantrips#firefinger) | [Spider](#spells#cantrips#spider) |                |                       | [Color](#spells#cantrips#color) |                       |                |
@@ -11,9 +11,9 @@
 | 5          |                | [Sprout](#spells#cantrips#sprout) |                           |                |                       |                |                       |                |
 | 6          |                | [Stitch](#spells#cantrips#stitch) |                           |                |                       |                |                       |                |
 
-## [1st Level Chaos Spells](#spells#chaos-level-1)
+## <span id="spells#table-chaos-level-1"> 1st Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|----------------|-----------------------|----------------|
 | 1          | [Alarm](#spells#chaos#level1#alarm) | [Burning Hands](#spells#chaos#level1#burninghands) | [Armor](#spells#chaos#level1#armor) | [Comprehend Languages](#spells#chaos#level1#comprehendlanguages) | [Charm Person](#spells#chaos#level1#charmperson) | [Floating Disc](#spells#chaos#level1#floatingdisc) | [Change Self](#spells#chaos#level1#changeself) | [Chill Touch](#spells#chaos#level1#chilltouch) |
 | 2          | [Protection from Evil](#spells#chaos#level1#protectionfromevil) | [Enlarge](#spells#chaos#level1#enlarge) | [Find Familiar](#spells#chaos#level1#findfamiliar) | [Detect Magic](#spells#chaos#level1#detectmagic) | [Sleep](#spells#chaos#level1#sleep) | [Magic Missile](#spells#chaos#level1#magicmissile) | [Ventriloquism](#spells#chaos#level1#ventriloquism) | [Ray of Fatigue](#spells#chaos#level1#rayoffatigue) |
@@ -29,17 +29,17 @@
 | 12         |                | [Wizard Mark](#spells#chaos#level1#wizardmark) |                           |                |                       |                |                       |                |
 
 
-## [2nd Level Chaos Spells](#spells#chaos-level-2)
+## <span id="spells#table-chaos-level-2"> 2nd Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
 | 1          |                |                |                           |                |                       | [Flaming Spirit](#spells#chaos#level2#flamingspirit) | [Leomund's Trap](#spells#chaos#level2#leomundstrap) |                |
 | 2          |                |                |                           |                |                       | [Stinking Cloud](#spells#chaos#level2#stinkingcloud) |                       |                |
 
 
-## [3rd Level Chaos Spells](#spells#chaos-level-3)
+## <span id="spells#table-chaos-level-3"> 3rd Level Chaos Spells </span>
 
-| **Number** | **Abjuration**                  | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**    | **Necromancy** |
+| **#** | **Abjuration**                  | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**    | **Necromancy** |
 | ---------- | ------------------------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | ------------------------ | -------------- |
 | 1          | [Protection from Normal Missiles](#spells#chaos#level3#protectionfromnormalmissiles) | [Blink](#spells#chaos#level3#blink)          |                           |                | [Hold Person](#spells#chaos#level3#holdperson)           |               | [Invisibility, 10' Radius](#spells#chaos#level3#invisibility10radius) |                |
 | 2          |                                 | [Infravision](#spells#chaos#level3#infravision)    |                           |                |                       |               | [Phantasmal Force](#spells#chaos#level3#phantasmalforce)         |                |
@@ -48,9 +48,9 @@
 | 5          |                                 |                |                           |                |                       |               |                          |                |
 | 6          |                                 |                |                           |                |                       |               |                          |                |
 
-## [4th Level Chaos Spells](#spells#chaos-level-4)
+## <span id="spells#table-chaos-level-4"> 4th Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**  | **Necromancy**  |
+| **#** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm**  | **Necromancy**  |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | ---------------------  | --------------- |
 | 1          |                | [Enchanted Weapon](#spells#chaos#level4#enchantedweapon) |                           |                |                       | [Dig](#spells#chaos#level4#dig)           | [Hallucinatory Terrain](#spells#chaos#level4#hallucinatoryterrain) |                 |
 | 2          |                | [Wizard Eye](#spells#chaos#level4#wizardeye)       |                           |                |                       | [Fire Shield](#spells#chaos#level4#fireshield)   |                        |                 |
@@ -59,52 +59,52 @@
 | 5          |                |                  |                           |                |                       |               |                        |                 |
 | 6          |                |                  |                           |                |                       |               |                        |                 |
 
-## [5th Level Chaos Spells](#spells#chaos-level-5)
+## <span id="spells#table-chaos-level-5"> 5th Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | -------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | -------------- |
 | 1          | [Dismissal](#spells#chaos#level5#dismissal)      | [Passwall](#spells#chaos#level5#passwall)       |                           |                |                       |               |                       | [Animate Dead](#spells#chaos#level5#animatedead)   |
 
-## [6th Level Chaos Spells](#spells#chaos-level-6)
+## <span id="spells#table-chaos-level-6"> 6th Level Chaos Spells </span>
 
-| **Number** | **Abjuration**   | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**         | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration**   | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**         | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | ---------------- | -------------- | ------------------------- | -------------- | --------------------- | --------------------- | --------------------- | -------------- |
 | 1          | [Guards and Wards](#spells#chaos#level6#guardsandwards) |                |                           | [True Name](#spells#chaos#level6#truename)      |                       | [Bigby's Forceful Hand](#spells#chaos#level6#bigbysforcefulhand) |                       |                |
 
-## [7th Level Chaos Spells](#spells#chaos-level-7)
+## <span id="spells#table-chaos-level-7"> 7th Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**         | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**        | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration**         | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**        | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------------- | ------------------------- | -------------- | --------------------- | -------------------- | --------------------- | -------------- |
 | 1          |                | [Duo-Dimension](#spells#chaos#level7#duodimension)          |                           |                |                       | [Mordenkainen's Sword](#spells#chaos#level7#mordenkainenssword) |                       |                |
 | 2          |                | [Teleport Without Error](#spells#chaos#level7#teleportwithouterror) |                           |                |                       |                      |                       |                |
 
-## [8th Level Chaos Spells](#spells#chaos-level-8)
+## <span id="spells#table-chaos-level-8"> 8th Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm**         | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm**         | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-------------------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                | [Otto's Irresistible Dance](#spells#chaos#level8#ottosirresistibledance)     |               |                       |                |
 
-## [9th Level Chaos Spells](#spells#chaos-level-9)
+## <span id="spells#table-chaos-level-9"> 9th Level Chaos Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------|
 | 1          |                |                |                           |                |                       | [Contingency](#spells#chaos#level9#contingency)   |                       |                |
 
 
-## [1st Level Illusion Spells](#spells#illusion-level-1)
+## <span id="spells#table-illusion-level-1"> 1st Level Illusion Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration**  | **Conjuration/Summoning** | **Divination**      | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | --------------- | ------------------------- | ------------------- | --------------------- | ------------- | --------------------- | --------------- |
 | 1          | [Alarm](#spells#illusion#level1#alarm)          | [Color Spray](#spells#illusion#level1#colorspray)     |                           | [Detect Illusion](#spells#illusion#level1#detectillusion)     | [Hypnotism](#spells#illusion#level1#hypnotism)             | [Chromatic Orb](#spells#illusion#level1#chromaticorb) | [Audible Glamer](#spells#illusion#level1#audibleglamer)        |                 |
 | 2          |                | [Dancing Lights](#spells#illusion#level1#dancinglights)  |                           | [Detect Invisibility](#spells#illusion#level1#detectinvisibility) |                       |               | [Change Self](#spells#illusion#level1#changeself)           |                 |
 | 3          |                | [Gaze Reflection](#spells#illusion#level1#gazereflection) |                           | [Read Magic](#spells#illusion#level1#readmagic)          |                       |               | [Phantasmal Force](#spells#illusion#level1#phantasmalforce)      |                 |
-| 4          |                | Light           |                           |                     |                       |               | [Phantom Armor](#spells#illusion#level1#phantomarmor)         |                 |
+| 4          |                | [Light](#spells#chaos#level1#light) |                           |                     |                       |               | [Phantom Armor](#spells#illusion#level1#phantomarmor)         |                 |
 | 5          |                | [Wall of Fog](#spells#illusion#level1#walloffog)     |                           |                     |                       |               | [Ventriloquism](#spells#illusion#level1#ventriloquism)         |                 |
 
 
-## [1st Level Law Spells](#spells#law-level-1)
+## <span id="spells#table-law-level-1"> 1st Level Law Spells </span>
 
-| **Number** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
+| **#** | **Abjuration**       | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**   |
 | ---------- | -------------------- | ------------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | ----------------- |
 | 1          | [Protection from Evil](#spells#law#level1#protectionfromevil) | [Endure Cold & Heat](#spells#law#level1#endurecoldheat)         | [Bless](#spells#law#level1#bless)                     | [Detect Evil](#spells#law#level1#detectevil)    | [Animal Friendship](#spells#law#level1#animalfriendship)     |               |                       | [Cure Light Wounds](#spells#law#level1#curelightwounds) |
 | 2          | [Remove Fear](#spells#law#level1#removefear)          | [Light](#spells#law#level1#light)               |                           | [Detect Magic](#spells#law#level1#detectmagic)   | [Calm Animals](#spells#law#level1#calmanimals)          |               |                       |                   |
@@ -113,59 +113,59 @@
 | 5          |                      |                     |                           |                | [Pass Without Trace](#spells#law#level1#passwithouttrace)    |               |                       |                   |
 
 
-## [2nd Level Law Spells](#spells#law-level-2)
+## <span id="spells#table-law-level-2"> 2nd Level Law Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration**     | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|--------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | [Isphek's Burden](#spells#law#level2#ispheksburden)    |                           | Find Traps     | [Hold Person](#spells#law#level2#holdperson)           | [Spiritual Hammer](#spells#law#level2#spiritualhammer) |                       |                 |
 | 2          |                | Resist Fire        |                           | Know Alignment | [Messenger](#spells#law#level2#messenger)             |               |                       |                 |
 | 3          |                | [Silence 15' Radius](#spells#law#level2#silence15radius) |                           |                | [Snake Charm](#spells#law#level2#snakecharm)           |               |                       |                 |
 | 4          |                | Speak With Animals |                           |                |                       |               |                       |                 |
 
-## [3rd Level Law Spells](#spells#law-level-3)
+## <span id="spells#table-law-level-3"> 3rd Level Law Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration**   | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 | ---------- | -------------- | ---------------- | ------------------------- | -------------- | --------------------- | ------------- | --------------------- | --------------- |
 | 1          | [Cure Blindness](#spells#law#level3#cureblindness) | Continual Light  |                           | [Locate Object](#spells#law#level3#locateobject)  |                       |               |                       | [Animate Dead](#spells#law#level3#animatedead)    |
 | 2          | Cure Disease   | Growth Of Animal |                           |                |                       |               |                       | Speak With Dead |
 | 3          | [Remove Curse](#spells#law#level3#removecurse)   |                  |                           |                |                       |               |                       |                 |
 
 
-## [4th Level Law Spells](#spells#law-level-4)
+## <span id="spells#table-law-level-4"> 4th Level Law Spells </span>
 
-| **Number** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**     |
+| **#** | **Abjuration**                   | **Alteration**      | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**     |
 |------------|----------------------------------|---------------------|---------------------------|----------------|-----------------------|---------------|-----------------------|---------------------|
 | 1          | Dispel Magic                     | Create Food & Water |                           |                |                       |               |                       | [Cure Serious Wounds](#spells#law#level4#cureseriouswounds) |
 | 2          | [Neutralise Poison](#spells#law#level4#neutralisepoison)                | [Speak with Plants](#spells#law#level4#speakwithplants)   |                           |                |                       |               |                       |                     |
 | 3          | Protection from Evil, 10' Radius | Sticks to Snakes    |                           |                |                       |               |                       |                     |
 
 
-## [5th Level Law Spells](#spells#law-level-5)
+## <span id="spells#table-law-level-5"> 5th Level Law Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**      |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy**      |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|----------------------|
 | 1          | Dispel Evil    |                | [Insect Plague](#spells#law#level5#insectplague)             | True Sight     | [Quest](#spells#law#level5#quest)                 |               |                       | Cure Critical Wounds |
 
 
-## [6th Level Law Spells](#spells#law-level-6)
+## <span id="spells#table-law-level-6"> 6th Level Law Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | [Animate Object](#spells#law#level6#animateobject) | [Aerial Servant](#spells#law#level6#aerialservant)            | [Find the Path](#spells#law#level6#findthepath)  |                       | Blade Barrier |                       |                 |
 | 2          |                | Word of Recall |                           |                |                       |               |                       |                 |
 
-## [7th Level Law Spells](#spells#law-level-7)
+## <span id="spells#table-law-level-7"> 7th Level Law Spells </span>
 
-| **Number** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**       | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration** | **Conjuration/Summoning** | **Divination** | **Enchantment/Charm** | **Evocation**       | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|----------------|---------------------------|----------------|-----------------------|---------------------|-----------------------|-----------------|
 | 1          | Earthquake     | Astral Spell   | Holy Word                 |                |                       | Digit of Disruption |                       | Regenerate      |
 | 2          |                |                | Symbol                    |                |                       |                     |                       | Restoration     |
 
 
 
-## [1st Level Druidic Spells](#spells#druid-level-1)
+## <span id="spells#table-druid-level-1"> 1st Level Druidic Spells </span>
 
-| **Number** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
+| **#** | **Abjuration** | **Alteration**          | **Conjuration/Summoning** | **Divination**         | **Enchantment/Charm** | **Evocation** | **Illusion/Phantasm** | **Necromancy** |
 |------------|----------------|-------------------------|---------------------------|------------------------|-----------------------|---------------|-----------------------|-----------------|
 | 1          |                | [Entangle](#spells#druid#level1#entangle)                |                           | [Detect Danger](#spells#druid#level1#detectdanger)          | [Animal Friendship](#spells#druid#level1#animalfriendship)     |               |                       |                 |
 | 2          |                | [Faerie Fire](#spells#druid#level1#faeriefire)             |                           | [Locate Plant or Animal](#spells#druid#level1#locateplantoranimal) |                       |               |                       |                 |
