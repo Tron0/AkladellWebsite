@@ -247,6 +247,12 @@ header, nav {
     margin: 2px 0;
 }
 
+#toc-rules > ul,
+#toc-spells > ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
 #toc-overlay {
     position: fixed; /* The overlay should cover the entire screen */
     top: 0;
