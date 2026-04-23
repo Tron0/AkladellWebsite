@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akladell</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="icon" type="image/png" href="media/favicon.png">
 </head>
 <body>
     <div class="buttons-wrapper">
@@ -27,79 +28,144 @@
                 <div class="nav-items">
                     <div id="nav">
                         <a href="#home">Home</a>
-                        <a href="#rules">Rules Index</a>
+                        <a href="#rules">Rules</a>
+                        <a href="#spells">Spells</a>
                         <a href="#updates">Updates</a>
                         <a href="#about">About</a>
-                        <a href="#discord" id="discordlink">Discord</a>
                         <a href="#hall-of-the-dead">Hall of the Dead</a>
                     </div>
                 </div>
             </nav>
             <div id="toc-wrapper">
-                <div id="toc-panel">
-                    <h2>Table of Contents</h2>
-                    <ul>
-                        <div><a href="#quick-creation-reference">Quick Creation Reference</a></div>
-                        <div><a href="#character-creation">Character Creation</a></div>
-                        <ul>
-                            <li><a href="age">Age</a></li>
-                            <li><a href="backgrounds">Backgrounds</a></li>
-                            <li><a href="special-abilities">Special Abilities</a></li>
-                        </ul>
-                        <div><a href="#ability-scores">Ability Scores</a></div>
-                        <div><a href="#classes">Classes</a></div>
-                            <ul>
-                            <li><a href="#barbarian">Barbarian</a></li>
-                            <li><a href="#chaos-mage">Chaos Mage</a></li>
-                            <ul>
-                                <li><a href="#illusionist">Illusionist</a></li>
-                            </ul>
-                            <li><a href="#fighter">Fighter</a></li>
-                            <ul>
-                                <li><a href="#inquisitor">Inquisitor</a></li>
-                                <li><a href="#ranger">Ranger</a></li>
-                            </ul>
-                            <li><a href="#law-mage">Law Mage</a></li>
-                            <li><a href="#specialist">Specialist</a></li>
-                            </ul>
-                        <div><a href="#languages">Languages</a></div>
-                        <div><a href="#alignment">Alignment</a></div>
-                        <div><a href="#general-gameplay">General Gameplay</a></div>
-                        <div><a href="#spellcasting">Spellcasting</a></div>
-                        <ul>
-                            <li><a href="#spell-copying">Spell Copying</a></li>
-                            <li><a href="#spell-research">Spell Research</a></li>
-                            <li><a href="#memorizing-spells">Memorizing Spells</a></li>
-                        </ul>
-                        <div><a href="#combat">Combat</a></div>
-                            <ul>
-                            <li><a href="#combat-actions">Combat Actions</a></li>
-                            <li><a href="#flanking">Flanking</a></li>
-                            <li><a href="#missile-and-missile-combat">Missile and Missile Combat</a></li>
-                            <li><a href="#calculating-hits">Calculating Hits per Level</a></li>
-                            <li><a href="#weapon-proficiencies">Weapon Proficiencies</a></li>    
-                            </ul>
-                        <div><a href="#injury-&-death">Injury & Death</a></div>
-                        <div><a href="#creature-size">Creature Size</a></div>
-                        <div><a href="#time">Time</a></div>
-                        <div><a href="#retainers">Retainers</a></div>
-                        <div><a href="#encumbrance-&-movement">Encumbrance & Movement</a></div>
-                        <div><a href="#multiclassing">Multiclassing</a></div>
-                        <div><a href="#psionics">Psionics</a></div>
-                        <div><a href="#items">Items</a></div>
-                        <ul>
-                            <li><a href="#starting-equipment">Starting Equipment</a></li>
-                            <li><a href="#general-equipment">General Equipment</a></li>
-                            <li><a href="#armor">Armor</a></li>
-                            <li><a href="#weapon-keywords">Weapon Keywords</a></li>
-                            <li><a href="#melee-weapons">Melee Weapons</a></li>
-                            <li><a href="#ranged-weapons">Ranged Weapons</a></li>
-                        </ul>
-                        <div><a href="#spells" class="spells-link">Spells</a></div>
+                <div id="toc-panel" data-mode="rules">
+                    <h2 id="toc-title">Table of Contents</h2>
 
-                        <div><a href="#sources">Sources</a></div>
-                        <div><a href="#unusedrules" onclick="loadContent('#unusedrules')">Unused Rules</a></div>
-                    </ul>
+                    <div id="toc-rules" class="toc-section">
+                        <ul>
+                            <div><a href="#spells">Spells</a></div>
+                            <div><a href="#quick-creation-reference">Quick Creation Reference</a></div>
+                            <div><a href="#character-creation">Character Creation</a></div>
+                            <ul>
+                                <li><a href="#race">Races</a></li>
+                                <li><a href="#ability-scores">Ability Scores</a></li>
+                                <li><a href="#age">Age</a></li>
+                                <li><a href="#boons-&-banes">Boons & Banes</a></li>
+                                <li><a href="#backgrounds">Backgrounds</a></li>
+                            </ul>
+                            <div><a href="#multi-classing">Multi-Classing</a></div>
+                            <div><a href="#dual-classing">Dual-Classing</a></div>
+                            <div><a href="#classes">Classes</a></div>
+                                <ul>
+                                <li><a href="#chaos-mage">Chaos Mage</a></li>
+                                <ul>
+                                    <li><a href="#illusionist">Illusionist</a></li>
+                                </ul>
+                                <li><a href="#enchanter">Enchanter</a></li>
+                                <li><a href="#fighter">Fighter</a></li>
+                                <ul>
+                                    <li><a href="#barbarian">Barbarian</a></li>
+                                    <li><a href="#inquisitor">Inquisitor</a></li>
+                                    <li><a href="#ranger">Ranger</a></li>
+                                </ul>
+                                <li><a href="#law-mage">Law Mage</a></li>
+                                <ul>
+                                    <li><a href="#druid">Druid</a></li>
+                                </ul>
+                                <li><a href="#monk">Monk</a></li>
+                                <ul>
+                                    <li><a href="#martial-arts-styles">Martial Arts Styles</a></li>
+                                </ul>
+                                <li><a href="#specialist">Specialist</a></li>
+                                </ul>
+                            <div><a href="#general-gameplay">General Gameplay</a></div>
+                            <ul>
+                                <li><a href="#alignment">Alignment</a></li>
+                                <li><a href="#currency">Currency</a></li>
+                                <li><a href="#downtime">Downtime</a></li>
+                                <ul>
+                                     <li><a href="#training">Training</a></li>
+                                </ul>
+                                <li><a href="#encumbrance">Encumbrance</a></li>
+                                <ul>
+                                     <li><a href="#movement">Movement</a></li>
+                                </ul>
+                                <li><a href="#languages">Languages</a></li>
+                                <li><a href="#psionics">Psionics</a></li>
+                                <li><a href="#retainers">Retainers</a></li>
+                                <li><a href="#time">Time</a></li>
+                            </ul>
+                            <div><a href="#spellcasting">Spellcasting</a></div>
+                            <ul>
+                                <li><a href="#memorizing-spells">Memorizing Spells</a></li>
+                                <li><a href="#spell-copying">Spell Copying</a></li>
+                                <li><a href="#spell-research">Spell Research</a></li>
+                                <li><a href="#creation-of-magic-items">Creation of Magic Items</a></li>
+                            </ul>
+                            <div><a href="#combat">Combat</a></div>
+                                <ul>
+                                <li><a href="#combat-actions">Combat Actions</a></li>
+                                <li><a href="#flanking">Flanking</a></li>
+                                <li><a href="#missile-and-missile-combat">Missile and Missile Combat</a></li>
+                                <li><a href="#weapon-proficiencies">Weapon Proficiencies</a></li>
+                                <li><a href="#injury-&-death">Injury & Death</a></li>
+                                <li><a href="#creature-size">Creature Size</a></li>
+                                </ul>
+                            <div><a href="#items">Items</a></div>
+                            <ul>
+                                <li><a href="#starting-equipment">Starting Equipment</a></li>
+                                <li><a href="#general-equipment">General Equipment</a></li>
+                                <li><a href="#storage">Storage</a></li>
+                                <li><a href="#armor">Armor</a></li>
+                                <li><a href="#melee-weapons">Melee Weapons</a></li>
+                                <li><a href="#ranged-weapons">Ranged Weapons</a></li>
+                            </ul>
+                            <div><a href="#sources">Sources</a></div>
+                            <div><a href="#unusedrules">Unused Rules</a></div>
+                        </ul>
+                    </div>
+
+                    <div id="toc-spells" class="toc-section" hidden>
+                        <ul>
+                            <div><a href="#rules">Rules</a></div>
+                            <div><a href="#spells#spell-tables">Spell Tables</a></div>
+                            <ul>
+                                <li><a href="#spells#table-chaos-level-1">Chaos</a></li>
+                                <ul>
+                                    <li><a href="#spells#table-cantrips">Cantrips</a></li>
+                                    <li><a href="#spells#table-chaos-level-1">1st Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-2">2nd Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-3">3rd Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-4">4th Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-5">5th Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-6">6th Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-7">7th Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-8">8th Level</a></li>
+                                    <li><a href="#spells#table-chaos-level-9">9th Level</a></li>
+                                </ul>
+
+                                <li><a href="#spells#table-illusion-level-1">Illusion</a></li>
+                                <ul>
+                                    <li><a href="#spells#table-illusion-level-1">1st Level</a></li>
+                                </ul>
+
+                                <li><a href="#spells#table-law-level-1">Law</a></li>
+                                <ul>
+                                    <li><a href="#spells#table-law-level-1">1st Level</a></li>
+                                    <li><a href="#spells#table-law-level-2">2nd Level</a></li>
+                                    <li><a href="#spells#table-law-level-3">3rd Level</a></li>
+                                    <li><a href="#spells#table-law-level-4">4th Level</a></li>
+                                    <li><a href="#spells#table-law-level-5">5th Level</a></li>
+                                    <li><a href="#spells#table-law-level-6">6th Level</a></li>
+                                    <li><a href="#spells#table-law-level-7">7th Level</a></li>
+                                </ul>
+
+                                <li><a href="#spells#table-druid-level-1">Druidic</a></li>
+                                <ul>
+                                    <li><a href="#spells#table-druid-level-1">1st Level</a></li>
+                                </ul>
+                            </ul>
+                        </ul>
+                    </div>
                 </div>
                 <div id="content-wrapper">
                     <div id="content"></div>
@@ -107,7 +173,7 @@
             </div>
             <div id="toc-overlay"></div>
         </div>
-        <footer><hr>Joel Andersson 2024</footer>
+        <footer><hr>Joel Andersson 2023-2026</footer>
     </div>
 
 <script type="module">
@@ -117,6 +183,215 @@
         headerIds: true,  
         mangle: false    
     });
+
+    const MD_CACHE_VERSION = 'v2';
+    const MD_CACHE_PREFIX = `mdcache:${MD_CACHE_VERSION}:`;
+    const memoryCache = new Map();
+    const inFlight = new Map();
+    const NON_RULE_PAGES = new Set(['home', 'updates', 'about', 'hall-of-the-dead', 'unusedrules', 'spells']);
+    const tocPanelEl = document.getElementById('toc-panel');
+    const tocRulesEl = document.getElementById('toc-rules');
+    const tocSpellsEl = document.getElementById('toc-spells');
+
+    function getCacheKey(page) {
+        return `${MD_CACHE_PREFIX}${page}`;
+    }
+
+    function hashString(str) {
+        let hash = 5381;
+        for (let i = 0; i < str.length; i++) {
+            hash = ((hash << 5) + hash) ^ str.charCodeAt(i);
+        }
+        return (hash >>> 0).toString(16);
+    }
+
+    function readStorage(page) {
+        try {
+            const raw = localStorage.getItem(getCacheKey(page));
+            if (!raw) return null;
+            return JSON.parse(raw);
+        } catch (err) {
+            console.warn('md cache read failed', err);
+            return null;
+        }
+    }
+
+    function writeStorage(page, data) {
+        try {
+            localStorage.setItem(getCacheKey(page), JSON.stringify(data));
+        } catch (err) {
+            console.warn('md cache write failed', err);
+        }
+    }
+
+    function logPerf(page, details) {
+        const parts = [];
+        if (details.source) parts.push(details.source);
+        if (details.fetchMs != null) parts.push(`fetch ${details.fetchMs.toFixed(1)}ms`);
+        if (details.parseMs != null) parts.push(`parse ${details.parseMs.toFixed(1)}ms`);
+        if (details.totalMs != null) parts.push(`total ${details.totalMs.toFixed(1)}ms`);
+        if (parts.length) {
+            console.log(`[perf] ${page} - ${parts.join(', ')}`);
+        }
+    }
+
+    function resolvePageFromHash(hash) {
+        const clean = (hash || '').replace('#', '');
+        const [page] = clean.split('#', 2);
+        return page || 'home';
+    }
+
+    function isCurrentPage(page) {
+        const current = resolvePageFromHash(window.location.hash);
+        if (page === 'rules') {
+            return !NON_RULE_PAGES.has(current);
+        }
+        return current === page;
+    }
+
+    function setTocMode(mode) {
+        const normalizedMode = mode === 'spells' ? 'spells' : 'rules';
+        tocPanelEl.dataset.mode = normalizedMode;
+        tocRulesEl.hidden = normalizedMode !== 'rules';
+        tocSpellsEl.hidden = normalizedMode !== 'spells';
+    }
+
+    function renderMarkdown({ html, wrapperClass, pageClass, anchor, hash, scrollMode }) {
+        const contentEl = document.getElementById('content');
+        contentEl.className = '';
+        if (pageClass) contentEl.classList.add(pageClass);
+
+        if (wrapperClass) {
+            contentEl.innerHTML = `<div class='${wrapperClass}'>${html}</div>`;
+        } else {
+            contentEl.innerHTML = `<div>${html}</div>`;
+        }
+
+        if (scrollMode === 'anchor' && anchor) {
+            scrollToAnchor(anchor);
+        } else if (scrollMode === 'spells-anchor' && anchor) {
+            scrollToSpellsAnchor(anchor);
+        } else if (scrollMode === 'hash' && hash) {
+            scrollToHash(hash);
+        } else if (scrollMode === 'top') {
+            window.scrollTo(0, 0);
+        }
+    }
+
+    async function fetchAndParseMarkdown(page, url) {
+        if (inFlight.has(page)) {
+            return inFlight.get(page);
+        }
+        const promise = (async () => {
+            const fetchStart = performance.now();
+            const response = await fetch(url);
+            const text = await response.text();
+            const fetchMs = performance.now() - fetchStart;
+            const parseStart = performance.now();
+            const html = marked.parse(text);
+            const parseMs = performance.now() - parseStart;
+            const hash = hashString(text);
+            return { html, hash, fetchMs, parseMs };
+        })();
+
+        inFlight.set(page, promise);
+        try {
+            return await promise;
+        } catch (err) {
+            console.error(`Error loading ${url}:`, err);
+            return null;
+        } finally {
+            inFlight.delete(page);
+        }
+    }
+
+    async function revalidateMarkdown(options) {
+        const { page, url, previousHash, wrapperClass, pageClass, anchor, hash, canRender = false } = options;
+        const start = performance.now();
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+
+        if (result.hash === previousHash) {
+            logPerf(page, { source: 'revalidate-same', fetchMs: result.fetchMs, totalMs: performance.now() - start });
+            return;
+        }
+
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+
+        if (canRender && isCurrentPage(page)) {
+            renderMarkdown({
+                html: result.html,
+                wrapperClass,
+                pageClass,
+                anchor,
+                hash,
+                scrollMode: 'none'
+            });
+        }
+
+        logPerf(page, { source: 'revalidate-update', fetchMs: result.fetchMs, parseMs: result.parseMs, totalMs: performance.now() - start });
+    }
+
+    async function loadMarkdownPage(options) {
+        const { page, url, wrapperClass, pageClass, anchor, hash, scrollMode } = options;
+        const start = performance.now();
+
+        const inMemory = memoryCache.get(page);
+        if (inMemory && inMemory.html) {
+            renderMarkdown({ html: inMemory.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+            logPerf(page, { source: 'memory', totalMs: performance.now() - start });
+            return;
+        }
+
+        const stored = readStorage(page);
+        if (stored && stored.html && stored.hash) {
+            memoryCache.set(page, { html: stored.html, hash: stored.hash });
+            renderMarkdown({ html: stored.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+            logPerf(page, { source: 'storage', totalMs: performance.now() - start });
+
+            revalidateMarkdown({ page, url, previousHash: stored.hash, wrapperClass, pageClass, anchor, hash, canRender: true });
+            return;
+        }
+
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+        renderMarkdown({ html: result.html, wrapperClass, pageClass, anchor, hash, scrollMode });
+        logPerf(page, { source: 'network', fetchMs: result.fetchMs, parseMs: result.parseMs, totalMs: performance.now() - start });
+    }
+
+    async function warmMarkdownCache(page, url) {
+        if (memoryCache.has(page)) return;
+
+        const stored = readStorage(page);
+        if (stored && stored.html && stored.hash) {
+            memoryCache.set(page, { html: stored.html, hash: stored.hash });
+            revalidateMarkdown({ page, url, previousHash: stored.hash });
+            return;
+        }
+
+        const result = await fetchAndParseMarkdown(page, url);
+        if (!result) return;
+        memoryCache.set(page, { html: result.html, hash: result.hash });
+        writeStorage(page, { hash: result.hash, html: result.html, ts: Date.now() });
+        logPerf(page, { source: 'prefetch', fetchMs: result.fetchMs, parseMs: result.parseMs });
+    }
+
+    function scheduleIdlePrefetch() {
+        const prefetch = () => {
+            warmMarkdownCache('rules', './rules.md');
+            warmMarkdownCache('spells', './spells.md');
+        };
+
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(prefetch, { timeout: 2000 });
+        } else {
+            setTimeout(prefetch, 1200);
+        }
+    }
     
     function handleTocClick(e) {
         e.preventDefault();
@@ -130,12 +405,13 @@
     }
     
     // ========== MAIN ROUTER FUNCTION ==========
-    function loadContent(hash) {
+    async function loadContent(hash) {
         // Example: "#spells#fireball"
         // Remove the leading "#" => "spells#fireball"
         const clean = hash.replace('#', '');      
         // Split on the second "#" => ["spells", "fireball"]
         const [page, anchor] = clean.split('#', 2);
+        setTocMode(page === 'spells' ? 'spells' : 'rules');
     
         if (page === 'home') {
         loadHomePage();
@@ -150,52 +426,38 @@
         loadDeadPage();
         } 
         else if (page === 'unusedrules') {
-        fetch('./unusedrules.md')
-            .then(response => response.text())
-            .then(data => {
-            const htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = `<div class='unused-rules-content'>${htmlContent}</div>`;
-            // If there's an anchor, scroll to it
-            if (anchor) scrollToAnchor(anchor);
-            else window.scrollTo(0, 0);
-            })
-            .catch(err => console.error('Error loading unusedrules.md:', err));
+        await loadMarkdownPage({
+            page: 'unusedrules',
+            url: './unusedrules.md',
+            wrapperClass: 'unused-rules-content',
+            pageClass: '',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'anchor' : 'top'
+        });
         }  
         else if (page === 'spells') {
-        fetch('./spells.md')
-            .then(response => response.text())
-            .then(data => {
-            const contentEl = document.getElementById('content');
-            contentEl.className = '';
-            contentEl.classList.add('spells-page');
-            console.log('Adding .spells-page to #content');  // <-- debug line
-            const htmlContent = marked.parse(data);
-            contentEl.innerHTML = `<div>${htmlContent}</div>`;
-
-            if (!anchor) 
-            {
-                window.scrollTo(0, 0);
-            }
-            });
-        
+        await loadMarkdownPage({
+            page: 'spells',
+            url: './spells.md',
+            wrapperClass: '',
+            pageClass: 'spells-page',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'spells-anchor' : 'top'
+        });
         }
         else {
         // Default fallback => load rules.md
-        const contentEl = document.getElementById('content');
-        contentEl.className = ''; // Clear all previously added classes (e.g., spells-page)
-            fetch('./rules.md')
-                .then(response => response.text())
-                .then(data => {
-                    const htmlContent = marked.parse(data);
-                    contentEl.innerHTML = `<div class='rules-content'>${htmlContent}</div>`;
-                    // If there's an anchor, scroll to it
-                    if (anchor) {
-                        scrollToAnchor(anchor);
-                    } else {
-                        scrollToHash(hash);
-                    }
-                })
-            .catch(err => console.error('Error loading rules.md:', err));
+        await loadMarkdownPage({
+            page: 'rules',
+            url: './rules.md',
+            wrapperClass: 'rules-content',
+            pageClass: '',
+            anchor,
+            hash,
+            scrollMode: anchor ? 'anchor' : 'hash'
+        });
         }
 
     }
@@ -207,6 +469,14 @@
         const el = document.getElementById(anchor);
         if (el) {
         el.scrollIntoView();
+        }
+    }
+
+    function scrollToSpellsAnchor(anchor) {
+        const targetId = `spells#${anchor}`;
+        const target = document.getElementById(targetId) || document.getElementById(anchor);
+        if (target) {
+        target.scrollIntoView();
         }
     }
     
@@ -291,6 +561,8 @@
         window.location.hash = "#home";
         loadContent("#home");
         }
+
+        scheduleIdlePrefetch();
     });
     
     // Color shift on every link
