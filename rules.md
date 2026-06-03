@@ -40,17 +40,185 @@
 - [<u>Psionics</u>](#psionics)
 - [<u>Weapon Proficiencies</u>](#weapon-proficiencies) (Initial number on class page)
 
-**(10) Roll for [<u>special abilities</u>](#special-abilities)**
+**(10) Roll for [<u>boons-&-banes</u>](#boons-&-banes)**
 
-- After all the previous steps are completed, roll on the [<u>special abilities</u>](#special-abilities) table and let the referee roll to determine the specific sort of effect it has on the character.
+- After all the previous steps are completed, roll on the [<u>boons & banes</u>](#boons-&-banes) table and let the referee roll to determine the specific sort of effect it has on the character.
 
 # <span id=character-creation> Character Creation </span>
 
-## Rolling Ability Scores 
+# <span id=races> Races </span>
 
-4d6 drop lowest (remove the lowest). Roll each stat in order: Strength,
+## Human
+
+**Size:** Medium
+
+**Languages:** Draenerian/Woldish (Common)
+
+**Description:** Humans are the most diverse and adaptable of all the
+races, found in every corner of the world.
+
+## Elf
+
+**Size:** Medium
+
+**Languages:** Woldish, Sylvan, Elvish
+
+**Description:** Of all the peoples who dwell in Fairy, elves are the primary pursuers of magic and authority. Their kind include sorcerers, scholars, knights, cunning thieves and wanderers.
+
+**Keen Senses:** Elves have exceptionally sharp sight and hearing. When searching a room, they detect secret doors, concealed passages, and hidden features on a 2-in-6 chance. They also have an increased 2-in-6 chance to hear faint sounds when listening at doors.
+
+**Immunity to Ghoul Paralysis:** Elves are unaffected by the paralysis that ghouls
+inflict.
+
+**Magical Resistance:** Elves are creatures of Fairy, a realm where magic runs through the very nature of things. This gives them an innate resistance to spells and enchantments. Elves gain +2 to saves vs spell.
+
+**Ability Score Modifier:** +1 Intelligence, -1 Constitution
+
+## Avian
+
+**Size:** Medium
+
+**Languages:** Common, Avian
+
+**Description:** Avians are a feathered folk of birdlike aspect. Keen eyes, and quick, restless minds. Though the gift of true flight has long since passed from them, they remain light of frame and deft of motion. They are often found among artisans, sages, scouts, tumblers, and other such callings.
+
+**Gliding:** Avians cannot fly, but may spread their wings to glide when falling. 
+If they have room to do so, they take no damage from the fall and may move 1 foot forward or sideways for every 1 foot they descend.
+
+**Bird’s Eye View:** Avians possess remarkable eyesight. They can see twice as far as most races, and have a 2-in-6 chance to notice hidden doors, traps, or other unusual features when entering a room for the first time.
+
+**Ability Score Modifier:** -1 Strength, +1 Dexterity 
+
+# Ability Scores
+
+4d6 drop lowest (remove the lowest die result). Roll each stat in order: Strength,
 Dexterity, Constitution, Intelligence, Wisdom and Charisma. After rolling for stats, you
 may swap two ability scores with each other, once.
+
+### Strength
+
+| **Score**  | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
+|------------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
+| 3          | -3                    | -1                    | 1 / 6                                          | 0%                                               | 30%       |
+| 4 - 5      | -2                    | -1                    | 1 / 6                                          | 0%                                               | 40%       |
+| 6 - 7      | -1                    | +0                    | 1 / 6                                          | 0%                                               | 50%       |
+| 8 - 9      | +0                    | +0                    | 2 / 6                                          | 1%                                               | 60%       |
+| 10 - 11    | +0                    | +0                    | 2 / 6                                          | 2%                                               | 70%       |
+| 12 - 13    | +0                    | +0                    | 2 / 6                                          | 4%                                               | 80%       |
+| 14 - 15    | +0                    | +0                    | 2 / 6                                          | 7%                                               | 90%       |
+| 16         | +0                    | +1                    | 3 / 6                                          | 10%                                              | 91%       |
+| 17         | +1                    | +1                    | 3 / 6                                          | 13%                                              | 92%       |
+| 18         | +1                    | +2                    | 3 / 6                                          | 16%                                              | 93%       |
+| 18 / 01 - 50 | +1                    | +3                    | 3 / 6                                          | 20%                                              | 94%       |
+| 18 / 51 - 75 | +2                    | +3                    | 4 / 6                                          | 25%                                              | 95%       |
+| 18 / 76 - 90 | +2                    | +4                    | 4 / 6                                          | 30%                                              | 96%       |
+| 18 / 91 - 99 | +2                    | +5                    | 4 / 6                                          | 35%                                              | 97%       |
+| 18 / 00      | +3                    | +6                    | 5 / 6                                          | 40%                                              | 98%       |
+
+\*EXCEPTIONAL STRENGTH modifiers only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
+
+### Dexterity
+
+| **Score** | **Ranged Weapon To-Hit Bonus/Penalty** | **Surprise Modifier** | **Armor Class Modifier** |
+|-----------|------------------------------------------|-----------------------|--------------------------|
+| 3         | -3                                       | -3                    | -4                       |
+| 4         | -2                                       | -2                    | -3                       |
+| 5         | -1                                       | -1                    | -2                       |
+| 6         | +0                                       | +0                    | -1                       |
+| 7 - 14    | +0                                       | +0                    | +0                       |
+| 15        | +0                                       | +0                    | +1                       |
+| 16        | +1                                       | +1                    | +2                       |
+| 17        | +2                                       | +2                    | +3                       |
+| 18        | +3                                       | +3                    | +4                       |
+
+### Constitution
+
+| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
+|-----------|--------------------------------------|-------------------------|
+| 3         | -2                                   | 40%                     |
+| 4         | -1                                   | 45%                     |
+| 5         | -1                                   | 50%                     |
+| 6         | -1                                   | 55%                     |
+| 7         | +0                                   | 60%                     |
+| 8         | +0                                   | 65%                     |
+| 9         | +0                                   | 70%                     |
+| 10        | +0                                   | 75%                     |
+| 11        | +0                                   | 80%                     |
+| 12        | +0                                   | 85%                     |
+| 13        | +0                                   | 90%                     |
+| 14        | +0                                   | 92%                     |
+| 15        | +1                                   | 94%                     |
+| 16        | +2                                   | 96%                     |
+| 17        | +2 (+3)*                             | 98%                     |
+| 18        | +2 (+4)*                             | 100%                    |
+
+\*Only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). All other classes may be given a maximum hit point bonus adjustment for constitution +2.
+
+### Intelligence
+
+| **Score** | **Spoken Languages**\*     | **Literacy** |**Search** | **Chance to Understand Chaos Spell**** |
+|-----------|--------------------------|--------------|-----------|--------------------------------------|
+| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 35%                                  |
+| 8         | Native +1                | Basic        | 1 / 6     | 35%                                  |
+| 9         | Native +1                | Literate     | 1 / 6     | 35%                                  |
+| 10        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 11        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 12        | Native +3                | Literate     | 1 / 6     | 45%                                  |
+| 13        | Native +3                | Literate     | 1 / 6     | 55%                                  |
+| 14        | Native +4                | Literate     | 1 / 6     | 55%                                  |
+| 15        | Native +4                | Literate     | 2 / 6     | 65%                                  |
+| 16        | Native +5                | Literate     | 2 / 6     | 65%                                  |
+| 17        | Native +6                | Literate     | 3 / 6     | 75%                                  |
+| 18        | Native +7                | Literate     | 4 / 6     | 85%                                  |
+
+\* Native plus additonal languages.
+\**For [<u>chaos mages</u>](#chaos-mage).
+
+### Wisdom
+
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+|-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
+| 3         | -3              | -                        | 20%                         | 35%
+| 4         | -2              | -                        | 15%                         | 35%
+| 5         | -1              | -                        | 10%                         | 35%
+| 6         | -1              | -                        | 5%                          | 35%
+| 7         | -1              | -                        | 1%                          | 35%
+| 8         | +0              | -                        | 0%                          | 35%
+| 9         | +0              | -                        | 0%                          | 35%
+| 10        | +0              | -                        | 0%                          | 45%
+| 11        | +0              | -                        | 0%                          | 45%
+| 12        | +0              | -                        | 0%                          | 45%
+| 13        | +0              | -                        | 0%                          | 55%
+| 14        | +0              | -                        | 0%                          | 55%
+| 15        | +1              | One 1st level            | 0%                          | 65%
+| 16        | +2              | One 2nd level            | 0%                          | 65%
+| 17        | +3              | One 3rd level            | 0%                          | 75%
+| 18        | +4              | One 4th level            | 0%                          | 85%
+
+\*For [<u>law mages</u>](#law-mage)
+
+\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the referee when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
+
+### Charisma
+
+| **Score** | **Maximum Number of Retainers** | **Loyalty Modifier** | **Reaction Modifier** | 
+|-----------|-----------------|--------------------------------------|-----------------------|
+| 3         | 1               | -30%                                 | -25%                  | 
+| 4         | 1               | -25%                                 | -20%                  | 
+| 5         | 2               | -20%                                 | -15%                  | 
+| 6         | 2               | -15%                                 | -10%                  | 
+| 7         | 3               | -10%                                 | -5%                   | 
+| 8         | 3               | -5%                                  | +0%                   | 
+| 9         | 4               | +0%                                  | +0%                   | 
+| 10        | 4               | +0%                                  | +0%                   | 
+| 11        | 4               | +0%                                  | +0%                   | 
+| 12        | 5               | +0%                                  | +0%                   | 
+| 13        | 5               | +0%                                  | +5%                   | 
+| 14        | 6               | +5%                                  | +10%                  | 
+| 15        | 7               | +15%                                 | +15%                  |
+| 16        | 8               | +20%                                 | +25%                  | 
+| 17        | 10              | +30%                                 | +30%                  | 
+| 18        | 15              | +40%                                 | +35%                  | 
 
 ## Starting Hit Points
 
@@ -139,6 +307,29 @@ character.
 | 68 - 70            | Teamster/transporter                   | 
 | 71 - 90            | No skill of measurable worth           | 
 | 90 - 100           | Roll twice, ignoring this result after | 
+
+## <span id=boons-&-banes> Boons & Banes </span>
+
+*Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
+
+Boons and banes are like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your referee. 
+
+| **Type** | **Class** | 
+|------|-------| 
+| Martial | Fighter, Inquisitor, Barbarian 
+| Chaos | Chaos Mage, Illusionist 
+| Law | Law Mage, Druid | 
+| Clandestine | Specialist |
+
+Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The referee will then roll for each and tell you exactly what kind of trait(s) your character has received.
+
+| 1d8   | Boons | Banes |
+|-------|-------|-------|
+| 1     |   0   |     1 |
+| 2     |   1   |     2 |
+| 3 - 6 |   1   |     1 |
+| 7     |   2   |     1 |
+| 8     |   1   |     0 |
 
 # <span id=multi-classing> Multi-Classing </span>
 
@@ -360,156 +551,6 @@ restrictions above.
 Subclasses are specialized or adjacent classes of its main class. Examples of this is the [<u>inquisitor</u>](#inquisitor) and [<u>ranger</u>](#ranger), which are both [<u>fighter</u>](#fighter) subclasses, as well as the [<u>illusionist</u>](#illusionist) which is a [<u>chaos mage</u>](#chaos-mage) subclass.
 
 The only restriction this has on character creation is that you cannot [<u>multi-class</u>](#multi-classing) subclasses with each other, or combine a subclass with a main class.
-
-# <span id=boons-&-banes> Boons & Banes </span>
-
-*Initially from "Alarums & Excursions #1" in 1975 and "Arduin Grimoire #1" in 1977, these are mostly inspired by the former. Made by Attronarch from "Fight On! #15"*
-
-Boons and banes are like "special traits" that can both be positive and negative. Begin by noting what type your class is associated with on the initial table and tell this to your referee. 
-
-| **Type** | **Class** | 
-|------|-------| 
-| Martial | Fighter, Inquisitor, Barbarian 
-| Chaos | Chaos Mage, Illusionist 
-| Law | Law Mage, Druid | 
-| Clandestine | Specialist |
-
-Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The referee will then roll for each and tell you exactly what kind of trait(s) your character has received.
-
-| 1d8   | Boons | Banes |
-|-------|-------|-------|
-| 1     |   0   |     1 |
-| 2     |   1   |     2 |
-| 3 - 6 |   1   |     1 |
-| 7     |   2   |     1 |
-| 8     |   1   |     0 |
-
-# <span id=ability-scores> Ability Scores </span>
-
-## Strength
-
-| **Score**  | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
-|------------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
-| 3          | -3                    | -1                    | 1 / 6                                          | 0%                                               | 30%       |
-| 4 - 5      | -2                    | -1                    | 1 / 6                                          | 0%                                               | 40%       |
-| 6 - 7      | -1                    | +0                    | 1 / 6                                          | 0%                                               | 50%       |
-| 8 - 9      | +0                    | +0                    | 2 / 6                                          | 1%                                               | 60%       |
-| 10 - 11    | +0                    | +0                    | 2 / 6                                          | 2%                                               | 70%       |
-| 12 - 13    | +0                    | +0                    | 2 / 6                                          | 4%                                               | 80%       |
-| 14 - 15    | +0                    | +0                    | 2 / 6                                          | 7%                                               | 90%       |
-| 16         | +0                    | +1                    | 3 / 6                                          | 10%                                              | 91%       |
-| 17         | +1                    | +1                    | 3 / 6                                          | 13%                                              | 92%       |
-| 18         | +1                    | +2                    | 3 / 6                                          | 16%                                              | 93%       |
-| 18 / 01 - 50 | +1                    | +3                    | 3 / 6                                          | 20%                                              | 94%       |
-| 18 / 51 - 75 | +2                    | +3                    | 4 / 6                                          | 25%                                              | 95%       |
-| 18 / 76 - 90 | +2                    | +4                    | 4 / 6                                          | 30%                                              | 96%       |
-| 18 / 91 - 99 | +2                    | +5                    | 4 / 6                                          | 35%                                              | 97%       |
-| 18 / 00      | +3                    | +6                    | 5 / 6                                          | 40%                                              | 98%       |
-
-\*EXCEPTIONAL STRENGTH modifiers only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
-
-## Dexterity
-
-| **Score** | **Ranged Weapon To-Hit Bonus/Penalty** | **Surprise Modifier** | **Armor Class Modifier** |
-|-----------|------------------------------------------|-----------------------|--------------------------|
-| 3         | -3                                       | -3                    | -4                       |
-| 4         | -2                                       | -2                    | -3                       |
-| 5         | -1                                       | -1                    | -2                       |
-| 6         | +0                                       | +0                    | -1                       |
-| 7 - 14    | +0                                       | +0                    | +0                       |
-| 15        | +0                                       | +0                    | +1                       |
-| 16        | +1                                       | +1                    | +2                       |
-| 17        | +2                                       | +2                    | +3                       |
-| 18        | +3                                       | +3                    | +4                       |
-
-## Constitution
-
-| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
-|-----------|--------------------------------------|-------------------------|
-| 3         | -2                                   | 40%                     |
-| 4         | -1                                   | 45%                     |
-| 5         | -1                                   | 50%                     |
-| 6         | -1                                   | 55%                     |
-| 7         | +0                                   | 60%                     |
-| 8         | +0                                   | 65%                     |
-| 9         | +0                                   | 70%                     |
-| 10        | +0                                   | 75%                     |
-| 11        | +0                                   | 80%                     |
-| 12        | +0                                   | 85%                     |
-| 13        | +0                                   | 90%                     |
-| 14        | +0                                   | 92%                     |
-| 15        | +1                                   | 94%                     |
-| 16        | +2                                   | 96%                     |
-| 17        | +2 (+3)*                             | 98%                     |
-| 18        | +2 (+4)*                             | 100%                    |
-
-\*Only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). All other classes may be given a maximum hit point bonus adjustment for constitution +2.
-
-## Intelligence
-
-| **Score** | **Spoken Languages**\*     | **Literacy** |**Search** | **Chance to Understand Chaos Spell**** |
-|-----------|--------------------------|--------------|-----------|--------------------------------------|
-| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 35%                                  |
-| 8         | Native +1                | Basic        | 1 / 6     | 35%                                  |
-| 9         | Native +1                | Literate     | 1 / 6     | 35%                                  |
-| 10        | Native +2                | Literate     | 1 / 6     | 45%                                  |
-| 11        | Native +2                | Literate     | 1 / 6     | 45%                                  |
-| 12        | Native +3                | Literate     | 1 / 6     | 45%                                  |
-| 13        | Native +3                | Literate     | 1 / 6     | 55%                                  |
-| 14        | Native +4                | Literate     | 1 / 6     | 55%                                  |
-| 15        | Native +4                | Literate     | 2 / 6     | 65%                                  |
-| 16        | Native +5                | Literate     | 2 / 6     | 65%                                  |
-| 17        | Native +6                | Literate     | 3 / 6     | 75%                                  |
-| 18        | Native +7                | Literate     | 4 / 6     | 85%                                  |
-
-\* Native plus additonal languages.
-\**For [<u>chaos mages</u>](#chaos-mage).
-
-## Wisdom
-
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
-|-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
-| 3         | -3              | -                        | 20%                         | 35%
-| 4         | -2              | -                        | 15%                         | 35%
-| 5         | -1              | -                        | 10%                         | 35%
-| 6         | -1              | -                        | 5%                          | 35%
-| 7         | -1              | -                        | 1%                          | 35%
-| 8         | +0              | -                        | 0%                          | 35%
-| 9         | +0              | -                        | 0%                          | 35%
-| 10        | +0              | -                        | 0%                          | 45%
-| 11        | +0              | -                        | 0%                          | 45%
-| 12        | +0              | -                        | 0%                          | 45%
-| 13        | +0              | -                        | 0%                          | 55%
-| 14        | +0              | -                        | 0%                          | 55%
-| 15        | +1              | One 1st level            | 0%                          | 65%
-| 16        | +2              | One 2nd level            | 0%                          | 65%
-| 17        | +3              | One 3rd level            | 0%                          | 75%
-| 18        | +4              | One 4th level            | 0%                          | 85%
-
-\*For [<u>law mages</u>](#law-mage)
-
-\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the referee when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
-
-## Charisma
-
-| **Score** | **Maximum Number of Retainers** | **Loyalty Modifier** | **Reaction Modifier** | 
-|-----------|-----------------|--------------------------------------|-----------------------|
-| 3         | 1               | -30%                                 | -25%                  | 
-| 4         | 1               | -25%                                 | -20%                  | 
-| 5         | 2               | -20%                                 | -15%                  | 
-| 6         | 2               | -15%                                 | -10%                  | 
-| 7         | 3               | -10%                                 | -5%                   | 
-| 8         | 3               | -5%                                  | +0%                   | 
-| 9         | 4               | +0%                                  | +0%                   | 
-| 10        | 4               | +0%                                  | +0%                   | 
-| 11        | 4               | +0%                                  | +0%                   | 
-| 12        | 5               | +0%                                  | +0%                   | 
-| 13        | 5               | +0%                                  | +5%                   | 
-| 14        | 6               | +5%                                  | +10%                  | 
-| 15        | 7               | +15%                                 | +15%                  |
-| 16        | 8               | +20%                                 | +25%                  | 
-| 17        | 10              | +30%                                 | +30%                  | 
-| 18        | 15              | +40%                                 | +35%                  | 
 
 # <span id=classes> Classes </span>
 
@@ -3545,6 +3586,8 @@ Recruiting a henchmen requires the PC to be at least one level above the henchme
 
 Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the XP as the PC receives at the end of the session.
 
+Exceptionally generous PCs may wish to pay for part or all of the training, with a resultant increase to loyalty. This is optional, however.
+
 ## Hiring Henchmen
 
 | **Method**                   | **Cost**   |
@@ -3568,7 +3611,7 @@ Level 0 henchmen can be recruited at first level. They do not begin with any sta
 - The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
 - Choose one category type from [<u>boons & banes</u>](#boons-&-banes), depending on class picked.
 
-When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice. [<u>Training</u>](#training) is needed for the henchmen to turn level 1. Treat the cost as if the henchmen has 500 xp. 
+When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice.
 
 ## Hirelings
 

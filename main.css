@@ -65,32 +65,65 @@ h1 {
     
 }
 
+#content h1::after {
+    content: "";
+    display: block;
+    width: 84px;
+    border-bottom: 1px solid #F34213;
+    margin: 4px auto 0;
+}
+
 h2 {
-    color: #26F0F1; /* Subtitles in cyan */
+    color: #26F0F1;
     font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+
+#content h1 + h2 {
+    margin-top: 28px;
 }
 
 #content h3 {
-    border: 1px solid #ccc;
-    padding: 8px;
-    margin: 16px 0 16px 0;
-    background-color: #000000;
-    border-radius: 5px 5px 5px 5px; /* Top corners round */
-    color: #F34213; /* Color for h3 titles */
+    border-left: 3px solid #F34213;
+    padding: 4px 0 4px 10px;
+    margin: 18px 0 0 0;
+    background-color: transparent;
+    border-radius: 0;
+    color: #F34213;
+}
+
+#content h3 + p,
+#content h3 + ul,
+#content h3 + ol {
+    margin-top: 10px;
+}
+
+#content h3 + table {
+    margin-top: 16px;
 }
 
 #content h4 {
-    font-size: large;
-    color: #13f34b; /* Color for h4 titles */
-    margin: 16px 0 16px 0;
-    border: 1px solid #434343;
-    padding: 8px;
+    font-size: 0.95em;
+    color: #26F0F1;
+    border-left: 2px solid #26F0F1;
+    padding: 3px 0 3px 8px;
+    margin: 12px 0 0 0;
+    font-weight: bold;
+}
+
+#content h4 + p,
+#content h4 + ul,
+#content h4 + ol,
+#content h4 + table {
+    margin-top: 12px;
 }
 
 #content h5 {
-    font-size: large;
-    color: #F7E8A4; /* Distinct color for h5 titles */
-    margin: 16px 0 16px 0;
+    font-size: 0.95em;
+    color: #F7E8A4;
+    margin: 12px 0 4px 0;
+    font-weight: bold;
 }
 
 body, p {
@@ -209,7 +242,7 @@ header, nav {
     height: 100vh; /* Full viewport height */
     overflow-y: auto; /* Enable vertical scrolling */
     box-sizing: border-box;
-    padding: 10px 10px calc(24px + env(safe-area-inset-bottom));
+    padding: 10px 10px calc(24px + env(safe-area-inset-bottom)) 24px;
     scroll-padding-bottom: 24px;
     transition: left 0.3s;
     background-color: black;
@@ -308,10 +341,10 @@ footer {
         box-sizing: border-box;
         padding: 5vw 5vw calc(6vw + env(safe-area-inset-bottom));
         overflow-y: auto;
-        position: fixed; /* Ensure it’s fixed for scrolling */
-        top: 0; 
-        left: -100%; 
-        transition: left 0.3s; 
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: left 0.3s;
         z-index: 1000;
     }
 
@@ -334,7 +367,7 @@ footer {
 
     /* Show TOC when it is visible */
     #toc-panel.visible {
-        left: 0; /* Slide in TOC */
+        left: 0;
     }
 
     .centered-container {
