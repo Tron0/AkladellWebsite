@@ -64,7 +64,7 @@ function loadUpdatePost()
     { 
 
         title: 'Additional Races + Free Henchmen Training',
-        content: `After scouring the ancient scripts of the internets, I did find that henchmen are not supposed to be granted paid training, they instead need to pay for it with their own silver. 
+        content: `After scouring the ancient scripts of the internets, I did find that henchmen are not supposed to be granted free paid training, they instead need to pay for it with their own silver. 
         
         This makes more sense as I've noticed the economy being rough for a few player characters, even with adequate loot. A good way to track if henchmen can actually train would be to write down their shares each session.
         
