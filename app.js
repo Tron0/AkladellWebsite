@@ -63,6 +63,24 @@ function loadUpdatePost()
 
     { 
 
+        title: 'Additional Races + Free Henchmen Training',
+        content: `After scouring the ancient scripts of the internets, I did find that henchmen are not supposed to be granted paid training, they instead need to pay for it with their own silver. 
+        
+        This makes more sense as I've noticed the economy being rough for a few player characters, even with adequate loot. A good way to track if henchmen can actually train would be to write down their shares each session.
+        
+        As for races, Elves and Avians are now written down in the main document.
+        
+        <b> Changes: </b>
+
+        - Elves and Avians written down outside of the old unused rules page.
+        - Player characters no longer need to pay for henchmen training. Henchmen instead pay for their own training and can level if they have enough currency.  
+
+        `,
+        date: "2026-06-05 20:19 CET" 
+    },
+
+    { 
+
         title: 'Fixed Training',
         content: `Training is now balanced to be cheaper in the later levels and more expensive early. Time is now dependent on trainers. It's more akin to the BtB rules in 1e.
         

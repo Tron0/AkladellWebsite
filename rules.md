@@ -65,12 +65,18 @@ races, found in every corner of the world.
 
 **Description:** Of all the peoples who dwell in Fairy, elves are the primary pursuers of magic and authority. Their kind include sorcerers, scholars, knights, cunning thieves and wanderers.
 
-**Keen Senses:** Elves have exceptionally sharp sight and hearing. When searching a room, they detect secret doors, concealed passages, and hidden features on a 2-in-6 chance. They also have an increased 2-in-6 chance to hear faint sounds when listening at doors.
+**Fairy Immortality:** Elves may die by wounds, but they do not age. They are immune to diseases of non-magical origin, and cannot die from thirst or starvation. Deprivation does not leave them totally unharmed, however; an elf denied food becomes desperate, cruel, and insane.
+
+**Glamours:** Elves gain a small amount of innate magical power. Each elf knows one randomly determined glamour. See [<u>glamour table.</u>](#glamour-table)
 
 **Immunity to Ghoul Paralysis:** Elves are unaffected by the paralysis that ghouls
 inflict.
 
+**Keen Senses:** Elves have exceptionally sharp sight and hearing. When searching a room, they detect secret doors, concealed passages, and hidden features on a 2-in-6 chance. They also have an increased 2-in-6 chance to hear faint sounds when listening at doors.
+
 **Magical Resistance:** Elves are creatures of Fairy, a realm where magic runs through the very nature of things. This gives them an innate resistance to spells and enchantments. Elves gain +2 to saves vs spell.
+
+**Uncanny Fairness:** To mortal eyes, elves possess a strange and perilous beauty, whether their hearts are noble or cruel. When an elf speaks, bargains, commands, or otherwise treats with mortals, they gain a +2 bonus to their Charisma ability score, to a maximum of 18.
 
 **Ability Score Modifier:** +1 Intelligence, -1 Constitution
 
@@ -87,7 +93,7 @@ If they have room to do so, they take no damage from the fall and may move 1 foo
 
 **Bird’s Eye View:** Avians possess remarkable eyesight. They can see twice as far as most races, and have a 2-in-6 chance to notice hidden doors, traps, or other unusual features when entering a room for the first time.
 
-**Ability Score Modifier:** -1 Strength, +1 Dexterity 
+**Ability Score Modifier:** +1 Dexterity, -1 Strength
 
 # Ability Scores
 
@@ -913,9 +919,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 **Resistance to Law:** Enchanters wield an inherently chaotic form of magic. If an enchanter is the subject of a lawful or holy spell, there is a 2/6 chance it has no effect. By the same logic, it's not possible for an enchanter to multi-class as any other lawful class or cast lawful magic.
 
-### Glamour Table
-
-When an enchanter is eligible to learn a new glamour, roll on the glamour table below.
+### <span id="glamour-table">Glamour Table</span>
 
 | **Number (1d20)** | **Glamour**                                         |
 | ----------------- | --------------------------------------------------- |
