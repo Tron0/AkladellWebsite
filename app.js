@@ -29,28 +29,82 @@ window.addEventListener('load', function()
 function loadHomePage()
 {
     var mainContent = document.getElementById('content');
-    mainContent.classList.add('about-page');
+    mainContent.className = 'home-page';
     mainContent.innerHTML = '<h1>Home Page</h1>';
 }
 
-function loadAboutPage() {
+function setupRightPanels() {
+    const panel = document.getElementById('right-panel');
+    if (!panel) return;
+
+    const tabButtons = Array.from(panel.querySelectorAll('[data-panel-target]'));
+    const contentSections = Array.from(panel.querySelectorAll('[data-panel-content]'));
+    const closeButtons = Array.from(panel.querySelectorAll('.right-panel-close'));
+
+    const setActivePanel = (name) => {
+        panel.dataset.panel = name;
+        contentSections.forEach((section) => {
+            section.hidden = section.dataset.panelContent !== name;
+        });
+    };
+
+    const setOpen = (isOpen) => {
+        panel.classList.toggle('open', isOpen);
+        tabButtons.forEach((button) => {
+            button.setAttribute('aria-expanded', String(isOpen && button.dataset.panelTarget === panel.dataset.panel));
+        });
+    };
+
+    tabButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+            const targetName = button.dataset.panelTarget;
+            const isAlreadyOpen = panel.classList.contains('open') && panel.dataset.panel === targetName;
+            setActivePanel(targetName);
+            setOpen(!isAlreadyOpen);
+        });
+    });
+
+    closeButtons.forEach((button) => {
+        button.addEventListener('click', () => setOpen(false));
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            setOpen(false);
+        }
+    });
+
+    setActivePanel(panel.dataset.panel || 'resources');
+    setOpen(false);
+}
+
+function loadResourcesPage() {
     var mainContent = document.getElementById('content');
-    mainContent.className = ''; // Clear any previous page classes (optional)
-  
-    // Inject a container with id="about"
+    mainContent.className = 'resources-page';
+
     mainContent.innerHTML = `
-      <div id="about">
-        <h1>About</h1>
-        <p>This is a website for my Old School Dungeons & Dragons game!</p>
+      <div id="resources">
+        <h1>Resources</h1>
+        <section class="resource-list">
+          <article class="resource-item">
+            <h2>Akladell PC Sheet</h2>
+            <a class="resource-download" href="./media/Akladell%20PC%20Sheet.pdf" target="_blank" rel="noopener">Open PDF</a>
+          </article>
+        </section>
       </div>
     `;
   }
 
 document.addEventListener('DOMContentLoaded', () => {
-document.querySelector('.spells-link').addEventListener('click', e => {
-    e.preventDefault();
-    loadContent('#spells');
-});
+    setupRightPanels();
+
+    const spellsLink = document.querySelector('.spells-link');
+    if (spellsLink) {
+        spellsLink.addEventListener('click', e => {
+            e.preventDefault();
+            loadContent('#spells');
+        });
+    }
 });
   
 
@@ -62,6 +116,32 @@ function loadUpdatePost()
     var posts = [
 
     { 
+
+        title: 'THAC0, Armor Class Overhaul',
+        content: `A convert to make the rules sit closer to AD&D, and for some more old school fun. The biggest visible change is that combat now uses descending Armor Class throughout, with THAC0 listed directly beneath each class' to-hit table.
+
+        Ability scores now follow the old school order, scores beyond 18 have their own extended tables, and the background table has been reshaped a bit.
+
+        <b> Changes: </b>
+
+        - Added THAC0 tables.
+        - Converted armor to descending Armor Class.
+        - Expanded the armor list with AD&D/2e armor types.
+        - Rebalanced hide armor as medium armor with higher weight and cost.
+        - Reordered ability scores to Strength, Intelligence, Wisdom, Dexterity, Constitution, and Charisma.
+        - Expanded ability score to 19+ score tables.
+        - More backgrounds and descriptions.
+        - Added Read Languages as a Specialist skill as described in 1e.
+        - Added Read Scrolls at Specialist level 10, with misread chance equal to 25% minus Intelligence score.
+        - Added a Resources tab with a downloadable PC Sheet.
+        - Added a Climb column to the Specialist advancement table.
+        - Specialists use the better of their Strength Climb chance or listed Specialist Climb chance when a dangerous climb requires a roll.
+
+        `,
+        date: "2026-06-09 19:13 CEST"
+    },
+
+    {
 
         title: 'Additional Races + Free Henchmen Training',
         content: `After scouring the ancient scripts of the internets, I did find that henchmen are not supposed to be granted free paid training, they instead need to pay for it with their own silver. 
@@ -423,12 +503,12 @@ function loadUpdatePost()
 
         title: 'Pommels & Wisdom Spell Learning',
         content: `Minor changes. Mostly some homebrew pommel business and simplifying training to 3d6. 
-        One important thing regarding wisdom now is that you can gain up to a 4th level spell for free. 
+        One important thing regarding wisdom now is that law mages can gain an extra daily memorization slot up to 4th level.
         
         <b> Changes: </b>
 
         - 3d6 for days training
-        - Bonus spells for law mages under wisdom are now "learned" when you have the ability to cast them. You need to write down and choose one spell from the ones available when making the character.
+        - Bonus spells for law mages under wisdom are extra daily memorization slots. They do not grant new spells known or add spells to the spellbook.
         - Unarmored AC is now 10, making the curve smoother.
         - Pommel attack with reach weapons, half damage of the weapon damage instead of none.
         - Lowered weapon damage of two-handed spear and pole arm. 
@@ -845,4 +925,3 @@ function loadUpdatePost()
         mainContent.appendChild(postElement);
     }
 }
-

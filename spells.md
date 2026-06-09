@@ -493,7 +493,7 @@ Allows the caster to set a protective alarm, as follows:
 
 Provides a protective magical armor:
 
-- **Defense**: Acts as if the recipient is wearing ring mail (AC 13).
+- **Defense**: Acts as if the recipient is wearing ring mail (AC 7).
 
 - **Cumulative Effects:** Works in tandem with Dexterity and other bonuses, excluding the shield spell.
 
@@ -723,7 +723,7 @@ Slows the fall of objecst and creatures:
 Summons a familiar to aid the caster:
 
 - **Nature of Familiar:** Typically small creatures like cats, frogs,
-  crows, etc. Normal familiars have 1d3+1 hit points, are AC 12, and are as intelligent as a lower-than-average human.
+  crows, etc. Normal familiars have 1d3+1 hit points, are AC 8, and are as intelligent as a lower-than-average human.
 
 - **Benefits:** Familiars grant sensory powers to their masters, can converse, and serve various roles. When the familiar is within 120-ft of the magic user, the magic user gains additional hit points equal to the familiar's. However, if the familiar is ever killed, the magic user permanently loses twice the familiar's hit points. 
 
@@ -852,7 +852,7 @@ This spell has three usages:
 
 - **Blinding a creature:** By casting the spell upon its eyes. If the
   target fails a saving throw versus spells, it is blinded for the
-  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
+  duration. A blind creature's attack modifier and save are reduced by 4, and its AC worsens by 4.
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 
@@ -1037,8 +1037,8 @@ Allows the caster to decipher magical script or runes, as follows:
 
 Conjures an invisible shield around the caster:
 
-- **Defensive Boost:** Improves the caster's armor class to 17 against
-  ranged attacks and 15 for melee.
+- **Defensive Boost:** Improves the caster's armor class to 3 against
+  ranged attacks and 5 for melee.
 
 - **Additional Advantages:** Grants a +1 bonus to saving throws from
   visible frontal threats as well as negating Magic Missiles.
@@ -1491,9 +1491,9 @@ Causes corpses or skeletons to rise as undead skeletons or zombies.
 
 **Number:** The spell animates up to 1 Hit Die of zombies or skeletons per level of the caster:
 
-- **Skeletons:** Have AC 7 [12] and HD equal to those the creature had in life.
+- **Skeletons:** Have AC 7 and HD equal to those the creature had in life.
 
-- **Zombies:** Have AC 8 [11] and HD one greater than the creature had in life.
+- **Zombies:** Have AC 8 and HD one greater than the creature had in life.
 
 - **Classed characters:** If a PC or NPC with levels in a class is reanimated by this spell, the levels are not counted as HD. For example, the reanimated corpse of a 5th level fighter would have 2 HD (1 HD as a normal human, +1 for being reanimated as a zombie).
 
@@ -1557,7 +1557,7 @@ Creates a disembodied hand of force that places itself between the caster and on
 
 - **No damage:** Purely interposing/pressing force. 
 
-- **Hand stats:** AC 19. Hit Points equaling the caster’s full HP. Vanishes if destroyed.
+- **Hand stats:** AC 1. Hit Points equaling the caster’s full HP. Vanishes if destroyed.
 
 - **Control:** Caster may command the hand to retreat (e.g., to free a trapped foe) or dismiss it.
 
@@ -1681,7 +1681,7 @@ Compels the touched creature to dance uncontrollably, to the exclusion of all ot
 
 - **Touch:** As a melee attack is required.
 
-- **Effects:** Target cannot act except to caper. AC worsens by –4 and saving throws are only possible on a natural 20. No shield benefit.
+- **Effects:** Target cannot act except to caper. AC worsens by 4 and saving throws are only possible on a natural 20. No shield benefit.
 
 ## <span id="spells#chaos-level-9"> 9th Level Chaos Spells </span>
 
@@ -1783,9 +1783,9 @@ The color of the orb determines its effects, as outlined below:
 
 **Damage and Effects:** The color of the orb determines the damage and special power it inflicts. The caster can choose an orb color based on their level, as follows:
 
-- **1st level - White:** Inflicts 1d4 damage. The target is surrounded by light for 1 round, causing a -4 penalty to attack rolls, saving throws, and AC on an unsuccessful save.
+- **1st level - White:** Inflicts 1d4 damage. The target is surrounded by light for 1 round, causing a -4 penalty to attack rolls and saving throws, and worsening AC by 4 on an unsuccessful save.
 
-- **2nd level - Red:** Inflicts 1d6 damage. The target suffers a loss of 1 Strength and 1 Dexterity for 1 round (-1 attack, -1 AC). Additionally, the orb can melt 1 cubic yard of ice.
+- **2nd level - Red:** Inflicts 1d6 damage. The target suffers a loss of 1 Strength and 1 Dexterity for 1 round (-1 attack, AC worsens by 1). Additionally, the orb can melt 1 cubic yard of ice.
 
 - **3rd level - Orange:** Inflicts 1d8 damage. All combustible materials within 3 feet of the target ignite.
 
@@ -1929,7 +1929,7 @@ Creates an illusion that appears real to those who perceive it:
 
 When cast, this spell creates a quasi-real suit of plate mail that provides the target with substantial protection. The armor appears semi-illusory, but functions as follows:
 
-- **Armor Class:** The phantom armor grants an Armor Class of 17, as if the wearer were clad in plate mail. 
+- **Armor Class:** The phantom armor grants an Armor Class of 3, as if the wearer were clad in plate mail.
 
 - **Damage Absorption:** The armor can absorb 1 point of damage per level of the caster. Once it absorbs damage equal to the caster's level, the armor vanishes, and any remaining damage affects the wearer.
 
@@ -2203,7 +2203,7 @@ This spell has three usages:
 
 - **Blinding a creature:** By casting the spell upon its eyes. If the
   target fails a saving throw versus spells, it is blinded for the
-  duration. A blind creature's attack modifier, save, and AC is reduced by 4.
+  duration. A blind creature's attack modifier and save are reduced by 4, and its AC worsens by 4.
 
 - **Cancelling darkness:** Light may cancel a darkness spell.
 

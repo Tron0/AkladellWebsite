@@ -51,11 +51,6 @@ body {
     text-align: center; /* Ensures the header and nav are centered */
 }
 
-#about 
-{
-    text-align: center; /* Center text inside #about only */
-}
-
 /* Text Styles */
 h1 {
     color: #DC493A; /* Titles in red */
@@ -191,12 +186,217 @@ header, nav {
 #nav {
     display: flex;
     justify-content: center; /* Centers navigation links */
+    flex-wrap: wrap;
+    gap: 12px 20px;
 }
 
 #nav a {
-    margin-right: 20px;
     text-align: center;
     display: inline-block;
+}
+
+.resource-list {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.resource-item {
+    border: 1px solid white;
+    padding: 20px;
+    background: black;
+}
+
+.resource-download {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 12px;
+    border: 1px solid lightseagreen;
+    text-decoration: none;
+}
+
+.campaign-playlists {
+    max-width: 720px;
+    margin: 36px auto 0;
+}
+
+.campaign-playlists h2 {
+    text-align: center;
+}
+
+.spotify-playlist-list {
+    display: grid;
+    gap: 20px;
+}
+
+.spotify-playlist {
+    display: block;
+    width: 100%;
+    height: 352px;
+    border: 0;
+    border-radius: 12px;
+}
+
+.right-panel {
+    --right-panel-width: min(360px, calc(100vw - 48px));
+    position: fixed;
+    top: 0;
+    right: calc(0px - var(--right-panel-width));
+    width: var(--right-panel-width);
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    z-index: 1000;
+    transition: right 0.3s;
+}
+
+.right-panel.open {
+    right: 0;
+}
+
+.right-panel-tab {
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    padding: 0;
+    border: 1px solid white;
+    border-right: 0;
+    border-radius: 0;
+    background: black;
+    color: white;
+    cursor: pointer;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.resource-panel-tab {
+    top: 20px;
+    height: 124px;
+    font-size: 12px;
+}
+
+.music-panel-tab {
+    top: 152px;
+    height: 72px;
+    font-size: 13px;
+}
+
+.right-panel-tab:hover,
+.right-panel-close:hover {
+    background-color: black;
+    color: #26F0F1;
+}
+
+.right-panel-drawer {
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding: 10px 14px calc(24px + env(safe-area-inset-bottom)) 18px;
+    border-left: 1px solid white;
+    background-color: black;
+}
+
+.right-panel[data-panel="resources"] .right-panel-drawer {
+    background-image: url("./media/855.gif");
+    background-repeat: repeat;
+}
+
+.right-panel[data-panel="music"] .right-panel-drawer {
+    background-image: url("./media/bg30.gif");
+    background-repeat: repeat;
+}
+
+.right-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+}
+
+.right-panel-header h2 {
+    margin: 0;
+    color: #26F0F1;
+    font-size: 26px;
+}
+
+.right-panel-content .right-panel-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.right-panel-content[hidden] {
+    display: none;
+}
+
+.right-panel-close {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.right-panel-section {
+    margin-top: 18px;
+    padding: 12px;
+    border: 1px solid white;
+    background: black;
+}
+
+.right-panel-section h3 {
+    margin: 0 0 10px;
+    border: 0;
+    padding: 0;
+    color: #F34213;
+    background: transparent;
+}
+
+.resource-panel-link {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid lightseagreen;
+    background: black;
+    text-decoration: none;
+}
+
+.resource-panel-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.resource-panel-art {
+    display: block;
+    width: 100%;
+    max-height: 120px;
+    object-fit: cover;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+.music-panel-icon {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.music-panel-players {
+    display: grid;
+    gap: 8px;
+}
+
+.music-panel-playlist {
+    display: block;
+    width: 100%;
+    height: 152px;
+    border: 0;
+    border-radius: 12px;
 }
 
 /* Button Styles */
@@ -386,6 +586,22 @@ footer {
         bottom: 2vw;
     }
 
+    .right-panel {
+        --right-panel-width: min(340px, calc(100vw - 64px));
+        right: calc(0px - var(--right-panel-width));
+        width: var(--right-panel-width);
+        height: 100vh;
+        height: 100dvh;
+    }
+
+    .resource-panel-tab {
+        top: 2vw;
+    }
+
+    .music-panel-tab {
+        top: calc(2vw + 132px);
+    }
+
     #toTopButton, #toTopMobileButton, 
     #toggleTocButton, #toggleTocMobileButton {
         width: 10vw;
@@ -401,6 +617,6 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
         display: flex;
-        justify-content: space-between; 
+        justify-content: center; 
     }
 }

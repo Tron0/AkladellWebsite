@@ -1,12 +1,12 @@
 # <span id=quick-creation-reference> Quick Creation Reference </span>
 
-**(1) Race**
+**(1) [<u>Race</u>](#races)**
 
 - Note your character race as Human. You know the language of Draeneria and your size is Medium.
 
 **(2) Determine [<u>ability scores</u>](#ability-scores)**
 
-- Roll 4d6 and drop the lowest for each ability score in order: Strength, Dexterity, Constitution, Intelligence, Wisdom and Charisma. You may swap any two ability scores with each other once.
+- Roll 4d6 and drop the lowest for each ability score in order: Strength, Intelligence, Wisdom, Dexterity, Constitution and Charisma. You may swap any two ability scores with each other once.
 
 **(3) Determine your character's [<u>age</u>](#age)**
 
@@ -14,7 +14,7 @@
 
 **(4) Select a [<u>class</u>](#classes)**
 
-- Pick a class and make sure you meet the minimum ability score requirements.
+- Pick a class and make sure you meet the minimum [<u>ability score</u>](#ability-scores) requirements.
 
 **(5) Roll starting hit points**
 
@@ -34,7 +34,7 @@
 
 **(9) Determine miscellaneous information**
 
-- Armor class 
+- [<u>Armor class</u>](#armor-class)
 - [<u>Movement</u>](#movement)
 - [<u>Languages</u>](#languages)
 - [<u>Psionics</u>](#psionics)
@@ -76,9 +76,9 @@ inflict.
 
 **Magical Resistance:** Elves are creatures of Fairy, a realm where magic runs through the very nature of things. This gives them an innate resistance to spells and enchantments. Elves gain +2 to saves vs spell.
 
-**Uncanny Fairness:** To mortal eyes, elves possess a strange and perilous beauty, whether their hearts are noble or cruel. When an elf speaks, bargains, commands, or otherwise treats with mortals, they gain a +2 bonus to their Charisma ability score, to a maximum of 18.
+**Uncanny Fairness:** To mortal eyes, elves possess a strange and perilous beauty, whether their hearts are noble or cruel. When an elf speaks, bargains, commands, or otherwise treats with mortals, they gain a +2 bonus to their [<u>Charisma</u>](#charisma) ability score, to a maximum of 18.
 
-**Ability Score Modifier:** +1 Intelligence, -1 Constitution
+**Ability Score Modifier:** +1 [<u>Intelligence</u>](#intelligence), -1 [<u>Constitution</u>](#constitution)
 
 ## Avian
 
@@ -93,15 +93,15 @@ If they have room to do so, they take no damage from the fall and may move 1 foo
 
 **Bird’s Eye View:** Avians possess remarkable eyesight. They can see twice as far as most races, and have a 2-in-6 chance to notice hidden doors, traps, or other unusual features when entering a room for the first time.
 
-**Ability Score Modifier:** +1 Dexterity, -1 Strength
+**Ability Score Modifier:** +1 [<u>Dexterity</u>](#dexterity), -1 [<u>Strength</u>](#strength)
 
-# Ability Scores
+# <span id=ability-scores> Ability Scores </span>
 
 4d6 drop lowest (remove the lowest die result). Roll each stat in order: Strength,
-Dexterity, Constitution, Intelligence, Wisdom and Charisma. After rolling for stats, you
+Intelligence, Wisdom, Dexterity, Constitution and Charisma. After rolling for stats, you
 may swap two ability scores with each other, once.
 
-### Strength
+### <span id=strength> Strength </span>
 
 | **Score**  | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
 |------------|-----------------------|-----------------------|------------------------------------------------|--------------------------------------------------|-----------|
@@ -123,21 +123,114 @@ may swap two ability scores with each other, once.
 
 \*EXCEPTIONAL STRENGTH modifiers only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)).
 
-### Dexterity
+#### Extended Strength Table (19+)
+
+| **Score** | **To-Hit Modifier** | **Damage Modifier** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
+|-----------|---------------------|---------------------|------------------------------------------------|--------------------------------------------------|-----------|
+| 19        | +3                  | +7                  | 5 / 6                                          | 50%                                              | 99%       |
+| 20        | +3                  | +8                  | 5 / 6                                          | 60%                                              | 99%       |
+| 21        | +4                  | +9                  | 5 / 6                                          | 70%                                              | 99%       |
+| 22        | +4                  | +10                 | 6 / 6                                          | 80%                                              | 99%       |
+| 23        | +5                  | +11                 | 6 / 6                                          | 90%                                              | 99%       |
+| 24        | +6                  | +12                 | 6 / 6                                          | 95%                                              | 99%       |
+| 25        | +7                  | +14                 | 6 / 6                                          | 99%                                              | 99%       |
+
+### <span id=intelligence> Intelligence </span>
+
+| **Score** | **Spoken Languages**\*     | **Literacy** | **Search** | **Chance to Understand Chaos Spell\*\*** |
+|-----------|--------------------------|--------------|-----------|--------------------------------------|
+| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 35%                                  |
+| 8         | Native +1                | Basic        | 1 / 6     | 35%                                  |
+| 9         | Native +1                | Literate     | 1 / 6     | 35%                                  |
+| 10        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 11        | Native +2                | Literate     | 1 / 6     | 45%                                  |
+| 12        | Native +3                | Literate     | 1 / 6     | 45%                                  |
+| 13        | Native +3                | Literate     | 1 / 6     | 55%                                  |
+| 14        | Native +4                | Literate     | 1 / 6     | 55%                                  |
+| 15        | Native +4                | Literate     | 2 / 6     | 65%                                  |
+| 16        | Native +5                | Literate     | 2 / 6     | 65%                                  |
+| 17        | Native +6                | Literate     | 3 / 6     | 75%                                  |
+| 18        | Native +7                | Literate     | 4 / 6     | 85%                                  |
+
+#### Extended Intelligence Table (19+)
+
+| **Score** | **Spoken Languages** | **Literacy** | **Search** | **Chance to Understand Chaos Spell** |
+|-----------|----------------------|--------------|------------|--------------------------------------|
+| 19        | Native +8            | Literate     | 5 / 6      | 95%                                  |
+| 20        | Native +9            | Literate     | 5 / 6      | 96%                                  |
+| 21        | Native +10           | Literate     | 5 / 6      | 97%                                  |
+| 22        | Native +11           | Literate     | 6 / 6      | 98%                                  |
+| 23        | Native +12           | Literate     | 6 / 6      | 99%                                  |
+| 24        | Native +15           | Literate     | 6 / 6      | 100%                                 |
+| 25        | Native +20           | Literate     | 6 / 6      | 100%                                 |
+
+\* Native plus additional languages.
+\**For [<u>chaos mages</u>](#chaos-mage).
+
+### <span id=wisdom> Wisdom </span>
+
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus\*\*** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+|-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
+| 3         | -3              | -                        | 20%                         | 35%                                        |
+| 4         | -2              | -                        | 15%                         | 35%                                        |
+| 5         | -1              | -                        | 10%                         | 35%                                        |
+| 6         | -1              | -                        | 5%                          | 35%                                        |
+| 7         | -1              | -                        | 1%                          | 35%                                        |
+| 8         | +0              | -                        | 0%                          | 35%                                        |
+| 9         | +0              | -                        | 0%                          | 35%                                        |
+| 10        | +0              | -                        | 0%                          | 45%                                        |
+| 11        | +0              | -                        | 0%                          | 45%                                        |
+| 12        | +0              | -                        | 0%                          | 45%                                        |
+| 13        | +0              | -                        | 0%                          | 55%                                        |
+| 14        | +0              | -                        | 0%                          | 55%                                        |
+| 15        | +1              | One 1st level            | 0%                          | 65%                                        |
+| 16        | +2              | One 2nd level            | 0%                          | 65%                                        |
+| 17        | +3              | One 3rd level            | 0%                          | 75%                                        |
+| 18        | +4              | One 4th level            | 0%                          | 85%                                        |
+
+#### Extended Wisdom Table (19+)
+
+| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus\*\***         | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
+|-----------|-------------------------------|-----------------------------|-----------------------------|--------------------------------------|
+| 19        | +4                            | One 1st and one 3rd level   | 0%                          | 95%                                  |
+| 20        | +4                            | One 2nd and one 4th level   | 0%                          | 96%                                  |
+| 21        | +4                            | One 3rd and one 5th level   | 0%                          | 97%                                  |
+| 22        | +4                            | One 4th and one 5th level   | 0%                          | 98%                                  |
+| 23        | +4                            | One 1st and one 6th level   | 0%                          | 99%                                  |
+| 24        | +4                            | One 5th and one 6th level   | 0%                          | 100%                                 |
+| 25        | +4                            | One 6th and one 7th level   | 0%                          | 100%                                 |
+
+\*For [<u>law mages</u>](#law-mage)
+
+\**For [<u>law mages</u>](#law-mage). Spell Bonus grants an extra daily memorization slot of the listed spell level. It does not grant a new spell known, does not add a spell to the character's spellbook, and does not grant early access to spell levels the character cannot yet cast. When memorizing spells for the day, choose the bonus spell from spells the character already knows and is eligible to cast.
+
+### <span id=dexterity> Dexterity </span>
 
 | **Score** | **Ranged Weapon To-Hit Bonus/Penalty** | **Surprise Modifier** | **Armor Class Modifier** |
 |-----------|------------------------------------------|-----------------------|--------------------------|
-| 3         | -3                                       | -3                    | -4                       |
-| 4         | -2                                       | -2                    | -3                       |
-| 5         | -1                                       | -1                    | -2                       |
-| 6         | +0                                       | +0                    | -1                       |
+| 3         | -3                                       | -3                    | +4                       |
+| 4         | -2                                       | -2                    | +3                       |
+| 5         | -1                                       | -1                    | +2                       |
+| 6         | +0                                       | +0                    | +1                       |
 | 7 - 14    | +0                                       | +0                    | +0                       |
-| 15        | +0                                       | +0                    | +1                       |
-| 16        | +1                                       | +1                    | +2                       |
-| 17        | +2                                       | +2                    | +3                       |
-| 18        | +3                                       | +3                    | +4                       |
+| 15        | +0                                       | +0                    | -1                       |
+| 16        | +1                                       | +1                    | -2                       |
+| 17        | +2                                       | +2                    | -3                       |
+| 18        | +3                                       | +3                    | -4                       |
 
-### Constitution
+#### Extended Dexterity Table (19+)
+
+| **Score** | **Ranged Weapon To-Hit Bonus/Penalty** | **Surprise Modifier** | **Armor Class Modifier** |
+|-----------|----------------------------------------|-----------------------|--------------------------|
+| 19        | +3                                     | +3                    | -4                       |
+| 20        | +3                                     | +3                    | -4                       |
+| 21        | +4                                     | +4                    | -5                       |
+| 22        | +4                                     | +4                    | -5                       |
+| 23        | +4                                     | +4                    | -5                       |
+| 24        | +5                                     | +5                    | -6                       |
+| 25        | +5                                     | +5                    | -6                       |
+
+### <span id=constitution> Constitution </span>
 
 | **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
 |-----------|--------------------------------------|-------------------------|
@@ -158,54 +251,21 @@ may swap two ability scores with each other, once.
 | 17        | +2 (+3)*                             | 98%                     |
 | 18        | +2 (+4)*                             | 100%                    |
 
+#### Extended Constitution Table (19+)
+
+| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
+|-----------|--------------------------------------|-------------------------|
+| 19        | +2 (+5)*                             | 100%                    |
+| 20        | +2 (+5)*                             | 100%                    |
+| 21        | +2 (+6)*                             | 100%                    |
+| 22        | +2 (+6)*                             | 100%                    |
+| 23        | +2 (+6)*                             | 100%                    |
+| 24        | +2 (+7)*                             | 100%                    |
+| 25        | +2 (+7)*                             | 100%                    |
+
 \*Only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). All other classes may be given a maximum hit point bonus adjustment for constitution +2.
 
-### Intelligence
-
-| **Score** | **Spoken Languages**\*     | **Literacy** |**Search** | **Chance to Understand Chaos Spell**** |
-|-----------|--------------------------|--------------|-----------|--------------------------------------|
-| 3 - 7     | Native (broken speech)   | Illiterate   | 1 / 6     | 35%                                  |
-| 8         | Native +1                | Basic        | 1 / 6     | 35%                                  |
-| 9         | Native +1                | Literate     | 1 / 6     | 35%                                  |
-| 10        | Native +2                | Literate     | 1 / 6     | 45%                                  |
-| 11        | Native +2                | Literate     | 1 / 6     | 45%                                  |
-| 12        | Native +3                | Literate     | 1 / 6     | 45%                                  |
-| 13        | Native +3                | Literate     | 1 / 6     | 55%                                  |
-| 14        | Native +4                | Literate     | 1 / 6     | 55%                                  |
-| 15        | Native +4                | Literate     | 2 / 6     | 65%                                  |
-| 16        | Native +5                | Literate     | 2 / 6     | 65%                                  |
-| 17        | Native +6                | Literate     | 3 / 6     | 75%                                  |
-| 18        | Native +7                | Literate     | 4 / 6     | 85%                                  |
-
-\* Native plus additonal languages.
-\**For [<u>chaos mages</u>](#chaos-mage).
-
-### Wisdom
-
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus**** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
-|-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
-| 3         | -3              | -                        | 20%                         | 35%
-| 4         | -2              | -                        | 15%                         | 35%
-| 5         | -1              | -                        | 10%                         | 35%
-| 6         | -1              | -                        | 5%                          | 35%
-| 7         | -1              | -                        | 1%                          | 35%
-| 8         | +0              | -                        | 0%                          | 35%
-| 9         | +0              | -                        | 0%                          | 35%
-| 10        | +0              | -                        | 0%                          | 45%
-| 11        | +0              | -                        | 0%                          | 45%
-| 12        | +0              | -                        | 0%                          | 45%
-| 13        | +0              | -                        | 0%                          | 55%
-| 14        | +0              | -                        | 0%                          | 55%
-| 15        | +1              | One 1st level            | 0%                          | 65%
-| 16        | +2              | One 2nd level            | 0%                          | 65%
-| 17        | +3              | One 3rd level            | 0%                          | 75%
-| 18        | +4              | One 4th level            | 0%                          | 85%
-
-\*For [<u>law mages</u>](#law-mage)
-
-\**For [<u>law mages</u>](#law-mage). The bonus spell is rolled up by the referee when the character reaches the level eligible be able to cast it. "Training" if you will. Choose and write down the the level of the bonus spell of your choice. This can be 1st all the way to 4th if you have 18 in wisdom.
-
-### Charisma
+### <span id=charisma> Charisma </span>
 
 | **Score** | **Maximum Number of Retainers** | **Loyalty Modifier** | **Reaction Modifier** | 
 |-----------|-----------------|--------------------------------------|-----------------------|
@@ -226,6 +286,18 @@ may swap two ability scores with each other, once.
 | 17        | 10              | +30%                                 | +30%                  | 
 | 18        | 15              | +40%                                 | +35%                  | 
 
+#### Extended Charisma Table (19+)
+
+| **Score** | **Maximum Number of Retainers** | **Loyalty Modifier** | **Reaction Modifier** |
+|-----------|---------------------------------|----------------------|-----------------------|
+| 19        | 20                              | +50%                 | +40%                  |
+| 20        | 25                              | +60%                 | +45%                  |
+| 21        | 30                              | +70%                 | +50%                  |
+| 22        | 35                              | +80%                 | +55%                  |
+| 23        | 40                              | +90%                 | +60%                  |
+| 24        | 45                              | +100%                | +65%                  |
+| 25        | 50                              | +100%                | +70%                  |
+
 ## Starting Hit Points
 
 At level 1 you roll the corresponding hit die as your HP. Add or
@@ -234,18 +306,18 @@ player may reroll a die with the result in a 1.
 
 ## <span id=age> Age </span>
 
-The table below determines the ability score bonuses or penalties your character
+The table below determines the [<u>ability score</u>](#ability-scores) bonuses or penalties your character
 is given based on life stage.
 
-The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modify ability scores accordingly, making each change progressively from young adulthood, all aditions and subtractions being cumulative.
+The effects of aging below indicate the total amount of ability score changes given for each age. When age category is established, modify ability scores accordingly, making each change progressively from young adulthood, all additions and subtractions being cumulative.
 
-| **Result (1d100)** | **Age**     | **Strength** | **Dexterity** | **Constitution** | **Intelligence** | **Wisdom** | **Charisma** |
-|--------------------|-------------|--------------|---------------|------------------|------------------|------------|--------------|
-| 1 - 30             | Young Adult |     +0       |     +0        |       +1         |    +0            | -1         | +0           |
-| 31 - 70            | Mature      |     +1       |     +0        |       +0         |    +0            | +1         | +0           |
-| 71 - 95            | Middle Aged |     -1       |     +0        |       -1         |    +1            | +1         | +0           |
-| 96 - 98            | Old         |     -2       |     -2        |       -1         |    +0            | +1         | +0           |
-| 99 - 100           | Venerable   |     -1       |     -1        |       -1         |    +1            | +1         | +0           |
+| **Result (1d100)** | **Age**     | **Strength** | **Intelligence** | **Wisdom** | **Dexterity** | **Constitution** | **Charisma** |
+|--------------------|-------------|--------------|------------------|------------|---------------|------------------|--------------|
+| 1 - 30             | Young Adult |     +0       |    +0            | -1         |     +0        |       +1         | +0           |
+| 31 - 70            | Mature      |     +1       |    +0            | +1         |     +0        |       +0         | +0           |
+| 71 - 95            | Middle Aged |     -1       |    +1            | +1         |     +0        |       -1         | +0           |
+| 96 - 98            | Old         |     -2       |    +0            | +1         |     -2        |       -1         | +0           |
+| 99 - 100           | Venerable   |     -1       |    +1            | +1         |     -1        |       -1         | +0           |
 
 ## Age by Race
 
@@ -283,36 +355,47 @@ The effects of aging below indicate the total amount of ability score changes gi
 
 ## <span id=backgrounds> Backgrounds </span>
 
-Assign a skill randomly, or select according to the background of your
-character.
+Assign a secondary skill randomly, or select one that fits the character.
+The character's class is still their profession; this table only gives
+minor mundane knowledge from youth, household work, or apprenticeship.
 
-| **Result (1d100)** | **Background**                         | 
-|--------------------|----------------------------------------|
-| 01 - 02            | Animal husbander                       | 
-| 03 - 04            | Blacksmith                             | 
-| 05 - 07            | Bowyer/fletcher                        | 
-| 08 - 10            | Carpenter                              | 
-| 11 - 16            | Farmer/gardner                         | 
-| 17 - 20            | Fisher                                 | 
-| 21 - 26            | Forester                               | 
-| 27 - 29            |Gambler                                 | 
-| 30 - 33            | Hunter/trapper                         | 
-| 34 - 35            | Jeweler                                | 
-| 36 - 38            | Leather worker/tanner                  | 
-| 39 - 40            | Limner/painter                         | 
-| 41 - 43            | Mason                                  | 
-| 44 - 45            | Mercenary                              | 
-| 46 - 48            | Merchant                               | 
-| 49 - 51            | Miner                                  | 
-| 52 - 53            | Noble                                  | 
-| 54 - 55            | Outlaw                                 | 
-| 56 - 58            | Sailor                                 | 
-| 59 - 61            | Scholar                                | 
-| 62 - 64            | Soldier/guard                          | 
-| 65 - 67            | Tailor/weaver                          | 
-| 68 - 70            | Teamster/transporter                   | 
-| 71 - 90            | No skill of measurable worth           | 
-| 90 - 100           | Roll twice, ignoring this result after | 
+The referee decides what a secondary skill can accomplish. In general it
+may judge the worth and soundness of common goods, find or prepare
+ordinary materials, make small repairs, or fashion crude work. It never
+grants [<u>spellcasting</u>](#spellcasting), [<u>specialist skills</u>](#skills),
+[<u>weapon proficiency</u>](#weapon-proficiencies), or other [<u>class</u>](#classes)
+talents.
+
+| **Result (1d100)** | **Secondary Skill**          | **Description** |
+|--------------------|------------------------------|---------|
+| 01 - 02            | Armorer                      | Judge and repair normal armor; crude work with mail, straps, and rivets. |
+| 03 - 04            | Bowyer/Fletcher              | Judge and repair bows, bowstrings, arrows, and arrowheads. |
+| 05 - 10            | Farmer/Gardener              | Crops, soil, stores, barns, tools, and common field work. |
+| 11 - 14            | Fisher                       | Nets, hooks, boats, water signs, and preserving catch. |
+| 15 - 20            | Forester                     | Timber, paths, tracks, game sign, and woodland work. |
+| 21 - 23            | Gambler                      | Common games, odds, loaded dice, and gaming-house practice. |
+| 24 - 27            | Hunter/Trapper               | Snares, spoor, hides, butchery, and field dressing. |
+| 28 - 32            | Animal Husbander             | Livestock, fodder, breeding, handling, and signs of sickness. |
+| 33 - 34            | Jeweler/Lapidary             | Gems, settings, precious metals, and rough appraisals. |
+| 35 - 37            | Leather Worker/Tanner        | Hides, curing, stitching, leather repair, and tanning. |
+| 38                 | Limner/Painter               | Pigments, icons, signs, heraldry, and simple painted work. |
+| 39                 | Scribe                       | Copying, seals, ledgers, warrants, and common scripts. |
+| 40 - 42            | Mason/Carpenter              | Stone, timber, doors, frames, braces, and weak construction. |
+| 43 - 44            | Miner                        | Ore, shoring, stale air, tunnel faults, and underground work. |
+| 45 - 46            | Navigator                    | Stars, charts, coasts, rivers, and estimating course. |
+| 47 - 49            | Sailor                       | Knots, rigging, decks, weather, cargo, and shipboard custom. |
+| 50 - 51            | Shipwright                   | Hulls, leaks, spars, docks, and boat repair. |
+| 52 - 54            | Tailor/Weaver                | Cloth, dye, mending, cutting, and quality of garments. |
+| 55 - 57            | Teamster/Freighter           | Carts, wagons, draft animals, loads, roads, and tolls. |
+| 58 - 60            | Merchant                     | Prices, weights, measures, markets, and common trade goods. |
+| 61 - 62            | Woodworker/Cabinetmaker      | Joinery, furniture, boxes, handles, and crude wooden fittings. |
+| 63                 | Servant                      | Household routine, manners, kitchens, stables, and service passages. |
+| 64                 | Apothecary                   | Common simples, salves, herbs, and poisonous plants. |
+| 65                 | Alchemist's Assistant        | Furnaces, vessels, reagents, and laboratory hazards. No potion-making is granted. |
+| 66                 | Wizard's Assistant           | Spellbook care, components, copying rooms, and magical apparatus. No spellcasting is granted. |
+| 67                 | Thief                        | Fences, watch habits, false names, and stolen goods. No specialist skills are granted. |
+| 68 - 85            | No skill of measurable worth | The character has no useful secondary skill. |
+| 86 - 100           | Roll twice                   | Ignore further results of 86 - 100. |
 
 ## <span id=boons-&-banes> Boons & Banes </span>
 
@@ -339,14 +422,14 @@ Then roll 1d8 to determine the amount of Boons and/or Banes you start with. The 
 
 # <span id=multi-classing> Multi-Classing </span>
 
-A demi-human character may be of up to three classes.
-These are selected during character creation.
+A demi-human character may be of up to three [<u>classes</u>](#classes).
+These are selected during [<u>character creation</u>](#character-creation).
 
 ## Level and Experience Points
 
 The character has a separately tracked
 count of experience points per class.
-When earning XP, the total earned is split
+When earning [<u>XP</u>](#experience-points), the total earned is split
 evenly between the per-class XP counts.
 
 ### Prime Requisite XP Adjustments
@@ -393,24 +476,24 @@ hit bonus and damage bonus from all of their classes.
 ## Class Talents
 
 ##### Allowed Armor
-The character may use the best armor
+The character may use the best [<u>armor</u>](#armor)
 options allowed to any of their classes.
 
 ##### Allowed Weapons
-The character may use the best weapon
+The character may use the best [<u>weapon</u>](#melee-weapons)
 options allowed to any of their classes.
 
 ##### Spell Casting
-The character may use the magical abilities of each class without restriction.
+The character may use the [<u>magical abilities</u>](#spellcasting) of each class without restriction.
 
 ##### Stealth
 
-Class talents such as Stealth or Sleight of Hand may only be used when
+Class talents such as [<u>Stealth</u>](#skills) or [<u>Sleight of Hand</u>](#skills) may only be used when
 wearing armor that is allowed to the class that grants the ability.
 
 # <span id=dual-classing> Dual-Classing </span>
 
-A human character may have two classes by
+A human character may have two [<u>classes</u>](#classes) by
 dual-classing and the second class is
 chosen later in play and not during character
 creation.
@@ -418,9 +501,9 @@ creation.
 ## Ability Score Requirements
 
 To dual-class, the character must have at
-least 15 in the Prime Requisite(s) of the
+least 15 in the [<u>Prime Requisite(s)</u>](#classes) of the
 class they are changing from, and at
-least 17 in the Prime Requisite(s) of the
+least 17 in the [<u>Prime Requisite(s)</u>](#classes) of the
 class they are changing to.
 
 If either class has multiple Prime
@@ -433,7 +516,7 @@ The character has a separately tracked
 count of experience points per class, but
 only one class earns XP at a time.
 
-While advancing in the new class, all XP
+While advancing in the new class, all [<u>XP</u>](#experience-points)
 earned is added only to the new class’ XP
 count. The old class’ XP count does not
 increase.
@@ -534,20 +617,20 @@ allowed by either class.
 
 ### Spell Casting
 
-Normal spell restrictions still apply, such as:
+Normal [<u>spell</u>](#spellcasting) restrictions still apply, such as:
 
-- Chaos mage and illusionist spells cannot be
+- [<u>Chaos Mage</u>](#chaos-mage) and [<u>Illusionist</u>](#illusionist) spells cannot be
   cast while wearing armor.
 
-- Druid spells cannot be cast while wearing
+- [<u>Druid</u>](#druid) spells cannot be cast while wearing
   armor a druid cannot use.
 
 ### Stealth
 
-Physical specialist talents may only be used when
+Physical [<u>specialist</u>](#specialist) talents may only be used when
 wearing armor allowed to a thief.
 
-Monks cannot use their class maneuvers while
+[<u>Monks</u>](#monk) cannot use their class maneuvers while
 wearing armor. The exception is specialist
 talents, which follow the thief armor
 restrictions above.
@@ -620,6 +703,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|--------|---------|---------|
 |+0     | +1     | +3      | +6      | 
 
+##### THAC0
+
+|**1-5**|**6-10**|**11-15**|**16-20**|
+|-------|--------|---------|---------|
+| 20    | 19     | 17      | 14      |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -647,6 +736,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16             | 8                   | 6/10                                                | 5                              |
 | 17             | 9                   | 7/All                                               | 5                              |
 | 18             | 9                   | 8/All                                               | 6                              |
+| 19+            | 9                   | 9/All                                               | 7                              |
 
 \*Minimum is the least amount of spells learned at character creation
 from the selected roster of spells. If the amount isn't met when rolling
@@ -748,6 +838,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|--------|---------|---------|
 |+0     | +1     | +3      | +6      | 
 
+##### THAC0
+
+|**1-5**|**6-10**|**11-15**|**16-20**|
+|-------|--------|---------|---------|
+| 20    | 19     | 17      | 14      |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -775,6 +871,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16             | 6                   | 6/10                                                | 5                              |
 | 17             | 7                   | 7/All                                               | 5                              |
 | 18             | 7                   | 8/All                                               | 6                              |
+| 19+            | 7                   | 9/All                                               | 7                              |
 
 \*Minimum is the least amount of spells learned at character creation
 from the selected roster of spells. If the amount isn't met when rolling
@@ -869,6 +966,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|-------|-------|---------|---------|
 | +0    | +2    | +4    | +6      | +8      |
 
+##### THAC0
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|
+|-------|-------|-------|---------|---------|
+| 20    | 18    | 16    | 14      | 12      |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -953,14 +1056,14 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 3                | [Gust of Wind](#rune-lesser#gust-of-wind)                           |
 | 4                | [Proof Against Deadly Harm](#rune-lesser#proof-against-deadly-harm) |
 | 5                | [Rune of Vanishing](#rune-lesser#rune-of-vanishing)                 |
-| 6                | [Sway of the Mortal Mind](#rune-lesser#sway-of-the-mortal-mind)     |
+| 6                | [Sway of the Mortal Mind](#rune-lesser#sway-the-mortal-mind)        |
 
 ### Greater Rune Table
 
 | **Number (1d6)** | **Greater Rune**                                           |
 | ---------------- | ---------------------------------------------------------- |
 | 1                | [Arcane Unbinding](#rune-greater#arcane-unbinding)         |
-| 2                | [Fairy Gold](#rune-greater#fairy-gold)                     |
+| 2                | [Fairy Gold](#rune-greater#fairy-coin)                     |
 | 3                | [Fairy Steed](#rune-greater#fairy-steed)                   |
 | 4                | [Ice Storm](#rune-greater#ice-storm)                       |
 | 5                | [Rune of Invisibility](#rune-greater#rune-of-invisibility) |
@@ -1355,7 +1458,7 @@ This rune conjures a bag of 2d100 silver coins from a fairy noble into the hands
 
 **Duration:** 1 day
 
-Summons a magical 2 HD 13 AC fairy steed in the presence of the enchanter.
+Summons a magical 2 HD AC 7 fairy steed in the presence of the enchanter.
 
 **Servitude:** The fairy horse servers the caster as a mount. It understands commands and obeys and reasonable requests.
 
@@ -1459,7 +1562,7 @@ This rune has the power to alter and change reality in any way the caster wishes
 
 This invokes the sound of ghostly horns, summoning a horde of wild spirits fron the woods of fairy. 
 
-**Composition:** The wild hunt consits of 4d6 fairy hounds (1 HD, 12 AC), 4d20 elf hunters on foot (1 HD, 12 AC, Shortbow, Shortsword), 4d20 elf hunters mounted on fairy horses, 1d6 goblin horn-blowers (1 HD, AC 12, Dagger). 
+**Composition:** The wild hunt consits of 4d6 fairy hounds (1 HD, AC 8), 4d20 elf hunters on foot (1 HD, AC 8, Shortbow, Shortsword), 4d20 elf hunters mounted on fairy horses, 1d6 goblin horn-blowers (1 HD, AC 8, Dagger).
 
 **Hunting:** The caster may direct the host to chase a specific quarry.
 
@@ -1532,6 +1635,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|
 |---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
 |+0 | +1| +2| +3| +4| +5| +6| +7| +8| +9| +10| +11| +12| +13| +14| +15| +16| +17| +18| +19|
+
+##### THAC0
+
+|**1**|**2**|**3**|**4**|**5**|**6**|**7**|**8**|**9**|**10**|**11**|**12**|**13**|**14**|**15**|**16**|**17**|**18**|**19**|**20**|
+|---|---|---|---|---|---|---|---|---|----|----|----|----|----|----|----|----|----|----|----|
+|20 | 19| 18| 17| 16| 15| 14| 13| 12| 11| 10| 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 |
 
 #### Saving Throws
 
@@ -1608,6 +1717,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +18     |
+
+##### THAC0
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| 20    | 18    | 16    | 14    | 12     | 10      | 8       | 6       | 4       | 2       |
 
 #### Saving Throws
 
@@ -1708,6 +1823,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
 
+##### THAC0
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| 20    | 18    | 16    | 14    | 12     | 10      | 8       | 6       | 4       | 4       |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -1763,8 +1884,7 @@ Mage</u>](#law-mage).
 **Multiple Attacks (7th):** At 7th level, an Inquisitor may attack twice per round instead of once.
 
 **Dispel Evil (8th):** : Starting at 8th level, the Inquisitor can
-dispel evil once per day, as per the Law Mage spell (see the description of the [<u>Law
-Mage</u>](#law-mage-1) spell dispel evil).
+dispel evil once per day, as per the [<u>Law Mage</u>](#law-mage) spell dispel evil.
 
 ## <span id=ranger> Ranger </span>
 
@@ -1821,6 +1941,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
 |-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6    | +8     | +10     | +12     | +14     | +16     | +16     |
+
+##### THAC0
+
+|**1-2**|**3-4**|**5-6**|**7-8**|**9-10**|**11-12**|**13-14**|**15-16**|**17-18**|**19-20**|
+|-------|-------|-------|-------|--------|---------|---------|---------|---------|---------|
+| 20    | 18    | 16    | 14    | 12     | 10      | 8       | 6       | 4       | 4       |
 
 #### Saving Throws
 
@@ -1982,6 +2108,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|-------|-------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
+##### THAC0
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| 20    | 18    | 16    | 14      | 12      | 10      | 9       |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -2012,6 +2144,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 | 16             | 6                   | 4/5                                                 |
 | 17             | 7                   | 4/5                                                 |
 | 18             | 7                   | 4/5                                                 |
+| 19+            | 7                   | 5/All                                               |
 
 \*Minimum is the least amount of spells learned at character creation
 from the selected roster of spells. If the amount isn't met when rolling
@@ -2076,7 +2209,7 @@ on the table, 2d4 creatures of the targeted type are turned and depart.
 
 **Hit Dice:** 1d6/level (Gains 1 hp/level after 9th level).
 
-**Armor/Shield Permitted**: Leather armor, wooden
+**Armor/Shield Permitted**: Leather or hide armor, wooden
 shield.
 
 **Weapons Permitted:** Dagger, sickle-shaped sword (treat
@@ -2128,6 +2261,12 @@ Druids who attain 12th level or above may build a stronghold integrated into a n
 |-------|-------|-------|---------|---------|---------|---------|
 | +0    | +2    | +4    | +6      | +8      | +10     | +11     | 
 
+##### THAC0
+
+|**1-3**|**4-6**|**7-9**|**10-12**|**13-15**|**16-18**|**19-20**|
+|-------|-------|-------|---------|---------|---------|---------|
+| 20    | 18    | 16    | 14      | 12      | 10      | 9       |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -2158,6 +2297,7 @@ Druids who attain 12th level or above may build a stronghold integrated into a n
 | 16             | 5                   | 4/5                                                 |
 | 17             | 5                   | 4/5                                                 |
 | 18             | 5                   | 4/5                                                 |
+| 19+            | 5                   | 5/All                                               |
 
 \*Minimum is the least amount of spells learned at character creation
 from the selected roster of spells. If the amount isn't met when rolling
@@ -2260,6 +2400,12 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|-------|--------|---------|---------|
 | +0    | +1    | +4     | +6      | +8      |
 
+##### THAC0
+
+|**1-4**|**5-8**|**9-12**|**13-16**|**17+**|
+|-------|-------|--------|---------|---------|
+| 20    | 19    | 16     | 14      | 12      |
+
 #### Saving Throws
 
 | **Level** | **Paralyzation, Poison, or Death Magic** | **Petrification or Polymorph** | **Rod, Staff, or Wand** | **Breath Weapon** | **Spell** |
@@ -2325,22 +2471,22 @@ Example: A character hits a lizard man (2+1 HD) with a natural 20. The lizard ma
 | **Level** | **AC** | **Movement** | **Martial Bonus Attacks** | **Martial Bonus Damage** | **Lockpicking** | **Find Traps** | **Stealth** | **Hear Sound** | **Climb** | **Surprise** |
 |-----------|--------|--------------|---------------------------|--------------------------|-----------------|----------------|-------------|----------------|-----------|--------------|
 | 1         | 10     | 15'          | —                         | —                        | 2/6             | 1/6            | 1/6         | 1/6            | 85%       | +0       |
-| 2         | 11     | 16'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 86%       | +0           |
-| 3         | 12     | 17'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 87%       | +0           |
-| 4         | 13     | 18'          | 1/4                       | —                        | 2/6             | 2/6            | 2/6         | 2/6            | 88%       | +0           |
-| 5         | 13     | 19'          | 1/4                       | +1                       | 3/6             | 2/6            | 2/6         | 2/6            | 89%       | +1           |
-| 6         | 14     | 20'          | 1/2                       | +2                       | 3/6             | 3/6            | 2/6         | 2/6            | 90%       | +1           |
-| 7         | 15     | 21'          | 1/2                       | +2                       | 3/6             | 3/6            | 3/6         | 2/6            | 91%       | +1           |
-| 8         | 16     | 22'          | 1/2                       | +1D                      | 3/6             | 3/6            | 3/6         | 2/6            | 92%       | +1           |
-| 9         | 17     | 23'          | 1/1                       | +1D+1                    | 4/6             | 3/6            | 4/6         | 3/6            | 93%       | +2           |
-| 10        | 17     | 24'          | 1/1                       | +1D+2                    | 4/6             | 4/6            | 4/6         | 3/6            | 94%       | +2           |
-| 11        | 18     | 25'          | 3/2                       | +1D+2                    | 4/6             | 4/6            | 5/6         | 3/6            | 95%       | +2           |
-| 12        | 19     | 26'          | 3/2                       | +2D                      | 4/6             | 4/6            | 5/6         | 3/6            | 96%       | +2           |
-| 13        | 20     | 27'          | 3/2                       | +2D                      | 5/6             | 4/6            | 5/6         | 3/6            | 97%       | +3           |
-| 14        | 21     | 28'          | 2/1                       | +2D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 98%       | +3           |
-| 15        | 21     | 29'          | 2/1                       | +3D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +3           |
-| 16        | 22     | 30'          | 3/1                       | +3D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
-| 17        | 23     | 32'          | 3/1                       | +4D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
+| 2         | 9      | 16'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 86%       | +0           |
+| 3         | 8      | 17'          | —                         | —                        | 2/6             | 2/6            | 2/6         | 1/6            | 87%       | +0           |
+| 4         | 7      | 18'          | 1/4                       | —                        | 2/6             | 2/6            | 2/6         | 2/6            | 88%       | +0           |
+| 5         | 7      | 19'          | 1/4                       | +1                       | 3/6             | 2/6            | 2/6         | 2/6            | 89%       | +1           |
+| 6         | 6      | 20'          | 1/2                       | +2                       | 3/6             | 3/6            | 2/6         | 2/6            | 90%       | +1           |
+| 7         | 5      | 21'          | 1/2                       | +2                       | 3/6             | 3/6            | 3/6         | 2/6            | 91%       | +1           |
+| 8         | 4      | 22'          | 1/2                       | +1D                      | 3/6             | 3/6            | 3/6         | 2/6            | 92%       | +1           |
+| 9         | 3      | 23'          | 1/1                       | +1D+1                    | 4/6             | 3/6            | 4/6         | 3/6            | 93%       | +2           |
+| 10        | 3      | 24'          | 1/1                       | +1D+2                    | 4/6             | 4/6            | 4/6         | 3/6            | 94%       | +2           |
+| 11        | 2      | 25'          | 3/2                       | +1D+2                    | 4/6             | 4/6            | 5/6         | 3/6            | 95%       | +2           |
+| 12        | 1      | 26'          | 3/2                       | +2D                      | 4/6             | 4/6            | 5/6         | 3/6            | 96%       | +2           |
+| 13        | 0      | 27'          | 3/2                       | +2D                      | 5/6             | 4/6            | 5/6         | 3/6            | 97%       | +3           |
+| 14        | -1     | 28'          | 2/1                       | +2D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 98%       | +3           |
+| 15        | -1     | 29'          | 2/1                       | +3D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +3           |
+| 16        | -2     | 30'          | 3/1                       | +3D+1                    | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
+| 17        | -3     | 32'          | 3/1                       | +4D                      | 5/6             | 5/6            | 5/6         | 4/6            | 99%       | +4           |
 
 ### Martial Arts
 
@@ -2354,10 +2500,10 @@ No more than two proficiency slots can be expended on a single martial arts styl
 
 | **Name**   | **Attacks** | **Damage** | **AC** | **Principal** | **Special Maneuvers**                                                                                                                                                                                                |
 | ---------- | ----------: | ---------: | -----: | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tiger**  |         3/1 |        1–6 |     12 | Hand          | [Strike 1](#strike-1), [Strike 2](#strike-2), [Strike 3](#strike-3); [Kick 1](#kick-1); [Movement 1](#movement-1); [Mental 1](#mental-1)                                                                             |
-| **Snake**  |         2/1 |        1–6 |     14 | Hand          | [Lock 1](#lock-1), [Lock 2](#lock-2), [Lock 3](#lock-3); [Strike 1](#strike-1), [Strike 2](#strike-2); [Kick 2](#kick-2); [Mental 5](#mental-5); [Push 3](#push-3)                                          |
-| **Eagle**  |         1/1 |        1–8 |     12 | Foot          | [Kick 1](#kick-1), [Kick 2](#kick-2), [Kick 3](#kick-3); [Strike 1](#strike-1); [Throw 4](#throw-4); [Movement 5](#movement-5)                                                                                       |
-| **Monkey** |         2/1 |        1–6 |     13 | Hand          | [Throw 1](#throw-1), [Throw 2](#throw-2), [Throw 3](#throw-3), [Throw 4](#throw-4); [Movement 1](#movement-1), [Movement 3](#movement-3); [Vital Area 1](#vital-1), [Vital Area 2](#vital-2); [Mental 1](#mental-1), [Mental 2](#mental-2), [Mental 3](#mental-3)    |
+| **Tiger**  |         3/1 |        1–6 |      8 | Hand          | [Strike 1](#strike-1), [Strike 2](#strike-2), [Strike 3](#strike-3); [Kick 1](#kick-1); [Movement 1](#movement-1); [Mental 1](#mental-1)                                                                             |
+| **Snake**  |         2/1 |        1–6 |      6 | Hand          | [Lock 1](#lock-1), [Lock 2](#lock-2), [Lock 3](#lock-3); [Strike 1](#strike-1), [Strike 2](#strike-2); [Kick 2](#kick-2); [Mental 5](#mental-5); [Push 3](#push-3)                                          |
+| **Eagle**  |         1/1 |        1–8 |      8 | Foot          | [Kick 1](#kick-1), [Kick 2](#kick-2), [Kick 3](#kick-3); [Strike 1](#strike-1); [Throw 4](#throw-4); [Movement 5](#movement-5)                                                                                       |
+| **Monkey** |         2/1 |        1–6 |      7 | Hand          | [Throw 1](#throw-1), [Throw 2](#throw-2), [Throw 3](#throw-3), [Throw 4](#throw-4); [Movement 1](#movement-1), [Movement 3](#movement-3); [Vital Area 1](#vital-1), [Vital Area 2](#vital-2); [Mental 1](#mental-1), [Mental 2](#mental-2), [Mental 3](#mental-3)    |
 
 
 **Number of attacks** functions in the same manner as it does for normal combat. When using martial arts, the number of attacks depends on the style used and may differ from the number of attacks with weapons. Thus a character's ability to attack may increase, decrease or remain the same when using martial arts.
@@ -2633,7 +2779,7 @@ legs may be held. Other styles use the legs, elbows, torso, etc.
 
 - **On save or miss:** No effect and no damage.
 
-- **Reference:** If an arm is incapacitated, the character can still fight, though they cannot use two-handed weapons. Spells requiring somatic components can be cast 75% of the time. If a leg is incapacitated, the character's movement rate is reduced to 1/4 its normal. Armor Class decreases by 3 and the creature suffers a -4 on his chance to hit. 
+- **Reference:** If an arm is incapacitated, the character can still fight, though they cannot use two-handed weapons. Spells requiring somatic components can be cast 75% of the time. If a leg is incapacitated, the character's movement rate is reduced to 1/4 its normal. Armor Class worsens by 3 and the creature suffers a -4 on his chance to hit.
 
 ### <a id="lock-4"></a>**Lock 4 — Immobilizing (Hard/Soft)**
 
@@ -2953,7 +3099,7 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |--------------|-------|---------|
 | 1            | None | Club
 | 2            | None | 3 Daggers
-| 3            | Hide  | Shortsword
+| 3            | Padded | Shortsword
 | 4            | Leather | Shortbow + 20 arrows
 | 5            | Leather | Whip
 | 6            | Studded Leather | Sling + 20 stones
@@ -2962,28 +3108,28 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 
 ### Specialist Advancement Table
 
-| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Skill Points** | **Weapon Proficiencies** | **Level Title** |
-|-----------|---------------------------|-------------------|------------------|--------------------------|-----------------|
-| 1         | 0                         | 1                 | 4                | 2                        | Apprentice      |
-| 2         | 1,250                     | 2                 | 6                | 2                        | Footpad         |
-| 3         | 2,500                     | 3                 | 8                | 2                        | Rogue           |
-| 4         | 5,000                     | 4                 | 10               | 3                        | Treasure Hunter |
-| 5         | 10,000                    | 5                 | 12               | 3                        | Raconteur       |
-| 6         | 20,000                    | 6                 | 14               | 3                        | Tomb Robber     |
-| 7         | 40,000                    | 7                 | 16               | 4                        | Sharper         |
-| 8         | 60,000                    | 8                 | 18               | 4                        | Magsman         |
-| 9         | 90,000                    | 9                 | 20               | 4                        | Thief           |
-| 10        | 120,000                   | 10                | 22               | 5                        | Expert          |
-| 11        | 240,000                   | 10+1              | 24               | 5                        | Arch Rogue      |
-| 12        | 370,000                   | 10+2              | 26               | 5                        |                 |
-| 13        | 500,000                   | 10+3              | 28               | 6                        |                 |
-| 14        | 630,000                   | 10+4              | 30               | 6                        |                 |
-| 15        | 760,000                   | 10+5              | 32               | 6                        |                 |
-| 16        | 890,000                   | 10+6              | 34               | 7                        |                 |
-| 17        | 1,020,000                 | 10+7              | 36               | 7                        |                 |
-| 18        | 1,150,000                 | 10+8              | 38               | 7                        |                 |
-| 19        | 1,280,000                 | 10+9              | 40               | 8                        |                 |
-| 20        | 1,410,000                 | 10+10             | 42               | 8                        |                 |
+| **Level** | **XP Required for Level** | **Hit Dice (d6)** | **Skill Points** | **Climb** | **Weapon Proficiencies** | **Level Title** |
+|-----------|---------------------------|-------------------|------------------|-----------|--------------------------|-----------------|
+| 1         | 0                         | 1                 | 4                | 85%       | 2                        | Apprentice      |
+| 2         | 1,250                     | 2                 | 6                | 86%       | 2                        | Footpad         |
+| 3         | 2,500                     | 3                 | 8                | 87%       | 2                        | Rogue           |
+| 4         | 5,000                     | 4                 | 10               | 88%       | 3                        | Treasure Hunter |
+| 5         | 10,000                    | 5                 | 12               | 89%       | 3                        | Raconteur       |
+| 6         | 20,000                    | 6                 | 14               | 90%       | 3                        | Tomb Robber     |
+| 7         | 40,000                    | 7                 | 16               | 91%       | 4                        | Sharper         |
+| 8         | 60,000                    | 8                 | 18               | 92%       | 4                        | Magsman         |
+| 9         | 90,000                    | 9                 | 20               | 93%       | 4                        | Thief           |
+| 10        | 120,000                   | 10                | 22               | 94%       | 5                        | Expert          |
+| 11        | 240,000                   | 10+1              | 24               | 95%       | 5                        | Arch Rogue      |
+| 12        | 370,000                   | 10+2              | 26               | 96%       | 5                        |                 |
+| 13        | 500,000                   | 10+3              | 28               | 97%       | 6                        |                 |
+| 14        | 630,000                   | 10+4              | 30               | 98%       | 6                        |                 |
+| 15        | 760,000                   | 10+5              | 32               | 99%       | 6                        |                 |
+| 16        | 890,000                   | 10+6              | 34               | 99%       | 7                        |                 |
+| 17        | 1,020,000                 | 10+7              | 36               | 99%       | 7                        |                 |
+| 18        | 1,150,000                 | 10+8              | 38               | 99%       | 7                        |                 |
+| 19        | 1,280,000                 | 10+9              | 40               | 99%       | 8                        |                 |
+| 20        | 1,410,000                 | 10+10             | 42               | 99%       | 8                        |                 |
 
 #### Calculating To Hit Modifier by Level
 
@@ -2991,6 +3137,11 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 |-------|-------|--------|---------|---------|
 | +0    | +1    | +4     | +6      | +8      | 
 
+##### THAC0
+
+|**1-4**|**5-8**|**9-12**|**13-16**|**17-20**|
+|-------|-------|--------|---------|---------|
+| 20    | 19    | 16     | 14      | 12      |
 
 #### Saving Throws
 
@@ -3005,15 +3156,27 @@ Roll 1d6 for armor and 1d6 twice for weapons.
 ### Talents
 
 **Climbing walls or cliffs:** In general, if a normal person has a
-chance to climb a wall, a Specialist can most likely do it
-automatically.
+chance to climb a wall or cliff, a Specialist can most likely do it
+automatically. If the climb is dangerous enough to require a roll, use
+the better of the Specialist's [<u>Strength</u>](#strength) Climb chance
+or their listed Climb chance. Apply armor,
+[<u>encumbrance</u>](#encumbrance), slippery surfaces, haste, darkness,
+lack of tools, or similar modifiers after choosing this base chance.
 
-**Evasiveness:** Specialists gain a +1 bonus to AC when
+**Evasiveness:** Specialists improve AC by 1 when
 [<u>unencumbered</u>](#encumbrance).
 
 **Moving quietly:** Specialists can move quietly without being heard.
 
-### Skills
+**Read Scrolls (10th):** At 10th level, a Specialist may attempt to
+activate magical scrolls. When the scroll is activated, there is a
+chance the Specialist misreads the writing equal to 25% minus their
+Intelligence score. For example, a Specialist with 13 Intelligence has a
+12% chance to misread the scroll. On a misread, the scroll is consumed
+and the spell is reversed, misdirected, weakened, or otherwise made
+harmful at the referee's discretion.
+
+### <span id=skills> Skills </span>
 
 The Specialist begins at the same default level in these activities as
 other characters, but receives “points” which can be allocated to
@@ -3033,6 +3196,11 @@ in/on, as well as any history found in the structure can be noted.
 **Lockpicking:** Specialists can pick locks with Thieves' tools; some
 locks might be unusually difficult, in which case the game master might
 reduce the chance as appropriate.
+
+**Read Languages:** Deciphering unfamiliar non-magical writing, old
+inscriptions, ledgers, maps, signs, and simple ciphers. Success gives
+the general sense of the writing, not a perfect translation. This does
+not allow the character to read magical writing or use scrolls.
 
 **Search:** Finding features of interest, hidden doors or compartments.
 Note that finding secret doors does not grant the character an
@@ -3068,16 +3236,16 @@ would be considered Tinkering.
 
 Below are examples, either pick one or build your own with the four skill points given at level 1.
 
-| **Result (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
-|---------------------|----------------|------------------|--------------|-----------------|------------|---------------------|------------------|-------------|------------|
-| 1                   | Artificer      | 2 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 3 / 6      |
-| 2                   | Assassin       | 1 / 6            | 1 / 6        | 1 / 6           | 1 / 6      | 1 / 6               | 3 / 6            | 3 / 6       | 1 / 6      |
-| 3                   | Explorer       | 1 / 6            | 2 / 6        | 1 / 6           | 3 / 6      | 2 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
-| 4                   | Ranger         | 1 / 6            | 3 / 6        | 1 / 6           | 1 / 6      | 1 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
-| 5                   | Rogue          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 1 / 6               | 2 / 6            | 3 / 6       | 1 / 6      |
-| 6                   | Scholar        | 3 / 6            | 1 / 6        | 1 / 6           | 3 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
-| 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
-| 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
+| **Result (d8)** | **Discipline** | **Architecture** | **Foraging** | **Lockpicking** | **Read Languages** | **Search** | **Sleight of Hand** | **Sneak Attack** | **Stealth** | **Tinker** |
+|---------------------|----------------|------------------|--------------|-----------------|--------------------|------------|---------------------|------------------|-------------|------------|
+| 1                   | Artificer      | 2 / 6            | 1 / 6        | 2 / 6           | 1 / 6              | 1 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 3 / 6      |
+| 2                   | Assassin       | 1 / 6            | 1 / 6        | 1 / 6           | 1 / 6              | 1 / 6      | 1 / 6               | 3 / 6            | 3 / 6       | 1 / 6      |
+| 3                   | Explorer       | 1 / 6            | 2 / 6        | 1 / 6           | 1 / 6              | 3 / 6      | 2 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
+| 4                   | Ranger         | 1 / 6            | 3 / 6        | 1 / 6           | 1 / 6              | 1 / 6      | 1 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
+| 5                   | Rogue          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6              | 1 / 6      | 1 / 6               | 2 / 6            | 3 / 6       | 1 / 6      |
+| 6                   | Scholar        | 2 / 6            | 1 / 6        | 1 / 6           | 2 / 6              | 3 / 6      | 1 / 6               | 1 / 6            | 1 / 6       | 1 / 6      |
+| 7                   | Spy            | 1 / 6            | 1 / 6        | 3 / 6           | 1 / 6              | 1 / 6      | 1 / 6               | 1 / 6            | 3 / 6       | 1 / 6      |
+| 8                   | Thief          | 1 / 6            | 1 / 6        | 2 / 6           | 1 / 6              | 1 / 6      | 2 / 6               | 2 / 6            | 2 / 6       | 1 / 6      |
 
 # <span id=general-gameplay> General Gameplay </span>
 
@@ -3112,7 +3280,7 @@ Silver is the standard trading currency in the world. There are exceptions of co
 
 # <span id=downtime> Downtime </span>
 
-Downtime activity is an important part of the game. Some parts like [<u>training</u>](#training) which are necessary for advancement, others to research spells or even carouse. 
+Downtime activity is an important part of the game. Some parts like [<u>training</u>](#training) which are necessary for advancement, others to [<u>research spells</u>](#spell-research) or even [<u>carouse</u>](#carousing).
 
 ## <span id=upkeep> Upkeep </span>
 
@@ -3137,13 +3305,13 @@ Characters can trade in their newfound currency to gain experience.
 
 The PC can choose one of the following:
 
-- **Gourmandising**: Characters spend silver seeking new things to eat, consume, or experience. At the end of the week roll a **constitution** check.
+- **Gourmandising**: Characters spend silver seeking new things to eat, consume, or experience. At the end of the week roll a [<u>Constitution</u>](#constitution) check.
 
-- **Study/Research:** Characters spend silver seeking ancient or forgotten lore. At the end of the week roll an **intelligence** check.
+- **Study/Research:** Characters spend silver seeking ancient or forgotten lore. At the end of the week roll an [<u>Intelligence</u>](#intelligence) check.
 
-- **Philanthropy:** Characters spend silver on a worthy group or establishment. At the end of the week roll a **wisdom** check.
+- **Philanthropy:** Characters spend silver on a worthy group or establishment. At the end of the week roll a [<u>Wisdom</u>](#wisdom) check.
 
-- **Drinking/Orgies:** Characters spend silver on vice and excess. At the end of the week roll a **charisma** check.
+- **Drinking/Orgies:** Characters spend silver on vice and excess. At the end of the week roll a [<u>Charisma</u>](#charisma) check.
 
 If the PC lacks the funds they only gain 1/2 the experience and the ability check (roll under ability score) is made by rolling 2d20 and picking the higher score amongst them. On a failed save something interesting has happened. At the end of the week, unless contradicted by the entry, characters gain experience equal to silver spent.
 
@@ -3189,7 +3357,7 @@ Described in [<u>spell research</u>](#spell-research).
 ## <span id=training> Training </span>
 
 Training reflects the time and effort spent mastering new skills, techniques, or spells.
-When a player character or retainer gains enough experience points to level up, that character needs to train to gain the benefits of the level. 
+When a player character or [<u>retainer</u>](#retainers) gains enough [<u>experience points</u>](#experience-points) to level up, that character needs to train to gain the benefits of the level.
 Coinage and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions.
 
 ### Cost of Training
@@ -3240,18 +3408,18 @@ Thus, in some places, a fighter or mage instructor may be readily found, while a
 
 ## Proficiency Training
 
-Characters may spend time in a location with the appropriate facilities and teachers training their skills or proficiency.
+Characters may spend time in a location with the appropriate facilities and teachers training their [<u>skills</u>](#skills) or [<u>proficiency</u>](#weapon-proficiencies).
 
-Gaining basic proficiency in a weapon costs 1,000 silver pieces and takes 1 week, allowing them to use the weapon without penalty.
+Gaining basic [<u>proficiency</u>](#weapon-proficiencies) in a weapon costs 1,000 silver pieces and takes 1 week, allowing them to use the weapon without penalty.
 
-## Experience Points
+## <span id=experience-points> Experience Points </span>
 
-XP is earned through the acquisition of coinage and encounters. For each Silver Piece (SP) safely collected, players will earn 1 XP. All experience is shared between the party.
+[<u>XP</u>](#experience-points) is earned through the acquisition of [<u>coinage</u>](#currency) and encounters. For each Silver Piece (SP) safely collected, players will earn 1 XP. All experience is shared between the party.
 
 # <span id=encumbrance> Encumbrance</span>
 
 Characters have a total number of slots (or unique items carried) equal
-to their Strength Score, or 8, whichever is higher. Each item carried takes up one slot unless
+to their [<u>Strength</u>](#strength) Score, or 8, whichever is higher. Each item carried takes up one slot unless
 noted otherwise. Some items such as torches, bandages, or daggers are
 stackable. Meaning that multiple of the same type can be carried (up to
 10). Mundane items that are small enough to fit in your hand do not
@@ -3260,7 +3428,7 @@ two slots. Coins are treated as mundane until a hundred of any type are
 carried. After which they take up one slot per a hundred coins. Mundane
 clothing does not count towards encumbrance.
 
-Player characters can carry items such as backpacks, sacks and belts
+Player characters can carry items such as [<u>backpacks</u>](#general-equipment), [<u>sacks</u>](#general-equipment) and [<u>belts</u>](#general-equipment)
 which can function as containers for other smaller items. These items
 and their contents should be labeled accordingly in case the character
 loses the container. Generally, all containers that are in use and worn
@@ -3318,7 +3486,7 @@ cannot occur during days allocated for resting.
 
 # <span id=languages> Languages </span>
 
-## Common Langauges
+## Common Languages
 
 Either pick a language on the "common language" table, or roll on the "foreign tongue" table.
 
@@ -3579,18 +3747,18 @@ will most likely require a saving throw to avoid madness and/or horror.
 
 # <span id=retainers> Retainers </span>
 
-Followers of any kind are separated in two categories, Henchmen and
-Hirelings.
+Followers of any kind are separated in two categories, [<u>Henchmen</u>](#henchmen) and
+[<u>Hirelings</u>](#hirelings).
 
 ## Henchmen
 
-Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in combat scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC. 
+Henchmen are leveled and classed followers that are willing to delve into dungeons and fight alongside the player characters. They are both meant as a suitable backup incase of sudden demise of the player character where the player can continue on as them, as well as offering a helping hand in [<u>combat</u>](#combat) scenarios. Henchmen (and hirelings) are individuals with different goals and personalities, and can act both in a helping manner and sometimes against the wishes of the PC.
 
 Recruiting a henchmen requires the PC to be at least one level above the henchmen. To recruit a level 1 henchmen means that the PC needs to be at least level 2. However, first level henchmen can recruit level 0 henchmen, detailed below. If the henchmen becomes one level higher than the PC, they might demand a better share of treasure, or even leave.
 
-Henchmen need to be given suitable equipment and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the XP as the PC receives at the end of the session.
+Henchmen need to be given suitable [<u>equipment</u>](#general-equipment) and half a share of treasure after any successful heist, or else risk their departure. Their loyalty is dependent on the [<u>Charisma</u>](#charisma) score of the PC they work for. And because Henchmen act similar to a normal PC, morale is not taken into account, but loyalty checks might be rolled in case of questionable or dangerous commands given to them. Henchmen gain half of the [<u>XP</u>](#experience-points) as the PC receives at the end of the session.
 
-Exceptionally generous PCs may wish to pay for part or all of the training, with a resultant increase to loyalty. This is optional, however.
+Exceptionally generous PCs may wish to pay for part or all of the [<u>training</u>](#training), with a resultant increase to loyalty. This is optional, however.
 
 ## Hiring Henchmen
 
@@ -3603,19 +3771,19 @@ Exceptionally generous PCs may wish to pay for part or all of the training, with
 
 ## Level 0 Henchmen
 
-Level 0 henchmen can be recruited at first level. They do not begin with any starting equipment. Below are rules for creation:
+Level 0 henchmen can be recruited at first level. They do not begin with any [<u>starting equipment</u>](#starting-equipment). Below are rules for creation:
 
 - Roll [<u>age</u>](#age).
 - Roll [<u>ability scores</u>](#ability-scores) as usual, without switching place between attributes.
 - Roll 1d4 HP.
 - Begin at -500 XP.
-- Roll [<u>background</u>](#backgrounds).
+- Roll a [<u>secondary skill</u>](#backgrounds).
 - Roll [<u>psionics</u>](#psionics).
-- Choose 2 weapon proficiencies. Any armor permissable.
-- The character can attempt any non-magical special talents at a lower success. Such as lockpicking, tracking etc.
-- Choose one category type from [<u>boons & banes</u>](#boons-&-banes), depending on class picked.
+- Choose 2 [<u>weapon proficiencies</u>](#weapon-proficiencies). Any [<u>armor</u>](#armor) permissable.
+- The character can attempt any non-magical special talents at a lower success. Such as [<u>lockpicking</u>](#skills), tracking etc.
+- Choose one category type from [<u>boons & banes</u>](#boons-&-banes), depending on [<u>class</u>](#classes) picked.
 
-When the henchmen reaches 0 XP, you may assign the character a class. The henchmen will then gain attribute bonuses depending on the choice.
+When the henchmen reaches 0 [<u>XP</u>](#experience-points), you may assign the character a [<u>class</u>](#classes). The henchmen will then gain attribute bonuses depending on the choice.
 
 ## Hirelings
 
@@ -3633,31 +3801,31 @@ in advance do not require rations or similar if they get extra payment.
 
 ## Travel Time
 
-Distance traveled per day is based on base movement rates, modified by
-terrain and encumbrance. A party can usually navigate 2 hexes (12 miles
+Distance traveled per day is based on base [<u>movement</u>](#movement) rates, modified by
+terrain and [<u>encumbrance</u>](#encumbrance). A party can usually navigate 2 hexes (12 miles
 or 20 km) on foot over flat clear land per day. (6 miles or 10 km on
 rougher terrain)
 
 Forced marches at higher speeds are possible but require a [<u>
-constitution check</u>](#strength) to avoid exhaustion.
+Constitution check</u>](#constitution) to avoid exhaustion.
 
 ## Dungeon Time
 
 Delving into dungeons is measured in turns, equal to 10 minutes of
-in-game time. Most actions like searching, spell durations, and ambushes
+in-game time. Most actions like [<u>searching</u>](#skills), spell durations, and [<u>ambushes</u>](#surprise)
 happen in turn increments.
 
 Light sources like torches and lanterns burn for a specific number of
-turns before being consumed. Spells are timed in turns. Events,
+turns before being consumed. [<u>Spells</u>](#spellcasting) are timed in turns. Events,
 wandering monsters, and resting also transpire in turn units. Important
 decisions are also considered turn by turn. For example, lockpicking a
-door or checking for traps. Some other actions like searching a room can
+door or checking for traps. Some other actions like [<u>searching</u>](#skills) a room can
 both be a simple noted action or described in detail by players, if
 described then it won't cost a turn most of the time.
 
 ## Combat Time
 
-Combat occurs in rounds, with each round lasting 1 minute of in-game
+[<u>Combat</u>](#combat) occurs in rounds, with each round lasting 1 minute of in-game
 time. Turn structure defines the sequence of actions and events during a
 round.
 
@@ -3665,10 +3833,10 @@ round.
 
 ## Learning Spells
 
-All mages possess a spellbook from which they learn and mentally prepare
-spells. This spell also contains “Read Magic” , a first level blue
+[<u>Mages</u>](#classes) possess a spellbook from which they learn and mentally prepare
+spells. This spellbook also contains [<u>Read Magic</u>](#spells#chaos#level1#readmagic), a first level blue
 spell. As they progress in level, mages may encounter or research new
-spells which they can add to their spellbook. Not all spells can be
+spells which they can add to their spellbook. Not all [<u>spells</u>](#spellcasting) can be
 learned instantaneously – the complexity of a spell and the mage's
 current level affect their ability to comprehend and learn new magic.
 When gaining a new level, a spellcaster may reroll previously not
@@ -3693,12 +3861,12 @@ They require research, experimentation, training, and perhaps even ingredients t
 Copying spells from a scroll runs the cost of an essential magical ink 
 that is suited for the spell book at hand. After successfully understanding 
 a spell, the mage may decide to rewrite the spell in the book. This costs 100
-SP worth of ink and one day of downtime per spell level. A lightning bolt in
+SP worth of ink and one day of [<u>downtime</u>](#downtime) per spell level. A lightning bolt in
 this case would cost 300 SP and three days' worth of downtime.
 
 ## <span id=spell-research> Spell Research </span>
 
-Chaos and Law Mages may research new spells (by different methods, of course). This process, and the spell to be created, requires
+[<u>Chaos</u>](#chaos-mage) and [<u>Law Mages</u>](#law-mage) may research new spells (by different methods, of course). This process, and the spell to be created, requires
 the approval of the Referee. 
 
 Below are the steps to spell researching.
@@ -3753,9 +3921,9 @@ Continue this process until the spell is successfully researched or omit to canc
 
 ## <span id=creation-of-magic-items> Creation of Magic Items </span>
 
-- Starting at 5th level, spellcasters may begin to scribe scrolls and brew potions. 
+- Starting at 5th level, [<u>spellcasters</u>](#spellcasting) may begin to scribe scrolls and brew potions.
 
-- At 9th level, any spellcaster may attempt to make other types of magic items, such as rods, rings, swords, and other items.
+- At 9th level, any spellcaster may attempt to make other types of [<u>magic items</u>](#creation-of-magic-items), such as rods, rings, swords, and other items.
 
 - A chaotic spellcaster may never create magic items that are exclusive to lawful spellcasters and vice versa. This is however dependant on the item, so do consult your GM.
 
@@ -3808,7 +3976,7 @@ Continue this process until the spell is successfully researched or omit to canc
 | Magic weapon +1 | 2,500 SP** | 1 month x weapon base cost / 10*** |
 | Raise weapon bonus from +1 to +2 | +5,000 SP** | +1 month x weapon base cost / 10*** |
 | Raise weapon bonus from +2 to +3 | +10,000 SP** | +1 month x weapon base cost / 10*** |
-| Magic armor +1 | 2,500 SP** | 1 month x Armor Class |
+| Magic armor +1 | 2,500 SP** | 1 month x (10 - armor AC) |
 | Raise armor bonus from +1 to +2 | +5,000 SP** | +1 month |
 | Raise armor bonus from +2 to +3 | +10,000 SP** | +1 month |
 
@@ -3830,28 +3998,31 @@ descriptions for these unique magical users.
 
 ## Order of Combat
 
-1. Determine Surprise (d6)
-2. Declare Spells and Melee actions (Fighting Retreat, Charge, Magic Missiel etc)
-3. Determine Initiative (d6)
+1. Determine [<u>Surprise</u>](#surprise) (d6)
+2. Declare [<u>Spells</u>](#spellcasting) and [<u>Melee</u>](#combat-actions) actions (Fighting Retreat, [<u>Charge</u>](#charge), Magic Missiel etc)
+3. Determine [<u>Initiative</u>](#initiative) (d6)
 4. Winning side acts:
-  - Movement
-  - Spells/Abilities
-  - Missile attacks
-  - Melee attacks
+  - [<u>Movement</u>](#movement)
+  - [<u>Spells</u>](#spellcasting)/Abilities
+  - [<u>Missile attacks</u>](#missile-and-missile-combat)
+  - [<u>Melee attacks</u>](#combat-actions)
 5. Other sides act: In initiative order.
 6. Spells with casting time of 1 round are cast.
 
 ## Initiative
 
-After any surprise segments are resolved and actions are declared, the first combat round begins. At the beginning of a combat round, each side rolls initiative on a d6. The roll represents the six second segment of the round in which the OTHER group will be able to act; hence, the higher roll is the better roll (as the other party will act later). If the party rolls a 6 for initiative, and the monsters roll a 1, this means that the party will be acting in segment 1, and the monsters will not act until the sixth segment of the 10-segment round. Since a combat round is 10 segments long, and the initiative roll only covers the first six segments of the round, there are four remaining segments in the round after the two sides have already taken their actions: these remaining four segments are still important because spells may take effect during this time, and some combatants might “hold” (choose to delay) their actions, waiting to act until these later segments. 
+After any [<u>surprise</u>](#surprise) segments are resolved and actions are declared, the first combat round begins. At the beginning of a combat round, each side rolls initiative on a d6. The roll represents the six second segment of the round in which the OTHER group will be able to act; hence, the higher roll is the better roll (as the other party will act later). If the party rolls a 6 for initiative, and the monsters roll a 1, this means that the party will be acting in segment 1, and the monsters will not act until the sixth segment of the 10-segment round. Since a combat round is 10 segments long, and the initiative roll only covers the first six segments of the round, there are four remaining segments in the round after the two sides have already taken their actions: these remaining four segments are still important because [<u>spells</u>](#spellcasting) may take effect during this time, and some combatants might “hold” (choose to delay) their actions, waiting to act until these later segments.
 
-## Armor Class
+## <span id=armor-class> Armor Class </span>
 
 A character's Armor Class (AC) represents their ability to avoid being
-hit in combat, starting with a base of 10 and potentially increasing
-with factors such as worn armor, carried shields, and
-[<u>dexterity</u>](#dexterity) modifiers. To successfully strike a
-target, the final result must equal or surpass the defender's AC.
+hit in combat, starting with a base of 10 and potentially decreasing
+with factors such as worn [<u>armor</u>](#armor), carried [<u>shields</u>](#shields), and
+[<u>dexterity</u>](#dexterity) modifiers. Lower Armor Class is better.
+Negative AC modifiers improve defense, while positive AC modifiers worsen it.
+To resolve an attack, subtract the final attack roll, including modifiers,
+from the attacker's THAC0. The attack hits if the resulting AC is equal
+to or lower than the defender's AC.
 
 ## <span id=surprise> Surprise </span>
 <img src="./media/surprise.jpg" style="width:3.36027in;height:2.83134in" />
@@ -3860,43 +4031,43 @@ Surprise is checked only once per combat, at the beginning of an encounter. Each
 
 ## Critical Hits
 
-Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's Armor Class (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
+Rolling a 20 on a d20 attack roll is called a “critical hit”. This guarantees that the character's attack hits the target, regardless of the target's [<u>Armor Class</u>](#armor-class) (AC). However, it does not double the damage or dice. Similarly, rolling a 1 means the attack automatically fails, regardless of the target's AC. This is also applied to saving throws and works in the same way.
 
 ## <span id=combat-actions> Combat Actions </span>
 
 ### Melee Attack
 
-A melee attack is an attack with a hand-held weapon such as a sword, halberd, or dagger. A character's strength bonuses "to hit" and on damage are added to melee attacks. It is only possible to make a melee attack when the two combatants are within 10-ft of each other. Two combatants within 10-ft of each other are considered to be "engaged." When faced with more than one opponent, it is not possible to pick which opponent will be the one receiving the attack; in the rapid give and take of melee, any one of the opponents might be the one to let down his guard for a moment. 
+A melee attack is an attack with a hand-held [<u>weapon</u>](#melee-weapons) such as a sword, halberd, or dagger. A character's [<u>Strength</u>](#strength) bonuses "to hit" and on damage are added to melee attacks. It is only possible to make a melee attack when the two combatants are within 10-ft of each other. Two combatants within 10-ft of each other are considered to be "engaged." When faced with more than one opponent, it is not possible to pick which opponent will be the one receiving the attack; in the rapid give and take of melee, any one of the opponents might be the one to let down his guard for a moment.
 
 When a character is in melee with multiple opponents, the target of an attack roll must be determined randomly, but note that characters or creatures with multiple attacks that are part of the same routine (such as a character wielding a sword and dagger) must make all attacks against the same opponent.
 
 ### Closing into Combat
 
-When two groups of combatants are not within the 10-ft melee range, the attackers may choose either to charge into combat or to advance more cautiously, closing into combat. Closing into combat does not allow the character to make an attack roll that round; the cautious advance does not generate the opening to make a significant attack. However, neither may the character's opponent attack until the round after closing. When closing into combat, the character may advance the full amount of his or her movement. 
+When two groups of combatants are not within the 10-ft melee range, the attackers may choose either to [<u>charge</u>](#charge) into combat or to advance more cautiously, closing into combat. Closing into combat does not allow the character to make an attack roll that round; the cautious advance does not generate the opening to make a significant attack. However, neither may the character's opponent attack until the round after closing. When closing into combat, the character may advance the full amount of his or her [<u>movement</u>](#movement).
 
 ### Charge
 
-Charging into combat allows the attacker to move and then attack in the same round. A charge is made at twice the normal movement rate (and must terminate within the 10-ft melee range of the target). The target must be in line of sight and can either be in a straight line or diagonally. If the defender has a longer weapon than the attacker, the defender attacks first (unless the defender has already acted in this round). The attacker gains no dexterity bonus against such an attack (and characters with no dexterity bonus receive a -1 AC penalty). Additionally, if the defender has a weapon set against the charge (see below), he or she will inflict additional damage with a successful hit against the charging attacker. 
+Charging into combat allows the attacker to move and then attack in the same round. A charge is made at twice the normal [<u>movement</u>](#movement) rate (and must terminate within the 10-ft melee range of the target). The target must be in line of sight and can either be in a straight line or diagonally. If the defender has a longer [<u>weapon</u>](#melee-weapons) than the attacker, the defender attacks first (unless the defender has already acted in this round). The attacker gains no [<u>Dexterity</u>](#dexterity) bonus against such an attack (and characters with no dexterity bonus have their AC worsened by 1). Additionally, if the defender has a weapon set against the charge (see below), he or she will inflict additional damage with a successful hit against the charging attacker.
 
-Assuming that the charging character survives, he or she gains +2 “to hit” on his or her attack. Characters may only perform a charge once every 10 rounds (i.e. once per turn). Characters who are at the maximum encumbrance category may not charge unless they are mounted and the mount is below the maximum encumbrance category. If the character who is charging has multiple attacks, these all gain +2 to-hit.
+Assuming that the charging character survives, he or she gains +2 “to hit” on his or her attack. Characters may only perform a charge once every 10 rounds (i.e. once per turn). Characters who are at the maximum [<u>encumbrance</u>](#encumbrance) category may not charge unless they are mounted and the mount is below the maximum encumbrance category. If the character who is charging has multiple attacks, these all gain +2 to-hit.
 
 ### Set Weapon Against Charge 
 
-Certain weapons can be “set” against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but the weapon will inflict double damage against a charging opponent. A charge is any attack that allows the attacker to move and attack, and thus includes leaping attacks that may be made by some monsters. 
+Certain [<u>weapons</u>](#melee-weapons) can be “set” against a charge, which is a simple matter of bracing the weapon against the floor or some other stationary object. A character choosing to set his or her weapon against a charge cannot attack unless an opponent charges, but the weapon will inflict double damage against a charging opponent. A charge is any attack that allows the attacker to move and attack, and thus includes leaping attacks that may be made by some monsters.
 
 Weapons that may be set against a charge include spears, lances (when used dismounted), most pole arms, and tridents. 
 
 ### <span id=leaving-melee> Leaving Melee </span>
 
-Where two or more creatures are engaged in a melee, either may break off from the engagement during their turn. The creature leaving the melee has two choices:
+Where two or more creatures are engaged in a melee, either may break off from the engagement during their turn. The creature [<u>leaving the melee</u>](#leaving-melee) has two choices:
 
-- **Retreating:** You spend an action to run away and forfeit your shield bonus. You may retreat up to your movement. Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
+- **Retreating:** You spend an action to run away and forfeit your [<u>shield</u>](#shields) bonus. You may retreat up to your [<u>movement</u>](#movement). Doing so allows the opponent a free attack with an added +2 To-Hit once during the round (this is not an action however so multiple attacks do not apply).
 
 - **Fighting Withdrawal:** A Fighting Withdrawal may be used in combat if the defender wants to back up slowly. Movement backwards is limited to ½ the normal movement per round (or less). This manoeuvre may be used to “switch places” with another party member who is in combat, the first party member joining battle with the enemy to prevent the enemy's pursuit while the second character makes a fighting retreat. If the enemy isn't blocked, they can choose to follow the withdrawing creature.
 
 ## Two-Weapon Fighting and Two-Handed Weapons
 
-Just as shields improve armor class by 1, fighting two-handed grants a
+Just as [<u>shields</u>](#shields) improve [<u>armor class</u>](#armor-class) by 1, fighting two-handed grants a
 +1 to damage rolls (except for weapons that can only be used two-handed,
 where this is already taken into account in the weapon's damage), and
 fighting with a weapon in each hand gives a +1 to hit. Note that
@@ -3907,9 +4078,9 @@ it just increases the likelihood of landing a successful blow.
 
 Facing and positioning makes it easier to get certain hits in from the flank and rear. 
 
-**Attack from Front Flank:** Negates Shield & Dex bonus
+**Attack from Front Flank:** Negates [<u>Shield</u>](#shields) & [<u>Dex</u>](#dexterity) bonus
 
-**Attack from Rear:** Negates Shield & Dex and gives an extra +2 for attacker
+**Attack from Rear:** Negates [<u>Shield</u>](#shields) & [<u>Dex</u>](#dexterity) and gives an extra +2 for attacker
 
 <img src="./media/flanking.png" style="width:3in;height:3.2in" /> <img src="./media/diagonalflank.png" style="width:3in;height:3.2in" /> 
 
@@ -4114,19 +4285,21 @@ Roll four times on the table below.
 
 | **Armor Type**    | **Armor Class** | **Cost** | **Description**                                                                   | **Weight** | **Type** |
 |-------------------|-----------------|----------|-----------------------------------------------------------------------------------|------------|----------|
-| Unarmored         | 10               | —        | Flesh and bone.                                                                  | —          | —        |
-| Leather or Padded | 11              | 10 SP    | Soft fabric layered for minimal protection.                                       | 1          | Light    |
-| Hide              | 12              | 20 SP    | Rough animal skins offering rudimentary defense.                                  | 2          | Light    |
-| Studded Leather   | 12              | 30 SP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
-| Ring Mail         | 13              | 25 SP    | A base of leather interwoven with metal rings.                                    | 2          | Medium   |
-| Brigandine        | 14              | 80 SP    | A cloth garment with small metal plates riveted to the inside.                    | 2          | Medium   |
-| Chain Mail        | 14              | 60 SP    | Interlocking metal rings forming a flexible mesh.                                 | 3          | Medium   |
-| Scale Mail        | 15              | 80 SP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
-| Splint Mail       | 15              | 100 SP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
-| Banded Mail       | 16              | 150 SP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
-| Plate Mail        | 16              | 300 SP   | Large metal plates covering vital areas, with a softer material in between.       | 3          | Heavy    |
-| Field Plate Armor | 17              | 2000 SP   | A suit of articulated steel plates. **Needs to be form fitted to the wearer**.                    | 4          | Heavy    |
-| Full Plate Armor  | 18              | 4000 SP   | A fully articulated, expertly crafted suit of metal plates. **Needs to be tailored to the wearer’s exact measurements.**        | 4          | Heavy    |
+| Unarmored         | 10              | —        | Flesh and bone.                                                                  | —          | —        |
+| Padded            | 8               | 5 SP     | Quilted layers of cloth offering basic protection.                                | 1          | Light    |
+| Leather           | 8               | 10 SP    | Soft leather armor fitted for flexibility and minimal protection.                 | 1          | Light    |
+| Studded Leather   | 7               | 30 SP    | Leather reinforced with metal studs for added strength.                           | 1          | Light    |
+| Ring Mail         | 7               | 25 SP    | A base of leather interwoven with metal rings.                                    | 2          | Medium   |
+| Hide              | 6               | 30 SP    | Bulky animal skins offering strong but awkward protection.                        | 3          | Medium   |
+| Brigandine        | 6               | 80 SP    | A cloth garment with small metal plates riveted to the inside.                    | 2          | Medium   |
+| Scale Mail        | 6               | 80 SP    | Overlapping metal scales sewn onto a leather base.                                | 3          | Medium   |
+| Chain Mail        | 5               | 60 SP    | Interlocking metal rings forming a flexible mesh.                                 | 3          | Medium   |
+| Splint Mail       | 4               | 100 SP   | Vertical strips of metal riveted to a backing of leather or cloth.                | 2          | Medium   |
+| Banded Mail       | 4               | 150 SP   | Horizontal overlapping metal bands covering key body areas.                       | 4          | Heavy    |
+| Bronze Plate Mail | 4               | 200 SP   | Bronze plates covering vital areas; cheaper and softer than steel plate.          | 4          | Heavy    |
+| Plate Mail        | 3               | 300 SP   | Large metal plates covering vital areas, with a softer material in between.       | 3          | Heavy    |
+| Field Plate Armor | 2               | 2000 SP  | A suit of articulated steel plates. **Needs to be form fitted to the wearer**.     | 4          | Heavy    |
+| Full Plate Armor  | 1               | 4000 SP  | A fully articulated, expertly crafted suit of metal plates. **Needs to be tailored to the wearer’s exact measurements.** | 4 | Heavy |
 
 ### Donning & Doffing Armor
 
@@ -4138,17 +4311,17 @@ Roll four times on the table below.
 
 ### Shields
 
-| **Shield Type** | **AC Bonus vs Melee/Missiles** | **Cost** | **Description**                                                                      | **Weight** |
+| **Shield Type** | **AC Modifier vs Melee/Missiles** | **Cost** | **Description**                                                                      | **Weight** |
 |-----------------|---------------------------|----------|--------------------------------------------------------------------------------------|------------|
-| Buckler         | +1/+0                     | 5 SP     | A small, round shield with a wooden handle allowing for quick movements and parries. | 1          |
-| Medium Shield   | +1/+1                     | 7 SP     | A versatile shield offering balanced protection and mobility.                        | 1          |
-| Tower Shield    | +1/+3                     | 15 SP    | A large, imposing shield providing maximum coverage.                                 | 2          |
+| Buckler         | -1/+0                     | 5 SP     | A small, round shield with a wooden handle allowing for quick movements and parries. | 1          |
+| Medium Shield   | -1/-1                     | 7 SP     | A versatile shield offering balanced protection and mobility.                        | 1          |
+| Tower Shield    | -1/-3                     | 15 SP    | A large, imposing shield providing maximum coverage.                                 | 2          |
 
 ## <span id=weapon-keywords> Weapon Keywords </span>
 
-- **Reach**: This weapon can be used at a range of 10 feet. However, when a creature enters melee combat at a distance at 5 feet or closer this weapon is ineffective. Weapons with a pommel can be used at close range, but this only does half damage.
+**Reach**: This weapon can be used at a range of 10 feet. However, when a creature enters melee combat at a distance at 5 feet or closer this weapon is ineffective. Weapons with a pommel can be used at close range, but this only does half damage.
 
-- **Heavy**: This weapon requires 10+ Strength to wield properly. If a character under 10 Strength uses it to attack, both the To-Hit and damage roll is penalized equal to the difference. For example, a character with 8 strength would get -2 to damage and To-Hit.
+**Heavy**: This weapon requires 10+ Strength to wield properly. If a character under 10 Strength uses it to attack, both the To-Hit and damage roll is penalized equal to the difference. For example, a character with 8 strength would get -2 to damage and To-Hit.
 
 ## <span id=melee-weapons> Melee Weapons </span>
 

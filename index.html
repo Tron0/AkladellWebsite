@@ -18,7 +18,37 @@
             <button id="toggleTocMobileButton" onclick="toggleToc()">☰</button>
         </div>
     </div>
-    
+
+    <aside id="right-panel" class="right-panel" data-panel="resources" aria-label="Resources and campaign music">
+        <button id="resource-panel-toggle" class="right-panel-tab resource-panel-tab" type="button" aria-controls="right-panel-drawer" aria-expanded="false" data-panel-target="resources">Resources</button>
+        <button id="music-panel-toggle" class="right-panel-tab music-panel-tab" type="button" aria-controls="right-panel-drawer" aria-expanded="false" data-panel-target="music">Music</button>
+        <div id="right-panel-drawer" class="right-panel-drawer">
+            <section id="resource-panel-content" class="right-panel-content" data-panel-content="resources">
+                <div class="right-panel-header">
+                    <h2><img class="resource-panel-icon" src="./media/rainbow_skull10i.gif" alt="">Resources</h2>
+                    <button id="right-panel-close" class="right-panel-close" type="button" aria-label="Close side panel">x</button>
+                </div>
+                <img class="resource-panel-art" src="./media/adventureroom.gif" alt="">
+                <section class="right-panel-section">
+                    <h3>Akladell PC Sheet</h3>
+                    <a class="resource-panel-link" href="./media/Akladell%20PC%20Sheet.pdf" target="_blank" rel="noopener">Open PDF</a>
+                </section>
+            </section>
+            <section id="music-panel-content" class="right-panel-content music-panel-content" data-panel-content="music" hidden>
+                <div class="right-panel-header">
+                    <h2><img class="music-panel-icon" src="./media/music05.gif" alt="">Music おんがく</h2>
+                    <button class="right-panel-close" type="button" aria-label="Close side panel">x</button>
+                </div>
+                <div class="music-panel-players">
+                    <iframe class="music-panel-playlist" title="Campaign playlist 1" src="https://open.spotify.com/embed/playlist/5PYg2pplL6pLtgKMCIBizu?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe class="music-panel-playlist" title="Campaign playlist 2" src="https://open.spotify.com/embed/playlist/40JE92AtEcq99s1elqTSKi?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe class="music-panel-playlist" title="Campaign playlist 3" src="https://open.spotify.com/embed/playlist/2ua2xDyrG1oYmC3yOZdgJx?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe class="music-panel-playlist" title="Campaign playlist 4" src="https://open.spotify.com/embed/playlist/3e5mSxn2SUMyl6kmLzZ4sV?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
+    </aside>
+
     <div class="centered-container">
         <header>
             <h1>Akladell</h1>
@@ -31,7 +61,6 @@
                         <a href="#rules">Rules</a>
                         <a href="#spells">Spells</a>
                         <a href="#updates">Updates</a>
-                        <a href="#about">About</a>
                         <a href="#hall-of-the-dead">Hall of the Dead</a>
                     </div>
                 </div>
@@ -188,7 +217,7 @@
     const MD_CACHE_PREFIX = `mdcache:${MD_CACHE_VERSION}:`;
     const memoryCache = new Map();
     const inFlight = new Map();
-    const NON_RULE_PAGES = new Set(['home', 'updates', 'about', 'hall-of-the-dead', 'unusedrules', 'spells']);
+    const NON_RULE_PAGES = new Set(['home', 'updates', 'resources', 'hall-of-the-dead', 'unusedrules', 'spells']);
     const tocPanelEl = document.getElementById('toc-panel');
     const tocRulesEl = document.getElementById('toc-rules');
     const tocSpellsEl = document.getElementById('toc-spells');
@@ -419,8 +448,8 @@
         else if (page === 'updates') {
         loadUpdatePost();
         } 
-        else if (page === 'about') {
-        loadAboutPage();
+        else if (page === 'resources') {
+        loadResourcesPage();
         } 
         else if (page === 'hall-of-the-dead') {
         loadDeadPage();
