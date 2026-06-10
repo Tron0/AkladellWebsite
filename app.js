@@ -441,7 +441,7 @@ function getUpdatePosts()
         <b> Changes: </b>
 
         - Added 19+ Intelligence illusion immunity.
-        - Added 19+ Consitution health regeneration.
+        - Added 19+ Constitution health regeneration.
         - Added 19+ Wisdom immunity of certain named spells. 
         - Described what previous "bonus spells" actually means for Law Mages. It's now renamed "Extra Daily Slots" for easier wording.
         - Changed the appearance of the website.
