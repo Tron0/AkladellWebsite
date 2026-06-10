@@ -1,47 +1,6 @@
 'use strict';
 console.log("JavaScript file has been loaded successfully!");
 
-var SONG_OF_WEEK_PLAYLIST = [
-    {
-        title: 'When A Soul Lets Go Of Its Body',
-        artist: 'MindSpring Memories',
-        youtubeId: 'mfJpOb9GCx4',
-        added: '2026-06-08'
-    },
-    {
-        title: 'Travelling Through the Darkness to Find the Light',
-        artist: 'desert sand feels warm at night',
-        youtubeId: 'K9ZZp3r_DQg',
-        added: '2026-06-08'
-    },
-    {
-        title: 'どこまでが君で、どこからが私？',
-        artist: 't e l e p a t h テレパシー能力者',
-        youtubeId: '0HUzVUnb0t8',
-        added: '2026-06-08'
-    },
-    {
-        title: 'あの微笑みの裏で、君は私をほどいていた',
-        artist: 't e l e p a t h テレパシー能力者',
-        youtubeId: 'vurIGtZlJs8',
-        added: '2026-06-08'
-    },
-    {
-        title: '別の人生で',
-        artist: '18 DAYS',
-        youtubeId: 'CjYKLg47OFA',
-        added: '2026-06-08'
-    },
-    {
-        title: 'Dreamland, a Cryptosystem',
-        artist: 'MindSpring Memories',
-        youtubeId: 'yV-g01aI5dA',
-        added: '2026-06-08'
-    }
-];
-var SONG_OF_WEEK_START_DATE = '2026-06-08T00:00:00';
-var SONG_OF_WEEK_SEED = 'akladell-song-of-week';
-var SONG_OF_WEEK_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
 
 function createUpdatePost(title, content, date)
 {
@@ -385,12 +344,16 @@ function setupSongOfWeek()
             window.closeRightPanel();
         }
 
-        if (song.youtubeId && !embedEl.querySelector('iframe')) {
-            embedEl.innerHTML = `
-                <iframe title="${escapeHtml(songLabel)}" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(song.youtubeId)}?rel=0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            `;
-        } else if (!song.youtubeId && !embedEl.innerHTML) {
-            embedEl.innerHTML = '<p class="song-of-week-empty">Add YouTube IDs to <code>SONG_OF_WEEK_PLAYLIST</code> in <code>app.js</code>.</p>';
+        if (!embedEl.querySelector('iframe')) {
+            if (song.bandcampUrl) {
+                embedEl.innerHTML = `<iframe title="${escapeHtml(songLabel)}" src="${song.bandcampUrl}" seamless loading="lazy"></iframe>`;
+            } else if (song.youtubeId) {
+                embedEl.innerHTML = `
+                    <iframe title="${escapeHtml(songLabel)}" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(song.youtubeId)}?rel=0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                `;
+            } else {
+                embedEl.innerHTML = '<p class="song-of-week-empty">Add a <code>bandcampUrl</code> or <code>youtubeId</code> to <code>SONG_OF_WEEK_PLAYLIST</code> in <code>app.js</code>.</p>';
+            }
         }
     });
 
