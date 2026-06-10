@@ -1,11 +1,54 @@
 'use strict';
 console.log("JavaScript file has been loaded successfully!");
 
+var SONG_OF_WEEK_PLAYLIST = [
+    {
+        title: 'When A Soul Lets Go Of Its Body',
+        artist: 'MindSpring Memories',
+        youtubeId: 'mfJpOb9GCx4',
+        added: '2026-06-08'
+    },
+    {
+        title: 'Travelling Through the Darkness to Find the Light',
+        artist: 'desert sand feels warm at night',
+        youtubeId: 'K9ZZp3r_DQg',
+        added: '2026-06-08'
+    },
+    {
+        title: 'どこまでが君で、どこからが私？',
+        artist: 't e l e p a t h テレパシー能力者',
+        youtubeId: '0HUzVUnb0t8',
+        added: '2026-06-08'
+    },
+    {
+        title: 'あの微笑みの裏で、君は私をほどいていた',
+        artist: 't e l e p a t h テレパシー能力者',
+        youtubeId: 'vurIGtZlJs8',
+        added: '2026-06-08'
+    },
+    {
+        title: '別の人生で',
+        artist: '18 DAYS',
+        youtubeId: 'CjYKLg47OFA',
+        added: '2026-06-08'
+    },
+    {
+        title: 'Dreamland, a Cryptosystem',
+        artist: 'MindSpring Memories',
+        youtubeId: 'yV-g01aI5dA',
+        added: '2026-06-08'
+    }
+];
+var SONG_OF_WEEK_START_DATE = '2026-06-08T00:00:00';
+var SONG_OF_WEEK_SEED = 'akladell-song-of-week';
+var SONG_OF_WEEK_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+
 function createUpdatePost(title, content, date)
 {
     // Create elements
     var post = document.createElement('div');
     post.className = 'post';
+    post.id = createUpdateId({ title: title, date: date });
     var postTitle = document.createElement('h2');
     var postContent = document.createElement('div');  // Change to div
     var postDate = document.createElement('small');
@@ -21,6 +64,51 @@ function createUpdatePost(title, content, date)
     return post;
 }
 
+function createUpdateId(post)
+{
+    return 'update-' + post.date.slice(0, 10) + '-' + post.title
+        .toLowerCase()
+        .replace(/&/g, 'and')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
+function escapeHtml(value)
+{
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function createRecentUpdatesMarkup(limit)
+{
+    var posts = getUpdatePosts().slice(0, limit);
+    var items = posts.map(function(post)
+    {
+        var postId = createUpdateId(post);
+        var date = post.date.slice(0, 10);
+        return `
+            <li>
+                <a href="#updates#${postId}">${escapeHtml(post.title)}</a>
+                <time datetime="${date}" title="${escapeHtml(post.date)}">${date}</time>
+            </li>
+        `;
+    }).join('');
+
+    return `
+        <section class="recent-updates" aria-labelledby="recent-updates-title">
+            <h2 id="recent-updates-title">Recent Updates</h2>
+            <ol>
+                ${items}
+            </ol>
+            <a class="recent-updates-all" href="#updates">Updates Page</a>
+        </section>
+    `;
+}
+
 window.addEventListener('load', function()
 {
     loadHomePage();
@@ -30,7 +118,13 @@ function loadHomePage()
 {
     var mainContent = document.getElementById('content');
     mainContent.className = 'home-page';
-    mainContent.innerHTML = '<h1>Home Page</h1>';
+    mainContent.innerHTML = `
+        <h1>Home Page</h1>
+        <div class="home-gif-scene">
+            <img class="home-wizard-gif" src="./media/wizard2.gif" alt="">
+        </div>
+        ${createRecentUpdatesMarkup(5)}
+    `;
 }
 
 function setupRightPanels() {
@@ -53,6 +147,11 @@ function setupRightPanels() {
         tabButtons.forEach((button) => {
             button.setAttribute('aria-expanded', String(isOpen && button.dataset.panelTarget === panel.dataset.panel));
         });
+    };
+
+    window.closeRightPanel = function()
+    {
+        setOpen(false);
     };
 
     tabButtons.forEach((button) => {
@@ -78,6 +177,226 @@ function setupRightPanels() {
     setOpen(false);
 }
 
+function getSongOfWeek()
+{
+    var schedule = getSongOfWeekSchedule();
+    return schedule ? schedule.song : null;
+}
+
+function getSongKey(song)
+{
+    return (song.youtubeId || song.artist + '-' + song.title).toLowerCase();
+}
+
+function getSongLabel(song)
+{
+    return song.artist ? song.artist + ' - ' + song.title : song.title;
+}
+
+function getSongPool()
+{
+    var seen = {};
+    return SONG_OF_WEEK_PLAYLIST.filter(function(song)
+    {
+        if (!song || !song.title) return false;
+
+        var key = getSongKey(song);
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+    });
+}
+
+function hashSeed(value)
+{
+    var hash = 2166136261;
+    for (var i = 0; i < value.length; i++) {
+        hash ^= value.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+    }
+    return hash >>> 0;
+}
+
+function seededRandom(seed)
+{
+    return function()
+    {
+        seed += 0x6D2B79F5;
+        var value = Math.imul(seed ^ seed >>> 15, 1 | seed);
+        value ^= value + Math.imul(value ^ value >>> 7, 61 | value);
+        return ((value ^ value >>> 14) >>> 0) / 4294967296;
+    };
+}
+
+function getSongAddedWeek(song)
+{
+    if (!song.added) return 0;
+
+    var dateValue = song.added.indexOf('T') === -1 ? song.added + 'T00:00:00' : song.added;
+    var addedDate = new Date(dateValue);
+    var startDate = new Date(SONG_OF_WEEK_START_DATE);
+
+    if (Number.isNaN(addedDate.getTime())) {
+        return 0;
+    }
+
+    return Math.max(0, Math.floor((addedDate.getTime() - startDate.getTime()) / SONG_OF_WEEK_WEEK_MS));
+}
+
+function getWeekStartDate(weekIndex)
+{
+    var startDate = new Date(SONG_OF_WEEK_START_DATE);
+    return new Date(startDate.getTime() + weekIndex * SONG_OF_WEEK_WEEK_MS);
+}
+
+function formatSongWeekDate(date)
+{
+    var year = date.getFullYear();
+    var month = String(date.getMonth() + 1).padStart(2, '0');
+    var day = String(date.getDate()).padStart(2, '0');
+    return year + '-' + month + '-' + day;
+}
+
+function getCurrentSongWeekIndex()
+{
+    var startDate = new Date(SONG_OF_WEEK_START_DATE);
+    return Math.max(0, Math.floor((Date.now() - startDate.getTime()) / SONG_OF_WEEK_WEEK_MS));
+}
+
+function chooseSongForWeek(availableSongs, weekIndex, previousSong)
+{
+    var random = seededRandom(hashSeed(SONG_OF_WEEK_SEED + ':week:' + weekIndex));
+    var songIndex = Math.floor(random() * availableSongs.length);
+    var selectedSong = availableSongs[songIndex];
+
+    if (previousSong && availableSongs.length > 1 && getSongKey(selectedSong) === getSongKey(previousSong)) {
+        selectedSong = availableSongs[(songIndex + 1) % availableSongs.length];
+    }
+
+    return selectedSong;
+}
+
+function buildSongScheduleThroughWeek(targetWeek)
+{
+    var songs = getSongPool();
+    var playedKeys = {};
+    var previousSong = null;
+    var schedule = [];
+
+    for (var weekIndex = 0; weekIndex <= targetWeek; weekIndex++) {
+        var eligibleSongs = songs.filter(function(song)
+        {
+            return getSongAddedWeek(song) <= weekIndex;
+        });
+
+        if (!eligibleSongs.length) continue;
+
+        var availableSongs = eligibleSongs.filter(function(song)
+        {
+            return !playedKeys[getSongKey(song)];
+        });
+
+        if (!availableSongs.length) {
+            playedKeys = {};
+            availableSongs = eligibleSongs;
+        }
+
+        var song = chooseSongForWeek(availableSongs, weekIndex, previousSong);
+        playedKeys[getSongKey(song)] = true;
+        previousSong = song;
+
+        schedule.push({
+            song: song,
+            weekIndex: weekIndex,
+            weekStart: getWeekStartDate(weekIndex)
+        });
+    }
+
+    return schedule;
+}
+
+function getSongOfWeekSchedule()
+{
+    var schedule = buildSongScheduleThroughWeek(getCurrentSongWeekIndex());
+    return schedule.length ? schedule[schedule.length - 1] : null;
+}
+
+function getSongHistory()
+{
+    return buildSongScheduleThroughWeek(getCurrentSongWeekIndex()).reverse();
+}
+
+function setupSongOfWeek()
+{
+    var banner = document.querySelector('.song-of-week-banner');
+    var player = document.getElementById('song-of-week-player');
+    var closeButton = document.querySelector('.song-of-week-close');
+    var nameEl = document.querySelector('[data-song-of-week-name]');
+    var metaEl = document.querySelector('[data-song-of-week-meta]');
+    var embedEl = document.querySelector('[data-song-of-week-embed]');
+    var historyButton = document.querySelector('.song-of-week-history-toggle');
+    var historyEl = document.querySelector('[data-song-of-week-history]');
+    var schedule = getSongOfWeekSchedule();
+    var song = schedule ? schedule.song : null;
+
+    if (!banner || !player || !closeButton || !nameEl || !metaEl || !embedEl || !song) return;
+
+    var songLabel = getSongLabel(song);
+    nameEl.textContent = songLabel;
+    metaEl.innerHTML = `
+        ${song.artist ? `<div class="song-of-week-artist">${escapeHtml(song.artist)}</div>` : ''}
+        <div class="song-of-week-track">${escapeHtml(song.title)}</div>
+    `;
+
+    if (historyButton && historyEl) {
+        historyEl.innerHTML = getSongHistory().map(function(historyItem)
+        {
+            var historySong = historyItem.song;
+            var historyLabel = getSongLabel(historySong);
+            return `
+                <li>
+                    <span>${escapeHtml(formatSongWeekDate(historyItem.weekStart))}</span>
+                    <span>${escapeHtml(historyLabel)}</span>
+                </li>
+            `;
+        }).join('');
+
+        historyButton.addEventListener('click', function()
+        {
+            var isHidden = historyEl.hidden;
+            historyEl.hidden = !isHidden;
+            historyButton.setAttribute('aria-expanded', String(isHidden));
+        });
+    }
+
+    var closePlayer = function()
+    {
+        player.hidden = true;
+        banner.setAttribute('aria-expanded', 'false');
+        embedEl.innerHTML = '';
+    };
+
+    banner.addEventListener('click', function()
+    {
+        player.hidden = false;
+        banner.setAttribute('aria-expanded', 'true');
+
+        if (window.closeRightPanel) {
+            window.closeRightPanel();
+        }
+
+        if (song.youtubeId && !embedEl.querySelector('iframe')) {
+            embedEl.innerHTML = `
+                <iframe title="${escapeHtml(songLabel)}" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(song.youtubeId)}?rel=0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            `;
+        } else if (!song.youtubeId && !embedEl.innerHTML) {
+            embedEl.innerHTML = '<p class="song-of-week-empty">Add YouTube IDs to <code>SONG_OF_WEEK_PLAYLIST</code> in <code>app.js</code>.</p>';
+        }
+    });
+
+    closeButton.addEventListener('click', closePlayer);
+}
+
 function loadResourcesPage() {
     var mainContent = document.getElementById('content');
     mainContent.className = 'resources-page';
@@ -97,6 +416,7 @@ function loadResourcesPage() {
 
 document.addEventListener('DOMContentLoaded', () => {
     setupRightPanels();
+    setupSongOfWeek();
 
     const spellsLink = document.querySelector('.spells-link');
     if (spellsLink) {
@@ -108,12 +428,28 @@ document.addEventListener('DOMContentLoaded', () => {
 });
   
 
-function loadUpdatePost()
+function getUpdatePosts()
 {
-    var mainContent = document.getElementById('content');
-    mainContent.innerHTML = '<h1>Updates</h1>';
+    return [
 
-    var posts = [
+    
+    { 
+
+        title: 'Additional Benefits to Inhuman Ability Scores',
+        content: `Wrote down more mechanics that does occur once a character enters an extended ability score table. Things like regeneration in con, or spell immunity for wisdom. 
+
+        <b> Changes: </b>
+
+        - Added 19+ Intelligence illusion immunity.
+        - Added 19+ Consitution health regeneration.
+        - Added 19+ Wisdom immunity of certain named spells. 
+        - Described what previous "bonus spells" actually means for Law Mages. It's now renamed "Extra Daily Slots" for easier wording.
+        - Changed the appearance of the website.
+
+        `,
+        date: "2026-06-10 18:23 CET"
+    },
+
 
     { 
 
@@ -138,7 +474,7 @@ function loadUpdatePost()
         - Specialists use the better of their Strength Climb chance or listed Specialist Climb chance when a dangerous climb requires a roll.
 
         `,
-        date: "2026-06-09 19:13 CEST"
+        date: "2026-06-09 19:13 CET"
     },
 
     {
@@ -920,8 +1256,23 @@ function loadUpdatePost()
 
     // Add posts here
     ];
+}
+
+function loadUpdatePost(anchor)
+{
+    var mainContent = document.getElementById('content');
+    mainContent.innerHTML = '<h1>Updates</h1>';
+    var posts = getUpdatePosts();
+
     for (var i=0; i<posts.length; i++) {
         var postElement = createUpdatePost(posts[i].title, posts[i].content, posts[i].date);
         mainContent.appendChild(postElement);
+    }
+
+    if (anchor) {
+        var target = document.getElementById(anchor);
+        if (target) {
+            target.scrollIntoView();
+        }
     }
 }

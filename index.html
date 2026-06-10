@@ -36,9 +36,20 @@
             </section>
             <section id="music-panel-content" class="right-panel-content music-panel-content" data-panel-content="music" hidden>
                 <div class="right-panel-header">
-                    <h2><img class="music-panel-icon" src="./media/music05.gif" alt="">Music おんがく</h2>
+                    <h2><img class="music-panel-icon" src="./media/music05.gif" alt="">Music <span class="music-panel-kana">おんがく</span></h2>
                     <button class="right-panel-close" type="button" aria-label="Close side panel">x</button>
                 </div>
+                <img class="music-panel-art" src="./media/theshop11.png" alt="">
+                <section class="song-of-week" aria-labelledby="song-of-week-title">
+                    <button class="song-of-week-banner" type="button" aria-controls="song-of-week-player" aria-expanded="false">
+                        <span class="song-of-week-marquee">
+                            <span id="song-of-week-title">Song of the Week</span>
+                            <span class="song-of-week-name" data-song-of-week-name></span>
+                        </span>
+                    </button>
+                    <button class="song-of-week-history-toggle" type="button" aria-controls="song-of-week-history" aria-expanded="false">History</button>
+                    <ol id="song-of-week-history" class="song-of-week-history" data-song-of-week-history hidden></ol>
+                </section>
                 <div class="music-panel-players">
                     <iframe class="music-panel-playlist" title="Campaign playlist 1" src="https://open.spotify.com/embed/playlist/5PYg2pplL6pLtgKMCIBizu?utm_source=generator&theme=0" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     <iframe class="music-panel-playlist" title="Campaign playlist 2" src="https://open.spotify.com/embed/playlist/40JE92AtEcq99s1elqTSKi?utm_source=generator" width="100%" height="152" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
@@ -49,9 +60,15 @@
         </div>
     </aside>
 
+    <div id="song-of-week-player" class="song-of-week-player" hidden>
+        <button class="song-of-week-close" type="button" aria-label="Close song of the week">x</button>
+        <div class="song-of-week-meta" data-song-of-week-meta></div>
+        <div class="song-of-week-embed" data-song-of-week-embed></div>
+    </div>
+
     <div class="centered-container">
         <header>
-            <h1>Akladell</h1>
+            <h1>AKLADELL</h1>
         </header>
         <div class="flex-grow">
             <nav>
@@ -77,6 +94,14 @@
                             <ul>
                                 <li><a href="#races">Races</a></li>
                                 <li><a href="#ability-scores">Ability Scores</a></li>
+                                <ul>
+                                    <li><a href="#strength">Strength</a></li>
+                                    <li><a href="#intelligence">Intelligence</a></li>
+                                    <li><a href="#wisdom">Wisdom</a></li>
+                                    <li><a href="#dexterity">Dexterity</a></li>
+                                    <li><a href="#constitution">Constitution</a></li>
+                                    <li><a href="#charisma">Charisma</a></li>
+                                </ul>
                                 <li><a href="#age">Age</a></li>
                                 <li><a href="#backgrounds">Backgrounds</a></li>
                                 <li><a href="#boons-&-banes">Boons & Banes</a></li>
@@ -202,7 +227,7 @@
             </div>
             <div id="toc-overlay"></div>
         </div>
-        <footer><hr>Joel Andersson 2023-2026</footer>
+        <footer><hr>Tron West Marches 2023 - 2026</footer>
     </div>
 
 <script type="module">
@@ -446,7 +471,7 @@
         loadHomePage();
         } 
         else if (page === 'updates') {
-        loadUpdatePost();
+        loadUpdatePost(anchor);
         } 
         else if (page === 'resources') {
         loadResourcesPage();
@@ -544,9 +569,76 @@
         document.body.classList.remove('no-scroll');
         }
     });
+
+    function setupTocCollapsers() {
+        const TOC_COLLAPSE_STORAGE_KEY = 'akladell:toc-collapse:v1';
+        let storedState = {};
+        try {
+            storedState = JSON.parse(localStorage.getItem(TOC_COLLAPSE_STORAGE_KEY)) || {};
+        } catch (err) {
+            storedState = {};
+        }
+
+        const saveState = () => {
+            try {
+                localStorage.setItem(TOC_COLLAPSE_STORAGE_KEY, JSON.stringify(storedState));
+            } catch (err) {
+                console.warn('toc collapse state save failed', err);
+            }
+        };
+
+        const headings = document.querySelectorAll('#toc-panel .toc-section div, #toc-panel .toc-section li');
+        let collapsibleCount = 0;
+
+        headings.forEach((heading) => {
+            const nestedList = heading.nextElementSibling;
+            if (!nestedList || nestedList.tagName !== 'UL') return;
+            if (heading.firstElementChild && heading.firstElementChild.classList.contains('toc-collapse-button')) return;
+
+            collapsibleCount += 1;
+            const link = heading.querySelector('a');
+            const label = link ? link.textContent.trim() : 'section';
+            const stateKey = link ? link.getAttribute('href') : `toc-group-${collapsibleCount}`;
+            const listId = nestedList.id || `toc-collapse-list-${collapsibleCount}`;
+            nestedList.id = listId;
+            heading.classList.add('toc-collapsible-heading');
+
+            const button = document.createElement('button');
+            button.className = 'toc-collapse-button';
+            button.type = 'button';
+            button.setAttribute('aria-controls', listId);
+            const isExpanded = storedState[stateKey] === true;
+            nestedList.hidden = !isExpanded;
+            button.textContent = isExpanded ? '-' : '+';
+            button.setAttribute('aria-expanded', String(isExpanded));
+            button.setAttribute('aria-label', `${isExpanded ? 'Collapse' : 'Expand'} ${label}`);
+
+            button.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+
+                const willCollapse = !nestedList.hidden;
+                nestedList.hidden = willCollapse;
+                button.textContent = willCollapse ? '+' : '-';
+                const nextExpanded = !willCollapse;
+                if (nextExpanded) {
+                    storedState[stateKey] = true;
+                } else {
+                    delete storedState[stateKey];
+                }
+                button.setAttribute('aria-expanded', String(nextExpanded));
+                button.setAttribute('aria-label', `${willCollapse ? 'Expand' : 'Collapse'} ${label}`);
+                saveState();
+            });
+
+            heading.insertBefore(button, heading.firstChild);
+        });
+    }
     
     // ========== On DOMContentLoaded ==========
     document.addEventListener("DOMContentLoaded", function() {
+        setupTocCollapsers();
+
         // Handle clicks on TOC links
         const tocLinks = document.querySelectorAll('#toc-panel a');
         tocLinks.forEach(link => {

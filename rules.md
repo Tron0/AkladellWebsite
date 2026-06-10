@@ -101,6 +101,8 @@ If they have room to do so, they take no damage from the fall and may move 1 foo
 Intelligence, Wisdom, Dexterity, Constitution and Charisma. After rolling for stats, you
 may swap two ability scores with each other, once.
 
+Scores above 18 can only come from magic.
+
 ### <span id=strength> Strength </span>
 
 | **Score**  | **To-Hit Modifier\*** | **Damage Modifier\*** | **Minor Tests (open doors etc, chance on d6)** | **Major Tests (bending bars etc, chance on d%)** | **Climb** |
@@ -154,55 +156,59 @@ may swap two ability scores with each other, once.
 
 #### Extended Intelligence Table (19+)
 
-| **Score** | **Spoken Languages** | **Literacy** | **Search** | **Chance to Understand Chaos Spell** |
-|-----------|----------------------|--------------|------------|--------------------------------------|
-| 19        | Native +8            | Literate     | 5 / 6      | 95%                                  |
-| 20        | Native +9            | Literate     | 5 / 6      | 96%                                  |
-| 21        | Native +10           | Literate     | 5 / 6      | 97%                                  |
-| 22        | Native +11           | Literate     | 6 / 6      | 98%                                  |
-| 23        | Native +12           | Literate     | 6 / 6      | 99%                                  |
-| 24        | Native +15           | Literate     | 6 / 6      | 100%                                 |
-| 25        | Native +20           | Literate     | 6 / 6      | 100%                                 |
+| **Score** | **Spoken Languages** | **Literacy** | **Search** | **Chance to Understand Chaos Spell** | **Illusion Immunity** |
+|-----------|----------------------|--------------|------------|--------------------------------------|-----------------------|
+| 19        | Native +8            | Literate     | 5 / 6      | 95%                                  | 1st-level illusions   |
+| 20        | Native +9            | Literate     | 5 / 6      | 96%                                  | 2nd-level illusions   |
+| 21        | Native +10           | Literate     | 5 / 6      | 97%                                  | 3rd-level illusions   |
+| 22        | Native +11           | Literate     | 6 / 6      | 98%                                  | 4th-level illusions   |
+| 23        | Native +12           | Literate     | 6 / 6      | 99%                                  | 5th-level illusions   |
+| 24        | Native +15           | Literate     | 6 / 6      | 100%                                 | 6th-level illusions   |
+| 25        | Native +20           | Literate     | 6 / 6      | 100%                                 | 7th-level illusions   |
 
 \* Native plus additional languages.
 \**For [<u>chaos mages</u>](#chaos-mage).
 
 ### <span id=wisdom> Wisdom </span>
 
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus\*\*** | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
-|-----------|-----------------|--------------------------|-----------------------------|---------------------------------------------|
-| 3         | -3              | -                        | 20%                         | 35%                                        |
-| 4         | -2              | -                        | 15%                         | 35%                                        |
-| 5         | -1              | -                        | 10%                         | 35%                                        |
-| 6         | -1              | -                        | 5%                          | 35%                                        |
-| 7         | -1              | -                        | 1%                          | 35%                                        |
-| 8         | +0              | -                        | 0%                          | 35%                                        |
-| 9         | +0              | -                        | 0%                          | 35%                                        |
-| 10        | +0              | -                        | 0%                          | 45%                                        |
-| 11        | +0              | -                        | 0%                          | 45%                                        |
-| 12        | +0              | -                        | 0%                          | 45%                                        |
-| 13        | +0              | -                        | 0%                          | 55%                                        |
-| 14        | +0              | -                        | 0%                          | 55%                                        |
-| 15        | +1              | One 1st level            | 0%                          | 65%                                        |
-| 16        | +2              | One 2nd level            | 0%                          | 65%                                        |
-| 17        | +3              | One 3rd level            | 0%                          | 75%                                        |
-| 18        | +4              | One 4th level            | 0%                          | 85%                                        |
+| **Score** | **Mental Save Bonus** | **Extra Daily Slots\*\*** | **Spell Failure** | **Understand Law Spell\*** | 
+|-----------|-----------------------|----------------------------|-------------------|----------------------------| 
+| 3         | -3                    | -                          | 80%               | 35%                        |
+| 4         | -2                    | -                          | 60%               | 35%                        |
+| 5         | -1                    | -                          | 50%               | 35%                        |
+| 6         | -1                    | -                          | 45%               | 35%                        |
+| 7         | -1                    | -                          | 40%               | 35%                        |
+| 8         | +0                    | -                          | 35%               | 35%                        |
+| 9         | +0                    | -                          | 20%               | 35%                        |
+| 10        | +0                    | -                          | 15%               | 45%                        |
+| 11        | +0                    | -                          | 10%               | 45%                        |
+| 12        | +0                    | -                          | 5%                | 45%                        |
+| 13        | +0                    | +1 1st                     | 0%                | 55%                        |
+| 14        | +0                    | +2 1st                     | 0%                | 55%                        |
+| 15        | +1                    | +2 1st, +1 2nd             | 0%                | 65%                        |
+| 16        | +2                    | +2 1st, +2 2nd             | 0%                | 65%                        |
+| 17        | +3                    | +2 1st, +2 2nd, +1 3rd     | 0%                | 75%                        |
+| 18        | +4                    | +2 1st, +2 2nd, +1 3rd, +1 4th | 0%           | 85%                        |
 
 #### Extended Wisdom Table (19+)
 
-| **Score** | **Mental Saving Throw Bonus** | **Spell Bonus\*\***         | **Chance of Spell Failure** | **Chance to Understand Law Spell\*** |
-|-----------|-------------------------------|-----------------------------|-----------------------------|--------------------------------------|
-| 19        | +4                            | One 1st and one 3rd level   | 0%                          | 95%                                  |
-| 20        | +4                            | One 2nd and one 4th level   | 0%                          | 96%                                  |
-| 21        | +4                            | One 3rd and one 5th level   | 0%                          | 97%                                  |
-| 22        | +4                            | One 4th and one 5th level   | 0%                          | 98%                                  |
-| 23        | +4                            | One 1st and one 6th level   | 0%                          | 99%                                  |
-| 24        | +4                            | One 5th and one 6th level   | 0%                          | 100%                                 |
-| 25        | +4                            | One 6th and one 7th level   | 0%                          | 100%                                 |
+| **Score** | **Mental Save Bonus** | **Extra Daily Slots\*\*** | **Spell Failure** | **Understand Law Spell\*** | **Spell Immunity** |
+|-----------|-----------------------|----------------------------|-------------------|----------------------------|-------------------|
+| 19        | +4                    | +3 1st, +2 2nd, +2 3rd, +1 4th | 0%           | 95%                         | cause fear, charm person, command, friends, hypnotism |
+| 20        | +4                    | +3 1st, +3 2nd, +2 3rd, +2 4th | 0%           | 96%                         | forget, hold person, ray of enfeeblement, scare |
+| 21        | +4                    | +3 1st, +3 2nd, +3 3rd, +2 4th, +1 5th | 0% | 97%                           | fear |
+| 22        | +4                    | +3 1st, +3 2nd, +3 3rd, +3 4th, +2 5th | 0% | 98%                           | charm monster, confusion, emotion, fumble, suggestion |
+| 23        | +4                    | +4 1st, +3 2nd, +3 3rd, +3 4th, +2 5th, +1 6th | 0% | 99%                   | chaos, feeblemind, hold monster, magic jar, quest |
+| 24        | +4                    | +4 1st, +3 2nd, +3 3rd, +3 4th, +3 5th, +2 6th | 0% | 100%                  | geas, mass suggestion, rod of rulership |
+| 25        | +4                    | +4 1st, +3 2nd, +3 3rd, +3 4th, +3 5th, +3 6th, +1 7th | 0% | 100%          | antipathy/sympathy, death spell, mass charm |
 
 \*For [<u>law mages</u>](#law-mage)
 
-\**For [<u>law mages</u>](#law-mage). Spell Bonus grants an extra daily memorization slot of the listed spell level. It does not grant a new spell known, does not add a spell to the character's spellbook, and does not grant early access to spell levels the character cannot yet cast. When memorizing spells for the day, choose the bonus spell from spells the character already knows and is eligible to cast.
+\**For [<u>law mages</u>](#law-mage). The spell bonus grants extra daily memorization slots, not new spells known or
+new spells added to the spellbook. The law mage must still know the spell and
+be high enough level to cast spells of that level.
+
+At 18 Wisdom, a law mage gains two extra 1st-level slots, two extra 2nd-level slots, one extra 3rd-level slot, and one extra 4th-level slot. If the law mage cannot yet cast 4th-level spells, that bonus slot waits until they can. Thus a 7th-level law mage with 18 Wisdom has 5/5/3/2 slots instead of 3/3/2/1.
 
 ### <span id=dexterity> Dexterity </span>
 
@@ -253,15 +259,15 @@ may swap two ability scores with each other, once.
 
 #### Extended Constitution Table (19+)
 
-| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** |
-|-----------|--------------------------------------|-------------------------|
-| 19        | +2 (+5)*                             | 100%                    |
-| 20        | +2 (+5)*                             | 100%                    |
-| 21        | +2 (+6)*                             | 100%                    |
-| 22        | +2 (+6)*                             | 100%                    |
-| 23        | +2 (+6)*                             | 100%                    |
-| 24        | +2 (+7)*                             | 100%                    |
-| 25        | +2 (+7)*                             | 100%                    |
+| **Score** | **Hit Point Modifier (per hit die)** | **Raise Dead Survival** | **Poison Save Bonus** | **Regeneration** |
+|-----------|--------------------------------------|-------------------------|-----------------------|------------------|
+| 19        | +2 (+5)*                             | 100%                    | +1                    | -                |
+| 20        | +2 (+5)*                             | 100%                    | +1                    | 1 hp / 6 turns   |
+| 21        | +2 (+6)*                             | 100%                    | +2                    | 1 hp / 5 turns   |
+| 22        | +2 (+6)*                             | 100%                    | +2                    | 1 hp / 4 turns   |
+| 23        | +2 (+6)*                             | 100%                    | +3                    | 1 hp / 3 turns   |
+| 24        | +2 (+7)*                             | 100%                    | +3                    | 1 hp / 2 turns   |
+| 25        | +2 (+7)*                             | 100%                    | +4                    | 1 hp / turn      |
 
 \*Only applied to [<u>fighters.</u>](#fighter) (including [<u>subclasses</u>](#subclasses)). All other classes may be given a maximum hit point bonus adjustment for constitution +2.
 
@@ -355,9 +361,8 @@ The effects of aging below indicate the total amount of ability score changes gi
 
 ## <span id=backgrounds> Backgrounds </span>
 
-Assign a secondary skill randomly, or select one that fits the character.
-The character's class is still their profession; this table only gives
-minor mundane knowledge from youth, household work, or apprenticeship.
+Assign a secondary skill randomly by rolling 1d100.
+This table grants minor mundane knowledge from youth, household work, or apprenticeship.
 
 The referee decides what a secondary skill can accomplish. In general it
 may judge the worth and soundness of common goods, find or prepare

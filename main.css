@@ -1,10 +1,31 @@
+@font-face {
+    font-family: "Caslon Antique";
+    src: url("./media/fonts/caslon-antique/CaslonAntique.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Caslon Antique";
+    src: url("./media/fonts/caslon-antique/CaslonAntique-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
 /* General Layout Styles */
 body {
     display: flex;
     justify-content: flex-start;
     margin: 0;
+    font-family: "URW Bookman", "Bookman Old Style", Bookman, Georgia, serif;
     background-color: black;
     color: white;
+}
+
+button {
+    font-family: inherit;
 }
 
 .centered-container {
@@ -55,9 +76,105 @@ body {
 h1 {
     color: #DC493A; /* Titles in red */
     text-align: center; 
+    font-weight: 500;
     margin-bottom: 20px;
     margin-top: 20px;
     
+}
+
+header h1 {
+    font-family: "Caslon Antique", "URW Bookman", "Bookman Old Style", Bookman, Georgia, serif;
+    display: inline-block;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #F34213;
+    text-shadow:
+        1px 1px 0 #7d1d16,
+        2px 2px 0 #250605,
+        0 0 6px rgba(247, 232, 164, 0.24);
+}
+
+.home-gif-scene {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(420px, 100%);
+    min-height: 240px;
+    margin: 32px auto 0;
+    overflow: hidden;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url("./media/pattern 59.gif");
+    background-repeat: repeat;
+    image-rendering: pixelated;
+}
+
+.home-wizard-gif {
+    position: relative;
+    z-index: 1;
+    width: min(270px, 84%);
+    height: auto;
+}
+
+.recent-updates {
+    width: min(420px, 100%);
+    margin: 22px auto 0;
+    padding: 12px 14px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background: black;
+    text-align: left;
+}
+
+.recent-updates h2 {
+    margin: 0 0 10px 0;
+    color: #26F0F1;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.recent-updates ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #ccc;
+    background: black;
+}
+
+.recent-updates li {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: baseline;
+    gap: 12px;
+    padding: 6px 8px;
+    border-top: 1px solid #ccc;
+    background: black;
+}
+
+.recent-updates li:first-child {
+    border-top: 0;
+}
+
+.recent-updates li:nth-child(even) {
+    background: #222;
+}
+
+.recent-updates time {
+    flex: 0 0 auto;
+    color: gray;
+    font-size: 0.85em;
+    white-space: nowrap;
+}
+
+.recent-updates-all {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
 }
 
 #content h1::after {
@@ -71,6 +188,7 @@ h1 {
 h2 {
     color: #26F0F1;
     font-size: 26px;
+    font-weight: 500;
     margin-top: 40px;
     margin-bottom: 12px;
 }
@@ -86,6 +204,7 @@ h2 {
     background-color: transparent;
     border-radius: 0;
     color: #F34213;
+    font-weight: 500;
 }
 
 #content h3 + p,
@@ -104,7 +223,7 @@ h2 {
     border-left: 2px solid #26F0F1;
     padding: 3px 0 3px 8px;
     margin: 12px 0 0 0;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 #content h4 + p,
@@ -118,7 +237,7 @@ h2 {
     font-size: 0.95em;
     color: #F7E8A4;
     margin: 12px 0 4px 0;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 body, p {
@@ -238,6 +357,9 @@ header, nav {
 
 .right-panel {
     --right-panel-width: min(360px, calc(100vw - 48px));
+    --right-panel-tab-top: 20px;
+    --right-panel-tab-height: 88px;
+    --right-panel-tab-gap: 8px;
     position: fixed;
     top: 0;
     right: calc(0px - var(--right-panel-width));
@@ -256,8 +378,11 @@ header, nav {
 
 .right-panel-tab {
     position: absolute;
-    left: -40px;
-    width: 40px;
+    left: -36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
     padding: 0;
     border: 1px solid white;
     border-right: 0;
@@ -265,20 +390,22 @@ header, nav {
     background: black;
     color: white;
     cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
 }
 
 .resource-panel-tab {
-    top: 20px;
-    height: 124px;
-    font-size: 12px;
+    top: var(--right-panel-tab-top);
+    height: var(--right-panel-tab-height);
 }
 
 .music-panel-tab {
-    top: 152px;
-    height: 72px;
-    font-size: 13px;
+    top: calc(var(--right-panel-tab-top) + var(--right-panel-tab-height) + var(--right-panel-tab-gap));
+    height: var(--right-panel-tab-height);
 }
 
 .right-panel-tab:hover,
@@ -299,11 +426,29 @@ header, nav {
 .right-panel[data-panel="resources"] .right-panel-drawer {
     background-image: url("./media/855.gif");
     background-repeat: repeat;
+    animation: resource-panel-bg-drift 18s linear infinite;
+    will-change: background-position;
 }
 
 .right-panel[data-panel="music"] .right-panel-drawer {
     background-image: url("./media/bg30.gif");
     background-repeat: repeat;
+}
+
+@keyframes resource-panel-bg-drift {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 256px 256px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .right-panel[data-panel="resources"] .right-panel-drawer {
+        animation: none;
+    }
 }
 
 .right-panel-header {
@@ -355,6 +500,7 @@ header, nav {
     padding: 0;
     color: #F34213;
     background: transparent;
+    font-weight: 500;
 }
 
 .resource-panel-link {
@@ -371,7 +517,8 @@ header, nav {
     object-fit: contain;
 }
 
-.resource-panel-art {
+.resource-panel-art,
+.music-panel-art {
     display: block;
     width: 100%;
     max-height: 120px;
@@ -380,15 +527,191 @@ header, nav {
     box-sizing: border-box;
 }
 
+.music-panel-art {
+    aspect-ratio: 526 / 144;
+    height: auto;
+    object-position: center bottom;
+}
+
 .music-panel-icon {
     width: 34px;
     height: 34px;
     object-fit: contain;
 }
 
+.music-panel-kana {
+    font-size: 0.82em;
+    line-height: 1;
+}
+
+.song-of-week {
+    width: calc(100% - 18px);
+    margin: 8px auto 0;
+}
+
+.song-of-week-banner {
+    display: block;
+    width: 100%;
+    height: 32px;
+    overflow: hidden;
+    border: 0;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.76);
+    color: #F7E8A4;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.song-of-week-banner:hover {
+    color: #26F0F1;
+}
+
+.song-of-week-marquee {
+    display: inline-flex;
+    min-width: max-content;
+    gap: 18px;
+    padding-left: 100%;
+    text-shadow:
+        1px 0 0 #F34213,
+        -1px 0 0 #26F0F1,
+        0 0 6px rgba(247, 232, 164, 0.55);
+    animation: song-of-week-marquee 14s linear infinite;
+}
+
+.song-of-week-name {
+    color: white;
+}
+
+.song-of-week-history-toggle {
+    display: block;
+    margin: 4px 0 0 auto;
+    padding: 2px 8px;
+    border: 0;
+    background: black;
+    color: lightseagreen;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.song-of-week-history-toggle:hover {
+    color: #26F0F1;
+}
+
+.song-of-week-history {
+    max-height: 150px;
+    margin: 4px 0 0;
+    padding: 0;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    background: black;
+    color: white;
+    font-size: 12px;
+    list-style: none;
+}
+
+.song-of-week-history li {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 8px;
+    padding: 4px 6px;
+    border-top: 1px solid #ccc;
+}
+
+.song-of-week-history li:first-child {
+    border-top: 0;
+}
+
+.song-of-week-history li:nth-child(even) {
+    background: #222;
+}
+
+.song-of-week-history span:first-child {
+    color: gray;
+    white-space: nowrap;
+}
+
+@keyframes song-of-week-marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.song-of-week-player {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 900;
+    width: min(320px, calc(100vw - 32px));
+    padding: 8px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background: black;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.85);
+}
+
+.song-of-week-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid white;
+    background: black;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.song-of-week-meta {
+    padding-right: 28px;
+    color: #F34213;
+    font-size: 13px;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.song-of-week-track {
+    color: #F34213;
+}
+
+.song-of-week-artist {
+    color: #F7E8A4;
+}
+
+.song-of-week-embed iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+.song-of-week-empty {
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+@media (max-width: 760px) {
+    .song-of-week-player {
+        right: 16px;
+        bottom: 16px;
+        z-index: 1100;
+    }
+}
+
 .music-panel-players {
     display: grid;
     gap: 8px;
+    margin-top: 18px;
 }
 
 .music-panel-playlist {
@@ -447,6 +770,7 @@ header, nav {
     transition: left 0.3s;
     background-color: black;
     color: white;
+    border-right: 1px solid white;
     z-index: 1000; /* On top of the overlay */
 }
 
@@ -484,6 +808,31 @@ header, nav {
 #toc-spells > ul {
     margin-left: 0;
     padding-left: 0;
+}
+
+.toc-collapse-button {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 12px;
+    height: 1em;
+    margin: 0 5px 0 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #F7E8A4;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.toc-collapse-button:hover,
+.toc-collapse-button:focus-visible {
+    color: #26F0F1;
+    outline: 0;
 }
 
 #toc-overlay {
@@ -588,18 +937,11 @@ footer {
 
     .right-panel {
         --right-panel-width: min(340px, calc(100vw - 64px));
+        --right-panel-tab-top: 2vw;
         right: calc(0px - var(--right-panel-width));
         width: var(--right-panel-width);
         height: 100vh;
         height: 100dvh;
-    }
-
-    .resource-panel-tab {
-        top: 2vw;
-    }
-
-    .music-panel-tab {
-        top: calc(2vw + 132px);
     }
 
     #toTopButton, #toTopMobileButton, 
