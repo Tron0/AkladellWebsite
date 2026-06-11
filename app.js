@@ -1,6 +1,4 @@
 'use strict';
-console.log("JavaScript file has been loaded successfully!");
-
 
 function createUpdatePost(title, content, date)
 {
@@ -67,11 +65,6 @@ function createRecentUpdatesMarkup(limit)
         </section>
     `;
 }
-
-window.addEventListener('load', function()
-{
-    loadHomePage();
-});
 
 function loadHomePage()
 {
@@ -1239,3 +1232,6 @@ function loadUpdatePost(anchor)
         }
     }
 }
+
+window.createUpdateId = createUpdateId;
+window.getUpdatePosts = getUpdatePosts;

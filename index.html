@@ -9,13 +9,9 @@
 </head>
 <body>
     <div class="buttons-wrapper">
-        <div class="buttons-desktop">
-            <button id="toTopButton" onclick="scrollToTop()">↑</button>
-            <button id="toggleTocButton" onclick="toggleToc()">☰</button>
-        </div>
         <div class="buttons-mobile">
-            <button id="toTopMobileButton" onclick="scrollToTop()">↑</button>
-            <button id="toggleTocMobileButton" onclick="toggleToc()">☰</button>
+            <button id="toTopMobileButton" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+            <button id="toggleTocMobileButton" onclick="toggleToc()" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
         </div>
     </div>
 
@@ -80,6 +76,23 @@
                         <a href="#updates">Updates</a>
                         <a href="#hall-of-the-dead">Hall of the Dead</a>
                     </div>
+                </div>
+                <div class="nav-search-row">
+                    <div class="buttons-desktop">
+                        <button id="toggleTocButton" type="button" onclick="toggleToc()" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
+                        <button id="toTopButton" type="button" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+                    </div>
+                    <form id="global-search" class="global-search" role="search" autocomplete="off">
+                        <label class="visually-hidden" for="global-search-input">Search Akladell</label>
+                        <div class="global-search-row">
+                            <div class="global-search-control">
+                                <input id="global-search-input" type="search" placeholder="Search rules, spells, updates..." aria-controls="global-search-results" aria-expanded="false">
+                                <button id="global-search-clear" class="global-search-clear" type="button" aria-label="Clear search" hidden>x</button>
+                            </div>
+                            <div class="global-search-spacer" aria-hidden="true"></div>
+                        </div>
+                        <div id="global-search-results" class="global-search-results" role="listbox" hidden></div>
+                    </form>
                 </div>
             </nav>
             <div id="toc-wrapper">
@@ -242,10 +255,13 @@
     const MD_CACHE_PREFIX = `mdcache:${MD_CACHE_VERSION}:`;
     const memoryCache = new Map();
     const inFlight = new Map();
-    const NON_RULE_PAGES = new Set(['home', 'updates', 'resources', 'hall-of-the-dead', 'unusedrules', 'spells']);
+    const NON_RULE_PAGES = new Set(['home', 'updates', 'resources', 'hall-of-the-dead', 'unusedrules', 'spells', 'search']);
     const tocPanelEl = document.getElementById('toc-panel');
     const tocRulesEl = document.getElementById('toc-rules');
     const tocSpellsEl = document.getElementById('toc-spells');
+    let pendingSearchScroll = null;
+    let searchMatchFocusTimer = null;
+    let lastNonSearchHash = '#home';
 
     function getCacheKey(page) {
         return `${MD_CACHE_PREFIX}${page}`;
@@ -289,10 +305,72 @@
         }
     }
 
+    function parseRouteHash(hash) {
+        const clean = (hash || '').replace(/^#/, '');
+        if (!clean) return { page: 'home', anchor: '' };
+
+        const parts = clean.split('#');
+        const page = parts.shift() || 'home';
+        return {
+            page,
+            anchor: parts.join('#')
+        };
+    }
+
     function resolvePageFromHash(hash) {
-        const clean = (hash || '').replace('#', '');
-        const [page] = clean.split('#', 2);
-        return page || 'home';
+        return parseRouteHash(hash).page;
+    }
+
+    function isKnownRoutePage(page) {
+        return page === 'rules' || NON_RULE_PAGES.has(page);
+    }
+
+    async function inferCanonicalHashFromBareId(id) {
+        if (!id) return '';
+
+        try {
+            const index = await getSearchIndex();
+            const hrefs = new Set(index.map((entry) => entry.href));
+            const candidates = [
+                `#rules#${id}`,
+                `#spells#${id}`,
+                `#unusedrules#${id}`,
+                `#hall-of-the-dead#${id}`
+            ];
+
+            return candidates.find((candidate) => hrefs.has(candidate)) || '';
+        } catch (err) {
+            console.warn('Bare hash inference failed', err);
+            return '';
+        }
+    }
+
+    function buildSearchRouteHash(query, returnHash) {
+        return `#search#${encodeURIComponent(query)}#${encodeURIComponent(returnHash || '#home')}`;
+    }
+
+    function parseSearchRoute(anchor) {
+        const parts = (anchor || '').split('#');
+        const query = decodeURIComponent(parts.shift() || '');
+        const returnHash = decodeURIComponent(parts.join('#') || lastNonSearchHash || '#home');
+        return { query, returnHash };
+    }
+
+    function getCurrentSearchReturnHash() {
+        const route = parseRouteHash(window.location.hash);
+        if (route.page === 'search') {
+            return parseSearchRoute(route.anchor).returnHash;
+        }
+
+        return window.location.hash || '#home';
+    }
+
+    function slugifyHeadingTitle(title) {
+        return title
+            .toLowerCase()
+            .replace(/&/g, '')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
     }
 
     function isCurrentPage(page) {
@@ -310,6 +388,120 @@
         tocSpellsEl.hidden = normalizedMode !== 'spells';
     }
 
+    function ensureRenderedHeadingIds(contentEl) {
+        const seenIds = new Set(Array.from(contentEl.querySelectorAll('[id]')).map((el) => el.id));
+
+        contentEl.querySelectorAll('h1, h2, h3, h4, h5, h6').forEach((heading) => {
+            if (heading.id) return;
+
+            const childWithId = heading.querySelector('[id]');
+            if (childWithId) {
+                return;
+            }
+
+            const baseId = slugifyHeadingTitle(heading.textContent.trim());
+            if (!baseId) return;
+
+            let nextId = baseId;
+            let suffix = 2;
+            while (seenIds.has(nextId)) {
+                nextId = `${baseId}-${suffix}`;
+                suffix += 1;
+            }
+
+            heading.id = nextId;
+            seenIds.add(nextId);
+        });
+    }
+
+    function clearSearchMatchFocus() {
+        if (searchMatchFocusTimer) {
+            window.clearTimeout(searchMatchFocusTimer);
+            searchMatchFocusTimer = null;
+        }
+
+        document.querySelectorAll('.search-match-focus').forEach((el) => {
+            el.classList.remove('search-match-focus');
+        });
+    }
+
+    function getHeadingLevel(el) {
+        return /^H[1-6]$/.test(el.tagName) ? Number(el.tagName.slice(1)) : 0;
+    }
+
+    function getAnchorHeading(anchor) {
+        const target = document.getElementById(anchor);
+        if (!target) return null;
+        return getHeadingLevel(target) ? target : target.closest('h1, h2, h3, h4, h5, h6');
+    }
+
+    function getSearchSectionCandidates(anchor) {
+        const heading = getAnchorHeading(anchor);
+        if (!heading) return [];
+
+        const headingLevel = getHeadingLevel(heading);
+        const candidates = [heading];
+        let node = heading.nextElementSibling;
+        const selector = 'h1, h2, h3, h4, h5, h6, p, li, tr, blockquote, pre';
+
+        while (node) {
+            const nodeHeadingLevel = getHeadingLevel(node);
+            if (nodeHeadingLevel && nodeHeadingLevel <= headingLevel) break;
+
+            if (node.matches(selector)) candidates.push(node);
+            candidates.push(...node.querySelectorAll(selector));
+            node = node.nextElementSibling;
+        }
+
+        return candidates;
+    }
+
+    function getSearchCandidateScore(candidate, terms, queryLower, headingText) {
+        const text = candidate.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+        if (!text) return 0;
+
+        let score = text.includes(queryLower) ? 100 : 0;
+        terms.forEach((term) => {
+            if (!text.includes(term)) return;
+            score += 10;
+            if (!headingText.includes(term)) score += 30;
+        });
+
+        if (getHeadingLevel(candidate)) score -= 1;
+        return score;
+    }
+
+    function scrollToPendingSearchMatch(anchor, hash) {
+        if (!pendingSearchScroll || pendingSearchScroll.href !== hash || !pendingSearchScroll.query) return false;
+
+        const query = pendingSearchScroll.query;
+        pendingSearchScroll = null;
+
+        const terms = getSearchTerms(query);
+        if (!terms.length) return false;
+
+        const heading = getAnchorHeading(anchor);
+        if (!heading) return false;
+
+        const headingText = heading.textContent.replace(/\s+/g, ' ').trim().toLowerCase();
+        const queryLower = query.toLowerCase();
+        const best = getSearchSectionCandidates(anchor)
+            .map((candidate) => ({
+                candidate,
+                score: getSearchCandidateScore(candidate, terms, queryLower, headingText)
+            }))
+            .filter((result) => result.score > 0)
+            .sort((a, b) => b.score - a.score)[0];
+
+        if (!best) return false;
+
+        clearSearchMatchFocus();
+        best.candidate.classList.add('search-match-focus');
+        searchMatchFocusTimer = window.setTimeout(clearSearchMatchFocus, 1800);
+        best.candidate.scrollIntoView({ block: 'center' });
+        return true;
+    }
+
     function renderMarkdown({ html, wrapperClass, pageClass, anchor, hash, scrollMode }) {
         const contentEl = document.getElementById('content');
         contentEl.className = '';
@@ -321,6 +513,8 @@
             contentEl.innerHTML = `<div>${html}</div>`;
         }
 
+        ensureRenderedHeadingIds(contentEl);
+
         if (scrollMode === 'anchor' && anchor) {
             scrollToAnchor(anchor);
         } else if (scrollMode === 'spells-anchor' && anchor) {
@@ -329,6 +523,10 @@
             scrollToHash(hash);
         } else if (scrollMode === 'top') {
             window.scrollTo(0, 0);
+        }
+
+        if (anchor) {
+            scrollToPendingSearchMatch(anchor, hash);
         }
     }
 
@@ -460,12 +658,23 @@
     
     // ========== MAIN ROUTER FUNCTION ==========
     async function loadContent(hash) {
-        // Example: "#spells#fireball"
-        // Remove the leading "#" => "spells#fireball"
-        const clean = hash.replace('#', '');      
-        // Split on the second "#" => ["spells", "fireball"]
-        const [page, anchor] = clean.split('#', 2);
+        let { page, anchor } = parseRouteHash(hash);
+
+        if (!anchor && !isKnownRoutePage(page)) {
+            const inferredHash = await inferCanonicalHashFromBareId(page);
+            if (inferredHash) {
+                if (window.location.hash === hash) {
+                    window.history.replaceState(null, '', inferredHash);
+                }
+                hash = inferredHash;
+                ({ page, anchor } = parseRouteHash(hash));
+            }
+        }
+
         setTocMode(page === 'spells' ? 'spells' : 'rules');
+        if (page !== 'search') {
+            lastNonSearchHash = hash || '#home';
+        }
     
         if (page === 'home') {
         loadHomePage();
@@ -477,8 +686,11 @@
         loadResourcesPage();
         } 
         else if (page === 'hall-of-the-dead') {
-        loadDeadPage();
+        loadDeadPage(anchor);
         } 
+        else if (page === 'search') {
+        await loadSearchPage(anchor);
+        }
         else if (page === 'unusedrules') {
         await loadMarkdownPage({
             page: 'unusedrules',
@@ -502,15 +714,16 @@
         });
         }
         else {
+        const rulesAnchor = page === 'rules' ? anchor : (anchor ? `${page}#${anchor}` : anchor);
         // Default fallback => load rules.md
         await loadMarkdownPage({
             page: 'rules',
             url: './rules.md',
             wrapperClass: 'rules-content',
             pageClass: '',
-            anchor,
+            anchor: rulesAnchor,
             hash,
-            scrollMode: anchor ? 'anchor' : 'hash'
+            scrollMode: rulesAnchor ? 'anchor' : (page === 'rules' ? 'top' : 'hash')
         });
         }
 
@@ -527,7 +740,7 @@
     }
 
     function scrollToSpellsAnchor(anchor) {
-        const targetId = `spells#${anchor}`;
+        const targetId = anchor.startsWith('spells#') ? anchor : `spells#${anchor}`;
         const target = document.getElementById(targetId) || document.getElementById(anchor);
         if (target) {
         target.scrollIntoView();
@@ -542,11 +755,18 @@
         el.scrollIntoView();
         }
     }
+
+    function setTocButtonState(isOpen) {
+        document.querySelectorAll('#toggleTocButton, #toggleTocMobileButton').forEach((button) => {
+            button.setAttribute('aria-expanded', String(isOpen));
+        });
+    }
     
     function toggleToc() {
-        if (window.innerWidth <= 1200) {
         const tocPanel = document.getElementById('toc-panel');
         const tocOverlay = document.getElementById('toc-overlay');
+
+        if (window.innerWidth <= 1200) {
         tocPanel.classList.toggle('visible');
         tocOverlay.style.display = tocPanel.classList.contains('visible') ? 'block' : 'none';
         if (tocPanel.classList.contains('visible')) {
@@ -555,9 +775,9 @@
             document.body.classList.remove('no-scroll');
         }
         } else {
-        const tocPanel = document.getElementById('toc-panel');
         tocPanel.classList.toggle('visible');
         }
+        setTocButtonState(tocPanel.classList.contains('visible'));
     }
     
     document.getElementById('toc-overlay').addEventListener('click', () => {
@@ -567,8 +787,577 @@
         tocPanel.classList.remove('visible');
         tocOverlay.style.display = 'none';
         document.body.classList.remove('no-scroll');
+        setTocButtonState(false);
         }
     });
+
+    const SEARCH_MARKDOWN_SOURCES = [
+        {
+            key: 'rules',
+            label: 'Rules',
+            url: './rules.md',
+            href: (id) => id ? `#rules#${id}` : '#rules'
+        },
+        {
+            key: 'spells',
+            label: 'Spells',
+            url: './spells.md',
+            href: (id) => {
+                if (!id) return '#spells';
+                return id.startsWith('spells#') ? `#${id}` : `#spells#${id}`;
+            }
+        },
+        {
+            key: 'dead',
+            label: 'Hall of the Dead',
+            url: './deadcharacters.md',
+            href: (id) => id ? `#hall-of-the-dead#${id}` : '#hall-of-the-dead'
+        },
+        {
+            key: 'unusedrules',
+            label: 'Unused Rules',
+            url: './unusedrules.md',
+            href: (id) => id ? `#unusedrules#${id}` : '#unusedrules'
+        }
+    ];
+
+    const SEARCH_PREVIEW_LIMIT = 12;
+    let searchIndexPromise = null;
+
+    function escapeSearchHtml(value) {
+        return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
+    function escapeSearchRegExp(value) {
+        return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function stripSearchMarkup(value) {
+        return String(value)
+            .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/&nbsp;/g, ' ')
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/[`*_>#|]/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    function slugifySearchTitle(title) {
+        return title
+            .toLowerCase()
+            .replace(/&/g, '')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/^-+|-+$/g, '');
+    }
+
+    function extractExplicitSearchHeadingId(rawHeading) {
+        const idMatch = rawHeading.match(/\sid=(?:"([^"]+)"|'([^']+)'|([^\s>]+))/i);
+        return idMatch ? (idMatch[1] || idMatch[2] || idMatch[3]) : '';
+    }
+
+    function getUniqueSearchHeadingId(baseId, seenIds) {
+        let nextId = baseId;
+        let suffix = 2;
+
+        while (seenIds.has(nextId)) {
+            nextId = `${baseId}-${suffix}`;
+            suffix += 1;
+        }
+
+        seenIds.add(nextId);
+        return nextId;
+    }
+
+    function parseMarkdownSearchSections(source, text) {
+        const sections = [];
+        let currentSection = null;
+        const explicitIds = new Set(
+            Array.from(text.matchAll(/\sid=(?:"([^"]+)"|'([^']+)'|([^\s>]+))/gi))
+                .map((match) => match[1] || match[2] || match[3])
+                .filter(Boolean)
+        );
+        const generatedIds = new Set(explicitIds);
+
+        text.split(/\r?\n/).forEach((line) => {
+            const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+            if (headingMatch) {
+                if (currentSection) sections.push(currentSection);
+
+                const rawHeading = headingMatch[2];
+                const title = stripSearchMarkup(rawHeading);
+                const explicitId = extractExplicitSearchHeadingId(rawHeading);
+                const headingId = explicitId
+                    ? explicitId
+                    : getUniqueSearchHeadingId(slugifySearchTitle(title), generatedIds);
+
+                currentSection = {
+                    sourceLabel: source.label,
+                    href: source.href(headingId),
+                    title,
+                    level: headingMatch[1].length,
+                    bodyLines: []
+                };
+                return;
+            }
+
+            if (currentSection) currentSection.bodyLines.push(line);
+        });
+
+        if (currentSection) sections.push(currentSection);
+
+        return sections
+            .filter((section) => section.title)
+            .map((section) => {
+                const bodyText = stripSearchMarkup(section.bodyLines.join(' '));
+                return {
+                    sourceLabel: section.sourceLabel,
+                    href: section.href,
+                    title: section.title,
+                    bodyText,
+                    searchText: `${section.title} ${bodyText}`.toLowerCase()
+                };
+            });
+    }
+
+    async function fetchSearchSource(source) {
+        try {
+            const response = await fetch(source.url);
+            if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+            return parseMarkdownSearchSections(source, await response.text());
+        } catch (err) {
+            console.warn(`Search index failed for ${source.url}`, err);
+            return [];
+        }
+    }
+
+    function buildUpdateSearchEntries() {
+        if (typeof window.getUpdatePosts !== 'function') return [];
+
+        return window.getUpdatePosts().map((post) => {
+            const id = typeof window.createUpdateId === 'function'
+                ? window.createUpdateId(post)
+                : `update-${slugifySearchTitle(`${post.date || ''}-${post.title}`)}`;
+            const bodyText = stripSearchMarkup(post.content || '');
+            return {
+                sourceLabel: 'Updates',
+                href: `#updates#${id}`,
+                title: post.title,
+                bodyText: `${post.date || ''} ${bodyText}`.trim(),
+                searchText: `${post.title} ${post.date || ''} ${bodyText}`.toLowerCase()
+            };
+        });
+    }
+
+    function getSearchIndex() {
+        if (!searchIndexPromise) {
+            searchIndexPromise = Promise.all(SEARCH_MARKDOWN_SOURCES.map(fetchSearchSource))
+                .then((groups) => groups.flat().concat(buildUpdateSearchEntries()));
+        }
+
+        return searchIndexPromise;
+    }
+
+    function getSearchTerms(query) {
+        return query
+            .toLowerCase()
+            .split(/\s+/)
+            .map((term) => term.trim())
+            .filter(Boolean);
+    }
+
+    function scoreSearchEntry(entry, terms, queryLower) {
+        if (!terms.every((term) => entry.searchText.includes(term))) return 0;
+
+        const titleLower = entry.title.toLowerCase();
+        let score = 1;
+
+        if (titleLower === queryLower) score += 90;
+        if (titleLower.includes(queryLower)) score += 45;
+        if (entry.searchText.includes(queryLower)) score += 15;
+
+        terms.forEach((term) => {
+            if (titleLower.includes(term)) score += 25;
+            if (entry.bodyText.toLowerCase().includes(term)) score += 4;
+        });
+
+        return score - Math.min(entry.bodyText.length / 1600, 5);
+    }
+
+    function findSearchResults(index, query, limit) {
+        const queryLower = query.toLowerCase();
+        const terms = getSearchTerms(query);
+        const matches = index
+            .map((entry) => ({
+                entry,
+                score: scoreSearchEntry(entry, terms, queryLower)
+            }))
+            .filter((result) => result.score > 0)
+            .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title))
+            .map((result) => result.entry);
+
+        return Number.isFinite(limit) ? matches.slice(0, limit) : matches;
+    }
+
+    function createSearchSnippet(entry, terms, queryLower) {
+        const sourceText = entry.bodyText || entry.title;
+        const lowerText = sourceText.toLowerCase();
+        let index = lowerText.indexOf(queryLower);
+
+        if (index === -1) {
+            const matchingTerm = terms.find((term) => lowerText.includes(term));
+            index = matchingTerm ? lowerText.indexOf(matchingTerm) : 0;
+        }
+
+        const start = Math.max(0, index - 70);
+        const end = Math.min(sourceText.length, index + queryLower.length + 110);
+        const prefix = start > 0 ? '...' : '';
+        const suffix = end < sourceText.length ? '...' : '';
+        return `${prefix}${sourceText.slice(start, end).trim()}${suffix}`;
+    }
+
+    function highlightSearchText(value, terms) {
+        const escaped = escapeSearchHtml(value);
+        if (!terms.length) return escaped;
+
+        const pattern = new RegExp(`(${terms.map(escapeSearchRegExp).join('|')})`, 'gi');
+        return escaped.replace(pattern, '<mark>$1</mark>');
+    }
+
+    function renderSearchResults(resultsEl, inputEl, clearButtonEl, query, results, state, totalCount) {
+        clearButtonEl.hidden = !query;
+        inputEl.removeAttribute('aria-activedescendant');
+
+        if (!query || query.length < 2) {
+            resultsEl.hidden = true;
+            resultsEl.innerHTML = '';
+            inputEl.setAttribute('aria-expanded', 'false');
+            return;
+        }
+
+        resultsEl.hidden = false;
+        inputEl.setAttribute('aria-expanded', 'true');
+
+        if (state === 'loading') {
+            resultsEl.innerHTML = '<div class="global-search-status">Loading search index...</div>';
+            return;
+        }
+
+        if (state === 'error') {
+            resultsEl.innerHTML = '<div class="global-search-status">Search unavailable.</div>';
+            return;
+        }
+
+        if (!results.length) {
+            resultsEl.innerHTML = '<div class="global-search-status">No results.</div>';
+            return;
+        }
+
+        const queryLower = query.toLowerCase();
+        const terms = getSearchTerms(query);
+        const items = results.map((entry, index) => {
+            const snippet = createSearchSnippet(entry, terms, queryLower);
+            const optionId = `global-search-result-${index}`;
+            return `
+                <li>
+                    <a id="${optionId}" class="global-search-result" href="${escapeSearchHtml(entry.href)}" role="option" aria-selected="false" data-search-result-index="${index}" data-search-query="${escapeSearchHtml(query)}">
+                        <span class="global-search-result-source">${escapeSearchHtml(entry.sourceLabel)}</span>
+                        <span class="global-search-result-title">${highlightSearchText(entry.title, terms)}</span>
+                        <span class="global-search-result-snippet">${highlightSearchText(snippet, terms)}</span>
+                    </a>
+                </li>
+            `;
+        }).join('');
+        const resultCount = Number.isFinite(totalCount) ? totalCount : results.length;
+        const countLabel = resultCount !== results.length
+            ? `Showing ${results.length} of ${resultCount} results. Press Enter to show all.`
+            : `${resultCount} result${resultCount === 1 ? '' : 's'}`;
+
+        resultsEl.innerHTML = `
+            <div class="global-search-count">${countLabel}</div>
+            <ol>${items}</ol>
+        `;
+    }
+
+    function createFullSearchHeader(query, returnHash) {
+        return `
+            <div class="full-search-header">
+                <h1 id="full-search-title">Search Results</h1>
+                <button class="full-search-close" type="button" aria-label="Close search results" data-return-hash="${escapeSearchHtml(returnHash || '#home')}">x</button>
+            </div>
+        `;
+    }
+
+    function renderFullSearchResultsPage(query, results, state, returnHash) {
+        const contentEl = document.getElementById('content');
+        contentEl.className = 'search-results-page';
+        clearSearchMatchFocus();
+        window.scrollTo(0, 0);
+
+        const safeQuery = escapeSearchHtml(query);
+        const header = createFullSearchHeader(query, returnHash);
+
+        if (state === 'loading') {
+            contentEl.innerHTML = `
+                <section class="full-search-results" aria-labelledby="full-search-title">
+                    ${header}
+                    <p class="full-search-status">Searching for <strong>${safeQuery}</strong>...</p>
+                </section>
+            `;
+            return;
+        }
+
+        if (state === 'error') {
+            contentEl.innerHTML = `
+                <section class="full-search-results" aria-labelledby="full-search-title">
+                    ${header}
+                    <p class="full-search-status">Search unavailable.</p>
+                </section>
+            `;
+            return;
+        }
+
+        if (!results.length) {
+            contentEl.innerHTML = `
+                <section class="full-search-results" aria-labelledby="full-search-title">
+                    ${header}
+                    <p class="full-search-status">No results for <strong>${safeQuery}</strong>.</p>
+                </section>
+            `;
+            return;
+        }
+
+        const queryLower = query.toLowerCase();
+        const terms = getSearchTerms(query);
+        const items = results.map((entry) => {
+            const snippet = createSearchSnippet(entry, terms, queryLower);
+            return `
+                <li>
+                    <a class="full-search-result" href="${escapeSearchHtml(entry.href)}" data-search-query="${safeQuery}">
+                        <span class="global-search-result-source">${escapeSearchHtml(entry.sourceLabel)}</span>
+                        <span class="global-search-result-title">${highlightSearchText(entry.title, terms)}</span>
+                        <span class="global-search-result-snippet">${highlightSearchText(snippet, terms)}</span>
+                    </a>
+                </li>
+            `;
+        }).join('');
+
+        contentEl.innerHTML = `
+            <section class="full-search-results" aria-labelledby="full-search-title">
+                ${header}
+                <p class="full-search-summary">${results.length} result${results.length === 1 ? '' : 's'} for <strong>${safeQuery}</strong></p>
+                <ol>${items}</ol>
+            </section>
+        `;
+    }
+
+    async function loadSearchPage(anchor) {
+        const { query, returnHash } = parseSearchRoute(anchor);
+        const input = document.getElementById('global-search-input');
+        if (input) input.value = query;
+        const clearButton = document.getElementById('global-search-clear');
+        if (clearButton) clearButton.hidden = !query;
+
+        if (query.length < 2) {
+            renderFullSearchResultsPage(query, [], 'ready', returnHash);
+            return;
+        }
+
+        renderFullSearchResultsPage(query, [], 'loading', returnHash);
+
+        try {
+            const index = await getSearchIndex();
+            renderFullSearchResultsPage(query, findSearchResults(index, query), 'ready', returnHash);
+        } catch (err) {
+            console.warn('Search route failed', err);
+            renderFullSearchResultsPage(query, [], 'error', returnHash);
+        }
+    }
+
+    function prepareSearchResultNavigation(targetHash, query) {
+        pendingSearchScroll = {
+            href: targetHash,
+            query
+        };
+    }
+
+    function followSearchResultLink(link, query, event) {
+        const targetHash = link.getAttribute('href');
+        prepareSearchResultNavigation(targetHash, query);
+
+        if (window.location.hash === targetHash) {
+            event.preventDefault();
+            loadContent(targetHash);
+        }
+    }
+
+    function setupGlobalSearch() {
+        const form = document.getElementById('global-search');
+        const input = document.getElementById('global-search-input');
+        const results = document.getElementById('global-search-results');
+        const clearButton = document.getElementById('global-search-clear');
+        if (!form || !input || !results || !clearButton) return;
+
+        let searchTimer = null;
+        let activeResultIndex = -1;
+
+        const closeResults = () => {
+            results.hidden = true;
+            input.setAttribute('aria-expanded', 'false');
+            input.removeAttribute('aria-activedescendant');
+            activeResultIndex = -1;
+        };
+
+        const getResultLinks = () => Array.from(results.querySelectorAll('.global-search-result'));
+
+        const setActiveResult = (nextIndex) => {
+            const links = getResultLinks();
+            if (!links.length) {
+                activeResultIndex = -1;
+                input.removeAttribute('aria-activedescendant');
+                return;
+            }
+
+            activeResultIndex = ((nextIndex % links.length) + links.length) % links.length;
+            links.forEach((link, index) => {
+                const isActive = index === activeResultIndex;
+                link.classList.toggle('active', isActive);
+                link.setAttribute('aria-selected', String(isActive));
+
+                if (isActive) {
+                    input.setAttribute('aria-activedescendant', link.id);
+                    link.scrollIntoView({ block: 'nearest' });
+                }
+            });
+        };
+
+        const runSearch = async (showAll = false) => {
+            const query = input.value.trim();
+            activeResultIndex = -1;
+            renderSearchResults(results, input, clearButton, query, [], query.length >= 2 ? 'loading' : 'idle');
+            if (query.length < 2) return;
+
+            try {
+                const index = await getSearchIndex();
+                if (input.value.trim() !== query) return;
+
+                const allResults = findSearchResults(index, query);
+                const visibleResults = showAll ? allResults : allResults.slice(0, SEARCH_PREVIEW_LIMIT);
+                renderSearchResults(results, input, clearButton, query, visibleResults, 'ready', allResults.length);
+            } catch (err) {
+                console.warn('Search failed', err);
+                renderSearchResults(results, input, clearButton, query, [], 'error');
+            }
+        };
+
+        const showFullSearchPage = async () => {
+            const query = input.value.trim();
+            if (query.length < 2) return;
+
+            closeResults();
+            input.blur();
+            const targetHash = buildSearchRouteHash(query, getCurrentSearchReturnHash());
+
+            if (window.location.hash === targetHash) {
+                loadContent(targetHash);
+            } else {
+                window.location.hash = targetHash;
+            }
+        };
+
+        input.addEventListener('input', () => {
+            window.clearTimeout(searchTimer);
+            activeResultIndex = -1;
+            searchTimer = window.setTimeout(() => runSearch(false), 120);
+        });
+
+        input.addEventListener('focus', () => {
+            if (input.value.trim().length >= 2) runSearch(false);
+        });
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const activeResult = activeResultIndex >= 0 ? getResultLinks()[activeResultIndex] : null;
+            if (activeResult) {
+                activeResult.click();
+                return;
+            }
+
+            showFullSearchPage();
+        });
+
+        clearButton.addEventListener('click', () => {
+            input.value = '';
+            input.focus();
+            activeResultIndex = -1;
+            renderSearchResults(results, input, clearButton, '', [], 'idle');
+        });
+
+        input.addEventListener('keydown', (event) => {
+            if (event.key !== 'ArrowDown' && event.key !== 'ArrowUp') return;
+
+            event.preventDefault();
+            if (results.hidden && input.value.trim().length >= 2) {
+                runSearch(false).then(() => setActiveResult(0));
+                return;
+            }
+
+            const links = getResultLinks();
+            if (!links.length) return;
+
+            const direction = event.key === 'ArrowDown' ? 1 : -1;
+            setActiveResult(activeResultIndex === -1 && direction === -1 ? links.length - 1 : activeResultIndex + direction);
+        });
+
+        results.addEventListener('click', (event) => {
+            const link = event.target.closest('a[href^="#"]');
+            if (!link) return;
+
+            followSearchResultLink(link, link.dataset.searchQuery || input.value.trim(), event);
+            closeResults();
+            input.blur();
+        });
+
+        document.getElementById('content').addEventListener('click', (event) => {
+            const closeButton = event.target.closest('.full-search-close');
+            if (closeButton) {
+                const returnHash = closeButton.dataset.returnHash || '#home';
+                window.history.replaceState(null, '', returnHash);
+                loadContent(returnHash);
+                return;
+            }
+
+            const link = event.target.closest('.full-search-result[href^="#"]');
+            if (!link) return;
+            followSearchResultLink(link, link.dataset.searchQuery || '', event);
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!form.contains(event.target)) closeResults();
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && !results.hidden) {
+                closeResults();
+                input.blur();
+                return;
+            }
+
+            if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+                event.preventDefault();
+                input.focus();
+                input.select();
+            }
+        });
+    }
 
     function setupTocCollapsers() {
         const TOC_COLLAPSE_STORAGE_KEY = 'akladell:toc-collapse:v1';
@@ -638,6 +1427,7 @@
     // ========== On DOMContentLoaded ==========
     document.addEventListener("DOMContentLoaded", function() {
         setupTocCollapsers();
+        setupGlobalSearch();
 
         // Handle clicks on TOC links
         const tocLinks = document.querySelectorAll('#toc-panel a');
@@ -696,12 +1486,22 @@
         });
     });
     
-    window.loadDeadPage = function() {
+    window.loadDeadPage = function(anchor) {
+        const contentEl = document.getElementById('content');
+        contentEl.className = '';
+
         fetch('./deadcharacters.md')
         .then(response => response.text())
         .then(data => {
             const htmlContent = marked.parse(data);
-            document.getElementById('content').innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
+            contentEl.innerHTML = `<div class='dead-content'>${htmlContent}</div>`;
+
+            if (anchor) {
+                const target = document.getElementById(anchor);
+                if (target) {
+                    target.scrollIntoView();
+                }
+            }
         })
         .catch(err => console.error('Error loading deadcharacters.md:', err));
     }
