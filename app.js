@@ -389,6 +389,23 @@ function getUpdatePosts()
     return [
 
     
+    {
+
+        title: 'More Weapons and Weapon Length',
+        content: `Expanded the weapon lists using AD&D/OSRIC/2e references, including additional swords, polearms, thrown weapons, bows, slings, and ammunition.
+
+        <b> Changes: </b>
+
+        - Added weapon length values where they were missing.
+        - Added or adjusted speed factors for the new weapons.
+        - Added rules for M/L weapons that may be used one-handed with enough Strength, as per OSRIC.
+        - Added Hooking and Catching weapon keywords for weapons such as Ranseur, Guisarme, Military Fork, and Mancatcher.
+
+        `,
+        date: "2026-06-13 19:20 CEST"
+    },
+
+
     { 
 
         title: 'Additional Benefits to Inhuman Ability Scores',
