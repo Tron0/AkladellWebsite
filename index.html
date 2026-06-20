@@ -10,8 +10,8 @@
 <body>
     <div class="buttons-wrapper">
         <div class="buttons-mobile">
-            <button id="toTopMobileButton" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
-            <button id="toggleTocMobileButton" onclick="toggleToc()" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
+            <button id="toTopMobileButton" type="button" aria-label="Scroll to top">↑</button>
+            <button id="toggleTocMobileButton" type="button" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
         </div>
     </div>
 
@@ -82,8 +82,8 @@
                 </div>
                 <div class="nav-search-row">
                     <div class="buttons-desktop">
-                        <button id="toggleTocButton" type="button" onclick="toggleToc()" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
-                        <button id="toTopButton" type="button" onclick="scrollToTop()" aria-label="Scroll to top">↑</button>
+                        <button id="toggleTocButton" type="button" aria-label="Toggle table of contents" aria-controls="toc-panel" aria-expanded="false">☰</button>
+                        <button id="toTopButton" type="button" aria-label="Scroll to top">↑</button>
                     </div>
                     <form id="global-search" class="global-search" role="search" autocomplete="off" aria-label="Search Akladell">
                         <div class="global-search-row">
@@ -99,7 +99,10 @@
             </nav>
             <div id="toc-wrapper">
                 <div id="toc-panel" data-mode="rules">
-                    <h2 id="toc-title">Table of Contents</h2>
+                    <div class="toc-panel-header">
+                        <h2 id="toc-title">Table of Contents</h2>
+                        <button id="toc-close-button" class="toc-close-button" type="button" aria-label="Close table of contents">x</button>
+                    </div>
 
                     <div id="toc-rules" class="toc-section">
                         <ul>
@@ -646,7 +649,7 @@
             setTimeout(prefetch, 1200);
         }
     }
-    
+
     function handleTocClick(e) {
         e.preventDefault();
         const hash = this.getAttribute('href');
@@ -763,33 +766,37 @@
             button.setAttribute('aria-expanded', String(isOpen));
         });
     }
-    
+
+    function usesTocOverlay() {
+        return window.matchMedia('(pointer: coarse)').matches;
+    }
+
+    function setTocOpen(isOpen) {
+        const tocPanel = document.getElementById('toc-panel');
+        const tocOverlay = document.getElementById('toc-overlay');
+        const showOverlay = isOpen && usesTocOverlay();
+
+        tocPanel.classList.toggle('visible', isOpen);
+        tocOverlay.style.display = showOverlay ? 'block' : '';
+        document.body.classList.toggle('no-scroll', showOverlay);
+        setTocButtonState(isOpen);
+    }
+
     function toggleToc() {
         const tocPanel = document.getElementById('toc-panel');
-        const tocOverlay = document.getElementById('toc-overlay');
-
-        if (window.innerWidth <= 1200) {
-        tocPanel.classList.toggle('visible');
-        tocOverlay.style.display = tocPanel.classList.contains('visible') ? 'block' : 'none';
-        if (tocPanel.classList.contains('visible')) {
-            document.body.classList.add('no-scroll');
-        } else {
-            document.body.classList.remove('no-scroll');
-        }
-        } else {
-        tocPanel.classList.toggle('visible');
-        }
-        setTocButtonState(tocPanel.classList.contains('visible'));
+        setTocOpen(!tocPanel.classList.contains('visible'));
     }
-    
+
     document.getElementById('toc-overlay').addEventListener('click', () => {
-        if (window.innerWidth <= 1200) {
+        if (usesTocOverlay()) {
+            setTocOpen(false);
+        }
+    });
+
+    window.addEventListener('resize', () => {
         const tocPanel = document.getElementById('toc-panel');
-        const tocOverlay = document.getElementById('toc-overlay');
-        tocPanel.classList.remove('visible');
-        tocOverlay.style.display = 'none';
-        document.body.classList.remove('no-scroll');
-        setTocButtonState(false);
+        if (tocPanel.classList.contains('visible')) {
+            setTocOpen(true);
         }
     });
 
@@ -1442,6 +1449,7 @@
         const toTopMobileButton = document.getElementById('toTopMobileButton');
         const toggleTocButton = document.getElementById('toggleTocButton');
         const toggleTocMobileButton = document.getElementById('toggleTocMobileButton');
+        const tocCloseButton = document.getElementById('toc-close-button');
     
         toTopButton.style.display = 'none';
         toTopMobileButton.style.display = 'none';
@@ -1450,6 +1458,7 @@
         toggleTocButton.addEventListener('click', toggleToc);
         toTopMobileButton.addEventListener('click', scrollToTop);
         toggleTocMobileButton.addEventListener('click', toggleToc);
+        tocCloseButton.addEventListener('click', () => setTocOpen(false));
     
         window.addEventListener('scroll', function() {
         if (window.scrollY > 300) {
