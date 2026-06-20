@@ -1084,34 +1084,8 @@ tr.search-match-focus > td {
     font-size: 0.9em;
 }
 
-.toc-panel-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
-    margin-bottom: 8px;
-}
-
 #toc-title {
-    margin: 0;
     font-size: 23px;
-}
-
-.toc-close-button {
-    flex: 0 0 auto;
-    width: 28px;
-    height: 28px;
-    border: 1px solid white;
-    background: black;
-    color: white;
-    cursor: pointer;
-    line-height: 1;
-}
-
-.toc-close-button:hover,
-.toc-close-button:focus-visible {
-    background: white;
-    color: black;
 }
 
 #toc-panel[data-mode="rules"] #toc-title {

@@ -99,10 +99,7 @@
             </nav>
             <div id="toc-wrapper">
                 <div id="toc-panel" data-mode="rules">
-                    <div class="toc-panel-header">
-                        <h2 id="toc-title">Table of Contents</h2>
-                        <button id="toc-close-button" class="toc-close-button" type="button" aria-label="Close table of contents">x</button>
-                    </div>
+                    <h2 id="toc-title">Table of Contents</h2>
 
                     <div id="toc-rules" class="toc-section">
                         <ul>
@@ -1449,7 +1446,6 @@
         const toTopMobileButton = document.getElementById('toTopMobileButton');
         const toggleTocButton = document.getElementById('toggleTocButton');
         const toggleTocMobileButton = document.getElementById('toggleTocMobileButton');
-        const tocCloseButton = document.getElementById('toc-close-button');
     
         toTopButton.style.display = 'none';
         toTopMobileButton.style.display = 'none';
@@ -1458,7 +1454,6 @@
         toggleTocButton.addEventListener('click', toggleToc);
         toTopMobileButton.addEventListener('click', scrollToTop);
         toggleTocMobileButton.addEventListener('click', toggleToc);
-        tocCloseButton.addEventListener('click', () => setTocOpen(false));
     
         window.addEventListener('scroll', function() {
         if (window.scrollY > 300) {
