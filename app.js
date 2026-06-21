@@ -406,7 +406,7 @@ function getUpdatePosts()
         - Characters of 10th level or higher no longer need training.
 
         `,
-        date: "2026-06-21 15:47 CEST"
+        date: "2026-06-21 15:47 CET"
     },
 
 
@@ -423,7 +423,7 @@ function getUpdatePosts()
         - Added Hooking and Catching weapon keywords for weapons such as Ranseur, Guisarme, Military Fork, and Mancatcher.
 
         `,
-        date: "2026-06-13 19:20 CEST"
+        date: "2026-06-13 19:20 CET"
     },
 
 
