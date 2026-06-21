@@ -391,6 +391,27 @@ function getUpdatePosts()
     
     {
 
+        title: 'Orcs, Infravision, and Training Cap',
+        content: `Added Orcs back into the main race list. These are closer to the older OD&D kind than the modern generic version.
+
+        I also added Infravision as a general rule so it is not just a word sitting on a race entry.
+
+        The training rule has also been changed. If a character has enough XP to level but cannot train yet, they can keep earning XP until they are 1 XP short of the level after that. At 10th level and above, characters no longer need training to level.
+
+        <b> Changes: </b>
+
+        - Added Orcs as a main race.
+        - Added a general Infravision rule.
+        - Changed training so XP is not hard capped at the first untrained level.
+        - Characters of 10th level or higher no longer need training.
+
+        `,
+        date: "2026-06-21 15:47 CEST"
+    },
+
+
+    {
+
         title: 'More Weapons and Weapon Length',
         content: `Expanded the weapon lists using AD&D/OSRIC/2e references, including additional swords, polearms, thrown weapons, bows, slings, and ammunition.
 
@@ -1245,7 +1266,11 @@ function loadUpdatePost(anchor)
     if (anchor) {
         var target = document.getElementById(anchor);
         if (target) {
-            target.scrollIntoView();
+            if (window.scrollTargetIntoView) {
+                window.scrollTargetIntoView(target);
+            } else {
+                target.scrollIntoView();
+            }
         }
     }
 }

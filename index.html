@@ -108,6 +108,12 @@
                             <div><a href="#character-creation">Character Creation</a></div>
                             <ul>
                                 <li><a href="#races">Races</a></li>
+                                <ul>
+                                    <li><a href="#human">Human</a></li>
+                                    <li><a href="#elf">Elf</a></li>
+                                    <li><a href="#avian">Avian</a></li>
+                                    <li><a href="#orc">Orc</a></li>
+                                </ul>
                                 <li><a href="#ability-scores">Ability Scores</a></li>
                                 <ul>
                                     <li><a href="#strength">Strength</a></li>
@@ -680,18 +686,23 @@
     
         if (page === 'home') {
         loadHomePage();
+        scrollToPageStart();
         } 
         else if (page === 'updates') {
         loadUpdatePost(anchor);
+        if (!anchor) scrollToPageStart();
         } 
         else if (page === 'resources') {
         loadResourcesPage();
+        scrollToPageStart();
         } 
         else if (page === 'hall-of-the-dead') {
         loadDeadPage(anchor);
+        if (!anchor) scrollToPageStart();
         } 
         else if (page === 'search') {
         await loadSearchPage(anchor);
+        scrollToPageStart();
         }
         else if (page === 'unusedrules') {
         await loadMarkdownPage({
@@ -732,12 +743,32 @@
     }
 
     window.loadContent = loadContent;
+
+    function getAnchorScrollOffset() {
+        const nav = document.querySelector('nav');
+        const navHeight = nav ? Math.ceil(nav.getBoundingClientRect().height) : 0;
+        return navHeight + 16;
+    }
+
+    function scrollTargetIntoView(target) {
+        const targetTop = target.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+            top: Math.max(0, targetTop - getAnchorScrollOffset()),
+            behavior: 'auto'
+        });
+    }
+
+    window.scrollTargetIntoView = scrollTargetIntoView;
+
+    function scrollToPageStart() {
+        window.scrollTo({ top: 0, behavior: 'auto' });
+    }
     
     // Scroll to an element with ID = anchor
     function scrollToAnchor(anchor) {
         const el = document.getElementById(anchor);
         if (el) {
-        el.scrollIntoView();
+        scrollTargetIntoView(el);
         }
     }
 
@@ -745,7 +776,7 @@
         const targetId = anchor.startsWith('spells#') ? anchor : `spells#${anchor}`;
         const target = document.getElementById(targetId) || document.getElementById(anchor);
         if (target) {
-        target.scrollIntoView();
+        scrollTargetIntoView(target);
         }
     }
     
@@ -754,7 +785,7 @@
         const id = hash.replace('#', '');
         const el = document.getElementById(id);
         if (el) {
-        el.scrollIntoView();
+        scrollTargetIntoView(el);
         }
     }
 
@@ -1505,7 +1536,7 @@
             if (anchor) {
                 const target = document.getElementById(anchor);
                 if (target) {
-                    target.scrollIntoView();
+                    scrollTargetIntoView(target);
                 }
             }
         })

@@ -95,6 +95,26 @@ If they have room to do so, they take no damage from the fall and may move 1 foo
 
 **Ability Score Modifier:** +1 [<u>Dexterity</u>](#dexterity), -1 [<u>Strength</u>](#strength)
 
+## Orc
+
+**Size:** Medium
+
+**Languages:** Woldish, Orcish
+
+**Description:** Orcs are squat humanoids with piggish faces, coarse hair,
+low brows, pointed ears, and large lower tusks. Their arms are long,
+their legs are bowed, and they are shorter than most men. They live in
+caves, ruins, hills, and rough camps. They prefer night and the
+underground to sunlight.
+
+**Infravision:** Orcs can see up to 60'. See
+[<u>Infravision</u>](#infravision).
+
+**Guide:** In wilderness, hills, caves, ruins, or broken country, a
+party with an orc guide only has a 1-in-6 chance of becoming lost.
+
+**Ability Score Modifier:** +1 [<u>Strength</u>](#strength), -1 [<u>Charisma</u>](#charisma)
+
 # <span id=ability-scores> Ability Scores </span>
 
 4d6 drop lowest (remove the lowest die result). Roll each stat in order: Strength,
@@ -3254,6 +3274,13 @@ Below are examples, either pick one or build your own with the four skill points
 
 # <span id=general-gameplay> General Gameplay </span>
 
+## <span id=infravision> Infravision </span>
+
+Infravision lets a character see heat and shapes in darkness up to the
+listed range, usually 60'. It does not work in bright light or within
+the radius of a carried light source. It does not show color, writing,
+fine detail, or illusions that rely on visible light.
+
 # <span id=alignment> Alignment </span> 
 
 Alignments are Law, Chaos, and Neutral. Law and Chaos are terms used to
@@ -3364,6 +3391,22 @@ Described in [<u>spell research</u>](#spell-research).
 Training reflects the time and effort spent mastering new skills, techniques, or spells.
 When a player character or [<u>retainer</u>](#retainers) gains enough [<u>experience points</u>](#experience-points) to level up, that character needs to train to gain the benefits of the level.
 Coinage and time must then be spent under tutelage for a number of weeks equal to the performance of the player character from the previous sessions.
+
+### Training and XP
+
+If a character has enough XP to gain a level but cannot train, they
+remain at their current level. They may still earn XP, but only until
+they are 1 XP short of the level after the one they have not trained
+for.
+
+Example: A fighter reaches 8,000 XP, enough for 4th level, but cannot
+train. The fighter remains 3rd level and gains none of the 4th level
+benefits. They may still earn XP until they reach 15,999 XP, one short
+of the XP needed for 5th level. No more XP can be gained until they
+train for 4th level.
+
+Characters of 10th level or higher no longer need training to advance in
+level.
 
 ### Cost of Training
 

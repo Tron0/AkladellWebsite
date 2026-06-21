@@ -12,11 +12,6 @@
 
 **Languages:** Draenerian
 
-**Description:** Humans are the most diverse and adaptable of all the
-races, found in every corner of the world, but the majority live in the
-land of Draeneria. Humans have relatively short lifespans compared to
-other races.
-
 **Quick Learner:** +10% permanent experience bonus.
 
 **Versatile:** Start with 1 extra weapon proficiency.
@@ -29,13 +24,8 @@ other races.
 
 **Languages:** Common, Elvish
 
-**Description:** In the realm of Fae'lor, the elves live by the snowy
-mountains and forests. Distinguished by their tall builds and pointed
-ears.
-
-**Keen Senses:** Elves have naturally sharp eyesight that allow them to
-detect secret doors and hidden parts of rooms in a 4-in-6 chance when
-searching.
+**Keen Senses:** Elves have a 4-in-6 chance to detect secret doors and
+hidden parts of rooms when searching.
 
 **Frozen Immunity:** Elves are unaffected by the paralysis that ghouls
 inflict.
@@ -51,25 +41,13 @@ though they were Medium
 
 **Languages:** Common, Dwarvish
 
-**Description:** Originating from the mountains in Dworinheim, these
-dwarves have built a society symbiotic with the living rock. Through
-generations of shared existence, they have cultivated a unique bond with
-the mountain stone. This mystical bond allows them to coax the mountain
-into shifting and changing, creating their intricate homes and defenses.
- 
-They are said to have a natural bond with the web
-of chaos magic that allows them to meld rock.
+**Mountain's Child:** Dwarves can move at normal pace through caves and
+tunnels without becoming lost. They can also approximate their depth
+underground.
 
-**Mountain's Child:** Born and raised in the heart of mountains, dwarves
-can navigate through caves and tunnels without losing their way.
-This includes moving at normal pace without getting lost and the ability
-to approximate their depth underground.
-
-**Stone Shaping:** With their unique bond to the earth, dwarves have the
-ability to manipulate small amounts of stone, shaping it to their will.
-This can be used for a variety of practical applications, from creating
-simple tools to sealing doorways. The amount of time depends on the tool
-or scale of the build.
+**Stone Shaping:** Dwarves can manipulate small amounts of stone. This
+can create simple tools or seal doorways. The amount of time depends on
+the tool or scale of the build.
 
 **Ability Score Bonus:** +1 Strength or +1 Constitution
 
@@ -79,18 +57,10 @@ or scale of the build.
 
 **Languages:** Common, Draconic
 
-**Description:** Scaled, tall but wingless creatures, the Draconians are
-an ancient race closely related to dragons. The inherited magical blood
-makes any draconian have the potential to be a powerful mage.
+**Magical Bloodline**: Draconians gain a +2 save bonus vs spells.
 
-**Magical Bloodline**: The magical dragon blood within Draconians grants
-them a unique spell resistance. Draconians gain a save bonus of +2 vs
-spells.
-
-**Scales:** Draconians have scales that cover their bodies, granting
-them natural armor. They gain a +2 bonus to their armor class when not
-wearing any armor. If wearing armor, choose the highest number of the
-two as the AC.
+**Scales:** Draconians gain a +2 bonus to armor class when not wearing
+armor. If wearing armor, choose the highest number of the two as the AC.
 
 **Ability Score Bonus:** +1 Intelligence, -1 Charisma
 
@@ -100,16 +70,10 @@ two as the AC.
 
 **Languages:** Common, Gnomish
 
-**Description:** Known for their brilliant minds and agile hands, Gnomes
-are tinkerers, jewelsmiths and craftsmen. Their skin varies from pale to
-earthy brown and black, and they have large round eyes and inquisitive
-expressions.
+**Tinkering:** Gnomes have a 4-in-6 chance to tinker with machinery and
+traps.
 
-**Tinkering:** Gnomes are particularly good with machinery and traps.
-They have a 4-in-6 chance to tinker.
-
-**Gnome Cunning:** Gnomes are resistant to certain types of magic. They
-save against illusions with a +2 bonus.
+**Gnome Cunning:** Gnomes save against illusions with a +2 bonus.
 
 **Ability Score Bonus:** +1 Dexterity, -1 Strength
 
@@ -119,20 +83,10 @@ save against illusions with a +2 bonus.
 
 **Languages:** Common, Infernal
 
-**Description:** The supposedly oldest race in Akladell. The Solarians
-are creatures with scorched features. Pointed ears, claws and horns.
-Their exterior bodies are roughly the same size as humans.
+**Claws:** Solarians deal 1d3 damage with unarmed strikes.
 
-They are said to be a descendant from the demons who made their way to
-the outside world from the abyss a long time ago.
-
-**Claws:** Solarians have naturally deadly claws. Instead of using the
-base of 1 damage when using an unarmed strike, Solarians deal 1d3
-damage.
-
-**Fiery Resilience:** Solarians are resistant to fire due to their
-infernal heritage. They take half damage from fire-based attacks and can
-withstand temperatures that would harm others without penalty.
+**Fiery Resilience:** Solarians take half damage from fire-based attacks
+and can withstand harmful temperatures without penalty.
 
 **Ability Score Bonus:** +1 Strength or +1 Charisma
 
@@ -142,15 +96,10 @@ withstand temperatures that would harm others without penalty.
 
 **Languages:** Common, Halfling
 
-**Description:** Halflings are a small, hearty race known for their
-jovial spirits and ability to blend into any society. Their height
-ranges from 2 to 4 feet, and they have a stout build with ruddy cheeks,
-curly hair, and large, expressive eyes. 
+**Sneaky:** Halflings gain a natural 3-in-6 Stealth skill.
 
-**Sneaky:** Halflings are notoriously sneaky! They gain a natural 3/6 in the Stealth skill.
-
-**Nimble Navigator:** Halflings are experts at moving through difficult
-terrain. They can move through such terrains at their normal speed.
+**Nimble Navigator:** Halflings move through difficult terrain at normal
+speed.
 
 **Ability Score Bonus:** +1 Charisma
 
@@ -160,20 +109,12 @@ terrain. They can move through such terrains at their normal speed.
 
 **Languages:** Common, Goblin
 
-**Description:** Goblins are small, agile creatures with green or yellow
-skin, standing around 3 to 4 feet tall, known for their mischievous and
-disruptive tendencies. Residing in caverns or decaying fortresses, they
-are highly adaptable, able to make use of discarded materials and thrive
-in diverse environments. Despite their reputation as pests, some manage
-to overcome their innate disarray, aligning with nobler causes.
-
 **Survivalists:** In any environment, Goblins succeed at finding food,
 water, and shelter for only themselves on a roll of 3-6 on a d6.
 
-**Bargain Hunter:** Goblins have an uncanny knack for finding useful
-items in the least expected places. Once a day, when they have downtime to
-explore an area, they can find small items or coins that others
-might overlook depending on the area (subject to DM's discretion).
+**Bargain Hunter:** Once per day, when they have downtime to explore an
+area, Goblins can find small items or coins depending on the area
+(subject to DM's discretion).
 
 **Ability Score Bonus:** +1 Dexterity, -1 Strength
 
@@ -183,25 +124,12 @@ might overlook depending on the area (subject to DM's discretion).
 
 **Languages:** Common, Draconic
 
-**Description:** The Radigens are a unique and mysterious race, rumored
-to be humans who underwent a grotesque transformation. As a result of
-exposure to unknown magic or radiation, they have evolved into reptilian
-beings. Their skin is a pale green/blue that glistens in light, as they
-always excrete liquid. Their bodies are covered with exposed venom
-glands, lightly protected by strong, scaly skin that varies in shades
-from dark green to a dull brown. They possess a set of poisonous glands
-that are capable of producing a lethal toxin.
+**Poisonous Extraction:** A skilled alchemist can extract lethal poison
+from a Radigen. This process takes a week and usually costs around 1,000
+GP. The Radigen has a 1-in-6 chance of dying in the process. The poison
+can inflict severe damage or immediate death if ingested.
 
-**Poisonous Extraction:** With the help of a skilled alchemist, a lethal
-poison can be extracted from a Radigen, which can be used to concoct
-dangerous potions. This process takes a week and usually costs around
-1,000 GP. The Radigen has a 1-in-6 chance of dying in the process. The
-extracted poison is potent enough to inflict severe damage on those
-ingesting it, possibly resulting in immediate death.
-
-**Toxic Resistance:** Due to their poisonous nature, Radigens have
-developed a natural resistance to toxins and radiation. They save vs
-poison and venom with a +2 bonus.
+**Toxic Resistance:** Radigens save vs poison and venom with a +2 bonus.
 
 **Attribute Score Bonus:** +1 Constitution, -1 Charisma
 
@@ -211,22 +139,11 @@ poison and venom with a +2 bonus.
 
 **Languages:** Common, Draconic
 
-**Description:** Kobolds are small, reptilian creatures that dwell in
-extensive underground warrens. These crafty beings are known for their
-strategic cunning and pack tactics, often overwhelming foes with
-superior numbers. Despite their small stature, Kobolds are fierce when
-cornered and are tenacious survivors, always ready to protect their lair
-and kin. They have dragon-like scales that usually range from a rusty
-brown color to dark green, and large, sensitive eyes that shine in the
-dark.
+**Pack Tactics:** When a Kobold is engaged in combat with more allies
+than enemies, they gain +1 to attack rolls.
 
-**Pack Tactics:** Kobolds are at their best when they outnumber their
-enemies. When a Kobold is engaged in combat with more allies than
-enemies, they gain +1 to their attack rolls.
-
-**Trapsmith:** Kobolds are renowned for their ability to craft traps.
-They have a 4-in-6 chance to construct a simple trap or alarm system
-given appropriate materials and time.
+**Trapsmith:** Kobolds have a 4-in-6 chance to construct a simple trap
+or alarm system given appropriate materials and time.
 
 **Infravision:** Kobolds can see up to 60'
 
@@ -238,23 +155,11 @@ given appropriate materials and time.
 
 **Languages:** Common, Avian
 
-**Description:** Avians, or Birdfolk as some call them, are a remarkable
-race of winged beings, bearing a striking resemblance to the bird
-species of the realm. Intricately patterned feathers cover their bodies,
-reflecting a multitude of hues under the sunlight. Despite not being
-able to fly, they are known for their sharp minds and keen sight, Avians
-have carved a niche for themselves as skilled artisans, perceptive
-scholars, and nimble acrobats.
+**Gliding:** Avians can descend from heights without taking fall damage,
+moving 1 foot forward or sideways for every 1 foot they fall down.
 
-**Gliding:** Despite their lost ability to fly, Avians have retained a
-limited ability to glide using their wings. They can safely descend from
-heights and cross long distances without sustaining fall damage, at a
-rate of 1 foot forward or sideways for every 1 foot they fall down.
-
-**Bird's Eye View:** Avians have exceptional vision, honed by
-generations spent navigating the sky. They can see twice as far as most
-races and can discern details that others might miss, granting them a
-2-in-6 chance to spot hidden doors, traps, or other oddities when
+**Bird's Eye View:** Avians can see twice as far as most races and have
+a 2-in-6 chance to spot hidden doors, traps, or other oddities when
 entering a room.
 
 **Ability Score Bonus:** +1 Mind
@@ -265,22 +170,10 @@ entering a room.
 
 **Languages:** Common, Orcish  
   
-**Description:** Born of the rugged Stormhenge, an isle ensconced in
-mist and cradled by sprawling valleys, the Orcs wear the earth's hues on
-their resilient skin. Their robust frames and unwavering expressions
-echo a lineage woven into the very fabric of the land. Revering valor,
-martial prowess, and unyielding courage, their existence finds purpose
-in the crucible of warfare. As masterful blacksmiths, they forge not
-only crescent-moon blades that glint like midnight stars, but also the
-magical essence of the arcane into their weapons and armor. Each plate
-mail, intricately designed, stands as a testament to their crafting
-mastery, embellished with the symbols of their lineage.  
-  
-**Wilderness Guide:** Orcs are keenly aware of their natural
-surroundings and can always retrace their path. They cannot become lost
-except by magical means.
+**Wilderness Guide:** Orcs can always retrace their path. They cannot
+become lost except by magical means.
 
-**Runesmith:** Orcs can discern simple wards and glyphs. As well as rune
+**Runesmith:** Orcs can discern simple wards, glyphs, and rune
 enchantments on weapons and armor.  
   
 **Ability Score Bonus:** +1 Strength
